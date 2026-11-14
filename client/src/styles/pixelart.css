@@ -67,11 +67,20 @@
   --tint-top: 0%;
   --tint-bottom: 0%;
   --glow: 0%;
+  /* Card surface (2026-11-14): each rarity is a material. --tex is a grey
+     tile (public/brand/textures/, built by scripts/buildCardTextures.mjs)
+     laid over the card's colour in an overlay blend, so one image serves
+     both themes; mid grey leaves the colour as it is. Painted once, never
+     animated. The cover's mat (.loc-card__banner) carries the same tile. */
+  --tex: none;
+  --tex-size: 256px;
   background:
+    var(--tex) 0 0 / var(--tex-size) repeat,
     radial-gradient(130% 70% at 0% 100%, color-mix(in srgb, var(--rc) var(--glow), transparent), transparent 70%),
     linear-gradient(180deg,
       color-mix(in srgb, var(--rc) var(--tint-top), var(--card-top, var(--bg-card))) 0%,
       color-mix(in srgb, var(--rc) var(--tint-bottom), var(--card-bottom, var(--bg-card))) 100%);
+  background-blend-mode: overlay, normal, normal;
   border: 3px solid var(--gold);
   box-shadow: 4px 4px 0 var(--card-shadow, var(--shadow)), var(--outer-glow, 0 0 0 transparent);
   cursor: pointer;
@@ -88,6 +97,270 @@
   .loc-card:hover { transform: translate(-2px, -2px) scale(1.06); z-index: 5; box-shadow: 6px 6px 0 var(--card-shadow, var(--shadow)), var(--outer-glow, 0 0 0 transparent); }
 }
 
+/* ── Card paper (2026-11-14) ─────────────────────────────────
+   A collected card is printed on its rarity's own material, the same in both
+   themes, so it reads as a solid object rather than a frame over the page
+   (user's call). The whole card is one sheet: the cover sits straight on it
+   (same shade, same grain) with a keyline, like a plate tipped into a book,
+   and the text is set in a printed panel with a double rule and a rule with a
+   diamond over the rarity line. All of it static. A locked card has none of
+   it: it keeps the theme's plain surface, so collecting a card is what turns
+   it into paper (a locked card on cream paper glared on the dark theme).
+   The label pills keep their colours: they are the one place the label shows
+   (the mat used to repeat it; user's call).
+
+   Each rarity sets:
+   --tex       its grain (a grey tile from scripts/buildCardTextures.mjs),
+               --tex-size, and --tex-blend (default overlay; normal for a
+               tile in colour, which is the paper itself);
+   --sheen     optional: light on the sheet (a gradient over the grain, under
+               the cover and text, so it never washes the picture);
+   --panel     the paper's colour;
+   --ink       names and text; --ink-soft the Czech line;
+   --ink-rc    the rarity colour on that paper: the border, name, rarity and
+               distance (LocationCard colours them with var(--rarity-<tier>),
+               redefined below), the frame, the rules;
+   --panel-rule   the text panel's border (default a double rule; none);
+   --panel-motif  a faint pattern in the text panel (an SVG mask tile,
+                  --panel-motif-size 24px, --panel-motif-alpha 9%);
+   --rule-mark    the mark in the rule over the rarity line (an SVG mask,
+                  default a diamond, --rule-mark-size; --rule-gap is half
+                  the gap left for it in the line);
+   --keyline   the line round the cover;
+   --pill-edge optional: an edge round the label pills, for dark papers.
+   The theme's own colours are replaced on the card because they would be
+   unreadable on a fixed paper. Add each tier to the :is() lists as it gets
+   its paper. */
+.loc-card[data-rarity="common"]:not(.loc-card--locked) {
+  /* Common: printer's cream paper; its panel carries a faint endpaper
+     pattern of small florets (below). */
+  --tex: url('/brand/textures/paper.webp');
+  --panel: #efe5cc;
+  --ink: #2a2119;
+  --ink-soft: #6b5c48;
+  --ink-rc: #4f4639;
+  --keyline: 0 0 0 1px rgba(0, 0, 0, 0.45), 2px 2px 0 1px rgba(0, 0, 0, 0.16);
+  --fg-tint: #3a2a18;
+  --pill-fallback: #7a6a55;
+  --panel-motif: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='black'%3E%3Ccircle cx='12' cy='9.6' r='1.5'/%3E%3Ccircle cx='12' cy='14.4' r='1.5'/%3E%3Ccircle cx='9.6' cy='12' r='1.5'/%3E%3Ccircle cx='14.4' cy='12' r='1.5'/%3E%3Ccircle cx='0' cy='0' r='0.9'/%3E%3Ccircle cx='24' cy='0' r='0.9'/%3E%3Ccircle cx='0' cy='24' r='0.9'/%3E%3Ccircle cx='24' cy='24' r='0.9'/%3E%3C/g%3E%3C/svg%3E");
+}
+.loc-card[data-rarity="rare"]:not(.loc-card--locked) {
+  /* Rare: the same paper as common, in light blue (user, 2026-11-14: tried
+     indigo linen with printed flowers, then blue marble, which is kept for
+     superior); the frame is to tell the tiers apart further. The text panel
+     has common's double rule but no pattern; the rule over the rarity carries
+     a diamond between two dots, a step up from common's lone diamond. */
+  --tex: url('/brand/textures/paper.webp');
+  --panel: #d9e7f2;
+  --ink: #1b2836;
+  --ink-soft: #4b5e73;
+  --ink-rc: #0e5578;
+  --keyline: 0 0 0 1px rgba(0, 0, 0, 0.45), 2px 2px 0 1px rgba(0, 0, 0, 0.16);
+  --fg-tint: #1b2836;
+  --pill-fallback: #6a7d92;
+  --rule-mark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 8'%3E%3Cpath d='M15 0.3L19 4L15 7.7L11 4Z'/%3E%3Ccircle cx='6' cy='4' r='1.3'/%3E%3Ccircle cx='24' cy='4' r='1.3'/%3E%3Ccircle cx='1.6' cy='4' r='0.8'/%3E%3Ccircle cx='28.4' cy='4' r='0.8'/%3E%3C/svg%3E");
+  --rule-mark-size: 30px 8px;
+  --rule-gap: 19px;
+}
+.loc-card[data-rarity="superior"]:not(.loc-card--locked) {
+  /* Superior: pale jade, smooth with faint deeper clouds (2026-11-14; blue
+     and then green marble were tried first: the grey tile vanished on the
+     pale colour or read as dirt, and the veins looked busy). The jade tile is
+     the paper itself, in colour (scripts/buildCardTextures.mjs, whose `base`
+     repeats --panel), so it is shown as it is. The text panel has the double
+     rule; no pattern, no rule over the rarity yet. */
+  --tex: url('/brand/textures/jade.webp');
+  --tex-size: 384px;
+  --tex-blend: normal;
+  /* A glow in the corner of the rarity line, as if the stone were lit from
+     inside there (user's pick over a glow round the label, 2026-11-14). */
+  /* Saturated, with a pale core: a pale light alone hardly shows on the
+     pale jade (user: "almost invisible"). */
+  --sheen:
+    radial-gradient(circle 70px at 0% 100%, rgba(250, 255, 240, 0.95), rgba(200, 255, 210, 0.55) 45%, rgba(200, 255, 210, 0) 100%),
+    radial-gradient(circle 190px at 0% 100%, rgba(60, 220, 110, 0.7), rgba(60, 220, 110, 0.28) 50%, rgba(60, 220, 110, 0) 100%);
+  --panel: #b8d8c0;
+  --ink: #17281a;
+  --ink-soft: #46604a;
+  --ink-rc: #1b5c07;
+  --keyline: 0 0 0 1px rgba(0, 0, 0, 0.45), 2px 2px 0 1px rgba(0, 0, 0, 0.16);
+  --fg-tint: #17281a;
+  --pill-fallback: #6a8a6d;
+}
+.loc-card[data-rarity="epic"]:not(.loc-card--locked) {
+  /* Epic: lavender raw silk (shantung), its slubs in deep purple; the tile is
+     the paper itself, in colour (scripts/buildCardTextures.mjs, whose `base`
+     repeats --panel). The text panel has the double rule. */
+  --tex: url('/brand/textures/silk.webp');
+  --tex-size: 180px;
+  --tex-blend: normal;
+  --panel: #ddd0ec;
+  --ink: #241433;
+  --ink-soft: #5a4870;
+  --ink-rc: #6c2185;
+  --keyline: 0 0 0 1px rgba(0, 0, 0, 0.45), 2px 2px 0 1px rgba(0, 0, 0, 0.16);
+  --fg-tint: #241433;
+  --pill-fallback: #8a7aa0;
+}
+.loc-card[data-rarity="mythic"]:not(.loc-card--locked) {
+  /* Mythic: light red leather, like an illuminated manuscript's binding, its
+     grain and lettering in deep red (2026-11-14; a deep red card with gold
+     trim was tried first, user: no yellow frame). Its motion is unchanged
+     and now deep red: the band of light drifting across it (user: keep it),
+     the rim breathing and the glint round its ornaments. */
+  --tex: url('/brand/textures/leather.webp');
+  --tex-size: 256px;
+  --tex-blend: normal;
+  --panel: #f0cfcb;
+  --ink: #2e0d10;
+  --ink-soft: #6e3a3c;
+  --ink-rc: #8c0000;
+  --keyline: 0 0 0 1px rgba(0, 0, 0, 0.45), 2px 2px 0 1px rgba(0, 0, 0, 0.16);
+  --fg-tint: #2e0d10;
+  --pill-fallback: #9a6a6a;
+}
+.loc-card[data-rarity="legend"]:not(.loc-card--locked) {
+  /* Legend: gilded lacquer, near-black brown with faint clouds of gold, the
+     one dark card, so its gold frame, ornaments and lettering shine as they
+     did on the old dark card (user's call, 2026-11-14: pale gold leaf was
+     tried first and the gold frame vanished on it). Lettered in bright gold
+     and cream, keyline and label edges light. Its gold border and ring and
+     all its motion are unchanged. */
+  --tex: url('/brand/textures/gold.webp');
+  --tex-size: 384px;
+  --tex-blend: normal;
+  --panel: #2a1d0e;
+  --ink: #f6ead0;
+  --ink-soft: #cdb98f;
+  --ink-rc: #ffd24a;
+  --keyline: 0 0 0 1px rgba(255, 210, 74, 0.55), 2px 2px 0 1px rgba(0, 0, 0, 0.45);
+  --fg-tint: #f6ead0;
+  --pill-edge: 0 0 0 1px rgba(255, 210, 74, 0.5);
+  --pill-fallback: #6a5530;
+}
+.loc-card[data-rarity="expedition"]:not(.loc-card--locked) {
+  /* Expedition: brushed silver, like an old surveying instrument (2026-11-14),
+     lettered in dark slate; the border a deeper silver so it still shows on
+     the pale metal. Its stones, ornaments and the diamond step's glint are
+     unchanged. */
+  --tex: url('/brand/textures/silver.webp');
+  --tex-size: 256px;
+  --tex-blend: normal;
+  --panel: #dfe4ea;
+  --ink: #1b222b;
+  --ink-soft: #4e5966;
+  --ink-rc: #46505e;
+  --rarity-expedition-card: #8792a1;
+  --keyline: 0 0 0 1px rgba(0, 0, 0, 0.45), 2px 2px 0 1px rgba(0, 0, 0, 0.16);
+  --fg-tint: #1b222b;
+  --pill-fallback: #7d8794;
+}
+/* Epic: a deep purple glow round the label that slowly breathes. The glow
+   is drawn once on a layer of its own behind the pill and only its opacity
+   moves (see "Card motion"); off screen, with the motion switch off and under
+   reduced motion it stands still, half lit. */
+.loc-card[data-rarity="epic"]:not(.loc-card--locked) .loc-card__labels { position: relative; overflow: visible; }
+.loc-card[data-rarity="epic"]:not(.loc-card--locked) .label-pill-sm { position: relative; z-index: 1; }
+.loc-card[data-rarity="epic"]:not(.loc-card--locked) .loc-card__labels::after {
+  content: '';
+  position: absolute;
+  inset: 6px 0 0;
+  pointer-events: none;
+  box-shadow: 0 0 10px 3px rgba(84, 24, 128, 0.75), 0 0 22px 6px rgba(108, 33, 133, 0.35);
+  opacity: 0.25;
+  will-change: opacity;
+  animation: fx-label-breathe 3.2s ease-in-out infinite alternate;
+}
+@keyframes fx-label-breathe {
+  to { opacity: 1; }
+}
+.loc-card[data-rarity="epic"][data-offscreen] .loc-card__labels::after,
+html[data-card-motion="off"] .loc-card[data-rarity="epic"] .loc-card__labels::after { animation: none; opacity: 0.6; will-change: auto; }
+@media (prefers-reduced-motion: reduce) {
+  .loc-card[data-rarity="epic"] .loc-card__labels::after { animation: none; opacity: 0.6; will-change: auto; }
+}
+/* What every paper does with those values. */
+.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]):not(.loc-card--locked) {
+  --card-top: var(--panel);
+  --card-bottom: var(--panel);
+  --tint-top: 0%;
+  --tint-bottom: 0%;
+  --glow: 0%;
+  --rc: var(--ink-rc);
+  --rarity-common: var(--ink-rc);
+  --rarity-rare: var(--ink-rc);
+  --rarity-superior: var(--ink-rc);
+  --rarity-epic: var(--ink-rc);
+  --rarity-mythic: var(--ink-rc);
+  --rarity-legend: var(--ink-rc);
+  --rarity-expedition: var(--ink-rc);
+  --text-primary: var(--ink);
+  --text-muted: var(--ink-soft);
+  /* The label pills stay light text on their dark colours in both themes. */
+  --on-label: #f0e6c8;
+  background: var(--sheen, linear-gradient(transparent, transparent)), var(--tex) 0 0 / var(--tex-size) repeat, var(--panel);
+  background-blend-mode: normal, var(--tex-blend, overlay), normal;
+}
+.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]) .label-pill-sm { color: var(--on-label); }
+.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]):not(.loc-card--locked) .label-pill-sm { box-shadow: var(--pill-edge, none); }
+/* The cover's mat is the card's own sheet: no colour of its own (it beats the
+   label colour that LocationCard sets inline), and no second layer of grain,
+   which would make it look darker than the text area. */
+.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]):not(.loc-card--locked) .loc-card__banner {
+  background: none !important;
+}
+.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]):not(.loc-card--locked) .loc-card__banner > img {
+  box-shadow: var(--keyline);
+}
+/* The story on the enlarged card (CardShowcase) is printed on the same sheet,
+   inside the panel's double rule, instead of on the theme's own card colour. */
+.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]):not(.loc-card--locked) .loc-card__story {
+  background: none;
+  border: var(--panel-rule, 3px double color-mix(in srgb, var(--rc) 34%, transparent));
+  scrollbar-color: color-mix(in srgb, var(--rc) 45%, transparent) transparent;
+}
+/* The text panel: its rule and pattern sit behind
+   the text inside the body (isolation keeps them above the card's sheet). */
+.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]):not(.loc-card--locked) .loc-card__body { position: relative; isolation: isolate; padding-inline: 15px; }
+.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]):not(.loc-card--locked) .loc-card__body::before,
+.loc-card[data-rarity="common"]:not(.loc-card--locked) .loc-card__body::after {
+  content: '';
+  position: absolute;
+  inset: 4px 5px 6px;
+  z-index: -1;
+  pointer-events: none;
+}
+.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]):not(.loc-card--locked) .loc-card__body::before {
+  border: var(--panel-rule, 3px double color-mix(in srgb, var(--rc) 34%, transparent));
+}
+.loc-card[data-rarity="common"]:not(.loc-card--locked) .loc-card__body::after {
+  inset: 9px 10px 11px;
+  background: color-mix(in srgb, var(--rc) var(--panel-motif-alpha, 9%), transparent);
+  -webkit-mask: var(--panel-motif) 0 0 / var(--panel-motif-size, 24px) repeat;
+          mask: var(--panel-motif) 0 0 / var(--panel-motif-size, 24px) repeat;
+}
+/* Common only: a hairline just inside the border (rare and up have their
+   own frame). */
+.loc-card[data-rarity="common"] .loc-card__frame {
+  display: block;
+  border: 1px solid color-mix(in srgb, var(--rc) 30%, transparent);
+}
+.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]) .loc-card__footer { position: relative; }
+.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]):not(.loc-card--locked) .loc-card__footer::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -8px;
+  height: 8px;
+  background: color-mix(in srgb, var(--rc) 45%, transparent);
+  -webkit-mask:
+    linear-gradient(90deg, transparent, #000 15%, #000 calc(50% - var(--rule-gap, 10px)), transparent calc(50% - var(--rule-gap, 10px) + 1px) calc(50% + var(--rule-gap, 10px) - 1px), #000 calc(50% + var(--rule-gap, 10px)), #000 85%, transparent) 0 50% / 100% 1px no-repeat,
+    var(--rule-mark, url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 8'%3E%3Cpath d='M7 0.5L10.5 4L7 7.5L3.5 4Z'/%3E%3C/svg%3E")) 50% 50% / var(--rule-mark-size, 14px 8px) no-repeat;
+          mask:
+    linear-gradient(90deg, transparent, #000 15%, #000 calc(50% - var(--rule-gap, 10px)), transparent calc(50% - var(--rule-gap, 10px) + 1px) calc(50% + var(--rule-gap, 10px) - 1px), #000 calc(50% + var(--rule-gap, 10px)), #000 85%, transparent) 0 50% / 100% 1px no-repeat,
+    var(--rule-mark, url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 8'%3E%3Cpath d='M7 0.5L10.5 4L7 7.5L3.5 4Z'/%3E%3C/svg%3E")) 50% 50% / var(--rule-mark-size, 14px 8px) no-repeat;
+}
 .loc-card[data-rarity="rare"]     { --rc: var(--rarity-rare);     --tint-top: 4%;  --tint-bottom: 9%; }
 .loc-card[data-rarity="superior"] { --rc: var(--rarity-superior); --tint-top: 5%;  --tint-bottom: 11%; --glow: 14%; }
 .loc-card[data-rarity="epic"]     { --rc: var(--rarity-epic);     --tint-top: 7%;  --tint-bottom: 14%; --glow: 20%; }
@@ -212,10 +485,6 @@
 .loc-card[data-rarity="legend"] :is(.loc-card__orn--top, .loc-card__orn--bottom, .loc-card__orn--left, .loc-card__orn--right) {
   --orn: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 16' fill='none' stroke='black' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M30 1.2L36.8 8L30 14.8L23.2 8Z' stroke-width='1.8'/%3E%3Cpath d='M22 8C17 8 14.5 4.5 17 3.2C19 2.4 20 4.6 18.4 5.2M22 8C17 8 14.5 11.5 17 12.8C19 13.6 20 11.4 18.4 10.8'/%3E%3Cpath d='M38 8C43 8 45.5 4.5 43 3.2C41 2.4 40 4.6 41.6 5.2M38 8C43 8 45.5 11.5 43 12.8C41 13.6 40 11.4 41.6 10.8'/%3E%3Cpath d='M3 8H13M47 8H57'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='13' cy='8' r='1.6'/%3E%3Ccircle cx='47' cy='8' r='1.6'/%3E%3Ccircle cx='7' cy='8' r='1.1'/%3E%3Ccircle cx='53' cy='8' r='1.1'/%3E%3C/g%3E%3C/svg%3E");
 }
-/* Mythic: a soft glint runs round the flourishes, one ornament after the
-   other clockwise from the top-left corner, then rests (user's pick over
-   rising embers, which stay legend's). Each ornament carries a highlight
-   band that crosses it once per cycle; the delays stagger them. */
 /* Off screen (utils/pauseOffscreen.js): nothing to animate for. An unlocking card
    finishes its flip, whose end is what clears the flipping state. */
 .loc-card[data-offscreen]:not(.loc-card--flipping),
@@ -226,45 +495,41 @@
 .loc-card[data-offscreen]:not(.loc-card--flipping) *::after {
   animation-play-state: paused !important;
 }
-.loc-card[data-rarity="mythic"] .loc-card__orn {
-  --orn-c: color-mix(in srgb, var(--rc) 75%, white);
-  background: linear-gradient(115deg,
-    var(--orn-c) 0 40%, color-mix(in srgb, #fff6e0 90%, var(--rc)) 50%, var(--orn-c) 60% 100%)
-    100% 0 / 300% 100% no-repeat;
-  animation: mythic-glint 7s ease-in-out infinite;
+/* The ornaments again, turned for each corner and edge, as masks for the
+   glint overlay (.loc-card__fx--glint). */
+.loc-card[data-rarity="mythic"] {
+  --gm-tl: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cpath d='M26 6C32 6 35 2.5 32.5 1.5C30.5 1 29.5 3.5 31.5 4'/%3E%3Cpath d='M6 26C6 32 2.5 35 1.5 32.5C1 30.5 3.5 29.5 4 31.5'/%3E%3Cpath d='M40 6C45 8 46 13 42 14C39.5 14.5 38.5 12.5 40 11.5'/%3E%3Cpath d='M6 40C8 45 13 46 14 42C14.5 39.5 12.5 38.5 11.5 40'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.6'/%3E%3Ccircle cx='38' cy='3.5' r='1.3'/%3E%3Ccircle cx='3.5' cy='38' r='1.3'/%3E%3Ccircle cx='50' cy='4' r='1.4'/%3E%3Ccircle cx='4' cy='50' r='1.4'/%3E%3Ccircle cx='57' cy='6' r='1'/%3E%3Ccircle cx='6' cy='57' r='1'/%3E%3Ccircle cx='22' cy='22' r='1.3'/%3E%3C/g%3E%3C/svg%3E");
+  --gm-tr: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cg transform='matrix(-1 0 0 1 64 0)'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cpath d='M26 6C32 6 35 2.5 32.5 1.5C30.5 1 29.5 3.5 31.5 4'/%3E%3Cpath d='M6 26C6 32 2.5 35 1.5 32.5C1 30.5 3.5 29.5 4 31.5'/%3E%3Cpath d='M40 6C45 8 46 13 42 14C39.5 14.5 38.5 12.5 40 11.5'/%3E%3Cpath d='M6 40C8 45 13 46 14 42C14.5 39.5 12.5 38.5 11.5 40'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.6'/%3E%3Ccircle cx='38' cy='3.5' r='1.3'/%3E%3Ccircle cx='3.5' cy='38' r='1.3'/%3E%3Ccircle cx='50' cy='4' r='1.4'/%3E%3Ccircle cx='4' cy='50' r='1.4'/%3E%3Ccircle cx='57' cy='6' r='1'/%3E%3Ccircle cx='6' cy='57' r='1'/%3E%3Ccircle cx='22' cy='22' r='1.3'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  --gm-bl: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cg transform='matrix(1 0 0 -1 0 64)'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cpath d='M26 6C32 6 35 2.5 32.5 1.5C30.5 1 29.5 3.5 31.5 4'/%3E%3Cpath d='M6 26C6 32 2.5 35 1.5 32.5C1 30.5 3.5 29.5 4 31.5'/%3E%3Cpath d='M40 6C45 8 46 13 42 14C39.5 14.5 38.5 12.5 40 11.5'/%3E%3Cpath d='M6 40C8 45 13 46 14 42C14.5 39.5 12.5 38.5 11.5 40'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.6'/%3E%3Ccircle cx='38' cy='3.5' r='1.3'/%3E%3Ccircle cx='3.5' cy='38' r='1.3'/%3E%3Ccircle cx='50' cy='4' r='1.4'/%3E%3Ccircle cx='4' cy='50' r='1.4'/%3E%3Ccircle cx='57' cy='6' r='1'/%3E%3Ccircle cx='6' cy='57' r='1'/%3E%3Ccircle cx='22' cy='22' r='1.3'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  --gm-br: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cg transform='matrix(-1 0 0 -1 64 64)'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cpath d='M26 6C32 6 35 2.5 32.5 1.5C30.5 1 29.5 3.5 31.5 4'/%3E%3Cpath d='M6 26C6 32 2.5 35 1.5 32.5C1 30.5 3.5 29.5 4 31.5'/%3E%3Cpath d='M40 6C45 8 46 13 42 14C39.5 14.5 38.5 12.5 40 11.5'/%3E%3Cpath d='M6 40C8 45 13 46 14 42C14.5 39.5 12.5 38.5 11.5 40'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.6'/%3E%3Ccircle cx='38' cy='3.5' r='1.3'/%3E%3Ccircle cx='3.5' cy='38' r='1.3'/%3E%3Ccircle cx='50' cy='4' r='1.4'/%3E%3Ccircle cx='4' cy='50' r='1.4'/%3E%3Ccircle cx='57' cy='6' r='1'/%3E%3Ccircle cx='6' cy='57' r='1'/%3E%3Ccircle cx='22' cy='22' r='1.3'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  --gm-t: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 16' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round'%3E%3Cpath d='M26 8C20 8 17.5 4 20.5 3C22.5 2.5 23.5 5 21.5 5.5'/%3E%3Cpath d='M34 8C40 8 42.5 4 39.5 3C37.5 2.5 36.5 5 38.5 5.5'/%3E%3Cpath d='M12 8H22M38 8H48'/%3E%3Cpath d='M30 3.5L34 8L30 12.5L26 8Z' fill='black' stroke='none'/%3E%3C/svg%3E");
+  --gm-b: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 16' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round'%3E%3Cg transform='matrix(1 0 0 -1 0 16)'%3E%3Cpath d='M26 8C20 8 17.5 4 20.5 3C22.5 2.5 23.5 5 21.5 5.5'/%3E%3Cpath d='M34 8C40 8 42.5 4 39.5 3C37.5 2.5 36.5 5 38.5 5.5'/%3E%3Cpath d='M12 8H22M38 8H48'/%3E%3Cpath d='M30 3.5L34 8L30 12.5L26 8Z' fill='black' stroke='none'/%3E%3C/g%3E%3C/svg%3E");
 }
-.loc-card[data-rarity="mythic"] .loc-card__orn--top    { animation-delay: 0.35s; }
-.loc-card[data-rarity="mythic"] .loc-card__orn--tr     { animation-delay: 0.7s; }
-.loc-card[data-rarity="mythic"] .loc-card__orn--br     { animation-delay: 1.05s; }
-.loc-card[data-rarity="mythic"] .loc-card__orn--bottom { animation-delay: 1.4s; }
-.loc-card[data-rarity="mythic"] .loc-card__orn--bl     { animation-delay: 1.75s; }
-/* Legend: the same glint in warm gold, round all eight ornaments
-   (corners and the four edge diamonds), clockwise from the top-left. */
+.loc-card[data-rarity="legend"] {
+  --gm-tl: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cpath d='M26 6C32 6 35 2.5 32.5 1.5C30.5 1 29.5 3.5 31.5 4'/%3E%3Cpath d='M6 26C6 32 2.5 35 1.5 32.5C1 30.5 3.5 29.5 4 31.5'/%3E%3Cpath d='M40 6C45 8 46 13 42 14C39.5 14.5 38.5 12.5 40 11.5'/%3E%3Cpath d='M6 40C8 45 13 46 14 42C14.5 39.5 12.5 38.5 11.5 40'/%3E%3Cg transform='translate(24 24) rotate(135) scale(0.8)'%3E%3Cpath d='M0 -10C3.5 -6 3.5 -2 0 1C-3.5 -2 -3.5 -6 0 -10Z' fill='black' stroke='none'/%3E%3Cpath d='M-1.5 1C-6 0 -9 -4 -6.5 -6.5C-4.5 -8 -3 -5.5 -4.5 -4M1.5 1C6 0 9 -4 6.5 -6.5C4.5 -8 3 -5.5 4.5 -4' stroke-width='2'/%3E%3Cpath d='M-4.5 1.5H4.5V3.6H-4.5Z' fill='black' stroke='none'/%3E%3Cpath d='M0 3.6V6.5C-2 8.5 -4.5 7.5 -3.5 6M0 6.5C2 8.5 4.5 7.5 3.5 6' stroke-width='1.8'/%3E%3C/g%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.8'/%3E%3Ccircle cx='38' cy='3.5' r='1.3'/%3E%3Ccircle cx='3.5' cy='38' r='1.3'/%3E%3Ccircle cx='49' cy='4' r='1.4'/%3E%3Ccircle cx='4' cy='49' r='1.4'/%3E%3C/g%3E%3C/svg%3E");
+  --gm-tr: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cg transform='matrix(-1 0 0 1 64 0)'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cpath d='M26 6C32 6 35 2.5 32.5 1.5C30.5 1 29.5 3.5 31.5 4'/%3E%3Cpath d='M6 26C6 32 2.5 35 1.5 32.5C1 30.5 3.5 29.5 4 31.5'/%3E%3Cpath d='M40 6C45 8 46 13 42 14C39.5 14.5 38.5 12.5 40 11.5'/%3E%3Cpath d='M6 40C8 45 13 46 14 42C14.5 39.5 12.5 38.5 11.5 40'/%3E%3Cg transform='translate(24 24) rotate(135) scale(0.8)'%3E%3Cpath d='M0 -10C3.5 -6 3.5 -2 0 1C-3.5 -2 -3.5 -6 0 -10Z' fill='black' stroke='none'/%3E%3Cpath d='M-1.5 1C-6 0 -9 -4 -6.5 -6.5C-4.5 -8 -3 -5.5 -4.5 -4M1.5 1C6 0 9 -4 6.5 -6.5C4.5 -8 3 -5.5 4.5 -4' stroke-width='2'/%3E%3Cpath d='M-4.5 1.5H4.5V3.6H-4.5Z' fill='black' stroke='none'/%3E%3Cpath d='M0 3.6V6.5C-2 8.5 -4.5 7.5 -3.5 6M0 6.5C2 8.5 4.5 7.5 3.5 6' stroke-width='1.8'/%3E%3C/g%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.8'/%3E%3Ccircle cx='38' cy='3.5' r='1.3'/%3E%3Ccircle cx='3.5' cy='38' r='1.3'/%3E%3Ccircle cx='49' cy='4' r='1.4'/%3E%3Ccircle cx='4' cy='49' r='1.4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  --gm-bl: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cg transform='matrix(1 0 0 -1 0 64)'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cpath d='M26 6C32 6 35 2.5 32.5 1.5C30.5 1 29.5 3.5 31.5 4'/%3E%3Cpath d='M6 26C6 32 2.5 35 1.5 32.5C1 30.5 3.5 29.5 4 31.5'/%3E%3Cpath d='M40 6C45 8 46 13 42 14C39.5 14.5 38.5 12.5 40 11.5'/%3E%3Cpath d='M6 40C8 45 13 46 14 42C14.5 39.5 12.5 38.5 11.5 40'/%3E%3Cg transform='translate(24 24) rotate(135) scale(0.8)'%3E%3Cpath d='M0 -10C3.5 -6 3.5 -2 0 1C-3.5 -2 -3.5 -6 0 -10Z' fill='black' stroke='none'/%3E%3Cpath d='M-1.5 1C-6 0 -9 -4 -6.5 -6.5C-4.5 -8 -3 -5.5 -4.5 -4M1.5 1C6 0 9 -4 6.5 -6.5C4.5 -8 3 -5.5 4.5 -4' stroke-width='2'/%3E%3Cpath d='M-4.5 1.5H4.5V3.6H-4.5Z' fill='black' stroke='none'/%3E%3Cpath d='M0 3.6V6.5C-2 8.5 -4.5 7.5 -3.5 6M0 6.5C2 8.5 4.5 7.5 3.5 6' stroke-width='1.8'/%3E%3C/g%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.8'/%3E%3Ccircle cx='38' cy='3.5' r='1.3'/%3E%3Ccircle cx='3.5' cy='38' r='1.3'/%3E%3Ccircle cx='49' cy='4' r='1.4'/%3E%3Ccircle cx='4' cy='49' r='1.4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  --gm-br: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cg transform='matrix(-1 0 0 -1 64 64)'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cpath d='M26 6C32 6 35 2.5 32.5 1.5C30.5 1 29.5 3.5 31.5 4'/%3E%3Cpath d='M6 26C6 32 2.5 35 1.5 32.5C1 30.5 3.5 29.5 4 31.5'/%3E%3Cpath d='M40 6C45 8 46 13 42 14C39.5 14.5 38.5 12.5 40 11.5'/%3E%3Cpath d='M6 40C8 45 13 46 14 42C14.5 39.5 12.5 38.5 11.5 40'/%3E%3Cg transform='translate(24 24) rotate(135) scale(0.8)'%3E%3Cpath d='M0 -10C3.5 -6 3.5 -2 0 1C-3.5 -2 -3.5 -6 0 -10Z' fill='black' stroke='none'/%3E%3Cpath d='M-1.5 1C-6 0 -9 -4 -6.5 -6.5C-4.5 -8 -3 -5.5 -4.5 -4M1.5 1C6 0 9 -4 6.5 -6.5C4.5 -8 3 -5.5 4.5 -4' stroke-width='2'/%3E%3Cpath d='M-4.5 1.5H4.5V3.6H-4.5Z' fill='black' stroke='none'/%3E%3Cpath d='M0 3.6V6.5C-2 8.5 -4.5 7.5 -3.5 6M0 6.5C2 8.5 4.5 7.5 3.5 6' stroke-width='1.8'/%3E%3C/g%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.8'/%3E%3Ccircle cx='38' cy='3.5' r='1.3'/%3E%3Ccircle cx='3.5' cy='38' r='1.3'/%3E%3Ccircle cx='49' cy='4' r='1.4'/%3E%3Ccircle cx='4' cy='49' r='1.4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  --gm-h: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 16' fill='none' stroke='black' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M30 1.2L36.8 8L30 14.8L23.2 8Z' stroke-width='1.8'/%3E%3Cpath d='M22 8C17 8 14.5 4.5 17 3.2C19 2.4 20 4.6 18.4 5.2M22 8C17 8 14.5 11.5 17 12.8C19 13.6 20 11.4 18.4 10.8'/%3E%3Cpath d='M38 8C43 8 45.5 4.5 43 3.2C41 2.4 40 4.6 41.6 5.2M38 8C43 8 45.5 11.5 43 12.8C41 13.6 40 11.4 41.6 10.8'/%3E%3Cpath d='M3 8H13M47 8H57'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='13' cy='8' r='1.6'/%3E%3Ccircle cx='47' cy='8' r='1.6'/%3E%3Ccircle cx='7' cy='8' r='1.1'/%3E%3Ccircle cx='53' cy='8' r='1.1'/%3E%3C/g%3E%3C/svg%3E");
+  --gm-v: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 60' fill='none' stroke='black' stroke-width='2' stroke-linecap='round'%3E%3Cg transform='matrix(0 1 -1 0 16 0)'%3E%3Cpath d='M30 1.2L36.8 8L30 14.8L23.2 8Z' stroke-width='1.8'/%3E%3Cpath d='M22 8C17 8 14.5 4.5 17 3.2C19 2.4 20 4.6 18.4 5.2M22 8C17 8 14.5 11.5 17 12.8C19 13.6 20 11.4 18.4 10.8'/%3E%3Cpath d='M38 8C43 8 45.5 4.5 43 3.2C41 2.4 40 4.6 41.6 5.2M38 8C43 8 45.5 11.5 43 12.8C41 13.6 40 11.4 41.6 10.8'/%3E%3Cpath d='M3 8H13M47 8H57'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='13' cy='8' r='1.6'/%3E%3Ccircle cx='47' cy='8' r='1.6'/%3E%3Ccircle cx='7' cy='8' r='1.1'/%3E%3Ccircle cx='53' cy='8' r='1.1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.loc-card[data-gem="diamond"] {
+  --gm-tl: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cpath d='M26 6C32 6 35 2.5 32.5 1.5C30.5 1 29.5 3.5 31.5 4'/%3E%3Cpath d='M6 26C6 32 2.5 35 1.5 32.5C1 30.5 3.5 29.5 4 31.5'/%3E%3Cpath d='M40 6C45 8 46 13 42 14C39.5 14.5 38.5 12.5 40 11.5'/%3E%3Cpath d='M6 40C8 45 13 46 14 42C14.5 39.5 12.5 38.5 11.5 40'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.6'/%3E%3Ccircle cx='38' cy='3.5' r='1.3'/%3E%3Ccircle cx='3.5' cy='38' r='1.3'/%3E%3Ccircle cx='50' cy='4' r='1.4'/%3E%3Ccircle cx='4' cy='50' r='1.4'/%3E%3Ccircle cx='57' cy='6' r='1'/%3E%3Ccircle cx='6' cy='57' r='1'/%3E%3Ccircle cx='22' cy='22' r='1.3'/%3E%3C/g%3E%3C/svg%3E");
+  --gm-tr: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cg transform='matrix(-1 0 0 1 64 0)'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cpath d='M26 6C32 6 35 2.5 32.5 1.5C30.5 1 29.5 3.5 31.5 4'/%3E%3Cpath d='M6 26C6 32 2.5 35 1.5 32.5C1 30.5 3.5 29.5 4 31.5'/%3E%3Cpath d='M40 6C45 8 46 13 42 14C39.5 14.5 38.5 12.5 40 11.5'/%3E%3Cpath d='M6 40C8 45 13 46 14 42C14.5 39.5 12.5 38.5 11.5 40'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.6'/%3E%3Ccircle cx='38' cy='3.5' r='1.3'/%3E%3Ccircle cx='3.5' cy='38' r='1.3'/%3E%3Ccircle cx='50' cy='4' r='1.4'/%3E%3Ccircle cx='4' cy='50' r='1.4'/%3E%3Ccircle cx='57' cy='6' r='1'/%3E%3Ccircle cx='6' cy='57' r='1'/%3E%3Ccircle cx='22' cy='22' r='1.3'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  --gm-bl: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cg transform='matrix(1 0 0 -1 0 64)'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cpath d='M26 6C32 6 35 2.5 32.5 1.5C30.5 1 29.5 3.5 31.5 4'/%3E%3Cpath d='M6 26C6 32 2.5 35 1.5 32.5C1 30.5 3.5 29.5 4 31.5'/%3E%3Cpath d='M40 6C45 8 46 13 42 14C39.5 14.5 38.5 12.5 40 11.5'/%3E%3Cpath d='M6 40C8 45 13 46 14 42C14.5 39.5 12.5 38.5 11.5 40'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.6'/%3E%3Ccircle cx='38' cy='3.5' r='1.3'/%3E%3Ccircle cx='3.5' cy='38' r='1.3'/%3E%3Ccircle cx='50' cy='4' r='1.4'/%3E%3Ccircle cx='4' cy='50' r='1.4'/%3E%3Ccircle cx='57' cy='6' r='1'/%3E%3Ccircle cx='6' cy='57' r='1'/%3E%3Ccircle cx='22' cy='22' r='1.3'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  --gm-br: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cg transform='matrix(-1 0 0 -1 64 64)'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cpath d='M26 6C32 6 35 2.5 32.5 1.5C30.5 1 29.5 3.5 31.5 4'/%3E%3Cpath d='M6 26C6 32 2.5 35 1.5 32.5C1 30.5 3.5 29.5 4 31.5'/%3E%3Cpath d='M40 6C45 8 46 13 42 14C39.5 14.5 38.5 12.5 40 11.5'/%3E%3Cpath d='M6 40C8 45 13 46 14 42C14.5 39.5 12.5 38.5 11.5 40'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.6'/%3E%3Ccircle cx='38' cy='3.5' r='1.3'/%3E%3Ccircle cx='3.5' cy='38' r='1.3'/%3E%3Ccircle cx='50' cy='4' r='1.4'/%3E%3Ccircle cx='4' cy='50' r='1.4'/%3E%3Ccircle cx='57' cy='6' r='1'/%3E%3Ccircle cx='6' cy='57' r='1'/%3E%3Ccircle cx='22' cy='22' r='1.3'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  --gm-h: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 16' fill='none' stroke='black' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M30 1.2L36.8 8L30 14.8L23.2 8Z' stroke-width='1.8'/%3E%3Cpath d='M22 8C17 8 14.5 4.5 17 3.2C19 2.4 20 4.6 18.4 5.2M22 8C17 8 14.5 11.5 17 12.8C19 13.6 20 11.4 18.4 10.8'/%3E%3Cpath d='M38 8C43 8 45.5 4.5 43 3.2C41 2.4 40 4.6 41.6 5.2M38 8C43 8 45.5 11.5 43 12.8C41 13.6 40 11.4 41.6 10.8'/%3E%3Cpath d='M3 8H13M47 8H57'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='13' cy='8' r='1.6'/%3E%3Ccircle cx='47' cy='8' r='1.6'/%3E%3Ccircle cx='7' cy='8' r='1.1'/%3E%3Ccircle cx='53' cy='8' r='1.1'/%3E%3C/g%3E%3C/svg%3E");
+  --gm-v: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 60' fill='none' stroke='black' stroke-width='2' stroke-linecap='round'%3E%3Cg transform='matrix(0 1 -1 0 16 0)'%3E%3Cpath d='M30 1.2L36.8 8L30 14.8L23.2 8Z' stroke-width='1.8'/%3E%3Cpath d='M22 8C17 8 14.5 4.5 17 3.2C19 2.4 20 4.6 18.4 5.2M22 8C17 8 14.5 11.5 17 12.8C19 13.6 20 11.4 18.4 10.8'/%3E%3Cpath d='M38 8C43 8 45.5 4.5 43 3.2C41 2.4 40 4.6 41.6 5.2M38 8C43 8 45.5 11.5 43 12.8C41 13.6 40 11.4 41.6 10.8'/%3E%3Cpath d='M3 8H13M47 8H57'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='13' cy='8' r='1.6'/%3E%3Ccircle cx='47' cy='8' r='1.6'/%3E%3Ccircle cx='7' cy='8' r='1.1'/%3E%3Ccircle cx='53' cy='8' r='1.1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+/* Mythic's and legend's ornaments stand still; the light that runs round
+   them is one overlay per card (.loc-card__fx--glint, under "Card motion"). */
 .loc-card[data-rarity="legend"] .loc-card__orn {
   --orn-c: color-mix(in srgb, var(--rc) 75%, white);
-  /* Glint band over a fixed metallic gradient (light and dark gold), so the
-     ornaments read as gilt rather than flat colour. The metallic layer is
-     100% sized, so the glint animation's position change leaves it still. */
-  background:
-    linear-gradient(115deg,
-      transparent 0 38%, #ffffff 50%, transparent 62% 100%)
-      100% 0 / 300% 100% no-repeat,
-    linear-gradient(135deg,
-      #fff3c4 0%, var(--orn-c) 30%, color-mix(in srgb, var(--rc) 70%, #6b4500) 55%,
-      var(--orn-c) 75%, #fff3c4 100%)
-      0 0 / 100% 100% no-repeat;
-  animation: mythic-glint 8s ease-in-out infinite;
-}
-.loc-card[data-rarity="legend"] .loc-card__orn--top    { animation-delay: 0.3s; }
-.loc-card[data-rarity="legend"] .loc-card__orn--tr     { animation-delay: 0.6s; }
-.loc-card[data-rarity="legend"] .loc-card__orn--right  { animation-delay: 0.9s; }
-.loc-card[data-rarity="legend"] .loc-card__orn--br     { animation-delay: 1.2s; }
-.loc-card[data-rarity="legend"] .loc-card__orn--bottom { animation-delay: 1.5s; }
-.loc-card[data-rarity="legend"] .loc-card__orn--bl     { animation-delay: 1.8s; }
-.loc-card[data-rarity="legend"] .loc-card__orn--left   { animation-delay: 2.1s; }
-@keyframes mythic-glint {
-  0%        { background-position: 100% 0; }
-  14%, 100% { background-position: 0 0; }
+  /* A fixed metallic gradient (light and dark gold), so the ornaments read
+     as gilt rather than flat colour. */
+  background: linear-gradient(135deg,
+    #fff3c4 0%, var(--orn-c) 30%, color-mix(in srgb, var(--rc) 70%, #6b4500) 55%,
+    var(--orn-c) 75%, #fff3c4 100%);
 }
 /* Phone-width cards (two per row) are narrow: shrink the flourishes by
    about a quarter so the bottom corners clear the rarity line. */
@@ -336,7 +601,6 @@
 .loc-card[data-gem="diamond"] .loc-card__gem {
   /* A deep blue diamond (2026-10-16, user: the pale one was too light). */
   background: radial-gradient(circle at 35% 35%, #eef6ff 0 12%, #4f95ea 36%, #1a4aa8 70%, #0a2563 100%);
-  animation: diamond-twinkle 4s ease-in-out infinite;
 }
 .loc-card[data-gem="diamond"] .loc-card__gem--right  { animation-delay: 1s; }
 .loc-card[data-gem="diamond"] .loc-card__gem--bottom { animation-delay: 2s; }
@@ -348,19 +612,6 @@
   --orn: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cpath d='M26 6C32 6 35 2.5 32.5 1.5C30.5 1 29.5 3.5 31.5 4'/%3E%3Cpath d='M6 26C6 32 2.5 35 1.5 32.5C1 30.5 3.5 29.5 4 31.5'/%3E%3Cpath d='M40 6C45 8 46 13 42 14C39.5 14.5 38.5 12.5 40 11.5'/%3E%3Cpath d='M6 40C8 45 13 46 14 42C14.5 39.5 12.5 38.5 11.5 40'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.6'/%3E%3Ccircle cx='38' cy='3.5' r='1.3'/%3E%3Ccircle cx='3.5' cy='38' r='1.3'/%3E%3Ccircle cx='50' cy='4' r='1.4'/%3E%3Ccircle cx='4' cy='50' r='1.4'/%3E%3Ccircle cx='57' cy='6' r='1'/%3E%3Ccircle cx='6' cy='57' r='1'/%3E%3Ccircle cx='22' cy='22' r='1.3'/%3E%3C/g%3E%3C/svg%3E"); --orn-size: 70px;
   --outer-glow: 0 0 12px color-mix(in srgb, #5f9df0 45%, transparent);
 }
-.loc-card[data-gem="diamond"] :is(.loc-card__orn--tl, .loc-card__orn--tr, .loc-card__orn--bl, .loc-card__orn--br, .loc-card__orn--top, .loc-card__orn--bottom, .loc-card__orn--left, .loc-card__orn--right) {
-  background:
-    linear-gradient(115deg, transparent 0 38%, #ffffff 50%, transparent 62% 100%) 100% 0 / 300% 100% no-repeat,
-    linear-gradient(135deg, #ffffff 0%, #d4dae2 28%, #7d8794 52%, #d4dae2 74%, #ffffff 100%) 0 0 / 100% 100% no-repeat;
-  animation: mythic-glint 8s ease-in-out infinite;
-}
-.loc-card[data-gem="diamond"] .loc-card__orn--top    { animation-delay: 0.3s; }
-.loc-card[data-gem="diamond"] .loc-card__orn--tr     { animation-delay: 0.6s; }
-.loc-card[data-gem="diamond"] .loc-card__orn--right  { animation-delay: 0.9s; }
-.loc-card[data-gem="diamond"] .loc-card__orn--br     { animation-delay: 1.2s; }
-.loc-card[data-gem="diamond"] .loc-card__orn--bottom { animation-delay: 1.5s; }
-.loc-card[data-gem="diamond"] .loc-card__orn--bl     { animation-delay: 1.8s; }
-.loc-card[data-gem="diamond"] .loc-card__orn--left   { animation-delay: 2.1s; }
 /* Corner stones: a small blue diamond on the dot at the tip of each corner
    flourish (where the frame lines meet), diamond step only. Sits clear of
    the card's text. */
@@ -377,43 +628,18 @@
 .loc-card[data-gem="diamond"] .loc-card__gem--br { animation-delay: 1.5s; }
 .loc-card[data-gem="diamond"] .loc-card__gem--bl { animation-delay: 2.5s; }
 .loc-card[data-gem="diamond"] .loc-card__gem--tl { animation-delay: 3.5s; }
-@keyframes diamond-twinkle {
-  0%, 70%, 100% { box-shadow: 0 0 0 1px #e6ebf1; filter: none; }
-  80%           { box-shadow: 0 0 0 1px #ffffff, 0 0 7px 2px #5f9df0; filter: brightness(1.25); }
-}
 @media (max-width: 600px) {
   .loc-card[data-rarity="expedition"] { --orn-size: 44px; }
   .loc-card[data-rarity="expedition"] .loc-card__gem { width: 9px; height: 9px; --h: 4.5px; }
   .loc-card[data-gem="diamond"] { --orn-size: 52px; }
   .loc-card[data-gem="diamond"] .loc-card__gem--corner { width: 6px; height: 6px; --c: calc(-1.5px + var(--orn-size) * 3 / 64 - 3px); }
 }
-@media (prefers-reduced-motion: reduce) {
-  .loc-card[data-gem="diamond"] .loc-card__gem,
-  .loc-card[data-gem="diamond"] .loc-card__orn { animation: none; }
-}
 
 
 /* Legend (reworked 2026-10-09, user request: grander and more precious):
-   - a gold border instead of the theme's accent colour;
-   - ::before: a gold inner frame with a bright highlight that circles the
-     card (conic gradient on an animated angle, masked to a 3px ring);
-   - ::after: a warm golden foil band that sweeps down the card and back
-     up (vertical since 2026-10-09; it was a diagonal left-to-right sweep
-     before), plus a soft gold band drifting left and right like epic's
-     and mythic's;
-   - gold embers rising through the card body (.loc-card__body::before).
-   The foil used --fg-tint before, which is dark brown on the light theme,
-   so the "shine" read as a shadow there.
-   Toned down the same day (user: too showy, distracting from the cover):
-   dimmer highlight and foil, slower orbit, longer pause between sweeps.
-   All of it ignores clicks and is hidden on locked cards. Browsers without
-   @property show the ring without the circling highlight, and the foil and
-   band jump instead of gliding. */
-@property --legend-angle {
-  syntax: '<angle>';
-  inherits: false;
-  initial-value: 0deg;
-}
+   a gold border instead of the theme's accent colour and a gold inner ring
+   (::before). Its motion (the light circling the ring and ornaments, the
+   foil sweep, the drifting band, the embers) is under "Card motion" below. */
 .loc-card[data-rarity="legend"] {
   border-color: var(--rarity-legend-card, var(--rarity-legend));
 }
@@ -423,221 +649,290 @@
   inset: 0;
   padding: 3px;
   pointer-events: none;
-  background:
-    conic-gradient(from var(--legend-angle),
-      transparent 0deg, color-mix(in srgb, #fffbe6 55%, transparent) 25deg, transparent 60deg,
-      transparent 180deg, color-mix(in srgb, #fffbe6 55%, transparent) 205deg, transparent 240deg),
-    linear-gradient(135deg,
-      color-mix(in srgb, var(--rarity-legend-card, var(--rarity-legend)) 70%, #fff),
-      var(--rarity-legend-card, var(--rarity-legend)) 50%,
-      color-mix(in srgb, var(--rarity-legend-card, var(--rarity-legend)) 75%, #000));
+  background: linear-gradient(135deg,
+    color-mix(in srgb, var(--rarity-legend-card, var(--rarity-legend)) 70%, #fff),
+    var(--rarity-legend-card, var(--rarity-legend)) 50%,
+    color-mix(in srgb, var(--rarity-legend-card, var(--rarity-legend)) 75%, #000));
   -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
   -webkit-mask-composite: xor;
           mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
-  animation: legend-orbit 9s linear infinite;
   z-index: 3;
 }
-/* Two independently timed layers in one pseudo-element: each animates its
-   own registered custom property (vertical foil, horizontal drifting band),
-   which a single background-position animation couldn't do. */
-@property --legend-foil-y {
-  syntax: '<percentage>';
-  inherits: false;
-  initial-value: 120%;
-}
-@property --legend-band-x {
-  syntax: '<percentage>';
-  inherits: false;
-  initial-value: 85%;
-}
-.loc-card[data-rarity="legend"]::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background:
-    /* Warm gold, not white (2026-10-11, user: the white sweep was too
-       shiny), and slow: about 10 s per pass (see the animation below). */
-    linear-gradient(180deg,
-      transparent 36%,
-      color-mix(in srgb, #f3c45a 10%, transparent) 46%,
-      color-mix(in srgb, #ffd98a 15%, transparent) 50%,
-      color-mix(in srgb, #f3c45a 10%, transparent) 54%,
-      transparent 64%) 0 var(--legend-foil-y) / 100% 250% no-repeat,
-    linear-gradient(90deg,
-      transparent 30%,
-      color-mix(in srgb, var(--rarity-legend-card, var(--rarity-legend)) 20%, transparent) 50%,
-      transparent 70%) var(--legend-band-x) 0 / 250% 100% no-repeat;
-  animation:
-    legend-foil 14s ease-in-out infinite alternate,
-    legend-drift 7s ease-in-out infinite alternate;
-  z-index: 2;
-}
-/* Gold embers rising through the lower (text) part of the card, a little
-   brighter than mythic's. Drawn on the card body so the cover stays clear. */
 .loc-card[data-rarity="legend"] .loc-card__body { position: relative; }
-.loc-card[data-rarity="legend"] .loc-card__body::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background-image:
-    radial-gradient(circle, #ffe9a3 0 1.2px, transparent 2px),
-    radial-gradient(circle, #ffc23a 0 1px, transparent 1.8px);
-  background-size: 59px 97px, 79px 131px;
-  opacity: 0.85;
-  -webkit-mask-image: linear-gradient(to top, black 0%, transparent 90%);
-          mask-image: linear-gradient(to top, black 0%, transparent 90%);
-  animation: mythic-embers 9s linear infinite;
-  z-index: 2;
-}
-.loc-card--locked[data-rarity="legend"] .loc-card__body::before { display: none; }
-.loc-card--locked[data-rarity="legend"]::after { display: none; }
-@keyframes legend-orbit {
-  to { --legend-angle: 360deg; }
-}
-/* Top to bottom, then (alternate) bottom to top, resting off the card at
-   each end before the next pass. */
-@keyframes legend-foil {
-  0%, 15%   { --legend-foil-y: 120%; }
-  85%, 100% { --legend-foil-y: -20%; }
-}
-/* Same turnaround points as epic-drift: half the band stays on the card. */
-@keyframes legend-drift {
-  from { --legend-band-x: 85%; }
-  to   { --legend-band-x: 15%; }
-}
 
-/* Superior (2026-10-11, user request: hazy and pretty, but static, the
-   only decorated tier without motion): a soft green haze glowing in from
-   the top-left and bottom-right corners, with a faint pale bloom where
-   they meet the edges, like light through frosted glass. Hidden on locked
-   cards. */
-.loc-card[data-rarity="superior"]::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background:
-    radial-gradient(ellipse 70% 45% at 0% 0%, color-mix(in srgb, var(--rarity-superior) 22%, transparent), transparent 70%),
-    radial-gradient(ellipse 70% 45% at 100% 100%, color-mix(in srgb, var(--rarity-superior) 22%, transparent), transparent 70%),
-    radial-gradient(ellipse 40% 25% at 6% 4%, color-mix(in srgb, #ffffff 22%, transparent), transparent 75%),
-    radial-gradient(ellipse 40% 25% at 94% 96%, color-mix(in srgb, #ffffff 18%, transparent), transparent 75%);
-  box-shadow: inset 0 0 18px color-mix(in srgb, var(--rarity-superior) 18%, transparent);
-  z-index: 2;
-}
-.loc-card--locked[data-rarity="superior"]::after { display: none; }
 
-/* Epic (2026-10-11, user's pick; it had superior's drifting band before):
-   - ::after: ink mist, a few soft purple clouds drifting slowly sideways
-     along the bottom of the card (the text area), fading out upwards;
-   - ::before: a handful of tiny pale stars twinkling at different times,
-     each star its own gradient layer whose size animates in and out.
-   Both kept faint so the cover stays the focus. Hidden on locked cards. */
-.loc-card[data-rarity="epic"]::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background:
-    radial-gradient(ellipse 45% 22% at 20% 92%, color-mix(in srgb, var(--rarity-epic) 22%, transparent), transparent 70%),
-    radial-gradient(ellipse 40% 18% at 70% 85%, color-mix(in srgb, var(--rarity-epic) 18%, transparent), transparent 70%),
-    radial-gradient(ellipse 50% 20% at 110% 95%, color-mix(in srgb, var(--rarity-epic) 20%, transparent), transparent 70%);
-  background-size: 200% 100%;
-  -webkit-mask-image: linear-gradient(to top, black 0%, transparent 55%);
-          mask-image: linear-gradient(to top, black 0%, transparent 55%);
-  animation: epic-mist 16s ease-in-out infinite alternate;
-  z-index: 2;
-}
-.loc-card[data-rarity="epic"]::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  --star: color-mix(in srgb, #fbf3ff 85%, var(--rarity-epic));
-  background:
-    radial-gradient(circle, var(--star) 0 1.3px, color-mix(in srgb, var(--star) 35%, transparent) 2.2px, transparent 4px) 18% 14% / var(--s1) var(--s1) no-repeat,
-    radial-gradient(circle, var(--star) 0 1.3px, color-mix(in srgb, var(--star) 35%, transparent) 2.2px, transparent 4px) 82% 30% / var(--s2) var(--s2) no-repeat,
-    radial-gradient(circle, var(--star) 0 1.3px, color-mix(in srgb, var(--star) 35%, transparent) 2.2px, transparent 4px) 34% 58% / var(--s3) var(--s3) no-repeat,
-    radial-gradient(circle, var(--star) 0 1.3px, color-mix(in srgb, var(--star) 35%, transparent) 2.2px, transparent 4px) 74% 78% / var(--s1) var(--s1) no-repeat,
-    radial-gradient(circle, var(--star) 0 1.3px, color-mix(in srgb, var(--star) 35%, transparent) 2.2px, transparent 4px) 12% 86% / var(--s2) var(--s2) no-repeat;
-  opacity: 0.8;
-  animation: epic-twinkle 5s ease-in-out infinite;
-  z-index: 2;
-}
-.loc-card--locked[data-rarity="epic"]::before,
-.loc-card--locked[data-rarity="epic"]::after { display: none; }
-@property --s1 { syntax: '<length>'; inherits: false; initial-value: 0px; }
-@property --s2 { syntax: '<length>'; inherits: false; initial-value: 0px; }
-@property --s3 { syntax: '<length>'; inherits: false; initial-value: 0px; }
-@keyframes epic-mist {
-  from { background-position: 0% 0; }
-  to   { background-position: 100% 0; }
-}
-/* Each star group swells to 10px (the dot plus its soft halo) and back at
-   its own point in the cycle; between flashes it is 0 and invisible. */
-@keyframes epic-twinkle {
-  0%   { --s1: 0px; --s2: 0px; --s3: 0px; }
-  12%  { --s1: 10px; }
-  24%  { --s1: 0px; }
-  40%  { --s2: 0px; }
-  52%  { --s2: 10px; }
-  64%  { --s2: 0px; --s3: 0px; }
-  76%  { --s3: 10px; }
-  88%  { --s3: 0px; }
-  100% { --s1: 0px; --s2: 0px; --s3: 0px; }
-}
-
-/* Mythic (2026-10-09, user request: it looked the same as epic):
-   - ::after: a crimson inner rim that slowly breathes, plus a soft darker
-     band of the card's red drifting left and right (like epic's, a little
-     stronger and faster). The breathing animates the box-shadow, not
-     opacity, so it doesn't also dim the band.
-   - a glint running round the corner flourishes (see .loc-card__orn
-     below). It replaced faint rising embers on 2026-10-11, when the user
-     kept embers for legend only.
-   Hidden on locked cards. */
+/* Mythic: a crimson inner rim, standing still here; it breathes through
+   .loc-card__fx--breathe. Hidden on locked cards. */
 .loc-card[data-rarity="mythic"]::after {
   content: '';
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: linear-gradient(90deg,
-    transparent 30%,
-    color-mix(in srgb, var(--rarity-mythic) 18%, transparent) 50%,
-    transparent 70%);
-  background-size: 250% 100%;
   box-shadow: inset 0 0 14px 1px color-mix(in srgb, var(--rarity-mythic) 25%, transparent);
-  animation: mythic-drift 7s ease-in-out infinite alternate, mythic-breathe 4s ease-in-out infinite;
   z-index: 2;
 }
 .loc-card--locked[data-rarity="mythic"]::after { display: none; }
-/* Same turnaround points as epic-drift: half the band stays on the card. */
-@keyframes mythic-drift {
-  from { background-position: 85% 0; }
-  to   { background-position: 15% 0; }
+
+/* ── Card motion (rewritten 2026-11-14 for speed) ────────────
+   Every looping effect on a card is its own element (RarityFx.jsx) that only
+   ever animates `transform` or `opacity`, so the browser's compositor plays it
+   on the GPU: nothing is repainted per frame and the main thread stays free
+   for scrolling and page turns. Before, the effects animated gradients
+   (background-position, registered custom properties, box-shadow), which
+   repainted each card on every frame; a screen of legend cards ran over a
+   hundred of those. Rules that keep it cheap:
+   - animate transform or opacity only, never a background, shadow or filter;
+   - a moving piece that needs a shape (ornaments, the fade over the embers)
+     moves inside a parent that holds the mask, so the mask itself stays still;
+   - the elements are `display: none` off screen (data-offscreen), on locked
+     cards, with the card-motion switch off and under prefers-reduced-motion,
+     so only cards in view own GPU layers.
+   What each tier has:
+   - epic: ink mist drifting along the bottom, five stars twinkling in turn;
+   - mythic: a drifting band of red, the rim breathing, a glint that runs
+     once round the ornaments and rests;
+   - legend: one light circling the gold ring and the ornaments, a foil band
+     sweeping down and back, a drifting band of gold, embers rising through
+     the text area (a locked legend keeps the light on its ring);
+   - expedition's diamond step: the glint round the ornaments, stones twinkling. */
+.loc-card__fx {
+  position: absolute;
+  pointer-events: none;
+  z-index: 2;
+  will-change: transform, opacity;
 }
-@keyframes mythic-breathe {
-  0%, 100% { box-shadow: inset 0 0 14px 1px color-mix(in srgb, var(--rarity-mythic) 25%, transparent); }
-  50%      { box-shadow: inset 0 0 14px 1px color-mix(in srgb, var(--rarity-mythic) 50%, transparent); }
-}
-/* Legend's embers (the keyframes keep their old name). Each layer moves up
-   by a whole multiple of its own tile height, so the loop is seamless. */
-@keyframes mythic-embers {
-  from { background-position: 0 0, 29px 0; }
-  to   { background-position: 0 -194px, 29px -262px; }
+.loc-card--locked .loc-card__fx,
+.loc-card[data-offscreen]:not(.loc-card--flipping) .loc-card__fx,
+html[data-card-motion="off"] .loc-card__fx { display: none; }
+@media (prefers-reduced-motion: reduce) {
+  .loc-card__fx { display: none; }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .loc-card[data-rarity="legend"]::before,
-  .loc-card[data-rarity="mythic"]::after { animation: none; }
-  .loc-card[data-rarity="legend"]::after,
-  .loc-card[data-rarity="legend"] .loc-card__body::before { display: none; }
-  .loc-card[data-rarity="mythic"] .loc-card__orn,
-  .loc-card[data-rarity="legend"] .loc-card__orn { animation: none; }
-  .loc-card[data-rarity="epic"]::before,
-  .loc-card[data-rarity="epic"]::after { animation: none; display: none; }
+/* Epic: a few soft purple clouds along the bottom, twice the card's width,
+   sliding half their width and back. */
+.loc-card__fx--mist {
+  left: 0;
+  bottom: 0;
+  width: 200%;
+  height: 42%;
+  background:
+    radial-gradient(ellipse 45% 52% at 20% 81%, color-mix(in srgb, var(--rarity-epic) 19%, transparent), transparent 70%),
+    radial-gradient(ellipse 40% 43% at 70% 64%, color-mix(in srgb, var(--rarity-epic) 14%, transparent), transparent 70%),
+    radial-gradient(ellipse 50% 48% at 110% 88%, color-mix(in srgb, var(--rarity-epic) 17%, transparent), transparent 70%);
+  animation: fx-mist 16s ease-in-out infinite alternate;
 }
+@keyframes fx-mist {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+/* Epic's stars: five small dots, each swelling and shrinking at its own
+   point in a 5 s cycle (three groups, as before). */
+.loc-card__fx--star {
+  width: 10px;
+  height: 10px;
+  margin: -5px 0 0 -5px;
+  --star: color-mix(in srgb, #fbf3ff 85%, var(--rarity-epic));
+  background: radial-gradient(circle, var(--star) 0 1.3px, color-mix(in srgb, var(--star) 35%, transparent) 2.2px, transparent 4px);
+  opacity: 0.8;
+  transform: scale(0);
+  animation: fx-twinkle 5s ease-in-out infinite;
+}
+.loc-card__fx--star1 { left: 18%; top: 14%; }
+.loc-card__fx--star2 { left: 82%; top: 30%; animation-delay: -3s; }
+.loc-card__fx--star3 { left: 34%; top: 58%; animation-delay: -1.8s; }
+.loc-card__fx--star4 { left: 74%; top: 78%; }
+.loc-card__fx--star5 { left: 12%; top: 86%; animation-delay: -3s; }
+@keyframes fx-twinkle {
+  0%        { transform: scale(0); }
+  12%       { transform: scale(1); }
+  24%, 100% { transform: scale(0); }
+}
+
+/* Mythic and legend: a soft band of the card's colour, as wide as the card,
+   drifting from the left edge to the right and back. */
+.loc-card__fx--band {
+  inset: 0;
+  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--rc) 19%, transparent) 50%, transparent);
+  animation: fx-drift 7s ease-in-out infinite alternate;
+}
+@keyframes fx-drift {
+  from { transform: translateX(-52.5%); }
+  to   { transform: translateX(52.5%); }
+}
+/* Mythic: the stronger rim fades in over the still one and out again. */
+.loc-card__fx--breathe {
+  inset: 0;
+  box-shadow: inset 0 0 14px 1px color-mix(in srgb, var(--rarity-mythic) 33%, transparent);
+  opacity: 0;
+  animation: fx-breathe 2s ease-in-out infinite alternate;
+}
+@keyframes fx-breathe {
+  to { opacity: 1; }
+}
+/* Legend: a warm gold foil band (not white: 2026-10-11, user) that crosses
+   the card top to bottom in about 10 s, rests off the card, and comes back. */
+.loc-card__fx--foil {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 70%;
+  background: linear-gradient(180deg,
+    transparent 0%,
+    color-mix(in srgb, #f3c45a 10%, transparent) 36%,
+    color-mix(in srgb, #ffd98a 15%, transparent) 50%,
+    color-mix(in srgb, #f3c45a 10%, transparent) 64%,
+    transparent 100%);
+  transform: translateY(-129%);
+  animation: fx-foil 14s ease-in-out infinite alternate;
+}
+@keyframes fx-foil {
+  0%, 15%   { transform: translateY(-129%); }
+  85%, 100% { transform: translateY(172%); }
+}
+/* Legend's embers, in the card body so the cover stays clear. The fade to
+   the top is a mask on this still wrapper; the two layers of dots inside
+   move up by one whole tile each loop (two speeds), so the loop is seamless. */
+.loc-card__fx--embers {
+  inset: 0;
+  overflow: hidden;
+  opacity: 0.85;
+  will-change: auto;
+  -webkit-mask-image: linear-gradient(to top, black 0%, transparent 90%);
+          mask-image: linear-gradient(to top, black 0%, transparent 90%);
+}
+.loc-card__fx--embers::before,
+.loc-card__fx--embers::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  will-change: transform;
+  animation: fx-embers 9s linear infinite;
+}
+.loc-card__fx--embers::before {
+  --rise: 194px;
+  height: calc(100% + 194px);
+  background: radial-gradient(circle, #ffe9a3 0 1.2px, transparent 2px) 0 0 / 59px 97px;
+}
+.loc-card__fx--embers::after {
+  --rise: 262px;
+  height: calc(100% + 262px);
+  background: radial-gradient(circle, #ffc23a 0 1px, transparent 1.8px) 29px 0 / 79px 131px;
+}
+@keyframes fx-embers {
+  to { transform: translateY(calc(var(--rise) * -1)); }
+}
+
+/* The glint: an overlay the size of the card, masked to the shapes of the
+   ornaments (and legend's ring), holding a square with a wedge of light that
+   turns about the card's centre. Only the square moves. The mask repeats the
+   ornaments' own drawings, turned for each corner and edge (--gm-*, generated
+   from the --orn drawings above: change those and these must follow), at the
+   ornaments' own places: the overlay's box starts 7px outside the frame's
+   (its 4px inset and 3px line). */
+.loc-card { --ew: 84px; --eh: 22px; }
+@media (max-width: 600px) {
+  .loc-card { --ew: 64px; --eh: 17px; }
+}
+.loc-card__fx--glint {
+  inset: 0;
+  z-index: 3;
+  overflow: hidden;
+  will-change: auto;
+  --mo: calc(5.5px - var(--orn-size) * 6 / 64);
+  --me: calc(5.5px - var(--eh) / 2);
+  --corners:
+    var(--gm-tl) left var(--mo) top var(--mo) / var(--orn-size) var(--orn-size) no-repeat,
+    var(--gm-tr) right var(--mo) top var(--mo) / var(--orn-size) var(--orn-size) no-repeat,
+    var(--gm-bl) left var(--mo) bottom var(--mo) / var(--orn-size) var(--orn-size) no-repeat,
+    var(--gm-br) right var(--mo) bottom var(--mo) / var(--orn-size) var(--orn-size) no-repeat;
+  --edges:
+    var(--gm-h) left 50% top var(--me) / var(--ew) var(--eh) no-repeat,
+    var(--gm-h) left 50% bottom var(--me) / var(--ew) var(--eh) no-repeat,
+    var(--gm-v) left var(--me) top 50% / var(--eh) var(--ew) no-repeat,
+    var(--gm-v) right var(--me) top 50% / var(--eh) var(--ew) no-repeat;
+  --ring:
+    linear-gradient(#000 0 0) top / 100% 3px no-repeat,
+    linear-gradient(#000 0 0) bottom / 100% 3px no-repeat,
+    linear-gradient(#000 0 0) left / 3px 100% no-repeat,
+    linear-gradient(#000 0 0) right / 3px 100% no-repeat;
+  --shape: var(--corners), var(--edges);
+  -webkit-mask: var(--shape);
+          mask: var(--shape);
+}
+.loc-card[data-rarity="mythic"] .loc-card__fx--glint {
+  --shape: var(--corners),
+    var(--gm-t) left 50% top var(--me) / var(--ew) var(--eh) no-repeat,
+    var(--gm-b) left 50% bottom var(--me) / var(--ew) var(--eh) no-repeat;
+}
+.loc-card[data-rarity="legend"] .loc-card__fx--glint { --shape: var(--corners), var(--edges), var(--ring); }
+/* A locked legend keeps the light on its ring (user's call, 2026-11-09); its
+   ornaments are not shown, so they are left out of the shape. */
+.loc-card--locked[data-rarity="legend"]:not([data-offscreen]) .loc-card__fx--glint { display: block; --shape: var(--ring); }
+html[data-card-motion="off"] .loc-card--locked[data-rarity="legend"] .loc-card__fx--glint { display: none; }
+@media (prefers-reduced-motion: reduce) {
+  .loc-card--locked[data-rarity="legend"]:not([data-offscreen]) .loc-card__fx--glint { display: none; }
+}
+.loc-card__fx--glint::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 200%;
+  aspect-ratio: 1;
+  margin: -100% 0 0 -100%;
+  will-change: transform, opacity;
+  /* One wedge 40 degrees wide, pointing up. It starts short of the top-left
+     corner, goes once round clockwise in under half the cycle, and rests. */
+  --light: color-mix(in srgb, #fff6e0 90%, var(--rc));
+  background: conic-gradient(from -20deg, transparent 0deg, var(--light) 20deg, transparent 40deg);
+  opacity: 0;
+  animation: fx-glint 7s linear infinite;
+}
+.loc-card[data-gem="diamond"] .loc-card__fx--glint::before { --light: #ffffff; animation-duration: 8s; }
+@keyframes fx-glint {
+  0%        { transform: rotate(-70deg); opacity: 0; }
+  4%        { opacity: 1; }
+  45%       { opacity: 1; }
+  48%, 100% { transform: rotate(300deg); opacity: 0; }
+}
+/* Legend: two soft lights on opposite sides, circling without a rest; they
+   are the highlight on the ring and the glint on the ornaments at once. */
+.loc-card[data-rarity="legend"] .loc-card__fx--glint::before {
+  --light: color-mix(in srgb, #fffbe6 70%, transparent);
+  background: conic-gradient(
+    transparent 0deg, var(--light) 25deg, transparent 60deg,
+    transparent 180deg, var(--light) 205deg, transparent 240deg);
+  opacity: 1;
+  animation: fx-orbit 9s linear infinite;
+}
+@keyframes fx-orbit {
+  to { transform: rotate(360deg); }
+}
+/* The diamond step's stones: a bright copy with a blue glow over each stone,
+   fading in and out (the delays are on the stones, above). */
+.loc-card[data-gem="diamond"] .loc-card__gem::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.28);
+  box-shadow: 0 0 0 1px #ffffff, 0 0 7px 2px #5f9df0;
+  opacity: 0;
+  will-change: opacity;
+  animation: fx-gem 4s ease-in-out infinite;
+  animation-delay: inherit;
+}
+@keyframes fx-gem {
+  0%, 70%, 100% { opacity: 0; }
+  80%           { opacity: 1; }
+}
+.loc-card[data-offscreen] .loc-card__gem::after,
+html[data-card-motion="off"] .loc-card__gem::after { display: none; }
+@media (prefers-reduced-motion: reduce) {
+  .loc-card__gem::after { display: none; }
+}
+
 
 /* "NEW" tag on cards collected in the last 48 h (LocationCard). */
 .loc-card__new {
@@ -653,17 +948,25 @@
   color: #ffffff;
   background: #24852a;
   border: 2px solid #165c1a;
-  box-shadow: 2px 2px 0 var(--shadow), 0 0 6px 1px rgba(80, 230, 90, 0.55);
+  box-shadow: 2px 2px 0 var(--shadow), 0 0 4px 0 rgba(80, 230, 90, 0.4);
   text-shadow: 0 0 4px rgba(190, 255, 190, 0.8);
   pointer-events: none;
-  animation: new-glow 1.8s ease-in-out infinite;
 }
-@keyframes new-glow {
-  0%, 100% { box-shadow: 2px 2px 0 var(--shadow), 0 0 4px 0 rgba(80, 230, 90, 0.4); }
-  50%      { box-shadow: 2px 2px 0 var(--shadow), 0 0 12px 3px rgba(80, 230, 90, 0.85); }
+/* Its glow pulses: a stronger glow on a layer of its own fades in and out
+   (opacity only, see "Card motion"). */
+.loc-card__new::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  box-shadow: 0 0 12px 3px rgba(80, 230, 90, 0.85);
+  opacity: 0;
+  will-change: opacity;
+  animation: fx-breathe 0.9s ease-in-out infinite alternate;
 }
+.loc-card[data-offscreen] .loc-card__new::after,
+html[data-card-motion="off"] .loc-card__new::after { display: none; }
 @media (prefers-reduced-motion: reduce) {
-  .loc-card__new { animation: none; }
+  .loc-card__new::after { display: none; }
 }
 
 .loc-card--locked {
@@ -697,6 +1000,9 @@
 }
 
 .loc-card__banner {
+  background-image: var(--tex);
+  background-size: var(--tex-size);
+  background-blend-mode: overlay;
   padding: 20px 12px 16px;
   display: flex;
   align-items: center;

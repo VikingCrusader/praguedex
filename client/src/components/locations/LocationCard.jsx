@@ -5,6 +5,7 @@ import { useLang, useConvert, useT } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
 import { RARITY_VAR, RARITY_LABEL, lockClosedIcon, lockOpenIcon, expeditionGem } from '../../utils/rarity';
 import RarityFrame from './RarityFrame';
+import RarityFx from './RarityFx';
 import CardShowcase from './CardShowcase';
 import { playUnlockSound } from '../../utils/sound';
 import { formatDistance } from '../../utils/geolocation';
@@ -89,6 +90,7 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
       onAnimationEnd={e => { if (e.animationName === 'card-flip') setFlipping(false); }}
     >
       <RarityFrame />
+      <RarityFx rarity={rarity} gem={rarity === 'expedition' ? expeditionGem(xpReward) : undefined} />
       {isNew && <span className="loc-card__new">NEW</span>}
       {story ? (
         <div className="loc-card__story">
@@ -97,7 +99,7 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
           {story.map((p, i) => <p key={i}>{p}</p>)}
         </div>
       ) : (<>
-      <div className="loc-card__banner" style={{ background: teasing ? 'var(--nearby-banner, #4a4a4a)' : color }}>
+      <div className="loc-card__banner" style={{ backgroundColor: teasing ? 'var(--nearby-banner, #4a4a4a)' : color }}>
         {/* width/height give a lazy cover a square placeholder (covers are
             almost all square) so the card doesn't grow when it loads. */}
         {localCover && !localFailed ? (
@@ -138,6 +140,7 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
         ))}
       </div>
       <div className="loc-card__body">
+        {rarity === 'legend' && <i className="loc-card__fx loc-card__fx--embers" aria-hidden="true" />}
         <div>
           <div className="loc-card__name" style={!showName ? { textAlign: 'center' } : { color: RARITY_VAR[rarity] }}>
             {showName ? name : '???'}

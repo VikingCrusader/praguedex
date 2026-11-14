@@ -1150,6 +1150,8 @@ html:not([data-lang="zh"]) .explore-side input::placeholder {
 }
 html:not([data-lang="zh"]) .explore-page .loc-card,
 html:not([data-lang="zh"]) .explore-page .loc-card *,
+html:not([data-lang="zh"]) .pack-detail__cards .loc-card,
+html:not([data-lang="zh"]) .pack-detail__cards .loc-card *,
 html:not([data-lang="zh"]) .card-showcase .loc-card,
 html:not([data-lang="zh"]) .card-showcase .loc-card * {
   font-family: var(--reading-font) !important;
@@ -1244,6 +1246,7 @@ html:not([data-lang="zh"]) .draw-page *:not(h1) {
 
 /* ZH: the Czech name on Explore cards in LXGW WenKai too. */
 html[data-lang="zh"] .explore-page .loc-card__cz-name,
+html[data-lang="zh"] .pack-detail__cards .loc-card__cz-name,
 html[data-lang="zh"] .card-showcase .loc-card__cz-name {
   font-family: var(--reading-font) !important;
 }

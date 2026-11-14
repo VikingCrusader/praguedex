@@ -310,11 +310,9 @@ test('check-in demo: the button works once you are within 100 m', async ({ page 
   await page.mouse.up();
   await expect(win.locator('.guide-checkin__alert')).toBeVisible();
   await expect(collect).toBeEnabled();
-  // The lock shakes even with card animations switched off in Settings.
-  await page.evaluate(() => document.documentElement.setAttribute('data-card-motion', 'off'));
+  // The lock shakes.
   const lock = win.locator('.guide-checkin__card .loc-card__lock');
   await expect.poll(() => lock.evaluate(el => `${getComputedStyle(el).animationName}/${getComputedStyle(el).animationPlayState}`)).toBe('nearby-wobble/running');
-  await page.evaluate(() => document.documentElement.removeAttribute('data-card-motion'));
   // Tapping the shaking card collects it, like on Explore.
   await win.locator('.guide-checkin__card .loc-card').click();
   await expect(win.locator('.guide-checkin__status')).toContainText('Collected!');

@@ -90,7 +90,7 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
       onAnimationEnd={e => { if (e.animationName === 'card-flip') setFlipping(false); }}
     >
       <RarityFrame />
-      <RarityFx rarity={rarity} gem={rarity === 'expedition' ? expeditionGem(xpReward) : undefined} />
+      <RarityFx rarity={rarity} slug={slug} gem={rarity === 'expedition' ? expeditionGem(xpReward) : undefined} />
       {isNew && <span className="loc-card__new">NEW</span>}
       {story ? (
         <div className="loc-card__story">

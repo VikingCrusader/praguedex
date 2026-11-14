@@ -1,5 +1,4 @@
 import { useLayoutEffect } from 'react';
-import { cardMotionOn } from '../utils/cardMotion';
 
 // The brick drop of Explore's cards (2026-11-12), for a shelf of packs or any
 // row of items: the first ROWS items drop in one after another, the way the
@@ -21,7 +20,7 @@ export function useBrickEntrance(rootRef, signal, selector) {
     if (!signal || !root || played.has(root)) return undefined;
     played.add(root);
     const reduced = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
-    if (reduced || !cardMotionOn()) return undefined;
+    if (reduced) return undefined;
     const items = [...root.querySelectorAll(selector)].slice(0, ROWS);
     items.forEach((el, i) => {
       el.style.setProperty('--enter-delay', `${BASE + i * STEP}ms`);

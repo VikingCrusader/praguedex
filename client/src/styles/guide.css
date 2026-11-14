@@ -232,11 +232,10 @@ html:not([data-lang="zh"]) :is(#root, body) .guide-window .guide-h3 {
 .guide-checkin__you-label { font-size: 12px; font-weight: 700; fill: var(--text-primary); }
 .guide-checkin__side { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
 .guide-checkin__card { zoom: 0.82; }
-/* This demo is about the shaking lock, so it shakes here even with card
-   animations switched off in Settings, and is never taken for off-screen
-   (Chrome before 128 measures zoomed elements wrongly). */
+/* This demo is about the shaking lock, so it is never taken for off-screen
+   here (Chrome before 128 measures zoomed elements wrongly). */
 @media (prefers-reduced-motion: no-preference) {
-  :is(html, html[data-card-motion="off"]) .guide-checkin__card .loc-card--nearby .loc-card__lock {
+  html .guide-checkin__card .loc-card--nearby .loc-card__lock {
     animation: nearby-wobble 1.4s ease-in-out infinite !important;
     animation-play-state: running !important;
   }

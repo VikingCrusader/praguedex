@@ -1,5 +1,4 @@
 import { useEffect, useLayoutEffect, useRef } from 'react';
-import { cardMotionOn } from '../utils/cardMotion';
 import { viewportRect } from '../utils/fitPage';
 
 // Explore's entrance (2026-11-12, user's idea): the rows of cards in view drop
@@ -47,8 +46,7 @@ export function useExploreEntrance(rootRef, loaded, wide, ready = true) {
     if (!loaded) return undefined;
     const root = rootRef.current;
     const reduced = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
-    // With the card animations switched off the cards would stay hidden: no entrance.
-    if (playedHere.current || !root || reduced || !cardMotionOn()) {
+    if (playedHere.current || !root || reduced) {
       playedHere.current = true;
       hideSplash();
       return undefined;

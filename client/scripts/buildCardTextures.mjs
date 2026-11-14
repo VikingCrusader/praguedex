@@ -41,9 +41,9 @@ const TEXTURES = {
   // (768px, shown at 384px) so the clouds don't repeat within a card. (Green
   // marble, veins and all, was tried first and looked busy; user, 2026-11-14.)
   // Epic's raw silk (shantung), lavender with deep purple slubs.
-  silk: { src: 'silk', patch: 14, contrast: 8, tile: 512, tint: '#4a2a6e', base: '#ddd0ec' },
-  // Mythic's light red leather, its grain in deep red.
-  leather: { src: 'leather', patch: 14, contrast: 20, tile: 512, tint: '#7a1018', base: '#f0cfcb' },
+  // Epic's silk, dark since 2026-11-14 (user: epic belongs with mythic and
+  // legend): deep amethyst, its slubs a lilac sheen like satin catching light.
+  silk: { src: 'silk', patch: 14, contrast: 14, tile: 512, tint: '#1c0f33', light: '#8a6bc0', base: '#3a2363' },
   // Legend's gilded lacquer: the gold leaf image as faint clouds of gold on
   // a near-black brown (pale gold leaf was tried first: gold frame on gold
   // lost its shine; user, 2026-11-14), large (768px, shown at 384px).

@@ -1119,4 +1119,3 @@ html[data-lang="zh"] :is(#root, body) .history-era-intro__title { font-size: 38p
   .history-era-intro.is-opening, .history-era-intro.is-opening .history-era-intro__rule,
   .history-era-intro.is-opening .history-era-intro__title, .history-axis__era.is-flashing { animation: none; }
 }
-html[data-card-motion="off"] :is(.history-era-intro.is-opening, .history-era-intro.is-opening .history-era-intro__rule, .history-era-intro.is-opening .history-era-intro__title, .history-axis__era.is-flashing) { animation: none; }

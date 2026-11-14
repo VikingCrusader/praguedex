@@ -68,6 +68,8 @@ test('outside cards read "Expedition" and carry the stone for their XP', async (
     await expect(el.locator('.loc-card__gem--top')).toBeVisible();
   }
   expect(gems).toEqual({ Roztoky: 'bronze', Melnik: 'ruby', 'Kutna Hora': 'diamond', Karlstejn: 'diamond', 'Cesky Krumlov': 'diamond' });
-  // A locked card shows no frame or stone, like every other tier.
-  await expect(page.locator('.loc-card--locked .loc-card__gem--top')).toBeHidden();
+  // A locked card shows its frame and stone too, all in grey (2026-11-15).
+  const locked = page.locator('.loc-card--locked').first();
+  await expect(locked.locator('.loc-card__gem--top')).toBeVisible();
+  expect(await locked.evaluate(e => getComputedStyle(e).filter)).toBe('grayscale(1)');
 });

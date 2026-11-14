@@ -4,7 +4,7 @@ import { useLang, useConvert } from '../../context/LanguageContext';
 import { locationAPI, userAPI } from '../../services/api';
 import { pageCache, pageKey } from '../../utils/pageCache';
 import { useAuth } from '../../context/AuthContext';
-import { RARITY_VAR, RARITY_ICON, ALL_RARITIES } from '../../utils/rarity';
+import { RARITY_VAR, RARITY_LABEL, ALL_RARITIES } from '../../utils/rarity';
 import { DIFF_RARITIES } from '../../utils/guideContent';
 import { BOARD, fill } from '../../utils/guideBoard';
 import { FEATURED_SLUGS } from '../../utils/gridOrder';
@@ -91,10 +91,13 @@ export function TileArt({ tile }) {
 
 // `level`: the signed-in player's levelInfo, for a real bar on the XP tile.
 export function TileMini({ kind, level }) {
+  const { lang } = useLang();
+  const convert = useConvert();
   if (kind === 'rarity') {
+    const names = RARITY_LABEL[lang] || RARITY_LABEL.en;
     return (
       <div className="guide-mini guide-mini--rarity" aria-hidden="true">
-        {ALL_RARITIES.map(r => <span key={r} style={{ color: RARITY_VAR[r], borderColor: RARITY_VAR[r] }}>{RARITY_ICON[r]}</span>)}
+        {ALL_RARITIES.map(r => <span key={r} style={{ color: RARITY_VAR[r], borderColor: RARITY_VAR[r] }}>{convert(names[r])}</span>)}
       </div>
     );
   }

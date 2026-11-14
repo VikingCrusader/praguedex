@@ -548,7 +548,7 @@ test('a guest gets an Open the Guide button instead of the tip; a signed-in play
   await guestPage.addInitScript(() => sessionStorage.setItem('guest', 'true'));
   await guestPage.goto('/explore');
   const intro = guestPage.locator('.explore-applied__default');
-  await expect(intro).toContainText('What is this?');
+  await expect(intro).toContainText('What is Praguedex?');
   await expect(intro).toContainText('within 100 m');
   await expect(intro).not.toContainText('Tip');
   await expect(intro.locator('a')).toHaveText('Open the Guide');

@@ -38,7 +38,7 @@ export const CONTENT = {
     challenge: "Are you confident that you can capture every scenic spot and landmark Prague has to offer?",
     localChallenge: "Live in Prague? Then it is still for you: do you really know the story behind every street and doorway here?",
     tagline: "You have entered the city. The cobblestones are real. The XP is also real. Proceed.",
-    whatTitle: "What Is This",
+    whatTitle: "What Is Praguedex",
     what: [
       "Praguedex is your Prague dex: a card-collecting game you play on foot. Over a thousand real places in Prague and the rest of Bohemia are cards, and every card has its own story.",
       "Go within 100 m of a place and collect its card. That pays XP, levels you up and counts towards achievements. It also unlocks the full story: until you have been there, you only get the first paragraph.",
@@ -181,7 +181,7 @@ export const CONTENT = {
     challenge: "Troufáš si posbírat všechna panoramatická místa a historické památky, které Praha nabízí?",
     localChallenge: "Bydlíš v Praze? I tak je to pro tebe: opravdu znáš příběh každé ulice a každých dveří tady?",
     tagline: "Vstoupil jsi do města. Dlažební kameny jsou skutečné. XP jsou také skutečné. Pokračuj.",
-    whatTitle: "Co to je",
+    whatTitle: "Co je Praguedex",
     what: [
       "Praguedex je tvoje pražské sběratelské album: hra na sbírání karet, kterou hraješ pěšky. Přes tisíc skutečných míst v Praze a ve zbytku Čech jsou karty a každá karta má svůj příběh.",
       "Dojdi do 100 m od místa a získej jeho kartu. Dostaneš za ni XP, postoupíš na další úroveň a přiblížíš se k úspěchům. Odemkne se ti i celý příběh: dokud tam nebudeš, uvidíš jen první odstavec.",
@@ -324,7 +324,7 @@ export const CONTENT = {
     challenge: "你有信心把布拉格的所有风景名胜以及地标建筑全部收入囊中吗？",
     localChallenge: "住在布拉格？那也适合你：这里每条街、每扇门背后的故事，你真的都知道吗？",
     tagline: "你已进入这座城市。鹅卵石是真实的。经验值也是真实的。继续前进。",
-    whatTitle: "这是什么",
+    whatTitle: "Praguedex 是什么",
     what: [
       "Praguedex 是你的布拉格图鉴：一款要靠双脚玩的收集卡片游戏。布拉格和波希米亚各地一千多个真实地点，每一个都是一张卡片，每张卡片都有自己的故事。",
       "走到一个地点 100 米以内，就能收集它的卡片：获得经验值、升级、推进成就，还能解锁完整的故事。没去过之前，你只能读到第一段。",

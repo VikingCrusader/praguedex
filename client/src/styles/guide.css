@@ -137,7 +137,9 @@ html[data-lang="zh"] .guide-tile__title { font-family: var(--ui-font-text); }
 
 /* Small live pieces on a few tiles. */
 .guide-mini { display: flex; align-items: center; gap: 6px; margin-top: 4px; }
-.guide-mini--rarity span { width: 30px; height: 30px; display: grid; place-items: center; border: 2px solid; font-size: 15px; background: var(--bg-surface); }
+/* The rarity names in their colours (were symbols until 2026-11-14, user's call); they wrap to a second row when the tile is narrow. */
+.guide-mini--rarity { flex-wrap: wrap; gap: 4px; }
+.guide-mini--rarity span { padding: 1px 5px; border: 2px solid; font-size: 13px; line-height: 1.4; white-space: nowrap; background: var(--bg-surface); }
 .guide-mini--ladder span { padding: 2px 8px; border: 2px solid var(--gold); color: var(--gold); font-weight: 700; font-size: 15px; }
 .guide-mini--ladder span:first-child { background: var(--gold); color: var(--bg-card); }
 .guide-mini--levels { font-size: 14px; color: var(--text-muted); }

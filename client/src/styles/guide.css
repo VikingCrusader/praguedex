@@ -418,11 +418,14 @@ html[data-lang="zh"] .guide-areas__name { font-family: var(--ui-font-text); }
 .guide-expedition__xp { margin: 0 0 6px; font-size: 32px; font-weight: 700; color: var(--gold); }
 .guide-expedition__examples { border-top: 2px solid var(--border); padding-top: 14px; }
 .guide-expedition__examples-title { margin: 0 0 12px; font-size: 16px; color: var(--gold); }
-.guide-expedition__row { display: flex; gap: 20px; flex-wrap: wrap; }
+/* Equal columns, so all five sit in one row on a wide window (2026-11-16,
+   user: four plus one looked odd); the captions wrap under their card
+   instead of widening the column. Narrow windows still wrap to fewer. */
+.guide-expedition__row { display: grid; grid-template-columns: repeat(auto-fit, minmax(112px, 1fr)); gap: 20px 12px; }
 .guide-expedition__example { display: flex; flex-direction: column; align-items: center; gap: 8px; opacity: 0.75; transition: opacity 0.15s ease, translate 0.15s ease; }
 .guide-expedition__example.is-on { opacity: 1; translate: 0 -4px; }
 .guide-expedition__mini { zoom: 0.55; cursor: pointer; }
-.guide-expedition__meta { font-size: 14px; color: var(--text-muted); }
+.guide-expedition__meta { font-size: 14px; color: var(--text-muted); text-align: center; }
 .guide-expedition__how { font-size: 13px; padding: 1px 8px; border: 1px solid var(--border); color: var(--text-muted); }
 .guide-expedition__how--hand { border-color: var(--gold); color: var(--gold); font-weight: 700; }
 

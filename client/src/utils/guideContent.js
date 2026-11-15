@@ -106,7 +106,7 @@ export const CONTENT = {
       "✶ Mythic · Bohemian garnet: deep red with Gothic tracery in the corners, and rose light drifting slowly through it, like the stone held up to a lamp.",
       "♛︎ Legendary · Gold: dark gold leaf framed in gold acanthus, gold light that wanders across it and changes shade as it goes, embers rising through the card and a golden halo round the whole thing. Subtle it is not.",
     ],
-    effectsOutro: "Locked cards wear the same material and frame, only in grey and perfectly still. The colour, the glow and the sparkle you have to earn.",
+    effectsOutro: "Locked cards all sleep on the same plain grey, wearing only their frame, perfectly still. The colour, the glow and the sparkle you have to earn.",
     showcaseTitle: "Showing Off",
     showcaseIntro: "A collected card is more than a tile in a grid. Pick it up and have a proper look:",
     showcase: [
@@ -141,9 +141,9 @@ export const CONTENT = {
     ],
     expeditionTitle: "Expeditions",
     expedition: [
-      "Prague is not the only place with stories. Switch the Dex or the Map to All (incl. outside) and the castles, battlefields and towns of the rest of Bohemia join in, as Expedition cards in a silver frame.",
+      "Prague is not the only place with stories. Switch the Dex or the Map to All (incl. outside) and the castles, battlefields and towns of the rest of Bohemia join in, as Expedition cards: silver for the nearest, platinum for the rest.",
       "Their XP depends on how far they are from Charles Bridge in a straight line: 60 under 25 km, 120 up to 50 km, 180 up to 100 km, 240 up to 150 km, and 300 beyond. A few famous places are set higher by hand (Karlštejn is only 23 km out but pays 240), and small sights that come with a bigger neighbour are set lower.",
-      "The stone on the frame shows what a card pays: a bronze rivet at 60, a ruby at 120, and from 180 a blue diamond that sparkles.",
+      "The stone on the frame shows what a card pays. At 60 it is a bronze rivet on bright silver. From 120 the card turns to dark platinum with a slow glow drifting across it, set with a ruby; from 180 a blue diamond that sparkles, in a grander frame with stones in its corners and silver stars twinkling in the metal.",
     ],
     historyGuide: [
       "Prague's history, told in 24 eras from the founding legends onwards, one event at a time, with illustrations and the odd quote from a chronicler who clearly had opinions. The newer eras are still being written.",
@@ -249,7 +249,7 @@ export const CONTENT = {
       "✶ Mýtické · Český granát: tmavě rudý, gotické kružby v rozích a růžové světlo, které jím pomalu prochází, jako když kámen podržíš proti lampě.",
       "♛︎ Legendární · Zlato: tmavé plátkové zlato ve zlatém akantovém rámu, zlaté světlo, které po něm bloudí a cestou mění odstín, jiskry stoupající kartou a zlatá záře kolem dokola. Skromnost to není.",
     ],
-    effectsOutro: "Zamčené karty mají stejný materiál i rám, jen šedé a úplně nehybné. Barvu, záři a třpyt si musíš zasloužit.",
+    effectsOutro: "Zamčené karty spí všechny na stejné prosté šedi, jen ve svém rámu a úplně nehybné. Barvu, záři a třpyt si musíš zasloužit.",
     showcaseTitle: "Chlubení",
     showcaseIntro: "Sesbíraná karta je víc než dlaždice v mřížce. Vezmi ji do ruky a pořádně si ji prohlédni:",
     showcase: [
@@ -284,9 +284,9 @@ export const CONTENT = {
     ],
     expeditionTitle: "Výpravy",
     expedition: [
-      "Příběhy nemá jen Praha. Přepni Album nebo Mapu na Vše (i mimo Prahu) a přidají se hrady, bojiště a města zbytku Čech jako karty Výpravy ve stříbrném rámu.",
+      "Příběhy nemá jen Praha. Přepni Album nebo Mapu na Vše (i mimo Prahu) a přidají se hrady, bojiště a města zbytku Čech jako karty Výpravy: nejbližší ve stříbře, ostatní v platině.",
       "Jejich XP závisí na vzdálenosti od Karlova mostu vzdušnou čarou: 60 do 25 km, 120 do 50 km, 180 do 100 km, 240 do 150 km a 300 dál. Několik slavných míst je ručně posunuto výš (Karlštejn je jen 23 km daleko, ale vyplatí 240) a drobnosti, které patří k většímu sousedovi, níž.",
-      "Kámen na rámu ukazuje, kolik karta vyplatí: bronzový nýt za 60, rubín za 120 a od 180 třpytivý modrý diamant.",
+      "Kámen na rámu ukazuje, kolik karta vyplatí. Za 60 je to bronzový nýt na světlém stříbře. Od 120 je karta z tmavé platiny, po které pomalu putuje světlo, a nese rubín; od 180 třpytivý modrý diamant, v bohatším rámu s kameny v rozích a se stříbrnými hvězdičkami, které v kovu probleskují.",
     ],
     historyGuide: [
       "Dějiny Prahy ve 24 obdobích od pověstí o založení dál, jedna událost po druhé, s ilustracemi a sem tam s citátem kronikáře, který měl zjevně vyhraněné názory. Novější období se teprve píšou.",
@@ -392,7 +392,7 @@ export const CONTENT = {
       "✶ 神话 · 波希米亚石榴石：深红的底色，四角是哥特式的窗花，玫瑰色的光在里面慢慢游走，像把这颗宝石举到灯前。",
       "♛︎ 传说 · 黄金：深色的金箔，镶着金色的茛苕卷草边框，金光在上面游移，一边走一边变换色泽，火星在卡片里升腾，整张卡外围还散着一圈金光。低调是不可能低调的。",
     ],
-    effectsOutro: "上锁的卡片也是同样的材质和边框，只不过是灰色的，而且一动不动。颜色、光晕和闪光，都要靠自己挣。",
+    effectsOutro: "上锁的卡片都是同一种素灰，只保留各自的边框，而且一动不动。颜色、光晕和闪光，都要靠自己挣。",
     showcaseTitle: "拿出来炫耀",
     showcaseIntro: "收集到的卡片不只是网格里的一个格子。拿起来，好好看看：",
     showcase: [
@@ -427,9 +427,9 @@ export const CONTENT = {
     ],
     expeditionTitle: "远征",
     expedition: [
-      "有故事的不只布拉格。把图鉴或地图切换到「全部（含市外）」，波希米亚其他地方的城堡、古战场和小城就会加入进来，它们是银框的远征卡。",
+      "有故事的不只布拉格。把图鉴或地图切换到「全部（含市外）」，波希米亚其他地方的城堡、古战场和小城就会加入进来，它们是远征卡：离得最近的是银卡，其余的是铂金卡。",
       "远征卡的经验值看它离查理大桥的直线距离：25公里以内60，50公里以内120，100公里以内180，150公里以内240，再远就是300。少数有名的地方被手动调高（卡尔什泰因城堡离得只有23公里，却给240），跟着大景点一起的小地方则被调低。",
-      "卡框上的宝石告诉你这张卡值多少：60是铜钉，120是红宝石，180以上是会闪光的蓝钻。",
+      "卡框上的宝石告诉你这张卡值多少。60的卡是亮银色，镶一颗铜钉。从120起，卡片变成深色铂金，有一团光晕在上面缓缓移动，120镶红宝石；180以上镶会闪光的蓝钻，边框更华丽，四角也嵌着宝石，金属上还有银色的星点一闪一闪。",
     ],
     historyGuide: [
       "布拉格的历史，从建城传说讲起，分成24个时代，一次讲一个事件，配有插图，偶尔还会引用几句显然很有主见的编年史作者的原话。较新的时代还在陆续写作中。",

@@ -64,6 +64,7 @@ export const BOARD = {
       holdPair: 'Click a card for its details; double-click (on a phone, press and hold) to pick it up, then drag it sideways to turn it over.',
       noCards: 'The sample cards could not be loaded.',
       more: 'Learn more',
+      findInHistory: 'Find its event in History',
     },
     levels: {
       slider: 'Level',
@@ -178,6 +179,7 @@ export const BOARD = {
       holdPair: 'Klepnutím na kartu otevřeš detail; dvojklikem (na telefonu podržením) ji zvedneš a tažením do strany otočíš.',
       noCards: 'Ukázkové karty se nepodařilo načíst.',
       more: 'Zjistit víc',
+      findInHistory: 'Najít její událost v Historii',
     },
     levels: {
       slider: 'Úroveň',
@@ -292,6 +294,7 @@ export const BOARD = {
       holdPair: '单击卡片查看详情；双击（手机上长按）把它拿起来，再左右拖动就能翻面。',
       noCards: '示例卡片没能加载出来。',
       more: '了解更多',
+      findInHistory: '在历史事件线里找到此节',
     },
     levels: {
       slider: '等级',

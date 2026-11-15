@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { createPortal } from 'react-dom';
+import { useNavigate } from 'react-router-dom';
 import { useLang, useConvert } from '../../context/LanguageContext';
 import LocationCard from '../locations/LocationCard';
 import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, ALL_RARITIES } from '../../utils/rarity';
@@ -12,8 +13,11 @@ import { useCardDistance } from './useCardDistance';
 // stands large beside its description, and can be switched between locked and
 // collected, which plays the real unlock flip. Collected, it can be picked up
 // (double-click) into the showcase like any card. With Expedition picked, a
-// Learn more button opens the Expeditions window (`onMore`, 2026-11-16).
-export default function RarityDemo({ samples, onMore }) {
+// Learn more button opens the Expeditions window (`onMore`, 2026-11-16). With
+// the Secret example picked, a button goes to the History event that links it
+// (`secretEvent`), since that is the only way to find a secret card.
+export default function RarityDemo({ samples, onMore, secretEvent }) {
+  const navigate = useNavigate();
   const { lang } = useLang();
   const convert = useConvert();
   const b = (BOARD[lang] || BOARD.en).rarity;
@@ -53,6 +57,11 @@ export default function RarityDemo({ samples, onMore }) {
             </button>
           </div>
           <p className="guide-demo__hint">{convert(collected ? b.hold : b.open)}</p>
+          {picked === 'secret' && secretEvent && (
+            <button type="button" className="px-btn px-btn--outline guide-rarity__more" onClick={() => navigate(`/history?event=${secretEvent}`)}>
+              {convert(b.findInHistory)}
+            </button>
+          )}
           {picked === 'expedition' && onMore && (
             <button type="button" className="px-btn px-btn--outline guide-rarity__more" onClick={() => onMore('expedition')}>
               {convert(b.more)}

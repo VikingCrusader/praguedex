@@ -846,6 +846,13 @@ export const SECRET_SLUGS = new Set([
   // which Ludmila's Veil requires, and St Ludmila's church stay visible) and
   // Krliš, which matters only for the seven-dukes legend.
   'kriz-svate-ludmily-tetin', 'kostel-sv-jana-nepomuckeho-tetin', 'pahorek-krlis',
+  // Pičhora, so a reader meets a secret card on the History Timeline's first
+  // page (user's call, 2026-11-16).
+  'zarove-pohrebiste-pichora',
+  // Three more near ones with little weight of their own, each tied to a
+  // History event (user's call, 2026-11-16): the 1179 battle village, the spa
+  // town and the chateau that named the Lobkowicz family.
+  'lodenice-beroun', 'lazne-tousen', 'zamek-lobkovice',
 ]);
 export const SECRET_XP = { 60: 90, 120: 150, 180: 270, 240: 360, 300: 500 };
 

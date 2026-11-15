@@ -2927,6 +2927,18 @@ html[data-lang="zh"] .detail-title-name {
   flex-shrink: 0;
   margin-top: 1px;
 }
+.guide-step-num--blank { background: none; border-color: transparent; }
+/* A thin rule with a small label, splitting a list (the Rarity window: the
+   six city tiers above, Expedition and Secret below). */
+.guide-divider {
+  display: flex; align-items: center; gap: 10px;
+  margin: 14px 0 10px;
+  font-size: 13px; letter-spacing: 0.06em; color: var(--text-muted);
+}
+.guide-divider::before, .guide-divider::after {
+  content: ''; flex: 1; height: 1px;
+  background: color-mix(in srgb, var(--gold) 35%, transparent);
+}
 .guide-cats { display: flex; flex-direction: column; gap: 6px; margin: 10px 0; }
 .guide-cat {
   display: flex; gap: 10px; align-items: flex-start;

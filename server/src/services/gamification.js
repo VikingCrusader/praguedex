@@ -269,6 +269,13 @@ export const LEVELS = [
 // Zličín's terminal card is IKEA Zličín (next to the station); the Letňany
 // card's slug really does keep the ň.
 const CITY_RARITIES = ["common", "rare", "superior", "epic", "mythic", "legend"];
+// Decked in Jewels' checklist: each city rarity, each Expedition frame
+// (`step`: 60 silver, 120 amber, 180 platinum) and Secret.
+const jewelBoxItems = ({ rarityCount = {}, expeditionSteps = {} }) => [
+  ...CITY_RARITIES.map((r) => ({ rarity: r, done: (rarityCount[r] || 0) > 0 })),
+  ...[60, 120, 180].map((step) => ({ rarity: "expedition", step, done: (expeditionSteps[step] || 0) > 0 })),
+  { rarity: "secret", done: (rarityCount.secret || 0) > 0 },
+];
 // Angel in White: nine hospitals (user's list, 2026-11-02).
 const HOSPITAL_SLUGS = [
   "nemocnice-motol", "nemocnice-krc", "porodnice-podoli", "porodnice-apolinar",
@@ -1258,6 +1265,29 @@ export const ACHIEVEMENTS = [
       target: CITY_RARITIES.length,
       rarities: CITY_RARITIES.map((r) => ({ rarity: r, done: (rarityCount[r] || 0) > 0 })),
     }),
+  },
+  {
+    // Every card material (user's idea, 2026-11-16): the six city rarities,
+    // the three Expedition frames (silver 60, amber 120, platinum 180 and up)
+    // and Secret's obsidian, ten in all. The expedition steps go by the
+    // card's XP, as the frame does (expeditionGem on the client).
+    id: "jewel_box",
+    icon: "💍",
+    name: "Decked in Jewels",
+    name_cz: "Samé drahokamy",
+    name_zh: "珠光宝气",
+    flavor: "Silver, amber, platinum, obsidian: your album is turning into a jewellery box.",
+    flavor_cz: "Stříbro, jantar, platina, obsidián: z vašeho alba se stává šperkovnice.",
+    flavor_zh: "白银、琥珀、铂金、黑曜石……你的卡册快成首饰盒了。",
+    description: "Collect at least one card of every rarity: the six city rarities, each of the three Expedition frames (silver, 60 XP; amber, 120 XP; platinum, 180 XP and up) and a Secret card.",
+    description_cz: "Sesbírejte alespoň jednu kartu od každé vzácnosti: šest městských, každý ze tří rámů Výpravy (stříbrný, 60 XP; jantarový, 120 XP; platinový, 180 XP a víc) a kartu Tajné.",
+    description_zh: "每种稀有度至少收集一张卡：城内六种稀有度，远征卡的三种卡框（白银，60经验；琥珀，120经验；铂金，180经验及以上），再加一张秘藏卡。",
+    difficulty: "extreme",
+    check: (stats) => jewelBoxItems(stats).every((it) => it.done),
+    progress: (stats) => {
+      const items = jewelBoxItems(stats);
+      return { current: items.filter((it) => it.done).length, target: items.length, rarities: items };
+    },
   },
   {
     id: "hidden_depths",

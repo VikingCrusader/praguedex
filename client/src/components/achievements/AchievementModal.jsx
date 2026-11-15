@@ -11,6 +11,16 @@ import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
 import { achField, formatPercent, formatAchDate, SHOW_UNLOCK_RATE } from '../../utils/achievementText';
 import AchievementIcon from './AchievementIcon';
 
+// The History Timeline's first event, which links a Secret card (Pičhora).
+const SECRET_HISTORY_EVENT = 'early-history';
+
+// The three Expedition frames, by XP step (Decked in Jewels' checklist).
+const EXPEDITION_FRAME = {
+  en: { 60: 'Silver', 120: 'Amber', 180: 'Platinum' },
+  cz: { 60: 'stříbro', 120: 'jantar', 180: 'platina' },
+  zh: { 60: '白银', 120: '琥珀', 180: '铂金' },
+};
+
 // Detail of one achievement: the one-line flavor, the exact requirement, the
 // user's progress (with the places, for "check in at these places" ones),
 // when it was unlocked and how many players have it. Fields the caller
@@ -126,9 +136,17 @@ export default function AchievementModal({ achievement: ach, onClose }) {
             {r.rarities && (
               <ul className="ach-places ach-places--rarities">
                 {r.rarities.map(item => (
-                  <li key={item.rarity} className={`ach-places__item${item.done ? ' ach-places__item--done' : ''}`}>
+                  <li key={item.step ? `${item.rarity}-${item.step}` : item.rarity} className={`ach-places__item${item.done ? ' ach-places__item--done' : ''}`}>
                     <span className="ach-places__mark" aria-hidden="true">{item.done ? '✓' : '○'}</span>
-                    {toExplore({ rarity: item.rarity }, <><span style={{ color: RARITY_VAR[item.rarity] }}>{RARITY_ICON[item.rarity]}</span> {rarityText(item.rarity)}</>)}
+                    {(() => {
+                      const content = <><span style={{ color: RARITY_VAR[item.rarity] }}>{RARITY_ICON[item.rarity]}</span> {rarityText(item.rarity)}{item.step ? ` · ${convert((EXPEDITION_FRAME[lang] || EXPEDITION_FRAME.en)[item.step])}` : ''}</>;
+                      // Secret cards aren't on Explore: they are found on the
+                      // History page, so Secret opens its first event, which
+                      // links one (Pičhora; user's call, 2026-11-16).
+                      return item.rarity === 'secret'
+                        ? <Link className="ach-filter-link" to={`/history?event=${SECRET_HISTORY_EVENT}`} onClick={onClose}>{content}</Link>
+                        : toExplore({ rarity: item.rarity }, content);
+                    })()}
                   </li>
                 ))}
               </ul>

@@ -640,3 +640,13 @@ html:not([data-lang="zh"]) :is(#root, body) .guide-welcome__title { font-family:
   .guide-anchor--beckon { animation: guide-beckon 0.5s ease-in-out 3; }
 }
 @keyframes guide-beckon { 50% { scale: 1.06; box-shadow: 0 0 0 6px color-mix(in srgb, var(--gold) 35%, transparent); } }
+
+/* A link at the end of a Guide line (the Rarity window's Expedition and
+   Secret lines): gold, no box, underlined on hover. */
+.guide-inline-link {
+  display: inline; padding: 0; margin: 0 0 0 4px;
+  background: none; border: none;
+  font: inherit; color: var(--gold); white-space: nowrap;
+  text-decoration: none; cursor: pointer;
+}
+.guide-inline-link:hover { text-decoration: underline; }

@@ -559,3 +559,9 @@ hitting_the_streets: a pair of worn walking shoes, large, on a cobblestone pavem
 ```
 by_the_book: a thick old history book lying open, large, its pages showing a hand-drawn map with a winding road; a tiny traveller with a walking stick has stepped out of the page and stands on the book's edge, looking at a small black obsidian card glowing teal that rests just beyond the book, as if he had followed the map right out of it.
 ```
+
+### Group 52: every material (珠光宝气), done (2026-11-16; generated from this prompt, cropped round the box)
+
+```
+jewel_box: a small open wooden jewellery box with a red velvet lining, large and filling most of the square, its lid raised; instead of jewels it holds a fan of small collectible cards standing on edge, each a clearly different colour and material: cream paper, pale blue porcelain, green jade, deep violet amethyst, wine-red garnet, shining gold, brushed silver, honey amber, dark steel-blue platinum and black obsidian with a teal sheen. A string of round white pearls and one sparkling blue diamond spill over the front edge. The joke: a black-and-white magpie perched on the raised lid, tugging one more card out of the box with its beak, about to make off with it.
+```

@@ -1,5 +1,5 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { useLang, useConvert } from '../../context/LanguageContext';
 import { locationAPI, userAPI } from '../../services/api';
 import { pageCache, pageKey } from '../../utils/pageCache';
@@ -63,6 +63,11 @@ const SHOWCASE_SLUGS = ['st-vitus-cathedral', 'st-georges-basilica'];
 // the window describes the rarity, so it needs one example; Sion's ruins give
 // little away.
 const SECRET_SAMPLE_SLUG = 'zricenina-hradu-sion';
+// The History event that links it, for the window's "find this in the History
+// Timeline" button (2026-11-16; keep in step with its relatedLandmarks).
+const SECRET_SAMPLE_EVENT = 'the-last-man-on-sion-1437';
+// The History Timeline's first event, which links a Secret card (Pičhora).
+const SECRET_HISTORY_START = 'early-history';
 
 // The card the check-in demo collects (user's pick, 2026-11-13).
 const CHECKIN_SLUG = 'astronomical-clock';
@@ -150,12 +155,16 @@ export function TileMini({ kind, level }) {
 }
 
 // The section texts, in the narrow page's classes.
-function Steps({ items, colorOf, offset = 0 }) {
+// `plain`: no number box (a blank of the same width keeps the text aligned).
+// `extra(i)`: something to add after item i's text (a link).
+function Steps({ items, colorOf, offset = 0, plain = false, extra }) {
   return items.map((item, i) => (
     <div key={i + offset} className="guide-step">
-      <span className="guide-step-num">{i + offset + 1}</span>
+      {plain
+        ? <span className="guide-step-num guide-step-num--blank" aria-hidden="true" />
+        : <span className="guide-step-num">{i + offset + 1}</span>}
       {typeof item === 'string'
-        ? <p className="guide-body" style={colorOf ? { color: colorOf(i + offset) } : undefined}>{item}</p>
+        ? <p className="guide-body" style={colorOf ? { color: colorOf(i + offset) } : undefined}>{item}{extra?.(i + offset)}</p>
         : <p className="guide-body"><strong>{item.b}</strong>{item.rest}</p>}
     </div>
   ));
@@ -164,9 +173,10 @@ const Bold = ({ items }) => items.map((item, i) => <p key={i} className="guide-b
 const Tip = ({ children }) => <div className="guide-tip"><span>{children}</span></div>;
 // The Rarity window lists the rarities in this order, Secret last (it is not in
 // DIFF_RARITIES, which also builds the Guide's rarity list).
+const CITY_TIERS = 6;
 const rarityColor = i => RARITY_VAR[[...DIFF_RARITIES, 'secret'][i]];
 
-function SectionText({ k, c }) {
+function SectionText({ k, c, onOpenTile, onClose }) {
   switch (k) {
     case 'what': return <>
       {/* The opening tile's own picture, as the window's banner. */}
@@ -190,7 +200,23 @@ function SectionText({ k, c }) {
     case 'locked': return <Bold items={c.locked} />;
     case 'rarity': return <>
       <p className="guide-body">{c.effectsIntro}</p>
-      <Steps items={c.effects} colorOf={rarityColor} />
+      {/* The six city tiers are one ladder, numbered; Expedition and Secret
+          are beyond Prague, apart from it (user's call, 2026-11-16), so they
+          sit under a divider with no numbers. */}
+      <Steps items={c.effects.slice(0, CITY_TIERS)} colorOf={rarityColor} />
+      <div className="guide-divider"><span>{c.effectsOutside}</span></div>
+      <Steps items={c.effects.slice(CITY_TIERS)} colorOf={rarityColor} offset={CITY_TIERS} plain extra={i => {
+        // Expedition opens the Expeditions window; Secret goes to the History
+        // page's first event, which links a Secret card (user's call, 2026-11-16).
+        const r = [...DIFF_RARITIES, 'secret'][i];
+        if (r === 'expedition' && onOpenTile) {
+          return <> <button type="button" className="guide-inline-link" onClick={() => onOpenTile('expedition')}>{c.effectsLinks.expedition} →</button></>;
+        }
+        if (r === 'secret') {
+          return <> <Link className="guide-inline-link" to={`/history?event=${SECRET_HISTORY_START}`} onClick={onClose}>{c.effectsLinks.secret} →</Link></>;
+        }
+        return null;
+      }} />
       <p className="guide-body">{c.effectsOutro}</p>
     </>;
     case 'showcase': return <>
@@ -294,7 +320,7 @@ export function GuideTileWindow({ tileKey, c, data, onClose, onOpenTile }) {
   if (!tile) return null;
   const demo = tile.demo && samples && {
     checkin: <CheckInDemo card={list.find(l => l.slug === CHECKIN_SLUG) || samples.superior || samples.rare || samples.common} />,
-    rarity: <RarityDemo samples={samples} onMore={onOpenTile} />,
+    rarity: <RarityDemo samples={samples} onMore={onOpenTile} secretEvent={SECRET_SAMPLE_EVENT} />,
     showcase: <ShowcaseDemo cards={SHOWCASE_SLUGS.map(slug => list.find(l => l.slug === slug))} />,
     hunt: <HuntDemo />,
     install: <InstallDemo c={c} />,
@@ -309,7 +335,7 @@ export function GuideTileWindow({ tileKey, c, data, onClose, onOpenTile }) {
   }[tile.demo];
   return (
     <GuideWindow title={c[tile.title]} variant={tile.key} demo={tile.demo ? (demo || <div className="spinner" />) : null} onClose={onClose}>
-      <SectionText k={tile.key} c={text} />
+      <SectionText k={tile.key} c={text} onOpenTile={onOpenTile} onClose={onClose} />
     </GuideWindow>
   );
 }

@@ -98,6 +98,8 @@ export const CONTENT = {
       { b: "Unlocked:", rest: " the whole story opens up. The full history, plus the bonus paragraph at the end: the little extra the archive was saving for people who actually came. The cover gets its colours back, and tapping it still gets you directions." },
     ],
     effectsTitle: "Rarity",
+    effectsOutside: "Outside Prague",
+    effectsLinks: { expedition: "More on expeditions", secret: "Go to History" },
     effectsIntro: "Every card has a rarity, a card-game tier that tells you how rare a find it really is. It decides how much XP the card pays, and what the card looks like once you have it. Every collection comes with a ceremony: the lock falls away, an open lock takes its place and the card flips over with a flash of light and a sound effect to match (epic and above get a grander fanfare). After that, the card wears its rank for good. Every rarity is printed on its own material in its own frame, from paper through porcelain, jade, amethyst and Bohemian garnet up to gold, with silver, amber, platinum and obsidian beyond Prague, and the rarer it is, the more it shows off:",
     effects: withXp('en', [
       "● Common · Paper: cream, with a hairline frame. Dignified. Understated. Prague-ordinary.",
@@ -242,6 +244,8 @@ export const CONTENT = {
       { b: "Odemčené:", rest: " otevře se celý příběh. Kompletní historie a navíc bonusový odstavec na konci: malá třešnička, kterou si archiv šetřil pro ty, kdo opravdu přišli. Obrázek dostane zpátky barvy a klepnutím na něj se pořád dostaneš k navigaci." },
     ],
     effectsTitle: "Vzácnost",
+    effectsOutside: "Mimo Prahu",
+    effectsLinks: { expedition: "Více o výpravách", secret: "Do Historie" },
     effectsIntro: "Každá karta má svou vzácnost, karetní úroveň, která říká, jak vzácný nález to doopravdy je. Rozhoduje o tom, kolik XP karta vyplatí a jak bude vypadat, až ji budeš mít. Každé sebrání má svůj obřad: zámek odpadne, na jeho místo naskočí otevřený a karta se otočí se zábleskem světla a odpovídajícím zvukem (epické a vyšší dostanou slavnostnější fanfáru). Potom karta nosí svou hodnost natrvalo. Každá vzácnost je vytištěná na vlastním materiálu ve vlastním rámu, od papíru přes porcelán, nefrit, ametyst a český granát až po zlato, za Prahou pak stříbro, jantar, platina a obsidián, a čím je vzácnější, tím víc se předvádí:",
     effects: withXp('cz', [
       "● Běžné · Papír: krémový, s tenoučkým rámečkem. Důstojné. Střídmé. Běžné po pražsku.",
@@ -386,6 +390,8 @@ export const CONTENT = {
       { b: "解锁后：", rest: "整个故事全部展开。完整的历史，再加上结尾的彩蛋段落，那是档案专门留给真正来过的人的一点小惊喜。封面恢复彩色，点封面照样可以导航。" },
     ],
     effectsTitle: "稀有度",
+    effectsOutside: "布拉格以外",
+    effectsLinks: { expedition: "远征详解", secret: "去城史看看" },
     effectsIntro: "每张卡都有一个稀有度，类似卡牌游戏的等级，告诉你这个发现到底有多难得。它决定这张卡给多少经验值，也决定你收集之后它长什么样。每次打卡都有一场小仪式：锁头脱落，一把打开的锁取而代之，卡片带着一道闪光翻转过来，还配有音效（史诗及以上会响起更隆重的号角）。从此以后，卡片会一直佩戴它的等级。每个稀有度都印在自己的材质上，配着自己的边框，从纸张、陶瓷、玉石、紫水晶、波希米亚石榴石一路到黄金，出了布拉格还有白银、琥珀、铂金和黑曜石，越稀有越花哨：",
     effects: withXp('zh', [
       "● 常见 · 纸张：米色的纸，一圈细细的边框。端庄，低调，布拉格式普通。",

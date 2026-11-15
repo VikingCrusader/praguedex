@@ -167,6 +167,17 @@ describe('evaluateAchievements', () => {
     expect(evaluateAchievements({ ...baseStats, rarityCount: { ...six, legend: 0, expedition: 3 } }, []).map(a => a.id)).not.toContain('all_the_colours');
   });
 
+  test('jewel_box needs every city rarity, each expedition frame and a secret card', () => {
+    const all = { common: 1, rare: 1, superior: 1, epic: 1, mythic: 1, legend: 1, expedition: 3, secret: 1 };
+    const steps = { 60: 1, 120: 1, 180: 1 };
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    expect(ids({ rarityCount: all, expeditionSteps: steps })).toContain('jewel_box');
+    expect(ids({ rarityCount: all, expeditionSteps: { ...steps, 120: 0 } })).not.toContain('jewel_box');
+    expect(ids({ rarityCount: { ...all, secret: 0 }, expeditionSteps: steps })).not.toContain('jewel_box');
+    const p = ACHIEVEMENTS.find(a => a.id === 'jewel_box').progress({ rarityCount: all, expeditionSteps: { 60: 2 } });
+    expect(p).toMatchObject({ current: 8, target: 10 });
+  });
+
   test('hidden_depths needs 20 mythic cards', () => {
     expect(evaluateAchievements({ ...baseStats, rarityCount: { mythic: 20 } }, []).map(a => a.id)).toContain('hidden_depths');
     expect(evaluateAchievements({ ...baseStats, rarityCount: { mythic: 19 } }, []).map(a => a.id)).not.toContain('hidden_depths');

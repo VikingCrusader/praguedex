@@ -616,16 +616,17 @@
   --lr-y: 2.5cqw;  /* the top and bottom rules: the middle of the top arm */
   --lr-in: 39cqw;  /* where a rule leaves an arm */
 }
-/* The vine joining the corners: the four edge ornaments, each filling the
-   gap between two corners with a repeating Baroque vine (a waving stem, a
-   small scroll curling up, one curling down, a leaf at the foot of each),
-   drawn in CSS and simpler than the corners. The repeat is centred, so its
-   cut ends lie under the corners' end scrolls. */
+/* The rule joining the corners: the four edge ornaments, each filling the
+   gap between two corners with a straight gilt band (a main line between
+   two hairlines, a lozenge and a bead alternating along it), drawn in CSS.
+   A waving vine came first and read as untidy (user, 2026-11-15: straight,
+   but still grand). The repeat is centred, so its cut ends lie under the
+   corners' end scrolls. */
 .loc-card.loc-card[data-rarity="legend"] :is(.loc-card__orn--top, .loc-card__orn--bottom, .loc-card__orn--left, .loc-card__orn--right) {
   display: block;
   transform: none;
-  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 12' fill='none' stroke='black' stroke-width='1.45' stroke-linecap='round'%3E%3Cpath d='M0 6C5 3.6 11 3.6 16 6C21 8.4 27 8.4 32 6'/%3E%3Cpath d='M6.5 4.6C7 2 10 1 11.6 2.3C13 3.5 12 5.2 10.6 4.8C9.7 4.5 9.9 3.4 10.7 3.4'/%3E%3Cpath d='M22.5 7.4C23 10 26 11 27.6 9.7C29 8.5 28 6.8 26.6 7.2C25.7 7.5 25.9 8.6 26.7 8.6'/%3E%3Cpath d='M4.6 5C3 3.6 1.4 3.4 0.6 4C1.6 5 3 5.4 4.6 5Z M20.6 7C19 8.4 17.4 8.6 16.6 8C17.6 7 19 6.6 20.6 7Z' fill='black' stroke='none'/%3E%3C/svg%3E") 50% 50% / 34px 13px repeat-x;
-          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 12' fill='none' stroke='black' stroke-width='1.45' stroke-linecap='round'%3E%3Cpath d='M0 6C5 3.6 11 3.6 16 6C21 8.4 27 8.4 32 6'/%3E%3Cpath d='M6.5 4.6C7 2 10 1 11.6 2.3C13 3.5 12 5.2 10.6 4.8C9.7 4.5 9.9 3.4 10.7 3.4'/%3E%3Cpath d='M22.5 7.4C23 10 26 11 27.6 9.7C29 8.5 28 6.8 26.6 7.2C25.7 7.5 25.9 8.6 26.7 8.6'/%3E%3Cpath d='M4.6 5C3 3.6 1.4 3.4 0.6 4C1.6 5 3 5.4 4.6 5Z M20.6 7C19 8.4 17.4 8.6 16.6 8C17.6 7 19 6.6 20.6 7Z' fill='black' stroke='none'/%3E%3C/svg%3E") 50% 50% / 34px 13px repeat-x;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 13' fill='none' stroke='black'%3E%3Cpath d='M0 6.5H28' stroke-width='1.6'/%3E%3Cpath d='M0 3.2H28M0 9.8H28' stroke-width='0.7'/%3E%3Cg fill='black' stroke='none'%3E%3Cpath d='M14 4L16.6 6.5L14 9L11.4 6.5Z'/%3E%3Ccircle cx='0' cy='6.5' r='1.3'/%3E%3Ccircle cx='28' cy='6.5' r='1.3'/%3E%3C/g%3E%3C/svg%3E") 50% 50% / 28px 13px repeat-x;
+          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 13' fill='none' stroke='black'%3E%3Cpath d='M0 6.5H28' stroke-width='1.6'/%3E%3Cpath d='M0 3.2H28M0 9.8H28' stroke-width='0.7'/%3E%3Cg fill='black' stroke='none'%3E%3Cpath d='M14 4L16.6 6.5L14 9L11.4 6.5Z'/%3E%3Ccircle cx='0' cy='6.5' r='1.3'/%3E%3Ccircle cx='28' cy='6.5' r='1.3'/%3E%3C/g%3E%3C/svg%3E") 50% 50% / 28px 13px repeat-x;
 }
 .loc-card.loc-card[data-rarity="legend"] :is(.loc-card__orn--top, .loc-card__orn--bottom) {
   width: auto;
@@ -640,12 +641,13 @@
   height: auto;
   top: calc(-1px + var(--lr-in));
   bottom: calc(-1px + var(--lr-in));
-  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 32' fill='none' stroke='black' stroke-width='1.45' stroke-linecap='round'%3E%3Cpath d='M6 0C3.6 5 3.6 11 6 16C8.4 21 8.4 27 6 32'/%3E%3Cpath d='M4.6 6.5C2 7 1 10 2.3 11.6C3.5 13 5.2 12 4.8 10.6C4.5 9.7 3.4 9.9 3.4 10.7'/%3E%3Cpath d='M7.4 22.5C10 23 11 26 9.7 27.6C8.5 29 6.8 28 7.2 26.6C7.5 25.7 8.6 25.9 8.6 26.7'/%3E%3Cpath d='M5 4.6C3.6 3 3.4 1.4 4 0.6C5 1.6 5.4 3 5 4.6Z M7 20.6C8.4 19 8.6 17.4 8 16.6C7 17.6 6.6 19 7 20.6Z' fill='black' stroke='none'/%3E%3C/svg%3E") 50% 50% / 13px 34px repeat-y;
-          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 32' fill='none' stroke='black' stroke-width='1.45' stroke-linecap='round'%3E%3Cpath d='M6 0C3.6 5 3.6 11 6 16C8.4 21 8.4 27 6 32'/%3E%3Cpath d='M4.6 6.5C2 7 1 10 2.3 11.6C3.5 13 5.2 12 4.8 10.6C4.5 9.7 3.4 9.9 3.4 10.7'/%3E%3Cpath d='M7.4 22.5C10 23 11 26 9.7 27.6C8.5 29 6.8 28 7.2 26.6C7.5 25.7 8.6 25.9 8.6 26.7'/%3E%3Cpath d='M5 4.6C3.6 3 3.4 1.4 4 0.6C5 1.6 5.4 3 5 4.6Z M7 20.6C8.4 19 8.6 17.4 8 16.6C7 17.6 6.6 19 7 20.6Z' fill='black' stroke='none'/%3E%3C/svg%3E") 50% 50% / 13px 34px repeat-y;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 13 28' fill='none' stroke='black'%3E%3Cpath d='M6.5 0V28' stroke-width='1.6'/%3E%3Cpath d='M3.2 0V28M9.8 0V28' stroke-width='0.7'/%3E%3Cg fill='black' stroke='none'%3E%3Cpath d='M6.5 11.4L9 14L6.5 16.6L4 14Z'/%3E%3Ccircle cx='6.5' cy='0' r='1.3'/%3E%3Ccircle cx='6.5' cy='28' r='1.3'/%3E%3C/g%3E%3C/svg%3E") 50% 50% / 13px 28px repeat-y;
+          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 13 28' fill='none' stroke='black'%3E%3Cpath d='M6.5 0V28' stroke-width='1.6'/%3E%3Cpath d='M3.2 0V28M9.8 0V28' stroke-width='0.7'/%3E%3Cg fill='black' stroke='none'%3E%3Cpath d='M6.5 11.4L9 14L6.5 16.6L4 14Z'/%3E%3Ccircle cx='6.5' cy='0' r='1.3'/%3E%3Ccircle cx='6.5' cy='28' r='1.3'/%3E%3C/g%3E%3C/svg%3E") 50% 50% / 13px 28px repeat-y;
 }
 .loc-card.loc-card[data-rarity="legend"] .loc-card__orn--left  { left: calc(-1px + var(--lr-x) - 6.5px); }
 .loc-card.loc-card[data-rarity="legend"] .loc-card__orn--right { left: auto; right: calc(-1px + var(--lr-x) - 6.5px); transform: scaleX(-1); }
-/* No gems on legend any more (user, 2026-11-14). */
+/* No gems on legend: stones are the expedition's own (user, 2026-11-14;
+   a jewel in the top and bottom bands was tried and dropped, 2026-11-15). */
 .loc-card.loc-card[data-rarity="legend"] .loc-card__gem { display: none; }
 .loc-card.loc-card[data-rarity="legend"] .loc-card__footer { padding-inline: 4px; }
 .loc-card.loc-card[data-rarity="legend"] .loc-card__body { padding-inline: 24px; }

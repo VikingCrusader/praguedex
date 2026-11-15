@@ -13,9 +13,9 @@
 import PACK_DESCRIPTIONS from './packDescriptions.js';
 
 export const PACK_UNLOCK_AT = 3;
-export const PACK_UNLOCK_XP = 20;
+export const PACK_UNLOCK_XP = 40;
 // Set beside the achievement tiers: 800 is what a Diamond pays.
-export const packCompleteXp = (cards) => Math.min(800, Math.max(100, cards * 15));
+export const packCompleteXp = (cards) => Math.min(800, Math.max(100, cards * 25));
 
 // `released` is when the pack went live (its commit), for the Newest sort on
 // Explore: packs stand among the cards by that time (2026-11-11, user's call).

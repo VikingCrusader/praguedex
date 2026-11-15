@@ -203,6 +203,17 @@ describe('GET /api/user/achievements', () => {
     expect(res.body.levels.length).toBeGreaterThan(0);
   });
 
+  test("a guest gets no progress, but each achievement's places in `requires`", async () => {
+    await Location.create({
+      name: 'South Pole of Prague', slug: 'jizni-pol-prahy', coordinates: CHARLES_BRIDGE, rarity: 'rare', xpReward: 20,
+    });
+    const res = await request(app).get('/api/user/achievements');
+    expect(res.body.achievements.every(a => a.progress === null)).toBe(true);
+    const pole = res.body.achievements.find(a => a.id === 'southern-pole');
+    expect(pole.requires.places).toEqual([expect.objectContaining({ slug: 'jizni-pol-prahy', done: false })]);
+    expect(pole.requires.current).toBeUndefined();
+  });
+
   test('marks southern-pole as unlocked after checking in there', async () => {
     await Location.create({
       name: 'South Pole of Prague', slug: 'jizni-pol-prahy', coordinates: CHARLES_BRIDGE, rarity: 'rare', xpReward: 20,

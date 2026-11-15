@@ -24,6 +24,9 @@ export default function AchievementModal({ achievement: ach, onClose }) {
   const [openSlug, setOpenSlug] = useState(null);
   const [openPack, setOpenPack] = useState(null);
   const { overlayRef, modalRef, close } = useWindowEntrance(onClose);
+  // What the achievement asks for (places, packs, labels): from the progress,
+  // or for a guest, who has none, from `requires` (2026-11-15).
+  const r = p ?? ach.requires;
   const pct = p ? Math.min(100, Math.round((p.current / p.target) * 100)) : 0;
   // A label or rarity leads to the Explore cards it counts; no underline (user's call).
   const toExplore = (filter, content, className = '') => (
@@ -55,6 +58,82 @@ export default function AchievementModal({ achievement: ach, onClose }) {
         </li>
       ))}
     </ul>
+  );
+
+  const lists = r && (
+    <>
+            {r.countsLabel && (
+              <div className="ach-modal__sublabel" style={{ marginTop: 8 }}>
+                {toExplore({ label: r.countsLabel }, t('ach.seeCards', { name: labelText(r.countsLabel) }), ' ach-filter-link--gold')}
+              </div>
+            )}
+            {r.countsRarity && (
+              <div className="ach-modal__sublabel" style={{ marginTop: 8 }}>
+                {toExplore({ rarity: r.countsRarity }, t('ach.seeCards', { name: rarityText(r.countsRarity) }), ' ach-filter-link--gold')}
+              </div>
+            )}
+            {r.counts && r.counts.map(c => (
+              <div className="ach-modal__quarter" key={c.label}>
+                <div className="ach-modal__sublabel">
+                  {/* "a|b": one bar for cards with either label (Art Lover) */}
+                  {c.label.split('|').map((l, i) => <span key={l}>{i > 0 && ' / '}{toExplore({ label: l }, labelText(l))}</span>)}
+                </div>
+                {p && (
+                  <div className="ach-progress">
+                    <span className="ach-bar"><span className="ach-bar__fill" style={{ width: `${Math.min(100, Math.round((c.current / c.target) * 100))}%` }} /></span>
+                    <span className="ach-progress__count">{c.current} / {c.target}</span>
+                  </div>
+                )}
+              </div>
+            ))}
+            {r.labels && (
+              <ul className="ach-places ach-places--rarities">
+                {r.labels.map(l => (
+                  <li key={l.label} className={`ach-places__item${l.done ? ' ach-places__item--done' : ''}`}>
+                    <span className="ach-places__mark" aria-hidden="true">{l.done ? '✓' : '○'}</span>
+                    {toExplore({ label: l.label }, labelText(l.label))}
+                  </li>
+                ))}
+              </ul>
+            )}
+            {r.places?.length > 0 && r.picks && (
+              <div className="ach-modal__sublabel" style={{ marginTop: 10 }}>{t('ach.required')}</div>
+            )}
+            {r.places?.length > 0 && renderPlaces(r.places)}
+            {r.picks?.map((g, i) => (
+              <div key={i}>
+                <div className="ach-modal__sublabel" style={{ marginTop: 10 }}>
+                  {g.label
+                    ? t('ach.pickNOf', { group: convert(g.label[lang] || g.label.en), n: g.need })
+                    : t('ach.pickN', { n: g.need })}
+                </div>
+                {renderPlaces(g.places)}
+              </div>
+            ))}
+            {r.packs && (
+              <div>
+                <div className="ach-modal__sublabel" style={{ marginTop: 10 }}>{t('ach.pickNPacks', { n: r.packs.need })}</div>
+                <ul className="ach-places">
+                  {r.packs.items.map(pk => (
+                    <li key={pk.slug} className={`ach-places__item${pk.done ? ' ach-places__item--done' : ''}`}>
+                      <span className="ach-places__mark" aria-hidden="true">{pk.done ? '✓' : '○'}</span>
+                      <button type="button" className="ach-places__open" onClick={() => setOpenPack(pk.slug)}>{convert(getLocName(pk, lang))}</button>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {r.rarities && (
+              <ul className="ach-places ach-places--rarities">
+                {r.rarities.map(item => (
+                  <li key={item.rarity} className={`ach-places__item${item.done ? ' ach-places__item--done' : ''}`}>
+                    <span className="ach-places__mark" aria-hidden="true">{item.done ? '✓' : '○'}</span>
+                    {toExplore({ rarity: item.rarity }, <><span style={{ color: RARITY_VAR[item.rarity] }}>{RARITY_ICON[item.rarity]}</span> {rarityText(item.rarity)}</>)}
+                  </li>
+                ))}
+              </ul>
+            )}
+    </>
   );
 
   return (
@@ -89,6 +168,7 @@ export default function AchievementModal({ achievement: ach, onClose }) {
         <div className="ach-modal__section">
           <div className="ach-modal__label">{t('ach.requirement')}</div>
           <p className="ach-modal__req">{text('description')}</p>
+          {!p && lists}
         </div>
 
         {p && (
@@ -98,80 +178,12 @@ export default function AchievementModal({ achievement: ach, onClose }) {
               <span className="ach-bar"><span className="ach-bar__fill" style={{ width: `${pct}%` }} /></span>
               <span className="ach-progress__count">{p.current} / {p.target}{p.unit ? ` ${p.unit}` : ''}</span>
             </div>
-            {p.countsLabel && (
-              <div className="ach-modal__sublabel" style={{ marginTop: 8 }}>
-                {toExplore({ label: p.countsLabel }, t('ach.seeCards', { name: labelText(p.countsLabel) }), ' ach-filter-link--gold')}
-              </div>
-            )}
-            {p.countsRarity && (
-              <div className="ach-modal__sublabel" style={{ marginTop: 8 }}>
-                {toExplore({ rarity: p.countsRarity }, t('ach.seeCards', { name: rarityText(p.countsRarity) }), ' ach-filter-link--gold')}
-              </div>
-            )}
             {p.note && (
               <div className="ach-modal__sublabel" style={{ marginTop: 8 }}>
                 {t('ach.closest', { name: convert(p.note[lang] || p.note.en) })}
               </div>
             )}
-            {p.counts && p.counts.map(c => (
-              <div className="ach-modal__quarter" key={c.label}>
-                <div className="ach-modal__sublabel">
-                  {/* "a|b": one bar for cards with either label (Art Lover) */}
-                  {c.label.split('|').map((l, i) => <span key={l}>{i > 0 && ' / '}{toExplore({ label: l }, labelText(l))}</span>)}
-                </div>
-                <div className="ach-progress">
-                  <span className="ach-bar"><span className="ach-bar__fill" style={{ width: `${Math.min(100, Math.round((c.current / c.target) * 100))}%` }} /></span>
-                  <span className="ach-progress__count">{c.current} / {c.target}</span>
-                </div>
-              </div>
-            ))}
-            {p.labels && (
-              <ul className="ach-places ach-places--rarities">
-                {p.labels.map(l => (
-                  <li key={l.label} className={`ach-places__item${l.done ? ' ach-places__item--done' : ''}`}>
-                    <span className="ach-places__mark" aria-hidden="true">{l.done ? '✓' : '○'}</span>
-                    {toExplore({ label: l.label }, labelText(l.label))}
-                  </li>
-                ))}
-              </ul>
-            )}
-            {p.places?.length > 0 && p.picks && (
-              <div className="ach-modal__sublabel" style={{ marginTop: 10 }}>{t('ach.required')}</div>
-            )}
-            {p.places?.length > 0 && renderPlaces(p.places)}
-            {p.picks?.map((g, i) => (
-              <div key={i}>
-                <div className="ach-modal__sublabel" style={{ marginTop: 10 }}>
-                  {g.label
-                    ? t('ach.pickNOf', { group: convert(g.label[lang] || g.label.en), n: g.need })
-                    : t('ach.pickN', { n: g.need })}
-                </div>
-                {renderPlaces(g.places)}
-              </div>
-            ))}
-            {p.packs && (
-              <div>
-                <div className="ach-modal__sublabel" style={{ marginTop: 10 }}>{t('ach.pickNPacks', { n: p.packs.need })}</div>
-                <ul className="ach-places">
-                  {p.packs.items.map(pk => (
-                    <li key={pk.slug} className={`ach-places__item${pk.done ? ' ach-places__item--done' : ''}`}>
-                      <span className="ach-places__mark" aria-hidden="true">{pk.done ? '✓' : '○'}</span>
-                      <button type="button" className="ach-places__open" onClick={() => setOpenPack(pk.slug)}>{convert(getLocName(pk, lang))}</button>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-            {p.rarities && (
-              <ul className="ach-places ach-places--rarities">
-                {p.rarities.map(r => (
-                  <li key={r.rarity} className={`ach-places__item${r.done ? ' ach-places__item--done' : ''}`}>
-                    <span className="ach-places__mark" aria-hidden="true">{r.done ? '✓' : '○'}</span>
-                    {toExplore({ rarity: r.rarity }, <><span style={{ color: RARITY_VAR[r.rarity] }}>{RARITY_ICON[r.rarity]}</span> {rarityText(r.rarity)}</>)}
-                  </li>
-                ))}
-              </ul>
-            )}
+            {lists}
             {p.district && (
               <div className="ach-modal__sublabel" style={{ marginTop: 8 }}>
                 {t('ach.closestDistrict', { district: convert(t('detail.district', { n: p.district.replace(/^Praha /, '') })) })}

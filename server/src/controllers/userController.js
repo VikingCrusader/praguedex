@@ -14,7 +14,7 @@ import { inPrague } from '../utils/pragueBoundary.js';
 import { startOfPragueWeek } from '../utils/pragueTime.js';
 import { recordCheckIn } from './checkinController.js';
 import { parsePreferences } from '../utils/preferences.js';
-import { syncAchievements, historyEraOrder } from '../services/achievementStats.js';
+import { syncAchievements, buildAchievementStats, historyEraOrder } from '../services/achievementStats.js';
 import { historyReadingSummary } from './historyController.js';
 import { PACKS } from '../data/packs.js';
 import { BIG_BATCH } from '../utils/dbBatch.js';
@@ -689,8 +689,11 @@ export async function getAchievements(req, res, next) {
     const user = req.user;
     // Unlock anything already earned first, so it shows (and counts in the
     // rates) right away.
+    // A guest gets zero stats, so the places each achievement names (and the
+    // quarter's landmarks) still show in its detail (2026-11-15).
     const sync = user ? await syncAchievements(user) : null;
-    const stats = sync?.stats ?? null;
+    const stats = sync?.stats ?? await buildAchievementStats(null);
+    const guest = !user;
     const earned = new Map((user?.achievements || []).map(a => [a.id, a.unlockedAt]));
     const slugs = [...new Set(ACHIEVEMENTS.flatMap(a => {
       if (!stats) return [];
@@ -747,6 +750,14 @@ export async function getAchievements(req, res, next) {
             })),
           };
         }
+      }
+      // A guest has no progress (the lists say "signed in" by its presence),
+      // only what it asks for: places, packs, labels, the quarter.
+      if (guest && out.progress) {
+        const { current, target, unit, note, district, ...requires } = out.progress;
+        if (requires.quarter) requires.quarter = { name: requires.quarter.name };
+        out.requires = requires;
+        out.progress = null;
       }
       return out;
     });

@@ -48,7 +48,9 @@ export async function buildAchievementStats(userId, user = null) {
   // The cards (totals, legends, embassies, packs and the card behind each
   // check-in) come from memory, services/locationCatalog.js.
   const [checkins, catalog, livePackList, historyEraReached] = await Promise.all([
-    CheckIn.find({ user: userId }, '-note -user').batchSize(BIG_BATCH).lean(),
+    // A guest (no userId) has no check-ins: their stats are all zero, which
+    // still gives each achievement its list of places.
+    userId ? CheckIn.find({ user: userId }, '-note -user').batchSize(BIG_BATCH).lean() : [],
     locationCatalog(),
     livePacks('slug'),
     // Turning the Page: the era of the History Timeline event the user is on.

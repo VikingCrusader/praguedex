@@ -63,7 +63,7 @@ export const hasSecretCard = (locations) => !!locations?.some(l => l.rarity === 
 export const CITY_RARITIES = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'];
 export const ALL_RARITIES = [...CITY_RARITIES, 'expedition'];
 // Three stones (2026-10-16, user's call: diamonds for everything from 180 up).
-export const EXPEDITION_GEMS = { 60: 'bronze', 120: 'ruby', 180: 'diamond' };
+export const EXPEDITION_GEMS = { 60: 'bronze', 120: 'pearl', 180: 'diamond' };
 export const expeditionGem = (xp) => {
   const steps = Object.keys(EXPEDITION_GEMS).map(Number);
   const step = steps.filter(s => s <= (xp ?? 0)).pop() ?? steps[0];

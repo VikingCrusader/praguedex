@@ -25,6 +25,7 @@ import AreasDemo from './AreasDemo';
 import ExpeditionDemo from './ExpeditionDemo';
 import HistoryDemo from './HistoryDemo';
 import StartDemo from './StartDemo';
+import LevelsDemo from './LevelsDemo';
 
 // The tiles, in reading order. `span`: columns x rows on the six-column board.
 // Wide tiles (2 x 1) have a 4:3 picture on the left and the text beside it;
@@ -41,7 +42,7 @@ export const TILES = [
   { key: 'locked', title: 'lockedTitle', span: [1, 1], icon: '🔒', fallback: '/pixel-art/lock-closed-king.webp', demo: 'locked' },
   { key: 'showcase', title: 'showcaseTitle', span: [1, 1], icon: '🃏', fallback: '/brand/card-back.webp', demo: 'showcase' },
   { key: 'hunt', title: 'drawTitle', span: [2, 1], icon: '🗝️', mini: 'ladder', fallback: '/brand/hunt-back.webp', demo: 'hunt' },
-  { key: 'xp', title: 'xpTitle', span: [2, 1], icon: '⭐', mini: 'levels' },
+  { key: 'xp', title: 'xpTitle', span: [2, 1], icon: '⭐', mini: 'levels', demo: 'levels' },
   { key: 'packs', title: 'packsTitle', span: [2, 1], icon: '🎁', fallback: '/pixel-art/pack-emblem.webp', demo: 'packs' },
   { key: 'ach', title: 'achTitle', span: [1, 1], icon: '🏆', fallback: '/achievements/default.webp', demo: 'ach' },
   { key: 'areas', title: 'areasTitle', span: [1, 1], icon: '🗺️', fallback: '/map/compass.webp', demo: 'areas' },
@@ -57,12 +58,28 @@ export const TILES = [
 // The two cards of the Showing Off demo (user's pick, 2026-11-13).
 const SHOWCASE_SLUGS = ['st-vitus-cathedral', 'st-georges-basilica'];
 
+// The one Secret card the Rarity window shows (user's pick, 2026-11-16): every
+// other secret card stays out of the Guide until collected (isFindable), but
+// the window describes the rarity, so it needs one example; Sion's ruins give
+// little away.
+const SECRET_SAMPLE_SLUG = 'zricenina-hradu-sion';
+
 // The card the check-in demo collects (user's pick, 2026-11-13).
 const CHECKIN_SLUG = 'astronomical-clock';
 
-// One real card per rarity for the demos: a well-known one with a cover if
-// possible (FEATURED_SLUGS), else any with a cover; for Expedition the one
-// paying most, so its frame carries the diamond.
+// Samples picked by hand (user's picks, 2026-11-16); the others are picked
+// automatically below. Common needed it most: none of its cards is in
+// FEATURED_SLUGS, so it fell to whichever came first in the list.
+const SAMPLE_SLUGS = {
+  common: 'czech-museum-of-music',
+  rare: 'katedra-sv-klimenta',
+  superior: 'stefanikova-hvezdarna',
+  epic: 'klaster-sv-anezky-ceske',
+};
+
+// One real card per rarity for the demos: SAMPLE_SLUGS, else a well-known one
+// with a cover if possible (FEATURED_SLUGS), else any with a cover; for
+// Expedition the one paying most, so its frame carries the diamond.
 function pickSamples(list) {
   const withCover = list.filter(l => getLocalCoverPath(l.slug, l.coverImage));
   const rank = l => { const i = FEATURED_SLUGS.indexOf(l.slug); return i < 0 ? Infinity : i; };
@@ -70,8 +87,13 @@ function pickSamples(list) {
   for (const r of ALL_RARITIES) {
     const pool = withCover.filter(l => (l.rarity || 'common') === r);
     pool.sort(r === 'expedition' ? (a, b) => (b.xpReward ?? 0) - (a.xpReward ?? 0) : (a, b) => rank(a) - rank(b));
-    if (pool[0]) out[r] = pool[0];
+    // A hand-picked card comes from the whole list: its cover may be on
+    // Cloudinary only (newer than the local file), which withCover leaves out.
+    const fixed = SAMPLE_SLUGS[r] && list.find(l => l.slug === SAMPLE_SLUGS[r] && (l.rarity || 'common') === r);
+    if (fixed || pool[0]) out[r] = fixed || pool[0];
   }
+  const secret = list.find(l => l.slug === SECRET_SAMPLE_SLUG);
+  if (secret) out.secret = secret;
   return out;
 }
 
@@ -140,7 +162,7 @@ function Steps({ items, colorOf, offset = 0 }) {
 }
 const Bold = ({ items }) => items.map((item, i) => <p key={i} className="guide-body"><strong>{item.b}</strong>{item.rest}</p>);
 const Tip = ({ children }) => <div className="guide-tip"><span>{children}</span></div>;
-// The Unlock Show lists the rarities in this order, Secret last (it is not in
+// The Rarity window lists the rarities in this order, Secret last (it is not in
 // DIFF_RARITIES, which also builds the Guide's rarity list).
 const rarityColor = i => RARITY_VAR[[...DIFF_RARITIES, 'secret'][i]];
 
@@ -178,9 +200,6 @@ function SectionText({ k, c }) {
     </>;
     case 'xp': return <>
       <p className="guide-body">{c.xpIntro}</p>
-      <Steps items={c.diff.slice(0, 6)} colorOf={rarityColor} />
-      <p className="guide-body">{c.diffBeyond}</p>
-      <Steps items={c.diff.slice(6)} colorOf={rarityColor} offset={6} />
       <p className="guide-body">{c.xpOutro}</p>
     </>;
     case 'hunt': return <>
@@ -234,7 +253,16 @@ export function useGuideData() {
     if (list) return undefined;
     let live = true;
     locationAPI.getAll()
-      .then(res => { if (!live) return; const found = res.data.filter(isFindable); pageCache.set('guide:locations', found); setList(found); })
+      .then(res => {
+        if (!live) return;
+        // Findable cards only, plus the one Secret sample (kept last, so the
+        // other demos, which pick by slug or rarity, never meet it).
+        const found = res.data.filter(isFindable);
+        const secret = res.data.find(l => l.slug === SECRET_SAMPLE_SLUG);
+        if (secret && !found.includes(secret)) found.push(secret);
+        pageCache.set('guide:locations', found);
+        setList(found);
+      })
       .catch(() => live && setList([]));
     return () => { live = false; };
   }, [list]);
@@ -244,26 +272,29 @@ export function useGuideData() {
   const packs = usePacks();
   const achKey = pageKey('guide:achievements', user?._id);
   const [achievements, setAchievements] = useState(() => pageCache.get(achKey) ?? null);
+  const [levels, setLevels] = useState(() => pageCache.get('guide:levels') ?? null);
   useEffect(() => {
     let live = true;
     userAPI.getAchievements()
-      .then(res => { if (!live) return; pageCache.set(achKey, res.data.achievements); setAchievements(res.data.achievements); })
+      .then(res => { if (!live) return; pageCache.set(achKey, res.data.achievements); pageCache.set('guide:levels', res.data.levels); setAchievements(res.data.achievements); setLevels(res.data.levels); })
       .catch(() => {});
     return () => { live = false; };
   }, [achKey]);
   const achCount = achievements?.length ? String(achievements.length) : convert(b.manyAch);
-  return { list, samples, packs, achievements, achCount };
+  return { list, samples, packs, achievements, levels, achCount };
 }
 
 // One tile's section in its window, with its demo beside the text.
-export function GuideTileWindow({ tileKey, c, data, onClose }) {
-  const { list, samples, packs, achievements, achCount } = data;
+// `onOpenTile` switches the window to another tile's section (a demo's
+// Learn more button).
+export function GuideTileWindow({ tileKey, c, data, onClose, onOpenTile }) {
+  const { list, samples, packs, achievements, levels, achCount } = data;
   const text = useMemo(() => ({ ...c, ach: fill(c.ach, { n: achCount }) }), [c, achCount]);
   const tile = TILES.find(x => x.key === tileKey);
   if (!tile) return null;
   const demo = tile.demo && samples && {
     checkin: <CheckInDemo card={list.find(l => l.slug === CHECKIN_SLUG) || samples.superior || samples.rare || samples.common} />,
-    rarity: <RarityDemo samples={samples} />,
+    rarity: <RarityDemo samples={samples} onMore={onOpenTile} />,
     showcase: <ShowcaseDemo cards={SHOWCASE_SLUGS.map(slug => list.find(l => l.slug === slug))} />,
     hunt: <HuntDemo />,
     install: <InstallDemo c={c} />,
@@ -272,6 +303,7 @@ export function GuideTileWindow({ tileKey, c, data, onClose }) {
     areas: <AreasDemo locations={list} />,
     expedition: <ExpeditionDemo locations={list} />,
     history: <HistoryDemo />,
+    levels: <LevelsDemo levels={levels} />,
     start: <StartDemo c={c} />,
     locked: <LockedDemo card={list.find(l => l.slug === LOCKED_SLUG) || samples.legend} />,
   }[tile.demo];
@@ -362,7 +394,7 @@ export default function GuideBoard({ c }) {
           </button>
         ))}
       </div>
-      {open && <GuideTileWindow tileKey={open} c={c} data={data} onClose={() => setOpen(null)} />}
+      {open && <GuideTileWindow tileKey={open} c={c} data={data} onClose={() => setOpen(null)} onOpenTile={setOpen} />}
     </div>
   );
 }

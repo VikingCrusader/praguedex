@@ -1,19 +1,20 @@
-import { RARITY_XP, RARITY_ICON, RARITY_LABEL } from './rarity';
-import { RARITY_BLURB } from './rarityBlurbs';
+import { RARITY_XP } from './rarity';
 
 // The handbook's text (moved out of GuidePage.jsx 2026-11-13, so the 2K
 // overview board and the narrow page share it).
 export const DIFF_RARITIES = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend', 'expedition'];
 
-// The rarity list: icon, name, XP and the shared one-line description
-// (utils/rarityBlurbs.js), plus a Guide-only note on Expedition.
+// The Rarity window's list (2026-11-16, merged from XP & Levels): each
+// material line gets its rarity's XP after the name ("● Common · +10 XP ·
+// Paper: ..."), in DIFF_RARITIES order plus Secret.
 const EXPEDITION_XP_TEXT = { en: '+60 to +300 XP', cz: '+60 až +300 XP', zh: '+60 到 +300 XP' };
-function rarityLines(lang, expeditionNote) {
-  return DIFF_RARITIES.map(r => {
-    const xpText = r === 'expedition' ? EXPEDITION_XP_TEXT[lang] : `+${RARITY_XP[r]} XP`;
-    const name = `${RARITY_ICON[r]} ${RARITY_LABEL[lang][r]}`;
-    const blurb = RARITY_BLURB[lang][r] + (r === 'expedition' ? (lang === 'zh' ? '' : ' ') + expeditionNote : '');
-    return lang === 'zh' ? `${name}：${xpText}。${blurb}` : `${name}: ${xpText}. ${blurb}`;
+const SECRET_XP_TEXT = { en: '+90 to +500 XP', cz: '+90 až +500 XP', zh: '+90 到 +500 XP' };
+function withXp(lang, lines) {
+  return lines.map((line, i) => {
+    const r = [...DIFF_RARITIES, 'secret'][i];
+    const xp = r === 'expedition' ? EXPEDITION_XP_TEXT[lang] : r === 'secret' ? SECRET_XP_TEXT[lang] : `+${RARITY_XP[r]} XP`;
+    const at = line.indexOf(' · ');
+    return at < 0 ? line : `${line.slice(0, at)} · ${xp}${line.slice(at)}`;
   });
 }
 
@@ -96,18 +97,18 @@ export const CONTENT = {
       { b: "The lock is a signpost:", rest: " tap the big lock on a locked location's cover and Google Maps opens with directions straight to it. Install Google Maps on your phone so it opens in the app instead of a browser tab." },
       { b: "Unlocked:", rest: " the whole story opens up. The full history, plus the bonus paragraph at the end: the little extra the archive was saving for people who actually came. The cover gets its colours back, and tapping it still gets you directions." },
     ],
-    effectsTitle: "The Unlock Show",
-    effectsIntro: "Every collection comes with a ceremony: the lock falls away, an open lock takes its place and the card flips over with a flash of light and a sound effect to match (epic and above get a grander fanfare). After that, the card wears its rank for good. Every rarity is printed on its own material in its own frame, from paper through porcelain, jade, amethyst and Bohemian garnet up to gold, with silver, platinum and obsidian beyond Prague, and the rarer it is, the more it shows off:",
-    effects: [
+    effectsTitle: "Rarity",
+    effectsIntro: "Every card has a rarity, a card-game tier that tells you how rare a find it really is. It decides how much XP the card pays, and what the card looks like once you have it. Every collection comes with a ceremony: the lock falls away, an open lock takes its place and the card flips over with a flash of light and a sound effect to match (epic and above get a grander fanfare). After that, the card wears its rank for good. Every rarity is printed on its own material in its own frame, from paper through porcelain, jade, amethyst and Bohemian garnet up to gold, with silver, amber, platinum and obsidian beyond Prague, and the rarer it is, the more it shows off:",
+    effects: withXp('en', [
       "● Common · Paper: cream, with a hairline frame. Dignified. Understated. Prague-ordinary.",
       "▲ Rare · Porcelain: pale blue with a soft glaze, in a fine double frame, with a pair of little scrolls curling in each corner.",
       "◆ Superior · Jade: smooth and green, a small flower in each corner and laurel sprigs running along the edges, lit by a green glow from the corner where its rank is written.",
       "★ Epic · Amethyst: deep violet, cut in faint facets, curling corners, and a violet glow breathing round its label.",
       "✶ Mythic · Bohemian garnet: deep red with Gothic tracery in the corners, and rose light drifting slowly through it, like the stone held up to a lamp.",
       "♛︎ Legendary · Gold: dark gold leaf framed in gold acanthus, gold light that wanders across it and changes shade as it goes, embers rising through the card and a golden halo round the whole thing. Subtle it is not.",
-      "❖ Expedition · Silver and platinum: the cards beyond Prague, set with a stone in the middle of each edge that tells how far you went. Nearby ones are brushed silver, tarnished at the edges, with bronze rivets; from 120 XP the card turns dark platinum with a mirror-bright frame, a ruby in each setting and a wide glow drifting slowly across it; from 180 XP the corners grow fuller, the stones become deep-blue diamonds that twinkle, a glint runs round the frame and silver sparks flash on the sheet.",
+      "❖ Expedition · Silver, amber and platinum: the cards beyond Prague, set with a stone in the middle of each edge that tells how far you went. Nearby ones are brushed silver, tarnished at the edges, with bronze rivets; from 120 XP the card is honey amber in an ivory frame, with a pearl in each setting and a deep red glow drifting slowly through it; from 180 XP it turns dark platinum with a mirror-bright frame and a wide glow drifting across it, the corners grow fuller, the stones become deep-blue diamonds that twinkle, a glint runs round the frame and silver sparks flash on the sheet.",
       "◈ Secret · Obsidian: black volcanic glass with a peacock-teal sheen, a teal frame with feathered corners, a teal glow breathing round its label and teal light wandering under the cover. These cards hide everywhere but the History page, so wearing one says you read your way there.",
-    ],
+    ]),
     effectsOutro: "Locked cards all sleep on the same plain grey, wearing only their frame, perfectly still. The colour, the glow and the sparkle you have to earn.",
     showcaseTitle: "Showing Off",
     showcaseIntro: "A collected card is more than a tile in a grid. Pick it up and have a proper look:",
@@ -118,9 +119,7 @@ export const CONTENT = {
     ],
     showcaseOutro: "Tap anywhere outside the card to put it away. Locked cards can't be picked up; they just cling to their padlock a little harder. The Collected filter in the Dex is the natural place for this.",
     xpTitle: "XP & Levels",
-    xpIntro: "Each location pays XP according to its rarity, a card-style tier that tells you how rare a find it really is:",
-    diff: rarityLines('en', "These cards only appear with All (incl. outside)."),
-    diffBeyond: "Seen enough of the city? Look further out, to the rest of Bohemia around it: longer drives, finer views, more XP.",
+    xpIntro: "Collecting a card pays XP by its rarity (see Rarity), from 10 for a common card to 500 for the furthest Secret one. Achievements pay too, from 25 to 800 by tier, and so do card packs, when you tear one open and when you complete it.",
     xpOutro: "There are 100 levels, and their titles walk you through Prague's history: from Newcomer at the Gate at 0 XP, through apprentice, scholar, burgomaster, knight and king, to Soul of Prague at 100,000 XP. The early ones come quickly. The later ones are a long-term project, on purpose: cards, achievements and treasure hunts all count, and you will need all three.",
     tripleTitle: "Bonus XP: the Treasure Hunt",
     triple: "A Treasure Hunt pays up to ten times as much, if you walk all the way there and find it on the first press. Every wrong press costs two steps, and every clue you buy costs one, so asking for a hint is always cheaper than guessing blind. Run out of time and the answer is revealed. You lose nothing but your pride.",
@@ -143,9 +142,9 @@ export const CONTENT = {
     ],
     expeditionTitle: "Expeditions",
     expedition: [
-      "Prague is not the only place with stories. Switch the Dex or the Map to All (incl. outside) and the castles, battlefields and towns of the rest of Bohemia join in, as Expedition cards: silver for the nearest, platinum for the rest.",
+      "Prague is not the only place with stories. Switch the Dex or the Map to All (incl. outside) and the castles, battlefields and towns of the rest of Bohemia join in, as Expedition cards: silver for the nearest, amber a little further out, platinum for the rest.",
       "Their XP depends on how far they are from Charles Bridge in a straight line: 60 under 25 km, 120 up to 50 km, 180 up to 100 km, 240 up to 150 km, and 300 beyond. A few famous places are set higher by hand (Karlštejn is only 23 km out but pays 240), and small sights that come with a bigger neighbour are set lower.",
-      "The stone on the frame shows what a card pays. At 60 it is a bronze rivet on bright silver. From 120 the card turns to dark platinum with a slow glow drifting across it, set with a ruby; from 180 a blue diamond that sparkles, in a grander frame with stones in its corners and silver stars twinkling in the metal.",
+      "The stone on the frame shows what a card pays. At 60 it is a bronze rivet on bright silver. From 120 the card turns to honey amber with a deep red glow drifting slowly through it, in ivory set with pearls; from 180 it is dark platinum with a slow glow drifting across it and a blue diamond that sparkles, in a grander frame with stones in its corners and silver stars twinkling in the metal.",
     ],
     historyGuide: [
       "Prague's history, told in 24 eras from the founding legends onwards, one event at a time, with illustrations and the odd quote from a chronicler who clearly had opinions. The newer eras are still being written.",
@@ -242,18 +241,18 @@ export const CONTENT = {
       { b: "Zámek je rozcestník:", rest: " klepni na velký zámek na obrázku zamčeného místa a otevřou se Mapy Google s navigací přímo k němu. Nainstaluj si do telefonu Mapy Google, ať se otevřou v aplikaci, a ne v záložce prohlížeče." },
       { b: "Odemčené:", rest: " otevře se celý příběh. Kompletní historie a navíc bonusový odstavec na konci: malá třešnička, kterou si archiv šetřil pro ty, kdo opravdu přišli. Obrázek dostane zpátky barvy a klepnutím na něj se pořád dostaneš k navigaci." },
     ],
-    effectsTitle: "Odemykací show",
-    effectsIntro: "Každé sebrání má svůj obřad: zámek odpadne, na jeho místo naskočí otevřený a karta se otočí se zábleskem světla a odpovídajícím zvukem (epické a vyšší dostanou slavnostnější fanfáru). Potom karta nosí svou hodnost natrvalo. Každá vzácnost je vytištěná na vlastním materiálu ve vlastním rámu, od papíru přes porcelán, nefrit, ametyst a český granát až po zlato, za Prahou pak stříbro, platina a obsidián, a čím je vzácnější, tím víc se předvádí:",
-    effects: [
+    effectsTitle: "Vzácnost",
+    effectsIntro: "Každá karta má svou vzácnost, karetní úroveň, která říká, jak vzácný nález to doopravdy je. Rozhoduje o tom, kolik XP karta vyplatí a jak bude vypadat, až ji budeš mít. Každé sebrání má svůj obřad: zámek odpadne, na jeho místo naskočí otevřený a karta se otočí se zábleskem světla a odpovídajícím zvukem (epické a vyšší dostanou slavnostnější fanfáru). Potom karta nosí svou hodnost natrvalo. Každá vzácnost je vytištěná na vlastním materiálu ve vlastním rámu, od papíru přes porcelán, nefrit, ametyst a český granát až po zlato, za Prahou pak stříbro, jantar, platina a obsidián, a čím je vzácnější, tím víc se předvádí:",
+    effects: withXp('cz', [
       "● Běžné · Papír: krémový, s tenoučkým rámečkem. Důstojné. Střídmé. Běžné po pražsku.",
       "▲ Vzácné · Porcelán: světle modrý s jemnou glazurou, v dvojitém rámečku, v každém rohu se stáčí dvojice drobných volut.",
       "◆ Výjimečné · Nefrit: hladký a zelený, v každém rohu kvítek a podél okrajů vavřínové větvičky, prozářený zeleným světlem z rohu, kde stojí jeho hodnost.",
       "★ Epické · Ametyst: tmavě fialový, s jemnými ploškami výbrusu, zatočené rohy a fialová záře, která pomalu dýchá kolem štítku.",
       "✶ Mýtické · Český granát: tmavě rudý, gotické kružby v rozích a růžové světlo, které jím pomalu prochází, jako když kámen podržíš proti lampě.",
       "♛︎ Legendární · Zlato: tmavé plátkové zlato ve zlatém akantovém rámu, zlaté světlo, které po něm bloudí a cestou mění odstín, jiskry stoupající kartou a zlatá záře kolem dokola. Skromnost to není.",
-      "❖ Výprava · Stříbro a platina: karty za Prahou, s kamenem uprostřed každého okraje, který prozradí, jak daleko jsi dojel. Ty blízké jsou z broušeného stříbra, k okrajům zašlého, s bronzovými nýty; od 120 XP karta ztmavne do platiny se zrcadlově lesklým rámem, rubínem v každém lůžku a širokou září, která po ní pomalu putuje; od 180 XP se rohy rozvinou, kameny se promění v temně modré diamanty, které se třpytí, rámem obíhá záblesk a po kartě problikávají stříbrné jiskry.",
+      "❖ Výprava · Stříbro, jantar a platina: karty za Prahou, s kamenem uprostřed každého okraje, který prozradí, jak daleko jsi dojel. Ty blízké jsou z broušeného stříbra, k okrajům zašlého, s bronzovými nýty; od 120 XP je karta z medového jantaru ve slonovinovém rámu, s perlou v každém lůžku a tmavě rudou září, která jím pomalu prochází; od 180 XP ztmavne do platiny se zrcadlově lesklým rámem a širokou září, která po ní pomalu putuje, rohy se rozvinou, kameny se promění v temně modré diamanty, které se třpytí, rámem obíhá záblesk a po kartě problikávají stříbrné jiskry.",
       "◈ Tajné · Obsidián: černé sopečné sklo s pávově tyrkysovým leskem, tyrkysový rám s opeřenými rohy, tyrkysová záře dýchající kolem štítku a tyrkysové světlo bloudící pod obrázkem. Tyhle karty se schovávají všude kromě stránky Historie, takže kdo nějakou nosí, dočetl se k ní.",
-    ],
+    ]),
     effectsOutro: "Zamčené karty spí všechny na stejné prosté šedi, jen ve svém rámu a úplně nehybné. Barvu, záři a třpyt si musíš zasloužit.",
     showcaseTitle: "Chlubení",
     showcaseIntro: "Sesbíraná karta je víc než dlaždice v mřížce. Vezmi ji do ruky a pořádně si ji prohlédni:",
@@ -264,9 +263,7 @@ export const CONTENT = {
     ],
     showcaseOutro: "Klepnutím kamkoli mimo kartu ji zase odložíš. Zamčené karty zvednout nejdou, jen se o něco pevněji drží svého zámku. Přirozené místo na tohle je filtr Sebrané v Albu.",
     xpTitle: "XP a úrovně",
-    xpIntro: "Každé místo vyplácí XP podle své vzácnosti, karetní úrovně, která říká, jak vzácný nález to doopravdy je:",
-    diff: rarityLines('cz', "Tyhle karty se ukážou jen s volbou Vše."),
-    diffBeyond: "Máš-li města dost, podívej se dál, na celé Čechy kolem: delší cesta, krásnější krajina, víc XP.",
+    xpIntro: "Sebraná karta vyplatí XP podle své vzácnosti (viz Vzácnost), od 10 za běžnou kartu po 500 za nejvzdálenější tajnou. Platí i úspěchy, od 25 do 800 podle stupně, a balíčky karet, když nějaký roztrhneš a když ho dokončíš.",
     xpOutro: "Úrovní je 100 a jejich tituly tě provedou dějinami Prahy: od Příchozího u brány s 0 XP přes učně, učence, purkmistra, rytíře a krále až po Duši Prahy se 100 000 XP. Ty první přijdou rychle. Ty pozdější jsou dlouhodobý projekt, a to záměrně: počítají se karty, úspěchy i hledání pokladů a budeš potřebovat všechno.",
     tripleTitle: "Bonusové XP: Hledání pokladu",
     triple: "Hledání pokladu vyplatí až desetinásobek, pokud k pokladu dojdeš pěšky a najdeš ho hned prvním stiskem. Každý stisk vedle stojí dva stupně a každá koupená nápověda jeden, takže zeptat se je vždycky levnější než hádat naslepo. Když čas vyprší, odpověď se odhalí. Nepřijdeš o nic kromě hrdosti.",
@@ -289,9 +286,9 @@ export const CONTENT = {
     ],
     expeditionTitle: "Výpravy",
     expedition: [
-      "Příběhy nemá jen Praha. Přepni Album nebo Mapu na Vše (i mimo Prahu) a přidají se hrady, bojiště a města zbytku Čech jako karty Výpravy: nejbližší ve stříbře, ostatní v platině.",
+      "Příběhy nemá jen Praha. Přepni Album nebo Mapu na Vše (i mimo Prahu) a přidají se hrady, bojiště a města zbytku Čech jako karty Výpravy: nejbližší ve stříbře, o kus dál v jantaru, ostatní v platině.",
       "Jejich XP závisí na vzdálenosti od Karlova mostu vzdušnou čarou: 60 do 25 km, 120 do 50 km, 180 do 100 km, 240 do 150 km a 300 dál. Několik slavných míst je ručně posunuto výš (Karlštejn je jen 23 km daleko, ale vyplatí 240) a drobnosti, které patří k většímu sousedovi, níž.",
-      "Kámen na rámu ukazuje, kolik karta vyplatí. Za 60 je to bronzový nýt na světlém stříbře. Od 120 je karta z tmavé platiny, po které pomalu putuje světlo, a nese rubín; od 180 třpytivý modrý diamant, v bohatším rámu s kameny v rozích a se stříbrnými hvězdičkami, které v kovu probleskují.",
+      "Kámen na rámu ukazuje, kolik karta vyplatí. Za 60 je to bronzový nýt na světlém stříbře. Od 120 je karta z medového jantaru, kterým pomalu prochází tmavě rudé světlo, a sedí ve slonovině s perlami; od 180 je z tmavé platiny, po které pomalu putuje světlo, s třpytivým modrým diamantem, v bohatším rámu s kameny v rozích a se stříbrnými hvězdičkami, které v kovu probleskují.",
     ],
     historyGuide: [
       "Dějiny Prahy ve 24 obdobích od pověstí o založení dál, jedna událost po druhé, s ilustracemi a sem tam s citátem kronikáře, který měl zjevně vyhraněné názory. Novější období se teprve píšou.",
@@ -388,18 +385,18 @@ export const CONTENT = {
       { b: "锁头就是路标：", rest: "点一下上锁地点封面上的大锁头，谷歌地图就会打开，直接导航到那里。记得在手机上装好谷歌地图，这样会直接在应用里打开，而不是开一个浏览器标签页。" },
       { b: "解锁后：", rest: "整个故事全部展开。完整的历史，再加上结尾的彩蛋段落，那是档案专门留给真正来过的人的一点小惊喜。封面恢复彩色，点封面照样可以导航。" },
     ],
-    effectsTitle: "解锁大秀",
-    effectsIntro: "每次打卡都有一场小仪式：锁头脱落，一把打开的锁取而代之，卡片带着一道闪光翻转过来，还配有音效（史诗及以上会响起更隆重的号角）。从此以后，卡片会一直佩戴它的等级。每个稀有度都印在自己的材质上，配着自己的边框，从纸张、陶瓷、玉石、紫水晶、波希米亚石榴石一路到黄金，出了布拉格还有白银、铂金和黑曜石，越稀有越花哨：",
-    effects: [
+    effectsTitle: "稀有度",
+    effectsIntro: "每张卡都有一个稀有度，类似卡牌游戏的等级，告诉你这个发现到底有多难得。它决定这张卡给多少经验值，也决定你收集之后它长什么样。每次打卡都有一场小仪式：锁头脱落，一把打开的锁取而代之，卡片带着一道闪光翻转过来，还配有音效（史诗及以上会响起更隆重的号角）。从此以后，卡片会一直佩戴它的等级。每个稀有度都印在自己的材质上，配着自己的边框，从纸张、陶瓷、玉石、紫水晶、波希米亚石榴石一路到黄金，出了布拉格还有白银、琥珀、铂金和黑曜石，越稀有越花哨：",
+    effects: withXp('zh', [
       "● 常见 · 纸张：米色的纸，一圈细细的边框。端庄，低调，布拉格式普通。",
       "▲ 稀有 · 陶瓷：浅蓝色的瓷，釉面温润，一圈细细的双线框，四角各卷着一对小涡卷。",
       "◆ 卓越 · 玉石：温润的绿玉，四角各一朵小花，月桂枝沿着边框伸展，写着等级的那一角透出绿光。",
       "★ 史诗 · 紫水晶：深紫色的晶体，隐约可见切面，卷曲的角花，标签四周有一圈紫光在缓缓呼吸。",
       "✶ 神话 · 波希米亚石榴石：深红的底色，四角是哥特式的窗花，玫瑰色的光在里面慢慢游走，像把这颗宝石举到灯前。",
       "♛︎ 传说 · 黄金：深色的金箔，镶着金色的茛苕卷草边框，金光在上面游移，一边走一边变换色泽，火星在卡片里升腾，整张卡外围还散着一圈金光。低调是不可能低调的。",
-      "❖ 远征 · 白银与铂金：布拉格以外的卡，每条边正中镶着一颗宝石，告诉你这一趟走了多远。近处的是拉丝白银，边缘微微发暗，镶着青铜铆钉；120 经验起，卡片沉成深色铂金，边框亮得像镜子，每处镶座嵌一颗红宝石，一片宽宽的光晕在上面缓缓飘移；180 经验起，四角的花饰更加繁复，宝石换成会闪烁的深蓝钻石，一道闪光绕着边框游走，卡面上还有银色的星点一闪一闪。",
+      "❖ 远征 · 白银、琥珀与铂金：布拉格以外的卡，每条边正中镶着一颗宝石，告诉你这一趟走了多远。近处的是拉丝白银，边缘微微发暗，镶着青铜铆钉；120 经验起，卡片变成蜂蜜色的琥珀，镶在象牙边框里，每处镶座嵌一颗珍珠，一团深红的光在琥珀里缓缓飘移；180 经验起，卡片沉成深色铂金，边框亮得像镜子，一片宽宽的光晕在上面缓缓飘移，四角的花饰更加繁复，宝石换成会闪烁的深蓝钻石，一道闪光绕着边框游走，卡面上还有银色的星点一闪一闪。",
       "◈ 秘藏 · 黑曜石：漆黑的火山玻璃泛着孔雀青的光泽，青色的边框配着羽状的角花，标签四周有一圈青光在呼吸，青色的光在封面底下慢慢游走。这些卡除了“城史”哪儿都找不到，所以戴上一张，就说明你是读书读到那儿去的。",
-    ],
+    ]),
     effectsOutro: "上锁的卡片都是同一种素灰，只保留各自的边框，而且一动不动。颜色、光晕和闪光，都要靠自己挣。",
     showcaseTitle: "拿出来炫耀",
     showcaseIntro: "收集到的卡片不只是网格里的一个格子。拿起来，好好看看：",
@@ -410,9 +407,7 @@ export const CONTENT = {
     ],
     showcaseOutro: "点卡片外面任意地方就能收起来。上锁的卡片拿不起来，只会把锁抱得更紧一点。最适合这么玩的地方，是图鉴里的“已收集”。",
     xpTitle: "经验值与等级",
-    xpIntro: "每个地点按稀有度给经验值。稀有度类似卡牌游戏的等级，告诉你这个发现到底有多难得：",
-    diff: rarityLines('zh', "这些卡只在选「全部（含市外）」时出现。"),
-    diffBeyond: "如果城里已经逛够了，不妨把目光投向布拉格周围的整个波希米亚：车程更远，风景更美，经验值也更多。",
+    xpIntro: "收集一张卡，按它的稀有度给经验值（见「稀有度」），从普通卡的10点到最远的秘藏卡的500点。成就也给经验值，按等级从25到800；卡包也给，拆开时给一次，集齐时再给一次。",
     xpOutro: "一共100级，等级称号会带你走一遍布拉格的历史：从0经验值的「城门外的来客」，经过学徒、学者、市长、骑士和国王，一直到100,000经验值的「布拉格之魂」。前面几级升得很快，后面几级是长期工程，这是故意的：卡片、成就和寻宝都算经验，三样你都用得上。",
     tripleTitle: "额外经验：寻宝",
     triple: "寻宝最高十倍，前提是一路走到宝藏跟前，第一次按就中。每猜错一次降两级，每买一条线索只降一级，所以开口要提示永远比闭眼瞎猜划算。时间到了还没找到，答案会揭晓。你损失的只有面子。",
@@ -435,9 +430,9 @@ export const CONTENT = {
     ],
     expeditionTitle: "远征",
     expedition: [
-      "有故事的不只布拉格。把图鉴或地图切换到「全部（含市外）」，波希米亚其他地方的城堡、古战场和小城就会加入进来，它们是远征卡：离得最近的是银卡，其余的是铂金卡。",
+      "有故事的不只布拉格。把图鉴或地图切换到「全部（含市外）」，波希米亚其他地方的城堡、古战场和小城就会加入进来，它们是远征卡：离得最近的是银卡，稍远一些的是琥珀卡，其余的是铂金卡。",
       "远征卡的经验值看它离查理大桥的直线距离：25公里以内60，50公里以内120，100公里以内180，150公里以内240，再远就是300。少数有名的地方被手动调高（卡尔什泰因城堡离得只有23公里，却给240），跟着大景点一起的小地方则被调低。",
-      "卡框上的宝石告诉你这张卡值多少。60的卡是亮银色，镶一颗铜钉。从120起，卡片变成深色铂金，有一团光晕在上面缓缓移动，120镶红宝石；180以上镶会闪光的蓝钻，边框更华丽，四角也嵌着宝石，金属上还有银色的星点一闪一闪。",
+      "卡框上的宝石告诉你这张卡值多少。60的卡是亮银色，镶一颗铜钉。从120起，卡片变成蜂蜜色的琥珀，一团深红的光在里面缓缓移动，配象牙边框，镶珍珠；180以上是深色铂金，有一团光晕在上面缓缓移动，镶会闪光的蓝钻，边框更华丽，四角也嵌着宝石，金属上还有银色的星点一闪一闪。",
     ],
     historyGuide: [
       "布拉格的历史，从建城传说讲起，分成24个时代，一次讲一个事件，配有插图，偶尔还会引用几句显然很有主见的编年史作者的原话。较新的时代还在陆续写作中。",

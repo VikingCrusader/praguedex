@@ -11,12 +11,13 @@ import { useCardDistance } from './useCardDistance';
 // The Guide's rarity demo: one real card of each rank in a row; the picked one
 // stands large beside its description, and can be switched between locked and
 // collected, which plays the real unlock flip. Collected, it can be picked up
-// (double-click) into the showcase like any card.
-export default function RarityDemo({ samples }) {
+// (double-click) into the showcase like any card. With Expedition picked, a
+// Learn more button opens the Expeditions window (`onMore`, 2026-11-16).
+export default function RarityDemo({ samples, onMore }) {
   const { lang } = useLang();
   const convert = useConvert();
   const b = (BOARD[lang] || BOARD.en).rarity;
-  const ranks = ALL_RARITIES.filter(r => samples?.[r]);
+  const ranks = [...ALL_RARITIES, 'secret'].filter(r => samples?.[r]);
   const [picked, setPicked] = useState(() => (ranks.includes('legend') ? 'legend' : ranks[0]));
   const [collected, setCollected] = useState(true);
   const [detail, setDetail] = useState(null);
@@ -52,6 +53,11 @@ export default function RarityDemo({ samples }) {
             </button>
           </div>
           <p className="guide-demo__hint">{convert(collected ? b.hold : b.open)}</p>
+          {picked === 'expedition' && onMore && (
+            <button type="button" className="px-btn px-btn--outline guide-rarity__more" onClick={() => onMore('expedition')}>
+              {convert(b.more)}
+            </button>
+          )}
         </div>
       </div>
       {detail && <CardDetail card={detail} onClose={() => setDetail(null)} />}

@@ -163,6 +163,6 @@ export default function GuideWelcome({ onClose }) {
     </div>,
     document.body,
   )}
-  {section && <GuideTileWindow tileKey={section} c={c} data={data} onClose={() => setSection(null)} />}
+  {section && <GuideTileWindow tileKey={section} c={c} data={data} onClose={() => setSection(null)} onOpenTile={setSection} />}
   </>;
 }

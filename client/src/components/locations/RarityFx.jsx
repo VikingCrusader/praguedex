@@ -12,8 +12,9 @@ const PIECES = {
   // Platinum (expedition 180+): the glint round the ornaments, a glow drifting
   // slowly across the card and back, and nine sparks.
   diamond: ['glint', 'band', ...[1, 2, 3, 4, 5, 6, 7, 8, 9].map(n => `spark loc-card__fx--s${n}`)],
-  // Plain platinum (expedition 120): only the drifting glow.
-  ruby: ['band'],
+  // Amber (expedition 120): only the drifting glow, deep red and under the
+  // cover (pixelart.css).
+  pearl: ['band'],
 };
 
 // A number in [0, 1) from the card's slug, the same on every visit, so each
@@ -26,7 +27,7 @@ function seed(text = '', salt = 0) {
 }
 
 export default function RarityFx({ rarity, gem, slug }) {
-  const pieces = PIECES[rarity] || (gem === 'diamond' || gem === 'ruby' ? PIECES[gem] : null);
+  const pieces = PIECES[rarity] || (gem === 'diamond' || gem === 'pearl' ? PIECES[gem] : null);
   if (!pieces) return null;
   const style = rarity === 'mythic' || rarity === 'legend' || rarity === 'secret'
     ? { '--fx-a': seed(slug, 1).toFixed(3), '--fx-b': seed(slug, 2).toFixed(3), '--fx-c': seed(slug, 3).toFixed(3) }

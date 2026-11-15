@@ -9,7 +9,8 @@ export const RARITY_BLURB = {
     epic: "Grand and lavish, usually one of the most striking buildings in its part of town, with a story good enough to earn the name.",
     mythic: "Hard to find, rarely visited, yet historically or culturally significant. You will not stumble upon these.",
     legend: "The most magnificent landmarks of Prague. Look out over the skyline from any high point and they are the first things you see, and they turn up on every postcard. If you haven't been here, you haven't really been to Prague.",
-    expedition: "Castles, old towns and countryside beyond the city limits, in silver or, further out, platinum. The further from Charles Bridge, the more it pays, and the stone set in the frame tells you what the trip is worth: bronze for the nearest, ruby a little further, and diamond for the long journeys. A few especially famous places skip ahead.",
+    expedition: "Castles, old towns and countryside beyond the city limits, in silver, then amber, and further out platinum. The further from Charles Bridge, the more it pays, and the stone set in the frame tells you what the trip is worth: bronze for the nearest, pearl a little further, and diamond for the long journeys. A few especially famous places skip ahead.",
+    secret: "Far-off places that matter mostly for one event in history, or lie outside Bohemia. They hide everywhere but the History page, where they stand beside the events they belong to, and they pay more than any expedition.",
   },
   cz: {
     common: "Ne obyčejné, jen obyčejné na pražské poměry. Kdekoli jinde by z nich dělali pohlednice.",
@@ -18,7 +19,8 @@ export const RARITY_BLURB = {
     epic: "Velkolepé a honosné, obvykle jedna z nejnápadnějších staveb celé čtvrti, s příběhem, který si to jméno zaslouží.",
     mythic: "Těžko k nalezení, málo navštěvované, a přesto historicky či kulturně zásadní. Na tahle místa náhodou nenarazíš.",
     legend: "Nejvelkolepější památky Prahy. Při pohledu na panorama z výšky je uvidíte jako první a nechybějí na žádné pohlednici. Kdo tu nebyl, jako by v Praze nebyl.",
-    expedition: "Hrady, stará města a krajina za hranicemi Prahy, ve stříbře, nebo dál od města v platině. Čím dál od Karlova mostu, tím víc platí, a kámen zasazený v rámu prozradí, kolik ta cesta stojí: bronz pro nejbližší, rubín o kus dál a diamant pro dlouhé cesty. Pár zvlášť slavných míst předběhne svou vzdálenost.",
+    expedition: "Hrady, stará města a krajina za hranicemi Prahy, ve stříbře, o kus dál v jantaru a ještě dál v platině. Čím dál od Karlova mostu, tím víc platí, a kámen zasazený v rámu prozradí, kolik ta cesta stojí: bronz pro nejbližší, perla o kus dál a diamant pro dlouhé cesty. Pár zvlášť slavných míst předběhne svou vzdálenost.",
+    secret: "Vzdálená místa, která jsou důležitá hlavně kvůli jedné události, nebo leží mimo Čechy. Skrývají se všude kromě stránky Historie, kde stojí u událostí, ke kterým patří, a vynesou víc než jakákoli výprava.",
   },
   zh: {
     common: "并不真的普通，只是按布拉格的标准算普通。放到别的城市，每一处都够格上明信片。",
@@ -27,6 +29,7 @@ export const RARITY_BLURB = {
     epic: "宏伟华丽，往往是一片城区里最醒目的建筑之一，背后的故事也足够精彩，担得起“史诗”二字。",
     mythic: "极难寻觅，鲜有人至，却承载着重要的历史或文化意义。这些地方，你不会碰巧路过。",
     legend: "布拉格最宏伟的地标。站在高处眺望天际线，一眼就能认出它们，它们也是明信片上的常客。没来过这里，就等于没来过布拉格。",
-    expedition: "布拉格市界以外的城堡、古镇和山野，近处的是银卡，远一些的是铂金卡。离查理大桥越远，经验值越高，框上镶的石头会告诉你这一趟值多少：近处镶青铜，稍远一些镶红宝石，长途远行镶钻石。少数名气特别大的地方还会越级。",
+    expedition: "布拉格市界以外的城堡、古镇和山野，近处的是银卡，稍远是琥珀卡，再远是铂金卡。离查理大桥越远，经验值越高，框上镶的石头会告诉你这一趟值多少：近处镶青铜，稍远一些镶珍珠，长途远行镶钻石。少数名气特别大的地方还会越级。",
+    secret: "远方的一些地方，出名多半只因为一件历史事件，或者根本不在波希米亚。除了“城史”，它们哪儿都不露面，只站在所属的历史事件旁边，经验也比任何远征卡都多。",
   },
 };

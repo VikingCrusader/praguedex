@@ -81,7 +81,7 @@ Seven rarities. Each is printed on its own material in its own frame, and the ra
 | Epic       | Amethyst         | 50      |
 | Mythic     | Bohemian garnet  | 70      |
 | Legendary  | Gold             | 100     |
-| Expedition | Silver, platinum | 60–300 by distance from Charles Bridge; the stone in the frame shows the step |
+| Expedition | Silver, amber, platinum | 60–300 by distance from Charles Bridge; the stone in the frame shows the step |
 
 Locked cards show only their frame, in grey. Every looping effect animates only `transform` or `opacity`, so a screen of legendary cards stays smooth on a phone.
 

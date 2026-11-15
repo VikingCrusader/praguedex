@@ -306,23 +306,22 @@
   --rule-mark-size: 48px 12px;
   --rule-h: 12px;
   --rule-gap: 27px;
-  /* Tarnished edges (2026-11-16, user's call; the 60 step only, since 120
-     became platinum the same day): the
+  /* Tarnished edges (2026-11-16, user's call; the 60 step only): the
      silver darkens toward the border like old metal, so the bright silver
      frame and ornaments stand out against it, also in the pale text area. */
   --sheen:
     linear-gradient(90deg, rgba(24, 30, 42, 0.62), rgba(46, 56, 72, 0.2) 12px, transparent 24px, transparent calc(100% - 24px), rgba(46, 56, 72, 0.2) calc(100% - 12px), rgba(24, 30, 42, 0.62)),
     linear-gradient(rgba(24, 30, 42, 0.62), rgba(46, 56, 72, 0.2) 12px, transparent 24px, transparent calc(100% - 16px), rgba(24, 30, 42, 0.5));
 }
-/* Expedition's ruby and diamond steps (120 XP and up) are platinum
-   (2026-11-16, user's call: rarer than legend's gold, and 120 cards are fewer
-   than 180 ones): a dark card like the top city tiers, deep steel blue-grey,
-   a mirror-bright frame (hard light and dark bands rather than satin), and a
-   slow glow drifting across it (RarityFx). Only the diamond step adds the
-   rest: the fuller corners with their stones, the glint round the ornaments,
-   the twinkling stones, the blue outer glow and silver points twinkling on
+/* Expedition's diamond step (180 XP and up) is platinum (2026-11-16, user's
+   call: rarer than legend's gold; the 120 step was platinum too until the
+   same day, when it became amber, below): a dark card like the top city
+   tiers, deep steel blue-grey, a mirror-bright frame (hard light and dark
+   bands rather than satin), a slow glow drifting across it (RarityFx), the
+   fuller corners with their stones, the glint round the ornaments, the
+   twinkling stones, the blue outer glow and silver points twinkling on
    the sheet (under the cover and text, thanks to isolation). */
-.loc-card[data-rarity="expedition"]:is([data-gem="ruby"], [data-gem="diamond"]) {
+.loc-card[data-rarity="expedition"][data-gem="diamond"] {
   isolation: isolate;
   --tex: none;
   --sheen: radial-gradient(110% 80% at 30% 18%, rgba(160, 186, 220, 0.16), transparent 60%), radial-gradient(64% 60% at 50% 48%, transparent 60%, rgba(0, 0, 0, 0.4) 100%);
@@ -337,9 +336,48 @@
   --pill-fallback: #4c5a70;
   --rule-alpha: 85%;
 }
-.loc-card[data-rarity="expedition"]:is([data-gem="ruby"], [data-gem="diamond"]) :is(.loc-card__orn--tl, .loc-card__orn--tr, .loc-card__orn--bl, .loc-card__orn--br, .loc-card__orn--top, .loc-card__orn--bottom, .loc-card__orn--left, .loc-card__orn--right) {
+.loc-card[data-rarity="expedition"][data-gem="diamond"] :is(.loc-card__orn--tl, .loc-card__orn--tr, .loc-card__orn--bl, .loc-card__orn--br, .loc-card__orn--top, .loc-card__orn--bottom, .loc-card__orn--left, .loc-card__orn--right) {
   background: linear-gradient(135deg,
     #ffffff 0%, #ffffff 18%, #8e9aab 30%, #f4f7fb 44%, #ffffff 52%, #5d6878 64%, #e9eef5 80%, #ffffff 100%) 0 0 / 100% 100% no-repeat;
+}
+/* Expedition's pearl step (120 XP) is amber in ivory (2026-11-16, user's
+   calls; platinum until the same day, which made it look like the 180+
+   step): a clear honey amber, lit from inside (brighter toward the upper
+   middle, deeper toward the edges) with two tiny bubbles, lettered in dark
+   brown, so it never reads as legend's dark lacquer with gold letters. The
+   drifting glow is deep red (white light didn't look like amber). The frame
+   and ornaments are ivory, set with pearls: polished silver with rubies came
+   first, but a ruby on amber is red on orange, while ivory, pearl and amber
+   read as one set. The only expedition step not framed in silver. */
+.loc-card[data-rarity="expedition"][data-gem="pearl"]:not(.loc-card--locked) {
+  isolation: isolate;
+  --tex: none;
+  --sheen:
+    radial-gradient(circle at 74% 63%, rgba(255, 244, 214, 0.75) 0 1.2px, rgba(255, 244, 214, 0.25) 2px, transparent 3px),
+    radial-gradient(circle at 21% 81%, rgba(255, 244, 214, 0.6) 0 0.9px, transparent 2.2px),
+    radial-gradient(90% 70% at 42% 28%, rgba(255, 228, 160, 0.42), transparent 62%),
+    radial-gradient(70% 64% at 50% 50%, transparent 52%, rgba(96, 40, 0, 0.55) 100%);
+  --panel: #d6973a;
+  --ink: #2a1403;
+  --ink-soft: #5a3310;
+  --ink-rc: #4a2507;
+  --rarity-expedition-card: #efe4cb;
+  --keyline: 0 0 0 1px rgba(60, 26, 0, 0.55), 2px 2px 0 1px rgba(0, 0, 0, 0.22);
+  --fg-tint: #2a1403;
+  --pill-edge: 0 0 0 1px rgba(60, 26, 0, 0.35);
+  --pill-fallback: #8a531c;
+  --rule-alpha: 70%;
+}
+.loc-card[data-gem="pearl"] .loc-card__fx--band {
+  /* Under the cover and text (the card is isolated), so the red only moves
+     through the amber and never tints the picture. */
+  z-index: -1;
+  background: linear-gradient(90deg, transparent 8%, rgba(150, 24, 8, 0.12) 28%, rgba(150, 24, 8, 0.28) 50%, rgba(150, 24, 8, 0.12) 72%, transparent 92%);
+}
+/* Ivory: warm white, a little yellowed, polished but not mirror-bright. */
+.loc-card[data-rarity="expedition"][data-gem="pearl"]:not(.loc-card--locked) :is(.loc-card__orn--tl, .loc-card__orn--tr, .loc-card__orn--bl, .loc-card__orn--br, .loc-card__orn--top, .loc-card__orn--bottom, .loc-card__orn--left, .loc-card__orn--right) {
+  background: linear-gradient(135deg,
+    #fffaee 0%, #f3e9d3 30%, #cdb995 54%, #efe4cb 76%, #fffaee 100%) 0 0 / 100% 100% no-repeat;
 }
 /* Epic's frame in amethyst, apart from its lettering (2026-11-14, the same
    treatment as mythic's: a light border looked pale): a deep amethyst border,
@@ -760,11 +798,11 @@
 }
 
 /* Expedition (远征, 2026-10-16): the one rarity for cards outside Prague.
-   Always a silver frame: a polished silver border and double line, silver
+   A silver frame (ivory on the 120 step): a polished silver border and double line, silver
    scroll corners, and a setting in the middle of each edge holding a stone
    that shows the card's XP step (LocationCard's data-gem, from xpReward):
-   60 a bronze rivet, 120 ruby, 180 and up a deep blue
-   diamond, the only one that sparkles. Like the city tiers, nothing here
+   60 a bronze rivet, 120 a pearl (in an ivory frame, above), 180 and up a
+   deep blue diamond, the only one that sparkles. Like the city tiers, nothing here
    shows on a locked card. */
 .loc-card[data-rarity="expedition"] {
   --rc: var(--rarity-expedition-card, var(--rarity-expedition));
@@ -789,8 +827,15 @@
   transform: none;
   background: radial-gradient(circle at 35% 35%, #ffd9a8 0 14%, #b8732f 45%, #4d2608 100%);
 }
-.loc-card[data-gem="ruby"] .loc-card__gem {
-  background: radial-gradient(circle at 35% 35%, #ffd0d5 0 12%, #d81233 42%, #560010 100%);
+/* A round pearl, white with a faint rose and blue lustre, in an ivory ring. */
+.loc-card[data-rarity="expedition"][data-gem="pearl"] .loc-card__gem {
+  border-radius: 50%;
+  transform: none;
+  box-shadow: 0 0 0 1px #efe4cb, 0 1px 2px rgba(60, 26, 0, 0.45);
+  background:
+    radial-gradient(circle at 34% 30%, #ffffff 0 14%, transparent 34%),
+    radial-gradient(circle at 70% 76%, rgba(170, 196, 230, 0.55), transparent 50%),
+    radial-gradient(circle at 50% 50%, #fbf3ee 0 38%, #ead8d6 66%, #b8a6a8 100%);
 }
 .loc-card[data-gem="diamond"] .loc-card__gem {
   /* A deep blue diamond (2026-10-16, user: the pale one was too light). */

@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { useMap } from 'react-leaflet';
 import { loadPragueAreas, quartersInDistrict } from '../../utils/pragueAreas';
-import { PRAGUE_BOUNDS } from './MapView';
+import { PRAGUE_BOUNDS, CENTRAL_BOHEMIA_BOUNDS } from './MapView';
 
 const FIT_ZOOM_SNAP = 0.1;
 const PICKED_CARD_ZOOM = 15;
@@ -28,12 +28,15 @@ function boundsOf(rings) {
 // pack, takes the area's place while it is open.
 export default function MapAreaFocus({ area, cityOnly, flyTo, selected, panelRef, pack = null }) {
   const map = useMap();
-  // Always opens on the whole city, and stays fitted to it if the map's box changes
-  // size (the layout settles after the map exists) until the player moves the map.
-  // Leaflet by itself only notices the window changing, not its own container.
+  // Opens on the whole city, or on Central Bohemia with "Show all" (2026-11-15),
+  // and stays fitted to it if the map's box changes size (the layout settles after
+  // the map exists) until the player moves the map. Leaflet by itself only
+  // notices the window changing, not its own container.
   const untouched = useRef(true);
+  const home = useRef(PRAGUE_BOUNDS);
+  home.current = cityOnly ? PRAGUE_BOUNDS : CENTRAL_BOHEMIA_BOUNDS;
   useEffect(() => {
-    map.fitBounds(PRAGUE_BOUNDS, { animate: false });
+    map.fitBounds(home.current, { animate: false });
     const container = map.getContainer();
     const moved = () => { untouched.current = false; };
     map.on('dragstart', moved);
@@ -41,7 +44,7 @@ export default function MapAreaFocus({ area, cityOnly, flyTo, selected, panelRef
     container.addEventListener('dblclick', moved);
     const observer = new ResizeObserver(() => {
       map.invalidateSize({ animate: false });
-      if (untouched.current) map.fitBounds(PRAGUE_BOUNDS, { animate: false });
+      if (untouched.current) map.fitBounds(home.current, { animate: false });
     });
     observer.observe(container);
     return () => {
@@ -52,6 +55,16 @@ export default function MapAreaFocus({ area, cityOnly, flyTo, selected, panelRef
     };
   }, [map]);
   useEffect(() => { if (area || flyTo || pack) untouched.current = false; }, [area, flyTo, pack]);
+  // Switching between the city and "Show all" with nothing chosen goes to that
+  // mode's home view.
+  const firstMode = useRef(true);
+  useEffect(() => {
+    if (firstMode.current) { firstMode.current = false; return; }
+    if (area || pack) return;
+    map.fitBounds(cityOnly ? PRAGUE_BOUNDS : CENTRAL_BOHEMIA_BOUNDS);
+    // Only the mode switch; area and pack have their own effect below.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [map, cityOnly]);
   // `flyTo` ({ lat, lng }, a new object each time): a card picked outside the map.
   // Where a sliding panel covers the map's right side (`panelRef`), the card goes in
   // the middle of what is left, not under the panel.
@@ -97,7 +110,7 @@ export default function MapAreaFocus({ area, cityOnly, flyTo, selected, panelRef
       return undefined;
     }
     if (!key) {
-      if (cityOnly) map.fitBounds(PRAGUE_BOUNDS);
+      map.fitBounds(cityOnly ? PRAGUE_BOUNDS : CENTRAL_BOHEMIA_BOUNDS);
       return undefined;
     }
     let live = true;

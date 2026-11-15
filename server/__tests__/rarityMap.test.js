@@ -108,8 +108,8 @@ describe('secret cards', () => {
     expect(resolveRarity({ slug: 'brno', labels: ['city'], rarity: 'epic' })).toEqual({ rarity: 'epic', xpReward: 50 });
   });
 
-  test('SECRET_XP raises every step above 60 and nothing at 60', () => {
-    expect(SECRET_XP).toEqual({ 120: 150, 180: 270, 240: 360, 300: 500 });
+  test('SECRET_XP raises every step', () => {
+    expect(SECRET_XP).toEqual({ 60: 90, 120: 150, 180: 270, 240: 360, 300: 500 });
   });
 
   // The only way to find a secret card is as a related landmark on the

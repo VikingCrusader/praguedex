@@ -817,10 +817,10 @@ export const EXPEDITION_XP_OVERRIDES = {
 // related landmark on the History Timeline (a test checks every slug here is
 // linked from at least one event). They still collect normally on the spot and
 // show in the player's collection. Rarity `secret`, an obsidian frame on the
-// client, and more XP than the expedition step they would have had (never at
-// 60: cards that close are never secret). Run `npm run sync:expedition` after
-// changing this list. Not secret on purpose: everything within 50 km, Lidice
-// and Kutná Hora. An achievement that lists places names a secret card in its
+// client, and more XP than the expedition step they would have had. Run
+// `npm run sync:expedition` after changing this list. As a rule nothing within
+// 50 km is secret, nor Lidice or Kutná Hora; the few near ones below are the
+// user's own picks (2026-11-15), and the 60 step pays 90 then. An achievement that lists places names a secret card in its
 // detail; `socha-premysla-otakara-ii` is secret anyway and stays one of Iron
 // and Golden King's towns (user's call, 2026-11-15: a clue there is fine).
 export const SECRET_SLUGS = new Set([
@@ -842,8 +842,12 @@ export const SECRET_SLUGS = new Set([
   // Malešov and Sion are near Kutná Hora but not its cards (those stay visible).
   'vrch-gothard', 'zamek-lemberk', 'malesov', 'zricenina-hradu-sion',
   'svojanov', 'socha-premysla-otakara-ii',
+  // Near Prague, the user's picks: two of Tetín's four cards (the castle ruins,
+  // which Ludmila's Veil requires, and St Ludmila's church stay visible) and
+  // Krliš, which matters only for the seven-dukes legend.
+  'kriz-svate-ludmily-tetin', 'kostel-sv-jana-nepomuckeho-tetin', 'pahorek-krlis',
 ]);
-export const SECRET_XP = { 120: 150, 180: 270, 240: 360, 300: 500 };
+export const SECRET_XP = { 60: 90, 120: 150, 180: 270, 240: 360, 300: 500 };
 
 export function distanceKm(a, b = CHARLES_BRIDGE) {
   const rad = d => (d * Math.PI) / 180;

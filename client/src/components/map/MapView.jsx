@@ -9,6 +9,7 @@ import { hasLocationConsent } from '../../utils/locationConsent';
 import MapVectorBase from './MapVectorBase';
 import { useTheme } from '../../context/ThemeContext';
 import { useAfterTurn } from '../shared/PageTurn';
+import CZECH_BORDER from '../../utils/czechBorder.json';
 
 const PRAGUE_CENTER = [50.0755, 14.4378];
 
@@ -75,6 +76,14 @@ function Markers({ locations, selectedSlug, onLocationClick, lang, convert, nigh
 // and the Czech Republic.
 export const PRAGUE_BOUNDS  = [[49.9419, 14.2244], [50.1774, 14.7068]];
 const CZECHIA_BOUNDS = [[48.55, 12.09], [51.06, 18.86]];
+// Central Bohemia (Středočeský kraj, round Prague): where "Show all" opens
+// (2026-11-15, user's call), since most expedition cards are there.
+export const CENTRAL_BOHEMIA_BOUNDS = [[49.53, 13.42], [50.6, 15.55]];
+// The fence for the area in play: Prague with a margin and a soft edge; the
+// Czech Republic's own box, hard, so the map can be dragged anywhere in the
+// country but not past its border (user's call, 2026-11-15; Leaflet fences are
+// boxes, so the corners still show a little of the neighbours).
+const fenceOf = (cityOnly) => (cityOnly ? padBounds(PRAGUE_BOUNDS, 0.25) : CZECHIA_BOUNDS);
 // Grow a [[s, w], [n, e]] box by a fraction of its size on every side.
 const padBounds = ([[s, w], [n, e]], f) => {
   const dy = (n - s) * f, dx = (e - w) * f;
@@ -83,11 +92,54 @@ const padBounds = ([[s, w], [n, e]], f) => {
 
 // The map stays on the area in play, Prague ("City only") or the Czech
 // Republic ("Show all"): the minimum zoom just fits it in the current map
-// size (recomputed on resize), and panning is fenced to it with a margin.
-// Dragging past the fence meets some resistance and springs back, animated,
-// on release (Leaflet's maxBounds with a viscosity below 1).
+// size (recomputed on resize), and panning is fenced to it (fenceOf). In the
+// city, dragging past the fence meets some resistance and springs back,
+// animated, on release (Leaflet's maxBounds with a viscosity below 1); the
+// country's fence is hard (viscosity 1).
+// The border's box is only the outer fence: its corners lie in Germany,
+// Poland and Austria. With "Show all", whenever a move ends with the view's
+// centre outside the border itself (utils/czechBorder.json, from
+// scripts/buildCzechBorder.mjs), the map glides back to just inside the
+// nearest point of it (user's call, 2026-11-15: not past the border).
+function insideBorder({ lat, lng }) {
+  let inside = false;
+  for (let i = 0, j = CZECH_BORDER.length - 1; i < CZECH_BORDER.length; j = i++) {
+    const [yi, xi] = CZECH_BORDER[i];
+    const [yj, xj] = CZECH_BORDER[j];
+    if ((yi > lat) !== (yj > lat) && lng < ((xj - xi) * (lat - yi)) / (yj - yi) + xi) inside = !inside;
+  }
+  return inside;
+}
+// The nearest point of the border, a little way in towards the country's middle.
+const BORDER_MIDDLE = [49.8, 15.47];
+function backInside({ lat, lng }) {
+  const k = Math.cos((lat * Math.PI) / 180); // a degree of longitude is shorter
+  let best = null;
+  let bestD = Infinity;
+  for (let i = 0, j = CZECH_BORDER.length - 1; i < CZECH_BORDER.length; j = i++) {
+    const [ay, ax] = CZECH_BORDER[j];
+    const [by, bx] = CZECH_BORDER[i];
+    const dx = (bx - ax) * k, dy = by - ay;
+    const len = dx * dx + dy * dy;
+    const t = len ? Math.max(0, Math.min(1, (((lng - ax) * k) * dx + (lat - ay) * dy) / len)) : 0;
+    const py = ay + t * dy, px = ax + (t * dx) / k;
+    const d = ((px - lng) * k) ** 2 + (py - lat) ** 2;
+    if (d < bestD) { bestD = d; best = [py, px]; }
+  }
+  return [best[0] + (BORDER_MIDDLE[0] - best[0]) * 0.03, best[1] + (BORDER_MIDDLE[1] - best[1]) * 0.03];
+}
+
 function MapAreaLimit({ cityOnly }) {
   const map = useMap();
+  useEffect(() => {
+    if (cityOnly) return undefined;
+    const keepInside = () => {
+      const centre = map.getCenter();
+      if (!insideBorder(centre)) map.panTo(backInside(centre), { duration: 0.35 });
+    };
+    map.on('moveend', keepInside);
+    return () => { map.off('moveend', keepInside); };
+  }, [map, cityOnly]);
   useEffect(() => {
     const apply = () => {
       // getBoundsZoom clamps to the current minZoom and maxBounds, so reset
@@ -96,8 +148,8 @@ function MapAreaLimit({ cityOnly }) {
       map.setMinZoom(0);
       const z = map.getBoundsZoom(cityOnly ? PRAGUE_BOUNDS : CZECHIA_BOUNDS);
       map.setMinZoom(z);
-      map.options.maxBoundsViscosity = 0.6;
-      map.setMaxBounds(padBounds(cityOnly ? PRAGUE_BOUNDS : CZECHIA_BOUNDS, cityOnly ? 0.25 : 0.15));
+      map.options.maxBoundsViscosity = cityOnly ? 0.6 : 1;
+      map.setMaxBounds(fenceOf(cityOnly));
       if (map.getZoom() < z) map.setZoom(z);
     };
     apply();
@@ -121,7 +173,7 @@ function ViewButtons({ cityOnly, extra }) {
   const userPos = useUserPosition();
   const ref = useRef(null);
   useEffect(() => { L.DomEvent.disableClickPropagation(ref.current); }, []);
-  const [[s, w], [n, e]] = padBounds(cityOnly ? PRAGUE_BOUNDS : CZECHIA_BOUNDS, cityOnly ? 0.25 : 0.15);
+  const [[s, w], [n, e]] = fenceOf(cityOnly);
   const canLocate = userPos && userPos.lat >= s && userPos.lat <= n && userPos.lng >= w && userPos.lng <= e;
   return (
     <div ref={ref} className="map-view-buttons">

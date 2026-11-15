@@ -4,7 +4,7 @@ import { useLang, useConvert } from '../../context/LanguageContext';
 import { locationAPI, userAPI } from '../../services/api';
 import { pageCache, pageKey } from '../../utils/pageCache';
 import { useAuth } from '../../context/AuthContext';
-import { RARITY_VAR, RARITY_LABEL, ALL_RARITIES } from '../../utils/rarity';
+import { RARITY_VAR, RARITY_LABEL, ALL_RARITIES, isFindable } from '../../utils/rarity';
 import { DIFF_RARITIES } from '../../utils/guideContent';
 import { BOARD, fill } from '../../utils/guideBoard';
 import { FEATURED_SLUGS } from '../../utils/gridOrder';
@@ -140,7 +140,9 @@ function Steps({ items, colorOf, offset = 0 }) {
 }
 const Bold = ({ items }) => items.map((item, i) => <p key={i} className="guide-body"><strong>{item.b}</strong>{item.rest}</p>);
 const Tip = ({ children }) => <div className="guide-tip"><span>{children}</span></div>;
-const rarityColor = i => RARITY_VAR[DIFF_RARITIES[i]];
+// The Unlock Show lists the rarities in this order, Secret last (it is not in
+// DIFF_RARITIES, which also builds the Guide's rarity list).
+const rarityColor = i => RARITY_VAR[[...DIFF_RARITIES, 'secret'][i]];
 
 function SectionText({ k, c }) {
   switch (k) {
@@ -232,7 +234,7 @@ export function useGuideData() {
     if (list) return undefined;
     let live = true;
     locationAPI.getAll()
-      .then(res => { if (!live) return; pageCache.set('guide:locations', res.data); setList(res.data); })
+      .then(res => { if (!live) return; const found = res.data.filter(isFindable); pageCache.set('guide:locations', found); setList(found); })
       .catch(() => live && setList([]));
     return () => { live = false; };
   }, [list]);

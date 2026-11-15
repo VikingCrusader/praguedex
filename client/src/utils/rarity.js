@@ -1,6 +1,6 @@
 export const RARITY_XP = { common: 10, rare: 20, superior: 30, epic: 50, mythic: 70, legend: 100 };
 
-export const KING_LOCK_RARITIES = ['epic', 'mythic', 'legend', 'expedition'];
+export const KING_LOCK_RARITIES = ['epic', 'mythic', 'legend', 'expedition', 'secret'];
 export const isKingLockRarity = (rarity) => KING_LOCK_RARITIES.includes(rarity);
 export const lockClosedIcon = (rarity) => isKingLockRarity(rarity) ? '/pixel-art/lock-closed-king.webp' : '/pixel-art/lock-closed.webp';
 export const lockOpenIcon = (rarity) => isKingLockRarity(rarity) ? '/pixel-art/lock-open-king.webp' : '/pixel-art/lock-open.webp';
@@ -13,6 +13,7 @@ export const RARITY_COLOR = {
   mythic:   '#c40202',
   legend:   '#FFD700',
   expedition: '#C9D1DB',
+  secret: '#7FDCCF',
 };
 
 // CSS-variable form of RARITY_COLOR for inline styles, so the colours
@@ -34,13 +35,27 @@ export const RARITY_ICON = {
   mythic:   '\u2736',
   legend:   '\u265B\uFE0E',
   expedition: '\u2756',
+  secret: '\u25c8',
 };
 
 export const RARITY_LABEL = {
-  en: { common: 'Common', rare: 'Rare', superior: 'Superior', epic: 'Epic', mythic: 'Mythic',     legend: 'Legendary',  expedition: 'Expedition' },
-  cz: { common: 'Běžné',  rare: 'Vzácné', superior: 'Výjimečné', epic: 'Epické', mythic: 'Mýtické', legend: 'Legendární', expedition: 'Výprava' },
-  zh: { common: '常见',   rare: '稀有',   superior: '卓越',       epic: '史诗',   mythic: '神话',     legend: '传说',       expedition: '远征' },
+  en: { common: 'Common', rare: 'Rare', superior: 'Superior', epic: 'Epic', mythic: 'Mythic',     legend: 'Legendary',  expedition: 'Expedition', secret: 'Secret' },
+  cz: { common: 'Běžné',  rare: 'Vzácné', superior: 'Výjimečné', epic: 'Epické', mythic: 'Mýtické', legend: 'Legendární', expedition: 'Výprava', secret: 'Tajné' },
+  zh: { common: '常见',   rare: '稀有',   superior: '卓越',       epic: '史诗',   mythic: '神话',     legend: '传说',       expedition: '远征', secret: '秘藏' },
 };
+
+// Secret (秘藏 / Secret / Tajné, 2026-11-15, user's design): outside cards
+// found only through the History Timeline (server rarityMap.js SECRET_SLUGS),
+// on an obsidian card of their own. Not in ALL_RARITIES, so no filter offers
+// it. Explore, the Map and the Guide drop an uncollected one from their lists
+// (isFindable); a collected one shows like any card. The proximity alerts
+// still know them all, so one still collects on the spot.
+export const isFindable = (l) => l.rarity !== 'secret' || !!l.unlocked;
+// A rarity list with Secret added last, once the player has a secret card
+// (2026-11-15, user's call): the profile's and the collection's rarity counts
+// and the Explore and Map filters (with Show all) only offer it then.
+export const withSecret = (rarities, hasSecret) => (hasSecret ? [...rarities, 'secret'] : rarities);
+export const hasSecretCard = (locations) => !!locations?.some(l => l.rarity === 'secret' && l.unlocked);
 
 // Expedition (远征, 2026-10-16): the one rarity for cards outside Prague,
 // with a silver frame. Its XP is set by distance (server rarityMap.js), and

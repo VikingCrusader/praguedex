@@ -65,6 +65,7 @@ export async function buildAchievementStats(userId, user = null) {
   let cityCheckins = 0;   // cards inside Prague (no `outside` label)
   let huntTenX = 0;       // treasure-hunt finds that paid 10x
   let expeditionCheckins = 0; // cards outside Prague (rarity expedition)
+  let secretCheckins = 0;     // secret cards, found through the History Timeline (rarityMap.js)
   const quarterCount = {};
   const rarityCount = {};
   const districtCount = {};
@@ -89,6 +90,7 @@ export async function buildAchievementStats(userId, user = null) {
     if ((ci.location.labels || []).some(lb => lb === 'sculpture' || lb === 'cultural')) artCount++;
     checkedSlugs.push(ci.location.slug);
     if (!ci.location.addedBy) presetCheckins++;
+    if (ci.location.rarity === 'secret') secretCheckins++;
     if ((ci.location.labels || []).includes('outside')) expeditionCheckins++;
     else cityCheckins++;
     const rarity = ci.location.rarity || 'common';
@@ -213,6 +215,7 @@ export async function buildAchievementStats(userId, user = null) {
     landmarkTotal,
     cityCheckins,
     expeditionCheckins,
+    secretCheckins,
     cityTotal,
     quarterCount,
     quarterTotal: Object.fromEntries(catalog.quarterTotals),

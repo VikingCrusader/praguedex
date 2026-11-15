@@ -553,3 +553,9 @@ pack_rat: a happy little rat in a waistcoat sitting on a big heap of torn-open s
 collectors_album: a thick leather-bound collector's album lying open, its pages full of small cards arranged so that together they form a little gold map of a city with a river; a magnifying glass rests on one corner.
 hitting_the_streets: a pair of worn walking shoes, large, on a cobblestone pavement, with a long straight city street of grand façades stretching behind them into the distance; the soles are smoking slightly from all the walking, and a tiny gold street sign without any letters stands beside them.
 ```
+
+### Group 51: secret cards (按图索骥), done (2026-11-15; generated from this prompt, cropped round the book)
+
+```
+by_the_book: a thick old history book lying open, large, its pages showing a hand-drawn map with a winding road; a tiny traveller with a walking stick has stepped out of the page and stands on the book's edge, looking at a small black obsidian card glowing teal that rests just beyond the book, as if he had followed the map right out of it.
+```

@@ -206,14 +206,12 @@
   --rule-gap: 23px;
 }
 .loc-card[data-rarity="epic"] {
-  /* Epic: deep amethyst silk, its slubs a lilac sheen; the tile is the paper
-     itself, in colour (scripts/buildCardTextures.mjs, whose `base` repeats
-     --panel). Dark since 2026-11-14 (user: epic belongs with mythic and legend,
+  /* Epic: dark since 2026-11-14 (user: epic belongs with mythic and legend,
      the lavender version looked like the lower tiers): the lightest of the
      three dark cards (legend darkest, then mythic), lettered in lavender and
      cream, its only motion the glow breathing round the label. */
   /* Amethyst (2026-11-15, user: name it amethyst, change as little as
-     possible): a plain deep violet with no texture (the silk tile under it
+     possible): a plain deep violet with no texture (a silk tile, since deleted,
      read as cloth, and a generated stone tile looked like jade's), and the
      whole card is one step-cut stone, three chamfered
      rectangles one inside the other (a scattered set of facets came first
@@ -364,17 +362,18 @@
   border-color: #d4505f;
 }
 .loc-card[data-rarity="mythic"] .loc-card__orn { background: #d4505f; }
-/* The three dark tiers: a glow round the label that slowly breathes, in the
+/* The three dark tiers and secret: a glow round the label that slowly breathes, in the
    card's own light (user: epic's first, then mythic and legend the same
-   day). The glow is drawn once on a layer of its own behind the pill and
+   day, secret's teal 2026-11-15). The glow is drawn once on a layer of its own behind the pill and
    only its opacity moves (see "Card motion"); off screen, with the motion
    switch off and under reduced motion it stands still, half lit. */
-.loc-card:is([data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"]):not(.loc-card--locked) { --label-glow: 0 0 10px 3px rgba(178, 120, 255, 0.7), 0 0 22px 6px rgba(150, 90, 240, 0.35); }
+.loc-card:is([data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="secret"]):not(.loc-card--locked) { --label-glow: 0 0 10px 3px rgba(178, 120, 255, 0.7), 0 0 22px 6px rgba(150, 90, 240, 0.35); }
 .loc-card[data-rarity="mythic"]:not(.loc-card--locked) { --label-glow: 0 0 10px 3px rgba(255, 110, 130, 0.65), 0 0 22px 6px rgba(225, 60, 85, 0.35); }
 .loc-card[data-rarity="legend"]:not(.loc-card--locked) { --label-glow: 0 0 10px 3px rgba(255, 214, 110, 0.7), 0 0 22px 6px rgba(240, 180, 50, 0.35); }
-.loc-card:is([data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"]):not(.loc-card--locked) .loc-card__labels { position: relative; overflow: visible; }
-.loc-card:is([data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"]):not(.loc-card--locked) .label-pill-sm { position: relative; z-index: 1; }
-.loc-card:is([data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"]):not(.loc-card--locked) .loc-card__labels::after {
+.loc-card[data-rarity="secret"]:not(.loc-card--locked) { --label-glow: 0 0 10px 3px rgba(110, 230, 214, 0.65), 0 0 22px 6px rgba(50, 190, 175, 0.35); }
+.loc-card:is([data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="secret"]):not(.loc-card--locked) .loc-card__labels { position: relative; overflow: visible; }
+.loc-card:is([data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="secret"]):not(.loc-card--locked) .label-pill-sm { position: relative; z-index: 1; }
+.loc-card:is([data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="secret"]):not(.loc-card--locked) .loc-card__labels::after {
   content: '';
   position: absolute;
   inset: 6px 0 0;
@@ -387,9 +386,9 @@
 @keyframes fx-label-breathe {
   to { opacity: 1; }
 }
-.loc-card:is([data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"])[data-offscreen] .loc-card__labels::after { animation: none; opacity: 0.6; will-change: auto; }
+.loc-card:is([data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="secret"])[data-offscreen] .loc-card__labels::after { animation: none; opacity: 0.6; will-change: auto; }
 @media (prefers-reduced-motion: reduce) {
-  .loc-card:is([data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"]) .loc-card__labels::after { animation: none; opacity: 0.6; will-change: auto; }
+  .loc-card:is([data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="secret"]) .loc-card__labels::after { animation: none; opacity: 0.6; will-change: auto; }
 }
 /* The rule over the rarity is more solid the higher the tier (user, 2026-11-14). */
 .loc-card[data-rarity="superior"] { --rule-alpha: 58%; }
@@ -398,7 +397,7 @@
 .loc-card[data-rarity="mythic"]   { --rule-alpha: 78%; }
 .loc-card[data-rarity="legend"]   { --rule-alpha: 88%; }
 /* What every paper does with those values. */
-.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]) {
+.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"], [data-rarity="secret"]) {
   --card-top: var(--panel);
   --card-bottom: var(--panel);
   --tint-top: 0%;
@@ -412,6 +411,7 @@
   --rarity-mythic: var(--ink-rc);
   --rarity-legend: var(--ink-rc);
   --rarity-expedition: var(--ink-rc);
+  --rarity-secret: var(--ink-rc);
   --text-primary: var(--ink);
   --text-muted: var(--ink-soft);
   /* The label pills stay light text on their dark colours in both themes. */
@@ -419,36 +419,36 @@
   background: var(--sheen, linear-gradient(transparent, transparent)), var(--tex) 0 0 / var(--tex-size) repeat, var(--panel);
   background-blend-mode: normal, var(--tex-blend, overlay), normal;
 }
-.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]) .label-pill-sm { color: var(--on-label); }
-.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]) .label-pill-sm { box-shadow: var(--pill-edge, none); }
+.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"], [data-rarity="secret"]) .label-pill-sm { color: var(--on-label); }
+.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"], [data-rarity="secret"]) .label-pill-sm { box-shadow: var(--pill-edge, none); }
 /* The cover's mat is the card's own sheet: no colour of its own (it beats the
    label colour that LocationCard sets inline), and no second layer of grain,
    which would make it look darker than the text area. */
-.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]) .loc-card__banner {
+.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"], [data-rarity="secret"]) .loc-card__banner {
   background: none !important;
 }
 /* Only the cover gets the keyline: the lock drawn over a locked card's cover
    is an img in the banner too, and drew a box. */
-.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]) .loc-card__banner > img:not(.loc-card__lock) {
+.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"], [data-rarity="secret"]) .loc-card__banner > img:not(.loc-card__lock) {
   box-shadow: var(--keyline);
 }
 /* The story on the enlarged card (CardShowcase) is printed on the same sheet,
    instead of on the theme's own card colour. */
-.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]) .loc-card__story {
+.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"], [data-rarity="secret"]) .loc-card__story {
   background: none;
   scrollbar-color: color-mix(in srgb, var(--rc) 45%, transparent) transparent;
 }
 /* The text area: isolation keeps anything drawn behind its text (the label
    glow) above the card's sheet. */
-.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]) .loc-card__body { position: relative; isolation: isolate; padding-inline: 15px; }
+.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"], [data-rarity="secret"]) .loc-card__body { position: relative; isolation: isolate; padding-inline: 15px; }
 /* Common only: a hairline just inside the border (rare and up have their
    own frame). */
 .loc-card[data-rarity="common"] .loc-card__frame {
   display: block;
   border: 1px solid color-mix(in srgb, var(--rc) 30%, transparent);
 }
-.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]) .loc-card__footer { position: relative; }
-.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]) .loc-card__footer::before {
+.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"], [data-rarity="secret"]) .loc-card__footer { position: relative; }
+.loc-card:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"], [data-rarity="secret"]) .loc-card__footer::before {
   content: '';
   position: absolute;
   left: 0;
@@ -500,7 +500,8 @@
 .loc-card[data-rarity="epic"] .loc-card__frame,
 .loc-card[data-rarity="mythic"] .loc-card__frame,
 .loc-card[data-rarity="legend"] .loc-card__frame,
-.loc-card[data-rarity="expedition"] .loc-card__frame {
+.loc-card[data-rarity="expedition"] .loc-card__frame,
+.loc-card[data-rarity="secret"] .loc-card__frame {
   display: block;
   border: 3px double color-mix(in srgb, var(--rc) 60%, transparent);
 }
@@ -563,7 +564,8 @@
 .loc-card[data-rarity="epic"] .loc-card__frame::before,
 .loc-card[data-rarity="mythic"] .loc-card__frame::before,
 .loc-card[data-rarity="legend"] .loc-card__frame::before,
-.loc-card[data-rarity="expedition"] .loc-card__frame::before { display: none; }
+.loc-card[data-rarity="expedition"] .loc-card__frame::before,
+.loc-card[data-rarity="secret"] .loc-card__frame::before { display: none; }
 .loc-card:is([data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"])
   :is(.loc-card__orn--tl, .loc-card__orn--tr, .loc-card__orn--bl, .loc-card__orn--br),
 .loc-card:is([data-rarity="superior"], [data-rarity="mythic"]) :is(.loc-card__orn--top, .loc-card__orn--bottom),
@@ -1242,7 +1244,7 @@
    tells the tier; its colour is one light grey on every tier, legend's a
    step dimmer so its acanthus doesn't glare. Collecting brings the material
    and colour back. */
-.loc-card--locked:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]) {
+.loc-card--locked:is([data-rarity="common"], [data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"], [data-rarity="secret"]) {
   --tex: none;
   --sheen: none;
   --panel: #3b3e45;
@@ -1442,7 +1444,7 @@ html:not([data-lang="zh"]) .loc-card__name {
 /* Cards with corner flourishes: pull the rarity name and distance in from
    the sides so the bottom corners don't cover them (scaled to the
    tier's flourish size). */
-.loc-card:is([data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]) .loc-card__footer {
+.loc-card:is([data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"], [data-rarity="secret"]) .loc-card__footer {
   padding-inline: calc(var(--orn-size) * 0.28);
 }
 /* Legend's corners carry a fleur-de-lis that reaches further into the
@@ -2473,6 +2475,14 @@ a.week-card__n:hover, a.week-card__n:focus-visible { text-decoration: underline;
   list-style: none; margin: 12px 0 0; padding: 0;
   display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px;
 }
+/* With Secret (once the player has one): eight across; two rows of four on
+   Apple screens, as before. */
+.rarity-compact__list--eight { grid-template-columns: repeat(8, minmax(0, 1fr)); container-type: inline-size; }
+/* Eight three-digit counts touched in the profile's narrow column: the count
+   follows the strip's width (about 14 px on a 300 px strip), never above its
+   usual size. */
+.rarity-compact__list.rarity-compact__list--eight .rarity-compact__n { font-size: min(22px, 4.6cqw); }
+.explore-collection .rarity-compact__list.rarity-compact__list--eight .rarity-compact__n { font-size: min(28px, 4.6cqw); }
 .rarity-compact__item { display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 0; text-align: center; }
 /* A count on the profile that opens the matching filter (2026-11-04): it
    doesn't look like a link, only its text is underlined on hover. */
@@ -4338,3 +4348,71 @@ html .explore-next .explore-next__head .ach-badge-pill:not(.ach-badge-pill--xp) 
 /* Buttons in one row under the text, so the text keeps the card's width. */
 .install-prompt__buttons { flex: 1 0 100%; display: flex; gap: 8px; }
 .install-prompt__buttons .px-btn { flex: 1; justify-content: center; text-align: center; font-size: 13px; padding: 8px 12px; white-space: nowrap; }
+
+/* ── Secret (秘藏 / Secret / Tajné, 2026-11-15, user's design) ─────────────
+   Outside cards found only through the History Timeline (server rarityMap.js
+   SECRET_SLUGS). Obsidian with a peacock-teal sheen: black volcanic glass
+   with one crisp reflection across it, faint ripples of a knapped edge in the
+   lower right and a teal and blue glow in two corners, lettered and framed in
+   teal, a colour no other tier uses (user's pick, 2026-11-15: violet came
+   first and read as epic, a white "snowflake obsidian" was set beside this
+   and looked like expedition's platinum). Its corners are a keyed reference
+   ornament (buildOrnaments.mjs, secret-corner-a: a double rule with a
+   feathered flourish, picked over a wrought-iron one). It moves like the
+   dark tiers: a glow breathing round the label (with theirs, above), and
+   two clouds of teal light breathing and wandering under the cover and text,
+   like mythic's (RarityFx). Not offered by any filter (utils/rarity.js). */
+.loc-card[data-rarity="secret"]:not(.loc-card--locked) {
+  isolation: isolate;
+  --tex: none;
+  --sheen:
+    linear-gradient(116deg, transparent 33%, rgba(220, 255, 250, 0.05) 39%, rgba(230, 255, 252, 0.13) 41%, rgba(220, 255, 250, 0.04) 43%, transparent 48%),
+    repeating-radial-gradient(circle at 104% 104%, rgba(127, 220, 207, 0) 0 15px, rgba(127, 220, 207, 0.06) 16.5px, rgba(127, 220, 207, 0) 18.5px),
+    radial-gradient(ellipse 85% 45% at 15% 100%, rgba(40, 170, 155, 0.24), transparent 70%),
+    radial-gradient(ellipse 70% 38% at 95% 0%, rgba(40, 110, 170, 0.18), transparent 70%);
+  --panel: #070b0c;
+  --ink: #eef8f6;
+  --ink-soft: #93aeaa;
+  --ink-rc: #7fdccf;
+  --keyline: 0 0 0 1px rgba(127, 220, 207, 0.55), 2px 2px 0 1px rgba(0, 0, 0, 0.5);
+  --fg-tint: #eef8f6;
+  --pill-edge: 0 0 0 1px rgba(127, 220, 207, 0.45);
+  --pill-fallback: #2c4a47;
+  --outer-glow: 0 0 12px rgba(80, 210, 195, 0.35);
+  --secret-orn: linear-gradient(135deg, #eafffb 0%, #9be8dc 24%, #2c7d72 44%, #d2fbf4 60%, #4fb3a5 80%, #ffffff 100%);
+  --secret-glow1: rgba(60, 200, 185, 0.3);
+  --secret-glow2: rgba(40, 120, 170, 0.24);
+  --rule-alpha: 82%;
+  /* The rule's mark: a knapped obsidian point, flaked along both edges. */
+  --rule-mark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 12'%3E%3Cpath d='M28 0.6L31.6 6L28 11.4L24.4 6Z'/%3E%3Cpath d='M22 6L19.5 4.2L17 6L19.5 7.8Z M34 6L36.5 4.2L39 6L36.5 7.8Z'/%3E%3Cpath d='M14.5 6L13 5L11.5 6L13 7Z M41.5 6L43 5L44.5 6L43 7Z'/%3E%3C/svg%3E");
+  --rule-mark-size: 56px 12px;
+  --rule-h: 12px;
+  --rule-gap: 31px;
+  border-color: #2f6f68 !important;
+}
+.loc-card[data-rarity="secret"] {
+  --orn: url('/brand/ornaments/secret-corner-a.png');
+  --orn-size: 92px;
+}
+@media (max-width: 600px) {
+  .loc-card[data-rarity="secret"] { --orn-size: 70px; }
+}
+.loc-card[data-rarity="secret"]:not(.loc-card--locked) .loc-card__frame {
+  --rc: var(--ink-rc);
+  border-color: color-mix(in srgb, var(--ink-rc) 55%, transparent);
+}
+.loc-card[data-rarity="secret"] :is(.loc-card__orn--tl, .loc-card__orn--tr, .loc-card__orn--bl, .loc-card__orn--br) {
+  display: block;
+}
+/* Glassy: hard light and dark bands, like light on a fractured edge. */
+.loc-card[data-rarity="secret"]:not(.loc-card--locked) .loc-card__orn { background: var(--secret-orn) 0 0 / 100% 100% no-repeat; }
+.loc-card.loc-card[data-rarity="secret"] .loc-card__footer { padding-inline: calc(var(--orn-size) * 0.4); }
+.loc-card--locked[data-rarity="secret"] .loc-card__frame { --rc: #b9b9b9; border-color: #b9b9b9; }
+.loc-card--locked[data-rarity="secret"] .loc-card__orn { background: #b9b9b9; }
+/* Its sheen moving: mythic's two wandering clouds, in teal and blue. */
+.loc-card[data-rarity="secret"] .loc-card__fx--glow1 {
+  background: radial-gradient(ellipse 70% 36% at 50% 50%, var(--secret-glow1), transparent 70%);
+}
+.loc-card[data-rarity="secret"] .loc-card__fx--glow2 {
+  background: radial-gradient(ellipse 58% 30% at 50% 50%, var(--secret-glow2), transparent 70%);
+}

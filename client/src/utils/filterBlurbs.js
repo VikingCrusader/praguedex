@@ -298,6 +298,12 @@ export const RARITY_QUIP = {
     cz: 'Za Prahou čekají hrady, stará města a volná krajina. Čím dál od Karlova mostu, tím víc XP, a kámen v rámu prozradí, kolik ta cesta stojí. Vezměte si svačinu. Tramvaj tak daleko nejede.',
     zh: '出了布拉格，还有城堡、古镇和山野在等你。离查理大桥越远，经验越多，框上的宝石会告诉你这一趟值多少。带上三明治吧，电车到不了这儿。',
   },
+  // Not in ALL_RARITIES (no filter offers it); shown on a secret card's own note.
+  secret: {
+    en: 'These places are on no map in the app. They turn up only on the History page, beside the events they belong to, and they pay more than any expedition. You found this one by reading.',
+    cz: 'Tato místa v aplikaci nenajdete na žádné mapě. Objeví se jen na stránce Historie, u událostí, ke kterým patří, a vynesou víc než jakákoli výprava. Tohle jste našli čtením.',
+    zh: '这些地方不在应用的任何一张地图上，只会出现在“城史”里，就在它们所属的历史事件旁边，经验也比任何远征卡都多。这一张，是你读书读出来的。',
+  },
 };
 
 // Shown under the map when no filter is on and the player's position isn't known

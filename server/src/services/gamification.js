@@ -591,7 +591,7 @@ function ELBE({ checkedSlugs = [] }) {
   return { current: Math.min(2, ELBE_SLUGS.filter((slug) => checkedSlugs.includes(slug)).length), target: 2, slugs: [], picks: [{ need: 2, slugs: ELBE_SLUGS }] };
 }
 // They Glow at Night: cards of Epic rarity or higher, Expedition included.
-const GLOWING_RARITIES = ["epic", "mythic", "legend", "expedition"];
+const GLOWING_RARITIES = ["epic", "mythic", "legend", "expedition", "secret"];
 const glowingCount = ({ rarityCount = {} }) => GLOWING_RARITIES.reduce((n, r) => n + (rarityCount[r] || 0), 0);
 // Highs and Lows: Teleček, the city's highest point (399 m), and Praha-Sedlec
 // station on the Vltava, standing in for the lowest point (about 177 m, where
@@ -1179,6 +1179,26 @@ export const ACHIEVEMENTS = [
     difficulty: "easy",
     check: ({ expeditionCheckins }) => (expeditionCheckins || 0) >= 1,
     progress: ({ expeditionCheckins }) => ({ current: expeditionCheckins || 0, target: 1 }),
+  },
+  {
+    // Secret cards (rarityMap.js SECRET_SLUGS, 2026-11-15, user's idea): one
+    // is enough. They are found only through the History Timeline, so this is
+    // the reward for reading and then going there. Gold (user's call: Silver
+    // paid too little for the trip; every one is far out, over 50 km).
+    id: "by_the_book",
+    icon: "📜",
+    name: "By the Book",
+    name_cz: "Podle knihy",
+    name_zh: "按图索骥",
+    flavor: "Some places turn up only in the history books.",
+    flavor_cz: "Některá místa najdete jen v dějepise.",
+    flavor_zh: "有些地方，只在史书里才找得到。",
+    description: "Collect one Secret card (a place you can only find on the History page).",
+    description_cz: "Sesbírejte jednu kartu Tajné (místo, které najdete jen na stránce Historie).",
+    description_zh: "收集一张“秘藏”卡（只能在“城史”里找到的地点）。",
+    difficulty: "hard",
+    check: ({ secretCheckins }) => (secretCheckins || 0) >= 1,
+    progress: ({ secretCheckins }) => ({ current: secretCheckins || 0, target: 1 }),
   },
   {
     id: "devout_believer",

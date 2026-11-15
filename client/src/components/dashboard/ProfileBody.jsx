@@ -3,7 +3,7 @@ import { useFitText } from '../../utils/fitText';
 import { useFitPage, ONE_PAGE } from '../../utils/fitPage';
 import { Link } from 'react-router-dom';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
-import { RARITY_VAR, RARITY_LABEL, ALL_RARITIES } from '../../utils/rarity';
+import { RARITY_VAR, RARITY_LABEL, ALL_RARITIES, withSecret } from '../../utils/rarity';
 import ProgressRing from './ProgressRing';
 import DistrictProgress from './DistrictProgress';
 import RecentCardStrip from './RecentCardStrip';
@@ -199,8 +199,9 @@ export default function ProfileBody({ progress, achievements, username, own = tr
             the full-width rarity row that used to sit lower down. */}
         <div className="stat-card rarity-compact">
           <h2 className="px-title profile-card-title">{t('dashboard.rarityBreakdown')}</h2>
-          <ul className="rarity-compact__list">
-            {ALL_RARITIES.map(r => {
+          {/* Secret joins as an eighth once the player has one (2026-11-15). */}
+          <ul className={`rarity-compact__list${(rarityCount?.secret || 0) > 0 ? ' rarity-compact__list--eight' : ''}`}>
+            {withSecret(ALL_RARITIES, (rarityCount?.secret || 0) > 0).map(r => {
               const inner = (
                 <>
                   <span className="rarity-compact__name">{convert(RARITY_LABEL[lang]?.[r] ?? RARITY_LABEL.en[r])}</span>

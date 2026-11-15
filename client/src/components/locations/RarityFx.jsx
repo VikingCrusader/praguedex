@@ -7,6 +7,8 @@ const PIECES = {
   epic: ['mist', 'star loc-card__fx--star1', 'star loc-card__fx--star2', 'star loc-card__fx--star3', 'star loc-card__fx--star4', 'star loc-card__fx--star5'],
   mythic: ['glow loc-card__fx--glow1', 'glow loc-card__fx--glow2'],
   legend: ['glow loc-card__fx--glow1', 'glow loc-card__fx--glow2', 'glow loc-card__fx--glow3'],
+  // Secret (obsidian): mythic's two wandering clouds, in violet and teal.
+  secret: ['glow loc-card__fx--glow1', 'glow loc-card__fx--glow2'],
   // Platinum (expedition 180+): the glint round the ornaments, a glow drifting
   // slowly across the card and back, and nine sparks.
   diamond: ['glint', 'band', ...[1, 2, 3, 4, 5, 6, 7, 8, 9].map(n => `spark loc-card__fx--s${n}`)],
@@ -26,7 +28,7 @@ function seed(text = '', salt = 0) {
 export default function RarityFx({ rarity, gem, slug }) {
   const pieces = PIECES[rarity] || (gem === 'diamond' || gem === 'ruby' ? PIECES[gem] : null);
   if (!pieces) return null;
-  const style = rarity === 'mythic' || rarity === 'legend'
+  const style = rarity === 'mythic' || rarity === 'legend' || rarity === 'secret'
     ? { '--fx-a': seed(slug, 1).toFixed(3), '--fx-b': seed(slug, 2).toFixed(3), '--fx-c': seed(slug, 3).toFixed(3) }
     : undefined;
   return pieces.map(p => <i key={p} className={`loc-card__fx loc-card__fx--${p}`} style={style} aria-hidden="true" />);

@@ -8,7 +8,7 @@ import { useAfterTurn } from '../shared/PageTurn';
 import { viewportRect } from '../../utils/fitPage';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import LabelFilterGroups from './LabelFilterGroups';
-import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, CITY_RARITIES, ALL_RARITIES } from '../../utils/rarity';
+import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, CITY_RARITIES, ALL_RARITIES, withSecret, hasSecretCard } from '../../utils/rarity';
 import { NEARBY_REVEAL_M } from '../../utils/geolocation';
 import { packMatches, nearestPackFirst } from '../../utils/packs';
 import { firstVisitOrder, featuredPacksFirst, interleavePacks, packsAtTheirCards, packsByRelease } from '../../utils/gridOrder';
@@ -227,14 +227,16 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
       setActiveLabels(prev => { const next = new Set(prev); next.delete('outside'); return next; });
     }
   }, [cityScoped, activeLabels]);
-  // Same for the expedition rarity, which only outside cards carry; its
-  // filter option only shows with "Show all".
+  // Same for the expedition and secret rarities, which only outside cards
+  // carry; their filter options only show with "Show all" (secret only once
+  // the player has a secret card, utils/rarity.js).
   useEffect(() => {
-    if (cityScoped && activeRarities.has('expedition')) {
-      setActiveRarities(prev => { const next = new Set(prev); next.delete('expedition'); return next; });
+    if (cityScoped && (activeRarities.has('expedition') || activeRarities.has('secret'))) {
+      setActiveRarities(prev => { const next = new Set(prev); next.delete('expedition'); next.delete('secret'); return next; });
     }
   }, [cityScoped, activeRarities]);
-  const rarityOptions = cityScoped ? CITY_RARITIES : ALL_RARITIES;
+  const hasSecret = hasSecretCard(scopedLocations) || hasSecretCard(collectionLocations);
+  const rarityOptions = cityScoped ? CITY_RARITIES : withSecret(ALL_RARITIES, hasSecret);
 
   // Not while the page turns in: the short first frame keeps the sentinel in
   // view, and it would keep asking for more cards that aren't shown yet.
@@ -435,7 +437,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
         onClearSearch: () => setSearch(''),
         labels: [...activeLabels],
         onClearLabel: toggleLabel,
-        rarities: ALL_RARITIES.filter(r => activeRarities.has(r)),
+        rarities: withSecret(ALL_RARITIES, true).filter(r => activeRarities.has(r)),
         onClearRarity: toggleRarity,
         treasureCount: treasureSlugs ? treasureSlugs.size : null,
         treasureOnly,

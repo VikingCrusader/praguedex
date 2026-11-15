@@ -6,7 +6,7 @@ import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { useAuth } from '../../context/AuthContext';
 import { locationAPI } from '../../services/api';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
-import { RARITY_ICON, RARITY_LABEL, RARITY_VAR } from '../../utils/rarity';
+import { RARITY_ICON, RARITY_LABEL, RARITY_VAR, isFindable } from '../../utils/rarity';
 import { LABEL_BLURB, RARITY_QUIP } from '../../utils/filterBlurbs';
 
 // A short note on a label or rarity, opened from a card's detail like the area
@@ -37,7 +37,8 @@ function TagInfo({ kind, value, onClose }) {
 
   const progress = useMemo(() => {
     if (!locations) return null;
-    const cards = locations.filter(l => (kind === 'label' ? l.labels?.includes(value) : (l.rarity ?? 'common') === value));
+    // Uncollected secret cards aren't counted, except on the secret rarity's own note.
+    const cards = locations.filter(l => (kind === 'label' ? l.labels?.includes(value) && isFindable(l) : (l.rarity ?? 'common') === value));
     return { total: cards.length, collected: cards.filter(l => l.unlocked).length };
   }, [locations, kind, value]);
 
@@ -59,9 +60,11 @@ function TagInfo({ kind, value, onClose }) {
           </p>
         )}
         {blurb && <p className="tag-info__blurb">{convert(blurb[lang] || blurb.en)}</p>}
-        <Link className="px-btn px-btn--gold tag-info__go" to="/explore" state={{ [kind]: value, showAll: true }} onClick={onClose}>
-          {t('tag.seeOnExplore')}
-        </Link>
+        {value !== 'secret' && (
+          <Link className="px-btn px-btn--gold tag-info__go" to="/explore" state={{ [kind]: value, showAll: true }} onClick={onClose}>
+            {t('tag.seeOnExplore')}
+          </Link>
+        )}
       </div>
     </div>,
     document.body,

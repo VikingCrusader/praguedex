@@ -14230,33 +14230,6 @@ Původní plán počítal s malou kapličkou, než ho kolegové z hodinářskéh
     },
   },
   {
-    name: 'Ohrobec Valley',
-    slug: 'ohrobecke-udoli',
-    localizedNames: { cz: 'Ohrobecké údolí', zh: '奥赫罗贝茨谷地' },
-    labels: ['nature', 'hidden-gem', 'outside'],
-    coordinates: { lat: 49.94552088632616, lng: 14.399365581322751 },
-    rarity: 'epic',
-    xpReward: 50,
-    wikipediaUrl: '',
-    description: {
-      en: `Welcome to Ohrobecké údolí, a narrow wooded valley south of Prague where a small stream has ended up dictating the local address system: cottages on one bank register in Zvole, cottages on the other in Ohrobec, despite the whole valley being cut off from both villages by nothing but a few narrow forest paths.
-
-The access road fords the stream at three separate points rather than bothering with bridges, and several of the private cottages tucked along the lower valley rely on footbridges just to get residents across the water at all. It's the kind of place that technically belongs to two municipalities and practically belongs to neither, connected to civilisation mostly by whichever crossing happens to be dry that day.
-
-🎁 Bonus: A valley too remote to fully answer to either of the villages claiming its address has quietly solved the problem the way any sensible piece of geography would: by making everyone ford the same stream to get anywhere.`,
-      cz: `Vítej v Ohrobeckém údolí, úzkém zalesněném údolí jižně od Prahy, kde malý potok nakonec rozhodl i o tom, kam se tu vlastně přihlašuje adresa: chaty na jednom břehu patří pod Zvoli, na druhém pod Ohrobec, přestože celé údolí od obou obcí odděluje jen pár úzkých lesních cestiček.
-
-Přístupová cesta potok třikrát brodí, místo aby se obtěžovala s mosty, a několik soukromých chat schovaných v dolní části údolí je bez lávek přes vodu prakticky nedostupných. Je to typ místa, které formálně patří ke dvěma obcím a fakticky k žádné, s civilizací spojené hlavně tím, který brod je zrovna ten den suchý.
-
-🎁 Bonus: Údolí příliš odlehlé na to, aby doopravdy patřilo kterékoli z obcí, jež si na jeho adresu dělají nárok, si problém potichu vyřešilo tak, jak by to udělal každý rozumný kus krajiny: donutilo prostě všechny brodit tentýž potok, aby se vůbec někam dostali.`,
-      zh: `欢迎来到奥赫罗贝茨谷地，布拉格以南一处狭窄的林间山谷，一条小溪竟然决定了当地的门牌归属：溪流一侧的小屋登记在兹沃莱，另一侧则登记在奥赫罗贝茨，尽管整个山谷与这两个村子之间，其实只隔着几条狭窄的林间小路。
-
-进出道路干脆三次涉水穿过溪流，也懒得修桥，谷地下段藏着的几座私人小屋，居民要过河也全靠简易的小木桥。这地方名义上归属两个行政村，实际上却哪个都够不着，与外界的联系，全看当天哪条涉水点还没被淹。
-
-🎁 彩蛋：一处偏僻到两个"认领"它的村子都管不太到的山谷，最终用一种任何讲道理的地形都会选择的方式，悄悄解决了归属难题：干脆让所有人都得蹚过同一条小溪才能到哪儿去。`,
-    },
-  },
-  {
     name: 'Vrané nad Vltavou',
     slug: 'vrane-nad-vltavou',
     localizedNames: { cz: 'Vrané nad Vltavou', zh: '弗拉内河畔弗尔塔瓦' },
@@ -14647,87 +14620,6 @@ Hřbitov vznikl v květnu 2016 poté, co se počet obyvatel obce zečtyřnásobi
 这座公墓建于2016年5月，起因是村子人口从不到一千激增到四千，导致当地居民附近根本没地方下葬。建筑师Petr Sendler的应对方式，是深挖当地悠久的历史，从古凯尔特人聚落的简朴与象征意义中汲取灵感：整体布局以一条十字形的椴树林荫道为核心，中央种着四棵对凯尔特人而言神圣的橡树，共同构成太阳十字的形状。这个项目也没止步于墓地本身，还附带修建了四公顷的公共绿地与公园。2017年，它一举拿下国家建筑奖，并在景观建筑类别中夺得第一名。
 
 🎁 彩蛋：一个"人太多、墓地太少"的村子，最终靠委托一份追溯到铁器时代的获奖景观设计解决了难题。看来死亡这件事，只要处理得够有野心，也能顺带兼职当一回相当有效的城市规划工具。`,
-    },
-  },
-  {
-    name: 'HiLASE',
-    slug: 'hilase',
-    localizedNames: { cz: 'HiLASE', zh: 'HiLASE' },
-    labels: ['academy', 'contemporary', 'outside'],
-    coordinates: { lat: 49.962518850764106, lng: 14.455769832931443 },
-    rarity: 'epic',
-    xpReward: 50,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/HiLASE',
-    description: {
-      en: `Welcome to HiLASE, a laser research centre in Dolní Břežany that quietly builds some of the most powerful pulsed lasers on the planet, in a building that somehow also won an architecture prize, because apparently even cutting-edge physics needs decent curb appeal.
-
-The centre, whose name stands for High average power pulsed LASErs, began operating in September 2014 and opened to outside researchers for actual experiments in 2018. It exists thanks to a pivotal 2009 decision to back the much larger ELI Beamlines project next door, which brought funding for this smaller sibling facility along with it; both now fall under the Institute of Physics of the Czech Academy of Sciences. Construction cost 800 million crowns, 85% of it covered by EU funding, and the building itself, designed by the studio Len+k architekti, picked up a Special Prize from the President of the Senate at the 2015 Building of the Year awards. Inside, researchers focus on developing new diode-pumped solid-state laser systems capable of combining high pulse energy with a high repetition rate.
-
-🎁 Bonus: A facility built to generate some of the most intense light pulses in physics somehow also found time to win a design award for its exterior, proof that in Dolní Břežany, even the building housing the lasers has to look the part.`,
-      cz: `Vítej u HiLASE, laserového výzkumného centra v Dolních Břežanech, které potichu staví jedny z nejvýkonnějších pulzních laserů na planetě, a to v budově, jež si mimochodem vysloužila i architektonickou cenu, protože zjevně i špičková fyzika potřebuje slušnou fasádu.
-
-Centrum, jehož název znamená High average power pulsed LASErs, zahájilo provoz v září 2014 a v roce 2018 se otevřelo vnějším badatelům pro skutečné experimenty. Vzniklo díky klíčovému rozhodnutí z roku 2009 podpořit sousední, mnohem větší projekt ELI Beamlines, který si s sebou přinesl i financování tohoto menšího sourozeneckého pracoviště; obě centra dnes spadají pod Fyzikální ústav Akademie věd ČR. Výstavba stála 800 milionů korun, z 85 % hrazených z fondů EU, a samotná budova, navržená ateliérem Len+k architekti, získala Zvláštní cenu předsedy Senátu v soutěži Stavba roku 2015. Uvnitř se výzkumníci soustředí na vývoj nových diodově čerpaných pevnolátkových laserových systémů, které kombinují vysokou energii v pulzu s vysokou opakovací frekvencí.
-
-🎁 Bonus: Pracoviště postavené k vytváření jedněch z nejintenzivnějších světelných pulzů ve fyzice si nějak našlo čas i na to, vyhrát cenu za design vlastní budovy, důkaz, že v Dolních Břežanech musí vypadat k světu i budova, ve které bydlí lasery.`,
-      zh: `欢迎来到HiLASE，一座位于下布热扎尼的激光研究中心，它悄悄打造着这个星球上最强大的脉冲激光器之一，而这栋建筑本身居然还拿下了一项建筑奖，看来就连尖端物理学，也得讲究点门面。
-
-这座中心的名字意为"高平均功率脉冲激光器"，于2014年9月开始运行，2018年正式向外部研究人员开放，供其开展实际实验。它的诞生得益于2009年的一项关键决定：支持隔壁规模大得多的ELI Beamlines项目，也顺带为这座较小的姊妹机构带来了资金；如今两座中心都隶属于捷克科学院物理研究所。建设费用为8亿克朗，其中85%由欧盟资金承担，而这栋由Len+k architekti工作室设计的建筑本身，则在2015年度建筑评选中获得了参议院议长特别奖。中心内部，研究人员专注于开发新型二极管泵浦固态激光系统，力求兼顾高脉冲能量与高重复频率。
-
-🎁 彩蛋：一座致力于制造物理学中最强脉冲光的研究设施，居然还抽空为自己的外观赢得了设计大奖，足以证明，在下布热扎尼，就连装着激光器的这栋楼，也得撑得起场面。`,
-    },
-  },
-  {
-    name: 'Dolní Břežany Chateau',
-    slug: 'zamek-dolni-brezany',
-    localizedNames: { cz: 'Zámek Dolní Břežany', zh: '下布热扎尼城堡' },
-    labels: ['castle and fortress', 'monastery', 'church', 'renaissance', 'outside'],
-    coordinates: { lat: 49.962727476431205, lng: 14.456938856952641 },
-    rarity: 'superior',
-    xpReward: 30,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Doln%C3%AD_B%C5%99e%C5%BEany_(z%C3%A1mek)',
-    description: {
-      en: `Welcome to Dolní Břežany Chateau, a Renaissance castle built around 1600 on the site of a medieval fortress first mentioned in 1332, a building that has since managed to be a noble seat, a ministry office, a soldiers' dormitory, and now, somewhat improbably, a four-star hotel.
-
-The fortress was rebuilt into its current four-winged, two-storey form, arranged around a square courtyard with a prismatic tower on the western façade, under Kryštof Želínský ze Sebuzína, who administered the Břežany estate from 1590 until his death in 1606. In the early 18th century, Prague Archbishop Ferdinand Count Khünburg bought the property, and it remained in the hands of the Prague Archbishopric for two centuries, until the state seized both land and buildings in 1945, first handing them to the Ministry of Agriculture and later using them to house soldiers. Restitution eventually returned the chateau to the Archdiocese, and a 2016–2018 reconstruction turned the whole complex into the Chateau Clara Futura hotel; it has been protected as a cultural monument since 1958.
-
-🎁 Bonus: A castle that spent centuries answering to archbishops, a socialist ministry, and an army barracks now answers mainly to hotel guests booking a room, arguably the calmest job description it's held in four hundred years.`,
-      cz: `Vítej u Zámku Dolní Břežany, renesančního zámku postaveného kolem roku 1600 na místě středověké tvrze, poprvé zmíněné v roce 1332, budovy, která od té doby stihla být šlechtickým sídlem, ministerskou kanceláří, ubytovnou pro vojáky a dnes, poněkud nečekaně, čtyřhvězdičkovým hotelem.
-
-Tvrz byla přestavěna do dnešní čtyřkřídlé, dvoupatrové podoby, uspořádané kolem čtvercového nádvoří s hranolovou věží na západním průčelí, za Kryštofa Želínského ze Sebuzína, který spravoval břežanské panství od roku 1590 až do své smrti v roce 1606. Na počátku 18. století koupil panství pražský arcibiskup hrabě Ferdinand Khünburg a zůstalo v rukou pražského arcibiskupství dalších dvě stě let, dokud stát v roce 1945 nezabral pozemky i budovy, které nejprve předal ministerstvu zemědělství a později v nich ubytoval vojáky. Restituce zámek nakonec vrátila arcidiecézi a rekonstrukce v letech 2016–2018 proměnila celý areál na hotel Chateau Clara Futura; od roku 1958 je chráněn jako kulturní památka.
-
-🎁 Bonus: Zámek, který se po staletí zodpovídal arcibiskupům, socialistickému ministerstvu a vojenským kasárnám, dnes odpovídá hlavně hotelovým hostům, kteří si rezervují pokoj, nejspíš nejklidnější pracovní náplň, jakou za čtyři sta let zastával.`,
-      zh: `欢迎来到下布热扎尼城堡，一座约建于1600年的文艺复兴风格城堡，坐落在一座1332年首次被提及的中世纪要塞旧址上。这栋建筑此后先后当过贵族宅邸、部委办公室、士兵宿舍，如今则相当出人意料地变成了一家四星级酒店。
-
-这座要塞在Kryštof Želínský ze Sebuzína治理下被改建为如今这种四翼两层、围绕方形庭院布局、西立面立着一座棱柱形塔楼的样式；此人自1590年起管理布热扎尼庄园，直至1606年去世。18世纪初，布拉格大主教费迪南德·屈恩堡伯爵买下了这处产业，此后两百年间一直归布拉格大主教区所有，直到1945年，国家没收了土地与建筑，先是交给农业部，后来又用作士兵宿舍。经过财产归还，城堡最终回到大主教区手中，2016至2018年间的一次改建，把整个建筑群变成了Chateau Clara Futura酒店；自1958年起，它被列为文物保护单位。
-
-🎁 彩蛋：一座几个世纪以来先后向大主教、社会主义部委和军营负责的城堡，如今主要"负责"的对象，变成了订房入住的酒店客人，这大概是它四百年来干过最悠闲的一份"工作"。`,
-    },
-  },
-  {
-    name: 'Kamínek',
-    slug: 'kaminek',
-    localizedNames: { cz: 'Kamínek', zh: 'Kamínek' },
-    labels: ['nature', 'hidden-gem', 'outside'],
-    coordinates: { lat: 49.964989679500626, lng: 14.473176122956067 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kam%C3%ADnek_(Pra%C5%BEsk%C3%A1_plo%C5%A1ina)',
-    description: {
-      en: `Welcome to Kamínek, a 35-metre-high hill on the edge of Prague that didn't exist before 2009: it's entirely made of leftover soil dug up while building the city's outer ring road, dumped here and left to become a landmark almost by accident.
-
-The spot has a history that predates its current shape by decades. In the 1920s it was a working stone quarry; once the mining stopped, the pits filled naturally with water and turned into an informal swimming hole, ringed by vegetation, a use that ended tragically in the 1960s, when two young girls drowned there. Decades later, highway construction crews needed somewhere to put their excess soil, and Kamínek was reborn as a deliberately built hill, its summit sitting at 381 metres above sea level and marked today by a large stone compass. Gravel paths now lead walkers and cyclists to the top, and the hill hosts an annual bike race, the Kamínek Eliminátor, that dares riders to conquer its steepest slope; plans floated for a ski run and sports complex here have gone nowhere since at least 2017.
-
-🎁 Bonus: A hole in the ground that drowned two children in the 1960s spent the following decades quietly waiting to be filled back in by a completely unrelated highway project. Sometimes the landscape gets its own second chance, whether anyone planned it that way or not.`,
-      cz: `Vítej u Kamínku, pětatřicetimetrového kopce na okraji Prahy, který před rokem 2009 vůbec neexistoval: je celý poskládaný ze zeminy vykopané při stavbě pražského okruhu, navezené sem a ponechané napospas tomu, aby se z ní téměř náhodou stala místní dominanta.
-
-Místo má historii, která jeho dnešní podobu předchází o desetiletí. Ve 20. letech 20. století tu byl funkční kamenolom; jakmile těžba skončila, jámy se přirozeně naplnily vodou a proměnily se v neoficiální koupaliště obklopené zelení. Toto využití které skončilo tragicky v 60. letech, kdy se tu utopila dvě mladá děvčata. O desetiletí později potřebovaly stavební čety dálnice někam uložit přebytečnou zeminu, a Kamínek se tak znovuzrodil jako záměrně navršený kopec s vrcholem ve výšce 381 metrů nad mořem, dnes označeným velkým kamenným kompasem. Na vrchol dnes vedou štěrkové cesty pro pěší i cyklisty a kopec hostí každoroční cyklistický závod Kamínek Eliminátor, který jezdce vyzývá zdolat jeho nejstrmější svah; plány na lyžařský svah a sportovní areál tu zatím, aspoň od roku 2017, zůstávají nenaplněné.
-
-🎁 Bonus: Díra v zemi, ve které se v 60. letech utopily dvě děti, strávila následující desetiletí tichým čekáním, až ji zase zasype úplně nesouvisející dálniční projekt. Někdy dostane krajina druhou šanci, ať už to tak někdo naplánoval, nebo ne.`,
-      zh: `欢迎来到卡米内克，布拉格边缘一座高35米的山丘，2009年之前根本不存在：它完全是由修建布拉格外环高速公路时挖出的多余土方堆成的，被运到这里，几乎是无心插柳地"堆"成了一处地标。
-
-这个地方的历史，比它如今的外形要早上几十年。20世纪20年代，这里曾是一座在营采石场；采石结束后，坑洞自然积水，被植被环绕，变成了一处非正式的野泳地，这一用途在60年代以悲剧收场，两名年幼的女孩在此溺亡。几十年后，高速公路的施工队需要找地方处理多余的土方，Kamínek便由此"重生"为一座刻意堆砌而成的山丘，山顶海拔381米，如今立着一个巨大的石制指南针。如今，碎石小径通向山顶，供步行者与骑行者使用，山丘每年还会举办名为"Kamínek Eliminátor"的自行车赛，挑战车手征服其最陡的一段坡道；至少截至2017年，关于在此修建滑雪道与体育设施的计划，仍然毫无进展。
-
-🎁 彩蛋：一个60年代曾夺走两名孩子生命的土坑，此后几十年里静静"等待"着被一个毫不相干的高速公路项目重新填满。有时候，一片土地会获得属于自己的第二次机会，无论当初是否有人这样计划过。`,
     },
   },
   {
@@ -15585,61 +15477,7 @@ Zastávka tu byla poprvé otevřena roku 1888 na trati spojující vršovickou a
     },
   },
 
-  {
-    name: 'Gloriet Lookout Tower (Průhonice Park)',
-    slug: 'vyhlidkova-vez-gloriet-pruhonice',
-    localizedNames: { cz: 'Vyhlídková věž Gloriet', zh: '格洛列特观景塔' },
-    labels: ['tower', 'park', 'contemporary', 'hidden-gem', 'outside'],
-    coordinates: { lat: 49.99525577213388, lng: 14.557224823759956 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: '',
-    description: {
-      en: `The Gloriet is a small stone lookout tower, just eight metres tall, standing on a rocky spur above a bend of the Botič stream in Průhonice Park, just south-east of Prague. It has outlasted a whole aristocratic remodelling of the landscape around it, and still rewards the climb with one of the best views in the park.
 
-It was built in 1830 by Count Jan Nepomuk Nostitz-Rieneck, who owned the Průhonice estate, and locals also call it Kozí hrádek, the Goat Castle. Thirty-nine steps lead up to the viewing platform. It is older than the famous park around it: when Count Arnošt Emanuel Silva-Tarouca bought the estate in 1885 and began creating his celebrated landscape park, he kept the old tower as one of its viewpoints. By the 20th century it had decayed into a ruin, at one point deliberately left as a picturesque one, until only bare walls and fragments of the stairs remained. It was rebuilt in 2009 and 2010 and reopened to visitors in 2012.
-
-🎁 Bonus: Průhonice Park was added to the UNESCO World Heritage List in 2010, as part of the Historic Centre of Prague. And for decades this was a lookout tower from which nobody could safely look out, a ruin pretending to be scenic, until the restorers gave the climb back its ending.`,
-      cz: `Gloriet je malá kamenná vyhlídková věž, vysoká jen osm metrů, na skalnatém ostrohu nad meandrem Botiče v Průhonickém parku, kousek jihovýchodně od Prahy. Přežila celou šlechtickou proměnu krajiny kolem sebe a za výstup se dodnes odmění jedním z nejlepších výhledů v parku.
-
-Postavil ji roku 1830 hrabě Jan Nepomuk Nostic-Rieneck, majitel průhonického panství, a místní jí říkají také Kozí hrádek. Na vyhlídkovou plošinu vede třicet devět schodů. Je starší než slavný park kolem: když panství roku 1885 koupil hrabě Arnošt Emanuel Silva-Tarouca a začal tvořit svůj proslulý krajinářský park, starou věž si ponechal jako jednu z vyhlídek. Ve 20. století zchátrala v ruinu, jednu dobu dokonce záměrně ponechanou jako malebnou, až z ní zůstaly jen holé zdi a zbytky schodů. Obnovena byla v letech 2009 a 2010 a návštěvníkům se znovu otevřela roku 2012.
-
-🎁 Bonus: Průhonický park byl roku 2010 zapsán na seznam světového dědictví UNESCO jako součást Historického centra Prahy. A desítky let to byla rozhledna, ze které se nikdo nemohl bezpečně rozhlédnout, ruina předstírající malebnost, dokud restaurátoři výstupu nevrátili jeho konec.`,
-      zh: `格洛列特观景塔是一座小石塔，只有八米高，立在布拉格东南不远处普鲁霍尼采公园里博蒂奇溪一处河湾上方的岩石突角上。它熬过了周围景观的一整场贵族式改造，至今登上去仍能看到公园里数一数二的风景。
-
-塔建于1830年，建造者是普鲁霍尼采庄园的主人扬·内波穆克·诺斯蒂茨-里内克伯爵，当地人也叫它“山羊小堡”。三十九级台阶通往观景平台。它比周围那座著名的公园还要老：1885年阿尔诺什特·埃马努埃尔·席尔瓦-塔鲁卡伯爵买下庄园、开始打造那座名闻遐迩的风景园林时，把这座老塔保留下来作为观景点之一。到了20世纪，它破败成了废墟，有一阵子甚至被故意保留成“如画的废墟”，最后只剩下光秃秃的墙和几段残阶。2009年到2010年间它得到重建，2012年重新向游客开放。
-
-🎁 彩蛋：普鲁霍尼采公园在2010年作为布拉格历史中心的一部分列入了联合国教科文组织世界遗产名录。而几十年间，这座观景塔上根本没法安全地观景，只是一座假装风景如画的废墟，直到修复者把登塔的“结局”还给了它。`,
-    },
-  },
-
-  {
-    name: 'Old Czech Cottage (Průhonice Park)',
-    slug: 'staroceska-chalupa-pruhonice',
-    localizedNames: { cz: 'Staročeská chalupa', zh: '老捷克农舍' },
-    labels: ['homestead', 'park', 'outside'],
-    coordinates: { lat: 49.990646445619, lng: 14.5525760062288 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: '',
-    description: {
-      en: `The Old Czech Cottage is a small wooden log house with a shingled roof on the bank of a pond in Průhonice Park, just outside Prague. It looks as if it has always stood here, but it was actually bought at an exhibition and moved in.
-
-The cottage was shown at the great Czechoslavic Ethnographic Exhibition held in Prague in 1895, which celebrated Czech folk culture. Count Arnošt Emanuel Silva-Tarouca, the founder of Průhonice Park, bought it and had it set up on the bank of the Labeška pond. Built in the style of a fisherman's house, it served the park's fishery and was also used as a base for hunting parties. Its picturesque setting later made it popular with film-makers, and it has appeared in Czech fairy-tale films. Today it houses a small exhibition on the fairy tales filmed in the park.
-
-🎁 Bonus: A cottage that started out as an exhibit and then worked for the fishery ended up playing humble homes for fairy-tale heroes on screen. For a building bought second-hand, it has had a remarkably varied career.`,
-      cz: `Staročeská chalupa je malý dřevěný roubený domek se šindelovou střechou na břehu rybníka v Průhonickém parku, kousek za Prahou. Vypadá, jako by tu stála odjakživa, ve skutečnosti ale byla koupena na výstavě a přestěhována sem.
-
-Chalupa byla vystavena na velké Národopisné výstavě českoslovanské, která se konala v Praze roku 1895 a oslavovala českou lidovou kulturu. Hrabě Arnošt Emanuel Silva-Tarouca, zakladatel Průhonického parku, ji koupil a dal ji postavit na břehu rybníka Labeška. Postavená ve stylu rybářského domku sloužila rybářství v parku a také jako zázemí pro hony. Její malebné okolí ji později učinilo oblíbenou u filmařů a objevila se v českých pohádkách. Dnes je v ní malá výstava o pohádkách natáčených v parku.
-
-🎁 Bonus: Chalupa, která začínala jako výstavní exponát a pak pracovala pro rybářství, nakonec na plátně hrála skromná obydlí pohádkových hrdinů. Na budovu koupenou z druhé ruky má za sebou pozoruhodně pestrou kariéru.`,
-      zh: `老捷克农舍是布拉格城外普鲁霍尼采公园里池塘边的一座小木屋，原木墙，木瓦顶。它看上去像是一直就立在这里，其实是从一场展览上买来搬过来的。
-
-这座农舍曾在1895年布拉格举办的盛大的捷克斯拉夫民族志博览会上展出，那次博览会是为了颂扬捷克民间文化。普鲁霍尼采公园的创建者阿诺什特·埃马努埃尔·席尔瓦-塔鲁卡伯爵把它买下来，安置在拉贝什卡池塘边。它按渔夫小屋的样式建造，为公园的渔业服务，也是狩猎队伍的落脚点。如画的环境后来让它受到电影人的青睐，在捷克童话电影里露过面。如今屋里有一个小展览，介绍在公园里拍摄的童话片。
-
-🎁 彩蛋：一座从展品起家、后来给渔业打工的小屋，最后在银幕上扮演起童话主人公的简陋家园。对一栋二手买来的房子来说，它的经历相当丰富。`,
-    },
-  },
 
   {
     name: 'National Pedagogical Museum and J. A. Comenius Library',
@@ -15701,33 +15539,6 @@ Památník, odhalený 17. června 2014, má podobu dvoumetrového bronzového Ok
     },
   },
 
-  {
-    name: 'Hostivice Ponds',
-    slug: 'hostivicke-rybniky',
-    localizedNames: { cz: 'Hostivické rybníky', zh: '霍斯季维采鱼塘' },
-    labels: ['nature', 'waterbody', 'outside'],
-    coordinates: { lat: 50.0724859684435, lng: 14.248603239514946 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Hostivick%C3%A9_rybn%C3%ADky',
-    description: {
-      en: `The Hostivice Ponds are a chain of old fishponds just beyond Prague's western edge, near the airport. They look peaceful enough, and they are: they have become a haven for rare waterbirds and wetland plants.
-
-The three main ponds, Litovický, Kalý and Břevský, cover more than a hundred hectares and have been used as fishponds since the Middle Ages. In the time of Rudolf II the system also helped feed water to Prague Castle. The ponds were declared a protected nature monument in 1996, and today they shelter around thirty specially protected species, among them three kinds of grebe that nest here, the great crested, the black-necked and the little grebe, as well as several species of bats and a rich variety of reedbed and wetland plants. A nature trail about three kilometres long, with information boards, leads around the ponds, letting visitors watch the birds without disturbing them.
-
-🎁 Bonus: Planes taking off from Václav Havel Airport fly over the ponds, so this is one of the few places where you can watch a great crested grebe performing its elaborate courtship dance on the water while a jet climbs into the sky above it.`,
-      cz: `Hostivické rybníky jsou soustava starých rybníků kousek za západním okrajem Prahy nedaleko letiště. Vypadají docela poklidně a také jsou: staly se útočištěm vzácných vodních ptáků a mokřadních rostlin.
-
-Tři hlavní rybníky, Litovický, Kalý a Břevský, zabírají víc než sto hektarů a jako rybníky slouží od středověku. Za Rudolfa II. soustava pomáhala přivádět vodu i na Pražský hrad. Roku 1996 byly rybníky vyhlášeny přírodní památkou a dnes dávají útočiště asi třiceti zvláště chráněným druhům, mezi nimi třem druhům potápek, které tu hnízdí, roháči, potápce černokrké a potápce malé, a také několika druhům netopýrů a bohaté škále rákosin a mokřadních rostlin. Kolem rybníků vede asi tři kilometry dlouhá naučná stezka s informačními tabulemi, která umožňuje pozorovat ptáky, aniž by je lidé rušili.
-
-🎁 Bonus: Nad rybníky přelétají letadla startující z Letiště Václava Havla, takže je to jedno z mála míst, kde můžete sledovat, jak potápka roháč na vodě předvádí svůj složitý svatební tanec, zatímco nad ní stoupá k nebi tryskáč.`,
-      zh: `霍斯季维采鱼塘是布拉格西缘外、机场附近的一串古老鱼塘。它们看上去很安宁，事实也是如此：这里已经成了稀有水鸟和湿地植物的避风港。
-
-三个主要的鱼塘，利托维茨基塘、卡利塘和布热夫斯基塘，总面积一百多公顷，从中世纪起就用来养鱼。鲁道夫二世时期，这套水系还帮着给布拉格城堡供水。1996年鱼塘被列为自然遗迹保护区，如今这里栖息着约三十种特别保护物种，包括在此筑巢的三种䴙䴘：凤头䴙䴘、黑颈䴙䴘和小䴙䴘，还有好几种蝙蝠以及丰富多样的芦苇丛和湿地植物。一条约三公里长、配有解说牌的自然步道环绕着鱼塘，让游客可以观鸟而不打扰它们。
-
-🎁 彩蛋：从瓦茨拉夫·哈维尔机场起飞的飞机会从鱼塘上空飞过，所以这是少数几个能一边看凤头䴙䴘在水面上跳着繁复的求偶舞、一边看喷气式飞机在它头顶爬升的地方之一。`,
-    },
-  },
 
   {
     name: 'Hostivice Chateau',
@@ -16526,33 +16337,6 @@ Kolem města leží zalesněná údolí Posázaví s železniční tratí a jej�
     },
   },
 
-  {
-    name: 'Žampach Viaduct',
-    slug: 'zampassky-most',
-    localizedNames: { cz: 'Žampašský most', zh: '扎姆帕赫铁路高架桥' },
-    labels: ['bridge', 'nature', 'outside'],
-    coordinates: { lat: 49.872634172021996, lng: 14.487026706606542 },
-    rarity: 'epic',
-    xpReward: 50,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C5%BDampa%C5%A1sk%C3%BD_most',
-    description: {
-      en: `The Žampach Viaduct is a tall stone railway bridge in a wooded valley near Jílové u Prahy, south of Prague. With seven granite arches rising some forty metres above the valley floor, it is one of the highest stone railway bridges in Central Europe.
-
-It was built in 1898 and 1899 for the railway from Vrané nad Vltavou to Čerčany, the line nicknamed the Posázavský Pacifik, which winds through the valleys south of Prague. The bridge crosses the deep valley of a small stream on seven arches, each about 12.5 metres wide, the tallest reaching about 41 metres. Many of the stonemasons who built it came from Italy. The first train crossed in 1900, and the bridge has been a protected monument since 1958. More than a century later it still carries regular trains, with remarkably little major repair.
-
-🎁 Bonus: Seen from the valley floor, with a small train crossing high above among the trees, the viaduct looks almost like a film set. Many visitors compare it to the famous railway bridge in the Harry Potter films, and it is well worth the walk down to see it from below.`,
-      cz: `Žampašský most je vysoký kamenný železniční most v zalesněném údolí u Jílového u Prahy, jižně od Prahy. Se sedmi žulovými oblouky, které se zvedají asi čtyřicet metrů nad dno údolí, patří k nejvyšším kamenným železničním mostům ve střední Evropě.
-
-Postaven byl v letech 1898 a 1899 pro trať z Vraného nad Vltavou do Čerčan, přezdívanou Posázavský pacifik, která se vine údolími na jih od Prahy. Most překračuje hluboké údolí malého potoka na sedmi obloucích, z nichž každý má rozpětí asi 12,5 metru a nejvyšší sahá do výšky asi 41 metrů. Mnoho kameníků, kteří ho stavěli, přišlo z Itálie. První vlak po něm přejel roku 1900 a od roku 1958 je most kulturní památkou. O víc než sto let později po něm stále jezdí pravidelné vlaky a potřeboval pozoruhodně málo velkých oprav.
-
-🎁 Bonus: Viděn ze dna údolí, s malým vlakem projíždějícím vysoko nad stromy, vypadá viadukt skoro jako filmová kulisa. Mnozí návštěvníci ho přirovnávají ke slavnému železničnímu mostu z filmů o Harrym Potterovi a stojí za to sejít dolů a podívat se na něj zespodu.`,
-      zh: `扎姆帕赫高架桥是布拉格以南伊洛维-乌-普拉希附近一条林木茂密的山谷里的一座高大石砌铁路桥。七个花岗岩桥拱高出谷底约四十米，它是中欧最高的石砌铁路桥之一。
-
-它在1898年和1899年为从弗拉内-纳德伏尔塔沃到切尔查尼的铁路而建，这条线绰号“萨扎瓦太平洋线”，在布拉格以南的山谷间蜿蜒穿行。大桥以七个拱跨过一条小溪的深谷，每个拱跨度约12.5米，最高处约41米。参与建桥的石匠很多来自意大利。1900年第一列火车驶过，从1958年起大桥是受保护的文物。一百多年后，它仍载着定期列车往来，需要的大修少得惊人。
-
-🎁 彩蛋：从谷底望去，一列小火车在高高的树梢上方驶过，这座高架桥看上去几乎像个电影布景。许多游客把它比作《哈利·波特》电影里那座著名的铁路桥，很值得走下山谷，从下面看看它。`,
-    },
-  },
 
   {
     name: 'Lobkovice Chateau',
@@ -17335,33 +17119,6 @@ Po celá staletí to byla vlastně hlavně skladovací místnost. Podle legendy 
     },
   },
   {
-    name: 'Belvedér Ruins & Chapel of St. John the Baptist',
-    slug: 'letohradek-belveder-kutna-hora',
-    localizedNames: { cz: 'Zřícenina letohrádku Belvedér a kaple sv. Jana Křtitele', zh: '贝尔维德尔夏宫遗址与施洗约翰礼拜堂' },
-    labels: ['ruin', 'church', 'baroque', 'outside'],
-    coordinates: { lat: 49.9424707404664, lng: 15.188340847538846 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Letohr%C3%A1dek_Belveder_s_kapl%C3%AD_sv._Jana_K%C5%99titele_na_Vysok%C3%A9',
-    description: {
-      en: `In the woods on top of Vysoká hill, near Kutná Hora, stand the ruins of a Baroque summer house and the Chapel of St. John the Baptist. According to tradition, Count František Antonín Špork paid for them with money he won at cards.
-
-Špork, one of the most colourful aristocrats of Baroque Bohemia, built the complex between 1695 and 1697: a summer house for parties and hunting, a chapel and a small hermitage, probably with the help of the architect Giovanni Battista Alliprandi, who worked for him elsewhere. The chapel was consecrated on 24 June 1697, the feast of St. John the Baptist, with a celebration to which, so it was said, some twenty thousand guests were invited. A year later Špork added rooms for three resident hermits, but in 1699 he sold the whole estate. The buildings stood for well over a century until lightning struck on 30 April 1834 and the fire gutted the summer house. Its walls still stand in the forest, open to anyone who walks up, and a local volunteer association called Belveder has been caring for the ruins since the early 2000s.
-
-🎁 Bonus: Local tradition says Špork won the money for Belvedér at the card table against the Elector of Saxony, Augustus the Strong, during a stay at the spa of Karlovy Vary. A quiet ruin in the woods may owe its existence to one very lucky night far from the hill it stands on.`,
-      cz: `V lese na vrcholu Vysoké nedaleko Kutné Hory stojí zřícenina barokního letohrádku a kaple sv. Jana Křtitele. Podle tradice je hrabě František Antonín Špork zaplatil penězi vyhranými v kartách.
-
-Špork, jeden z nejbarvitějších šlechticů barokních Čech, postavil areál v letech 1695 až 1697: letohrádek pro zábavu a lov, kapli a malou poustevnu, nejspíš za pomoci architekta Giovanniho Battisty Alliprandiho, který pro něj pracoval i jinde. Kaple byla vysvěcena 24. června 1697, na svátek sv. Jana Křtitele, oslavou, na kterou bylo prý pozváno na dvacet tisíc hostů. O rok později přistavěl Špork obydlí pro tři poustevníky, ale roku 1699 celé panství prodal. Budovy stály přes sto let, než 30. dubna 1834 udeřil blesk a požár letohrádek vykuchal. Jeho zdi stojí v lese dodnes, přístupné každému, kdo vystoupá nahoru, a místní spolek Belveder se o zříceninu stará od počátku 21. století.
-
-🎁 Bonus: Místní tradice tvrdí, že Špork vyhrál peníze na Belvedér v kartách proti saskému kurfiřtovi Augustu Silnému během pobytu v lázních Karlovy Vary. Tichá zřícenina v lese tak možná vděčí za svou existenci jedné velmi šťastné noci daleko od kopce, na kterém stojí.`,
-      zh: `库特纳霍拉附近维索卡山顶的树林里，立着一座巴洛克夏宫和施洗约翰礼拜堂的废墟。按照传统说法，弗朗蒂谢克·安东宁·什波克伯爵是用打牌赢来的钱建起它们的。
-
-什波克是巴洛克时期波希米亚最多姿多彩的贵族之一，他在1695年至1697年间建成了这组建筑：一座用来宴乐和打猎的夏宫、一座礼拜堂和一座小隐修所，很可能请了在别处为他效力的建筑师乔瓦尼·巴蒂斯塔·阿利普兰迪帮忙。礼拜堂于1697年6月24日施洗约翰节当天祝圣，据说那场庆典邀请了约两万名宾客。一年后什波克又加建了供三位隐士居住的房间，可到1699年，他就把整座庄园卖掉了。这些建筑屹立了一百多年，直到1834年4月30日一道闪电引发大火，把夏宫烧得只剩空壳。它的墙至今仍立在林中，谁走上来都能看，当地一个名叫“贝尔维德尔”的志愿协会从21世纪初起一直在照料这片废墟。
-
-🎁 彩蛋：当地传说，什波克是在卡罗维发利温泉疗养时，从萨克森选帝侯“强力王”奥古斯特手里赢来了修建贝尔维德尔的钱。林中这片安静的废墟，也许要归功于远离这座山的某个手气极好的夜晚。`,
-    },
-  },
-  {
     name: 'Nymburk',
     slug: 'nymburk',
     localizedNames: { cz: 'Nymburk', zh: '尼姆堡' },
@@ -17646,33 +17403,6 @@ Důl pak tři desetiletí ležel zatopený a zapomenutý, dokud jej v roce 1995 
 此后矿井被淹没、遗忘了三十年，直到1995年一个保护协会重新开放了其中一部分，改建成如今的矿井博物馆。今天游客可以参观旧第8层约600米的巷道，沿途保留着窄轨铁轨、当年矿用马匹的马厩、机房和地下休息区，大部分行程都乘坐着与当年矿工上下班时同款的"普尔曼"矿车。
 
 🎁 彩蛋：如今通往皮尔森的D5高速公路几乎就正好从矿井正上方经过，而它的修建工程实际上淹没了这座历史矿井的大片区域。也就是说，你开车驶来时经过的那条高速公路，某种程度上正是今天赫鲁斯捷尼采矿井能参观的部分如此有限的原因之一。`,
-    },
-  },
-  {
-    name: 'U Tří Habrů',
-    slug: 'u-tri-habru',
-    localizedNames: { cz: 'U Tří Habrů', zh: '三棵鹅耳枥' },
-    labels: ['nature', 'hidden-gem', 'outside'],
-    coordinates: { lat: 49.99407795380414, lng: 14.17961374071371 },
-    rarity: 'common',
-    xpReward: 10,
-    wikipediaUrl: '',
-    description: {
-      en: `Welcome to U Tří Habrů, a quiet trail junction deep in the Bohemian Karst that has almost nothing written about it online, which is either the most honest possible name for a spot in the woods, or the world's most understated place-name mystery.
-
-Czech place names have an old habit of marking a trail junction, hilltop, or forest clearing after whatever trees happened to be standing there when someone first needed to give directions, and this crossing follows exactly that pattern: the kind of landmark a local forester, not a marketing department, would come up with. It sits roughly midway between the Chrustenická šachta iron mine and the old Solvay limestone quarries, along the network of marked trails that cut through the Český kras Protected Landscape Area, one of Bohemia's oldest and largest karst regions, its slopes still thick with the same kind of woodland that presumably gave this junction its name centuries ago.
-
-🎁 Bonus: Search online and you'll mostly find nothing about this spot: no plaque, no tourist blurb, no photo essay. If you're reading this while standing there, you may genuinely know more about the place than the internet does.`,
-      cz: `Vítej u „U Tří Habrů", tichého rozcestí hluboko v Českém krasu, o kterém na internetu nenajdeš skoro nic, což je buď nejupřímnější možné jméno pro místo uprostřed lesa, nebo nejnenápadnější toponymická záhada v zemi.
-
-Česká místní jména mají starý zvyk pojmenovávat rozcestí, kopec nebo lesní mýtinu podle stromů, které tam zrovna rostly, když bylo potřeba někomu poprvé popsat cestu, a tohle rozcestí se drží přesně téhle logiky: je to přesně ten typ orientačního bodu, se kterým přijde místní hajný, ne marketingové oddělení. Leží zhruba na půli cesty mezi Chrustenickou šachtou a starými Solvayovými vápencovými lomy, na síti značených cest, které protínají CHKO Český kras, jednu z nejstarších a největších krasových oblastí v Čechách, jejíž svahy dodnes pokrývají husté lesy, po nichž toto rozcestí zřejmě před staletími dostalo jméno.
-
-🎁 Bonus: Zkus si tohle místo vyhledat na internetu a najdeš vlastně skoro nic: žádnou tabuli, žádný turistický popisek, žádnou fotoreportáž. Pokud tohle čteš přímo na místě, možná o něm doopravdy víš víc než celý internet.`,
-      zh: `欢迎来到“三棵鹅耳枥”岔口，捷克喀斯特地区深处一处安静的步道岔口，网络上几乎找不到关于它的任何资料。这要么是森林里一个地名能有的最诚实的名字，要么就是这个国家最低调的地名之谜。
-
-捷克的地名素来有个老习惯：以某处恰好长着的树木，为路口、山头或林间空地命名，这处岔路口正是遵循了这样的传统，是那种由当地护林员随口起出、而非出自营销部门之手的地标名字。它大致位于赫鲁斯捷尼采矿井与旧索尔维石灰岩采石场之间，坐落在穿越捷克喀斯特保护景观区的标记步道网络之中。这是波希米亚最古老、最大的喀斯特地区之一，山坡上至今仍林木茂密，这处路口的名字大概正是数百年前由此而来。
-
-🎁 彩蛋：在网上搜索这个地方，你多半会一无所获：没有铭牌，没有旅游简介，也没有图文游记。如果你正站在这里读到这段文字，那你对这个地方的了解，或许真的已经超过了整个互联网。`,
     },
   },
   {
@@ -18287,39 +18017,6 @@ Zahrada roste, v obou smyslech slova, od podzimu 2014 a budovali ji záhon po z�
 花园从2014年秋天起一直在“生长”，无论是字面意思还是另一层意思，它是当地居民一块地一块地建起来的，而不是一下子剪彩开放的。这里有一小片果园、多年生花坛和一个观赏水塘，游乐设施则朴素得让人舒服：一张练平衡的绳网“蜘蛛网”、几个可以戏水的水槽，还有那张地面蹦床。它也是隔壁米科拉什·阿莱什小学的户外课堂，小小的天然圆形剧场和火塘边经常举办野餐、露天电影和其他聚会，把一块安静的绿地变成真正的街坊活动。
 
 🎁 彩蛋：地面蹦床是一种真实存在的游乐设施：弹跳网绷在一个下沉的坑上，和地面齐平。不用爬梯子，摔不着，家长也比看着那种架高的蹦床放心多了。`,
-    },
-  },
-  {
-    name: 'Horoměřice Chateau',
-    slug: 'zamek-horomerice',
-    localizedNames: { cz: 'Zámek Horoměřice', zh: '霍罗梅日采城堡' },
-    labels: ['homestead', 'palace', 'outside'],
-    coordinates: { lat: 50.133227869114606, lng: 14.337667910775243 },
-    rarity: 'superior',
-    xpReward: 30,
-    wikipediaUrl: '',
-    description: {
-      en: `Horoměřice Chateau, just beyond Prague's north-western edge, does not live up to the grand word "chateau". It started as a plain farm building, was promoted to a residence by ambitious monks, and now waits behind closed gates for a costly restoration.
-
-The village first appears in the records in 1273, already owned by Strahov Monastery, and apart from one interruption it stayed in the monks' hands for nearly seven centuries. Prague seized the estate during the Hussite wars, and it took the Premonstratensians until 1598, under Abbot Jan Lohelius, to buy it back. In the first half of the 18th century they rebuilt their working farmstead here into a modest two-storey chateau with a small lantern tower on the roof, respectable but never grand.
-
-Its finest room cannot be seen from outside: a square chapel on the upper floor, roofed with a dome painted by the Strahov monk and painter Siard Nosecký with scenes of St. Anne and Joachim and figures from the Old Testament. After 1945 the chateau's fate became tangled in disputes over property, and it eventually passed to the municipality, which is looking for the money to repair it.
-
-🎁 Bonus: The town has floated a nice idea for the restored chateau: not a museum behind velvet ropes, but a meeting place for people from both Prague and Central Bohemia, since the village sits right on the border between the two regions. Whether it happens depends on grants, so consider this location a long-term investment.`,
-      cz: `Zámek Horoměřice hned za severozápadním okrajem Prahy velkému slovu „zámek“ tak docela nedostojí. Začínal jako obyčejná hospodářská budova, ctižádostiví mniši ho povýšili na sídlo a teď čeká za zavřenými vraty na nákladnou obnovu.
-
-Ves se v pramenech poprvé objevuje roku 1273, už jako majetek Strahovského kláštera, a až na jedno přerušení zůstala v rukou mnichů skoro sedm století. Za husitských válek panství zabrala Praha a premonstrátům trvalo až do roku 1598, za opata Jana Lohelia, než ho vykoupili zpět. V první polovině 18. století tu přestavěli svůj hospodářský dvůr na skromný dvoupatrový zámek s malou lucernovou věžičkou na střeše, slušný, ale nikdy okázalý.
-
-Jeho nejkrásnější místnost zvenku neuvidíte: čtvercová kaple v horním patře zaklenutá kupolí, kterou strahovský mnich a malíř Siard Nosecký vymaloval výjevy ze života sv. Anny a Jáchyma a postavami ze Starého zákona. Po roce 1945 se osud zámku zapletl do majetkových sporů a nakonec připadl obci, která shání peníze na jeho opravu.
-
-🎁 Bonus: Obec přišla s pěkným nápadem pro obnovený zámek: ne muzeum za sametovými provazy, ale místo setkávání lidí z Prahy i ze středních Čech, protože obec leží přesně na hranici obou krajů. Jestli se to povede, závisí na dotacích, takže tohle místo berte jako dlouhodobou investici.`,
-      zh: `霍罗梅日采城堡就在布拉格西北边缘外面，它其实配不上“城堡”这个气派的名字。它起初只是一座普通的农庄建筑，被雄心勃勃的修士们升格成了宅邸，如今关着大门，等待一场花费不菲的修复。
-
-这个村子最早见于1273年的记载，当时已归斯特拉霍夫修道院所有，除了一次中断，它在修士们手里待了将近七百年。胡斯战争期间布拉格夺走了这片庄园，普雷蒙特雷会修士直到1598年才在院长扬·洛赫利乌斯任内把它买回来。18世纪上半叶，他们把这里的农庄改建成一座朴素的两层城堡，屋顶上有一座带灯笼顶的小塔，体面，却从不张扬。
-
-它最美的房间从外面看不到：楼上一间方形小礼拜堂，穹顶由斯特拉霍夫的修士画家西亚尔德·诺塞茨基绘制，画的是圣安妮和若亚敬的故事以及旧约人物。1945年以后，城堡的命运卷进了财产纠纷，最后归了村镇，镇上正在想办法筹钱修缮它。
-
-🎁 彩蛋：镇上为修好后的城堡想了个好主意：不做拉着天鹅绒围绳的博物馆，而是做一个让布拉格人和中波希米亚人见面相聚的地方，因为这个村子正好坐落在两个州的交界线上。能不能实现，得看能不能申请到资助，所以不妨把这个地点当作一项长期投资。`,
     },
   },
   {
@@ -24174,114 +23871,6 @@ Herní příběh podrobuje tu tvrdohlavost úplně jinému zážitku: ve vypráv
     },
   },
   {
-    // Added 2026-09-11, user-supplied coordinates. The actual village at the
-    // foot of hrad-trosky. **Rewritten 2026-09-16 at the user's explicit
-    // direction** to flip the usual weighting for this KCD2 tie-in batch:
-    // most of the word count now goes to the game's own plot set here
-    // (the "Laboratores" tavern-brawl/pillory-punishment main quest, the
-    // carpenter's-house night-burglary loop that's a well-known player
-    // "restock run"), with the real village's own history compressed into
-    // a single brief bonus paragraph rather than leading. Game facts
-    // confirmed via WebSearch of Fextralife/Gamerant/community guides:
-    // Henry+Hans fail to enter Trosky Castle, wash up at the Troskowitz
-    // tavern, Hans fights Svatya after carrying sacks to pay a debt, the
-    // bailiff (whose seat is genuinely here — Troskovice is the region's
-    // real administrative hub in-game) breaks it up and pillories both of
-    // them; free roam unlocks after "Wedding Crashers"; the carpenter's
-    // house across from the tavern is a documented repeatable night-
-    // burglary spot (climb the woodpile, pickpocket keys off the
-    // carpenter and his father, loot the chests, loot quietly respawns
-    // after a few in-game days). Real facts (1388 first mention, no
-    // church/cemetery of its own, population decline, Semín absorption)
-    // unchanged from the original write-up, just condensed. Rarity/
-    // labels/coordinates left untouched.
-    name: 'Troskovice',
-    slug: 'troskovice',
-    localizedNames: { cz: 'Troskovice', zh: '特罗斯科维采' },
-    labels: ['village-and-town', 'outside'],
-    coordinates: { lat: 50.51102745819423, lng: 15.224620113873087 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Troskovice',
-    description: {
-      en: `Welcome to Troskovice — "Troskowitz" to anyone who's played Kingdom Come: Deliverance II — the very first proper town the game drops Henry and Hans into, and, by its own telling, easily the most eventful place in the whole Trosky region: a tavern brawl that gets both heroes thrown in the stocks, a carpenter's house half the playerbase treats as a personal all-night convenience store, and the seat of a bailiff who's clearly seen it all before.
-
-The trouble starts almost the moment they arrive. After Henry and Hans fail to talk their way into Trosky Castle, they wash up at the Troskovice tavern, where working off a debt by hauling sacks somehow spirals into Hans losing his temper at a local named Svatya. Henry gets dragged in to back him up, the whole tavern turns into a brawl, and the village bailiff — whose office genuinely sits here, since Troskovice is the region's real administrative hub — breaks it up by locking both of them in the public stocks. Hans gets nastier by the minute the whole time he's stuck there and storms off the moment he's free, a rough start for a friendship meant to carry the rest of the game.
-
-Once free roam opens up after the wedding quest, the village settles into its real job as the region's functioning town — tavern, apothecary, tailor, butcher, scribe, alchemy bench, all present and correct — but its most reliably visited spot has nothing to do with any of that. The carpenter's house directly across from the tavern is one of the best-known "restock runs" in the whole game: climb the woodpile out back after dark, slip in through a window, pickpocket the carpenter and his father for their keys, and clean out their chests of weapons, shields, and lockpicks — and since the loot quietly refills after a few in-game days, plenty of players treat it less like a burglary and more like a subscription.
-
-🎁 Bonus: the real Troskovice, for what it's worth, is a farming hamlet of under 200 people, first recorded in 1388, that absorbed a few smaller settlements over the centuries (Semín among them) and has no church of its own, no tavern brawls, and no carpenter worth robbing — its own official history politely admits that nothing much has ever happened here beyond being named after the ruins looming overhead.`,
-
-      cz: `Vítejte v Troskovicích — pro každého, kdo hrál Kingdom Come: Deliverance II, "Troskowitz" — úplně prvním pořádném městečku, do kterého hra pošle Jindřicha s Hansem, a podle vlastního vyprávění hry zdaleka nejrušnějším místě v celém troseckém kraji: hospodská rvačka, po které oba hrdinové skončí v kládě, tesařův dům, který si polovina hráčů zvykla brát jako osobní nonstop krám, a sídlo rychtáře, který zjevně už viděl všechno.
-
-Potíže začnou skoro hned po příjezdu. Poté co se Jindřichovi s Hansem nepodaří vymluvit si vstup na hrad Trosky, přistanou v troskovické hospodě, kde se odpracovávání dluhu nošením pytlů nějak zvrhne v to, že Hans ztratí nervy kvůli místnímu Svatymu. Jindřich se nechá zatáhnout do toho, aby ho podpořil, z celé hospody se stane rvačka a vesnický rychtář — jehož úřad tu skutečně sídlí, protože Troskovice jsou opravdovým administrativním centrem kraje — ji ukončí tak, že oba nechá zavřít do klády na návsi. Hans je po celou dobu trestu čím dál nasupenější a jakmile je volný, hned odejde — dost drsný start přátelství, které má nést celou zbylou hru.
-
-Jakmile se po svatební zápletce otevře volný pohyb, vesnice se usadí ve své skutečné roli fungujícího městečka kraje — hospoda, apatykář, krejčí, řezník, písař, alchymistický stůl, všechno na svém místě — jenže její nejspolehlivěji navštěvované místo s ničím z toho nemá nic společného. Tesařův dům přímo naproti hospodě patří k nejznámějším „zásobovacím" trasám celé hry: po setmění vyšplháte po hromadě dřeva na dvorku, prosmýknete se oknem dovnitř, okradete tesaře i jeho otce o klíče a vyprázdníte jejich truhly plné zbraní, štítů a paklíčů — a protože se kořist po pár herních dnech tiše doplní, spousta hráčů to bere méně jako vloupání a víc jako předplatné.
-
-🎁 Bonus: skutečné Troskovice jsou pro srovnání zemědělská osada s necelými 200 obyvateli, poprvé doložená v roce 1388, která v průběhu staletí pohltila pár menších osad (mimo jiné Semín), nemají vlastní kostel, žádné hospodské rvačky a žádného tesaře, kterého by stálo za to okrást — jejich vlastní oficiální historie zdvořile přiznává, že se tu kromě pojmenování po zřícenině nad hlavou nikdy moc nedělo.`,
-
-      zh: `欢迎来到特罗斯科维采——玩过《天国：拯救2》的人都知道它叫"Troskowitz"——游戏把亨利和汉斯送去的第一座像样的城镇，而按游戏自己的说法，这里也是整个特罗斯基地区最"精彩"的地方：一场把两位主角一起送进枷锁的酒馆斗殴，一栋被半数玩家当成个人24小时便利店的木匠家，还有一位显然什么大风大浪都见过的法警官邸。
-
-麻烦几乎一到村子就找上门来。亨利和汉斯没能说动守卫放他们进特罗斯基城堡后，落脚在特罗斯科维采的酒馆——本该靠扛麻袋抵债，结果不知怎么就演变成汉斯跟本地人斯瓦蒂亚翻了脸。亨利被拖下水去帮腔，整间酒馆瞬间打成一团，村里的法警（他的办公地点就实实在在设在这儿，因为特罗斯科维采正是这一带真正的行政中心）出面平息，把两人一起铐进了村口的枷锁示众。汉斯受罚期间脾气越来越差，一获释就转身离去——对一段本该撑起整个游戏的友谊来说，这个开局相当糟糕。
-
-等"搅局的婚礼"任务解锁自由探索后，这座村庄才真正显出它作为地区功能性城镇的一面——酒馆、药材商、裁缝、屠夫、文书、炼金台一应俱全——但公认最靠谱的"景点"其实跟这些都没关系。酒馆正对面那栋木匠家，是全游戏最出名的"补货点"之一：天黑之后爬上后院的柴堆，翻窗溜进去，从木匠和他父亲身上摸出钥匙，把他们柜子里的武器、盾牌和撬锁工具一扫而空——而且由于战利品会在几个游戏日后悄悄补满，不少玩家与其说是在"行窃"，倒更像是在"按时进货"。
-
-🎁 彩蛋：相比之下，现实中的特罗斯科维采只是一座不到200人的农业小村，最早记载于1388年，几个世纪以来陆续吞并了周边几个小村落（塞米也在其中），没有自己的教堂，没有酒馆斗殴，也没有值得一偷的木匠——它自己的官方村史都大大方方承认，这里除了以头顶那片废墟命名之外，基本没发生过什么大事。`,
-    },
-  },
-  {
-    // Added 2026-09-11, user-supplied coordinates. Rarity: `superior` — a
-    // genuinely popular Český ráj stop, but its headline claim ("largest
-    // Celtic oppidum in Bohemia") turned out to be more folklore than fact
-    // once actually checked (see below), so it doesn't earn `epic` on
-    // archaeological weight alone. name translates the generic "Hradiště"
-    // (hillfort) per house style, same pattern as "Trosky Castle".
-    // Debunking angle confirmed via WebFetch of a Czech Radio Liberec
-    // article quoting archaeologist Jan Prostředník: repeated surveys
-    // (rescue digs, aerial imaging, geophysics, radiocarbon sampling) found
-    // the rampart is a modified natural sandstone ridge, not a built
-    // fortification, and a 1993 dig turned up only a handful of Celtic
-    // pottery fragments on the Trosky-facing side — more consistent with a
-    // trail than a fortified settlement. Modern 2018 exhibition complex
-    // confirmed via hradistesemin.cz.
-    name: 'Semín Hillfort',
-    slug: 'hradiste-semin',
-    localizedNames: { cz: 'Hradiště Semín', zh: '塞米山寨' },
-    labels: ['museum', 'prehistory', 'outside'],
-    coordinates: { lat: 50.508715238076526, lng: 15.197032890004515 },
-    rarity: 'superior',
-    xpReward: 30,
-    description: {
-      en: `Welcome to Semín Hillfort, popularly billed as the largest Celtic oppidum in Bohemia: a nearly 180-hectare plateau near Trosky Castle that Iron Age Celts supposedly fortified against the world. One regional archaeologist has spent years patiently explaining that the world was probably never all that interested.
-
-The claim rests almost entirely on a long earthen rampart running along part of the plateau's edge, and archaeologist Jan Prostředník's own repeated surveys (rescue digs, aerial imaging, geophysical scans, radiocarbon sampling) keep turning up the same underwhelming answer: the rampart is a natural sandstone ridge that someone modified, not something anyone built from scratch, and a 1993 excavation found only a handful of Celtic pottery fragments, all clustered on the side facing Trosky, more consistent with people passing along an old trail than with a fortified settlement of any real size.
-
-None of that has stopped Semín from becoming one of Český ráj's more popular stops, just for reasons that have nothing to do with archaeology. A modern complex built in 2018, designed to look like a wooden Celtic stronghold from the outside, now fills the plateau with exhibition halls of agates, crystals, glass, and folk pottery, plus a small Salvador Dalí collection, overnight lodging, and a shooting range. It is a functioning tourist attraction built on top of a legend that mostly exists because a large flat clearing in the woods looks like it ought to have a story behind it.
-
-Kingdom Come: Deliverance II borrows the same name for a much bloodier plot: its own Semine estate hosts a wedding Henry gets dragged into, one that turns out to be tangled up with a band of outlaws hiding among the guests, and depending how the player handles it, the day ends in either a full massacre of the household or a narrower one that still burns the manor down to cover the tracks. The real manor that once carried this name (see Troskovice's own card) sat elsewhere in the valley below rather than on this specific plateau; the game's writers clearly just liked reusing a good local name for a very different building.
-
-🎁 Bonus: whatever did or didn't happen on this plateau two thousand years ago, it was ancient history even by 1380, when Trosky Castle went up on the rocks next door. By the time Kingdom Come: Deliverance II's 15th-century villagers were living in its shadow, this hill's own legend was already exactly as murky as it is today.`,
-      cz: `Vítejte na Hradišti Semín, které se veřejně prezentuje jako největší keltské oppidum v Čechách: téměř 180hektarová plošina poblíž hradu Trosky, kterou prý Keltové v době železné opevnili proti celému okolnímu světu. Jeden regionální archeolog už roky trpělivě vysvětluje, že ten svět o to pravděpodobně nikdy moc nestál.
-
-Celé tvrzení stojí téměř výhradně na dlouhém zemním valu táhnoucím se podél části okraje plošiny, a opakované průzkumy archeologa Jana Prostředníka (záchranné výzkumy, letecké snímkování, geofyzikální měření, radiokarbonové datování) pořád dokola přinášejí stejnou nevýraznou odpověď: val je přírodní pískovcový hřbet, který někdo jen upravil, nikoli něco, co by kdokoli postavil od základu, a výzkum z roku 1993 tu našel jen hrstku keltských střepů, všechny na straně obrácené k Troskám, což spíš odpovídá lidem procházejícím po staré stezce než opevněnému sídlišti jakékoli skutečné velikosti.
-
-Nic z toho nezabránilo tomu, aby se Semín stal jedním z oblíbenějších zastavení Českého ráje, jen z důvodů, které s archeologií nemají nic společného. Moderní areál postavený v roce 2018, navržený tak, aby zvenčí připomínal dřevěné keltské hradiště, dnes plošinu zaplňuje výstavními sály achátů, krystalů, skla a lidové keramiky, k tomu malou sbírkou Salvadora Dalího, ubytováním a střelnicí. Je to funkční turistická atrakce postavená na pověsti, která v podstatě existuje jen proto, že velká rovná mýtina uprostřed lesa vypadá, jako by za ní měl být nějaký příběh.
-
-Kingdom Come: Deliverance II si stejné jméno půjčuje pro mnohem krvavější zápletku: na panství Semín ve hře se koná svatba, na kterou se Jindřich nechtěně zaplete a která se ukáže být propletená s bandou lupičů skrytou mezi hosty. Podle toho, jak hráč situaci vyřeší, den skončí buď úplným vyvražděním celého panství, nebo užší verzí, po níž je stejně celé panství vypáleno, aby se zametly stopy. Skutečné panství, které kdysi neslo toto jméno (viz vlastní karta Troskovic), leželo jinde v údolí pod kopcem, ne přímo na téhle plošině; autoři hry si zjevně jen oblíbili dobré místní jméno a přiřkli ho úplně jiné stavbě.
-
-🎁 Bonus: ať se na téhle plošině před dvěma tisíci lety stalo cokoli nebo nestalo, byla to dávná historie už v roce 1380, kdy na sousedních skalách vyrostl hrad Trosky. Takže v době, kdy pod ním žili patnáctistoletí vesničané z Kingdom Come: Deliverance II, byla pověst tohoto kopce přesně tak mlhavá jako dnes.`,
-      zh: `欢迎来到塞米山寨，这里对外号称是波希米亚境内最大的凯尔特山寨遗址：一片将近180公顷、靠近特罗斯基城堡的高地，据说铁器时代的凯尔特人曾在此修筑防线，抵御整个外部世界。而一位本地考古学家多年来一直在耐心解释：那个外部世界，恐怕从来没怎么把这里放在眼里。
-
-这个说法几乎完全建立在沿着高地边缘一段的土垒之上，而考古学家扬·普罗斯特热德尼克多次调查（包括抢救性发掘、航拍、地球物理探测、放射性碳测年）得到的结论却一次次都同样朴素：这道土垒其实是一道被人为改动过的天然砂岩山脊，而不是从零建起的工事；1993年的一次发掘也只在朝向特罗斯基城堡的一侧找到了寥寥几片凯尔特陶器碎片，这更像是人们沿着一条古道往来留下的痕迹，而不是一处具备一定规模的设防聚落。
-
-尽管如此，塞米依然成了捷克天堂地区颇受欢迎的一站，只不过原因和考古学没什么关系。2018年建成的现代建筑群，外观刻意仿照凯尔特木造山寨，如今在这片高地上开设了玛瑙、水晶、玻璃和民间陶艺的展厅，外加一小批萨尔瓦多·达利的作品、住宿设施和一处射击场。这是一处建立在传说之上、却实实在在运转着的旅游景点，而这个传说之所以存在，很大程度上只是因为林中一片开阔的平地，看上去理应藏着点什么故事。
-
-《天国：拯救2》把这个名字用在了一个血腥得多的情节上：游戏里的"塞米庄园"举办了一场婚礼，亨利被卷入其中，而这场婚礼牵扯出了一伙藏身宾客之中的强盗。根据玩家的处理方式，这一天最终要么以整个庄园惨遭屠戮收场，要么是范围小一些的清洗，但庄园照样会被付之一炬以掩盖痕迹。真正曾以这个名字命名的庄园（详见特罗斯科维采自己的词条）其实位于山下山谷的另一处，而不是这片高地本身；游戏编剧显然只是看中了这个当地好听的地名，把它安在了一座完全不同的建筑上。
-
-🎁 彩蛋：不管两千年前这片高地上究竟发生过什么，到1380年特罗斯基城堡在旁边的岩石上拔地而起时，那都已经是遥远的往事了。也就是说，等到《天国：拯救2》里那些15世纪的村民在山脚下生活时，这座山头自身的传说，早就和今天一样扑朔迷离。`,
-    },
-  },
-  {
     // Added 2026-09-12, user-supplied coordinates. A rock castle deep in
     // Bohemian Switzerland National Park, near the German border — not
     // itself a town, so the "one card per non-Prague city" scope rule
@@ -24601,290 +24190,6 @@ O tři století později si Jičín našel druhý, mírnější důvod ke sláv�
 三个世纪后，伊欽找到了第二个、更温和的成名理由：作家瓦茨拉夫·奇特弗尔泰克把他笔下深受喜爱的儿童故事主人公鲁姆卡伊斯（一个因得罪贪腐镇长而被逐出城、跑到森林里当起强盗的鞋匠）的故事，就设定在伊欽城外不远的树林里，插画师拉德克·皮拉日又把他画成了捷克动画史上最具辨识度的形象之一。这座城市从此便顺势打起这张牌：自1990年起，每年九月都举办"伊欽，童话之城"节，还在鲁姆卡伊斯当年走出城门的那座城门下方，开设了一间小小的鞋匠作坊展览。
 
 🎁 彩蛋：如今伊欽最为人所知的这两个人物，凑在一起显得颇为古怪：一位因图谋叛国（是否属实尚无定论）而被处决的帝国最高统帅，和一个虚构的绿林好汉，他整段"犯罪生涯"，说穿了不过是躲进树林、安分度日。相隔数百年，际遇天差地别，却守着同一片树林。`,
-    },
-  },
-  {
-    // Added 2026-09-15, user-supplied coordinates. Part of a small batch
-    // of Kingdom Come: Deliverance II tie-in cards (alongside
-    // rybnik-vidlak, tachov-troskovice, rybnik-vezak, nebakov) filling out
-    // the Trosky-region locations already established by hrad-trosky,
-    // troskovice, and hradiste-semin. This is the real hamlet behind the
-    // game's "Zhelejov," home to Old Olbram in the "Frogs" side quest.
-    // Real history (1300 first mention, population 61→42→~12, the
-    // Podtrosecká údolí nature reserve, the cast-iron cross) confirmed via
-    // WebFetch of cs.wikipedia.org/wiki/Želejov_(Hrubá_Skála) — its listed
-    // coordinates (50°30'54"N 15°12'18"E) match the user-supplied pin
-    // closely, confirming this real Hrubá Skála-municipality hamlet (not
-    // the separate, unrelated real "Želejov (Borek)") is the one the game
-    // borrowed. Game plot confirmed via WebSearch of Fextralife/Fandom
-    // KCD2 wikis: this is the "woods west of Troskowitz" where herbwoman
-    // Bozhena and her adopted daughter Pavlena nurse a wounded Henry back
-    // to health during the game's own opening quest, "Fortuna," right
-    // after the Věžák pond ambush — corrected/expanded 2026-09-16 at the
-    // user's direction to lead with this (originally only Old Olbram's
-    // "Frogs"-quest maypole feud was covered, now demoted to the bonus
-    // paragraph). zh transliteration corrected 2026-09-16 per the user:
-    // 热莱约夫 → 哲勒约夫. Rarity: `common`, matching troskovice's own
-    // live-DB tier for a tiny, still-shrinking hamlet with no monumental
-    // structure of its own.
-    name: 'Želejov',
-    slug: 'zelejov',
-    localizedNames: { cz: 'Želejov', zh: '哲勒约夫' },
-    labels: ['village-and-town', 'outside'],
-    coordinates: { lat: 50.51323612148277, lng: 15.20472551153947 },
-    rarity: 'common',
-    xpReward: 10,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C5%BDelejov_(Hrub%C3%A1_Sk%C3%A1la)',
-    description: {
-      en: `Welcome to Želejov, a hamlet of about a dozen people tucked into the Podtrosecká údolí nature reserve and, under its Kingdom Come: Deliverance II spelling "Zhelejov," the woods where the story itself effectively begins: a badly wounded Henry, carried through the trees by Hans after their ambush at the pond down the valley, is nursed back to health here by the herbwoman Bozhena and her adopted daughter Pavlena. The real hamlet has since given up on drama almost entirely; there's barely anyone left here to supply any.
-
-First recorded in 1300, Želejov has spent seven centuries quietly shrinking rather than growing: 61 residents in 1869, 42 by 1921, and down to about a dozen today, spread across six houses. Its one enduring landmark is a cast-iron cross on a sandstone base standing under a stand of old linden trees at the village center, exactly the kind of small wayside memorial that outlasts whatever community originally put it up.
-
-🎁 Bonus: later in the game, one of the hamlet's own residents, Old Olbram, recruits the player into stealing neighboring Tachov's prized maypole, a prank rooted in a neighborly rivalry that's apparently old even by medieval standards. The real Želejov has no maypole worth stealing, no herbwoman's hut to stumble into wounded, and, these days, barely enough neighbors left to feud with. The last people standing here are considerably more interested in quiet forest walks than in patching up strangers or picking fights.`,
-      cz: `Vítejte v Želejově, osadě s asi tuctem obyvatel ukryté v přírodní rezervaci Podtrosecká údolí, a pod herním přepisem "Zhelejov" v lese, kde příběh Kingdom Come: Deliverance II vlastně začíná: těžce zraněného Jindřicha sem lesem donese Hans po jejich přepadení u rybníka níž v údolí, a bylinkářka Božena spolu se svou adoptivní dcerou Pavlenou ho tu dá dohromady. Skutečná osada si od té doby na dramata téměř úplně odvykla; sotva tu zbylo dost lidí, aby vůbec nějaké dodali.
-
-Želejov je poprvé písemně doložen v roce 1300 a od té doby spíš tiše ubývá, než roste: 61 obyvatel v roce 1869, 42 v roce 1921 a dnes zhruba tucet, rozptýlený v šesti domech. Jeho jedinou trvalou památkou je litinový kříž na pískovcovém podstavci, stojící pod starými lipami uprostřed osady, přesně ten typ drobné boží muky, která přežije komunitu, jež ji kdysi postavila.
-
-🎁 Bonus: později ve hře jeden z místních obyvatel, starý Olbram, hráče zapojí do krádeže Tachovské májky, žertíku zakořeněného v sousedské rivalitě, která je zjevně stará i na středověké poměry. Skutečný Želejov nemá žádnou májku, o kterou by stálo za to bojovat, ani bylinkářčinu chýši, do níž byste mohli zraněni zavrávorat, a dnes tu navíc sotva zbylo tolik sousedů, aby se vůbec měl s kým hádat. Ti, co tu ještě zůstali, mají mnohem větší zájem o klidné procházky lesem než o ošetřování cizinců nebo vyvolávání sporů.`,
-      zh: `欢迎来到哲勒约夫，一座只有十来位居民的小村落，藏在波德特罗斯克卡山谷自然保护区内。在《天国：拯救2》游戏里被拼作"Zhelejov"，这里的树林正是整个故事真正开始的地方：亨利在山谷下游的池塘遭遇伏击身负重伤后，被汉斯一路背着穿过树林送到这里，草药师博珍娜和她的养女帕芙莲娜在此把他救了回来。现实中的村子如今几乎已经和"戏剧性"绝了缘，这里剩下的人已经不够撑起什么故事了。
-
-哲勒约夫最早见于1300年的文字记载，此后七百年间一直不是在发展壮大，而是在悄悄萎缩：1869年有61人，1921年降到42人，如今只剩十来人，散居在六座房屋里。村里唯一称得上地标的，是村中心几棵老椴树下、立在砂岩基座上的一座铸铁十字架，正是那种会比当初立起它的村落本身活得更久的小小路边圣物。
-
-🎁 彩蛋：游戏后段，村里的另一位居民老奥尔布拉姆，会拉着玩家一起去偷邻村塔霍夫引以为傲的五月柱，这场恶作剧源自一段看起来连中世纪标准都嫌陈旧的邻里宿怨。现实中的哲勒约夫既没有值得一偷的五月柱，也没有草药师的小屋能让你受伤后一头撞进去，如今更是几乎凑不出足够的邻居来吵架。留在这里的人，显然对林间散步的兴致，远远大于给陌生人疗伤或挑起争端。`,
-    },
-  },
-  {
-    // Added 2026-09-15, user-supplied coordinates. Same KCD2 tie-in batch
-    // as zelejov (see that entry's comment). Real place behind the game's
-    // Vidlak Pond, where Huntsman/Gamekeeper Vostatek is found treed by
-    // wolves in the "Lackey" side quest. Real facts (one of 8 ponds along
-    // the Žehrovka through Podtrosecká údolí, the Rašeliniště Vidlák
-    // peat-bog nature reserve since 1979, ~3.8ha, campsite/swimming spot)
-    // confirmed via WebFetch of kudyznudy.cz's own "Rybníky v
-    // Podtroseckém údolí" page. Game plot (Zlata's husband Vostatek gone
-    // missing on a hunting trip, found north of Vidlák pond surrounded by
-    // wolves, a known drunkard, employed by Otto von Bergow, poor role
-    // model to his son Vítek) confirmed via WebSearch of Fandom/Fextralife
-    // KCD2 wikis and powerpyx.com. No dedicated real-world building/
-    // household tied to Vostatek's own name turned up in searches, so
-    // this card leads with the real, documented pond/reserve rather than
-    // inventing a specific structure. Rarity: `rare` — a genuine
-    // protected nature reserve, one tier above zelejov's plain hamlet but
-    // below the more visually iconic rybnik-vezak.
-    name: 'Vidlák Pond',
-    slug: 'rybnik-vidlak',
-    localizedNames: { cz: 'Rybník Vidlák', zh: '维德拉克池塘' },
-    labels: ['nature', 'outside'],
-    coordinates: { lat: 50.52005167633817, lng: 15.21311292518527 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: '',
-    description: {
-      en: `Welcome to Vidlák Pond, a small lake with its own protected peat bog tucked into the woods between Trosky and Hrubá Skála and, in Kingdom Come: Deliverance II, the last place anyone saw Huntsman Vostatek before his wife had to send someone out looking for him.
-
-Vidlák is one of eight interconnected ponds strung along the Žehrovka stream through the Podtrosecká údolí, and its real claim to fame has nothing to do with fishing: the wetland along its bank, Rašeliniště Vidlák, has been a protected nature reserve since 1979, prized as one of the more ecologically valuable patches of bog in the whole Bohemian Paradise. A campsite and swimming spot sit right beside it today, catering to a far calmer crowd than the one the pond's name might suggest.
-
-🎁 Bonus: in the game, following the road north from here eventually turns up Vostatek himself, treed by a pack of wolves after one hunting trip too many went sideways: a drunk, accident-prone gamekeeper in the direct employ of Otto von Bergow, and reportedly not much of a role model to his own son. The pond also doubles as one of the game's fast-travel points, so plenty of players have claimed it on the map without ever crossing paths with a wolf, a birdwatcher, or Vostatek himself. The real woods north of Vidlák have wolves too, at least on paper, though these days you're considerably more likely to meet a birdwatcher than a wolf, and even less likely to meet anyone who needs carrying home.`,
-      cz: `Vítejte u rybníka Vidlák, malého jezera s vlastním chráněným rašeliništěm, ukrytého v lesích mezi Troskami a Hrubou Skálou, a v Kingdom Come: Deliverance II posledním místě, kde byl hajný Vostatek spatřen předtím, než pro něj jeho žena musela poslat pátrací výpravu.
-
-Vidlák je jedním z osmi propojených rybníků táhnoucích se podél potoka Žehrovka Podtroseckým údolím, a jeho skutečná sláva nemá s rybařením nic společného: mokřad na jeho břehu, Rašeliniště Vidlák, je od roku 1979 chráněnou přírodní rezervací, ceněnou jako jedna z ekologicky nejcennějších rašelinných lokalit v celém Českém ráji. Hned vedle dnes stojí tábořiště a koupaliště, obsluhující mnohem klidnější publikum, než by název rybníka mohl naznačovat.
-
-🎁 Bonus: ve hře cesta na sever odsud nakonec dovede hráče přímo k samotnému Vostatkovi, zahnanému na strom smečkou vlků poté, co se mu jeden lovecký výlet příliš zvrtl: opilý, nehodám nakloněný hajný v přímých službách Otty z Bergova, který podle všeho nebyl zrovna vzorem ani vlastnímu synovi. Rybník je zároveň jedním z herních bodů rychlého cestování, takže spousta hráčů si ho na mapě odemkla, aniž by kdy potkala vlka, pozorovatele ptáků nebo samotného Vostatka. Skutečné lesy severně od Vidláku vlky mají taky, alespoň na papíře, dnes v nich ale narazíte spíš na pozorovatele ptáků než na vlka, a ještě méně pravděpodobně na někoho, koho by bylo potřeba odnést domů.`,
-      zh: `欢迎来到维德拉克池塘，一片藏在特罗斯基城堡与赫鲁巴斯卡拉之间林地中的小湖，拥有自己的受保护泥炭沼泽。在《天国：拯救2》里，这里也是猎场看守沃斯塔泰克最后一次被人看见的地方，之后他妻子不得不派人出去找他。
-
-维德拉克是沿热赫罗夫卡河串联起波德特罗斯克卡山谷的八座相连池塘之一，它真正的名气其实和钓鱼没什么关系：岸边的沼泽地"维德拉克泥炭沼"自1979年起就是受保护的自然保护区，被视为整个波希米亚天堂地区生态价值最高的泥炭地之一。如今池塘边就是露营地和泳滩，迎来的客人也远比这个名字听起来要安分得多。
-
-🎁 彩蛋：游戏里，沿着这里往北走的道路，最终会带玩家找到沃斯塔泰克本人：他被一群狼逼上了树，只因又一次打猎意外失了手。这位受雇于奥托·冯·波尔高的猎场看守，本人嗜酒又倒霉不断，据说连自己的儿子都没把他当作什么好榜样。这片池塘同时也是游戏里的一个快速旅行点，不少玩家解锁了它，却从没在这儿遇上过狼、观鸟者，或是沃斯塔泰克本人。维德拉克以北的真实林地里，纸面上也确实有狼出没，不过如今你在林子里遇上观鸟爱好者的概率，要远远高于遇上狼，更别提遇上需要有人扛回家的醉汉了。`,
-    },
-  },
-  {
-    // Added 2026-09-15, user-supplied coordinates. Same KCD2 tie-in batch.
-    // Real hamlet Tachov (part of Troskovice municipality, Semily
-    // district) — home to blacksmith Radovan in the game's "The
-    // Blacksmith's Son" tutorial quest, which is also the gate players
-    // must pass through to reach the wedding quest at Semine. Deliberately
-    // disambiguated in the name field from the much larger, unrelated
-    // district town of the same name in far western Bohemia (already
-    // referenced elsewhere in this file via its own vineyard/nábřeží
-    // card) since both could plausibly get "Tachov" as a display name.
-    // Real facts (1388 first mention, population 179→~20, 28 houses, the
-    // protected Tachovský vodopád natural monument, wayside shrines)
-    // confirmed via WebFetch of cs.wikipedia.org/wiki/Tachov_(Troskovice).
-    // Game plot confirmed via WebSearch of Fextralife/gamepressure.com.
-    // Rarity: `rare`, matching rybnik-vidlak's tier — a real, if tiny,
-    // inhabited hamlet with its own protected natural monument.
-    name: 'Tachov (Troskovice)',
-    slug: 'tachov-troskovice',
-    localizedNames: { cz: 'Tachov (Troskovice)', zh: '塔霍夫（特罗斯科维采）' },
-    labels: ['village-and-town', 'nature', 'outside'],
-    coordinates: { lat: 50.51733244908643, lng: 15.221845822050991 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Tachov_(Troskovice)',
-    description: {
-      en: `Welcome to Tachov, a hamlet of about twenty people at the western foot of Troskovice (not to be confused with the much bigger district town of the same name near the German border) and, in Kingdom Come: Deliverance II, home to Radovan the blacksmith, whose forge Henry has to earn his way into before he's even allowed near the wedding everyone's actually there for.
-
-First recorded in 1388, Tachov peaked at 179 residents in 1869 and has been quietly emptying out ever since, down to about twenty people across 28 houses today. Its main claim to fame is entirely natural: the Tachovský waterfall, a protected natural monument tumbling through the same wooded valley, plus a scatter of old wayside shrines and open views straight up to Trosky Castle's twin towers from the hamlet's own fields.
-
-🎁 Bonus: the game's version of Tachov comes with a working smithy and a tutorial in swinging a hammer, which is more industry than the real hamlet has managed in living memory: the actual Tachov's economy these days runs entirely on hikers passing through on their way to the waterfall, not on anyone forging wedding swords.`,
-      cz: `Vítejte v Tachově, osadě s asi dvaceti obyvateli na západním úpatí Troskovic (nezaměňovat s mnohem větším okresním městem stejného jména u německých hranic) a v Kingdom Come: Deliverance II domově kováře Radovana, do jehož kovárny se Jindřich musí nejdřív zapracovat, než ho vůbec pustí blíž ke svatbě, kvůli které tam vlastně přijel.
-
-Tachov je poprvé písemně doložen v roce 1388, v roce 1869 dosáhl vrcholu s 179 obyvateli a od té doby se tiše vylidňuje; dnes tu žije kolem dvaceti lidí v 28 domech. Jeho hlavní pýchou je čistě příroda: Tachovský vodopád, chráněná přírodní památka padající skrz zalesněné údolí, k tomu pár starých božích muk a otevřené výhledy z místních polí přímo na dvojici věží hradu Trosky.
-
-🎁 Bonus: herní Tachov má funkční kovárnu a rovnou i tutoriál na mávání kladivem, což je víc průmyslu, než jaký skutečná osada zvládla za paměti žijících obyvatel: skutečný Tachov dnes žije výhradně z turistů mířících k vodopádu, ne z kováře kujícího svatební meče.`,
-      zh: `欢迎来到塔霍夫，一座位于特罗斯科维采西侧山脚、只有二十来位居民的小村（请勿与德国边境附近那座同名的大得多的县城混淆）。在《天国：拯救2》里，这里是铁匠拉多万的家，亨利得先在他的铁匠铺里证明自己，才有资格靠近那场他此行真正的目的地：一场婚礼。
-
-塔霍夫最早见于1388年的记载，1869年人口一度达到179人的顶峰，此后便一直悄悄流失，如今只剩约二十人，分散在28座房屋中。它真正拿得出手的，是纯粹的自然景观：塔霍夫瀑布，一处受保护的自然纪念物，从同一片林间山谷倾泻而下，此外还有几座古老的路边圣龛，以及从村中农田望去、一览无余的特罗斯基城堡双塔景观。
-
-🎁 彩蛋：游戏里的塔霍夫有一座真正运转的铁匠铺，甚至还附带一段抡锤打铁的新手教程，这份"工业实力"，比现实中这座小村在活人记忆里所拥有的还要强。真正的塔霍夫如今完全靠路过前往瀑布的徒步游客维生，而不是靠哪位铁匠在为婚礼打造宝剑。`,
-    },
-  },
-  {
-    // Added 2026-09-15, user-supplied coordinates. Same KCD2 tie-in batch.
-    // Real Věžický rybník (Věžák), the pond where Henry and Hans are
-    // ambushed mid-swim by Istvan's men and first meet Katherine — the
-    // event that actually kicks off the game's main plot. Real facts (one
-    // of the 8 Podtrosecká údolí ponds, sandstone towers rising from the
-    // water, the "Czech Venice" nickname, its cameo in the classic Czech
-    // comedy "Jak vytrhnout velrybě stoličku") confirmed via WebSearch and
-    // WebFetch of kudyznudy.cz. Game plot confirmed via WebSearch of
-    // Fextralife/TVTropes/Gamerant coverage of the ambush and Katherine's
-    // reveal as one of Jan Žižka's spies. No dedicated Wikipedia article
-    // for the pond itself turned up, so wikipediaUrl is left blank,
-    // matching the precedent already set by sarecka-kremencova-jeskyne.
-    // Rarity: `superior`, matching hradiste-semin's tier for a genuinely
-    // popular, visually distinctive Český ráj stop.
-    name: 'Věžák Pond',
-    slug: 'rybnik-vezak',
-    localizedNames: { cz: 'Věžický rybník (Věžák)', zh: '维扎克池塘' },
-    labels: ['nature', 'outside'],
-    coordinates: { lat: 50.51586559761233, lng: 15.18928068098245 },
-    rarity: 'superior',
-    xpReward: 30,
-    wikipediaUrl: '',
-    description: {
-      en: `Welcome to Věžák Pond, where sandstone rock towers rise straight out of still water in a scene locals have nicknamed the "Czech Venice" and, in Kingdom Come: Deliverance II, the exact spot where Henry and Hans go for what should be an ordinary swim and instead lose their horses, their armor, and very nearly their lives.
-
-Věžák is the most photogenic of the eight ponds strung along the Žehrovka stream through the Podtrosecká údolí, its warm, sandy-bottomed water framed by weathered sandstone outcrops that seem to grow directly out of the surface. It's been drawing swimmers and filmmakers alike for decades; the pond had its own moment on screen in the beloved Czech comedy Jak vytrhnout velrybě stoličku, long before any video game found it.
-
-🎁 Bonus: in the game, the ambush here is what actually gets the whole plot moving: Henry and Hans are jumped by Istvan's men mid-swim, stripped of everything, and rescued by a stranger named Katherine who turns out to matter a great deal more than a chance encounter by a pond usually does. The real Věžák has never produced a single documented case of an armed ambush, but the swimming itself checks out completely. It's still one of the best places in Bohemian Paradise to get in the water.`,
-      cz: `Vítejte u rybníka Věžák, kde skalní věže z pískovce vyrůstají přímo z klidné hladiny v scenérii, které místní přezdívají „české Benátky", a v Kingdom Come: Deliverance II přesně v tom místě, kde se Jindřich s Hansem vydají na obyčejné koupání a místo toho přijdou o koně, zbroj a téměř i o život.
-
-Věžák je nejfotogeničtější z osmi rybníků táhnoucích se podél Žehrovky Podtroseckým údolím, jeho teplá voda s písčitým dnem je lemovaná zvětralými pískovcovými skalami, které jako by rostly přímo z hladiny. Přitahuje plavce i filmaře už celá desetiletí; svou chvíli slávy na plátně měl rybník už v oblíbené české komedii Jak vytrhnout velrybě stoličku, dávno předtím, než si ho všimla jakákoli videohra.
-
-🎁 Bonus: ve hře je přepadení na tomto místě tím, co skutečně rozjede celý příběh: Jindřicha s Hansem přepadnou uprostřed koupání Istvánovi muži, oberou je o všechno a zachrání je cizinka jménem Kateřina, která se nakonec ukáže být mnohem důležitější, než bývá u náhodného setkání u rybníka zvykem. Skutečný Věžák nikdy nezaznamenal jediný doložený případ ozbrojeného přepadení, ale co se koupání týče, tam hra netrefila vedle. Pořád je to jedno z nejlepších míst v Českém ráji, kde se dostat do vody.`,
-      zh: `欢迎来到维扎克池塘，这里砂岩石塔直接从平静的水面拔地而起，当地人给这幅景象起了个绰号叫"捷克威尼斯"。在《天国：拯救2》里，这里正是亨利和汉斯本该只是下水游个泳，结果却丢了马匹、丢了盔甲、差点连命都搭进去的地方。
-
-维扎克是沿热赫罗夫卡河串联波德特罗斯克卡山谷的八座池塘中最上镜的一座，温暖的池水铺着沙质湖底，四周环绕着风化的砂岩岩壁，看上去仿佛直接从水面中生长出来。几十年来，它一直吸引着游泳者和电影摄制组，早在任何电子游戏发现这里之前，它就已经在深受喜爱的捷克喜剧片《如何给鲸鱼拔牙》里露过脸。
-
-🎁 彩蛋：游戏里，正是这里发生的伏击真正让整个剧情转动了起来：亨利和汉斯正游着泳，就被伊斯特万的手下扑了上来，被洗劫一空，救下他们的是一位名叫凯瑟琳的陌生女子，事后证明她远远不只是一次寻常的池畔偶遇。真实的维扎克从未有过任何有记录的武装伏击事件，但至于游泳这件事，游戏倒是完全没夸张，这里至今仍是波希米亚天堂地区下水游泳的最佳去处之一。`,
-    },
-  },
-  {
-    // Added 2026-09-15, user-supplied coordinates (pinned to Chata
-    // Nebákov, the real cabin/resort). Same KCD2 tie-in batch. Covers the
-    // whole real Nebákov cluster — pond, Baroque mill, cabin, and castle
-    // ruin — rather than splitting them into separate cards, since the
-    // castle ruin and mill are minor, unstaffed sites with no separate
-    // visitor draw of their own (consistent with how other multi-feature
-    // clusters in this file, e.g. pravcicka-brana, fold an adjoining
-    // building into one card). Corresponds to the game's Nebakov Fortress
-    // and Nebakov Mill, where von Bergow's vassal Jaromír Nebák's seat is
-    // overrun by bandits. Real facts (the 13th-century hrádek, first
-    // documented 1455 as the widow Machna of Nová Ves's property, burned
-    // and abandoned by 1538; the Baroque mill also first mentioned 1455,
-    // owned across the centuries by nobility including Albrecht von
-    // Wallenstein, milling until 1951; the 1930s cabin; the 1.25km pond,
-    // longest of the 8 in Podtrosecká údolí) confirmed via WebSearch/
-    // WebFetch of hrady.cz, turistika.cz, and vodnimlyny.cz. Game plot
-    // confirmed via WebSearch of Fextralife/Fandom KCD2 wikis. Rarity:
-    // `epic`, one tier above rybnik-vezak — a genuine cluster of three
-    // distinct historical layers (medieval castle, Baroque mill, 1930s
-    // resort) rather than a single natural feature.
-    name: 'Nebákov',
-    slug: 'nebakov',
-    localizedNames: { cz: 'Nebákov', zh: '内巴科夫' },
-    labels: ['nature', 'medieval', 'outside'],
-    coordinates: { lat: 50.502793520406826, lng: 15.199180546324385 },
-    rarity: 'epic',
-    xpReward: 50,
-    wikipediaUrl: 'https://en.wikipedia.org/wiki/Neb%C3%A1kov_Castle',
-    description: {
-      en: `Welcome to Nebákov, a cluster of pond, mill, cabin, and castle ruin that Kingdom Come: Deliverance II turns into the site of a genuine massacre: the game's Nebakov Fortress, seized overnight by bandits who murder most of its garrison and impersonate the guards until Otto von Bergow's own men storm the place to take it back.
-
-The real Nebákov is considerably calmer these days, though it wasn't always. A small castle went up here at the end of the 13th century, on a rocky spur above what's now the pond. It was first recorded in 1455 as the property of the widow Machna of Nová Ves, burned out by the late 15th century, and abandoned as a ruin by 1538, leaving behind only earthworks, ditches, and grooves cut into the rock. Down by the water, the Baroque mill that replaced it (first mentioned the same year, 1455, and later owned by a roster of nobility that included none other than Albrecht von Wallenstein) kept grinding grain until 1951. And on the rocky outcrop right above the pond, a family built a cottage in the 1930s that's still standing today as Chata Nebákov, serving food and lodging beside a Nebákov pond considered, at 1.25 kilometers, the longest of the eight ponds strung through the Podtrosecká údolí.
-
-🎁 Bonus: the game compresses seven centuries of this hillside's history (a castle, a milling operation, a lakeside cabin) into one bloody overnight coup. The real Nebákov never had a single dramatic night like that; it just quietly accumulated a castle, then a mill, then a cottage, one century at a time, the way most of the Bohemian Paradise actually works.`,
-      cz: `Vítejte v Nebákově, souboru rybníka, mlýna, chaty a hradní zříceniny, který Kingdom Come: Deliverance II proměňuje v místo skutečné řeže: herní pevnost Nebákov, přes noc dobytou bandity, kteří povraždí většinu posádky a vydávají se za stráže, dokud ji zpátky nedobudou vlastní muži Otty z Bergova.
-
-Skutečný Nebákov je dnes o poznání klidnější místo, i když tak tomu nebylo vždycky. Na skalním výběžku nad dnešním rybníkem stál od konce 13. století malý hrádek, poprvé písemně doložený v roce 1455 jako majetek vdovy Machny z Nové Vsi, vypálený ke konci 15. století a do roku 1538 opuštěný jako zřícenina, po níž zbyly jen valy, příkopy a rýhy vysekané ve skále. Dole u vody ho nahradil barokní mlýn (poprvé zmíněný téhož roku 1455 a později vlastněný řadou šlechticů, mezi nimiž nechyběl ani Albrecht z Valdštejna) a mlel obilí až do roku 1951. A na skalním výběžku přímo nad rybníkem si jedna rodina ve 30. letech 20. století postavila chatu, která tu stojí dodnes jako Chata Nebákov a nabízí jídlo i ubytování u rybníka Nebákov, jenž se svou délkou 1,25 kilometru počítá za nejdelší z osmi rybníků táhnoucích se Podtroseckým údolím.
-
-🎁 Bonus: hra stlačí sedm století dějin tohoto kopce (hrad, mlynářský provoz, chatu u jezera) do jednoho krvavého nočního převratu. Skutečný Nebákov žádnou takhle dramatickou noc nikdy nezažil; prostě si postupně, století po století, nashromáždil nejdřív hrad, pak mlýn a nakonec chatu, přesně tak, jak to ve větší části Českého ráje ve skutečnosti chodí.`,
-      zh: `欢迎来到内巴科夫，一处集池塘、磨坊、木屋与城堡废墟于一体的地方，《天国：拯救2》把它变成了一场真正屠杀的舞台：游戏里的内巴科夫要塞，一夜之间被强盗夺占，守军大多惨遭杀害，强盗冒充守卫维持局面，直到奥托·冯·波尔高自己的人马杀回来将它夺回。
-
-现实中的内巴科夫如今要平静得多，不过它并非一直如此。13世纪末，如今池塘上方的一处岩石岬角上曾建有一座小城堡。1455年的文献首次提及它，当时归诺瓦韦斯寡妇马赫娜所有，15世纪末被焚毁，到1538年已彻底废弃，只留下土垒、壕沟和凿刻在岩石上的沟槽。水边取而代之的，是一座巴洛克式磨坊，同样首见于1455年的记载，后来的主人名单上赫然出现了阿尔布雷希特·冯·华伦斯坦。磨坊一直运转到1951年。而就在池塘正上方的岩石岬角上，20世纪30年代有一户人家盖起了一座木屋，至今仍在，就是如今的"内巴科夫小屋"，为游客提供餐饮和住宿，紧邻长达1.25公里、堪称波德特罗斯克卡山谷八座池塘中最长一座的内巴科夫池塘。
-
-🎁 彩蛋：游戏把这座山坡七百年的历史（一座城堡、一间磨坊、一座湖畔小屋）统统压缩进了一夜血腥的政变里。真实的内巴科夫从未经历过这样戏剧化的一夜；它只是一个世纪接一个世纪，悄悄先攒下一座城堡，再攒下一座磨坊，最后攒下一座小屋。这其实正是波希米亚天堂大部分地方的真实运作方式。`,
-    },
-  },
-  {
-    // Added 2026-09-16, user-supplied coordinates. Same KCD2 tie-in
-    // project as the earlier Trosky-region batch (see CLAUDE.md's "In
-    // progress" section for the full roster and house style). Real,
-    // still-standing watermill on the Podsemínský pond dam — corresponds
-    // to Miller Kreyzl's mill in the "Materia Prima" side quest, where
-    // Henry hauls flour sacks from the adjoining barn onto a cart. Real
-    // facts (first mentioned early 16th c., one of 18 mills once on the
-    // Žehrovka, Franz Skála's 1821 purchase and five generations of Skála
-    // family ownership through the 1951 closure, the old-mill/sawmill
-    // dual building with 4 water wheels before an post-1880 roller-mill
-    // conversion, the post-1918 bakery, the 1937 rebuild, Jaroslav
-    // Skála's 1947 Francis turbine, still owned by his descendants today)
-    // confirmed via WebSearch/WebFetch of kudyznudy.cz and
-    // vyletnik.cz — genuinely rich, continuous real history, so this card
-    // leads with it rather than following troskovice's game-heavy
-    // flip (per the user's own 2026-09-16 "judge each card on its own
-    // merits" direction). Game facts (Miller Kreyzl, the flour-sack
-    // barn, the 5-sack/cart threshold) confirmed via WebSearch of
-    // Fextralife/Prima Games/PowerPyx walkthroughs — a different sack-
-    // carrying task from the one in `troskovice`'s own card (that one is
-    // paying off Betty's tavern tab in the "Laboratores" main quest; this
-    // is Miller Kreyzl's own errand in the separate "Materia Prima" side
-    // quest). Rarity: `superior`, matching rybnik-vezak/hradiste-semin's
-    // tier for a genuinely documented technical monument with continuous
-    // real history, one tier below nebakov's multi-feature cluster.
-    name: 'Podsemínský Mill',
-    slug: 'podseminsky-mlyn',
-    localizedNames: { cz: 'Podsemínský mlýn', zh: '波德塞明磨坊' },
-    labels: ['homestead', 'outside'],
-    coordinates: { lat: 50.506628014924296, lng: 15.186457447603983 },
-    rarity: 'superior',
-    xpReward: 30,
-    wikipediaUrl: '',
-    description: {
-      en: `Welcome to Podsemínský Mill — "Lower Semine Mill" in the game's own English localization — a watermill tucked away where forest and stream meet, old and quiet enough to look like it wandered in from a fairy tale, sitting right on its own pond's dam since the first half of the 16th century. In Kingdom Come: Deliverance II, this is also where Henry meets Miller Kreyzl, who puts him straight to work hauling flour sacks — and, if you ask him the right question, teaches him how to sneak, pick pockets, and pick locks.
-
-The mill was one of eighteen that once lined the Žehrovka river through this stretch of the Bohemian Paradise, and for most of its working life it stayed in a single family's hands: miller Franz Skála bought it in 1821, and his descendants ran it for five generations straight, right up until it officially closed in 1951. Through the 19th century the building did double duty as a mill and a sawmill, powered by four separate water wheels before converting to a modern roller mill after 1880, and after 1918 it added a bakery on top of everything else, supplying bread to the surrounding villages.
-
-The mill was rebuilt into its current form in 1937, and a decade later miller Jaroslav Skála — the last of the line to actually run the place — had a Francis turbine installed, modernizing a building that was already four centuries into the job. It's still in the Skála family's hands today, owned by Jaroslav's own descendants, even though the grinding itself stopped for good in 1951.
-
-🎁 Bonus: in the game's "Materia Prima" quest, unlocked during "Wedding Crashers" by telling Kreyzl you'd like to learn about thievery, the miller runs things on a considerably smaller scale than the real mill's four-water-wheel heyday — he just wants Henry to find the flour sacks stacked in the barn next door and load at least five of them onto his cart, and in exchange he'll walk him through the basics of takedowns, pickpocketing, and lockpicking right there on the property. Honest work with a criminal education thrown in — a combination the real, five-generations-of-honest-milling Skála family would probably not have approved of.`,
-
-      cz: `Vítejte u Podsemínského mlýna — v anglické lokalizaci hry „Lower Semine Mill" —, vodního mlýna schovaného tam, kde se potkává les s potokem, tak starého a tichého, že vypadá, jako by vypadl z pohádky, stojícího přímo na hrázi vlastního rybníka už od první poloviny 16. století. V Kingdom Come: Deliverance II je to zároveň místo, kde Jindřich potká mlynáře Krejzla, jenž ho rovnou nasadí na tahání pytlů s moukou — a pokud se ho zeptáte správně, naučí ho i plížení, kapesní krádeže a šperhákování.
-
-Mlýn patřil k osmnácti mlýnům, které kdysi lemovaly řeku Žehrovku na tomto úseku Českého ráje, a po většinu své provozní historie zůstal v rukou jediné rodiny: mlynář Franz Skála ho koupil v roce 1821 a jeho potomci ho provozovali pět generací v řadě, až do oficiálního uzavření v roce 1951. Během 19. století budova sloužila dvojí funkci — jako mlýn i pila — poháněná čtyřmi samostatnými vodními koly, než se po roce 1880 přestavěla na moderní válcový mlýn, a po roce 1918 k tomu všemu přibyla ještě pekárna, která zásobovala chlebem okolní vesnice.
-
-Mlýn byl přestavěn do dnešní podoby v roce 1937 a o deset let později si mlynář Jaroslav Skála — poslední z rodu, který mlýn skutečně provozoval — nechal instalovat Francisovu turbínu, čímž modernizoval budovu, jež už tou dobou dělala svou práci čtyři století. Dodnes zůstává v rukou rodiny Skálových, ve vlastnictví Jaroslavových potomků, i když samotné mletí definitivně skončilo v roce 1951.
-
-🎁 Bonus: v herním úkolu „Materia Prima", který se odemkne během „Vyrušené svatby", když Krejzlovi řeknete, že byste se rádi přiučili zlodějině, vede mlynář provoz v mnohem skromnějším měřítku než skutečný mlýn ve své čtyřkolové slávě — stačí mu, když Jindřich najde pytle s moukou naskládané ve stodole vedle a naloží jich aspoň pět na vůz, a on ho na oplátku přímo na místě zasvětí do základů srážení soupeřů, kapesních krádeží a šperhákování. Poctivá práce s trochou zločineckého vzdělání navrch — kombinace, kterou by skutečná, pět generací poctivě mlynařící rodina Skálových zřejmě příliš neschvalovala.`,
-
-      zh: `欢迎来到波德塞明磨坊——游戏英文本地化里叫"Lower Semine Mill"——一座藏在森林与溪流交汇处的水磨坊，古老又安静，安静到看上去像是从童话故事里走出来的，从16世纪上半叶起就一直立在自家池塘的堤坝上。在《天国：拯救2》里，这里也是亨利遇见磨坊主克雷泽尔的地方——他会直接把亨利派去扛面粉袋，而只要你问对问题，他还会教你潜行、扒窃和开锁的门道。
-
-这座磨坊曾是热赫罗夫卡河沿岸十八座磨坊之一，坐落在波希米亚天堂这一段河道上，而它大半个营业生涯都握在同一个家族手里：磨坊主弗朗茨·斯卡拉在1821年买下它，此后他的后代接连经营了整整五代人，一直到1951年正式歇业。整个19世纪，这座建筑身兼磨坊与锯木厂双重功能，由四个独立的水轮驱动，1880年后才改造成现代化的辊式磨坊；1918年之后，它又添了一间面包坊，为周边村庄供应面包。
-
-磨坊在1937年被改建成如今的样子，十年后，磨坊主亚罗斯拉夫·斯卡拉——这个家族最后一位真正经营磨坊的人——为它装上了一台弗朗西斯水轮机，让这座已经运转了四个世纪的建筑又实现了一次现代化。如今它依然归斯卡拉家族所有，由亚罗斯拉夫的后代持有，尽管磨面本身早在1951年就彻底停了下来。
-
-🎁 彩蛋：在游戏"Materia Prima"任务里（在"搅局的婚礼"任务中，对克雷泽尔表示"想学学偷盗的门道"即可解锁），这位磨坊主的排场比真实磨坊四轮全开的鼎盛时期要小得多——他只需要亨利去隔壁谷仓找到堆放的面粉袋，搬至少五袋上车，作为回报，他会当场传授擒拿放倒、扒窃和开锁的基本功。一份老实活，外加一点"犯罪教育"——这种组合，恐怕是斯卡拉家族那五代老老实实磨面的祖先们不会太赞成的。`,
     },
   },
   {
@@ -26855,39 +26160,6 @@ Zbytek vrchu patří hořickým kameníkům. Kostel svatého Gotharda, postaven�
     },
   },
   {
-    // Split out of the horice card 2026-09-22 at the user's request: the pool
-    // sits ~2.5 km north of town in the Dachovy settlement, far enough to get
-    // its own card. Coordinates user-supplied. Sources: infocentrum.horice.org,
-    // turistika.cz, denik.cz (film), hkregion.cz. Rarity 'rare' is my own pick.
-    name: 'Dachova Natural Swimming Pool',
-    slug: 'koupaliste-dachova',
-    localizedNames: { cz: 'Přírodní koupaliště Dachova', zh: '达霍娃天然泳场' },
-    labels: ['waterbody', 'nature', 'hidden-gem', 'outside'],
-    coordinates: { lat: 50.38311349865926, lng: 15.642234990921276 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Koupali%C5%A1t%C4%9B_Dachova',
-    description: {
-      en: `Dachova is a swimming pool from the 1920s that never got round to modernising, and is much better for it. Picture a sandstone-bottomed pond in the middle of a forest, a wooden island to swim out to, and rows of brightly painted changing cabins that look like they are still waiting for the gentlemen in striped bathing suits to come back.
-
-It opened in 1925 as the Dachova "sun baths", on the site of a former fishpond in the woods by the Dachovy settlement, on the northern slope of the ridge above Hořice. It was designed by Karel Bachura (1878–1961), an architect, traveller and professor at the Hořice school of sculpture and stonemasonry, who, being from a town of stonemasons, naturally lined the bottom with sandstone blocks. The stone helps keep the water clear across some 8,000 square metres of surface, deepening to three metres at the diving board, with shallow areas for non-swimmers and children, sandy and grassy beaches, and courts for volleyball, football and pétanque. A careful restoration in 2020 brought back its interwar look, and the whole complex is now a protected cultural monument. The composer Jan Malát spent his summers here, and the Malát trail still links the pool with Hořice. The place is photogenic enough that the 1999 Czech film Eliška má ráda divočinu was shot here. The pool is open from June to September, with September reserved for sunbathing only.
-
-🎁 Bonus: Dachova's most demanding regulars are its alpine newts, which only live in very clean water and may not be caught or taken. Other pools test their water in a lab. Dachova's water quality checks itself and has four legs.`,
-
-      cz: `Dachova je koupaliště z 20. let, které se nikdy nedostalo k modernizaci, a je to tak dobře. Představte si rybník s pískovcovým dnem uprostřed lesa, dřevěný ostrůvek, ke kterému se dá doplavat, a řady pestrobarevných převlékacích kabinek, které jako by pořád čekaly, až se vrátí pánové v pruhovaných plavkách.
-
-Otevřeli ho v roce 1925 jako sluneční lázně Dachova, na místě bývalého rybníka v lesích u osady Dachovy, na severním svahu hřbetu nad Hořicemi. Navrhl ho Karel Bachura (1878–1961), architekt, cestovatel a profesor hořické sochařsko-kamenické školy, který jako správný rodák z města kameníků vyložil dno pískovcovými kvádry. Kámen pomáhá udržet vodu čistou na ploše asi 8 000 metrů čtverečních, u skokanského můstku hluboké až tři metry, s mělčinou pro neplavce a děti, písečnou i travnatou pláží a hřišti na volejbal, fotbal a pétanque. Citlivá obnova v roce 2020 vrátila areálu jeho meziválečnou podobu a celý je dnes kulturní památkou. Letní měsíce tu trávil skladatel Jan Malát a Malátova stezka dodnes spojuje koupaliště s Hořicemi. Místo je tak fotogenické, že se tu natáčel film Eliška má ráda divočinu z roku 1999. Koupaliště je otevřené od června do září, přičemž září patří jen slunění.
-
-🎁 Bonus: Nejnáročnějšími štamgasty Dachovy jsou čolci horští, kteří žijí jen ve velmi čisté vodě a nesmějí se chytat ani odnášet. Jinde se kvalita vody měří v laboratoři. Na Dachově se kontroluje sama a má čtyři nohy.`,
-
-      zh: `达霍娃是一座1920年代的泳场，一直没顾上现代化，结果反倒更好了。想象一下：森林中间一池砂岩铺底的水，一座可以游过去的木头小岛，岸边一排排漆得五颜六色的更衣小屋，好像还在等那些穿条纹泳衣的先生们回来。
-
-它1925年开张，当时叫达霍娃“日光浴场”，建在霍日采城北山脊北坡、达霍维小村旁林子里的一座旧鱼塘上。设计者卡雷尔·巴胡拉（1878–1961）是建筑师、旅行家，也是霍日采雕塑与石雕学校的教授。既然出身石匠之城，他理所当然地用砂岩石块铺了池底。石头让约8000平方米的水面保持清澈，跳台附近水深三米，另有给不会游泳的人和孩子准备的浅水区、沙滩和草地，还有排球、足球和法式滚球场地。2020年一次细致的修复让它恢复了两次大战之间的样貌，整座泳场如今是受保护的文化遗产。作曲家扬·马拉特曾在这里度夏，以他命名的马拉特小径至今连着泳场和霍日采。这里上镜到连1999年的捷克电影《伊丽什卡爱荒野》都在这里取景。泳场6月至9月开放，9月只能晒太阳，不能下水。
-
-🎁 彩蛋：达霍娃最挑剔的常客是高山欧螈，它们只在非常干净的水里生活，禁止捕捉和带走。别处的泳池要送实验室验水，达霍娃的水质自己就会报告，而且长着四条腿。`,
-    },
-  },
-  {
     name: 'Staré Stodůlky',
     slug: 'stare-stodulky',
     localizedNames: { cz: 'Staré Stodůlky', zh: '老斯托杜尔基' },
@@ -27097,43 +26369,9 @@ Praha 13 vznikla teprve v listopadu 1994 oddělením od Prahy 5 a postavit poř�
     },
   },
   {
-    // Pardubice batch, added 2026-09-22 at the user's request (coordinates
-    // user-supplied). Three cards: this square card doubles as the one
-    // Pardubice city card; the château and Kunětická Hora are the castles the
-    // user placed outside the centre. Not linked from any History Timeline
-    // event, at the user's explicit instruction. Sources: turistika.cz,
-    // regiony.rozhlas.cz (U Jonáše), cs.wikipedia (Pardubice). Rarity 'epic'
-    // for all three is my own pick.
-    name: 'Pernštýnské Square',
-    slug: 'pernstynske-namesti-pardubice',
-    localizedNames: { cz: 'Pernštýnské náměstí', zh: '佩恩施泰因广场' },
-    labels: ['city', 'square', 'renaissance', 'outside'],
-    coordinates: { lat: 50.03852586223426, lng: 15.77897962049064 },
-    rarity: 'epic',
-    xpReward: 50,
-    wikipediaUrl: 'https://en.wikipedia.org/wiki/Pardubice',
-    description: {
-      en: `Pardubice is best known in the rest of the country for gingerbread and a horse race so brutal it has its own list of famous fences. Its old town is small enough to cross in ten minutes, and nearly all of it leads to one square, named after the family that turned a swampy river town into a Renaissance showpiece.
-
-The Pernštejn lords bought Pardubice in 1491 and made it their main seat, and they rebuilt the town in stone and Renaissance gables, especially after a great fire in 1538. Pernštýnské Square is what they left behind: a compact, slightly irregular square of arcaded burghers' houses with Gothic cores and colourful Renaissance, Baroque and Classicist façades. At one end stands the Green Gate, the old town's main entrance, which got its tall tower with a green copper roof after the 1538 fire and its name by 1547. The tower is about 60 metres high and open as a lookout, and the gate carries a relief designed by Mikoláš Aleš from 1903. Across the square rises the neo-Renaissance town hall, built between 1892 and 1894 to designs by Jan Weyrich on the site of the old town hall and two neighbouring houses. The square's most famous house is U Jonáše, whose façade carries a stucco relief from 1797, attributed to the local sculptor and woodcarver Jakub Teplý, showing the prophet Jonah and the whale, surrounded by mermaids, sea horses and saints. Inside, it now houses the East Bohemian Gallery's exhibition of Czech art from the second half of the 20th century. Beyond the square, Pardubice is known for its protected gingerbread recipe and for the Velká pardubická, a steeplechase run every October since 1874.
-
-🎁 Bonus: Nobody has ever been able to say whether the whale on U Jonáše is swallowing Jonah or spitting him out. For more than two centuries he has been stuck exactly halfway, which is either the most suspenseful or the least comfortable moment in the whole Bible.`,
-
-      cz: `Pardubice jsou ve zbytku země známé hlavně perníkem a koňským dostihem tak drsným, že má vlastní seznam slavných překážek. Jejich staré město se dá přejít za deset minut a skoro všechno v něm vede na jedno náměstí, pojmenované po rodu, který z bažinatého městečka u řeky udělal renesanční chloubu.
-
-Páni z Pernštejna koupili Pardubice v roce 1491 a udělali z nich své hlavní sídlo. Město přestavěli v kameni a renesančních štítech, zvlášť po velkém požáru v roce 1538. Pernštýnské náměstí je to, co po nich zůstalo: kompaktní, trochu nepravidelné náměstí s podloubími měšťanských domů s gotickými jádry a pestrými renesančními, barokními a klasicistními fasádami. Na jednom konci stojí Zelená brána, hlavní vstup do starého města, která dostala svou vysokou věž se zelenou měděnou střechou po požáru v roce 1538 a své jméno do roku 1547. Věž je vysoká asi 60 metrů a slouží jako rozhledna a brána nese reliéf podle návrhu Mikoláše Alše z roku 1903. Naproti se zvedá novorenesanční radnice, postavená v letech 1892 až 1894 podle návrhu Jana Weyricha na místě staré radnice a dvou sousedních domů. Nejslavnějším domem náměstí je dům U Jonáše, jehož fasádu zdobí štukový reliéf z roku 1797, připisovaný místnímu sochaři a řezbáři Jakubu Teplému, s prorokem Jonášem a velrybou, obklopenými mořskými pannami, mořskými koníky a světci. Uvnitř je dnes expozice Východočeské galerie s českým uměním druhé poloviny 20. století. Mimo náměstí jsou Pardubice známé chráněným receptem na perník a Velkou pardubickou, dostihem, který se běží každý říjen od roku 1874.
-
-🎁 Bonus: Nikdo nikdy nedokázal říct, jestli velryba na domě U Jonáše Jonáše polyká, nebo ho vyplivuje. Už přes dvě století uvízl přesně napůl, což je buď nejnapínavější, nebo nejnepohodlnější okamžik celé Bible.`,
-
-      zh: `在捷克别的地方，帕尔杜比采最出名的是姜饼，还有一场凶险到连几道障碍都各有名号的赛马。它的老城小得十分钟就能走完，几乎所有街道都通向同一座广场，广场的名字来自那个把这座河边沼泽小城改造成文艺复兴样板的家族。
-
-佩恩施泰因家族1491年买下帕尔杜比采，把这里定为主要居所，用石头和文艺复兴式山墙重建了整座城，1538年那场大火之后尤其如此。佩恩施泰因广场就是他们留下的作品：一座紧凑、略不规则的广场，四周是带拱廊的市民住宅，内核是哥特式的，外立面则是五颜六色的文艺复兴、巴洛克和古典主义风格。广场一头立着绿门，这是老城的主要入口，1538年大火后加盖了一座铜顶泛绿的高塔，到1547年就有了“绿门”这个名字。塔高约60米，可以登塔远眺，城门上还有一块1903年根据米科拉什·阿莱什设计制作的浮雕。广场对面是新文艺复兴式的市政厅，1892年至1894年按扬·魏里希的设计建成，占了旧市政厅和两座邻屋的位置。广场上最有名的房子是“约拿之家”，立面上有一块1797年的灰泥浮雕，据说出自本地雕塑家兼木雕师雅各布·特普利之手，刻的是先知约拿和大鱼，周围还有美人鱼、海马和圣徒。如今屋里是东波希米亚美术馆的展厅，展出20世纪下半叶的捷克艺术。广场之外，帕尔杜比采还以受保护的姜饼配方闻名，另有一场从1874年起每年10月举办的大帕尔杜比采障碍赛马。
-
-🎁 彩蛋：约拿之家墙上的那条大鱼，到底是在吞约拿还是在把他吐出来，从来没人说得清。两百多年来，约拿一直卡在正中间，这要么是整本《圣经》里最扣人心弦的一刻，要么是最难受的一刻。`,
-    },
-  },
-  {
-    // Pardubice batch (see pernstynske-namesti-pardubice above). The château
+    // Pardubice batch, added 2026-09-22 (coordinates user-supplied). On
+    // 2026-11-15 the separate Pernštýnské Square card (297 m away) was merged
+    // into this one: its old-town paragraph is the second main paragraph. The château
     // sits just north of the old town; the user counts it as outside the
     // centre. Sources: cs.wikipedia (Zámek Pardubice). Arnošt of Pardubice is
     // mentioned only as a family fact, with no History Timeline reference.
@@ -27150,11 +26388,15 @@ Páni z Pernštejna koupili Pardubice v roce 1491 a udělali z nich své hlavní
 
 A moated water fortress stood here from the 13th century. In the 14th century the town belonged to the family of Arnošt of Pardubice, the first Archbishop of Prague, and it was the man who took his name from the town, not the other way round: Arnošt was born at Hostinka, and he only took the name "of Pardubice" at the end of 1340, when his father's will named him heir to the town. Pardubice still counts him as its patron. After the Hussite wars it was rebuilt in stone with corner towers and gun ports. The real change came in 1491, when Vilém of Pernštejn, one of the richest men in the kingdom, bought the estate and turned the fortress into a four-winged palace wrapped in powerful new fortifications, a building halfway between a medieval castle and a Renaissance residence, whose ramparts count among the finest late Gothic defences in the country. His sons Vojtěch and Jan kept up the Renaissance work. In 1560 the estate was sold to the king, and between 1574 and 1579 Ulrico Aostalli added sgraffito decoration and the main tower, but as a royal property it served mostly as an administrative centre, and in the 17th century it even housed a brewery. The museum society bought it in 1920. After nationalisation in 1952 it was badly neglected, and part of the second floor collapsed in 1977. Full reconstruction began in 1994, and since 2010 it has been a national cultural monument. Today it houses the East Bohemian Museum and the East Bohemian Gallery, with Renaissance wall paintings, historical and archaeological exhibitions and art collections.
 
+Below the castle, the Pernštejns rebuilt the town too, in stone and Renaissance gables, especially after a great fire in 1538. The old town is small enough to cross in ten minutes, and nearly every street leads to Pernštýnské Square, named after them: a compact ring of arcaded burghers' houses with Gothic cores and colourful Renaissance, Baroque and Classicist façades. At one end stands the Green Gate, the old town's main entrance, whose tower of about 60 metres with its green copper roof went up after the 1538 fire and is open as a lookout. Across the square rises the neo-Renaissance town hall of 1892 to 1894, and the best-known house, U Jonáše, carries a stucco relief from 1797 of the prophet Jonah and the whale among mermaids and sea horses; nobody has ever settled whether the whale is swallowing him or spitting him out. Beyond the old town, Pardubice is known across the country for its protected gingerbread recipe and for the Velká pardubická, a steeplechase so brutal that its fences have names of their own, run every October since 1874.
+
 🎁 Bonus: The Pernštejn coat of arms is a black aurochs head with a gold ring through its nose, and the family put it on nearly everything it built. Walk around the castle and the old town and count the aurochs: the family that owned the place clearly wanted nobody to forget whose it was.`,
 
       cz: `Zámek Pardubice je to, co vznikne, když velmi bohatý muž chce renesanční palác, ale sousedům tak docela nevěří. Výsledkem je čtyřkřídlý zámek s malovanými sály uvnitř a venku se soustavou zemních valů a příkopů tak mohutnou, že to vypadá, jako by stavba byla chráněna před zbytkem města.
 
 Vodní tvrz tu stála od 13. století. Ve 14. století patřilo město rodu Arnošta z Pardubic, prvního pražského arcibiskupa, a jméno převzal muž od města, ne naopak: Arnošt se narodil v Hostince a přídomek „z Pardubic“ získal až koncem roku 1340, kdy ho otcova závěť určila za dědice města. Pardubice ho dodnes považují za svého patrona. Po husitských válkách byla přestavěna v kameni s nárožními věžemi a střílnami. Skutečná změna přišla v roce 1491, kdy panství koupil Vilém z Pernštejna, jeden z nejbohatších mužů v království, a proměnil tvrz ve čtyřkřídlý palác obklopený mohutným novým opevněním, stavbu napůl cestě mezi středověkým hradem a renesančním sídlem, jejíž valy patří k nejlepším pozdně gotickým fortifikacím v zemi. Jeho synové Vojtěch a Jan pokračovali v renesančních úpravách. V roce 1560 panství koupil král a v letech 1574 až 1579 přidal Ulrico Aostalli sgrafitovou výzdobu a hlavní věž, jako královský majetek ale zámek sloužil hlavně jako správní centrum a v 17. století v něm dokonce fungoval pivovar. Muzejní spolek ho koupil v roce 1920. Po zestátnění v roce 1952 chátral a v roce 1977 se část druhého patra zřítila. Celková rekonstrukce začala v roce 1994 a od roku 2010 je zámek národní kulturní památkou. Dnes v něm sídlí Východočeské muzeum a Východočeská galerie s renesančními nástěnnými malbami, historickými a archeologickými expozicemi a uměleckými sbírkami.
+
+Pernštejnové pod zámkem přestavěli i město, v kameni a s renesančními štíty, zvlášť po velkém požáru v roce 1538. Staré město se dá přejít za deset minut a skoro každá ulice v něm vede na Pernštýnské náměstí, pojmenované po nich: kompaktní náměstí s podloubími měšťanských domů s gotickými jádry a pestrými renesančními, barokními a klasicistními fasádami. Na jednom konci stojí Zelená brána, hlavní vstup do starého města, jejíž asi 60 metrů vysoká věž se zelenou měděnou střechou vyrostla po požáru v roce 1538 a slouží jako rozhledna. Naproti se zvedá novorenesanční radnice z let 1892 až 1894 a nejslavnější dům, U Jonáše, nese štukový reliéf z roku 1797 s prorokem Jonášem a velrybou mezi mořskými pannami a mořskými koníky; nikdo dosud nerozhodl, jestli ho velryba polyká, nebo vyplivuje. Mimo staré město jsou Pardubice po celé zemi známé chráněným receptem na perník a Velkou pardubickou, dostihem tak drsným, že jeho překážky mají vlastní jména, který se běží každý říjen od roku 1874.
 
 🎁 Bonus: Pernštejnský erb je černá zubří hlava se zlatým kruhem v nose a rod ho umisťoval skoro na všechno, co postavil. Projděte se kolem zámku a starým městem a počítejte zubry: rod, kterému to tu patřilo, zjevně nechtěl, aby někdo zapomněl, čí to je.`,
 
@@ -27162,11 +26404,13 @@ Vodní tvrz tu stála od 13. století. Ve 14. století patřilo město rodu Arno
 
 这里从13世纪起就有一座水上要塞。14世纪时，这座城属于布拉格第一任大主教阿尔诺什特·帕尔杜比采的家族。是人随城得名，而不是城随人得名：阿尔诺什特生在霍斯廷卡，直到1340年底父亲在遗嘱里指定他继承这座城，他才有了“帕尔杜比采的”这个称号。帕尔杜比采至今仍把他当作本城的守护人。胡斯战争之后，要塞用石头重建，加了角楼和射击孔。真正的转折发生在1491年，王国里数一数二的富豪、佩恩施泰因的威廉买下这片领地，把要塞改建成一座四翼宫殿，外面再裹上一圈强大的新防御工事。这座建筑介于中世纪城堡和文艺复兴府邸之间，它的土垒被认为是捷克最出色的晚期哥特式防御工事之一。他的儿子沃伊捷赫和扬继续做文艺复兴式的改建。1560年，领地卖给了国王，1574年至1579年间，乌尔里科·奥斯塔利为它加上了五彩刮画装饰和主塔。不过作为王室产业，它主要当行政中心用，17世纪甚至还开过啤酒厂。1920年，博物馆协会买下了它。1952年收归国有后，城堡年久失修，1977年二楼有一部分塌了。1994年开始全面修复，2010年起成为国家文化遗产。如今这里是东波希米亚博物馆和东波希米亚美术馆的所在地，有文艺复兴时期的壁画、历史和考古展览，以及美术藏品。
 
+佩恩施泰因家族也重建了城堡脚下的城市，用的是石头和文艺复兴式山墙，1538年那场大火之后尤其如此。老城小得十分钟就能走完，几乎每条街都通向以这个家族命名的佩恩施泰因广场：一座紧凑的广场，四周是带拱廊的市民住宅，内核是哥特式的，外立面则是五颜六色的文艺复兴、巴洛克和古典主义风格。广场一头立着绿门，这是老城的主要入口，1538年大火后加盖了一座约60米高、铜顶泛绿的塔楼，如今可以登塔远眺。广场对面是1892年至1894年建成的新文艺复兴式市政厅。最有名的房子是“约拿之家”，立面上有一块1797年的灰泥浮雕，刻着先知约拿和大鱼，周围是美人鱼和海马；那条鱼到底是在吞约拿还是在把他吐出来，至今没人说得清。老城之外，帕尔杜比采在全国都以受保护的姜饼配方闻名，还有一场从1874年起每年10月举办的大帕尔杜比采障碍赛马，凶险到连几道障碍都各有名号。
+
 🎁 彩蛋：佩恩施泰因家族的纹章是一个鼻子上穿着金环的黑色野牛头，这个家族几乎在自己造的每样东西上都刻了它。绕着城堡和老城走一圈，数一数有多少个野牛头：当年的主人显然不想让任何人忘记这地方是谁的。`,
     },
   },
   {
-    // Pardubice batch (see pernstynske-namesti-pardubice above). Out-of-town
+    // Pardubice batch (see zamek-pardubice above). Out-of-town
     // castle on its own hill ~6 km north of Pardubice. Sources: cs.wikipedia
     // (Kunětická hora (hrad)), kampocesku.cz, hrad-kunetickahora.cz. Opatovice
     // was a Benedictine monastery. The "extinct volcano" belief is folk

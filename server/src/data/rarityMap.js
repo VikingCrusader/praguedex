@@ -608,7 +608,6 @@ export const SLUG_RARITY = {
   'prirodni-rezervace-sance':      'epic',     // protected 1982, Jersey tiger moth habitat, sits atop the Závist oppidum
   'keltske-oppidum-zavist':        'epic',     // largest Celtic oppidum in Czech lands, national cultural monument since 1989
   'tocensky-havlickuv-orloj':      'epic',     // homemade astronomical clock, built 2020 in a private garden
-  'ohrobecke-udoli':               'epic',     // remote ford-crossed cottage valley split between Zvole and Ohrobec
   'vrane-nad-vltavou':             'superior', // 993 founding charter, first stage of the Vltava cascade dam (1930-35)
   'pomnik-neznamemu-padlemu-sance': 'rare',    // Prague Uprising memorial, later identified as Jiří Calta
   'kaplicka-panny-marie-zbraslavske': 'epic',  // 19th-c niche chapel, officially Prague's southernmost cross
@@ -624,9 +623,6 @@ export const SLUG_RARITY = {
   'kostel-svateho-vaclava-prosek': 'rare',     // oldest building in Prosek, founding legend a 13th-c forgery
   'vinarsky-sloup-prosek':         'epic',     // 17th-c wine-boundary column, destroyed by a truck in 1965
   'hrbitov-dolni-brezany':         'superior', // 2016 Celtic-cross-shaped cemetery, National Architecture Award 2017
-  'hilase':                        'epic',     // high-power pulsed laser research centre, opened 2014
-  'zamek-dolni-brezany':           'superior', // c.1600 Renaissance chateau, now Chateau Clara Futura hotel
-  'kaminek':                       'rare',     // artificial hill from 2009 ring-road spoil, ex-quarry swimming hole
   'komorany':                      'superior', // first recorded 1088, merged with Modřany 1964, annexed to Prague 1968
 
   // ── Břevnov / Petřiny batch (2026-07) ───────────────────────────────────
@@ -666,7 +662,6 @@ export const SLUG_RARITY = {
   'ministerstvo-kultury-kancelar':  'superior', // 1913 Rosipal-designed former Municipal Orphanage, Hradčany
   'socha-marie-terezie':            'rare',     // 2020 faceless "chess piece" monument by Prašný most
   'jilove-u-prahy':                 'superior', // royal gold-mining town, 11 tons extracted until 1968
-  'zampassky-most':                 'epic',     // 1898-99 granite viaduct, 2nd-highest stone rail bridge in Central Europe
   'zamek-lobkovice':                'superior', // 1403 fortress, Palacký's favourite retreat, Lobkowicz restitution 1991
   'cesky-brod':                     'superior', // Gothic bishop's ford-town, Trstenice trail, free royal town 1786
   'zamek-kostelec-nad-cernymi-lesy': 'superior', // royal fortress since 13th c., now ČZU forestry faculty seat
@@ -681,7 +676,6 @@ export const SLUG_RARITY = {
   'zamek-benatky-nad-jizerou':      'epic',     // Tycho Brahe's observatory, first Brahe-Kepler meeting 1600
   'zamek-mnisek-pod-brdy':          'superior', // Baroque chateau rebuilt after 1639 Swedish sack, Skalka pilgrimage site
   'kutna-hora':                     'mythic',   // UNESCO medieval silver-mining capital, St. Barbara's Cathedral
-  'letohradek-belveder-kutna-hora': 'rare',     // obscure Špork summer-house ruin, burned by lightning 1834
   'nymburk':                        'superior', // walled brick-Gothic Elbe town, Bohumil Hrabal's childhood home
   'podebrady':                      'superior', // spa town, birthplace of King George of Poděbrady
   'kolin':                          'superior', // 1757 Battle of Kolín, Parléř-workshop Gothic church, old Jewish quarter
@@ -700,7 +694,6 @@ export const SLUG_RARITY = {
   // ── Berounka valley / Český kras batch (2026-07) ────────────────────────
   'stredoveky-skanzen-repora':      'epic',     // replica medieval village, closed to public since fires, film-crew use only
   'chrustenicka-sachta':            'superior', // 1861-1965 iron mine, 84 levels to 426m, museum since 1995
-  'u-tri-habru':                    'common',   // obscure Český kras trail junction, almost undocumented
   'skanzen-solvayovy-lomy':         'superior', // Solvay limestone quarry since 1918, narrow-gauge museum since 1998
   'zricenina-hradu-karlik':         'rare',     // Charles IV-era Gothic castle ruin, abandoned by 1422
   'zamek-dobrichovice':             'superior', // Crusader order chateau, burned and rebuilt at least 3 times
@@ -728,7 +721,6 @@ export const SLUG_RARITY = {
 
   // ── Suchdol / Horoměřice / Stodůlky batch (2026-07-30) ──────────────────
   'komunitni-zahrada-suchdol':      'common',   // volunteer-built 2014 community garden, earth trampoline, school outdoor classroom
-  'zamek-horomerice':               'superior', // Strahov Monastery farmstead-turned-Baroque chateau, Nosecký chapel frescoes, closed for restoration
   'panska-zahrada':                 'rare',     // 2009-11 reconstructed park, ceramic fountain sculptures by Alexandra Koláčková, Stodůlky
 
   // ── Jinonice / Smíchov / Řepy / Old Town batch (2026-07-31) ─────────────
@@ -809,25 +801,49 @@ export const EXPEDITION_XP_OVERRIDES = {
   'cesky-krumlov':                          300, // 142 km, UNESCO (town card; castle card merged in 2026-10-18)
   'zamek-hluboka-nad-vltavou':              300, // 115 km
   // Down: small sights bundled with a bigger card nearby
-  'rybnik-vezak':                           60,  // Trosky / Kingdom Come batch
-  'rybnik-vidlak':                          60,
-  'troskovice':                             60,
-  'tachov-troskovice':                      60,
-  'zelejov':                                60,
-  'nebakov':                                60,
-  'podseminsky-mlyn':                       60,
-  'hradiste-semin':                         60,
-  'koupaliste-dachova':                     60,  // smallest of the three Hořice cards
-  'sousosi-sv-vojtecha-a-radima-libice':    60,  // next to hradiste-libice
   'kriz-svate-ludmily-tetin':               60,  // smallest of the Tetín cards
   'kostel-sv-jana-nepomuckeho-tetin':       60,
   'socha-premysla-otakara-ii':              120, // a statue beside the ceske-budejovice card
-  'pernstynske-namesti-pardubice':          120, // beside zamek-pardubice
-  'vlassky-dvur':                           120, // Kutná Hora: six cards in one day
-  'letohradek-belveder-kutna-hora':         120,
+  'vlassky-dvur':                           120, // Kutná Hora: five cards in one day
   'kartuziansky-klaster-valdice':           120, // beside the jicin card, seen from outside only (a prison)
+  'sousosi-sv-vojtecha-a-radima-libice':    120, // a statue beside hradiste-libice (60 until it became secret, 2026-11-15)
   'pamatnik-bitvy-u-jankova':               120, // 54 km, a mound and memorial in the fields
 };
+
+// Secret cards (秘藏 / Secret / Tajné, 2026-11-15, user's design): outside
+// cards that are not famous or grand in themselves and matter mostly for a
+// History Timeline event, or lie outside Bohemia. They are hidden from Explore,
+// the Map and every count until collected; the only way to find one is as a
+// related landmark on the History Timeline (a test checks every slug here is
+// linked from at least one event). They still collect normally on the spot and
+// show in the player's collection. Rarity `secret`, an obsidian frame on the
+// client, and more XP than the expedition step they would have had (never at
+// 60: cards that close are never secret). Run `npm run sync:expedition` after
+// changing this list. Not secret on purpose: everything within 50 km, Lidice
+// and Kutná Hora. An achievement that lists places names a secret card in its
+// detail; `socha-premysla-otakara-ii` is secret anyway and stays one of Iron
+// and Golden King's towns (user's call, 2026-11-15: a clue there is fine).
+export const SECRET_SLUGS = new Set([
+  // Outside Bohemia (Moravia)
+  'jihlava', 'veveri-castle', 'znojmo', 'brno', 'olomouc',
+  // Known mostly for one event in the History Timeline
+  'hora-vladar', 'krasikov-castle', 'primda', 'ovci-vrch', 'stribro', 'tachov', 'husinec',
+  // Second batch (2026-11-15, user's picks). Kept visible on purpose: the
+  // Přemysl the Ploughman monument (a famous legend, not too far) and the
+  // Jankov memorial (the Thirty Years' War's bloodiest battle, near Prague).
+  'zizkova-mohyla', 'chlumec',
+  // Also kept visible: Kozí Hrádek (well known), Suchdol Castle and Hněvín.
+  'zricenina-hradu-pribenice', 'kartuziansky-klaster-valdice', 'zamek-breznice',
+  'havlickuv-brod', 'rokycany', 'hradiste-libice',
+  // The statue beside the Libice hillfort, hidden with it so it doesn't point
+  // the way (user's call); its override went from 60 to 120 for that, so it
+  // pays 150, below the hillfort's 270.
+  'sousosi-sv-vojtecha-a-radima-libice',
+  // Malešov and Sion are near Kutná Hora but not its cards (those stay visible).
+  'vrch-gothard', 'zamek-lemberk', 'malesov', 'zricenina-hradu-sion',
+  'svojanov', 'socha-premysla-otakara-ii',
+]);
+export const SECRET_XP = { 120: 150, 180: 270, 240: 360, 300: 500 };
 
 export function distanceKm(a, b = CHARLES_BRIDGE) {
   const rad = d => (d * Math.PI) / 180;
@@ -848,7 +864,9 @@ export function expeditionXP(slug, coordinates) {
 // the chosen city tier (a card that lost its `outside` label drops to common).
 export function resolveRarity({ slug, labels, coordinates, rarity }) {
   if ((labels || []).includes('outside')) {
-    return { rarity: 'expedition', xpReward: expeditionXP(slug, coordinates) };
+    const xp = expeditionXP(slug, coordinates);
+    if (SECRET_SLUGS.has(slug) && SECRET_XP[xp]) return { rarity: 'secret', xpReward: SECRET_XP[xp] };
+    return { rarity: 'expedition', xpReward: xp };
   }
   const r = RARITY_XP[rarity] ? rarity : 'common';
   return { rarity: r, xpReward: RARITY_XP[r] };

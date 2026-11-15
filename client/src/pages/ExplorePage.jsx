@@ -7,7 +7,7 @@ import { quarterName } from '../utils/pragueQuarters';
 import { AREA_BLURBS } from '../utils/areaBlurbs';
 import AreaGuideModal from '../components/locations/AreaGuideModal';
 import { RARITY_BLURB } from '../utils/rarityBlurbs';
-import { RARITY_LABEL } from '../utils/rarity';
+import { RARITY_LABEL, isFindable } from '../utils/rarity';
 import { RARITY_QUIP, EXPLORE_TIPS, PACK_BLURB } from '../utils/filterBlurbs';
 import { areaIn, loadPragueAreas } from '../utils/pragueAreas';
 import { useAuth } from '../context/AuthContext';
@@ -121,7 +121,8 @@ export default function ExplorePage() {
     setLocations(kept ?? []);
     setLoading(!kept);
     locationAPI.getAll()
-      .then(res => { pageCache.set(key, res.data); setLocations(res.data); })
+      // Uncollected secret cards stay off this page (utils/rarity.js isFindable).
+      .then(res => { const list = res.data.filter(isFindable); pageCache.set(key, list); setLocations(list); })
       .finally(() => setLoading(false));
   }, [userId]);
 

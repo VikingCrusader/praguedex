@@ -1,4 +1,4 @@
-import { RARITY_XP, RARITY_COLOR, RARITY_LABEL, expeditionGem } from '../utils/rarity.js';
+import { RARITY_XP, RARITY_COLOR, RARITY_LABEL, expeditionGem, isFindable } from '../utils/rarity.js';
 
 const TIERS = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'];
 
@@ -20,8 +20,8 @@ describe('RARITY_XP', () => {
 });
 
 describe('RARITY_COLOR', () => {
-  test('has an entry for every tier, plus expedition', () => {
-    expect(Object.keys(RARITY_COLOR)).toEqual([...TIERS, 'expedition']);
+  test('has an entry for every tier, plus expedition and secret', () => {
+    expect(Object.keys(RARITY_COLOR)).toEqual([...TIERS, 'expedition', 'secret']);
   });
 
   test('every value is a valid six-digit hex colour', () => {
@@ -43,11 +43,12 @@ describe('RARITY_LABEL', () => {
     expect(Object.keys(RARITY_LABEL)).toEqual(expect.arrayContaining(['en', 'cz', 'zh']));
   });
 
-  test('each language covers all six tiers, plus expedition', () => {
+  test('each language covers all six tiers, plus expedition and secret', () => {
     for (const labels of Object.values(RARITY_LABEL)) {
-      expect(Object.keys(labels)).toEqual([...TIERS, 'expedition']);
+      expect(Object.keys(labels)).toEqual([...TIERS, 'expedition', 'secret']);
     }
     expect(RARITY_LABEL.zh.expedition).toBe('远征');
+    expect(RARITY_LABEL.zh.secret).toBe('秘藏');
   });
 
   test('no label value is an empty string', () => {
@@ -65,5 +66,14 @@ describe('expeditionGem', () => {
   test('falls back to bronze for a missing or odd value', () => {
     expect(expeditionGem(undefined)).toBe('bronze');
     expect(expeditionGem(150)).toBe('ruby');
+  });
+});
+
+describe('isFindable', () => {
+  test('an uncollected secret card is hidden, a collected one and every other card show', () => {
+    expect(isFindable({ rarity: 'secret', unlocked: false })).toBe(false);
+    expect(isFindable({ rarity: 'secret', unlocked: true })).toBe(true);
+    expect(isFindable({ rarity: 'expedition', unlocked: false })).toBe(true);
+    expect(isFindable({ rarity: 'common' })).toBe(true);
   });
 });

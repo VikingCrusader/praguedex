@@ -2,7 +2,7 @@ import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
-import { RARITY_LABEL, RARITY_VAR, ALL_RARITIES } from '../../utils/rarity';
+import { RARITY_LABEL, RARITY_VAR, ALL_RARITIES, withSecret } from '../../utils/rarity';
 import { LABEL_BLURB, RARITY_QUIP, GUEST_INTRO, TREASURE_BLURB, PACK_BLURB } from '../../utils/filterBlurbs';
 import { useFitText } from '../../utils/fitText';
 import { achField } from '../../utils/achievementText';
@@ -40,8 +40,8 @@ function CollectionSummary({ locations, onPickRarity, treasureCount, onShowTreas
         </div>
       </div>
       <h2 className="px-title profile-card-title">{t('dashboard.rarityBreakdown')}</h2>
-      <ul className="rarity-compact__list">
-        {ALL_RARITIES.map(r => (
+      <ul className={`rarity-compact__list${count('secret') > 0 ? ' rarity-compact__list--eight' : ''}`}>
+        {withSecret(ALL_RARITIES, count('secret') > 0).map(r => (
           <li key={r} className="rarity-compact__item" style={{ color: RARITY_VAR[r] }}>
             {count(r) > 0 ? (
               <button type="button" className="quiet-link rarity-compact__link" onClick={() => onPickRarity(r)}>

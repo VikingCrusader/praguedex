@@ -36,7 +36,7 @@ import ExploreDrawer from '../components/locations/ExploreDrawer';
 import DistrictLine, { descriptiveLabels } from '../components/locations/DistrictLine';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../utils/pixelArtMap';
 import { getLocalCoverPath } from '../utils/localCover';
-import { RARITY_VAR, RARITY_LABEL, CITY_RARITIES, ALL_RARITIES, lockClosedIcon } from '../utils/rarity';
+import { RARITY_VAR, RARITY_LABEL, CITY_RARITIES, ALL_RARITIES, lockClosedIcon, isFindable, withSecret, hasSecretCard } from '../utils/rarity';
 import { playUnlockSound } from '../utils/sound';
 
 const formatDate = (d) => new Date(d).toISOString().slice(0, 10);
@@ -130,7 +130,8 @@ export default function MapPage() {
     setLocations(kept ?? []);
     setLoading(!kept);
     locationAPI.getAll()
-      .then(res => { pageCache.set(key, res.data); setLocations(res.data); })
+      // Uncollected secret cards stay off this page (utils/rarity.js isFindable).
+      .then(res => { const list = res.data.filter(isFindable); pageCache.set(key, list); setLocations(list); })
       .finally(() => setLoading(false));
   }, [userId]);
 
@@ -202,13 +203,14 @@ export default function MapPage() {
       setActiveLabels(prev => { const next = new Set(prev); next.delete('outside'); return next; });
     }
   }, [cityOnly, activeLabels]);
-  // Expedition is the outside cards' rarity: only offered with "Show all".
+  // Expedition and secret are the outside cards' rarities: only offered with
+  // "Show all" (secret only once the player has a secret card).
   useEffect(() => {
-    if (cityOnly && activeRarities.has('expedition')) {
-      setActiveRarities(prev => { const next = new Set(prev); next.delete('expedition'); return next; });
+    if (cityOnly && (activeRarities.has('expedition') || activeRarities.has('secret'))) {
+      setActiveRarities(prev => { const next = new Set(prev); next.delete('expedition'); next.delete('secret'); return next; });
     }
   }, [cityOnly, activeRarities]);
-  const rarityOptions = cityOnly ? CITY_RARITIES : ALL_RARITIES;
+  const rarityOptions = cityOnly ? CITY_RARITIES : withSecret(ALL_RARITIES, hasSecretCard(locations));
 
   useEffect(() => {
     if (!selectedSlug) return;

@@ -29,16 +29,22 @@ const ORNAMENTS = {
   // before keying) or they would vanish at that size; `at` 0 puts the corner
   // of the ornament itself (its top-left ink) at the box's corner.
   'legend-corner': { src: 'ornament-legend-corner.png', flop: false, corner: [79, 79], box: 880, scale: 1, at: 0, thicken: 2.2, out: 512 },
+  // Secret's corner (2026-11-15, a free reference the user picked over a
+  // wrought-iron one): a double rule with a feathered flourish, a top-left
+  // corner whose two rules' midline meets at x 68.5, y 57.3 of 360, so the
+  // card's own double line runs through them.
+  'secret-corner-a': { src: 'ornament-secret-corner-a.png', flop: false, corner: [68.5, 57.3], box: 280, scale: 2, out: 512 },
 };
 
 fs.mkdirSync(OUT, { recursive: true });
-for (const [name, { src, flop, corner, box, scale, at = 6 / 64, thicken, out, flips }] of Object.entries(ORNAMENTS)) {
+for (const [name, { src, flop, flip, corner, box, scale, at = 6 / 64, thicken, out, flips }] of Object.entries(ORNAMENTS)) {
   let img = sharp(path.join(SRC, src)).flatten({ background: '#ffffff' }).greyscale();
   const meta = await sharp(path.join(SRC, src)).metadata();
   if (flop) img = img.flop();
+  if (flip) img = img.flip();
   if (thicken) img = sharp(await img.blur(thicken).png().toBuffer()).greyscale();
   const cx = flop ? meta.width - corner[0] : corner[0];
-  const cy = corner[1];
+  const cy = flip ? meta.height - corner[1] : corner[1];
   // Upscale first, so the keyed edge is smooth when the card shows it larger.
   const W = meta.width * scale, H = meta.height * scale;
   const { data } = await img.resize(W, H, { kernel: 'lanczos3' }).extractChannel(0).raw().toBuffer({ resolveWithObject: true });

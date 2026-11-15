@@ -48,6 +48,9 @@ function build(version, docs) {
     bySlug,
     total: docs.length,
     cityTotal: count(d => !has('outside')(d)),
+    // Secret cards (rarityMap.js) are left out of a player's totals until they
+    // collect one, so the counts never include cards they can't find.
+    secretTotal: count(d => d.rarity === 'secret'),
     landmarkTotal: count(has('landmark')),
     // Per správní obvod (Praha 1–22), and per katastrální území: every card
     // with a quarter, and only those also in a Praha N district.

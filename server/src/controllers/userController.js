@@ -105,7 +105,10 @@ async function buildProgress(user) {
     const allCheckins = withLocations(checkins, catalog);
     // The city proper (no `outside` label), which the profile ring shows by
     // default; "All" switches it to every card (2026-11-03).
-    const totalPreset = catalog.total;
+    // Uncollected secret cards don't count (rarityMap.js): a guest's total
+    // leaves them all out, a player's adds back the ones they have.
+    const secretCollected = allCheckins.filter(c => c.location?.rarity === 'secret').length;
+    const totalPreset = catalog.total - catalog.secretTotal + secretCollected;
     const totalCity = catalog.cityTotal;
     // Cards per správní obvod (Praha 1–22), for the profile's district list
     // (2026-11-03), and per katastrální území for the map's quarter view
@@ -129,7 +132,7 @@ async function buildProgress(user) {
         districtProgress,
         quarterProgress,
         labelCount: {},
-        rarityCount: { common: 0, rare: 0, superior: 0, epic: 0, mythic: 0, legend: 0, expedition: 0 },
+        rarityCount: { common: 0, rare: 0, superior: 0, epic: 0, mythic: 0, legend: 0, expedition: 0, secret: 0 },
         levelInfo: calculateLevel(0),
         totalXP: 0,
         rank: null,
@@ -147,12 +150,13 @@ async function buildProgress(user) {
     const cityUnlockPercent = totalCity > 0 ? Math.round((cityCheckins / totalCity) * 100) : 0;
 
     const labelCount = {};
-    const rarityCount = { common: 0, rare: 0, superior: 0, epic: 0, mythic: 0, legend: 0, expedition: 0 };
+    const rarityCount = { common: 0, rare: 0, superior: 0, epic: 0, mythic: 0, legend: 0, expedition: 0, secret: 0 };
     for (const ci of allCheckins) {
       if (!ci.location) continue;
       for (const lb of (ci.location.labels || [])) {
         labelCount[lb] = (labelCount[lb] || 0) + 1;
       }
+      // Secret is its own count; the profile shows it once it is above 0.
       const r = ci.location.rarity || 'common';
       if (r in rarityCount) rarityCount[r]++;
     }

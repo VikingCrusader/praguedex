@@ -40,10 +40,7 @@ const TEXTURES = {
   // Superior's jade: soft clouds, faint, deep jade green on a pale one, large
   // (768px, shown at 384px) so the clouds don't repeat within a card. (Green
   // marble, veins and all, was tried first and looked busy; user, 2026-11-14.)
-  // Epic's raw silk (shantung), lavender with deep purple slubs.
-  // Epic's silk, dark since 2026-11-14 (user: epic belongs with mythic and
-  // legend): deep amethyst, its slubs a lilac sheen like satin catching light.
-  silk: { src: 'silk', patch: 14, contrast: 14, tile: 512, tint: '#1c0f33', light: '#8a6bc0', base: '#3a2363' },
+  // (Epic's silk tile was removed 2026-11-16: epic is plain amethyst now.)
   // Legend's gilded lacquer: the gold leaf image as faint clouds of gold on
   // a near-black brown (pale gold leaf was tried first: gold frame on gold
   // lost its shine; user, 2026-11-14), large (768px, shown at 384px).

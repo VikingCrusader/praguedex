@@ -152,11 +152,21 @@
      indigo linen with printed flowers, then blue marble, which is kept for
      superior); the frame is to tell the tiers apart further. It has no
      pattern; the rule over the rarity carries
-     a diamond between two dots, a step up from common's lone diamond. */
-  --tex: url('/brand/textures/paper.webp');
-  --panel: #d9e7f2;
-  --ink: #1b2836;
-  --ink-soft: #4b5e73;
+     a diamond between two dots, a step up from common's lone diamond.
+     Its blue deepened from #d9e7f2 on 2026-11-15 (user: richer), with
+     superior's jade, so the light tiers step up evenly.
+     Porcelain since 2026-11-15 (user: above paper, below jade): no grain at
+     all, a pale blue glaze with a soft gloss from the top left, one faint
+     diagonal highlight, and the glaze a touch deeper towards the edges. All
+     static. */
+  --tex: none;
+  --sheen:
+    radial-gradient(ellipse 110% 55% at 18% 0%, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0) 65%),
+    linear-gradient(118deg, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.28) 47%, rgba(255, 255, 255, 0) 55%),
+    radial-gradient(ellipse 75% 70% at 50% 45%, rgba(40, 90, 150, 0) 55%, rgba(40, 90, 150, 0.2) 100%);
+  --panel: #bcd5ec;
+  --ink: #15222f;
+  --ink-soft: #3f5268;
   --ink-rc: #0e5578;
   --keyline: 0 0 0 1px rgba(0, 0, 0, 0.45), 2px 2px 0 1px rgba(0, 0, 0, 0.16);
   --fg-tint: #1b2836;
@@ -166,11 +176,13 @@
   --rule-gap: 19px;
 }
 .loc-card[data-rarity="superior"] {
-  /* Superior: pale jade, smooth with faint deeper clouds (2026-11-14; blue
+  /* Superior: jade, smooth with faint deeper clouds (2026-11-14; blue
      and then green marble were tried first: the grey tile vanished on the
      pale colour or read as dirt, and the veins looked busy). The jade tile is
      the paper itself, in colour (scripts/buildCardTextures.mjs, whose `base`
-     repeats --panel), so it is shown as it is. */
+     repeats --panel), so it is shown as it is. Deepened 2026-11-15 from
+     #b8d8c0 to a mid jade (user: the step to epic was too big, superior read
+     washed out); still a light card with dark text. */
   --tex: url('/brand/textures/jade.webp');
   --tex-size: 384px;
   --tex-blend: normal;
@@ -181,13 +193,13 @@
   --sheen:
     radial-gradient(circle 70px at 0% 100%, rgba(250, 255, 240, 0.95), rgba(200, 255, 210, 0.55) 45%, rgba(200, 255, 210, 0) 100%),
     radial-gradient(circle 190px at 0% 100%, rgba(60, 220, 110, 0.7), rgba(60, 220, 110, 0.28) 50%, rgba(60, 220, 110, 0) 100%);
-  --panel: #b8d8c0;
-  --ink: #17281a;
-  --ink-soft: #46604a;
-  --ink-rc: #1b5c07;
+  --panel: #8fc29d;
+  --ink: #102014;
+  --ink-soft: #2c4a32;
+  --ink-rc: #124a03;
   --keyline: 0 0 0 1px rgba(0, 0, 0, 0.45), 2px 2px 0 1px rgba(0, 0, 0, 0.16);
   --fg-tint: #17281a;
-  --pill-fallback: #6a8a6d;
+  --pill-fallback: #557a5a;
   --rule-mark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 10'%3E%3Cpath d='M20 1.6L23.4 5L20 8.4L16.6 5Z'/%3E%3Cpath d='M15 5C12 5 11 2.4 13 2C14.6 1.7 15 3.4 13.8 3.7 M25 5C28 5 29 2.4 27 2C25.4 1.7 25 3.4 26.2 3.7' fill='none' stroke='black' stroke-width='1.2' stroke-linecap='round'/%3E%3Ccircle cx='9' cy='5' r='0.9'/%3E%3Ccircle cx='31' cy='5' r='0.9'/%3E%3C/svg%3E");
   --rule-mark-size: 40px 10px;
   --rule-h: 10px;
@@ -200,9 +212,18 @@
      the lavender version looked like the lower tiers): the lightest of the
      three dark cards (legend darkest, then mythic), lettered in lavender and
      cream, its only motion the glow breathing round the label. */
-  --tex: url('/brand/textures/silk.webp');
-  --tex-size: 180px;
-  --tex-blend: normal;
+  /* Amethyst (2026-11-15, user: name it amethyst, change as little as
+     possible): a plain deep violet with no texture (the silk tile under it
+     read as cloth, and a generated stone tile looked like jade's), and the
+     whole card is one step-cut stone, three chamfered
+     rectangles one inside the other (a scattered set of facets came first
+     and read as messy), its bevels a shade lighter on the top and left and
+     darker on the bottom and right, plus three tiny glints. Static. */
+  --sheen:
+    radial-gradient(circle 1.6px at 21% 81%, rgba(255, 240, 255, 0.85), rgba(255, 240, 255, 0) 100%),
+    radial-gradient(circle 1.2px at 83% 66%, rgba(255, 240, 255, 0.7), rgba(255, 240, 255, 0) 100%),
+    radial-gradient(circle 1.2px at 64% 93%, rgba(255, 240, 255, 0.6), rgba(255, 240, 255, 0) 100%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 140' preserveAspectRatio='none'%3E%3Cpolygon points='11.5,2.5 88.5,2.5 76,17 24,17' fill='rgb(255,235,255)' fill-opacity='0.07'/%3E%3Cpolygon points='88.5,2.5 97.5,11.5 83,24 76,17' fill='rgb(255,235,255)' fill-opacity='0.03'/%3E%3Cpolygon points='97.5,11.5 97.5,128.5 83,116 83,24' fill='rgb(10,0,25)' fill-opacity='0.07'/%3E%3Cpolygon points='97.5,128.5 88.5,137.5 76,123 83,116' fill='rgb(10,0,25)' fill-opacity='0.11'/%3E%3Cpolygon points='88.5,137.5 11.5,137.5 24,123 76,123' fill='rgb(10,0,25)' fill-opacity='0.11'/%3E%3Cpolygon points='11.5,137.5 2.5,128.5 17,116 24,123' fill='rgb(10,0,25)' fill-opacity='0.04'/%3E%3Cpolygon points='2.5,128.5 2.5,11.5 17,24 17,116' fill='rgb(255,235,255)' fill-opacity='0.04'/%3E%3Cpolygon points='2.5,11.5 11.5,2.5 24,17 17,24' fill='rgb(255,235,255)' fill-opacity='0.09'/%3E%3Cpolygon points='17,9 83,9 91,17 91,123 83,131 17,131 9,123 9,17' fill='none' stroke='rgb(235,215,255)' stroke-opacity='0.13' stroke-width='0.5' vector-effect='non-scaling-stroke'/%3E%3Cpolygon points='24,17 76,17 83,24 83,116 76,123 24,123 17,116 17,24' fill='none' stroke='rgb(235,215,255)' stroke-opacity='0.16' stroke-width='0.5' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E") 0 0 / 100% 100% no-repeat;
   --panel: #3a2363;
   --ink: #f3ecfa;
   --ink-soft: #c9b8e3;
@@ -429,10 +450,9 @@
    without animating the lower tiers). A span inside every card
    (.loc-card__frame), drawn just inside the border and above the cover:
    - common: nothing;
-   - rare and up: a double inner line plus small L-shaped corner pieces
-     (rare used to have a single thin line; moved up a tier 2026-10-11);
-   - superior and up: calligraphic corners instead of the L pieces, see
-     the flourish rules below.
+   - rare and up: a double inner line, with corner ornaments (see the
+     flourish rules below) in place of the L-shaped corner pieces drawn here
+     (rare's since 2026-11-15).
    Shown in grey on locked cards (2026-11-15). */
 .loc-card__frame {
   position: absolute;
@@ -469,31 +489,18 @@
     var(--c) bottom right / 12px 2px no-repeat,
     var(--c) bottom right / 2px 12px no-repeat;
 }
-/* Rare's frame (2026-11-14, user's call, the first of the per-tier frames):
-   a bookplate, one fine line inside the border with a small square on each
-   corner. It replaced the double line, which crowded the text panel's own
-   double rule. (A small corner ornament on top was tried and dropped the
-   same day: the user preferred it plain.) */
-.loc-card[data-rarity="rare"] .loc-card__frame {
-  border: 1px solid color-mix(in srgb, var(--rc) 55%, transparent);
-}
-.loc-card[data-rarity="rare"] .loc-card__frame::before {
-  inset: -3px;
-  --c: linear-gradient(var(--rc), var(--rc));
-  background:
-    var(--c) top left / 5px 5px no-repeat,
-    var(--c) top right / 5px 5px no-repeat,
-    var(--c) bottom left / 5px 5px no-repeat,
-    var(--c) bottom right / 5px 5px no-repeat;
-}
+/* Rare's frame (2026-11-15, user's call): the double line and scroll corners
+   that were superior's until then, without their rounded corner line (dropped
+   the same day, as on superior's leaves); the single line with corner squares it
+   had from 2026-11-14 looked plain (user: "太丑了"). The text panel's own
+   double rule it once crowded is gone. */
 /* Corner flourishes (2026-10-11, user request: the higher the tier, the
    fancier, in the style of the History overview card's corners).
    RarityFrame.jsx renders eight <i> spans inside .loc-card__frame; each
    tier shows some of them with its own mask, replacing the L corners:
-   superior a rounded corner with a pair of scrolls; epic adds a tendril and
-   dot along each edge; mythic adds a second tendril, more dots and a
-   diamond ornament centred on the top and bottom edges; legend has the
-   same corners larger, with the diamond ornament on all four edges. */
+   rare a pair of scrolls; superior a flower with laurel sprigs (its own,
+   below); epic, mythic and legend have keyed picture corners further down
+   (mythic's and legend's SVGs here are older drafts those replace). */
 .loc-card__orn {
   position: absolute;
   display: none;
@@ -504,18 +511,28 @@
   -webkit-mask: var(--orn) no-repeat 0 0 / 100% 100%;
           mask: var(--orn) no-repeat 0 0 / 100% 100%;
 }
-.loc-card[data-rarity="superior"] { --orn: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.6'/%3E%3C/g%3E%3C/svg%3E"); --orn-size: 46px; }
-.loc-card[data-rarity="epic"]     { --orn: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cpath d='M26 6C32 6 35 2.5 32.5 1.5C30.5 1 29.5 3.5 31.5 4'/%3E%3Cpath d='M6 26C6 32 2.5 35 1.5 32.5C1 30.5 3.5 29.5 4 31.5'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.6'/%3E%3Ccircle cx='38' cy='3.5' r='1.3'/%3E%3Ccircle cx='3.5' cy='38' r='1.3'/%3E%3C/g%3E%3C/svg%3E"); --orn-size: 58px; }
+.loc-card[data-rarity="rare"]     { --orn: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.6'/%3E%3C/g%3E%3C/svg%3E"); --orn-size: 46px; }
+/* Superior (2026-11-15): its own rounded style rather than rare's scrolls
+   made bigger (user: it read as rare's upgrade): no corner line of its own
+   (a rounded one was tried and dropped the same day), just a four-petal
+   flower in the frame's corner and a laurel sprig of round leaves ending in a
+   berry along each arm; the top and bottom edges carry the same flower
+   between two leaves. Fits the jade. */
+.loc-card[data-rarity="superior"] { --orn: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-linecap='round'%3E%3Cpath d='M17.5 10.5Q28 8.5 40.5 10M10.5 17.5Q8.5 28 10 40.5' stroke-width='1.5'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='13.5' cy='10.6' r='2.1'/%3E%3Ccircle cx='16.4' cy='13.5' r='2.1'/%3E%3Ccircle cx='13.5' cy='16.4' r='2.1'/%3E%3Ccircle cx='10.6' cy='13.5' r='2.1'/%3E%3Cellipse cx='23' cy='7.6' rx='3.4' ry='1.6' transform='rotate(-22 23 7.6)'/%3E%3Cellipse cx='29.5' cy='12.2' rx='3.4' ry='1.6' transform='rotate(18 29.5 12.2)'/%3E%3Cellipse cx='36' cy='7.8' rx='3' ry='1.4' transform='rotate(-22 36 7.8)'/%3E%3Ccircle cx='42' cy='10' r='1.6'/%3E%3Cg transform='matrix(0 1 1 0 0 0)'%3E%3Cellipse cx='23' cy='7.6' rx='3.4' ry='1.6' transform='rotate(-22 23 7.6)'/%3E%3Cellipse cx='29.5' cy='12.2' rx='3.4' ry='1.6' transform='rotate(18 29.5 12.2)'/%3E%3Cellipse cx='36' cy='7.8' rx='3' ry='1.4' transform='rotate(-22 36 7.8)'/%3E%3Ccircle cx='42' cy='10' r='1.6'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); --orn-size: 62px; }
+/* Printed in the deep green itself: the usual lighter tint vanished on the jade. */
+.loc-card[data-rarity="superior"] .loc-card__orn { background: var(--rc); }
+.loc-card[data-rarity="superior"] :is(.loc-card__orn--top, .loc-card__orn--bottom) { --orn: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 16' fill='none' stroke='black' stroke-linecap='round'%3E%3Cpath d='M9 8H19M41 8H51' stroke-width='1.6'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='30' cy='5.1' r='2.1'/%3E%3Ccircle cx='32.9' cy='8' r='2.1'/%3E%3Ccircle cx='30' cy='10.9' r='2.1'/%3E%3Ccircle cx='27.1' cy='8' r='2.1'/%3E%3Cellipse cx='22.8' cy='8' rx='3.2' ry='1.6'/%3E%3Cellipse cx='37.2' cy='8' rx='3.2' ry='1.6'/%3E%3Ccircle cx='9' cy='8' r='1.5'/%3E%3Ccircle cx='51' cy='8' r='1.5'/%3E%3C/g%3E%3C/svg%3E"); }
 .loc-card[data-rarity="mythic"]   { --orn: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cpath d='M26 6C32 6 35 2.5 32.5 1.5C30.5 1 29.5 3.5 31.5 4'/%3E%3Cpath d='M6 26C6 32 2.5 35 1.5 32.5C1 30.5 3.5 29.5 4 31.5'/%3E%3Cpath d='M40 6C45 8 46 13 42 14C39.5 14.5 38.5 12.5 40 11.5'/%3E%3Cpath d='M6 40C8 45 13 46 14 42C14.5 39.5 12.5 38.5 11.5 40'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.6'/%3E%3Ccircle cx='38' cy='3.5' r='1.3'/%3E%3Ccircle cx='3.5' cy='38' r='1.3'/%3E%3Ccircle cx='50' cy='4' r='1.4'/%3E%3Ccircle cx='4' cy='50' r='1.4'/%3E%3Ccircle cx='57' cy='6' r='1'/%3E%3Ccircle cx='6' cy='57' r='1'/%3E%3Ccircle cx='22' cy='22' r='1.3'/%3E%3C/g%3E%3C/svg%3E"); --orn-size: 70px; }
 .loc-card[data-rarity="legend"]   { --orn: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cpath d='M26 6C32 6 35 2.5 32.5 1.5C30.5 1 29.5 3.5 31.5 4'/%3E%3Cpath d='M6 26C6 32 2.5 35 1.5 32.5C1 30.5 3.5 29.5 4 31.5'/%3E%3Cpath d='M40 6C45 8 46 13 42 14C39.5 14.5 38.5 12.5 40 11.5'/%3E%3Cpath d='M6 40C8 45 13 46 14 42C14.5 39.5 12.5 38.5 11.5 40'/%3E%3Cg transform='translate(24 24) rotate(135) scale(0.8)'%3E%3Cpath d='M0 -10C3.5 -6 3.5 -2 0 1C-3.5 -2 -3.5 -6 0 -10Z' fill='black' stroke='none'/%3E%3Cpath d='M-1.5 1C-6 0 -9 -4 -6.5 -6.5C-4.5 -8 -3 -5.5 -4.5 -4M1.5 1C6 0 9 -4 6.5 -6.5C4.5 -8 3 -5.5 4.5 -4' stroke-width='2'/%3E%3Cpath d='M-4.5 1.5H4.5V3.6H-4.5Z' fill='black' stroke='none'/%3E%3Cpath d='M0 3.6V6.5C-2 8.5 -4.5 7.5 -3.5 6M0 6.5C2 8.5 4.5 7.5 3.5 6' stroke-width='1.8'/%3E%3C/g%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.8'/%3E%3Ccircle cx='38' cy='3.5' r='1.3'/%3E%3Ccircle cx='3.5' cy='38' r='1.3'/%3E%3Ccircle cx='49' cy='4' r='1.4'/%3E%3Ccircle cx='4' cy='49' r='1.4'/%3E%3C/g%3E%3C/svg%3E"); --orn-size: 68px; }
+.loc-card[data-rarity="rare"] .loc-card__frame::before,
 .loc-card[data-rarity="superior"] .loc-card__frame::before,
 .loc-card[data-rarity="epic"] .loc-card__frame::before,
 .loc-card[data-rarity="mythic"] .loc-card__frame::before,
 .loc-card[data-rarity="legend"] .loc-card__frame::before,
 .loc-card[data-rarity="expedition"] .loc-card__frame::before { display: none; }
-.loc-card:is([data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"])
+.loc-card:is([data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"])
   :is(.loc-card__orn--tl, .loc-card__orn--tr, .loc-card__orn--bl, .loc-card__orn--br),
-.loc-card[data-rarity="mythic"] :is(.loc-card__orn--top, .loc-card__orn--bottom),
+.loc-card:is([data-rarity="superior"], [data-rarity="mythic"]) :is(.loc-card__orn--top, .loc-card__orn--bottom),
 .loc-card[data-rarity="legend"] .loc-card__orn { display: block; }
 /* The SVG's line corner sits at (6, 6) of 64, so shift it onto the middle
    of the frame's 3px double line. */
@@ -591,9 +608,9 @@
 /* Legend's corners are an acanthus L with a fleur-de-lis (2026-11-14, generated
    by the user from a prompt after a stock ornament and a whole picture frame
    were turned down as too busy; keyed by scripts/buildOrnaments.mjs). Each
-   corner is 40% of the card wide, and a vine runs on from the
+   corner is 40% of the card wide, and a straight gilt band runs on from the
    arms through the middle of every edge, joining the four corners into one
-   frame (user, 2026-11-14); the slim double rule became a simple vine and the
+   frame (user, 2026-11-14; a vine until 2026-11-15); the slim double rule became that band and the
    gems went, the same day. The card is a size
    container (legend only) so the rules can be measured in its width (cqw).
    The old edge ornaments are gone. The arms run along the
@@ -674,7 +691,8 @@
 /* Phone-width cards (two per row) are narrow: shrink the flourishes by
    about a quarter so the bottom corners clear the rarity line. */
 @media (max-width: 600px) {
-  .loc-card[data-rarity="superior"] { --orn-size: 36px; }
+  .loc-card[data-rarity="rare"]     { --orn-size: 36px; }
+  .loc-card[data-rarity="superior"] { --orn-size: 48px; }
   .loc-card[data-rarity="epic"]     { --orn-size: 44px; }
   .loc-card[data-rarity="mythic"]   { --orn-size: 52px; }
   .loc-card[data-rarity="legend"]   { --orn-size: 50px; }
@@ -1164,7 +1182,7 @@
 }
 
 /* Every card's text sits 12px higher than it used to (user, 2026-11-14:
-   first done for legend, to clear its bottom vine, then for all so a row lines
+   first done for legend, to clear its bottom band, then for all so a row lines
    up, pack cards included): 12px less under the cover, a 12px margin under the
    rarity line, so the card keeps its height. A margin, not a padding: on
    phones the footer has a min-height that would swallow part of a padding. */
@@ -1173,7 +1191,7 @@
 /* ...but the rarity and distance themselves sit low, near the bottom edge
    (user, same day): moved down 10px without moving anything else, so the rule
    over them stays under the label and the card keeps its height. Legend is the
-   exception: its line stays up, clear of its bottom vine. */
+   exception: its line stays up, clear of its bottom band. */
 .loc-card.loc-card:not([data-rarity="legend"]) .loc-card__footer > * { position: relative; top: 10px; }
 .loc-card__banner {
   background-image: var(--tex);
@@ -1323,7 +1341,7 @@ html:not([data-lang="zh"]) .loc-card__name {
 /* Cards with corner flourishes: pull the rarity name and distance in from
    the sides so the bottom corners don't cover them (scaled to the
    tier's flourish size). */
-.loc-card:is([data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]) .loc-card__footer {
+.loc-card:is([data-rarity="rare"], [data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"], [data-rarity="expedition"]) .loc-card__footer {
   padding-inline: calc(var(--orn-size) * 0.28);
 }
 /* Legend's corners carry a fleur-de-lis that reaches further into the

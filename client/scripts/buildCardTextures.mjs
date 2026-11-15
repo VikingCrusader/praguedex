@@ -50,7 +50,7 @@ const TEXTURES = {
   gold: { src: 'gold', patch: 160, contrast: 18, tile: 768, tint: '#0e0904', light: '#8a6418', base: '#2a1d0e' },
   // Expedition's brushed silver, faint so its lines don't read as stripes.
   silver: { src: 'silver', patch: 14, contrast: 9, tile: 512, tint: '#3a4552', base: '#dfe4ea' },
-  jade: { src: 'jade', patch: 160, contrast: 13, tile: 768, tint: '#1f5a34', base: '#b8d8c0' },
+  jade: { src: 'jade', patch: 160, contrast: 13, tile: 768, tint: '#134a26', base: '#8fc29d' },
 };
 
 const smooth = t => t * t * (3 - 2 * t);

@@ -157,7 +157,7 @@ NODE_ENV=development
 ## Project structure
 
 ```
-prague-stories/
+praguedex/
 ├── client/                      React + Vite PWA
 │   ├── public/
 │   │   ├── pixel-art/           cover images (+ thumbs/, generated)

@@ -7,7 +7,7 @@ import { quarterName } from '../utils/pragueQuarters';
 import { AREA_BLURBS } from '../utils/areaBlurbs';
 import AreaGuideModal from '../components/locations/AreaGuideModal';
 import { RARITY_BLURB } from '../utils/rarityBlurbs';
-import { RARITY_LABEL, isFindable } from '../utils/rarity';
+import { RARITY_LABEL, useFindable } from '../utils/rarity';
 import { RARITY_QUIP, EXPLORE_TIPS, PACK_BLURB } from '../utils/filterBlurbs';
 import { areaIn, loadPragueAreas } from '../utils/pragueAreas';
 import { useAuth } from '../context/AuthContext';
@@ -75,7 +75,9 @@ export default function ExplorePage() {
   };
   const [tip] = useState(() => EXPLORE_TIPS[Math.floor(Math.random() * EXPLORE_TIPS.length)]);
   const userPos                          = useUserPosition();
-  const [locations, setLocations]       = useState(() => pageCache.get(pageKey('locations', user?._id)) ?? []);
+  const [allLocations, setLocations]    = useState(() => pageCache.get(pageKey('locations', user?._id)) ?? []);
+  // Uncollected secret cards show only while the player is near them.
+  const locations = useFindable(allLocations, userPos);
   const [areaGuide, setAreaGuide]       = useState(null);
   const [selectedSlug, setSelectedSlug] = useState(null);
   const [autoCheckIn, setAutoCheckIn]   = useState(false);
@@ -121,8 +123,9 @@ export default function ExplorePage() {
     setLocations(kept ?? []);
     setLoading(!kept);
     locationAPI.getAll()
-      // Uncollected secret cards stay off this page (utils/rarity.js isFindable).
-      .then(res => { const list = res.data.filter(isFindable); pageCache.set(key, list); setLocations(list); })
+      // Every card is kept; uncollected secret cards far from the player are
+      // dropped below (utils/rarity.js isFindable).
+      .then(res => { pageCache.set(key, res.data); setLocations(res.data); })
       .finally(() => setLoading(false));
   }, [userId]);
 

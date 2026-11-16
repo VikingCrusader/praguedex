@@ -76,4 +76,15 @@ describe('isFindable', () => {
     expect(isFindable({ rarity: 'expedition', unlocked: false })).toBe(true);
     expect(isFindable({ rarity: 'common' })).toBe(true);
   });
+
+  test('an uncollected secret card shows near the player: 3 km, or 8 km for a city', () => {
+    const fort = { rarity: 'secret', unlocked: false, labels: ['ruin'], coordinates: { lat: 50, lng: 14 } };
+    const city = { ...fort, labels: ['city'] };
+    const at = km => ({ lat: 50 + km / 111.2, lng: 14 });
+    expect(isFindable(fort, at(2.9))).toBe(true);
+    expect(isFindable(fort, at(3.1))).toBe(false);
+    expect(isFindable(city, at(7.9))).toBe(true);
+    expect(isFindable(city, at(8.1))).toBe(false);
+    expect(isFindable(fort, null)).toBe(false);
+  });
 });

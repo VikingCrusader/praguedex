@@ -1,3 +1,5 @@
+import { useMemo } from 'react';
+import { haversineDistance } from './geolocation';
 export const RARITY_XP = { common: 10, rare: 20, superior: 30, epic: 50, mythic: 70, legend: 100 };
 
 export const KING_LOCK_RARITIES = ['epic', 'mythic', 'legend', 'expedition', 'secret'];
@@ -49,8 +51,32 @@ export const RARITY_LABEL = {
 // on an obsidian card of their own. Not in ALL_RARITIES, so no filter offers
 // it. Explore, the Map and the Guide drop an uncollected one from their lists
 // (isFindable); a collected one shows like any card. The proximity alerts
-// still know them all, so one still collects on the spot.
-export const isFindable = (l) => l.rarity !== 'secret' || !!l.unlocked;
+// still know them all, so one still collects on the spot. Since 2026-11-16
+// (user's call) an uncollected one also shows on Explore, the Map and search
+// while the player is near it: within 8 km of a city card (the card's point
+// is the city centre, and a city reaches further) and 3 km of any other. It
+// goes again once the player leaves; nothing is remembered.
+export const SECRET_NEAR_M = 3000;
+export const SECRET_NEAR_CITY_M = 8000;
+export const secretNearRadius = (l) => (l.labels?.includes('city') ? SECRET_NEAR_CITY_M : SECRET_NEAR_M);
+export const isFindable = (l, pos) => {
+  if (l.rarity !== 'secret' || l.unlocked) return true;
+  if (!pos || !l.coordinates) return false;
+  return haversineDistance(pos.lat, pos.lng, l.coordinates.lat, l.coordinates.lng) <= secretNearRadius(l);
+};
+// Explore's and the Map's card list: every findable card. The list keeps its
+// identity while the position moves without changing which secret cards are
+// in reach, so the pages don't redo their sorting on every GPS fix.
+export function useFindable(all, pos) {
+  const near = all
+    .filter(l => l.rarity === 'secret' && !l.unlocked && isFindable(l, pos))
+    .map(l => l.slug).join(' ');
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  return useMemo(() => {
+    const reach = new Set(near.split(' '));
+    return all.filter(l => l.rarity !== 'secret' || l.unlocked || reach.has(l.slug));
+  }, [all, near]);
+}
 // A rarity list with Secret added last, once the player has a secret card
 // (2026-11-15, user's call): the profile's and the collection's rarity counts
 // and the Explore and Map filters (with Show all) only offer it then.

@@ -36,7 +36,7 @@ import ExploreDrawer from '../components/locations/ExploreDrawer';
 import DistrictLine, { descriptiveLabels } from '../components/locations/DistrictLine';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../utils/pixelArtMap';
 import { getLocalCoverPath } from '../utils/localCover';
-import { RARITY_VAR, RARITY_LABEL, CITY_RARITIES, ALL_RARITIES, lockClosedIcon, isFindable, withSecret, hasSecretCard } from '../utils/rarity';
+import { RARITY_VAR, RARITY_LABEL, CITY_RARITIES, ALL_RARITIES, lockClosedIcon, useFindable, withSecret, hasSecretCard } from '../utils/rarity';
 import { playUnlockSound } from '../utils/sound';
 
 const formatDate = (d) => new Date(d).toISOString().slice(0, 10);
@@ -104,7 +104,9 @@ export default function MapPage() {
     () => (knowsPosition && areasData ? areaIn(areasData, userPos.lat, userPos.lng) : null),
     [knowsPosition, areasData, userPos?.lat, userPos?.lng],
   );
-  const [locations, setLocations]       = useState([]);
+  const [allLocations, setLocations]    = useState([]);
+  // Uncollected secret cards show only while the player is near them.
+  const locations = useFindable(allLocations, userPos);
   const [selectedSlug, setSelectedSlug] = useState(null);
   const [flyTo, setFlyTo]               = useState(null);
   useEffect(() => { if (selectedSlug) setInfoOpen(false); }, [selectedSlug]);
@@ -130,8 +132,9 @@ export default function MapPage() {
     setLocations(kept ?? []);
     setLoading(!kept);
     locationAPI.getAll()
-      // Uncollected secret cards stay off this page (utils/rarity.js isFindable).
-      .then(res => { const list = res.data.filter(isFindable); pageCache.set(key, list); setLocations(list); })
+      // Every card is kept; uncollected secret cards far from the player are
+      // dropped below (utils/rarity.js isFindable).
+      .then(res => { pageCache.set(key, res.data); setLocations(res.data); })
       .finally(() => setLoading(false));
   }, [userId]);
 

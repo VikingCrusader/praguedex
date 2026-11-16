@@ -197,11 +197,12 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   // always stand just before the first of their own cards (e.g. while the
   // phone is still waiting for a position, or sorted by rarity). Sorted by
   // newest, the packs stand among the cards by when they were released.
-  // Packs within 100 m that still have something to collect (2026-11-16, user's
-  // call: a completed pack doesn't jump the queue). On phones and other screens
-  // without the side column they leave the grid for a one-line banner above it
-  // (`nearPacksAsBanner`), so the first row stays free for cards to collect.
-  const isNearPack = p => !p.completed && p._distance != null && p._distance <= NEARBY_REVEAL_M;
+  // Packs within 100 m, completed ones too (2026-11-16, user's call: left out at
+  // first, put back once the phone banner made them cost no room). On phones and
+  // other screens without the side column they leave the grid for a one-line
+  // banner above it (`nearPacksAsBanner`), so the first row stays free for cards
+  // to collect.
+  const isNearPack = p => p._distance != null && p._distance <= NEARBY_REVEAL_M;
   const nearPacks = useMemo(
     () => (packsOnly || discovered || treasureOnly || activeRarities.size > 0 ? [] : shownPacks.filter(isNearPack)),
     [packsOnly, discovered, treasureOnly, activeRarities, shownPacks],
@@ -502,11 +503,12 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
       </div>
 
       {nearPacksAsBanner && nearPacks.length > 0 && (
-        <div className="near-packs">
+        <div className={`near-packs${nearPacks.length >= 3 ? ' near-packs--many' : ''}`}>
           <span className="near-packs__label">{convert(t('pack.nearby'))}</span>
           {nearPacks.map(p => (
             <button type="button" key={p.slug} className="detail-packs__pack near-packs__pack" style={{ '--foil': p.foil }} onClick={() => onPackClick?.(p)}>
-              {convert(getLocName(p, lang))} <span className="near-packs__count">{p.collected ?? 0}/{p.total}</span>
+              <span className="near-packs__name">{convert(getLocName(p, lang))}</span>
+              <span className="near-packs__count">{p.collected ?? 0}/{p.total}</span>
             </button>
           ))}
         </div>

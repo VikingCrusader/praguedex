@@ -285,7 +285,7 @@ test.describe('packs among the cards on Explore', () => {
   });
 
   // 2026-11-16, user's call: a card that can be collected right here comes before
-  // the packs around it, and a completed pack no longer jumps the queue.
+  // the packs around it, completed ones included.
   test('a locked card within 100 m leads, before the pack around it', async ({ page }) => {
     await setup(page);
     await page.route('**/api/locations', route => route.fulfill({ json: [card('far-card', 50.12, ['park']), card('in-pack', 50.0928, ['park']), { ...card('here', 50.092, ['gothic']), unlocked: false }] }));
@@ -294,12 +294,12 @@ test.describe('packs among the cards on Explore', () => {
     await expect.poll(() => order(page)).toEqual(['here', 'near-pack', 'in-pack', 'far-card']);
   });
 
-  test('a completed pack close by stays at its nearest card', async ({ page }) => {
+  test('a completed pack close by goes first too', async ({ page }) => {
     await setup(page);
     await page.route('**/api/locations', route => route.fulfill({ json: [card('far-card', 50.12, ['park']), card('in-pack', 50.0928, ['park']), card('here', 50.092, ['gothic'])] }));
     await page.route('**/api/packs', route => route.fulfill({ json: [{ ...DONE, slug: 'done-pack', memberSlugs: ['in-pack'] }] }));
     await page.goto('/explore');
-    await expect.poll(() => order(page)).toEqual(['here', 'done-pack', 'in-pack', 'far-card']);
+    await expect.poll(() => order(page)).toEqual(['done-pack', 'here', 'in-pack', 'far-card']);
   });
 
   test('sorted by newest, the packs go in release order among the cards, not the famous ones first', async ({ page }) => {
@@ -360,13 +360,13 @@ test.describe('packs close by on a phone', () => {
     ] }));
     await page.goto('/explore');
     const banner = page.locator('.near-packs');
-    await expect(banner.locator('.near-packs__pack')).toHaveCount(1);
+    await expect(banner.locator('.near-packs__pack')).toHaveCount(2); // the completed one too
     await expect(banner).toContainText('Prague Castle');
     await expect(banner).toContainText('1/29');
     const grid = page.locator('.location-grid');
     await expect.poll(() => grid.locator('.loc-card[data-slug], .loc-card[data-pack]').evaluateAll(els => els.map(e => e.dataset.pack || e.dataset.slug)))
-      .toEqual(['here', 'done-pack', 'in-pack', 'far-card']);
-    await banner.locator('.near-packs__pack').click();
+      .toEqual(['here', 'in-pack', 'far-card']);
+    await banner.locator('.near-packs__pack').first().click();
     await expect(page.locator('.pack-detail')).toBeVisible();
   });
 });

@@ -223,7 +223,7 @@ describe('evaluateAchievements', () => {
   });
 
   test('metamorphosis needs all its places', () => {
-    const all = ["kafkuv-dum", "palac-goltz-kinskych", "golden-lane", "kafka-museum", "kafka-statue", "kafka-rotating-head", "new-jewish-cemetery-1782861254358"];
+    const all = ["kafkuv-dum", "palac-goltz-kinskych", "golden-lane", "kafka-museum", "kafka-statue", "kafka-rotating-head", "new-jewish-cemetery-1782861254358", "delnicka-urazova-pojistovna-na-porici"];
     const ids = s => evaluateAchievements({ ...baseStats, checkedSlugs: s }, []).map(a => a.id);
     expect(ids(all)).toContain('metamorphosis');
     expect(ids(all.slice(1))).not.toContain('metamorphosis');

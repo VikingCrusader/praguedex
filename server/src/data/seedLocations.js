@@ -14508,17 +14508,17 @@ Kostel založený zřejmě ve druhé čtvrtině 12. století přešel v roce 129
     description: {
       en: `Welcome to Vila Vladislava Vančury, a purist-turned-functionalist villa on the wooded eastern slope of Havlín hill, built for one of Czech literature's defining voices and protected as a cultural monument since 1958.
 
-The first design came in 1924 from architect Jaromír Krejcar, a friend of Vančura's from the Devětsil avant-garde group; Krejcar revised his radically purist plans in 1926, but even the simplified version failed to win approval, and the villa was finally built between 1927 and 1929, and Vančura had to take out a loan to cover it. The finished two-storey house, built around a spiral staircase, had two separate entrances: one leading to his wife Ludmila's medical practice, the other to the family apartment, freeing Vančura to write on the villa's signature terraces, where several of his best-known works took shape. This arrangement held until 12 May 1942, when the Gestapo arrested Vančura at the villa; after weeks of imprisonment and interrogation, he was shot on 1 June 1942 at the Kobylisy execution ground. His descendants still live in and care for the villa today, and the street outside carries his name.
+The first design came in 1924 from architect Jaromír Krejcar, a friend of Vančura's from the Devětsil avant-garde group; Krejcar revised his radically purist plans in 1926, but even the simplified version failed to win approval, and the villa was finally built between 1927 and 1929, and Vančura had to take out a loan to cover it. The finished two-storey house, built around a spiral staircase, had two separate entrances: one leading to his wife Ludmila's medical practice, the other to the family apartment, freeing Vančura to write on the villa's signature terraces, where several of his best-known works took shape. This arrangement held until 12 May 1942, when the Gestapo arrested Vančura at the villa; after weeks of imprisonment and interrogation, he was shot on 1 June 1942 at the Kobylisy execution ground. His descendants still live in and care for the villa today, and the street outside carries his name. At the end of the cul-de-sac, in front of the garden gate, his bronze bust by Karel Lidický has stood on a granite plinth since 1959.
 
 🎁 Bonus: A house built on a loan, designed by committee rejection after committee rejection, ended up producing Markéta Lazarová and several of the finest works of 20th-century Czech prose, proof that sometimes the bureaucracy that can't approve a building plan has no say over what gets written inside it.`,
       cz: `Vítej u Vily Vladislava Vančury, puristické, později funkcionalistické vily na zalesněném východním svahu kopce Havlín, postavené pro jeden z určujících hlasů české literatury a chráněné jako kulturní památka od roku 1958.
 
-První návrh vytvořil v roce 1924 architekt Jaromír Krejcar, Vančurův přítel z avantgardního sdružení Devětsil; Krejcar svůj radikálně puristický plán v roce 1926 přepracoval, ale ani zjednodušená verze neprošla schválením, a vila tak byla nakonec postavena mezi lety 1927 a 1929; Vančura si na ni musel vzít půjčku. Hotový dvoupatrový dům, postavený kolem točitého schodiště, měl dva samostatné vchody: jeden vedl do lékařské ordinace jeho ženy Ludmily, druhý do rodinného bytu, což Vančurovi umožnilo psát na charakteristických terasách vily, kde vznikla řada jeho nejznámějších děl. Toto uspořádání trvalo až do 12. května 1942, kdy Vančuru ve vile zatklo gestapo; po týdnech věznění a výslechů byl 1. června 1942 zastřelen na Kobyliské střelnici. Jeho potomci ve vile žijí a starají se o ni dodnes a přilehlá ulice nese jeho jméno.
+První návrh vytvořil v roce 1924 architekt Jaromír Krejcar, Vančurův přítel z avantgardního sdružení Devětsil; Krejcar svůj radikálně puristický plán v roce 1926 přepracoval, ale ani zjednodušená verze neprošla schválením, a vila tak byla nakonec postavena mezi lety 1927 a 1929; Vančura si na ni musel vzít půjčku. Hotový dvoupatrový dům, postavený kolem točitého schodiště, měl dva samostatné vchody: jeden vedl do lékařské ordinace jeho ženy Ludmily, druhý do rodinného bytu, což Vančurovi umožnilo psát na charakteristických terasách vily, kde vznikla řada jeho nejznámějších děl. Toto uspořádání trvalo až do 12. května 1942, kdy Vančuru ve vile zatklo gestapo; po týdnech věznění a výslechů byl 1. června 1942 zastřelen na Kobyliské střelnici. Jeho potomci ve vile žijí a starají se o ni dodnes a přilehlá ulice nese jeho jméno. Na konci slepé ulice před vstupem do zahrady stojí od roku 1959 na žulovém podstavci jeho busta od Karla Lidického.
 
 🎁 Bonus: Dům postavený na půjčku, navržený přes řadu zamítnutých komisních posudků, nakonec dal vzniknout Markétě Lazarové a několika z nejlepších děl české prózy dvacátého století, důkaz, že byrokracie, která nedokáže schválit stavební plán, nemá žádné slovo v tom, co se pak uvnitř skutečně napíše.`,
       zh: `欢迎来到瓦迪斯拉夫·万楚拉别墅，一座位于哈夫林山东坡林中、从纯粹主义走向功能主义风格的别墅，为捷克文学史上最具代表性的作家之一而建，自1958年起被列为文物保护单位。
 
-最初的设计方案由建筑师亚罗米尔·克雷伊查尔（万楚拉在先锋艺术团体"九力"中的好友）于1924年提出；克雷伊查尔在1926年修改了他那激进的纯粹主义方案，但即便是简化版本也未能获批，别墅最终于1927至1929年间建成，万楚拉不得不为此贷款。建成后的两层住宅围绕一座旋转楼梯而建，设有两个独立入口：一个通向妻子露德米拉的诊所，另一个通向家庭住所，这让万楚拉得以专心在别墅标志性的露台上写作，他多部最著名的作品便在此诞生。这样的安排一直持续到1942年5月12日，盖世太保当天在别墅将万楚拉逮捕；经过数周监禁与审讯后，他于1942年6月1日在科贝利西刑场被枪决。他的后代至今仍居住在这栋别墅中并悉心照料它，别墅外的街道也以他的名字命名。
+最初的设计方案由建筑师亚罗米尔·克雷伊查尔（万楚拉在先锋艺术团体"九力"中的好友）于1924年提出；克雷伊查尔在1926年修改了他那激进的纯粹主义方案，但即便是简化版本也未能获批，别墅最终于1927至1929年间建成，万楚拉不得不为此贷款。建成后的两层住宅围绕一座旋转楼梯而建，设有两个独立入口：一个通向妻子露德米拉的诊所，另一个通向家庭住所，这让万楚拉得以专心在别墅标志性的露台上写作，他多部最著名的作品便在此诞生。这样的安排一直持续到1942年5月12日，盖世太保当天在别墅将万楚拉逮捕；经过数周监禁与审讯后，他于1942年6月1日在科贝利西刑场被枪决。他的后代至今仍居住在这栋别墅中并悉心照料它，别墅外的街道也以他的名字命名。在这条死胡同的尽头、花园门口，1959年起立着一尊他的胸像，出自雕塑家卡雷尔·利季茨基之手，安放在花岗岩底座上。
 
 🎁 彩蛋：一栋靠贷款盖起、设计方案一次次被审批委员会驳回的房子，最终却孕育出了《玛尔盖塔·拉扎罗娃》等二十世纪捷克散文中最优秀的一批作品，足以证明，审批不了建筑方案的官僚体系，终究管不了屋里到底会写出什么。`,
     },
@@ -36488,6 +36488,1204 @@ Dům na rohu Těšnova a Stárkovy ulice postavil kolem let 1890 až 1891 stavit
 泰什诺夫街和斯塔尔科瓦街转角的这座楼，是建筑商卡雷尔·扬达在1890年到1891年前后盖的，那时老泰什诺夫郊区的原址上正在规划一片新街区；它原本还带一个花园餐厅。整整八十年，它的邻居都是泰什诺夫车站，布拉格最气派的车站之一；车站1972年送走最后一班车，1985年被炸掉，头顶上则多了一条南北干道。这座楼1935年到1938年大修过一次，1994年到1997年又修了一次，如今是一家有67间客房的家庭酒店，走几步就到河边。
 
 🎁 彩蛋：虽然叫这个名字，附近可没有什么歌剧院。这里最像序曲的，是每天早上高架桥上的早高峰。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Jižní Město pack, at the user's
+    // coordinates. Facts from cs.wikipedia "Hotel Opatov" and "Ubytovna Sandra"
+    // (21 floors, 68 m, 1980s; Sandra housed nurses and workers, then from summer
+    // 1990 the out-of-town deputies, "Gulag", per Gjuričová & Zahradníček,
+    // Návrat parlamentu, 2018; Praha 11 bought Sandra in 2011; both rebuilt into
+    // municipal flats 2022–2026, Opatov's occupancy permit January 2026). The
+    // yellow and carmine facades are the user's own description.
+    name: 'Hotel Opatov and Sandra',
+    slug: 'hotel-opatov-a-sandra',
+    localizedNames: { cz: 'Hotel Opatov a Sandra', zh: '奥帕托夫酒店与桑德拉楼' },
+    labels: ['tower', 'communism'],
+    district: 'Praha 11',
+    quarter: 'Chodov',
+    coordinates: { lat: 50.02697566778081, lng: 14.511147262945823 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Hotel_Opatov',
+    description: {
+      en: `Two identical towers stand by Opatov metro, the tallest things around: 21 floors and 68 metres each, one now yellow, the other carmine red. They went up in the late 1980s as twins, and since then they have had remarkably different lives.
+
+Hotel Opatov was what its name says, a hotel at the edge of the biggest housing estate in the country. Its neighbour, later known as Sandra, was a hostel for nurses and workers. In the summer of 1990 its tenants were moved out at short notice, because the new freely elected parliament needed somewhere to put its deputies from outside Prague. Up to 340 members of the Federal Assembly and the Czech National Council shared two-room cells with a kitchenette and a bathroom, at first without a telephone or even a desk. The deputies called the place the Gulag, and its bar became the spot where coalitions were patched together over cards and a guitar.
+
+The years after were less kind. Sandra became a cheap hostel with a reputation, Praha 11 bought it in 2011 to put an end to the neighbours' complaints, and Hotel Opatov took bookings until about 2014 before it fell empty. For years both towers stood half dead by the metro, while the city argued over whether to rebuild them or knock them down. In the end both were rebuilt: from 2022 they were turned into municipal flats, Sandra first, and Hotel Opatov received its occupancy permit in January 2026.
+
+🎁 Bonus: A newspaper headline in 2018 promised that once Sandra was rebuilt, bottles would no longer fly out of its windows. For a building that once housed the people writing the country's new laws, it was a modest goal.`,
+      cz: `U metra Opatov stojí dvě stejné věže, nejvyšší věci v okolí: každá má 21 pater a 68 metrů, jedna je dnes žlutá a druhá karmínově červená. Vyrostly koncem osmdesátých let jako dvojčata a od té doby žijí nápadně odlišné životy.
+
+Hotel Opatov byl tím, co říká jeho jméno, hotelem na okraji největšího sídliště v zemi. Sousední budova, později známá jako Sandra, byla ubytovnou pro zdravotní sestry a dělníky. V létě 1990 museli její obyvatelé narychlo odejít, protože nově zvolený svobodný parlament potřeboval kam ubytovat poslance z mimopražských obvodů. Až 340 členů Federálního shromáždění a České národní rady sdílelo dvoupokojové buňky s kuchyňkou a koupelnou, zpočátku bez telefonu a dokonce bez psacího stolu. Poslanci místu říkali Gulag a zdejší bar se stal místem, kde se nad kartami a u kytary slepovaly koalice.
+
+Další léta byla méně laskavá. Ze Sandry se stala levná ubytovna se špatnou pověstí, Praha 11 ji v roce 2011 koupila, aby skončily stížnosti sousedů, a Hotel Opatov bral rezervace zhruba do roku 2014, než osiřel. Roky stály obě věže u metra napůl mrtvé, zatímco se město přelo, jestli je přestavět, nebo zbourat. Nakonec se přestavěly obě: od roku 2022 se z nich staly obecní byty, nejdřív Sandra, a Hotel Opatov dostal kolaudační rozhodnutí v lednu 2026.
+
+🎁 Bonus: Novinový titulek v roce 2018 sliboval, že po přestavbě Sandry už z jejích oken nebudou létat lahve. Na budovu, kde kdysi bydleli lidé píšící nové zákony země, docela skromný cíl.`,
+      zh: `奥帕托夫地铁站旁边立着两座一模一样的高楼，是附近最高的东西：各21层、68米，如今一座是黄色，另一座是胭脂红。它们在1980年代末作为双胞胎落成，此后却过上了截然不同的日子。
+
+奥帕托夫酒店就是名字说的那样，是全国最大住宅区边上的一家酒店。旁边那座后来叫桑德拉的楼，原本是护士和工人的宿舍。1990年夏天，楼里的住户被匆匆请走，因为刚刚自由选出的议会，需要给外地来的议员找个住处。联邦议会和捷克民族议会最多有340位议员挤在这里，两居室的小单元共用一个小厨房和一间浴室，起初连电话都没有，甚至没有书桌。议员们管这里叫"古拉格"，楼里的酒吧则成了大家打着牌、弹着吉他拼凑联盟的地方。
+
+后来的日子就没那么客气了。桑德拉成了名声不佳的廉价旅舍，布拉格11区在2011年把它买下，好让邻居们不再投诉；奥帕托夫酒店一直接受预订到2014年前后，随后人去楼空。好些年里，两座楼半死不活地立在地铁站旁，市里则争论到底是改造还是拆掉。最后两座都改造了：从2022年起它们被改成市政公寓，桑德拉先完工，奥帕托夫酒店在2026年1月拿到了竣工许可。
+
+🎁 彩蛋：2018年有报纸标题保证，桑德拉改造之后，窗户里就不会再飞出酒瓶了。对一座曾经住过起草国家新法律的人的楼来说，这个目标实在朴素。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Jižní Město pack, at the user's
+    // coordinates. Facts from praha.eu, prahain.cz and Pražský deník: planned
+    // with the estate from the 1960s as its green spine between Opatov and Háje,
+    // built in stages as budgets allowed (stages finished 2012 and 2019), the last
+    // stage begun July 2025 for almost CZK 75 million, due by the end of 2026.
+    name: 'Central Park of Jižní Město',
+    slug: 'centralni-park-jizniho-mesta',
+    localizedNames: { cz: 'Centrální park Jižního Města', zh: '南城中央公园' },
+    labels: ['park'],
+    district: 'Praha 11',
+    quarter: 'Chodov',
+    coordinates: { lat: 50.02951210054817, lng: 14.51801780674895 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Every proper city has a Central Park, and Jižní Město has one too: a long green strip between the metro stations Opatov and Háje, where people from the panel blocks come to walk the dog, push a pram or simply look at a horizon that isn't another building.
+
+The park was in the plans from the very start, when the estate was drawn up in the 1960s, as the green spine that would tie its neighbourhoods together. The blocks came first, though, and the park waited. For decades much of it was simply the land left over between the housing, and it was built in stages, a piece whenever a yearly budget had room for one. One stage was finished in 2012, another in 2019, and the western part by the metro was redone after that.
+
+The last stage began in July 2025 and is meant to be done by the end of 2026, for almost 75 million crowns: new trees, toilets, a pavilion, a misting area for hot days, new benches and a café. Half a century after it was first drawn, the estate's park is nearly finished.
+
+🎁 Bonus: Prague has two Central Parks, both on housing estates: this one, and another in Jihozápadní Město across the city. Neither is in New York, and both took rather longer to build.`,
+      cz: `Každé pořádné město má svůj Central Park a Jižní Město ho má taky: dlouhý zelený pás mezi stanicemi metra Opatov a Háje, kam lidé z paneláků chodí venčit psa, tlačit kočárek nebo se prostě dívat na obzor, který není další dům.
+
+Park byl v plánech od samého začátku, když se sídliště v šedesátých letech navrhovalo, jako zelená páteř, která měla jeho čtvrti spojit dohromady. Jenže nejdřív přišly paneláky a park počkal. Desítky let byl z velké části prostě pozemkem, který mezi domy zbyl, a stavěl se po etapách, kousek pokaždé, když na něj v ročním rozpočtu zbyly peníze. Jedna etapa byla hotová v roce 2012, další v roce 2019 a potom se obnovila i západní část u metra.
+
+Poslední etapa začala v červenci 2025 a má být hotová do konce roku 2026, za téměř 75 milionů korun: nové stromy, toalety, altán, mlhoviště na horké dny, nový mobiliář a kavárna. Půl století poté, co ho poprvé nakreslili, je park sídliště skoro dokončený.
+
+🎁 Bonus: Praha má dva Centrální parky, oba na sídlištích: tenhle a další na Jihozápadním Městě na druhém konci města. Ani jeden není v New Yorku a oba se stavěly o dost déle.`,
+      zh: `像样的城市都有一座中央公园，南城也有：一条长长的绿带，夹在奥帕托夫和哈耶两个地铁站之间。板楼里的居民来这里遛狗、推婴儿车，或者只是想看一眼不是另一栋楼的地平线。
+
+公园从一开始就在规划里。1960年代设计住宅区时，它被当作一条绿色的脊梁，要把各个片区连成一体。可是板楼先来了，公园只好等着。几十年里，它大部分只是楼与楼之间剩下的空地，只能分期修建，哪年预算有余就修一块。一期在2012年完工，另一期在2019年，之后地铁站旁的西段也翻修了一遍。
+
+最后一期在2025年7月开工，计划2026年底完成，花费将近7500万克朗：新种的树、厕所、凉亭、给大热天用的喷雾区、新的长椅，还有一家咖啡馆。从第一次画上图纸算起，过了半个世纪，这座住宅区的公园终于快要修完了。
+
+🎁 彩蛋：布拉格有两座中央公园，都在住宅区里：一座就是这里，另一座在城市另一头的西南城。两座都不在纽约，而且修得都比纽约那座慢多了。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Vršovice pack, at the user's
+    // coordinates. Facts from cs.wikipedia "Heroldovy sady" and "Josef Herold"
+    // and prague.eu: Rangheri's mulberry orchard and silk factory from 1842, park
+    // laid out 1882, městys 1885 (the obelisk), Herold 1850–1908, mayor from 1884,
+    // a linden for him May 1908, WWII shelters and tanks, Krupskaya's name after
+    // 1948, Linden of the Republic 1998, a banana tree flowering in 1926.
+    name: 'Herold Gardens',
+    slug: 'heroldovy-sady',
+    localizedNames: { cz: 'Heroldovy sady', zh: '赫罗尔德公园' },
+    labels: ['park', 'national-revival'],
+    district: 'Praha 10',
+    quarter: 'Vršovice',
+    coordinates: { lat: 50.07055723745846, lng: 14.454346214831588 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Heroldovy_sady',
+    description: {
+      en: `Herold Gardens is the green living room of old Vršovice: a small park just off Vršovické náměstí, with paths running in a ring under old trees, a playground, the town's little château at its edge and, in the middle, a stone obelisk that celebrates a promotion.
+
+Vineyards grew here in the Middle Ages. In 1842 Jindřich Rangheri, from a family of Italian merchants who had brought silk-growing to Prague, bought the land, planted mulberry trees to feed his silkworms and built a silk factory beside them. The business died with him. In 1882 the municipality bought the land and the château, cleared the mulberries and laid out a park. Three years later Vršovice was raised to a market town, the park hosted the celebrations, and the obelisk recalls that day and the mayor who had worked for it.
+
+That mayor was Josef Herold, born here in 1850 as a butcher's son, a lawyer who had founded the local Sokol while still a student, became mayor in 1884 and went on to be a Young Czech deputy in the Bohemian Diet and the Vienna parliament. A linden was planted for him in May 1908, the month he died. Vršovice became a town in 1902 and part of Prague in 1922. During the Second World War the park was dug up for air-raid shelters and fire-water tanks, and after 1948 it was renamed after Nadezhda Krupskaya, Lenin's wife. Herold got his park back after 1989, and in 1998 a Linden of the Republic joined the trees.
+
+🎁 Bonus: After the First World War someone planted banana trees here, and in 1926 one of them flowered. Silkworms in the 1840s, bananas in the 1920s: few Prague suburbs have tried so hard to be somewhere warmer.`,
+      cz: `Heroldovy sady jsou zeleným obývákem starých Vršovic: malý park hned u Vršovického náměstí, s cestičkami, které tu běží v kruhu pod starými stromy, s dětským hřištěm, vršovickým zámečkem na okraji a uprostřed s kamenným jehlanem, který slaví povýšení.
+
+Ve středověku tu rostly vinice. V roce 1842 koupil pozemky Jindřich Rangheri z rodiny italských obchodníků, kteří do Prahy přinesli chov bource morušového, vysázel morušovník, aby měl čím krmit housenky, a vedle postavil hedvábnickou továrnu. Podnik skončil s ním. V roce 1882 koupila obec pozemky i zámeček, morušovník vykácela a založila park. O tři roky později byly Vršovice povýšeny na městys, oslavy se konaly právě v sadech a jehlan připomíná ten den i starostu, který se o něj zasloužil.
+
+Tím starostou byl Josef Herold, narozený tu v roce 1850 jako syn řezníka, advokát, který ještě jako student založil zdejší Sokol, v roce 1884 se stal starostou a pak mladočeským poslancem českého zemského sněmu i vídeňské říšské rady. Lípu mu tu vysadili v květnu 1908, v měsíci, kdy zemřel. Vršovice se staly městem v roce 1902 a součástí Prahy v roce 1922. Za druhé světové války park rozryly kryty a požární nádrže a po roce 1948 dostal jméno po Naděždě Krupské, Leninově manželce. Herold svůj park dostal zpátky po roce 1989 a v roce 1998 přibyla mezi stromy Lípa republiky.
+
+🎁 Bonus: Po první světové válce tu někdo vysadil banánovníky a v roce 1926 jeden z nich dokonce vykvetl. Bourci ve čtyřicátých letech 19. století, banány ve dvacátých letech 20. století: málokteré pražské předměstí se tak snažilo být někde, kde je tepleji.`,
+      zh: `赫罗尔德公园是弗尔绍维采老城的绿色客厅：一座紧挨弗尔绍维采广场的小公园，小路在老树下绕成一圈，有儿童游乐场，边上是镇上的小城堡，正中间立着一座石头方尖碑，纪念的是一次"升级"。
+
+中世纪时这里种着葡萄。1842年，金德里赫·兰盖里买下了这块地。他出身意大利商人家庭，正是这家人把养蚕带到了布拉格。他种上桑树喂蚕，又在旁边盖了一座丝绸厂。这门生意随他一起结束了。1882年，镇政府买下土地和小城堡，砍掉桑树，辟成公园。三年后，弗尔绍维采升格为集镇，庆典就在公园里举行，那座方尖碑纪念的就是这一天，以及为此出力的镇长。
+
+这位镇长就是约瑟夫·赫罗尔德。他1850年生在这里，是屠夫的儿子，后来当了律师，还是学生时就创办了当地的索科尔体操协会，1884年当上镇长，之后又成为青年捷克党在波希米亚议会和维也纳帝国议会的议员。1908年5月，也就是他去世的那个月，人们在这里为他种了一棵椴树。弗尔绍维采1902年升格为城市，1922年并入布拉格。二战期间，公园被挖成防空洞和消防水池；1948年以后，它又改名纪念列宁的妻子克鲁普斯卡娅。1989年之后，赫罗尔德才把自己的公园要了回来；1998年，树丛里又添了一棵共和国椴树。
+
+🎁 彩蛋：一战之后，有人在这里种了香蕉树，1926年其中一棵居然开了花。19世纪40年代养蚕，20世纪20年代种香蕉，布拉格很少有哪个郊区这么努力地想把自己过成南方。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Vršovice pack, at the user's
+    // coordinates (Petrohradská 216/3). Facts from the user and cs.wikipedia
+    // "Cukrovar Vršovice" (Pražský industriál, 2007): founded 1902 by A. J. Kohn
+    // and V. Adler, builder František Schlaffer, continued 1913 by Ludvík Melzel,
+    // up to 90 t a day, stopped and Aryanised 1939, Rheostat – Edmund Kussi in the
+    // war, Agrotechna after 1947, flats and offices after 1989.
+    name: 'Vršovice Sugar Refinery',
+    slug: 'cukrovar-vrsovice',
+    localizedNames: { cz: 'Cukrovar Vršovice', zh: '弗尔绍维采制糖厂' },
+    labels: ['factory', 'hidden-gem'],
+    district: 'Praha 10',
+    quarter: 'Vršovice',
+    coordinates: { lat: 50.06404827912387, lng: 14.452636696180674 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Cukrovar_Vr%C5%A1ovice',
+    description: {
+      en: `Between Petrohradská and Novgorodská, just north of the railway, stands a walled compound of old factory buildings that once kept Vršovice sweet. It was a refinery for sugar and syrup, founded in 1902 by A. J. Kohn and V. Adler, and it never grew beets: it took raw sugar and made it into everything a grocer could want.
+
+It produced crystal sugar in several grain sizes, powdered sugar, pilé (sugar sawn into lumps), sugar cubes, edible syrups and artificial honey, up to 90 tonnes a day. The compound grew bit by bit: the builder František Schlaffer started it, and in 1913 Ludvík Melzel carried on his work.
+
+In 1939, under the German occupation, production stopped and the firm was Aryanised, the Nazi word for taking a business away from its Jewish owners. During the war the German company Rheostat – Edmund Kussi had its offices here. The plant was nationalised in 1947 and used by the state enterprise Agrotechna. After 1989 the owner decided to turn it into flats and offices, and the old refinery now lives behind its gatehouse as an ordinary address, with nothing sweet left inside.
+
+🎁 Bonus: Among the refinery's products was artificial honey, sugar syrup dressed up as the real thing. Vršovice made it by the tonne, with no bees involved and, as far as anyone knows, no complaints.`,
+      cz: `Mezi Petrohradskou a Novgorodskou, kousek severně od trati, stojí uzavřený areál starých továrních budov, který kdysi Vršovice sladil. Byla to rafinerie na cukr a sirob, kterou v roce 1902 založili A. J. Kohn a V. Adler, a řepu nikdy nepěstovala: brala surový cukr a dělala z něj všechno, co si mohl kupec přát.
+
+Vyráběla krystal v několika zrnitostech, cukr moučku, pilé, kostky, jedlé siroby a umělý med, až 90 tun denně. Areál rostl postupně: začal ho stavitel František Schlaffer a v roce 1913 v jeho práci pokračoval Ludvík Melzel.
+
+V roce 1939, za německé okupace, se výroba zastavila a firma byla arizována, jak nacisté nazývali odebrání podniku jeho židovským majitelům. Za války tu sídlila německá firma Rheostat – Edmund Kussi. V roce 1947 byl závod znárodněn a používal ho národní podnik Agrotechna. Po roce 1989 se majitel rozhodl přestavět ho na byty a kanceláře a stará rafinerie dnes žije za svou vrátnicí jako obyčejná adresa, uvnitř už bez ničeho sladkého.
+
+🎁 Bonus: Mezi výrobky rafinerie byl i umělý med, cukerný sirob převlečený za ten pravý. Vršovice ho dělaly po tunách, bez jediné včely a pokud je známo, bez jediné stížnosti.`,
+      zh: `在彼得罗赫拉茨卡街和诺夫哥罗茨卡街之间、铁路北边不远处，有一片围起来的老厂房，当年弗尔绍维采的甜味就从这里来。这是一家糖和糖浆精炼厂，1902年由A. J. 科恩和V. 阿德勒创办。它从来不种甜菜：收进粗糖，再把它做成杂货店想要的一切。
+
+它生产好几种粒度的砂糖、糖粉、锯成小块的块糖、方糖、食用糖浆和人造蜂蜜，日产量最高90吨。厂区是一点点盖起来的：营造商弗朗蒂谢克·施拉弗开的头，1913年由路德维克·梅尔泽尔接手继续。
+
+1939年，德国占领期间，工厂停产，企业被"雅利安化"，这是纳粹对从犹太业主手中夺走企业的说法。战争期间，德国公司Rheostat – Edmund Kussi在这里办公。1947年工厂收归国有，由国营企业阿格罗泰赫纳使用。1989年以后，业主决定把它改成公寓和办公楼。如今这座老精炼厂守在门房后面，成了一个普通的地址，里面已经没有一点甜的东西了。
+
+🎁 彩蛋：精炼厂的产品里还有人造蜂蜜，就是打扮成真货的糖浆。弗尔绍维采成吨地生产它，一只蜜蜂都没用上，而且据人们所知，也没有一个人投诉。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call, at the user's coordinates. Facts from cs.wikipedia
+    // "Panská zahrada (Dubeč)": the steward's garden of the Liechtensteins' Dubeč
+    // farm, derelict and a dump in the 20th century, revitalised from May 2009
+    // (opened 2010, second phase spring 2011), about 2.5 ha, the Říčanský potok,
+    // maze with lookout, meditation glade, amphitheatre, pond, ford, a 770 m²
+    // vineyard of Marlen and Madlen. The tvrz and the granary have their own card.
+    name: 'Panská zahrada (Dubeč)',
+    slug: 'panska-zahrada-dubec',
+    localizedNames: { cz: 'Panská zahrada (Dubeč)', zh: '杜贝奇领主花园' },
+    labels: ['park', 'hidden-gem'],
+    district: 'Praha 15',
+    quarter: 'Dubeč',
+    coordinates: { lat: 50.06288117747802, lng: 14.597709392714775 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pansk%C3%A1_zahrada_(Dube%C4%8D)',
+    description: {
+      en: `Panská zahrada, the Lord's Garden, is a small park on the eastern edge of Prague where a stream runs past a maze, a pond, a tiny vineyard and an old granary. Twenty years ago none of it was here, unless you count the rubbish.
+
+The name is old. Beside the remains of Dubeč's medieval fortress stood a farm that belonged to the Liechtensteins' Uhříněves estate, and the farm steward's garden was what the villagers called the lord's garden. The farm disappeared, leaving only its granary, and during the 20th century the garden ran wild: weeds, scrub and an illegal dump.
+
+In May 2009 Dubeč set about rescuing it. The whole plot was cleared, the ground and the bed of the Říčanský potok were reshaped, and the park opened in 2010, with a second phase finished in spring 2011. Its 2.5 hectares now hold a hornbeam maze with a lookout, a meditation glade with stones and a water channel, a natural amphitheatre, a barefoot path, a pond with a small wetland, a ford across the stream and a playground, all planted mostly with native limes, maples and planes.
+
+🎁 Bonus: On the slope below the lookout grows a vineyard of 770 square metres, with one red variety, Marlen, and one white, Madlen. A former dump that now makes its own wine has come up in the world more than most.`,
+      cz: `Panská zahrada je malý park na východním okraji Prahy, kde potok teče kolem bludiště, rybníčka, malinké vinice a starého špejcharu. Před dvaceti lety tu nic z toho nebylo, pokud nepočítáme odpadky.
+
+Jméno je staré. Vedle zbytků dubečské tvrze stával hospodářský dvůr, který patřil k uhříněveskému panství Lichtenštejnů, a zahradě správce dvora se v obci říkalo panská. Dvůr zanikl a zůstala z něj jen sýpka, zahrada ve 20. století zpustla: plevel, náletové křoví a černá skládka.
+
+V květnu 2009 se ji Dubeč pustila zachraňovat. Celý pozemek se vyčistil, terén i koryto Říčanského potoka dostaly nový tvar a park se otevřel v roce 2010, druhá etapa skončila na jaře 2011. Na jeho 2,5 hektaru je dnes habrové bludiště s vyhlídkou, meditační palouk s kameny a vodním kanálkem, přírodní amfiteátr, bosonohá stezka, rybníček s mokřadem, brod přes potok a dětské hřiště, osázené hlavně domácími lipami, javory a platany.
+
+🎁 Bonus: Na svahu pod vyhlídkou roste vinice o 770 metrech čtverečních, s jednou červenou odrůdou, Marlen, a jednou bílou, Madlen. Bývalá skládka, která si dnes dělá vlastní víno, to dotáhla dál než většina z nás.`,
+      zh: `领主花园是布拉格东部边缘的一座小公园，一条小溪从迷宫、小池塘、迷你葡萄园和一座老粮仓旁边流过。二十年前，这里一样都没有，垃圾除外。
+
+名字倒是老的。杜贝奇中世纪要塞的遗迹旁，曾有一座属于列支敦士登家族乌赫日涅维斯庄园的农庄，农庄管事的花园，村里人就叫它"领主花园"。后来农庄消失了，只剩下那座粮仓；到了20世纪，花园彻底荒了：杂草、灌木，还有一个非法垃圾场。
+
+2009年5月，杜贝奇着手把它救回来。整块地清理干净，地形和日查尼溪的河床重新塑造，公园在2010年开放，第二期在2011年春天完工。如今这2.5公顷里有一座带瞭望台的鹅耳枥迷宫、一片摆着石头和小水渠的冥想草地、一座天然露天剧场、一条赤脚步道、一个带湿地的小池塘、一处可以蹚水过溪的浅滩和一个游乐场，种的大多是本地的椴树、槭树和悬铃木。
+
+🎁 彩蛋：瞭望台下的山坡上有一片770平方米的葡萄园，一种红葡萄叫玛伦，一种白葡萄叫玛德伦。一个曾经的垃圾场如今自己酿酒，混得比大多数人都好。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call, at the user's coordinates. Facts from cs.wikipedia
+    // "Sýpka u dubečské tvrze" (baroque, before 1841, listed, ÚSKP 41272/1-1998)
+    // and "Dubeč (tvrz)": first tvrz c. 1350 (Meinl Dubec, from 1343), Gothic one
+    // c. 1400, Renaissance rebuild under the Zápskýs, Rudolf II / Matthias talks
+    // here 11–15 June 1608, Adam Zápský's estate confiscated and his execution in
+    // 1626 for murdering Jan Daniel Kapr, Liechtenstein bought it 1623, ruin by
+    // 1681, stone given for the National Theatre, survey 2007–2008.
+    name: 'Dubeč Granary and Fortress',
+    slug: 'dubecky-spejchar',
+    localizedNames: { cz: 'Dubečský špejchar a tvrz', zh: '杜贝奇粮仓与要塞遗址' },
+    labels: ['homestead', 'baroque', 'ruin'],
+    district: 'Praha 15',
+    quarter: 'Dubeč',
+    coordinates: { lat: 50.063063595990855, lng: 14.596993559661549 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Dube%C4%8D_(tvrz)',
+    description: {
+      en: `At the corner of the Lord's Garden in Dubeč stands a plain baroque granary with a tiled hipped roof, the last building left of the farm it served. Behind it, a stretch of buttressed wall and a tall corner with a window in it are what remains of the fortress where, in 1608, two Habsburg brothers haggled over an empire.
+
+A Prague patrician, Meinl Dubec, built the first fortress here around 1350, and around 1400 the Dubecký family replaced it with a moated Gothic one by the Říčanský potok. In the 16th century the Zápský family rebuilt it in Renaissance style. Then came its great week: from 11 to 15 June 1608 the envoys of Emperor Rudolf II and his brother Archduke Matthias negotiated here, with half the Bohemian nobility in attendance, and the deal they struck, signed at Libeň that month, split the Habsburg lands between the two brothers.
+
+It went downhill from there. Its lord Adam Zápský sided with the Bohemian Revolt, lost his estate and was executed in 1626 for murdering an imperial councillor. Karel of Liechtenstein had bought Dubeč in 1623 and joined it to Uhříněves, nobody lived in the fortress again, and by 1681 the writer Bohuslav Balbín knew it only as an abandoned castle. The farm built its granary beside the ruins, probably in the 18th century and certainly before 1841; it is now a listed monument, while the fortress remains were surveyed by archaeologists in 2007 and 2008.
+
+🎁 Bonus: In the 19th century the fortress gave stone for the building of the National Theatre. A house that once hosted an emperor's negotiators ended up, in a small way, holding up the Czech stage.`,
+      cz: `V rohu dubečské Panské zahrady stojí prostá barokní sýpka s taškovou valbovou střechou, poslední budova, která zbyla ze dvora, jemuž sloužila. Za ní kus opěráky podepřené zdi a vysoké nároží s oknem, to je to, co zbylo z tvrze, kde se v roce 1608 dva habsburští bratři handrkovali o říši.
+
+První tvrz tu kolem roku 1350 postavil staroměstský patricij Meinl Dubec a kolem roku 1400 ji Dubečtí nahradili gotickou tvrzí s vodním příkopem u Říčanského potoka. V 16. století ji Zápští ze Záp přestavěli renesančně. Pak přišel její velký týden: od 11. do 15. června 1608 tu jednali vyslanci císaře Rudolfa II. a jeho bratra arcivévody Matyáše za účasti půlky české šlechty a dohoda, kterou uzavřeli a ještě téhož měsíce podepsali v Libni, rozdělila habsburské země mezi oba bratry.
+
+Odtud už to šlo jen z kopce. Její pán Adam Zápský se přidal ke stavovskému povstání, přišel o majetek a v roce 1626 byl popraven za vraždu císařského rady. Karel z Lichtenštejna koupil Dubeč už v roce 1623 a připojil ji k Uhříněvsi, na tvrzi už nikdo nebydlel a v roce 1681 ji Bohuslav Balbín znal jen jako opuštěný hrad. Dvůr si vedle zřícenin postavil sýpku, nejspíš v 18. století a určitě před rokem 1841; dnes je kulturní památkou, zatímco zbytky tvrze v letech 2007 a 2008 prozkoumali archeologové.
+
+🎁 Bonus: V 19. století dala tvrz kámen na stavbu Národního divadla. Dům, kde kdysi jednali císařovi vyslanci, tak skončil tím, že trochu podpírá českou scénu.`,
+      zh: `杜贝奇领主花园的一角，立着一座朴素的巴洛克粮仓，铺瓦的四坡屋顶，是它所属的那座农庄唯一留下的建筑。粮仓后面，一段带扶壁的墙和一个开着窗洞的高高墙角，就是那座要塞剩下的全部。1608年，两个哈布斯堡兄弟曾在这里讨价还价，争的是一个帝国。
+
+1350年前后，布拉格老城的一位贵族梅因尔·杜贝茨在这里建了第一座要塞；1400年前后，杜贝茨基家族在日查尼溪边换上了一座带护城河的哥特式要塞。16世纪，扎普斯基家族又把它改建成文艺复兴风格。接着就是它最风光的一周：1608年6月11日到15日，皇帝鲁道夫二世和他的弟弟马蒂亚斯大公的使节在这里谈判，半个波希米亚贵族圈都到了场。他们谈成的协议同月在利本签字，把哈布斯堡的领地分给了兄弟二人。
+
+从那以后就一路下坡。要塞的主人亚当·扎普斯基站到了波希米亚起义一边，丢了家产，1626年又因谋杀一名帝国顾问被处决。卡雷尔·列支敦士登早在1623年就买下杜贝奇，并入乌赫日涅维斯，要塞从此再没人住；到1681年，作家博胡斯拉夫·巴尔宾笔下它只是一座废弃的城堡。农庄在废墟旁盖起了这座粮仓，大概是18世纪，肯定早于1841年；如今它是受保护的文物，要塞遗迹则在2007和2008年由考古学家做了勘察。
+
+🎁 彩蛋：19世纪，这座要塞的石头被捐去建造国家剧院。一座曾经招待过皇帝使节的房子，最后以一种小小的方式，撑起了捷克的舞台。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call, at the user's coordinates ("Přírodní park
+    // Lítožnice" in the user's note; it is the nature monument Lítožnice inside
+    // Přírodní park Říčanka). Facts from cs.wikipedia "Lítožnice (přírodní
+    // památka)" and "Přírodní park Říčanka": declared 1 Sep 1988, about 28–29 ha,
+    // ponds Nový, Myslivecký and V Mýtě (1950s), a vanished village with St
+    // Gotthard's church and a tvrz from c. 1351, tvrz abandoned 1506, a pheasantry
+    // in the 19th century, marsh harrier, kingfisher, scarce swallowtail, purple
+    // emperor; popular with anglers, rarely visited by tourists.
+    name: 'Lítožnice',
+    slug: 'litoznice',
+    localizedNames: { cz: 'Přírodní památka Lítožnice', zh: '利托日尼采自然保护地' },
+    labels: ['nature', 'waterbody', 'hidden-gem'],
+    district: 'Praha 15',
+    quarter: 'Dubeč',
+    coordinates: { lat: 50.071814055730485, lng: 14.608889380408447 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/L%C3%ADto%C5%BEnice_(p%C5%99%C3%ADrodn%C3%AD_pam%C3%A1tka)',
+    description: {
+      en: `Lítožnice is a string of reedy ponds and oak woods between Dubeč and Běchovice, on the far eastern edge of Prague, where the Říčanský potok slows down long enough for herons, harriers and anglers. It is a protected nature monument, popular with fishermen and almost unknown to everyone else.
+
+Under the meadows lies a village. Lítožnice had a church of St Gotthard and a small fortress from about 1351, but the fortress was abandoned in 1506 and the village soon followed it; all that is left is a wall corner and a cellar. In the 19th century the land became a pheasantry, and in the 1950s the old pond was rebuilt and three new ones dug: Nový, Myslivecký and V Mýtě. That was good for the ducks and bad for the old floodplain meadow.
+
+The site was declared a nature monument on 1 September 1988 and covers about 28 hectares, part of the larger Říčanka nature park. The reeds hold marsh harriers, great crested grebes, kingfishers, great reed warblers and penduline tits, the woods goshawks, and on a warm day you might see a scarce swallowtail or a purple emperor. The meadows are mown twice a year, the reed beds cut in turns, and the ponds stocked with tench, pike-perch and pike.
+
+🎁 Bonus: The nearest bus stop is about a kilometre and a half away, along a busy road, and no marked trail runs through. In a city of over a million people, that is what it takes to keep a kingfisher's address quiet.`,
+      cz: `Lítožnice je řada rákosím zarostlých rybníků a doubrav mezi Dubčí a Běchovicemi, na samém východním okraji Prahy, kde Říčanský potok zpomalí natolik, aby tu měly místo volavky, motáci a rybáři. Je to přírodní památka, oblíbená mezi rybáři a skoro neznámá všem ostatním.
+
+Pod loukami leží vesnice. Lítožnice měla kostel svatého Gotharda a malou tvrz už kolem roku 1351, jenže tvrz byla v roce 1506 opuštěna a vesnice ji brzy následovala; zbylo jen nároží zdi a sklep. V 19. století tu byla bažantnice a v padesátých letech 20. století se starý rybník obnovil a vykopaly se tři nové: Nový, Myslivecký a V Mýtě. Kachnám to prospělo, staré nivní louce ne.
+
+Přírodní památkou je místo od 1. září 1988, má zhruba 28 hektarů a patří do většího přírodního parku Říčanka. V rákosí hnízdí moták pochop, potápka roháč, ledňáček, rákosník velký a moudivláček, v lese jestřáb a za teplého dne tu můžete potkat otakárka ovocného nebo batolce duhového. Louky se kosí dvakrát do roka, rákosiny se sečou postupně a do rybníků se nasazuje lín, candát a štika.
+
+🎁 Bonus: Nejbližší zastávka autobusu je zhruba půldruhého kilometru daleko, podél rušné silnice, a neprochází tudy žádná značená cesta. Ve městě s víc než milionem obyvatel je to přesně to, co je potřeba, aby ledňáček měl klid.`,
+      zh: `利托日尼采是杜贝奇和贝霍维采之间的一串芦苇丛生的池塘和橡树林，在布拉格最东边的边缘。日查尼溪在这里放慢脚步，慢到足够让苍鹭、鹞和钓鱼的人都找到位置。这里是受保护的自然遗迹，钓鱼的人很喜欢，其他人几乎没听说过。
+
+草地底下埋着一个村子。大约1351年起，利托日尼采就有一座圣哥达教堂和一座小要塞，可要塞在1506年被废弃，村子不久也跟着消失了，只剩下一个墙角和一个地窖。19世纪这里成了养野鸡的猎苑；20世纪50年代，老池塘被重建，又挖了三个新的：新塘、猎人塘和"林间空地"塘。这对野鸭是好事，对原来的河漫滩草地就不是了。
+
+1988年9月1日，这里被列为自然遗迹，面积约28公顷，属于更大的日查尼卡自然公园。芦苇丛里住着白头鹞、凤头䴙䴘、翠鸟、大苇莺和攀雀，林子里有苍鹰；天气暖和的时候，还可能碰到旖凤蝶或紫闪蛱蝶。草地一年割两次，芦苇轮流割，池塘里放养丁鱥、梭鲈和白斑狗鱼。
+
+🎁 彩蛋：最近的公交站大约在一公里半之外，还得沿着一条车流不断的公路走，也没有任何标记步道穿过这里。在一座一百多万人的城市里，想让翠鸟的住址保持安静，就得靠这个。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Barrandov pack, at the user's
+    // coordinates. Facts from Wikimedia Commons "Pegas (Michal Gabriel)" and
+    // artatsite: "Pegas – symbol krátkého filmu", 1988 (Commons also lists 1992),
+    // bronze on concrete, about 4 x 4 m, on Wassermannova in front of the library;
+    // the estate's other 1980s works from finep.cz; Gabriel's bio from
+    // cs.wikipedia (b. 1960, AVU 1980–87, Tvrdohlaví 1987, Chalupecký Prize 1995).
+    name: 'Pegasus (Barrandov)',
+    slug: 'pegas-barrandov',
+    localizedNames: { cz: 'Pegas (Barrandov)', zh: '巴兰多夫飞马' },
+    labels: ['sculpture', 'communism'],
+    district: 'Praha 5',
+    quarter: 'Hlubočepy',
+    coordinates: { lat: 50.02865539905327, lng: 14.368377733005246 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `In front of the library on Wassermannova, a bronze winged horse about four metres long and four metres tall rears up over the pavements of the Barrandov estate. Its full title is Pegasus, Symbol of the Short Film, and it is by Michal Gabriel, one of the best-known Czech sculptors of his generation.
+
+The Barrandov estate went up between 1981 and 1992 on the plateau above the film studios, and the film theme ran through it: its streets and squares were named after actors and directors, and in the late 1980s it was given a set of sculptures about cinema. Karel Nepraš made a Cameraman, Karel Bečvář a seven-metre Obelisk of Movement, Vladimír Preclík a Chaplin for silent film, and the short film got its Pegasus, dated 1988.
+
+Gabriel, born in Prague in 1960, had only just finished at the Academy of Fine Arts, where he studied from 1980 to 1987, and that same year he co-founded the Tvrdohlaví, the Stubborn Ones, the group of young artists who shook up Czech art around the fall of communism. He went on to win the Jindřich Chalupecký Prize in 1995 and to fill Prague with animals, among them the wading horses in Dejvice.
+
+🎁 Bonus: In the myth, Pegasus struck a mountainside with his hoof and opened the Hippocrene, the spring that gives poets their inspiration. On Barrandov he stands outside the public library, which is about as close as a housing estate gets.`,
+      cz: `Před knihovnou ve Wassermannově ulici se nad chodníky barrandovského sídliště vzpíná bronzový okřídlený kůň, zhruba čtyři metry dlouhý a čtyři metry vysoký. Celým jménem se jmenuje Pegas – symbol krátkého filmu a jeho autorem je Michal Gabriel, jeden z nejznámějších českých sochařů své generace.
+
+Sídliště Barrandov vyrostlo v letech 1981 až 1992 na planině nad filmovými ateliéry a film se jím táhl celým: ulice a náměstí dostaly jména po hercích a režisérech a koncem osmdesátých let přibyla řada soch o kinematografii. Karel Nepraš udělal Kameramana, Karel Bečvář sedmimetrový Obelisk pohybu, Vladimír Preclík Chaplina pro němý film a krátký film dostal svého Pegase, datovaného rokem 1988.
+
+Gabriel, narozený v Praze v roce 1960, tehdy právě dokončil Akademii výtvarných umění, kde studoval v letech 1980 až 1987, a téhož roku spoluzaložil Tvrdohlavé, skupinu mladých umělců, která kolem pádu komunismu rozčeřila české umění. Později dostal Cenu Jindřicha Chalupeckého za rok 1995 a zaplnil Prahu zvířaty, mimo jiné brodícími se koňmi v Dejvicích.
+
+🎁 Bonus: V mýtu udeřil Pegas kopytem do úbočí hory a otevřel Hippokrénu, pramen, z něhož básníci čerpají inspiraci. Na Barrandově stojí před místní knihovnou, což je asi to nejbližší, co sídliště může nabídnout.`,
+      zh: `瓦瑟曼诺瓦街的图书馆门前，一匹青铜飞马在巴兰多夫住宅区的人行道上扬起前蹄，长约四米、高约四米。它的全名叫《飞马：短片的象征》，作者是米哈尔·加布里埃尔，他那一代最有名的捷克雕塑家之一。
+
+巴兰多夫住宅区在1981年到1992年间建在电影制片厂上方的台地上，电影的主题贯穿了整个小区：街道和广场都以演员和导演命名，到了1980年代末，这里又添了一批关于电影的雕塑。卡雷尔·内普拉什做了一位《摄影师》，卡雷尔·贝赫瓦日做了七米高的《运动方尖碑》，弗拉迪米尔·普雷茨利克为默片做了卓别林，短片则分到了这匹飞马，年份标的是1988年。
+
+加布里埃尔1960年生于布拉格，当时刚从美术学院毕业，他在那里从1980年读到1987年；同一年，他参与创办了"倔强派"，这群年轻艺术家在共产主义垮台前后搅动了捷克艺术界。后来他拿了1995年的金德里赫·哈卢佩茨基奖，又在布拉格各处放了不少动物，其中就有代维采那几匹蹚水的马。
+
+🎁 彩蛋：神话里，飞马用蹄子踢开山坡，涌出了希波克里尼泉，诗人们的灵感就从那里来。在巴兰多夫，它站在社区图书馆门口，这大概是一个住宅区能找到的最接近的地方了。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Barrandov pack, at the user's
+    // coordinates. Facts from finep.cz (Water Cascade with a Water Screen, 2015:
+    // mill wheel, sluice, cascades, a frame first meant for projections, now with
+    // water jets) and archiweb (Praha 5 preparing to renovate Trnkovo, Chaplinovo
+    // and Tilleho squares). The estate's streets are named after film people (a
+    // Barrandov guide); no source states the square's namesake outright, but it
+    // fits Jiří Trnka, as the user also assumed.
+    name: 'Trnkovo náměstí',
+    slug: 'trnkovo-namesti',
+    localizedNames: { cz: 'Trnkovo náměstí', zh: '特伦卡广场' },
+    labels: ['square', 'communism'],
+    district: 'Praha 5',
+    quarter: 'Hlubočepy',
+    coordinates: { lat: 50.03034721932786, lng: 14.368298688625625 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Trnkovo náměstí is one of the squares at the heart of the Barrandov estate, a paved space among the panel blocks with shops, a bar and, since 2015, a water cascade where children work a mill wheel and a sluice gate. It carries, like the estate's other streets, the name of a film-maker.
+
+The estate was built from 1981 to 1992 above the Barrandov studios, and its street names read like the credits of Czech cinema. This square most likely honours Jiří Trnka (1912–1969), the puppeteer and animator who turned Czech puppet film into an art known around the world, with The Old Czech Legends, A Midsummer Night's Dream and, in 1965, The Hand, a short film about an artist and the power that wants to direct him.
+
+The square's cascade, finished in 2015, ends in a tall metal frame that was originally meant as a screen for projections; today water jets play in it instead. Praha 5 is preparing to renovate Trnkovo, Chaplinovo and Tilleho náměstí with more greenery and new pavements, though the land belongs to the city, which slows things down.
+
+🎁 Bonus: A square named after a film-maker was given its own screen, and what it ended up showing was water. Trnka, who could make a puppet weep with a tilt of its head, would probably have found something to do with it.`,
+      cz: `Trnkovo náměstí je jedním z náměstí v srdci barrandovského sídliště, vydlážděný prostor mezi paneláky s obchody, barem a od roku 2015 i s vodní kaskádou, kde si děti otáčejí mlýnským kolem a ovládají stavidlo. Jako ostatní zdejší ulice nese jméno filmaře.
+
+Sídliště se stavělo v letech 1981 až 1992 nad barrandovskými ateliéry a jeho uliční názvy se čtou jako titulky českého filmu. Toto náměstí nejspíš připomíná Jiřího Trnku (1912–1969), loutkaře a animátora, který z českého loutkového filmu udělal umění známé po celém světě, se Starými pověstmi českými, Snem noci svatojánské a v roce 1965 s Rukou, krátkým filmem o umělci a moci, která ho chce řídit.
+
+Kaskáda dokončená v roce 2015 končí vysokým kovovým rámem, který měl původně sloužit jako plátno pro projekce; dnes v něm místo toho hrají vodní trysky. Praha 5 chystá obnovu Trnkova, Chaplinova a Tilleho náměstí s větším množstvím zeleně a novými chodníky, jenže pozemky patří hlavnímu městu, a to věci zpomaluje.
+
+🎁 Bonus: Náměstí pojmenované po filmaři dostalo vlastní plátno a nakonec se na něm promítá voda. Trnka, který dokázal rozplakat loutku pouhým naklopením hlavy, by si s ním nejspíš věděl rady.`,
+      zh: `特伦卡广场是巴兰多夫住宅区中心的几座广场之一，板楼之间一片铺了石砖的空地，有商店、一家酒吧；2015年起还多了一道叠水，孩子们可以在那里转水车、开闸门。和小区里其他街道一样，它也用一位电影人的名字命名。
+
+住宅区在1981年到1992年间建在巴兰多夫制片厂上方，街道名念起来就像捷克电影的片尾字幕。这座广场纪念的多半是伊日·特伦卡（1912–1969），这位木偶师和动画家把捷克木偶片变成了享誉世界的艺术，作品有《捷克古老传说》《仲夏夜之梦》，还有1965年的《手》，一部讲艺术家和想要指挥他的权力的短片。
+
+2015年完工的叠水尽头立着一个高高的金属框，原本是打算当投影幕用的，如今在里面表演的是喷泉。布拉格5区正准备翻修特伦卡、卓别林和蒂勒三座广场，增加绿地、重铺步道，不过地皮归市政府所有，事情因此慢了下来。
+
+🎁 彩蛋：一座以电影人命名的广场有了自己的银幕，最后放映的却是水。能让木偶只歪一歪头就哭出来的特伦卡，大概会想出点别的用法。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Podolí pack, at the user's
+    // coordinates. Facts from cs.wikipedia "Veslařský ostrov", "Podolský přístav"
+    // and "Pražské primátorky": sand left by ice jams at the narrowing by the
+    // Yellow Baths, first mentioned 1420, a Schwarzenberg raft harbour and timber
+    // store, lengthened by sinking a cargo ship (no date), rowing boathouses, the
+    // Primátorky start at the southern tip (eights since 1910, Dukla winning the
+    // men's eights every year since 1979, the 100th race moved by the 2013 flood
+    // to September), an intake for the Podolí waterworks, a 1929 advert.
+    name: 'Rowing Island',
+    slug: 'veslarsky-ostrov',
+    localizedNames: { cz: 'Veslařský ostrov', zh: '赛艇岛' },
+    labels: ['nature'],
+    district: 'Praha 4',
+    quarter: 'Podolí',
+    coordinates: { lat: 50.05198808650477, lng: 14.414918140335555 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Vesla%C5%99sk%C3%BD_ostrov',
+    description: {
+      en: `Rowing Island is a long, leafy strip of land off the Podolí bank, joined to it by a small bridge and lined with boathouses, slipways and racks of long thin boats. Its name tells you what happens here, and on a summer evening the river around it fills with eights, singles and coaches shouting through megaphones.
+
+It is mostly sand. Where the Vltava narrows by the Yellow Baths, ice used to jam in hard winters, and the river dropped what it was carrying behind it. The island is first mentioned in 1420. The Schwarzenbergs, who floated timber down from their Šumava forests, used it as a small raft harbour and wood store, and at some point someone sank a cargo ship off its end so that the silt would build it out faster. In 1929 an advert invited Praguers to a bathing and sports ground on the island, opposite the cement works.
+
+The rowers came with the clubs of the late 19th century, the Český yacht klub among them, founded in 1893 and one of the oldest rowing clubs in Central Europe. Every year the Primátorky, Prague's great rowing race, starts at the island's southern tip; its eights have raced since 1910, over two kilometres down to Výtoň, and Dukla Praha has won the men's race every year since 1979. In 2013 the flood moved the 100th race from June to September. The island also has an intake for the Podolí waterworks across the road.
+
+🎁 Bonus: Part of the island is built on a shipwreck, sunk on purpose so the river would bury it in sand. Few sports grounds can say they stand on a boat, and fewer still belong to rowers.`,
+      cz: `Veslařský ostrov je dlouhý zelený pruh země u podolského břehu, spojený s ním malým mostem a lemovaný loděnicemi, skluzy a stojany s dlouhými úzkými loděmi. Jméno napovídá, co se tu děje, a za letních večerů se řeka kolem něj plní osmiveslicemi, skify a trenéry, kteří křičí do megafonů.
+
+Je to hlavně písek. Kde se Vltava u Žlutých lázní zužuje, v tuhých zimách se tu zasekávaly ledy a řeka za nimi ukládala, co nesla. Ostrov se poprvé připomíná v roce 1420. Schwarzenberkové, kteří plavili dříví ze svých šumavských lesů, tu měli malý vorový přístav a sklad dřeva a kdosi v nějaké době potopil u jeho konce nákladní loď, aby se naplavenina rychleji prodlužovala. V roce 1929 zvala reklama Pražany na koupaliště a sportovní hřiště na ostrově, naproti cementárně.
+
+Veslaři přišli s kluby konce 19. století, mezi nimi Český yacht klub, založený v roce 1893 a jeden z nejstarších veslařských klubů ve střední Evropě. Každý rok startují od jižní špičky ostrova Primátorky, velký pražský veslařský závod; osmiveslice se jedou od roku 1910 na dvou kilometrech až na Výtoň a Dukla Praha vyhrává mužský závod každý rok od roku 1979. V roce 2013 posunula povodeň stý ročník z června na září. Na ostrově je také odběr vody pro podolskou vodárnu přes silnici.
+
+🎁 Bonus: Kus ostrova stojí na vraku lodi, potopené schválně, aby ji řeka zasypala pískem. Málokteré sportoviště může říct, že stojí na lodi, a ještě méně jich patří veslařům.`,
+      zh: `赛艇岛是波多利河岸外一条长长的、绿树成荫的陆地，靠一座小桥和岸边相连，岛上排满了船库、下水坡道和一架架细长的赛艇。名字已经说明了这里是干什么的：夏天傍晚，岛周围的河面上全是八人艇、单人艇，还有拿着扩音喇叭喊话的教练。
+
+它大部分是沙子。伏尔塔瓦河在黄色浴场附近变窄，严冬时冰块会在这里卡住，河水就把带来的泥沙卸在冰后面。这座岛最早见于1420年的记载。施瓦岑贝格家族从他们舒马瓦的森林里顺流放木排，在这里设了一个小木排港和木料场；后来不知什么时候，还有人在岛尾故意沉了一艘货船，好让泥沙堆积得更快。1929年有一则广告，邀请布拉格人来岛上的浴场和运动场，地址是"水泥厂对面"。
+
+赛艇手是跟着19世纪末的俱乐部来的，其中包括1893年成立的捷克游艇俱乐部，中欧最古老的赛艇俱乐部之一。每年布拉格最重要的赛艇比赛"市长杯"都从岛的南端出发；八人艇从1910年就开始比，两公里一路划到维通，而杜克拉布拉格队从1979年起年年拿下男子组冠军。2013年的洪水把第100届比赛从6月推到了9月。岛上还有一个取水口，给马路对面的波多利水厂供水。
+
+🎁 彩蛋：岛的一部分就建在一艘沉船上，那艘船是故意沉下去、好让河水用沙子把它埋起来的。能说自己站在一条船上的运动场不多，属于赛艇手的就更少了。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Podolí pack, at the user's
+    // coordinates by the Vyšehrad tunnel. Scenery, walking, cycling and the moored
+    // boats from the user; facts from cs.wikipedia "Podolské nábřeží" and
+    // "Podolí (Praha)" (tunnel 1905, the name since 1935 replacing Podolská street
+    // as the main road; renames of the stretch beyond the tunnel) and ÚSTR's list
+    // of the victims of the 1968 occupation (Karel Paříšek, b. 6 Aug 1953, and
+    // Karel Němec, b. 7 Nov 1952, apprentices, shot on 24 Aug 1968 near the
+    // waterworks when a Soviet patrol fired a light machine gun at the lorry they
+    // rode in; the driver badly wounded). The plaque is on no. 14.
+    name: 'Podolí Embankment',
+    slug: 'podolske-nabrezi',
+    localizedNames: { cz: 'Podolské nábřeží', zh: '波多利河堤' },
+    labels: ['street', 'communism'],
+    district: 'Praha 4',
+    quarter: 'Podolí',
+    coordinates: { lat: 50.06053675769143, lng: 14.418888617022926 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Podolsk%C3%A9_n%C3%A1b%C5%99e%C5%BE%C3%AD',
+    description: {
+      en: `Come out of the Vyšehrad tunnel heading south and the city suddenly opens up: the Podolí Embankment runs along the Vltava with the river on one side, Vyšehrad's rock behind you and a long row of moored boats and houseboats bobbing at the water's edge. It is one of the best stretches in Prague for a walk or a bike ride, all the way down to the Yellow Baths.
+
+The tunnel through the rock was finished in 1905, and the embankment road has carried the name Podolské nábřeží since 1935, when it took over from the old Podolská street as the main way south. Along it stand the waterworks, the maternity hospital and the boathouses of Rowing Island, with trams running beside the river.
+
+On the house at number 14, by the waterworks, a plaque with two young faces recalls 24 August 1968, the fourth day of the Soviet-led occupation. Karel Paříšek and Karel Němec, two fifteen-year-old apprentices, were riding in a lorry along the embankment when a Soviet patrol opened fire on it with a light machine gun. Karel Paříšek was hit in the head and Karel Němec in the chest; both died, and the driver was badly wounded. They are among the victims of the occupation listed by the Institute for the Study of Totalitarian Regimes.
+
+🎁 Bonus: The road beyond the tunnel changed its name five times between 1906 and 1951: Libuše, Rašín, a collaborationist journalist of the Nazi occupation, Rašín again and finally Karl Marx. The Podolí stretch has kept its plain name since 1935, and it is the two names on its plaque that people stop for.`,
+      cz: `Když vyjedete z Vyšehradského tunelu směrem na jih, město se najednou otevře: Podolské nábřeží běží podél Vltavy s řekou po jedné straně, vyšehradskou skálou za zády a dlouhou řadou kotvících lodí a hausbótů, které se pohupují u břehu. Je to jeden z nejhezčích úseků v Praze na procházku nebo na kolo, až dolů ke Žlutým lázním.
+
+Tunel skrz skálu byl dokončen v roce 1905 a nábřežní silnice nese jméno Podolské nábřeží od roku 1935, kdy převzala od staré Podolské ulice roli hlavní cesty na jih. Stojí podél ní vodárna, porodnice a loděnice Veslařského ostrova a vedle řeky jezdí tramvaje.
+
+Na domě číslo 14 u vodárny připomíná deska se dvěma mladými tvářemi 24. srpen 1968, čtvrtý den okupace vojsky Varšavské smlouvy. Karel Paříšek a Karel Němec, dva patnáctiletí učni, jeli nákladním autem po nábřeží, když na ně sovětská hlídka spustila palbu z lehkého kulometu. Karla Paříška zasáhla střela do hlavy, Karla Němce do hrudi; oba zemřeli a řidič byl těžce zraněn. Patří mezi oběti okupace, které eviduje Ústav pro studium totalitních režimů.
+
+🎁 Bonus: Silnice za tunelem v letech 1906 až 1951 pětkrát změnila jméno: Libuše, Rašín, kolaborantský novinář z doby protektorátu, znovu Rašín a nakonec Karel Marx. Podolský úsek si své prosté jméno drží od roku 1935 a lidé se tu zastavují kvůli dvěma jménům na jeho desce.`,
+      zh: `从维谢赫拉德隧道往南开出来，城市一下子豁然开朗：波多利河堤沿着伏尔塔瓦河延伸，一边是河，身后是维谢赫拉德的岩壁，岸边停着长长一排游艇和船屋，在水上轻轻晃。这是布拉格散步、骑车最好的路段之一，可以一直走到黄色浴场。
+
+穿山的隧道在1905年完工；1935年，这条沿河的路取代了老波多利街，成为往南的主干道，从那时起就叫波多利河堤。路边依次是水厂、妇产医院和赛艇岛的船库，有轨电车贴着河边跑。
+
+水厂旁边14号楼的墙上，有一块刻着两张年轻面孔的纪念牌，纪念的是1968年8月24日，苏联领导的占领开始后的第四天。两个十五岁的学徒卡雷尔·帕日舍克和卡雷尔·涅梅茨，坐着一辆卡车沿河堤行驶，一支苏军巡逻队用轻机枪向卡车开火。帕日舍克头部中弹，涅梅茨胸部中弹，两人都没有活下来，司机也受了重伤。他们的名字列在极权政权研究所整理的占领遇难者名单上。
+
+🎁 彩蛋：隧道另一头的那段路，从1906年到1951年换了五次名字：莉布谢、拉辛、一个替纳粹占领者效力的记者、又是拉辛，最后是卡尔·马克思。波多利这一段从1935年起就一直叫这个朴素的名字，让人停下脚步的，是牌子上的那两个名字。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Zbraslav pack, at the user's
+    // coordinates. Facts from cs.wikipedia "Storchova vila" and the user's excerpt
+    // of it: a villa from 1892–93 rebuilt and enlarged for the law professor
+    // František Storch in 1907–08 by Karel Hugo Kepka (historicism with Art Nouveau
+    // touches), later called Suchánkova vila; storm 2012, Sosny Zbraslav and
+    // Alexey Antropov's visa trouble, NPÚ suspecting deliberate damage, the owner's
+    // manager blaming metal thieves, Pražský deník December 2013; listed
+    // 20 August 2014; offered for sale 2019, a new owner by 2022, Koncern Design
+    // Studio based there in 2026.
+    name: 'Storch Villa',
+    slug: 'storchova-vila',
+    localizedNames: { cz: 'Storchova vila', zh: '施托赫别墅' },
+    labels: ['villa', 'historicism'],
+    district: 'Praha 16',
+    quarter: 'Zbraslav',
+    coordinates: { lat: 49.97664832232756, lng: 14.391947504868893 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Storchova_vila',
+    description: {
+      en: `On the lower slope of Havlín hill, looking across at Zbraslav Château, stands a villa with mansard roofs, a stair tower with a pointed roof and a terraced garden with cellars dug into the hill. It was built for a professor of criminal law, and for a while it looked like the scene of a crime.
+
+A villa stood here from 1892, and in 1907–08 the architect Karel Hugo Kepka rebuilt and enlarged it for František Storch, who taught criminal law at the Czech university in Prague and had been its rector in 1904–05. Kepka gave it the historicist look of a small château with a few Art Nouveau touches. After 1926 it passed to new owners and was also known as the Suchánek villa.
+
+Its bad years began in the 2010s. The owner, a company whose proprietor lived in Moscow, could not get residence visas for his family, so the move never happened, the renovation stopped, and after a storm damaged the roof in autumn 2012 the house fell apart fast. Gutters, downpipes and roof tiles round the dormers disappeared; the heritage office thought the damage looked deliberate, while the company's manager blamed repeated raids by metal thieves. The heritage office was alerted in 2012, the villa was listed as a cultural monument on 20 August 2014, it was offered for sale in 2019, and by 2026 a design studio had moved in.
+
+🎁 Bonus: In December 2013 a newspaper reported that the villa no longer attracted even shady characters, because there was nothing left to steal. For a professor of criminal law's house, that was at least a closed case.`,
+      cz: `Na úpatí Havlína, s výhledem na zbraslavský zámek, stojí vila s mansardovými střechami, schodišťovou věží se špičatou střechou a terasovou zahradou se sklepy vyhloubenými do svahu. Postavili ji profesorovi trestního práva a nějakou dobu vypadala jako místo činu.
+
+Vila tu stála od roku 1892 a v letech 1907–08 ji architekt Karel Hugo Kepka přestavěl a rozšířil pro Františka Storcha, který přednášel trestní právo na české univerzitě v Praze a v letech 1904–05 byl jejím rektorem. Kepka jí dal historizující podobu malého zámečku s několika secesními prvky. Po roce 1926 přešla na nové majitele a říkalo se jí také Suchánkova vila.
+
+Zlá léta přišla po roce 2010. Majitel, firma, jejíž vlastník žil v Moskvě, nemohl pro rodinu získat pobytová víza, takže stěhování se nekonalo, rekonstrukce se zastavila, a když na podzim 2012 vichřice poškodila střechu, dům se začal rychle rozpadat. Zmizely okapy, svody i krytina kolem vikýřů; podle památkářů to vypadalo spíš na záměrný zásah, podle jednatele firmy za to mohly opakované nájezdy zlodějů kovů. Památkový ústav dostal upozornění v roce 2012, kulturní památkou se vila stala 20. srpna 2014, v roce 2019 byla na prodej a k roku 2026 v ní sídlí designové studio.
+
+🎁 Bonus: V prosinci 2013 psal Pražský deník, že vila už nepřitahuje ani žádná individua, protože z ní není co ukrást. Na dům profesora trestního práva aspoň uzavřený případ.`,
+      zh: `哈夫林山脚下的坡上，隔着路正对兹布拉斯拉夫城堡，立着一座别墅：复折式屋顶、带尖顶的楼梯塔，还有一座层层叠叠的台地花园，地窖一直挖进山坡里。它是为一位刑法教授盖的，有一阵子，它看上去倒像个犯罪现场。
+
+这里从1892年起就有一座别墅。1907到1908年，建筑师卡雷尔·胡戈·克普卡为弗朗蒂舍克·施托赫把它改建、扩建了一番。施托赫在布拉格的捷克大学教刑法，1904到1905年还当过校长。克普卡给它做成了一座历史主义风格的小城堡模样，点缀几处新艺术细节。1926年以后，它换了新主人，也被叫作苏汉内克别墅。
+
+它的倒霉日子从2010年代开始。业主是一家公司，老板住在莫斯科，一直拿不到家人的居留签证，搬家的事就此搁浅，装修也停了。2012年秋天一场暴风雨掀坏了屋顶，房子随后迅速破败下去。檐槽、落水管和老虎窗周围的瓦片纷纷不见；文物部门认为损坏看起来像是有人故意为之，公司经理则怪罪于一拨又一拨偷金属的小偷。2012年文物研究所接到了提醒，2014年8月20日别墅被列为文物，2019年挂牌出售，到2026年已有一家设计工作室在里面办公。
+
+🎁 彩蛋：2013年12月，《布拉格日报》写道，这座别墅连可疑人物都不来了，因为里面已经没什么可偷的了。作为刑法教授的房子，至少也算是结了案。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Zbraslav pack, at the user's
+    // coordinates. Facts from cs.wikipedia "Zbraslavský pivovar" and the Zbraslav
+    // heritage list: brewing at the Cistercian monastery from the 13th century,
+    // Baroque rebuild 1764, enlarged in the 19th century, F-shaped main building
+    // with an older rib-vaulted part, bought with the château by Cyril Bartoň of
+    // Dobenín in 1910 (Jurkovič rebuilt the château for him), closed 1950, its
+    // cooling vessel still in use at U Fleků, listed 1964.
+    name: 'Former Monastery Brewery (Zbraslav)',
+    slug: 'klasterni-pivovar-zbraslav',
+    localizedNames: { cz: 'Bývalý klášterní pivovar Zbraslav', zh: '兹布拉斯拉夫修道院旧啤酒厂' },
+    labels: ['factory', 'baroque'],
+    district: 'Praha 16',
+    quarter: 'Zbraslav',
+    coordinates: { lat: 49.97659099093202, lng: 14.393157449634495 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Zbraslavsk%C3%BD_pivovar',
+    description: {
+      en: `Beside Zbraslav Château stands a long Baroque building with a courtyard wing and a warehouse, where the monks of one of Bohemia's royal monasteries once made their beer. It has not brewed since 1950, but a piece of it is still at work somewhere else in Prague.
+
+The Cistercians whom King Wenceslas II settled here in 1292 were brewing at the monastery soon after it was founded. The brewery was rebuilt in Baroque style in 1764, and its main building, shaped like the letter F, still has an older section with ribbed vaults. When Joseph II dissolved the monastery in 1785, its buildings were handed out to new trades: a sugar refinery, a grain store, a chemical works and the brewery, which carried on under the new owners and was enlarged in the 19th century.
+
+In 1910 the textile industrialist Cyril Bartoň of Dobenín bought the château together with the brewery and had the architect Dušan Jurkovič rebuild the château. The brewery kept going until 1950, two years after the communists took power, when it was closed. The buildings have been a protected monument since 1964.
+
+🎁 Bonus: The brewery's horizontal cooling vessel, an open copper tray where hot wort was left to cool, was taken to the U Fleků brewery in Prague and is still in use there. Zbraslav's monks would be glad to know their kit ended up at the city's most famous pub.`,
+      cz: `Vedle zbraslavského zámku stojí dlouhá barokní budova s dvorním křídlem a skladištěm, kde si kdysi mniši jednoho z českých královských klášterů vařili pivo. Od roku 1950 se tu nevaří, ale kus z ní pořád pracuje jinde v Praze.
+
+Cisterciáci, které tu v roce 1292 usadil král Václav II., začali v klášteře vařit brzy po jeho založení. Pivovar byl barokně přestavěn v roce 1764 a jeho hlavní budova ve tvaru písmene F má dodnes starší část s žebrovými klenbami. Když Josef II. v roce 1785 klášter zrušil, rozdělily se jeho budovy mezi nová řemesla: rafinerii cukru, sýpku, chemičku a pivovar, který pod novými majiteli pokračoval a v 19. století se rozšířil.
+
+V roce 1910 koupil textilní průmyslník Cyril Bartoň z Dobenína zámek i s pivovarem a nechal architekta Dušana Jurkoviče zámek přestavět. Pivovar vařil až do roku 1950, kdy ho dva roky po nástupu komunistů zavřeli. Budovy jsou kulturní památkou od roku 1964.
+
+🎁 Bonus: Ležatý chladicí štok pivovaru, otevřená měděná vana, ve které chladla horká mladina, se dostal do pivovaru U Fleků a dodnes tam slouží. Zbraslavští mniši by asi měli radost, že jejich vybavení skončilo v nejslavnější pražské hospodě.`,
+      zh: `兹布拉斯拉夫城堡旁边，立着一座长长的巴洛克建筑，带一个院子侧翼和一座仓库。波希米亚一座王家修道院的修士们，当年就在这里酿啤酒。1950年以后这里就不再酿酒了，可它的一部分至今还在布拉格别处干活。
+
+1292年，国王瓦茨拉夫二世把熙笃会修士安置在这里，修道院建起来没多久，修士们就开始酿酒了。啤酒厂在1764年改建成巴洛克风格，形状像字母F的主楼至今还保留着一段更古老、带肋拱的部分。1785年约瑟夫二世解散修道院，楼房分给了各种新行当：糖厂、粮仓、化工厂，还有啤酒厂，它换了主人继续经营，19世纪又扩建了一番。
+
+1910年，纺织实业家多贝宁的西里尔·巴尔托尼连城堡带啤酒厂一起买下，请建筑师杜尚·尤尔科维奇改建了城堡。啤酒厂一直开到1950年，也就是共产党掌权两年后，才被关停。1964年起，这些楼房一直是受保护的文物。
+
+🎁 彩蛋：啤酒厂那只卧式冷却槽，一个让滚烫麦汁慢慢冷却的敞口铜槽，后来被搬到了布拉格的"U Fleků"啤酒馆，至今还在用。兹布拉斯拉夫的修士们要是知道自己的家伙什进了全城最有名的酒馆，大概会很高兴。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Zbraslav pack, at the user's
+    // coordinates. Facts from cs.wikipedia "Myslivna na Zbraslavi": a wooden lodge
+    // first mentioned 1564, house no. 2 from 1770, rebuilt in 1794 by the builder
+    // Matěj Ruml (late Baroque / Classicist; inscription "Nro: 2do, RE A. D. 1794"),
+    // used by the Oettingen-Wallersteins for hunts, flats in the 20th century,
+    // restored 2012–2018, listed.
+    name: "Gamekeeper's Lodge (Zbraslav)",
+    slug: 'myslivna-zbraslav',
+    localizedNames: { cz: 'Myslivna Zbraslav', zh: '兹布拉斯拉夫猎人小屋' },
+    labels: ['classicism', 'baroque'],
+    district: 'Praha 16',
+    quarter: 'Zbraslav',
+    coordinates: { lat: 49.977260344162225, lng: 14.394190568661307 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Myslivna_na_Zbraslavi',
+    description: {
+      en: `Near Zbraslav Château stands a neat little late Baroque house with a date on its front: 1794. It is the old gamekeeper's lodge, and it carries the house number 2, which in Zbraslav means it has been here a very long time.
+
+A wooden lodge stood on the spot by 1564, when the monastery still owned the woods around it. When houses were numbered in 1770 it got number 2, right after the parish house. The monastery was dissolved in 1785, and in 1794 the builder Matěj Ruml rebuilt the lodge, between late Baroque and Classicism, and put the inscription "Nro: 2do, RE A. D. 1794" on the façade.
+
+The new lords of Zbraslav, the princes of Oettingen-Wallerstein, used it for their hunts and partly as a small hunting seat. In the 20th century it held flats, and after a thorough restoration between 2012 and 2018 it looks once more like the tidy house a gamekeeper would want his lords to see.
+
+🎁 Bonus: Number 1 in Zbraslav was the parish house and number 2 the gamekeeper. The order was clear: first the souls, then the deer.`,
+      cz: `Kousek od zbraslavského zámku stojí úhledný pozdně barokní domek s letopočtem na průčelí: 1794. Je to stará myslivna a nese číslo popisné 2, což na Zbraslavi znamená, že je tu opravdu hodně dlouho.
+
+Dřevěná myslivna tu stála už v roce 1564, kdy okolní lesy ještě patřily klášteru. Když se v roce 1770 číslovaly domy, dostala číslo 2, hned po faře. Klášter byl v roce 1785 zrušen a v roce 1794 myslivnu stavitel Matěj Ruml přestavěl, na pomezí pozdního baroka a klasicismu, a na průčelí umístil nápis „Nro: 2do, RE A. D. 1794“.
+
+Noví páni Zbraslavi, knížata z Oettingen-Wallersteinu, ji používali při honech a zčásti jako malý lovecký zámeček. Ve 20. století v ní byly byty a po důkladné obnově v letech 2012 až 2018 zase vypadá jako upravený dům, jaký by si myslivec přál ukázat svým pánům.
+
+🎁 Bonus: Číslo 1 měla na Zbraslavi fara a číslo 2 myslivna. Pořadí bylo jasné: nejdřív duše, potom zvěř.`,
+      zh: `兹布拉斯拉夫城堡附近，有一座整整齐齐的晚期巴洛克小房子，正面写着一个年份：1794。这是旧时的猎人小屋，门牌是2号，在兹布拉斯拉夫，这说明它在这里已经待了非常久。
+
+早在1564年，这里就有一座木头小屋，那时周围的林子还归修道院所有。1770年给房子编号时，它拿到了2号，紧跟在教区神父住所后面。1785年修道院被解散，1794年营造商马捷伊·鲁姆尔把小屋重建了一遍，风格介于晚期巴洛克和古典主义之间，还在正面刻上了"Nro: 2do, RE A. D. 1794"的字样。
+
+兹布拉斯拉夫的新主人厄廷根-瓦勒施泰因亲王家族，打猎时就用这座小屋，一部分还当作小小的狩猎行宫。20世纪里它住了人家，2012到2018年彻底修缮之后，又成了一座猎人愿意请主人来看看的利落房子。
+
+🎁 彩蛋：在兹布拉斯拉夫，1号是神父住所，2号是猎人小屋。顺序很清楚：先管灵魂，再管鹿。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Zbraslav pack, at the user's
+    // coordinates. Facts from cs.wikipedia "Vila Planá růže" (built 1899; a 2016
+    // Charles University thesis says 1898; neo-Renaissance with Art Nouveau
+    // murals, a corner tower clad in ceramic tiles, a wrought-iron sign "L. P.
+    // 1899"; listed) and a Praha 16 bulletin (on the right of the Zbraslav
+    // approach to the Peace Race Bridge). The client and the name's origin are
+    // not in the sources, so the text doesn't guess.
+    name: 'Planá růže Villa',
+    slug: 'vila-plana-ruze',
+    localizedNames: { cz: 'Vila Planá růže', zh: '野玫瑰别墅' },
+    labels: ['villa', 'historicism', 'art-nouveau'],
+    district: 'Praha 16',
+    quarter: 'Zbraslav',
+    coordinates: { lat: 49.976145253502416, lng: 14.396208847605067 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Vila_Plan%C3%A1_r%C5%AF%C5%BEe',
+    description: {
+      en: `Just before the road to the Peace Race Bridge leaves Zbraslav, a villa with Renaissance gables, painted Art Nouveau murals and a corner tower clad in coloured ceramic tiles stands on the right. Its name, Planá růže, means wild rose, and it is one of the prettiest houses in a town full of them.
+
+It went up in 1899, the date given on a wrought-iron sign on the house, "L. P. 1899", which stands for léta Páně, the year of Our Lord. Around 1900 Zbraslav, by the confluence of the Vltava and the Berounka, was turning into a summer resort for well-off Praguers, and villas like this one were built for long summers by the river rather than for everyday life. Planá růže mixes the two fashions of the moment: neo-Renaissance in its gables and tower, Art Nouveau in the paintings on its walls.
+
+Who built it, and why it is called after a wild rose, the records don't say. It is a private house and a protected cultural monument, and the best view of it is from the pavement on the way to the river.
+
+🎁 Bonus: Zbraslav has two rose villas, and they are easy to mix up: this wild one from 1899, and the cultivated Vila Růže by the river, built in 1911–13. The wild rose, as is the way with roses, got there first.`,
+      cz: `Těsně předtím, než silnice k Mostu Závodu míru opustí Zbraslav, stojí vpravo vila s renesančními štíty, malovanými secesními freskami a nárožní věží obloženou barevnými keramickými obklady. Jmenuje se Planá růže a patří k nejhezčím domům v městečku, kde hezkých vil není málo.
+
+Postavena byla v roce 1899, jak říká kovaná cedule na domě s nápisem „L. P. 1899“, tedy léta Páně. Kolem roku 1900 se Zbraslav na soutoku Vltavy a Berounky měnila v letovisko zámožných Pražanů a vily jako tahle vznikaly spíš pro dlouhá léta u řeky než pro všední život. Planá růže spojuje dvě tehdejší módy: neorenesanci ve štítech a věži, secesi v malbách na zdech.
+
+Kdo ji postavil a proč nese jméno plané růže, prameny neříkají. Je to soukromý dům a kulturní památka a nejlepší pohled na ni je z chodníku cestou k řece.
+
+🎁 Bonus: Zbraslav má dvě růžové vily a snadno se pletou: tuhle planou z roku 1899 a ušlechtilou Vilu Růže u řeky z let 1911–13. Planá růže, jak už to u růží bývá, byla na místě dřív.`,
+      zh: `去和平赛车桥的路快要出兹布拉斯拉夫时，右手边有一座别墅：文艺复兴式的山墙、彩绘的新艺术壁画，还有一座贴着彩色瓷砖的转角塔楼。它叫"野玫瑰"，在这个漂亮别墅扎堆的小镇里也算最好看的几座之一。
+
+它建于1899年，房子上一块铁艺牌子写着"L. P. 1899"，意思是"主历1899年"。1900年前后，位于伏尔塔瓦河和贝龙卡河交汇处的兹布拉斯拉夫，正变成布拉格有钱人的避暑地，这样的别墅与其说是过日子用的，不如说是为了在河边过一个长长的夏天。野玫瑰别墅把当时两种时髦揉在一起：山墙和塔楼是新文艺复兴，墙上的画是新艺术。
+
+至于是谁盖的、为什么以野玫瑰命名，资料里都没有记载。它是私宅，也是受保护的文物，最好的观赏位置就是去河边路上的人行道。
+
+🎁 彩蛋：兹布拉斯拉夫有两座"玫瑰别墅"，很容易弄混：一座是1899年的这座野玫瑰，另一座是河边1911到1913年建的玫瑰别墅。野玫瑰嘛，向来比园子里的玫瑰来得早。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Kunratice pack, at the user's
+    // coordinates by the park's back gate. Facts from cs.wikipedia "Zámecký park
+    // v Kunraticích", "Lípa u brány zámeckého parku v Kunraticích" and "Kunratice
+    // (zámek)": a Baroque park of about 6 ha, the north part by the chateau closed,
+    // the south part public and used for recreation and events since 1947, tennis
+    // courts from 30 May 1984, replanting 1995–2005 to a design by Šonský, the
+    // walls and gates locked at night, "Divadlo v parku"; the pheasantry between
+    // Poběžovická, Lesní, Za bažantnicí and Za hájovnou; the linden at the back
+    // gate planted c. 1830, girth 3.77 m (2013), 19 m (the tree page says 24 m),
+    // a memorial tree from 2000 (the park page says 1999), no. 24 in the city's
+    // register, its protection lifted on 7 November 2024 for safety. The text
+    // doesn't claim the tree still stands. Maria Theresa's 1754 visit, the 2004
+    // Van Helsing shoot and the 2024 sale from the chateau article.
+    name: 'Kunratice Chateau Park and Pheasantry',
+    slug: 'zamecky-park-kunratice',
+    localizedNames: { cz: 'Zámecký park a bažantnice Kunratice', zh: '昆拉蒂采城堡公园与野鸡林' },
+    labels: ['park', 'baroque'],
+    district: 'Praha 4',
+    quarter: 'Kunratice',
+    coordinates: { lat: 50.0087656893567, lng: 14.48408747633154 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Z%C3%A1meck%C3%BD_park_v_Kunratic%C3%ADch',
+    description: {
+      en: `Behind Kunratice Château lies a walled park of about six hectares, laid out in the Baroque era as part of the château grounds, and beyond it the old pheasantry, now a stretch of woodland among the streets. The gates are locked at night, which gives the place the feel of a garden that still belongs to someone.
+
+It does, in part. The northern half, by the château, is closed to the public; the southern half has been open since 1947, when it became a place for walks, sport and village festivities. Three clay tennis courts opened on 30 May 1984, there is a playground and a wooden gazebo, and every summer the park hosts theatre in the open air. Between 1995 and 2005 the old, failing trees were felled and new ones planted to a design by the architect Šonský, and the walls were repaired last of all.
+
+The château itself has had many owners, from the Šternberks to the Goltz counts, who rebuilt it in the 18th century, and the Korbs of Weidenheim in the 19th. Empress Maria Theresa stopped here in 1754, the National Museum's insect collections later moved in, Hollywood shot scenes for Van Helsing here in 2004, and in January 2024 the state sold it at auction for 106 million crowns. The pheasantry, where the lords once raised birds for their shoots, lies nearby, between Lesní and Za Bažantnicí streets, whose names still remember it.
+
+🎁 Bonus: By the back gate stood a small-leaved linden planted around 1830, 3.77 metres round and declared a memorial tree in 2000, number 24 on the city's list. In November 2024 its protection was lifted for safety. Even a tree that outlived the counts, the museum and the state can't outlive a risk assessment.`,
+      cz: `Za kunratickým zámkem leží zděný park o rozloze asi šesti hektarů, založený v baroku jako součást zámeckého areálu, a za ním stará bažantnice, dnes kus lesa mezi ulicemi. Na noc se brány zamykají, takže místo působí jako zahrada, která pořád někomu patří.
+
+Zčásti patří. Severní polovina u zámku je veřejnosti uzavřená, jižní je otevřená od roku 1947, kdy se stala místem procházek, sportu a obecních slavností. Tři antukové kurty se otevřely 30. května 1984, je tu dětské hřiště a dřevěný altán a každé léto se v parku hraje divadlo pod širým nebem. V letech 1995 až 2005 se staré, odumírající stromy kácely a vysazovaly nové podle návrhu architekta Šonského a jako poslední se opravovaly zdi.
+
+Zámek sám vystřídal mnoho majitelů, od Šternberků přes hrabata z Goltze, kteří ho v 18. století přestavěli, po Korby z Weidenheimu v 19. století. V roce 1754 se tu zastavila císařovna Marie Terezie, později se sem nastěhovaly entomologické sbírky Národního muzea, v roce 2004 tu Hollywood natáčel scény pro Van Helsinga a v lednu 2024 ho stát prodal v dražbě za 106 milionů korun. Bažantnice, kde páni kdysi chovali ptáky pro své hony, leží nedaleko, mezi ulicemi Lesní a Za Bažantnicí, jejichž jména na ni dodnes vzpomínají.
+
+🎁 Bonus: U zadní brány stála lípa srdčitá vysazená kolem roku 1830, s obvodem 3,77 metru, od roku 2000 památný strom, číslo 24 v pražské evidenci. V listopadu 2024 jí ochranu z bezpečnostních důvodů zrušili. Ani strom, který přežil hrabata, muzeum i stát, nepřežije posudek o rizicích.`,
+      zh: `昆拉蒂采城堡后面，有一座围墙环绕、约六公顷的公园，巴洛克时代作为城堡庭园的一部分修建；再往外是旧时的野鸡林，如今是夹在街道之间的一片树林。大门夜里上锁，让这里有种"花园还归某人所有"的感觉。
+
+确实有一半还是。靠近城堡的北半部不对公众开放；南半部从1947年起开放，成了散步、运动和村里办节庆的地方。三块红土网球场在1984年5月30日启用，园里还有游乐场和一座木亭，每年夏天都有露天戏剧演出。1995到2005年间，老化衰败的树被砍掉，按建筑师绍恩斯基的设计种上了新树，最后才修好了围墙。
+
+城堡本身换过许多主人，从施滕贝格家族，到18世纪改建它的戈尔茨伯爵家族，再到19世纪的魏登海姆的科尔布家族。1754年玛丽亚·特蕾西娅女皇在这里停留过，后来国家博物馆的昆虫收藏搬了进来，2004年好莱坞在这里拍了《范海辛》的镜头，2024年1月，国家以1.06亿克朗把它拍卖了出去。领主们当年为打猎养野鸡的那片林子就在附近，莱斯尼街和"野鸡林后街"之间，街名至今还记着它。
+
+🎁 彩蛋：后门旁曾有一棵小叶椴，大约1830年种下，周长3.77米，2000年被定为纪念树，在布拉格的名录里排第24号。2024年11月，出于安全原因，它的保护被取消了。一棵熬过了伯爵、博物馆和国家的树，终究没熬过一份风险评估。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Poříčí pack, at the user's
+    // coordinates. Facts from cs.wikipedia "Petrské náměstí" and "Stínadla":
+    // named in 1894 after the clearance, before that "U sv. Petra"; the Palais
+    // Royal at no. 7 (Karel Janda, 1890–91, mosaic "PALAIS ROYAL"); no. 1 by Otto
+    // Zucker (1938–41, travertine) and no. 2 by Jan Urbach (1937); pedestrian zone
+    // with five planes in the early 21st century; the Petrská quarter and Na
+    // Františku considered inspirations for Foglar's Stínadla, the boys' fights of
+    // about 1880–1950 probably among them (Miloš Dvorský, Mýtus zvaný Stínadla).
+    // The text hedges as the sources do.
+    name: 'Petrské Square',
+    slug: 'petrske-namesti',
+    localizedNames: { cz: 'Petrské náměstí', zh: '彼得广场' },
+    labels: ['square', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.09140179313249, lng: 14.432100102646864 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Petrsk%C3%A9_n%C3%A1m%C4%9Bst%C3%AD',
+    description: {
+      en: `Petrské Square is a small paved square in the old Petrská quarter, with five plane trees, a few benches, St Peter's church and its stocky bell tower. It looks like a quiet corner where nothing much happens, but for generations of Czech readers these streets may be the most famous fictional battleground in the country.
+
+The square is younger than it looks. For centuries the whole neighbourhood was simply "U sv. Petra", at St Peter's, and the square only appeared, and got its name, in 1894, when the old houses here were cleared. Around it went up the buildings of the new century: the neo-Renaissance Palais Royal at number 7 by Karel Janda (1890–91), whose vestibule floor still spells out PALAIS ROYAL in mosaic, and two functionalist houses, number 2 by Jan Urbach (1937) and number 1 by Otto Zucker (1938–41), faced in white travertine. In the early 2000s the car park became a pedestrian square, and the plane trees were planted.
+
+Between about 1880 and 1950 the boys of the Petrská quarter fought running battles with the boys from Na Františku, just across Revoluční, and the tangle of lanes around here, together with Na Františku, is considered one of the models for the Stínadla, the dark, half-legendary quarter of Jaroslav Foglar's novels about the Rychlé šípy club. There the gangs of the Vonts fight over a secret, a hedgehog in a cage, and the boys' wars of the Petrská quarter were probably among the things Foglar had in mind.
+
+🎁 Bonus: The name Stínadla most likely comes from an old place of execution, from "stínati", to behead. Petrské Square today has benches, plane trees and a school round the corner, which is about as far from that as a Prague square can get.`,
+      cz: `Petrské náměstí je malé dlážděné náměstí ve staré Petrské čtvrti, s pěti platany, pár lavičkami, kostelem svatého Petra a jeho zavalitou zvonicí. Vypadá jako tichý kout, kde se nic moc neděje, jenže pro generace českých čtenářů jsou tyhle ulice možná nejslavnějším smyšleným bojištěm v zemi.
+
+Náměstí je mladší, než vypadá. Celé okolí se po staletí jmenovalo prostě „U sv. Petra“ a náměstí vzniklo, i se svým jménem, až v roce 1894, když se tu bouraly staré domy. Kolem něj vyrostly stavby nového století: novorenesanční Palais Royal v čísle 7 od Karla Jandy (1890–91), jehož vestibul má dodnes v mozaice na podlaze nápis PALAIS ROYAL, a dva funkcionalistické domy, číslo 2 od Jana Urbacha (1937) a číslo 1 od Otty Zuckera (1938–41), obložené bílým travertinem. Na počátku 21. století se z parkoviště stala pěší zóna a vysadily se platany.
+
+Zhruba mezi lety 1880 a 1950 svedli kluci z Petrské čtvrti nejednu bitvu s kluky z Františku a zdejší spleť uliček je spolu s Františkem považována za jednu z předloh Stínadel, temné, napůl legendární čtvrti z Foglarových románů o Rychlých šípech. Tam spolu válčí party Vontů o tajemství ježka v kleci a války kluků z Petrské čtvrti byly nejspíš jednou z věcí, na které Foglar myslel.
+
+🎁 Bonus: Jméno Stínadla nejspíš pochází od starého popraviště, od slova „stínati“. Petrské náměstí má dnes lavičky, platany a za rohem školu, což je asi tak daleko od popraviště, jak to pražské náměstí jen jde.`,
+      zh: `彼得广场是老彼得街区里一个铺着石砖的小广场，有五棵悬铃木、几张长椅、圣彼得教堂和它敦实的钟楼。看上去是个没什么事发生的安静角落，可对一代又一代捷克读者来说，这几条街可能是全国最有名的虚构战场。
+
+广场比它看上去年轻。几百年来，这一带就叫"圣彼得旁边"；直到1894年拆掉这里的老房子，才有了这个广场和它的名字。广场周围立起了新世纪的楼：7号是卡雷尔·扬达1890到1891年设计的新文艺复兴式"王宫大楼"，门厅地上的马赛克至今还拼着"PALAIS ROYAL"；还有两座功能主义建筑，2号是扬·乌尔巴赫1937年的作品，1号是奥托·楚克尔1938到1941年的作品，外墙贴着白色石灰华。21世纪初，原来的停车场改成了步行广场，种上了悬铃木。
+
+大约1880到1950年间，彼得街区的男孩和老城那边弗朗蒂舍克街区的男孩没少打群架。这里错综的小巷，连同弗朗蒂舍克街区，被认为是福格拉尔"快箭"系列小说里"斯蒂纳德拉"的原型之一，那是一片阴暗、半带传说色彩的街区，几伙"冯特帮"在那里为一个秘密，也就是笼子里的刺猬，争得不可开交。彼得街区男孩们的战争，大概就是福格拉尔脑子里想着的东西之一。
+
+🎁 彩蛋："斯蒂纳德拉"这个名字很可能来自一处古老的刑场，词根是"斩首"。如今的彼得广场有长椅、悬铃木，拐角还有一所学校，大概是一座布拉格广场离刑场能有的最远距离了。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Poříčí pack and the Metamorphosis
+    // achievement, at the user's coordinates. Facts: Na Poříčí 7, neo-Baroque with a
+    // dome, 1894, Alfons Wertmüller (cs.wikipedia "Na Poříčí"; his own article
+    // marks the attribution with a question mark); Kafka at the institute from
+    // summer 1908 to his retirement on health grounds in 1922 (en/cs.wikipedia
+    // "Franz Kafka"; en says he joined two weeks after leaving Generali on
+    // 15 July 1908), compensation claims, appeals over risk classes, annual
+    // reports, trips to north Bohemian factories, work until 2 p.m., TB in 1917;
+    // now the Century Old Town Prague MGallery hotel, his office room 214 the
+    // Kafka Suite (historichotels.org). The safety-helmet story is left out.
+    name: "Workers' Accident Insurance Institute (Na Poříčí)",
+    slug: 'delnicka-urazova-pojistovna-na-porici',
+    localizedNames: { cz: 'Dělnická úrazová pojišťovna (Na Poříčí)', zh: '工人意外保险局（波日奇街）' },
+    labels: ['historicism', 'cultural'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.08952993075776, lng: 14.431324150331722 },
+    rarity: 'superior',
+    xpReward: 30,
+    description: {
+      en: `At Na Poříčí 7 stands a grand neo-Baroque office palace with a dome, built in 1894 for the Workers' Accident Insurance Institute for the Kingdom of Bohemia. For fourteen years one of its clerks was Franz Kafka, who came in every morning, handled other people's accidents until two in the afternoon, and went home to write some of the strangest books of the 20th century.
+
+Kafka joined the institute in the summer of 1908, after a short and unhappy spell at a private insurer, and rose quickly. He handled compensation claims, wrote reports, and dealt with appeals from factory owners who thought their firms had been put in too high a risk class; for several years he compiled the institute's annual report, which his superiors praised. The work took him to the factories of northern Bohemia, around Liberec and Jablonec, where machines were rarely fitted with guards. Kafka called it his Brotberuf, the job that paid for his bread, and since he finished at two he kept his evenings and nights for writing.
+
+The Metamorphosis, The Judgment and the first chapters of The Trial were all written by this insurance official in his spare time. Tuberculosis was diagnosed in 1917, and in 1922 the institute retired him on grounds of ill health, two years before his death. The institute later moved to a new headquarters on the Holešovice embankment, built in 1926–29. This building is now the Century Old Town hotel, and room 214, which was Kafka's office, is its Kafka Suite.
+
+🎁 Bonus: Kafka spent his days sorting accidents into risk classes and his nights writing about a man who wakes up as an insect. Only one of the two jobs came with a pension.`,
+      cz: `Na Poříčí 7 stojí honosný novobarokní úřední palác s kupolí, postavený v roce 1894 pro Dělnickou úrazovou pojišťovnu pro Království české. Čtrnáct let byl jedním z jejích úředníků Franz Kafka, který sem každé ráno přišel, do dvou odpoledne řešil cizí úrazy a pak šel domů psát jedny z nejpodivnějších knih 20. století.
+
+Kafka do pojišťovny nastoupil v létě 1908, po krátkém a nešťastném působení u soukromé pojišťovny, a rychle stoupal. Vyřizoval nároky na odškodnění, psal zprávy a zabýval se odvoláními továrníků, kterým se zdálo, že jejich podniky dostaly příliš vysokou třídu nebezpečí; několik let sestavoval výroční zprávu ústavu, kterou nadřízení chválili. Práce ho zavedla do továren severních Čech, kolem Liberce a Jablonce, kde stroje jen málokdy měly ochranné kryty. Kafka tomu říkal Brotberuf, zaměstnání na chleba, a protože končil ve dvě, nechával si večery a noci na psaní.
+
+Proměnu, Ortel i první kapitoly Procesu napsal tenhle pojišťovací úředník ve volném čase. V roce 1917 mu zjistili tuberkulózu a v roce 1922, dva roky před jeho smrtí, ho pojišťovna ze zdravotních důvodů penzionovala. Pojišťovna se později přestěhovala do nového sídla na holešovickém nábřeží, postaveného v letech 1926–29. V téhle budově je dnes hotel Century Old Town a pokoj 214, kde měl Kafka kancelář, je jeho Kafkovým apartmá.
+
+🎁 Bonus: Kafka ve dne třídil úrazy do tříd nebezpečí a v noci psal o muži, který se probudí jako hmyz. Penzi nakonec dostal jen za jedno z těch dvou zaměstnání.`,
+      zh: `Na Poříčí街7号立着一座气派的新巴洛克式办公宫殿，顶上有圆顶，1894年为"波希米亚王国工人意外保险局"而建。这里的职员里，有一位干了十四年的弗朗茨·卡夫卡：每天早上来上班，处理别人的工伤事故到下午两点，然后回家写出20世纪最古怪的几本书。
+
+卡夫卡在1908年夏天进了保险局，此前他在一家私营保险公司干得短暂又不开心。在这里他升得很快：处理赔偿申请，写报告，应付那些觉得自己工厂被划进了太高风险等级的厂主的申诉；好几年里，局里的年度报告都是他编的，上司们赞不绝口。工作带他跑遍了北波希米亚利贝雷茨和亚布洛内茨一带的工厂，那里的机器很少装防护罩。卡夫卡管它叫"面包职业"，也就是混饭吃的差事；他下午两点就下班，傍晚和夜里都留给了写作。
+
+《变形记》《判决》和《审判》的头几章，都是这位保险局职员在业余时间写的。1917年他被诊断出肺结核，1922年保险局以健康原因让他提前退休，两年后他去世。保险局后来搬进了霍莱绍维采河堤上1926到1929年新建的总部。如今这栋楼是Century Old Town酒店，当年卡夫卡的办公室214号房，成了酒店的卡夫卡套房。
+
+🎁 彩蛋：卡夫卡白天把事故分门别类划进风险等级，晚上写一个醒来变成虫子的人。两份工作里，只有一份给他发了退休金。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Poříčí pack, at the user's
+    // coordinates. Facts from aktualne.cz, Seznam Zprávy, Český rozhlas and
+    // Médium.cz: on 9 October 1928 the nearly finished seven-storey department
+    // store of the Jakesch firm at the corner of Na Poříčí and Biskupská collapsed,
+    // 46 dead (some accounts up to 60) and about 30 injured; officially the corner
+    // pillars were overloaded, unofficially poor cement was blamed; miners from
+    // Kladno joined the rescue; families identified the dead by their clothes;
+    // the site was built up again (Hotel Centrum, now Hotel Harmony; cs.wikipedia
+    // "Na Poříčí"). The time of day differs between sources and is left out.
+    // Solemn tone.
+    name: 'Site of the 1928 Collapse (Na Poříčí 31)',
+    slug: 'zriceni-domu-na-porici-1928',
+    localizedNames: { cz: 'Místo zřícení domu Na Poříčí (1928)', zh: '1928年波日奇街塌楼旧址' },
+    labels: ['world-wars', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.09027132926901, lng: 14.435195462383682 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `At the corner of Na Poříčí and Biskupská stands Hotel Harmony, an ordinary city hotel. On this spot, on 9 October 1928, the worst building disaster in modern Czech history took place: a nearly finished seven-storey department store collapsed onto the people building it.
+
+The store was being built for the Jakesch firm, and by that autumn its shell was almost done. More than a hundred tradesmen were working inside, bricklayers, fitters, carpenters and parquet layers, when the building came down. Forty-six people were killed, by the count most sources give, some accounts say as many as sixty, and around thirty were injured. Rescuers dug through the rubble for days, joined by miners from Kladno who knew how to work under collapsed ground, and some of the trapped men were still alive the next day. Families identified many of the dead only by their clothes.
+
+The official finding was that the corner pillars had been overloaded; at the time, many blamed poor-quality cement in the lower floors. Prague was shaken, and then it kept building: within a couple of years a new building stood on the same plot, and it is the hotel that stands here today.
+
+🎁 Bonus: Among the rescuers were miners from Kladno, who came to dig in the middle of Prague. On a street of banks and department stores, the people who knew best what to do were the ones who worked underground.`,
+      cz: `Na rohu Na Poříčí a Biskupské stojí hotel Harmony, obyčejný městský hotel. Právě tady se 9. října 1928 stala největší stavební katastrofa novodobé české historie: téměř dokončený sedmipodlažní obchodní dům se zřítil na lidi, kteří ho stavěli.
+
+Obchodní dům se stavěl pro firmu Jakesch a toho podzimu byla jeho hrubá stavba skoro hotová. Uvnitř pracovalo přes sto řemeslníků, zedníci, montéři, tesaři a parketáři, když se budova zřítila. Zahynulo čtyřicet šest lidí, jak uvádí většina pramenů, podle některých zpráv až šedesát, a kolem třiceti jich bylo zraněno. Záchranáři prokopávali sutiny celé dny, přidali se k nim i horníci z Kladna, kteří věděli, jak pracovat pod zavaleným terénem, a někteří zavalení byli naživu ještě druhý den. Pozůstalí mnohé z mrtvých poznávali jen podle oblečení.
+
+Oficiálně bylo příčinou přetížení nárožních pilířů; tehdy mnozí vinili nekvalitní cement ve spodních patrech. Praha byla otřesená, a pak se stavělo dál: do pár let stála na stejném pozemku nová budova a je to hotel, který tu stojí dodnes.
+
+🎁 Bonus: Mezi záchranáři byli horníci z Kladna, kteří přijeli kopat doprostřed Prahy. Na ulici bank a obchodních domů nejlépe věděli, co dělat, ti, kdo pracovali pod zemí.`,
+      zh: `Na Poříčí街和比斯库普斯卡街的拐角，立着Harmony酒店，一家普通的城市酒店。1928年10月9日，就在这个位置，发生了捷克现代史上最严重的建筑事故：一座快要完工的七层百货大楼，塌在了正在建造它的人身上。
+
+这座百货大楼是为雅克施公司建的，那年秋天，主体结构已经差不多完成。楼里有一百多名工匠在干活，有泥瓦匠、安装工、木匠和铺地板的工人，大楼轰然倒塌。按大多数资料的说法，四十六人遇难，也有记载说多达六十人，另有约三十人受伤。救援人员在废墟里挖了好几天，从克拉德诺赶来的矿工也加入了进来，他们懂得怎样在塌方的地底下干活；有些被埋的人到第二天还活着。许多遇难者，家属只能凭衣服认出来。
+
+官方结论是转角的柱子超载；当时也有很多人怪罪下面几层用的水泥质量太差。布拉格被震动了，然后接着盖楼：几年之内，同一块地上又立起了一栋新楼，也就是今天的这家酒店。
+
+🎁 彩蛋：救援的人里有克拉德诺的矿工，他们跑到布拉格市中心来挖掘。在一条满是银行和百货公司的街上，最知道该怎么办的，是那些在地底下干活的人。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Poříčí pack, at the user's
+    // coordinates. Facts from cs.wikipedia "Hotel AXA": functionalist, by Václav
+    // Pilc as architect and developer, built 1930–32, opened at the turn of
+    // 1933/34, Běla Friedländerová (sportswoman, later his wife) worked on the
+    // design; hotel, pension, café, offices, shops, garages and a sports centre
+    // with a 25 m pool two floors down under a skylight and gyms; nationalised
+    // after 1948, the pool used by Prague clubs and school courses, made shallower
+    // and its diving tower removed in 1978–85; restored 2013–14 by Rudolf Netík
+    // with tubular furniture again; listed 2014; returned in restitution.
+    name: 'Hotel Axa',
+    slug: 'hotel-axa',
+    localizedNames: { cz: 'Hotel Axa', zh: 'Axa酒店' },
+    labels: ['functionalism', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.09001641341005, lng: 14.435674087824426 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Hotel_Axa',
+    description: {
+      en: `Hotel Axa on Na Poříčí is a clean white functionalist building from the early 1930s, and its best room is two floors underground: a 25-metre swimming pool under a glass roof, built into a city-centre hotel, something few hotels anywhere could offer at the time.
+
+It was the work of Václav Pilc, who was both its architect and its developer, and his firm built it in 1930–32; it opened at the turn of 1933 and 1934. Pilc's future wife, the sportswoman Běla Friedländerová, worked on the design, which may explain the programme: besides the hotel and a pension there were a café, offices, shops, garages and a whole sports centre with gyms and the pool in a hall between the side wings, lit from above.
+
+After 1948 the hotel was nationalised and the tubular steel furniture disappeared, while the pool became a training ground for Prague sports clubs and a place where schoolchildren learned to swim. Between 1978 and 1985 it was made shallower and lost its diving tower. After 1989 the building went back to the family of its original owners, and in 2013–14 the architect Rudolf Netík restored it, tubular chairs included; it has been a protected cultural monument since 2014.
+
+🎁 Bonus: Generations of Prague children took their first strokes in a hotel basement on Na Poříčí, without ever staying a night upstairs.`,
+      cz: `Hotel Axa na Poříčí je čistá bílá funkcionalistická stavba z počátku třicátých let a jeho nejlepší místnost je dvě patra pod zemí: pětadvacetimetrový bazén pod skleněnou střechou, postavený do hotelu v centru města, což tehdy nabízelo jen málokteré hotely kdekoli.
+
+Je dílem Václava Pilce, který byl zároveň architektem i stavebníkem, a jeho firma ho postavila v letech 1930–32; otevřel se na přelomu let 1933 a 1934. Na návrhu se podílela Pilcova pozdější žena, sportovkyně Běla Friedländerová, což možná vysvětluje program: kromě hotelu a penzionu tu byla kavárna, kanceláře, obchody, garáže a celé sportovní centrum s tělocvičnami a bazénem v hale mezi bočními křídly, osvětlené shora.
+
+Po roce 1948 byl hotel znárodněn a trubkový nábytek zmizel, zatímco bazén se stal tréninkovým místem pražských sportovních oddílů a místem, kde se děti ze škol učily plavat. V letech 1978 až 1985 ho změlčili a přišel o skokanskou věž. Po roce 1989 se budova vrátila rodině původních majitelů a v letech 2013–14 ji architekt Rudolf Netík obnovil, včetně trubkových židlí; kulturní památkou je od roku 2014.
+
+🎁 Bonus: Generace pražských dětí udělaly svá první tempa v hotelovém suterénu na Poříčí, aniž by tu nahoře kdy strávily jedinou noc.`,
+      zh: `Na Poříčí街上的Axa酒店是一座1930年代初干净利落的白色功能主义建筑，它最好的房间在地下两层：一座玻璃顶下的25米游泳池。在那个年代，市中心酒店里带泳池，放在哪儿都不多见。
+
+它出自瓦茨拉夫·皮尔茨之手，他既是建筑师也是开发商，他的公司在1930到1932年把它建了起来，1933和1934年之交开业。皮尔茨后来的妻子、运动员贝拉·弗里德兰德洛娃也参与了设计，这或许能解释它的功能安排：除了酒店和公寓，还有咖啡馆、办公室、商店、车库，以及一整座体育中心，里面有健身房，游泳池就在两侧翼楼之间的大厅里，光线从屋顶照下来。
+
+1948年以后，酒店收归国有，钢管家具不见了，游泳池则成了布拉格各体育俱乐部的训练场，也是学校孩子们学游泳的地方。1978到1985年间，泳池被改浅，跳台也拆掉了。1989年以后，大楼还给了原业主家族；2013到2014年，建筑师鲁道夫·内蒂克把它修复了，连钢管椅子也恢复了。2014年起它是受保护的文物。
+
+🎁 彩蛋：一代又一代布拉格孩子，是在Na Poříčí街一家酒店的地下室里学会划第一下水的，却从来没在楼上住过一晚。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Poříčí pack, at the user's
+    // coordinates. Facts from cs.wikipedia "Na Poříčí" and "František Kindl":
+    // čp. 1059/II, corner with Těšnov, neo-Renaissance with a dome, 1891–92,
+    // designed and built by Kindl; the street article calls it his own house, the
+    // Kindl article the house of the industrialist Bohumil Bondy, so the text
+    // gives both; fifteen busts of figures of building and architecture by
+    // Bohuslav Schnirch on the fourth floor, their names not found; Kindl
+    // 1847–1901 (Kněževes; died at Zvíkovec; Varieté in Karlín, Stýblův dům).
+    name: 'Kindl House',
+    slug: 'kindluv-dum',
+    localizedNames: { cz: 'Kindlův dům', zh: '金德尔之家' },
+    labels: ['historicism'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.090753181231605, lng: 14.43663579887039 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `On the corner of Na Poříčí and Těšnov stands a neo-Renaissance apartment house with a dome, and if you look up to its fourth floor you will see a row of fifteen stone heads looking back. They are busts of great figures of building and architecture, and the house is a builder's tribute to his own trade.
+
+The builder was František Kindl, born in 1847 at Kněževes near Rakovník, who designed and built the house in 1891–92. Sources disagree on whom it was for: one calls it his own house, another the house of the industrialist Bohumil Bondy. Either way, it shows what a successful Prague builder of the 1890s could do: Kindl had already built the Varieté in Karlín and, on Wenceslas Square, the Stýbl House, and here he could put on a façade whatever he wanted.
+
+What he wanted was his profession's hall of fame. The fifteen busts were made by the sculptor Bohuslav Schnirch, one of the leading sculptors of the National Revival, whose work also crowns the National Theatre. Kindl died in 1901 at the château of Zvíkovec and is buried at Olšany.
+
+🎁 Bonus: Nobody seems to have written down, in any source easy to find, exactly who the fifteen are. Passers-by on Těšnov are free to pick their own favourite master builder.`,
+      cz: `Na rohu Na Poříčí a Těšnova stojí novorenesanční činžovní dům s kupolí, a když se podíváte do čtvrtého patra, uvidíte řadu patnácti kamenných hlav, které se dívají zpátky. Jsou to busty velkých osobností stavitelství a architektury a dům je poctou stavitele vlastnímu řemeslu.
+
+Tím stavitelem byl František Kindl, narozený v roce 1847 v Kněževsi u Rakovníka, který dům v letech 1891–92 navrhl i postavil. Prameny se rozcházejí v tom, pro koho: jeden ho uvádí jako jeho vlastní dům, jiný jako dům průmyslníka Bohumila Bondyho. Tak či onak ukazuje, co dokázal úspěšný pražský stavitel devadesátých let 19. století: Kindl už měl za sebou Varieté v Karlíně a Stýblův dům na Václavském náměstí a tady si mohl na průčelí dát, co chtěl.
+
+A chtěl síň slávy svého oboru. Patnáct bust vytvořil sochař Bohuslav Schnirch, jeden z předních sochařů národního obrození, jehož dílo korunuje i Národní divadlo. Kindl zemřel v roce 1901 na zámku Zvíkovec a je pohřben na Olšanech.
+
+🎁 Bonus: Kdo přesně těch patnáct je, nikde snadno dohledatelně zapsáno není. Chodci na Těšnově si tak mohou vybrat svého oblíbeného stavitele sami.`,
+      zh: `Na Poříčí街和捷什诺夫街的拐角，有一座带圆顶的新文艺复兴式公寓楼，抬头看它的五楼，会看到一排十五个石头脑袋正回望着你。这些是建筑与营造界大人物的胸像，整座楼是一位营造商向自己这一行的致敬。
+
+这位营造商叫弗朗蒂舍克·金德尔，1847年生于拉科夫尼克附近的克涅热夫希，1891到1892年亲自设计并建造了这栋楼。至于是给谁盖的，资料说法不一：一种说是他自己的房子，另一种说是实业家博胡米尔·邦迪的房子。不管怎样，它显示了1890年代一个成功的布拉格营造商能做到什么：金德尔此前已经盖过卡尔林的杂耍剧院和瓦茨拉夫广场上的施蒂布尔之家，在这里，他想在立面上放什么就放什么。
+
+他想放的，是自己这一行的名人堂。十五尊胸像出自雕塑家博胡斯拉夫·施尼尔赫之手，他是民族复兴时期最重要的雕塑家之一，国家剧院顶上的雕塑也是他的作品。金德尔1901年在兹维科韦茨城堡去世，葬在奥尔沙尼公墓。
+
+🎁 彩蛋：这十五位到底是谁，好像没有哪份容易查到的资料写清楚过。路过捷什诺夫街的人，大可以自己挑一位最喜欢的营造大师。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Poříčí pack, on the lane named
+    // Biskupský dvůr south of St Peter's (moved there the same day: the user found
+    // that Na Poříčí 35, which cs.wikipedia's street article calls the court
+    // without a source, is only an old house). Facts from cs.wikipedia
+    // "Biskupský dvůr (Praha)" and old-prague.com: the Knights of the Cross's
+    // hospital court by St Peter's, which old Poříčí reached; the grand masters
+    // archbishops of Prague 1561–1694, the court their residence; the Lesser Town
+    // Bishop's Court burned in 1420.
+    name: "Biskupský dvůr (Bishop's Court)",
+    slug: 'biskupsky-dvur',
+    localizedNames: { cz: 'Biskupský dvůr', zh: '主教庭院' },
+    labels: ['street', 'medieval'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.090841845004555, lng: 14.435676724453543 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Biskupský dvůr is a short, quiet lane running east from Biskupská, just south of St Peter's church, lined with parked cars and ordinary houses. Its name, Bishop's Court, is the last trace of a court that once filled this corner of Poříčí.
+
+In the Middle Ages this was the hospital court of the Knights of the Cross with the Red Star, the order founded in Prague in the 13th century to run a hospital, whose first home was St Peter's next door; old Poříčí reached as far as this "Hospital Court". The knights kept it long after they moved their main seat to the Old Town end of Charles Bridge.
+
+The bishops came later, through the knights themselves. From 1561 to 1694 the grand masters of the order were at the same time archbishops of Prague, and their court here served as the archbishops' residence. So the Bishop's Court was named after men who were knights first and archbishops on the side. The court itself has long gone, built over by the houses of the New Town, and only the lane remembers it.
+
+🎁 Bonus: Prague had another Bishop's Court in the Middle Ages, in the Lesser Town by the bridge, but it burned in 1420 and was never rebuilt. The name survived here instead, on a back lane in a suburb of merchants and mills.`,
+      cz: `Biskupský dvůr je krátká, tichá ulička, která vede od Biskupské na východ, kousek jižně od kostela svatého Petra, lemovaná zaparkovanými auty a obyčejnými domy. Její jméno je poslední stopou dvora, který kdysi zabíral tenhle kout Poříčí.
+
+Ve středověku tu býval špitální dvůr Rytířského řádu křižovníků s červenou hvězdou, řádu založeného v Praze ve 13. století k vedení špitálu, jehož prvním domovem byl sousední kostel svatého Petra; staré Poříčí sahalo až k tomuto „Špitálskému dvoru“. Křižovníci si ho drželi ještě dlouho poté, co přesunuli hlavní sídlo ke staroměstskému konci Karlova mostu.
+
+Biskupové přišli později, a to přes samotné křižovníky. V letech 1561 až 1694 byli velmistři řádu zároveň pražskými arcibiskupy a jejich dvůr tady sloužil jako arcibiskupská rezidence. Biskupský dvůr tedy dostal jméno po mužích, kteří byli nejdřív rytíři a arcibiskupy jaksi navíc. Samotný dvůr dávno zmizel pod domy Nového Města a vzpomíná na něj už jen ulička.
+
+🎁 Bonus: Praha měla ve středověku ještě jeden Biskupský dvůr, na Malé Straně u mostu, jenže ten v roce 1420 vyhořel a už nebyl obnoven. Jméno se nakonec udrželo tady, v zapadlé uličce na předměstí kupců a mlýnů.`,
+      zh: `主教庭院是一条安静的短巷，从比斯库普斯卡街往东，就在圣彼得教堂南边，两旁停着车、立着普通的房子。它的名字，是曾经占据波日奇这个角落的一座庭院留下的最后痕迹。
+
+中世纪时，这里是红星十字军团的医院庭院。这个骑士团13世纪在布拉格创立，本职是办医院，最早的落脚处就是隔壁的圣彼得教堂；老波日奇聚落一直延伸到这座"医院庭院"。后来他们把总部搬到了查理大桥的老城一端，但这座庭院还在手里留了很久。
+
+主教是后来才来的，而且是通过骑士团自己来的。1561到1694年，骑士团的大团长同时兼任布拉格大主教，这里的庭院就成了大主教的住所。所以"主教庭院"纪念的，其实是一群先当骑士、顺带兼任大主教的人。庭院本身早已消失在新城的房子底下，只剩这条小巷还记得它。
+
+🎁 彩蛋：中世纪的布拉格还有另一座"主教庭院"，在小城桥头，可它1420年被烧毁，再也没有重建。最后留下名字的是这里，一个商人和磨坊的郊区里的一条小后巷。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Poříčí pack, at the user's
+    // coordinates. Facts from cs.wikipedia "Palác YMCA", "Eduard Hnilička" and
+    // "YMCA v České republice": built 1925–28 to Hnilička's design (purism; the
+    // lead says modern classicism), opened 28 April 1928; reinforced concrete,
+    // paternoster, a hostel of about 300 beds in 170 rooms, a 25 x 7 m pool,
+    // showers, steam bath and massage in the basement, offices, cafés, club rooms
+    // and a 30 x 13 m gym with a banked running track on its gallery, a rooftop
+    // playground; Czechoslovak YMCA founded 21 April 1921 (activity from the
+    // Legions), credited with bringing basketball and volleyball (the article
+    // carries a neutrality banner, so the text says "credited"); YMCA out on
+    // 15 Oct 1941, German KLV and Protectorate staff, illegal meetings and printing
+    // during the war, damaged in May 1945; YMCA dissolved 1951, the building to the
+    // sports union ČSTV; returned 1991, listed 1991, the first Czech mother-and-
+    // child centre on its ground floor in 1992; seat of YMCA ČR.
+    name: 'YMCA Palace',
+    slug: 'palac-ymca',
+    localizedNames: { cz: 'Palác YMCA', zh: 'YMCA宫' },
+    labels: ['functionalism', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.089204643121924, lng: 14.431241133012046 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_YMCA',
+    description: {
+      en: `The YMCA Palace on Na Poříčí looks like a sober office block of the 1920s, but it was built as a small city for young men: a hostel, cafés, club rooms, a swimming pool in the basement, a gym with a running track up on the gallery and a playground on the roof. It opened on 28 April 1928.
+
+The Czechoslovak YMCA had grown out of the Legions and the new army and was formally founded in Prague in 1921. Its palace was designed by the purist architect Eduard Hnilička and built of reinforced concrete in 1925–28, with a paternoster lift and about 300 beds in 170 rooms. Below ground lay a 25-metre pool with showers, a steam bath and massage; above, a gym of 30 by 13 metres whose banked running track round the gallery was said to be unique. The YMCA is credited with bringing basketball and volleyball to Czechoslovakia, and its teams were the country's first basketball side at the 1936 Olympics.
+
+Then came the century's interruptions. The YMCA had to leave in October 1941, and the Germans used the building to lodge evacuated children and Protectorate staff, while resistance groups held secret meetings and printed leaflets inside. It was damaged in the May 1945 uprising and repaired with American YMCA money, only for the communists to dissolve the YMCA in 1951 and hand the palace to the state sports union. It came back to a renewed YMCA in 1991, in poor shape, became a cultural monument the same year, and in 1992 opened the first mother-and-child centre in the country on its ground floor.
+
+🎁 Bonus: Runners here did their laps on a tilted track hanging round the gym's gallery, above the heads of the people playing below. In 1928 Prague, going round in circles indoors was the height of modernity.`,
+      cz: `Palác YMCA na Poříčí vypadá jako střízlivý úřední blok dvacátých let, jenže byl postaven jako malé město pro mladé muže: ubytovna, kavárny, klubovny, plavecký bazén v suterénu, tělocvična s běžeckou dráhou na galerii a hřiště na střeše. Otevřel se 28. dubna 1928.
+
+Československá YMCA vyrostla z legií a nové armády a oficiálně byla založena v Praze v roce 1921. Její palác navrhl purista Eduard Hnilička a postaven byl ze železobetonu v letech 1925–28, s páternosterem a asi 300 lůžky ve 170 pokojích. Pod zemí ležel pětadvacetimetrový bazén se sprchami, parní lázní a masážemi, nad ním tělocvična o rozměrech 30 krát 13 metrů, jejíž klopená běžecká dráha kolem galerie byla prý unikátní. YMCA se připisuje zásluha, že do Československa přinesla basketbal a volejbal, a její hráči byli prvním československým basketbalovým týmem na olympiádě v roce 1936.
+
+Pak přišly přestávky, jaké to století přinášelo. YMCA musela v říjnu 1941 odejít a Němci v budově ubytovali evakuované děti a úředníky protektorátu, zatímco odbojáři tu pořádali tajné schůzky a tiskli letáky. V květnovém povstání 1945 byla budova poškozena a opravena z peněz americké YMCA, jen aby komunisté YMCA v roce 1951 zrušili a palác předali státní tělovýchově. Obnovené YMCA se vrátil v roce 1991 ve špatném stavu, téhož roku se stal kulturní památkou a v roce 1992 se v jeho přízemí otevřelo první mateřské centrum v zemi.
+
+🎁 Bonus: Běžci tu kroužili po šikmé dráze zavěšené kolem galerie tělocvičny, nad hlavami těch, kdo hráli dole. V Praze roku 1928 bylo běhání dokola pod střechou vrcholem moderny.`,
+      zh: `Na Poříčí街上的YMCA宫，看上去像一座1920年代的朴素办公楼，其实它是作为一座给年轻人住的小城盖起来的：有宿舍、咖啡馆、俱乐部活动室，地下室有游泳池，健身房楼上的回廊里有跑道，屋顶上还有运动场。它在1928年4月28日落成开放。
+
+捷克斯洛伐克的基督教青年会是从军团和新建的军队里成长起来的，1921年在布拉格正式成立。会所由纯粹主义建筑师爱德华·赫尼利奇卡设计，1925到1928年用钢筋混凝土建成，装有循环电梯，170个房间里约有300张床位。地下有一座25米的泳池，配淋浴、蒸汽浴和按摩；楼上是一座30米乘13米的健身房，回廊上一圈带倾角的跑道，据说独一无二。一般认为是青年会把篮球和排球带进了捷克斯洛伐克，1936年奥运会上，捷克斯洛伐克的第一支篮球队就是青年会的人。
+
+接着是那个世纪接二连三的打断。1941年10月青年会被迫搬走，德国人在楼里安置了疏散来的孩子和保护国的公务人员，而抵抗组织就在楼里秘密开会、印传单。1945年5月起义时大楼受损，靠美国青年会的钱修好，结果1951年共产党解散了青年会，把大楼交给了国家体育联合会。1991年它回到重建的青年会手里，状况很差，同年被列为文物；1992年，全国第一家母婴中心在它的一楼开张。
+
+🎁 彩蛋：跑步的人在这里绕着健身房回廊上一圈倾斜的跑道跑，头顶下方就是打球的人。在1928年的布拉格，在屋檐下一圈圈地跑，就是最时髦的事了。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Charles Square pack, at the user's
+    // coordinates. Facts from cs.wikipedia "Antonín Dvořák": he lived at Žitná 14,
+    // the house U Bílého lva, from 1877 to 1904, America 1892–95, died in Prague on
+    // 1 May 1904 (that he died in this flat isn't in what was read, so the text
+    // says he lived here until his death); pigeons at his summer home in Vysoká,
+    // railways among his hobbies. The works named are dated facts of the years he
+    // lived here, not claims about which room they were written in.
+    name: "Dvořák's House",
+    slug: 'dvorakuv-dum-zitna',
+    localizedNames: { cz: 'Dvořákův dům', zh: '德沃夏克故居' },
+    labels: ['cultural', 'national-revival'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.07727646748526, lng: 14.423521149203701 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `At Žitná 14, a few steps from Charles Square, stands an ordinary-looking apartment house once called At the White Lion. For more than a quarter of a century it was the Prague home of Antonín Dvořák, the most famous Czech composer in the world.
+
+Dvořák moved in in 1877, when he was still a struggling organist and teacher with a growing family, and he stayed until his death in 1904. Those years made him: the Slavonic Dances of 1878 sold across Europe, the Stabat Mater carried his name to England, and invitations followed from London, Cambridge and, in 1892, New York, where he spent three years running the National Conservatory and wrote the New World Symphony. He came back to Žitná, to his family, his students and his walks, and his last years brought Rusalka in 1901.
+
+He died in Prague on 1 May 1904 and was buried at Vyšehrad. The flat is private, and the house is marked only by a plaque, so this is a card for imagining rather than visiting: a man with a big beard coming home along Žitná with a new score under his arm.
+
+🎁 Bonus: Dvořák loved railways almost as much as music, and liked to walk to the station to watch the engines and note their numbers. When he could not go himself, the story goes, he sent a student, who was then expected to report on the locomotive, not on the lesson.`,
+      cz: `Na Žitné 14, pár kroků od Karlova náměstí, stojí obyčejně vyhlížející činžovní dům, kterému se kdysi říkalo U Bílého lva. Přes čtvrt století byl pražským domovem Antonína Dvořáka, nejslavnějšího českého skladatele na světě.
+
+Dvořák se sem nastěhoval v roce 1877, ještě jako nepříliš úspěšný varhaník a učitel s rostoucí rodinou, a zůstal až do své smrti v roce 1904. Tahle léta z něj udělala, kým byl: Slovanské tance z roku 1878 se prodávaly po celé Evropě, Stabat Mater proslavila jeho jméno v Anglii a přišla pozvání do Londýna, Cambridge a v roce 1892 do New Yorku, kde tři roky vedl Národní konzervatoř a napsal Symfonii Z Nového světa. Vrátil se na Žitnou, k rodině, žákům a procházkám, a poslední léta mu přinesla Rusalku z roku 1901.
+
+Zemřel v Praze 1. května 1904 a pohřben byl na Vyšehradě. Byt je soukromý a dům připomíná jen pamětní deska, takže tohle je karta spíš pro představivost než pro prohlídku: muž s velkými vousy, který se vrací po Žitné domů s novou partiturou pod paží.
+
+🎁 Bonus: Dvořák miloval železnici skoro stejně jako hudbu a rád chodil na nádraží dívat se na lokomotivy a zapisovat si jejich čísla. Když nemohl sám, posílal prý žáka, od kterého pak chtěl hlášení o lokomotivě, ne o lekci.`,
+      zh: `日特纳街14号，离查理广场几步远，有一栋看起来很普通的公寓楼，从前叫"白狮之家"。二十多年里，它是安东宁·德沃夏克在布拉格的家，这位是世界上最有名的捷克作曲家。
+
+德沃夏克1877年搬进来，那时他还是个不太得志的管风琴手和音乐教师，家里人口越来越多；他在这里一直住到1904年去世。正是这些年成就了他：1878年的《斯拉夫舞曲》卖遍了欧洲，《圣母悼歌》让他的名字在英国响亮起来，接着伦敦、剑桥的邀请纷纷而来，1892年又去了纽约，在那里执掌国家音乐学院三年，写出了《自新大陆》交响曲。之后他回到日特纳街，回到家人、学生和散步的日子里，晚年又写出了1901年的《水仙女》。
+
+1904年5月1日他在布拉格去世，葬在维谢赫拉德。公寓是私宅，楼上只有一块纪念牌，所以这张卡更适合想象，而不是参观：一个大胡子男人，胳膊底下夹着新写好的乐谱，沿着日特纳街往家走。
+
+🎁 彩蛋：德沃夏克爱火车几乎和爱音乐一样，常去车站看火车头、记下车号。据说他自己去不了的时候，就派个学生去，回来要汇报的是火车头，而不是功课。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Charles Square pack, at the user's
+    // coordinates. Facts from cs.wikipedia "Novoměstská jezuitská kolej": plans
+    // from 1624, built 1658–1702 on the site of 23 houses to Carlo Lurago's design,
+    // with Pavel Ignác Bayer and Martin Reiner; St Ignatius 1665–78; extended to the
+    // church about 1760 under Jan Josef Wirch with statues of the arts and
+    // sciences; a 200 m west front, the largest Baroque building of the New Town,
+    // the third-largest Jesuit building in Europe; Jesuits out in 1773, grenadier
+    // barracks, then a military hospital; bombed 14 Feb 1945, repaired in the
+    // early 1950s; listed 1958; now the General University Hospital (endocrinology
+    // clinic, Institute of Haematology and Blood Transfusion).
+    name: 'Jesuit College (Charles Square)',
+    slug: 'jezuitska-kolej-karlovo-namesti',
+    localizedNames: { cz: 'Jezuitská kolej (Karlovo náměstí)', zh: '查理广场耶稣会学院' },
+    labels: ['baroque', 'municipal'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.074604653528446, lng: 14.42063795308712 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Novom%C4%9Bstsk%C3%A1_jezuitsk%C3%A1_kolej',
+    description: {
+      en: `Along the east side of Charles Square, beside the church of St Ignatius, runs a Baroque front some 200 metres long. It is the New Town Jesuit College, the largest Baroque building in the New Town and said to be the third-largest Jesuit building in Europe, and for the last two centuries it has been a hospital.
+
+The Jesuits planned it in 1624, in the confident years after the Battle of White Mountain, and built it from 1658 to 1702 on the site of 23 demolished houses, to designs by Carlo Lurago, with Pavel Ignác Bayer and Martin Reiner continuing the work. Lurago's church of St Ignatius went up beside it in 1665–78, and around 1760 the college was extended to meet the church, with statues of the arts and sciences along the top. It was a whole Jesuit town in one building: school, residence, library and the order's base in the New Town.
+
+In 1773 the pope dissolved the Jesuit order, and the college went to the army, first as grenadier barracks and then as a military hospital. It was hit in the Allied bombing of Prague on 14 February 1945 and repaired in the early 1950s. Today it belongs to the General University Hospital, with an endocrinology clinic and the Institute of Haematology and Blood Transfusion behind its long Baroque windows.
+
+🎁 Bonus: Built to train souls, then used to drill grenadiers, it now treats hormones and blood. Few buildings in Prague have changed congregations so completely without changing their façade.`,
+      cz: `Podél východní strany Karlova náměstí, vedle kostela svatého Ignáce, se táhne barokní průčelí dlouhé asi 200 metrů. Je to Novoměstská jezuitská kolej, největší barokní stavba Nového Města a prý třetí největší jezuitská budova v Evropě, a poslední dvě století je to nemocnice.
+
+Jezuité ji plánovali od roku 1624, v sebevědomých letech po Bílé hoře, a stavěli ji v letech 1658 až 1702 na místě 23 zbořených domů podle návrhu Carla Luraga, v jehož práci pokračovali Pavel Ignác Bayer a Martin Reiner. Vedle vyrostl v letech 1665–78 Luragův kostel svatého Ignáce a kolem roku 1760 se kolej protáhla až k němu, se sochami umění a věd po horní hraně. Byla to celá jezuitská obec v jedné budově: škola, rezidence, knihovna a základna řádu na Novém Městě.
+
+V roce 1773 papež jezuitský řád zrušil a kolej připadla armádě, nejprve jako granátnická kasárna a pak jako vojenská nemocnice. Při spojeneckém náletu na Prahu 14. února 1945 byla zasažena a na počátku 50. let opravena. Dnes patří Všeobecné fakultní nemocnici a za jejími dlouhými barokními okny sídlí endokrinologická klinika a Ústav hematologie a krevní transfuze.
+
+🎁 Bonus: Postavena k výchově duší, pak sloužila k drilu granátníků a dnes léčí hormony a krev. Málokterá pražská budova vyměnila své osazenstvo tak důkladně, aniž by změnila fasádu.`,
+      zh: `查理广场东侧，紧挨着圣伊格纳修斯教堂，绵延着一道约200米长的巴洛克立面。这就是新城耶稣会学院，新城最大的巴洛克建筑，据说也是欧洲第三大的耶稣会建筑；过去两百年里，它一直是一家医院。
+
+耶稣会从1624年就开始规划它，那是白山战役之后信心满满的年代；1658到1702年，他们拆掉23栋房子，按卡洛·卢拉戈的设计把它建了起来，后来由帕维尔·伊格纳茨·拜尔和马丁·莱纳接着完成。卢拉戈设计的圣伊格纳修斯教堂在1665到1678年间建在它旁边，1760年前后学院又一路扩建到教堂边，楼顶沿线立起了象征各门艺术与科学的雕像。这是一整座装在一栋楼里的耶稣会小城：学校、住所、图书馆，还有修会在新城的据点。
+
+1773年教皇解散了耶稣会，学院归了军队，先是掷弹兵营房，后来成了军医院。1945年2月14日盟军轰炸布拉格时它被炸中，1950年代初修复。如今它属于综合大学医院，长长的巴洛克窗户后面，是内分泌科和血液学与输血研究所。
+
+🎁 彩蛋：盖来培养灵魂，后来用来操练掷弹兵，如今治的是激素和血液。布拉格很少有哪栋楼把里面的人换得这么彻底，立面却一点没变。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Charles Square pack, at the user's
+    // coordinates. Facts from cs.wikipedia "Pomník Vítězslava Hálka": commissioned
+    // by Umělecká beseda, paid for by public subscription, the site given free by
+    // the city, bronze bust by Bohuslav Schnirch cast by Franta Anýž, 1882 (the
+    // inscription says "Věnuje roku 1881"), a semicircular structure of smoothed
+    // opuka with an aedicule, a gilded inscription, a bronze lyre, sphinxes holding
+    // water urns and two stone benches, in the north of the square; listed.
+    name: 'Vítězslav Hálek Monument',
+    slug: 'pomnik-vitezslava-halka',
+    localizedNames: { cz: 'Pomník Vítězslava Hálka', zh: '维捷斯拉夫·哈莱克纪念碑' },
+    labels: ['monument', 'sculpture', 'national-revival'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.077818531463606, lng: 14.420460235789797 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pomn%C3%ADk_V%C3%ADt%C4%9Bzslava_H%C3%A1lka',
+    description: {
+      en: `In the north of the Charles Square park, near the New Town Hall, stands a small semicircle of pale stone with two benches built into it, a bronze lyre, a pair of sphinxes holding water urns, and in the middle, under a little classical shrine, the bronze bust of a young-looking poet. It is the monument to Vítězslav Hálek, and it was built for sitting in as much as for looking at.
+
+Hálek, who died in 1874 aged only 38, was one of the most loved Czech poets of the 19th century, above all for Evening Songs, short, sunny love poems that generations of Czechs learned by heart. When the artists' society Umělecká beseda decided to honour him, the money came from a public collection, the city gave the site for free, and the sculptor Bohuslav Schnirch made the bust, cast in bronze by Franta Anýž. The monument was finished in 1882, though its gilded inscription gives the year of the gift as 1881.
+
+It is a protected cultural monument, and it does what its makers intended: people sit on Hálek's benches to eat lunch, read or wait for a tram, under the gaze of a poet who wrote mostly about being happy.
+
+🎁 Bonus: Most Prague monuments ask you to stand back and admire. Hálek's offers you a seat, which is probably the most poetic thing a monument can do.`,
+      cz: `V severní části parku na Karlově náměstí, nedaleko Novoměstské radnice, stojí malý půlkruh ze světlého kamene se dvěma zabudovanými lavicemi, bronzovou lyrou, dvojicí sfing s vodními urnami a uprostřed, pod malou klasickou edikulou, bronzovou bustou mladě vyhlížejícího básníka. Je to pomník Vítězslava Hálka a postavili ho stejně tak k sezení jako k dívání.
+
+Hálek, který zemřel v roce 1874 ve věku pouhých 38 let, patřil k nejoblíbenějším českým básníkům 19. století, především díky Večerním písním, krátkým slunným milostným básním, které se generace Čechů učily nazpaměť. Když se ho umělecký spolek Umělecká beseda rozhodl uctít, peníze se vybraly ve veřejné sbírce, město dalo pozemek zdarma a sochař Bohuslav Schnirch vytvořil bustu, kterou v bronzu odlil Franta Anýž. Pomník byl hotov v roce 1882, i když jeho zlacený nápis uvádí rok daru 1881.
+
+Je kulturní památkou a dělá přesně to, co jeho tvůrci zamýšleli: lidé na Hálkových lavicích obědvají, čtou nebo čekají na tramvaj pod pohledem básníka, který psal hlavně o tom, jaké je to být šťastný.
+
+🎁 Bonus: Většina pražských pomníků vás žádá, abyste ustoupili a obdivovali. Ten Hálkův vám nabídne místo k sezení, což je asi to nejpoetičtější, co pomník může udělat.`,
+      zh: `查理广场公园的北部，靠近新城市政厅，有一道浅色石头砌成的小半圆，里面嵌着两张长凳，一把青铜竖琴，一对捧着水瓮的斯芬克斯；正中间一座小小的古典神龛下面，是一位面容年轻的诗人的青铜胸像。这是维捷斯拉夫·哈莱克的纪念碑，它是建来让人坐的，和让人看的一样。
+
+哈莱克1874年去世，年仅38岁，是19世纪最受喜爱的捷克诗人之一，尤其是因为《黄昏之歌》，那些短小、明亮的爱情诗，好几代捷克人都会背。艺术家协会"艺术俱乐部"决定纪念他时，钱是公开募捐来的，市政府白送了地皮，雕塑家博胡斯拉夫·施尼尔赫做了胸像，由弗兰塔·阿尼日铸成青铜。纪念碑1882年完工，不过镀金铭文上写的赠送年份是1881年。
+
+它是受保护的文物，而且正做着建造者想让它做的事：人们坐在哈莱克的长凳上吃午饭、看书、等电车，头顶上是一位写的大多是"幸福是什么样子"的诗人。
+
+🎁 彩蛋：布拉格大多数纪念碑都要你退后几步、仰头瞻仰。哈莱克的这座却给你留了个座位，这大概是一座纪念碑能做的最有诗意的事了。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Charles Square pack, at the user's
+    // coordinates. Facts from cs.wikipedia "Pomník J. E. Purkyně": 1961, by Oskar
+    // Kozák and Vladimír Štrunc, cast by Zukov, a seated figure in a redingote with
+    // one arm raised on a polished granite pedestal inscribed "JAN EV. PURKYNĚ /
+    // 1787 – 1869", in the south of the square, listed; the page calls it a less
+    // successful version of Zdeněk Šimek's Jungmann monument. Purkyně's science
+    // (Purkinje cells, the Purkinje effect, his 1823 fingerprint classification)
+    // is general knowledge.
+    name: 'Jan Evangelista Purkyně Monument',
+    slug: 'pomnik-jana-evangelisty-purkyne',
+    localizedNames: { cz: 'Pomník Jana Evangelisty Purkyně', zh: '扬·埃万盖利斯塔·浦肯野纪念碑' },
+    labels: ['monument', 'sculpture'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.07454843796597, lng: 14.419853061322748 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pomn%C3%ADk_J._E._Purkyn%C4%9B',
+    description: {
+      en: `In the south of the Charles Square park sits a bronze man in a long 19th-century coat, one arm raised as if in the middle of a lecture. He is Jan Evangelista Purkyně (1787–1869), and if the name means nothing to you, your body has heard of him: several parts of it are named after him.
+
+Purkyně was one of the great physiologists of his century. He described the large nerve cells of the cerebellum now called Purkinje cells, the fibres that carry the heartbeat through the heart, and the Purkinje effect, the way red seems to fade before blue as dusk falls. In 1823 he was also the first to sort fingerprints into types, decades before anyone thought of using them to catch criminals. He worked for years in Breslau before coming back to Prague, and he was a Czech patriot as well as a scientist, founding journals and pushing for Czech as a language of science.
+
+The monument was made in 1961 by Oskar Kozák and Vladimír Štrunc and stands on a polished granite pedestal with his name and dates. Czech Wikipedia remarks, a little unkindly, that it is a less successful version of the Jungmann monument on Jungmannovo Square; it is a protected cultural monument all the same.
+
+🎁 Bonus: Come at dusk. As the light fades, the red of a passing tram greys out before the blue of the sky does: the Purkinje effect, named after the man in the chair.`,
+      cz: `V jižní části parku na Karlově náměstí sedí bronzový muž v dlouhém kabátě z 19. století, s jednou rukou zdviženou, jako by byl uprostřed přednášky. Je to Jan Evangelista Purkyně (1787–1869), a pokud vám to jméno nic neříká, vaše tělo ho zná: několik jeho částí nese jeho jméno.
+
+Purkyně byl jedním z velkých fyziologů svého století. Popsal velké nervové buňky mozečku, dnes zvané Purkyňovy buňky, vlákna, která vedou srdeční tep srdcem, a Purkyňův jev, to, jak se za soumraku červená zdánlivě ztrácí dřív než modrá. V roce 1823 jako první roztřídil otisky prstů do typů, desítky let předtím, než někoho napadlo podle nich chytat zločince. Léta působil ve Vratislavi, než se vrátil do Prahy, a byl nejen vědcem, ale i českým vlastencem, který zakládal časopisy a prosazoval češtinu jako jazyk vědy.
+
+Pomník vytvořili v roce 1961 Oskar Kozák a Vladimír Štrunc a stojí na podstavci z leštěné žuly s jeho jménem a daty. Česká Wikipedie trochu nelaskavě poznamenává, že jde o méně zdařilou verzi Jungmannova pomníku na Jungmannově náměstí; kulturní památkou je i tak.
+
+🎁 Bonus: Přijďte za soumraku. Jak světlo slábne, červená projíždějící tramvaje zešedne dřív než modř oblohy: Purkyňův jev, pojmenovaný po muži v křesle.`,
+      zh: `查理广场公园的南部，坐着一位穿19世纪长外套的青铜男子，一只手举起，像是讲课讲到一半。他是扬·埃万盖利斯塔·浦肯野（1787–1869）；就算你没听过这个名字，你的身体也认识他：身上好几个部位都以他命名。
+
+浦肯野是他那个世纪最伟大的生理学家之一。他描述了小脑里那种大个的神经细胞，也就是今天的浦肯野细胞；描述了在心脏里传导心跳的纤维；还有浦肯野效应，也就是黄昏时红色似乎比蓝色先暗下去。1823年，他还第一个把指纹分了类，比任何人想到用指纹抓罪犯早了几十年。他在布雷斯劳工作多年后回到布拉格，既是科学家，也是捷克爱国者，创办期刊，力主让捷克语成为科学语言。
+
+纪念碑由奥斯卡·科扎克和弗拉迪米尔·什特伦茨在1961年完成，立在刻着他名字和生卒年的抛光花岗岩底座上。捷克语维基有点不客气地评价说，它是荣格曼广场上荣格曼纪念碑的一个不太成功的翻版；不过它照样是受保护的文物。
+
+🎁 彩蛋：黄昏时来吧。天色暗下去的时候，驶过的红色电车会比蓝色的天空先变灰：这就是浦肯野效应，以椅子上坐着的这位命名。`,
+    },
+  },
+  {
+    // 2026-11-16, user's call: a card for the Charles Square pack, at the user's
+    // coordinates, using the deleted one-point Charles Square card's old cover.
+    // Facts from cs.wikipedia "Karlovo náměstí (Praha)": the Cattle Market until
+    // 1848, market structures removed from the 1860s, an English-style park
+    // designed by František Josef Thomayer in 1884, many old protected trees
+    // (among them a plane in the south), monuments to Benedikt Roezl, Purkyně,
+    // Eliška Krásnohorská, Karolina Světlá and Hálek, the St Joseph fountain marked
+    // L for Leopold I; a Linden of the Republic planted on 28 October 1968 by
+    // pupils of the Resslova school, its plaque removed in 1972; a park
+    // revitalisation planned after the 2020 traffic works.
+    name: 'Charles Square Park',
+    slug: 'park-karlovo-namesti',
+    localizedNames: { cz: 'Park na Karlově náměstí', zh: '查理广场公园' },
+    labels: ['park', 'national-revival'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.07675695810275, lng: 14.420258810258538 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `The park on Charles Square is one of the biggest green spaces in central Prague, a long stretch of lawns, curving paths and old trees down the middle of a square that was built for cattle. Few of the people crossing it on their way to the tram know that they are walking through a former livestock market.
+
+For five centuries this was the Cattle Market, and only in the 1860s were the market stalls cleared away. In 1884 the city's gardener František Josef Thomayer, the man behind many Prague parks, laid it out as an English-style landscape garden, with paths that wind rather than run straight and trees left to grow big. Many of them are now old and protected, among them a large plane tree in the southern part.
+
+The park is also a gallery of the National Revival: busts and statues of the poet Vítězslav Hálek, the writers Karolina Světlá and Eliška Krásnohorská, the physiologist Jan Evangelista Purkyně and the plant-hunter Benedikt Roezl stand among the trees, and in front of the New Town Hall plays an older Baroque fountain with St Joseph. On 28 October 1968, two months after the Soviet invasion, pupils of the nearby school in Resslova Street planted a Linden of the Republic here; in 1972, at the height of normalisation, its plaque was quietly removed.
+
+🎁 Bonus: In 1972 it was easier to unscrew a plaque than to dig up a tree. A linden doesn't need a label to know what it was planted for.`,
+      cz: `Park na Karlově náměstí je jedna z největších zelených ploch v centru Prahy, dlouhý pruh trávníků, klikatých cestiček a starých stromů uprostřed náměstí, které bylo postaveno pro dobytek. Málokdo z lidí, kteří jím spěchají na tramvaj, ví, že prochází bývalým dobytčím trhem.
+
+Pět století tu byl Dobytčí trh a teprve od šedesátých let 19. století se odsud odklízely tržní stánky. V roce 1884 ho městský zahradník František Josef Thomayer, autor řady pražských parků, upravil jako anglický krajinářský park, s cestami, které se vinou místo toho, aby běžely rovně, a se stromy, které směly vyrůst do velka. Mnohé z nich jsou dnes staré a chráněné, mezi nimi velký platan v jižní části.
+
+Park je také galerií národního obrození: mezi stromy stojí busty a sochy básníka Vítězslava Hálka, spisovatelek Karoliny Světlé a Elišky Krásnohorské, fyziologa Jana Evangelisty Purkyně a lovce rostlin Benedikta Roezla a před Novoměstskou radnicí šumí starší barokní kašna se svatým Josefem. 28. října 1968, dva měsíce po sovětské invazi, tu žáci nedaleké školy v Resslově ulici zasadili Lípu republiky; v roce 1972, v nejtužší normalizaci, z ní její tabulku potichu odstranili.
+
+🎁 Bonus: V roce 1972 bylo snazší odšroubovat tabulku než vykopat strom. Lípa nepotřebuje jmenovku, aby věděla, proč ji sázeli.`,
+      zh: `查理广场上的公园是布拉格市中心最大的绿地之一，草坪、弯弯曲曲的小路和老树排成长长一条，躺在一座为牲口修建的广场中间。匆匆穿过它去赶电车的人里，很少有人知道自己正走在一座昔日的牲畜市场上。
+
+整整五个世纪，这里都是牲畜市场，直到19世纪60年代才把摊棚清走。1884年，市政园艺师弗朗蒂舍克·约瑟夫·托迈尔把它改造成英式风景园林，他是布拉格许多公园的设计者：小路弯来绕去，不走直线，树木任其长成大树。如今其中许多已是受保护的老树，包括南部的一棵大悬铃木。
+
+公园也是一座民族复兴的露天画廊：诗人维捷斯拉夫·哈莱克、女作家卡罗利娜·斯韦特拉和埃利什卡·克拉斯诺霍尔斯卡、生理学家浦肯野、植物猎人贝内迪克特·罗兹尔的胸像和雕像立在树丛之间，新城市政厅前面还有一座更古老的巴洛克圣约瑟夫喷泉。1968年10月28日，苏联入侵两个月后，附近雷斯洛瓦街学校的学生在这里种下了一棵共和国椴树；1972年，正值"正常化"最严的时候，它的纪念牌被悄悄拆掉了。
+
+🎁 彩蛋：1972年，拧下一块牌子总比挖走一棵树容易。一棵椴树，不需要名牌也知道自己是为什么被种下的。`,
     },
   },
 ];

@@ -398,7 +398,7 @@ export const PACKS = [
     members: [
       'st-james-apostle', 'kunratice-fortress-1783377528490', 'monument-to-the-legionnaires-fallen-in-the-world-war-1783377752694',
       'rybnik-seberak', 'kunraticky-forest', 'new-castle-ruins-near-kunratice-1783003399902', 'namesti-prezidenta-masaryka-kunratice',
-      'kalvarie-u-tri-svatych',
+      'kalvarie-u-tri-svatych', 'zamecky-park-kunratice',
     ],
   }),
   pack({
@@ -418,6 +418,7 @@ export const PACKS = [
       'zbraslavsky-zamek', 'kostel-svateho-jakuba-vetsiho-zbraslav', 'pomnik-obetem-1-svetove-valky-zbraslav',
       'kostel-svateho-havla-zbraslav', 'karluv-stanek', 'vila-vladislava-vancury', 'ottova-vila-zbraslav',
       'most-zavodu-miru', 'praha-zbraslav-nadrazi', 'zbraslavske-namesti', 'zvonarna-manousek-zbraslav',
+      'storchova-vila', 'klasterni-pivovar-zbraslav', 'myslivna-zbraslav', 'vila-plana-ruze',
     ],
   }),
   pack({
@@ -433,7 +434,7 @@ export const PACKS = [
     members: [
       'porodnice-podoli', 'kostel-svateho-michaela-archandela-podoli', 'podolska-vodarna', 'podol-swimming-stadium-1783209825060',
       'podol-profile-1783209955360', 'zlute-lazne', 'dvorecky-most', 'dormitory-podol-vut-1784077386723', 'nedvedovo-namesti',
-      'televizni-stredisko-kavci-hory',
+      'televizni-stredisko-kavci-hory', 'veslarsky-ostrov', 'podolske-nabrezi',
     ],
   }),
   pack({
@@ -451,6 +452,7 @@ export const PACKS = [
       'barrandovske-skaly', 'barrandovske-terasy', 'filmove-ateliery-barrandov', 'historical-town-backlot-1783281864604',
       'plastika-chaplin-nemy-film', 'barrandov-castle-1783283188320', 'hluboepy-sdlit-barrandov-tramline-1783281425152', 'tramvajova-zastavka-geologicka',
       'tramvajova-zastavka-k-barrandovu', 'barrandovska-vilova-ctvrt', 'kostel-krista-spasitele-barrandov',
+      'pegas-barrandov', 'trnkovo-namesti',
     ],
   }),
   pack({
@@ -468,6 +470,7 @@ export const PACKS = [
     members: [
       'kostel-sv-mikulase-vrsovice', 'vrovice-castle-1782567405263', 'vrsovicka-zalozna', 'husuv-sbor-vrsovice',
       'kostel-sv-vaclava-vrsovice', 'dolicek', 'koh-i-noor', 'praha-vrsovice-nadrazi', 'krymska-ulice',
+      'heroldovy-sady', 'cukrovar-vrsovice',
     ],
   }),
   pack({
@@ -484,7 +487,49 @@ export const PACKS = [
     members: [
       'haje', '-1783379166594', 'cosmonauts-monument-1783380746060', 'chodovska-tvrz',
       'westfield-chodov', 'the-park-chodov', 'narodni-archiv', 'komunitni-centrum-matky-terezy',
-      'zoopark-milicov',
+      'zoopark-milicov', 'hotel-opatov-a-sandra', 'centralni-park-jizniho-mesta',
+    ],
+  }),
+  pack({
+    slug: 'porici',
+    released: '2026-11-16T20:00:00+01:00',
+    name: 'Poříčí',
+    localizedNames: { cz: 'Poříčí', zh: '波日奇' },
+    foil: '#5c4a2e',
+    labels: ['medieval', 'church', 'functionalism', 'historicism'],
+    // The vanished settlement of Poříčí (2026-11-16, user's call): between
+    // Revoluční and Těšnov, from Na Poříčí, both sides of it, up to the river.
+    // The two ministries on the embankment, Hotel Opera and the Museum of the City
+    // of Prague are shared with the Florenc pack. New slug, no one-point card.
+    members: [
+      'kostel-sv-petra-na-porici', 'petrska-vez', 'kostel-sv-klimenta', 'novomlysnska-water-tower',
+      'bila-labut', 'cafe-imperial', 'czechoslovak-legion-bank-palace-archa-1782602584041', 'revolucni',
+      'building-of-ministry-of-transport-1782931759410', 'ministry-of-agriculture-building-1783752679810',
+      'hotel-opera-tesnov', 'city-of-prague-museum',
+      'petrske-namesti', 'delnicka-urazova-pojistovna-na-porici', 'zriceni-domu-na-porici-1928', 'hotel-axa',
+      'kindluv-dum', 'biskupsky-dvur', 'palac-ymca',
+    ],
+  }),
+  pack({
+    slug: 'karlovo-namesti',
+    released: '2026-11-16T22:00:00+01:00',
+    name: 'Charles Square',
+    localizedNames: { cz: 'Karlovo náměstí', zh: '查理广场' },
+    foil: '#2e4f6b',
+    labels: ['square', 'gothic', 'baroque', 'world-wars'],
+    // Charles Square, the old Cattle Market, and what stands right by it
+    // (2026-11-16, user's call): the square from the New Town Hall to the Faust
+    // House, the hospital and the old criminal court at its edges, Resslova down
+    // to Cyril and Methodius and St Wenceslas at Zderaz, and St John on the Rock at
+    // the south end. Emmaus is left out (it belongs with Palacký Square). Took over
+    // the one-point Charles Square card's slug and cover.
+    members: [
+      'novomestska-radnice', 'brauniv-dum', 'kasna-se-sochou-svateho-josefa', 'pomnik-karoliny-svetle',
+      'kostel-sv-ignace', 'budova-byvale-ceske-polytechniky', 'charles-square-center', 'faustuv-dum',
+      'budova-byvaleho-ck-trestniho-soudu', 'vseobecna-fakultni-nemocnice', 'cathedral-cyril-methodius',
+      'kostel-sv-vaclava-na-zderaze', 'kostel-sv-jana-na-skalce',
+      'dvorakuv-dum-zitna', 'jezuitska-kolej-karlovo-namesti', 'pomnik-vitezslava-halka',
+      'pomnik-jana-evangelisty-purkyne', 'park-karlovo-namesti',
     ],
   }),
 ];

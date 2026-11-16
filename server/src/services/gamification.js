@@ -328,6 +328,7 @@ const KAFKA_SLUGS = [
   "kafka-statue",
   "kafka-rotating-head",
   "new-jewish-cemetery-1782861254358",
+  "delnicka-urazova-pojistovna-na-porici",
 ];
 // My Praguers Understand Me: Dvořák, Smetana and Mozart in Prague.
 const MUSIC_SLUGS = [
@@ -1429,9 +1430,9 @@ export const ACHIEVEMENTS = [
     flavor: "One morning you woke up to find yourself transformed into a Kafka fan.",
     flavor_cz: "Jednoho rána jste se probudili a zjistili, že jste se proměnili v obdivovatele Kafky.",
     flavor_zh: "一天早上醒来，你发现自己变成了一个卡夫卡迷。",
-    description: "Check in at these 7 places: Kafka's House, Goltz-Kinský Palace, Golden Lane, Kafka Museum, Franz Kafka Statue, Kafka's Rotating Head (Quadrio) and New Jewish Cemetery.",
-    description_cz: "Přihlaste se na těchto 7 místech: Kafkův dům, Palác Goltz-Kinských, Zlatá ulička, Muzeum Franze Kafky, Socha Franze Kafky, Kafkova točící se hlava a Nový židovský hřbitov.",
-    description_zh: "打卡以下7个地点：卡夫卡故居、戈尔兹-金斯基宫、黄金巷、卡夫卡博物馆、卡夫卡雕像、卡夫卡旋转头像和新犹太公墓。",
+    description: "Check in at these 8 places: Kafka's House, Goltz-Kinský Palace, Golden Lane, Kafka Museum, Franz Kafka Statue, Kafka's Rotating Head (Quadrio), New Jewish Cemetery and the Workers' Accident Insurance Institute on Na Poříčí.",
+    description_cz: "Přihlaste se na těchto 8 místech: Kafkův dům, Palác Goltz-Kinských, Zlatá ulička, Muzeum Franze Kafky, Socha Franze Kafky, Kafkova točící se hlava, Nový židovský hřbitov a Dělnická úrazová pojišťovna Na Poříčí.",
+    description_zh: "打卡以下8个地点：卡夫卡故居、戈尔兹-金斯基宫、黄金巷、卡夫卡博物馆、卡夫卡雕像、卡夫卡旋转头像、新犹太公墓和波日奇街的工人意外保险局。",
     difficulty: "medium",
     check: ({ checkedSlugs }) => KAFKA_SLUGS.every((slug) => checkedSlugs.includes(slug)),
     progress: ({ checkedSlugs }) => ({

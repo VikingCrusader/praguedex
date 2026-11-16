@@ -279,9 +279,21 @@ test.describe('packs among the cards on Explore', () => {
     await page.goto('/explore');
   }
 
-  test('a pack within 100 m of one of its cards goes first, the others stand at their nearest card', async ({ page }) => {
+  test('a pack within 300 m of one of its cards goes first, the others stand at their nearest card', async ({ page }) => {
     await setupMixed(page);
     await expect.poll(() => order(page)).toEqual(['near-pack', 'here', 'in-pack', 'far-pack', 'far-card']);
+  });
+
+  test('a pack goes first up to 300 m from its nearest card, not beyond', async ({ page }) => {
+    await setup(page);
+    // About 250 m and about 400 m north of the player.
+    await page.route('**/api/locations', route => route.fulfill({ json: [card('here', 50.092, ['gothic']), card('at-250', 50.09425, ['park']), card('at-400', 50.0956, ['park'])] }));
+    await page.route('**/api/packs', route => route.fulfill({ json: [
+      { ...SEALED, slug: 'pack-250', memberSlugs: ['at-250'], labels: ['park'] },
+      { ...SEALED, slug: 'pack-400', memberSlugs: ['at-400'], labels: ['park'] },
+    ] }));
+    await page.goto('/explore');
+    await expect.poll(() => order(page)).toEqual(['pack-250', 'here', 'at-250', 'pack-400', 'at-400']);
   });
 
   // 2026-11-16, user's call: a card that can be collected right here comes before
@@ -366,10 +378,10 @@ test.describe('packs close by on a phone', () => {
     const grid = page.locator('.location-grid');
     await expect.poll(() => grid.locator('.loc-card[data-slug], .loc-card[data-pack]').evaluateAll(els => els.map(e => e.dataset.pack || e.dataset.slug)))
       .toEqual(['here', 'in-pack', 'far-card']);
+    // It asks for that pack by its slug (it once sent the whole object, "[object Object]").
+    const asked = page.waitForRequest(r => /\/api\/packs\/[^?]+/.test(r.url()));
     await banner.locator('.near-packs__pack').first().click();
+    expect((await asked).url()).toMatch(/\/api\/packs\/near-pack(\?|$)/);
     await expect(page.locator('.pack-detail')).toBeVisible();
   });
 });
-    // It asks for that pack by its slug (it once sent the whole object, "[object Object]").
-    const asked = page.waitForRequest(r => /\/api\/packs\/[^?]+/.test(r.url()));
-    expect((await asked).url()).toMatch(/\/api\/packs\/near-pack(\?|$)/);

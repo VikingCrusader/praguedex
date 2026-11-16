@@ -3,6 +3,12 @@ import { hasLocationConsent, requestLocationConsent, subscribeToLocationConsent 
 // Explore: a locked card this close to the user starts revealing itself
 // (name, colours, flickering cover; see LocationCard's `nearby`).
 export const NEARBY_REVEAL_M = 100;
+// Explore: a pack this close to any of its cards goes up front (on phones into
+// the banner above the grid). Wider than a card's 100 m (2026-11-16, user's
+// call): in the outer packs (Prokopské Valley, Barrandov, Kunratice, Jižní
+// Město) cards stand 280–380 m apart, so 100 m missed people walking inside
+// them, while in the centre 300 m adds at most one pack anywhere.
+export const NEARBY_PACK_M = 300;
 
 export function formatDistance(m) {
   return m < 1000 ? `${Math.round(m)} m` : `${(m / 1000).toFixed(1)} km`;

@@ -9,7 +9,7 @@ import { viewportRect } from '../../utils/fitPage';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import LabelFilterGroups from './LabelFilterGroups';
 import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, CITY_RARITIES, ALL_RARITIES, withSecret, hasSecretCard } from '../../utils/rarity';
-import { NEARBY_REVEAL_M } from '../../utils/geolocation';
+import { NEARBY_REVEAL_M, NEARBY_PACK_M } from '../../utils/geolocation';
 import { packMatches, nearestPackFirst } from '../../utils/packs';
 import { getLocName } from '../../utils/locName';
 import { firstVisitOrder, featuredPacksFirst, interleavePacks, packsAtTheirCards, packsByRelease } from '../../utils/gridOrder';
@@ -197,12 +197,13 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   // always stand just before the first of their own cards (e.g. while the
   // phone is still waiting for a position, or sorted by rarity). Sorted by
   // newest, the packs stand among the cards by when they were released.
-  // Packs within 100 m, completed ones too (2026-11-16, user's call: left out at
+  // Packs within 300 m of any of their cards (NEARBY_PACK_M; 100 m until later
+  // on 2026-11-16), completed ones too (2026-11-16, user's call: left out at
   // first, put back once the phone banner made them cost no room). On phones and
   // other screens without the side column they leave the grid for a one-line
   // banner above it (`nearPacksAsBanner`), so the first row stays free for cards
   // to collect.
-  const isNearPack = p => p._distance != null && p._distance <= NEARBY_REVEAL_M;
+  const isNearPack = p => p._distance != null && p._distance <= NEARBY_PACK_M;
   const nearPacks = useMemo(
     () => (packsOnly || discovered || treasureOnly || activeRarities.size > 0 ? [] : shownPacks.filter(isNearPack)),
     [packsOnly, discovered, treasureOnly, activeRarities, shownPacks],

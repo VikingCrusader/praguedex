@@ -506,7 +506,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
         <div className={`near-packs${nearPacks.length >= 3 ? ' near-packs--many' : ''}`}>
           <span className="near-packs__label">{convert(t('pack.nearby'))}</span>
           {nearPacks.map(p => (
-            <button type="button" key={p.slug} className="detail-packs__pack near-packs__pack" style={{ '--foil': p.foil }} onClick={() => onPackClick?.(p)}>
+            <button type="button" key={p.slug} className="detail-packs__pack near-packs__pack" style={{ '--foil': p.foil }} onClick={() => onPackClick?.(p.slug)}>
               <span className="near-packs__name">{convert(getLocName(p, lang))}</span>
               <span className="near-packs__count">{p.collected ?? 0}/{p.total}</span>
             </button>

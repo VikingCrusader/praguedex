@@ -370,3 +370,6 @@ test.describe('packs close by on a phone', () => {
     await expect(page.locator('.pack-detail')).toBeVisible();
   });
 });
+    // It asks for that pack by its slug (it once sent the whole object, "[object Object]").
+    const asked = page.waitForRequest(r => /\/api\/packs\/[^?]+/.test(r.url()));
+    expect((await asked).url()).toMatch(/\/api\/packs\/near-pack(\?|$)/);

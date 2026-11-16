@@ -91,7 +91,7 @@ export const CONTENT = {
     ],
     collectCheck: "Whichever way you choose, the server checks your real GPS position, and you have to be within 100 m. If you aren't, you get an error and the strong implication that you are not where you said you were. If you are, the card flips open, the XP lands and any achievements you've earned pop up. The location stays open so you can start reading straight away; close it whenever you're done.",
     collectPermanent: "Collections are permanent. There is no undo button. You were there, and the archive remembers.",
-    lockedTitle: "Locked and Unlocked",
+    lockedTitle: "Unlock the Story",
     locked: [
       { b: "Locked:", rest: " you get the opening paragraph of the story and not a word more. After that, the archive politely declines to say anything further until you show up in person. Less a spoiler policy, more a very effective extortion mechanism." },
       { b: "The lock is a signpost:", rest: " tap the big lock on a locked location's cover and Google Maps opens with directions straight to it. Install Google Maps on your phone so it opens in the app instead of a browser tab." },
@@ -239,7 +239,7 @@ export const CONTENT = {
     ],
     collectCheck: "Ať zvolíš kteroukoli cestu, server zkontroluje tvou skutečnou polohu z GPS a musíš být do 100 m. Pokud nejsi, dostaneš chybu a silný náznak, že nejsi tam, kde tvrdíš. Pokud jsi, karta se otočí, XP přistanou a vyskočí případné nové úspěchy. Detail místa zůstane otevřený, abys mohl hned začít číst; zavřeš ho, až budeš chtít.",
     collectPermanent: "Sesbírané je navždy. Tlačítko Zpět neexistuje. Byl jsi tam a archiv si to pamatuje.",
-    lockedTitle: "Zamčené a odemčené",
+    lockedTitle: "Odemkni příběh",
     locked: [
       { b: "Zamčené:", rest: " dostaneš úvodní odstavec příběhu a ani slovo navíc. Pak archiv zdvořile odmítne cokoli prozradit, dokud se nedostavíš osobně. Méně ochrana proti spoilerům, víc velmi účinné vydírání." },
       { b: "Zámek je rozcestník:", rest: " klepni na velký zámek na obrázku zamčeného místa a otevřou se Mapy Google s navigací přímo k němu. Nainstaluj si do telefonu Mapy Google, ať se otevřou v aplikaci, a ne v záložce prohlížeče." },
@@ -387,7 +387,7 @@ export const CONTENT = {
     ],
     collectCheck: "不管用哪种方式，服务器都会核对你的真实GPS位置，你必须在100米以内。如果不在，你会收到一条错误提示，以及「你并不在你声称的地方」的强烈暗示。如果在，卡片翻开，经验值到账，新解锁的成就也会弹出来。详情页会一直开着，方便你立刻开始阅读，看完了自己关掉就行。",
     collectPermanent: "打卡是永久的，没有撤销按钮。你去过了，档案会记住。",
-    lockedTitle: "上锁与解锁",
+    lockedTitle: "解锁故事",
     locked: [
       { b: "上锁时：", rest: "你只能看到故事的第一段，多一个字都没有。之后档案会礼貌地拒绝透露更多，直到你亲自到场。与其说是防剧透，不如说是一种非常有效的勒索手段。" },
       { b: "锁头就是路标：", rest: "点一下上锁地点封面上的大锁头，谷歌地图就会打开，直接导航到那里。记得在手机上装好谷歌地图，这样会直接在应用里打开，而不是开一个浏览器标签页。" },

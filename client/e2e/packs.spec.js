@@ -284,6 +284,24 @@ test.describe('packs among the cards on Explore', () => {
     await expect.poll(() => order(page)).toEqual(['near-pack', 'here', 'in-pack', 'far-pack', 'far-card']);
   });
 
+  // 2026-11-16, user's call: a card that can be collected right here comes before
+  // the packs around it, and a completed pack no longer jumps the queue.
+  test('a locked card within 100 m leads, before the pack around it', async ({ page }) => {
+    await setup(page);
+    await page.route('**/api/locations', route => route.fulfill({ json: [card('far-card', 50.12, ['park']), card('in-pack', 50.0928, ['park']), { ...card('here', 50.092, ['gothic']), unlocked: false }] }));
+    await page.route('**/api/packs', route => route.fulfill({ json: [{ ...SEALED, slug: 'near-pack', memberSlugs: ['in-pack'], labels: ['gothic'] }] }));
+    await page.goto('/explore');
+    await expect.poll(() => order(page)).toEqual(['here', 'near-pack', 'in-pack', 'far-card']);
+  });
+
+  test('a completed pack close by stays at its nearest card', async ({ page }) => {
+    await setup(page);
+    await page.route('**/api/locations', route => route.fulfill({ json: [card('far-card', 50.12, ['park']), card('in-pack', 50.0928, ['park']), card('here', 50.092, ['gothic'])] }));
+    await page.route('**/api/packs', route => route.fulfill({ json: [{ ...DONE, slug: 'done-pack', memberSlugs: ['in-pack'] }] }));
+    await page.goto('/explore');
+    await expect.poll(() => order(page)).toEqual(['here', 'done-pack', 'in-pack', 'far-card']);
+  });
+
   test('sorted by newest, the packs go in release order among the cards, not the famous ones first', async ({ page }) => {
     await setup(page);
     const dated = (slug, createdAt) => ({ ...card(slug, 50.12, ['park']), createdAt });
@@ -324,5 +342,31 @@ test.describe('packs among the cards on Explore', () => {
     await page.locator('.filter-btn', { hasText: 'Rarity' }).click();
     await page.locator('.label-filter__panel .label-pill', { hasText: 'Epic' }).click();
     await expect.poll(() => order(page)).toEqual(['here']);
+  });
+});
+
+// 2026-11-16, user's call: without the side column (phones) a pack close by
+// leaves the first row for a one-line banner above the grid.
+test.describe('packs close by on a phone', () => {
+  test.use({ viewport: { width: 412, height: 900 }, permissions: ['geolocation'], geolocation: { latitude: 50.092, longitude: 14.404 } });
+  const card = (slug, lat, extra = {}) => ({ ...LOC, _id: slug, slug, name: slug, coordinates: { lat, lng: 14.404 }, ...extra });
+
+  test('a pack close by sits in the banner, not in the grid, and opens from there', async ({ page }) => {
+    await setup(page);
+    await page.route('**/api/locations', route => route.fulfill({ json: [card('in-pack', 50.0928), card('here', 50.092, { unlocked: false }), card('far-card', 50.12)] }));
+    await page.route('**/api/packs', route => route.fulfill({ json: [
+      { ...SEALED, slug: 'near-pack', memberSlugs: ['in-pack'] },
+      { ...DONE, slug: 'done-pack', memberSlugs: ['in-pack'] },
+    ] }));
+    await page.goto('/explore');
+    const banner = page.locator('.near-packs');
+    await expect(banner.locator('.near-packs__pack')).toHaveCount(1);
+    await expect(banner).toContainText('Prague Castle');
+    await expect(banner).toContainText('1/29');
+    const grid = page.locator('.location-grid');
+    await expect.poll(() => grid.locator('.loc-card[data-slug], .loc-card[data-pack]').evaluateAll(els => els.map(e => e.dataset.pack || e.dataset.slug)))
+      .toEqual(['here', 'done-pack', 'in-pack', 'far-card']);
+    await banner.locator('.near-packs__pack').click();
+    await expect(page.locator('.pack-detail')).toBeVisible();
   });
 });

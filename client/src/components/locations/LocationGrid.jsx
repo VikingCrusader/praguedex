@@ -11,6 +11,7 @@ import LabelFilterGroups from './LabelFilterGroups';
 import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, CITY_RARITIES, ALL_RARITIES, withSecret, hasSecretCard } from '../../utils/rarity';
 import { NEARBY_REVEAL_M } from '../../utils/geolocation';
 import { packMatches, nearestPackFirst } from '../../utils/packs';
+import { getLocName } from '../../utils/locName';
 import { firstVisitOrder, featuredPacksFirst, interleavePacks, packsAtTheirCards, packsByRelease } from '../../utils/gridOrder';
 
 // Expedition sorts first (it pays 60-300 XP), highest XP first among them.
@@ -34,7 +35,7 @@ let firstScreenCards = 40;
 // for the filters that are on into `appliedSlot`.
 // `initialFilter` ({ rarity, label }) opens the grid already filtered, e.g. on
 // Expedition from the nudge on the profile's empty expedition strip.
-export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange, onRarityChange, onPacksChange, initialFilter, wide = false, fitRows = 0, filterSlot = null, appliedSlot = null, exitSlot = null, loadTreasures = null, renderApplied, onCountChange, filtersFolded = false, onToggleFilters, filterExtraCount = 0, onClearFilters, onViewFilters, onFilterCount, toolbarExtra = null, packs = [], onPackClick, areaChosen = false, signedIn = false }) {
+export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange, onRarityChange, onPacksChange, initialFilter, wide = false, fitRows = 0, filterSlot = null, appliedSlot = null, exitSlot = null, loadTreasures = null, renderApplied, onCountChange, filtersFolded = false, onToggleFilters, filterExtraCount = 0, onClearFilters, onViewFilters, onFilterCount, toolbarExtra = null, packs = [], onPackClick, areaChosen = false, signedIn = false, nearPacksAsBanner = false }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -196,23 +197,37 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   // always stand just before the first of their own cards (e.g. while the
   // phone is still waiting for a position, or sorted by rarity). Sorted by
   // newest, the packs stand among the cards by when they were released.
+  // Packs within 100 m that still have something to collect (2026-11-16, user's
+  // call: a completed pack doesn't jump the queue). On phones and other screens
+  // without the side column they leave the grid for a one-line banner above it
+  // (`nearPacksAsBanner`), so the first row stays free for cards to collect.
+  const isNearPack = p => !p.completed && p._distance != null && p._distance <= NEARBY_REVEAL_M;
+  const nearPacks = useMemo(
+    () => (packsOnly || discovered || treasureOnly || activeRarities.size > 0 ? [] : shownPacks.filter(isNearPack)),
+    [packsOnly, discovered, treasureOnly, activeRarities, shownPacks],
+  );
   const gridItems = useMemo(() => {
     if (packsOnly) return shownPacks;
     if (discovered || treasureOnly || activeRarities.size > 0) return filtered;
-    const isNear = p => p._distance != null && p._distance <= NEARBY_REVEAL_M;
-    const near = shownPacks.filter(isNear);
-    const rest = shownPacks.filter(p => !isNear(p));
-    if (sort === 'distance' && filtered.some(l => l._distance != null)) {
-      return [...near, ...[...rest, ...filtered].sort((a, b) => (a._distance ?? Infinity) - (b._distance ?? Infinity))];
-    }
+    const near = nearPacksAsBanner ? [] : nearPacks;
+    const rest = shownPacks.filter(p => !nearPacks.includes(p));
     // Packs have no rarity, so sorted by rarity they all go to the bottom, after common (2026-11-11, user's call).
-    if (sort === 'rarity') return [...filtered, ...shownPacks];
-    if (sort === 'newest') return [...near, ...packsByRelease(rest, filtered)];
+    if (sort === 'rarity') return [...filtered, ...(nearPacksAsBanner ? rest : shownPacks)];
+    // Cards that can be collected right here (locked, within 100 m) lead, then
+    // the packs around them, then everything else in the chosen order.
+    const isNearCard = l => !l.unlocked && l._distance != null && l._distance <= NEARBY_REVEAL_M;
+    const nearCards = filtered.filter(isNearCard).sort((a, b) => a._distance - b._distance);
+    const cards = nearCards.length ? filtered.filter(l => !isNearCard(l)) : filtered;
+    const lead = [...nearCards, ...near];
+    if (sort === 'distance' && filtered.some(l => l._distance != null)) {
+      return [...lead, ...[...rest, ...cards].sort((a, b) => (a._distance ?? Infinity) - (b._distance ?? Infinity))];
+    }
+    if (sort === 'newest') return [...lead, ...packsByRelease(rest, cards)];
     // With a position known, or for a signed-in player, the hand-picked spread never applies.
-    if (signedIn || filtered.some(l => l._distance != null)) return [...near, ...packsAtTheirCards(rest, filtered)];
+    if (signedIn || filtered.some(l => l._distance != null)) return [...lead, ...packsAtTheirCards(rest, cards)];
     const narrowed = deferredSearch.trim() || activeLabels.size > 0 || areaChosen;
-    return [...near, ...(narrowed ? [...rest, ...filtered] : interleavePacks(featuredPacksFirst(rest), filtered))];
-  }, [packsOnly, shownPacks, discovered, treasureOnly, activeRarities, filtered, sort, deferredSearch, activeLabels, areaChosen, signedIn]);
+    return [...lead, ...(narrowed ? [...rest, ...cards] : interleavePacks(featuredPacksFirst(rest), cards))];
+  }, [packsOnly, shownPacks, nearPacks, nearPacksAsBanner, discovered, treasureOnly, activeRarities, filtered, sort, deferredSearch, activeLabels, areaChosen, signedIn]);
 
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
@@ -486,6 +501,16 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
         </div>
       </div>
 
+      {nearPacksAsBanner && nearPacks.length > 0 && (
+        <div className="near-packs">
+          <span className="near-packs__label">{convert(t('pack.nearby'))}</span>
+          {nearPacks.map(p => (
+            <button type="button" key={p.slug} className="detail-packs__pack near-packs__pack" style={{ '--foil': p.foil }} onClick={() => onPackClick?.(p)}>
+              {convert(getLocName(p, lang))} <span className="near-packs__count">{p.collected ?? 0}/{p.total}</span>
+            </button>
+          ))}
+        </div>
+      )}
       <div ref={gridRef} className="location-grid" {...previewHandlers}>
         {gridItems.slice(0, mountCount).map(item => (item.coordinates ? (
           <LocationCard

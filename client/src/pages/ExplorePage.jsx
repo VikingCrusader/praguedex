@@ -540,6 +540,7 @@ export default function ExplorePage() {
       onFilterCount={setFilterCount}
       packs={gridPacks}
       onPackClick={setOpenPack}
+      nearPacksAsBanner={!wide}
       areaChosen={!!area}
       signedIn={!!user}
       onClearFilters={() => { setCityOnly(true); setArea(null); }}

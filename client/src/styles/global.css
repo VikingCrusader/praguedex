@@ -1212,6 +1212,15 @@ html:not([data-lang="zh"]) :is(#root, body) .hunt-page .hunt-title { font-size: 
   html:not([data-lang="zh"]) .dashboard-head { flex-wrap: wrap !important; }
   html:not([data-lang="zh"]) .dashboard-title { flex: 1 1 100%; font-size: 30px !important; word-break: normal; overflow-wrap: normal; }
 }
+/* Phones, every language: the profile's buttons (Ranking, Privacy, Settings, Logout) share one row. */
+@media (max-width: 600px) {
+  .dashboard-head { flex-wrap: wrap !important; }
+  .dashboard-head .dashboard-actions { flex: 1 1 100% !important; flex-wrap: nowrap !important; gap: 5px !important; }
+  .dashboard-head .dashboard-actions > .px-btn {
+    flex: 1 1 auto; min-width: 0; padding: 7px 2px; text-align: center;
+    font-size: 11px !important; letter-spacing: 0 !important; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+}
 /* The sort button stays on one line beside the wider count. */
 html:not([data-lang="zh"]) .explore-page .explore-sortbar > .label-filter { flex: none; }
 html:not([data-lang="zh"]) .explore-page .explore-sortbar .filter-btn { white-space: nowrap; }

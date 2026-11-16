@@ -46,7 +46,7 @@ export default function DashboardPage() {
         {/* On phones logout lives here (on desktop in the navbar since 2026-11-08), and so
             do the ways to the Privacy page (location consent) and, since
             2026-11-02, the leaderboard. */}
-        <div style={{ display: 'flex', gap: 8, flex: '0 1 auto', minWidth: 0, flexWrap: 'wrap', justifyContent: 'flex-end' }}>
+        <div className="dashboard-actions" style={{ display: 'flex', gap: 8, flex: '0 1 auto', minWidth: 0, flexWrap: 'wrap', justifyContent: 'flex-end' }}>
           {user && <Link to="/leaderboard" className="px-btn px-btn--dark px-btn--sm">{t('nav.leaderboard')}</Link>}
           <Link to="/privacy" className="px-btn px-btn--dark px-btn--sm">{t('privacy.title')}</Link>
           <button type="button" className="px-btn px-btn--dark px-btn--sm dashboard-settings" onClick={() => setSettingsOpen(true)}>{convert(t('settings.title'))}</button>

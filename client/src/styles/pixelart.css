@@ -3556,7 +3556,9 @@ html[data-lang="zh"] .detail-title-name {
     box-sizing: border-box;
     box-shadow: none;
   }
-  .location-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  /* minmax(0, 1fr): a plain 1fr can't shrink below its content, so one wide card
+     (a pack) made its whole column wider than the other. */
+  .location-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
   .loc-card__name { font-size: 15px; }
   .loc-card__cz-name { font-size: 10px; }
   /* Desktop's 16px (global.css, EN/CZ) was overflowing/getting cut off

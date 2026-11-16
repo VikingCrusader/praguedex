@@ -41,7 +41,7 @@
 .hunt-page--board { padding: 20px 24px; overflow: hidden; }
 .hunt-board {
   display: grid;
-  grid-template-columns: minmax(250px, 340px) minmax(420px, 1fr) minmax(300px, 400px);
+  grid-template-columns: minmax(300px, 380px) minmax(480px, 1fr) minmax(300px, 400px);
   justify-content: center;
   gap: 32px;
   max-width: 1600px;
@@ -63,14 +63,21 @@
    user's call: filling the height looked crammed). The card is sized from the
    height but kept well short of it, and the whole column sits centred
    vertically (auto margins, so a column too tall still scrolls from the top). */
-.hunt-col--mid {
+.hunt-col--play {
   align-items: center;
   gap: 22px;
   --hunt-card-w: clamp(160px, calc((100dvh - var(--navbar-h, 60px) - 640px) * 0.706), 320px);
 }
-.hunt-col--mid > :first-child { margin-top: auto; }
-.hunt-col--mid > :last-child { margin-bottom: auto; }
-.hunt-col--mid .hunt-status { width: 100%; }
+.hunt-col--play > :first-child { margin-top: auto; }
+.hunt-col--play:has(.hunt-art) { --hunt-card-w: clamp(150px, calc((100dvh - var(--navbar-h, 60px) - 900px) * 0.706), 240px); }
+/* The comic column: the six panels shrink with the window's height, so two
+   rows always fit (the board never scrolls on a 2K screen). */
+.hunt-col--comic { --comic-reserve: 545px; }
+.hunt-col--comic .hunt-comic { width: 100%; max-width: max(520px, calc((100dvh - var(--navbar-h, 60px) - var(--comic-reserve)) * 1.5 + 28px)); margin-inline: auto; }
+/* Below that (short laptop windows) the column scrolls, as it may below 2K. */
+.hunt-art { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border: 2px solid var(--border); box-shadow: 3px 3px 0 var(--shadow); }
+.hunt-col--play > :last-child { margin-bottom: auto; }
+.hunt-col--play .hunt-status { width: 100%; }
 .hunt-panel--split {
   max-width: 480px;
   padding: 0;
@@ -82,10 +89,12 @@
 .hunt-panel--split .hunt-panel__distance { font-size: 22px; }
 .hunt-panel--split .hunt-panel__actions { gap: 12px; }
 .hunt-panel--split .px-btn--lg { min-width: 240px; font-size: 19px; padding: 12px 32px; }
+/* With a min-width the label must be centred, or it sits left (px-btn is a flex row). */
+.hunt-page .px-btn--lg { justify-content: center; }
 .hunt-panel--split .hunt-panel__head { margin-top: 14px; }
 /* Outside the board the buttons stand apart from the panel, between the card and it. */
 .hunt-panel-actions { width: 100%; max-width: 440px; }
-.hunt-col--left .hunt-short { display: flex; flex-direction: column; gap: 10px; }
+.hunt-col--comic .hunt-short { display: flex; flex-direction: column; gap: 10px; }
 .hunt-lead {
   margin: 0;
   padding: 12px 16px;
@@ -100,10 +109,10 @@
 .hunt-short__steps { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
 .hunt-short__steps .guide-step { margin: 0; }
 .hunt-short__steps .guide-body { margin: 0; }
-.hunt-short__links { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; margin-top: 4px; }
+.hunt-short__links { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px; margin-top: 4px; }
 .hunt-short__links .hunt-practice-link { margin: 0; max-width: 100%; white-space: normal; text-align: left; }
-.hunt-col--left .hunt-finds-box { margin-top: 10px; }
-.hunt-col--left .hunt-finds-box__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.hunt-col--comic .hunt-finds-box { margin-top: 10px; }
+.hunt-col--comic .hunt-finds-box__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .hunt-col--right { gap: 16px; }
 .hunt-col--right .hunt-table-wrap { margin: 0; }
 .hunt-clues { display: flex; flex-direction: column; gap: 12px; }
@@ -116,20 +125,26 @@
 @media (min-width: 2400px) and (min-height: 1200px) {
   .hunt-page--board { padding: 32px 48px; }
   .hunt-board {
-    grid-template-columns: 480px minmax(0, 1fr) 540px;
+    grid-template-columns: 500px minmax(0, 1fr) 540px;
     gap: 64px;
     max-width: 2300px;
     height: calc(100vh - var(--navbar-h, 60px) - 64px);
     height: calc(100dvh - var(--navbar-h, 60px) - 64px);
   }
   .hunt-col { gap: 22px; }
-  .hunt-col--mid { gap: 32px; --hunt-card-w: clamp(260px, calc((100dvh - var(--navbar-h, 60px) - 760px) * 0.706), 400px); }
+  .hunt-col--play { gap: 32px; --hunt-card-w: clamp(260px, calc((100dvh - var(--navbar-h, 60px) - 760px) * 0.706), 400px); }
+  /* With the map picture above it (before a hunt) the card is smaller. */
+  .hunt-col--play:has(.hunt-art) { gap: 24px; --hunt-card-w: clamp(220px, calc((100dvh - var(--navbar-h, 60px) - 1100px) * 0.706), 280px); }
   :is(#root, body) .hunt-page .hunt-title { font-size: 46px !important; }
   :is(#root, body) .hunt-page .hunt-tagline { font-size: 22px !important; }
   :is(#root, body) .hunt-page .guide-body { font-size: 20px !important; line-height: 1.65 !important; }
   :is(#root, body) .hunt-page .hunt-lead { font-size: 18px !important; }
   .hunt-lead { padding: 16px 20px; }
-  .hunt-col--left { gap: 18px; }
+  :is(#root, body) .hunt-page .hunt-comic__lead { font-size: 18px !important; padding: 16px 20px; }
+  :is(#root, body) .hunt-page .hunt-comic__text { font-size: 15px !important; line-height: 1.45 !important; }
+  .hunt-col--comic { --comic-reserve: 600px; }
+  :is(#root, body) .hunt-page .hunt-comic__dist { font-size: 15px !important; }
+  .hunt-col--comic { gap: 18px; }
   :is(#root, body) .hunt-page .guide-h2 { font-size: 26px !important; }
   :is(#root, body) .hunt-page .hunt-table { font-size: 18px !important; }
   .hunt-page .hunt-table th, .hunt-page .hunt-table td { padding: 9px 12px; }
@@ -180,9 +195,9 @@
   .hunt-page .hunt-finds-box__stat { min-height: 80px; }
   :is(#root, body) .hunt-page .hunt-finds-box__stat strong { font-size: 28px !important; }
   :is(#root, body) .hunt-page .hunt-finds-box__stat span { font-size: 15px !important; }
-  .hunt-col--left .hunt-finds-box__grid { gap: 16px 14px; }
-  :is(#root, body) .hunt-col--left .card-strip__name { font-size: 15px !important; }
-  :is(#root, body) .hunt-col--left .card-strip__meta { font-size: 13px !important; }
+  .hunt-col--comic .hunt-finds-box__grid { gap: 16px 14px; }
+  :is(#root, body) .hunt-col--comic .card-strip__name { font-size: 15px !important; }
+  :is(#root, body) .hunt-col--comic .card-strip__meta { font-size: 13px !important; }
 }
 
 /* ── Stack and phone ───────────────────────────────────────────────────── */
@@ -329,6 +344,7 @@
 /* ── Windows (HuntRulesWindow) ─────────────────────────────────────────── */
 .hunt-window { width: min(720px, calc(100vw - 32px)); max-width: none; }
 .hunt-window--wide { width: min(900px, calc(100vw - 32px)); }
+.hunt-window .hunt-comic__lead { margin-right: 44px; }
 .hunt-window__scroll { max-height: min(78vh, 900px); overflow-y: auto; padding-right: 4px; }
 .hunt-window .hunt-table-wrap { margin-left: 0; }
 

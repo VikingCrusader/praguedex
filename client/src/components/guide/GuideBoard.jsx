@@ -21,6 +21,7 @@ import InstallDemo from './InstallDemo';
 import LockedDemo, { LOCKED_SLUG } from './LockedDemo';
 import AchDemo from './AchDemo';
 import PacksDemo from './PacksDemo';
+import HuntComic from '../draw/HuntComic';
 import ScreensTour, { GoTo } from './ScreensTour';
 import AreasDemo from './AreasDemo';
 import ExpeditionDemo from './ExpeditionDemo';
@@ -247,6 +248,7 @@ function SectionText({ k, c, onOpenTile, onClose }) {
       <p className="guide-body">{c.xpOutro}</p>
     </>;
     case 'hunt': return <>
+      <HuntComic />
       <p className="guide-body">{c.draw}</p>
       <h3 className="guide-h3">{c.tripleTitle}</h3>
       <p className="guide-body">{c.triple}</p>

@@ -245,13 +245,13 @@ test.describe('Treasure hunt', () => {
     await expect(page.locator('.hunt-panel__distance')).toHaveText('Very close: under 500 m, but more than 300 m.');
   });
 
-  test('past finds sit in the left column with their figures, and open their card', async ({ page }) => {
+  test('past finds sit in the right column with their figures, and open their card', async ({ page }) => {
     await loginAsUser(page);
     await page.route(DRAW_RE, route => route.fulfill({ json: { active: false, canDraw: true, location: null } }));
     const found = { ...TARGET, unlocked: true, _guessAttempt: 1, _xpEarned: 100, _checkedInAt: '2026-01-01T00:00:00.000Z' };
     await page.route('**/api/user/treasures', route => route.fulfill({ json: [found] }));
     await page.goto('/treasure-hunt');
-    const box = page.locator('.hunt-col--left .hunt-finds-box');
+    const box = page.locator('.hunt-col--right .hunt-finds-box');
     await expect(box.locator('.hunt-finds-box__stat strong')).toHaveText(['1', '5×', '1']);
     await page.route('**/api/locations/tyn-church', route => route.fulfill({
       json: { ...found, description: { en: 'A church.' }, checkedInAt: '2026-01-01T00:00:00.000Z', guessAttempt: 1, xpEarned: 100 },
@@ -267,19 +267,20 @@ test.describe('Treasure hunt', () => {
       json: active({ hunt: hunt({ multiplier: 3, riverSide: 'oldTown', district: 'Praha 1', quarter: 'Staré Město', nextClue: 'rarityOrLabel', misses: [{ direction: 'S' }] }) }),
     }));
     await page.goto('/treasure-hunt');
-    await expect(page.locator('.hunt-col--mid .hunt-panel')).toBeVisible();
-    await expect(page.locator('.hunt-col--mid .hunt-stage')).toBeVisible();
-    await expect(page.locator('.hunt-col--mid').getByRole('button', { name: "It's here!" })).toBeVisible();
+    await expect(page.locator('.hunt-col--play .hunt-panel')).toBeVisible();
+    await expect(page.locator('.hunt-col--play .hunt-stage')).toBeVisible();
+    await expect(page.locator('.hunt-col--play').getByRole('button', { name: "It's here!" })).toBeVisible();
     // The clue track sits in the right column, above the map.
     await expect(page.locator('.hunt-col--right .hunt-track__row')).toHaveCount(5);
-    await expect(page.locator('.hunt-col--mid .hunt-track')).toHaveCount(0);
+    await expect(page.locator('.hunt-col--play .hunt-track')).toHaveCount(0);
     await expect(page.locator('.hunt-col--right .hunt-map__quarter.is-lit')).toHaveCount(1);
     await expect(page.locator('.hunt-map__caption')).toContainText('Prague 1');
     await expect(page.locator('.hunt-compass .hunt-compass__arrow')).toHaveCount(1);
     const scroll = await page.evaluate(() => document.scrollingElement.scrollHeight - window.innerHeight);
     expect(scroll).toBeLessThanOrEqual(1);
-    // A short how to play on the left; the full rules open in a window.
-    await expect(page.locator('.hunt-col--left .hunt-short__steps > li')).toHaveCount(4);
+    // How to play on the left is the six-picture comic, all six spread out
+    // (2026-11-16); the full rules open in a window.
+    await expect(page.locator('.hunt-col--comic .hunt-comic--grid .hunt-comic__panel')).toHaveCount(6);
     await expect(page.locator('.guide-h2', { hasText: 'The Rules' })).toHaveCount(0);
     await page.getByRole('button', { name: 'Full rules' }).click();
     await expect(page.locator('.hunt-window .guide-h2', { hasText: 'The Rules' })).toHaveCount(1);
@@ -353,8 +354,9 @@ test.describe('Treasure hunt', () => {
 
         state = active({ hunt: hunt({ multiplier: 3, riverSide: 'oldTown', district: 'Praha 1', quarter: 'Staré Město', nextClue: 'rarityOrLabel', presses: 2, misses: [{ direction: 'S' }, { direction: 'N' }] }) });
         await page.reload();
-        await expect(page.locator('.hunt-col--mid .hunt-panel')).toBeVisible();
-        await expect(page.locator('.hunt-finds-box__stat strong').first()).toHaveText('7');
+        await expect(page.locator('.hunt-col--play .hunt-panel')).toBeVisible();
+        // During a hunt the board leaves the finds out (2026-11-16): the clue track needs the room.
+        await expect(page.locator('.hunt-board .hunt-finds-box')).toHaveCount(0);
         expect(await overflow(page)).toEqual([0, 0, 0, 0]);
         await page.locator('.hunt-panel .px-btn--lg').click();
         await expect(page.locator('.hunt-panel__confirm')).toBeVisible();

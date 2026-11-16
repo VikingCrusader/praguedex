@@ -14,6 +14,7 @@ import DeckShuffle, { SHUFFLE_MS, prefersReducedMotion } from '../components/dra
 import HuntMap from '../components/draw/HuntMap';
 import HuntFinds from '../components/draw/HuntFinds';
 import HuntRulesWindow from '../components/draw/HuntRulesWindow';
+import HuntComic from '../components/draw/HuntComic';
 import { CardThumb } from '../components/dashboard/RecentCardStrip';
 import { unlockAudio, playShuffleSound, playClueSound, playMissSound, playHuntWinSound, HUNT_WIN_SOUND_MS } from '../utils/sound';
 import { formatCountdown } from '../utils/formatCountdown';
@@ -328,13 +329,6 @@ export default function TreasureHuntPage() {
     </div>
   );
 
-  const introSection = (
-    <section className="guide-section hunt-intro">
-      {/* A walk through a hunt, in more detail since the challenge box
-          above it went (2026-11-10, user's call). */}
-      {t('draw.huntIntro').split('\n\n').map((para, i) => <p key={i} className="guide-body">{para}</p>)}
-    </section>
-  );
   const rulesSection = (
     <section className="guide-section">
       <h2 className="guide-h2">{t('draw.rulesTitle')}</h2>
@@ -459,7 +453,10 @@ export default function TreasureHuntPage() {
   // rule 3), always on the page, never folded away (2026-11-14, user's call).
   const howToPlay = (
     <div className="hunt-howto">
-      {introSection}
+      {/* The hunt in six pictures first (2026-11-16, user's idea); it took the
+          place of the walk-through (draw.huntIntro), which told
+          the same story in three paragraphs and opened with the lead's joke. */}
+      <HuntComic />
       {rulesSection}
     </div>
   );
@@ -468,20 +465,18 @@ export default function TreasureHuntPage() {
   // in a window, and the finds.
   const shortHowTo = (
     <section className="hunt-short">
-      <h2 className="guide-h2 hunt-short__title">{t('draw.howToPlay')}</h2>
-      <ol className="hunt-short__steps">
-        {[1, 2, 3, 4].map(n => (
-          <li key={n} className="guide-step">
-            <span className="guide-step-num">{n}</span>
-            <p className="guide-body">{t(`draw.huntStep${n}`)}</p>
-          </li>
-        ))}
-      </ol>
-      <div className="hunt-short__links">
-        <button type="button" className="px-btn" onClick={() => setSheet('rules')}>{t('draw.fullRules')}</button>
-        <Link to="/guide?open=hunt" className="px-btn hunt-practice-link">{t('draw.practiceLink')} →</Link>
-      </div>
+      {/* How to play as the six-picture comic, all six spread out, after the
+          lead (2026-11-16, user's call: the page looked empty); it replaced
+          the four short steps (draw.huntStep1-4). */}
+      <HuntComic cols={3} title={false} />
     </section>
+  );
+  // The full rules and the practice hunt, under the card's button on the board.
+  const huntLinks = (
+    <div className="hunt-short__links">
+      <button type="button" className="px-btn" onClick={() => setSheet('rules')}>{t('draw.fullRules')}</button>
+      <Link to="/guide?open=hunt" className="px-btn hunt-practice-link">{t('draw.practiceLink')} →</Link>
+    </div>
   );
   // The board's right column: the clues. During a hunt the panel puts its
   // live clue track here (trackTarget); otherwise the table of the clues.
@@ -490,28 +485,33 @@ export default function TreasureHuntPage() {
   let body;
   if (loading) {
     body = layout === 'board'
-      ? <div className="hunt-board"><div className="hunt-col hunt-col--left"><div className="hunt-skel__panel hunt-skeleton" /></div><div className="hunt-col hunt-col--mid">{header}<HuntSkeleton /></div><div className="hunt-col hunt-col--right"><div className="hunt-map hunt-map--loading" /></div></div>
+      ? <div className="hunt-board"><div className="hunt-col hunt-col--play"><HuntSkeleton /></div><div className="hunt-col hunt-col--comic">{header}<div className="hunt-skel__panel hunt-skeleton" /></div><div className="hunt-col hunt-col--right"><div className="hunt-map hunt-map--loading" /></div></div>
       : <div className="hunt-stack">{header}<HuntSkeleton /></div>;
   } else if (layout === 'board') {
     body = (
       <div className="hunt-board">
-        <div className="hunt-col hunt-col--left">
-          {/* A short lead in gold in a box, above how to play: the walk-through's
-              jokes without what the steps repeat (2026-11-14, user's call). */}
-          <p className="hunt-lead">{t('draw.huntLead')}</p>
-          {shortHowTo}
-          {findsBox({ limit: BOARD_FINDS, onSeeAll: () => setSheet('finds') })}
-        </div>
-        <div className="hunt-col hunt-col--mid">
-          {header}
+        {/* Three columns (2026-11-16, user's design): to play, the Guide's
+            treasure map picture over the card and its button (the picture
+            steps aside during a hunt, for the panel); the title over the
+            lead and the six-picture comic; the clues and the map. */}
+        <div className="hunt-col hunt-col--play">
+          {!hunting && <img className="hunt-art" src="/guide/hunt.webp" alt="" width="720" height="540" />}
           {stage}
           {hunting ? <>{panel}{countdown}</> : <div className="hunt-status">{status_}</div>}
+          {lastHuntBox}
+          {huntLinks}
+        </div>
+        <div className="hunt-col hunt-col--comic">
+          {header}
+          {shortHowTo}
         </div>
         <div className="hunt-col hunt-col--right">
           {cluesTitle}
           {hunting ? <div ref={setTrackSlot} className="hunt-clues-slot" /> : <HuntClueTable t={t} />}
           {map}
-          {lastHuntBox}
+          {/* The finds moved here from the left column when the comic took it
+              over (2026-11-16); during a hunt the clue track needs the room. */}
+          {!hunting && findsBox({ limit: BOARD_FINDS, onSeeAll: () => setSheet('finds') })}
         </div>
       </div>
     );

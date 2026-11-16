@@ -1,0 +1,48 @@
+/* The Treasure Hunt in six pictures (components/draw/HuntComic.jsx).
+   A strip to swipe through where it is narrow, three across where the
+   container has room. */
+.hunt-comic { container-type: inline-size; margin: 0 0 18px; }
+.hunt-comic__lead {
+  margin: 0 0 14px; padding: 12px 16px;
+  border: 2px solid var(--gold);
+  background: color-mix(in srgb, var(--gold) 8%, var(--bg-card));
+  box-shadow: 3px 3px 0 var(--shadow);
+  color: var(--gold); font-size: 15px; line-height: 1.6;
+}
+.hunt-comic__title { margin: 0 0 10px; }
+.hunt-comic__strip {
+  list-style: none; margin: 0; padding: 0 0 8px;
+  display: grid; grid-auto-flow: column; grid-auto-columns: 82%; gap: 14px;
+  overflow-x: auto; scroll-snap-type: x mandatory; overscroll-behavior-x: contain;
+  scrollbar-width: thin;
+}
+.hunt-comic__panel { scroll-snap-align: start; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.hunt-comic__pic { position: relative; }
+.hunt-comic__pic img { display: block; width: 100%; height: auto; aspect-ratio: 1; }
+/* The distance, as a comic's caption box in the panel's top-left corner. */
+.hunt-comic__dist {
+  position: absolute; top: 7%; left: 7%;
+  padding: 3px 10px; background: #f6efdc; color: #1b1f3a;
+  border: 2px solid #1b1f3a; box-shadow: 2px 2px 0 rgba(27, 31, 58, 0.35);
+  font-family: var(--ui-font); font-size: 15px; line-height: 1.3; font-weight: 600; white-space: nowrap;
+}
+.hunt-comic__text { margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-primary); }
+.hunt-comic__num {
+  display: inline-grid; place-items: center; width: 22px; height: 22px; margin-right: 8px;
+  background: var(--gold); color: var(--bg-primary, #111428); font-weight: 700; font-size: 13px; vertical-align: 1px;
+}
+@container (min-width: 560px) {
+  .hunt-comic__strip { grid-auto-columns: calc((100% - 14px) / 2); }
+}
+@container (min-width: 820px) {
+  .hunt-comic__strip { grid-auto-flow: row; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-auto-columns: auto; overflow: visible; gap: 18px 16px; }
+}
+
+/* Laid out whole, --hunt-comic-cols across (the board's left column). */
+.hunt-comic--grid { margin: 0; }
+.hunt-comic--grid .hunt-comic__strip {
+  grid-auto-flow: row; grid-auto-columns: auto; overflow: visible;
+  grid-template-columns: repeat(var(--hunt-comic-cols, 2), minmax(0, 1fr)); gap: 16px 14px; padding: 0;
+}
+.hunt-comic--grid .hunt-comic__text { font-size: 13.5px; line-height: 1.42; }
+.hunt-comic--grid .hunt-comic__dist { font-size: 13px; padding: 2px 8px; }

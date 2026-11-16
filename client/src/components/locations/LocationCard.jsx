@@ -52,7 +52,7 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
   // Not over the story panel, where the badge would cover the card's name.
   const isNew = unlocked && !flipping && !story && Date.now() - checkedInMs < NEW_BADGE_MS;
 
-  // Long press or double click on a collected card opens the showcase.
+  // Long press or right click on a collected card opens the showcase.
   const gestures = holdable && unlocked && !flipping && !showcase;
   const { handlers, showcaseOpen, closeShowcase } = useHoldGestures({ enabled: gestures, onTap: () => onClick(slug) });
 

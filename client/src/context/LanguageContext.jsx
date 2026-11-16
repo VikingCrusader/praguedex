@@ -68,7 +68,7 @@ const T = {
     // Phone-width version, short enough for one line.
     'explore.cityBlurbShort': 'Walk to real places, unlock cards and stories.',
     'explore.showcaseHintTouch': 'Press and hold a card to admire it up close. Swipe sideways to turn it over, swipe up to read its story. You walked for every one of these, so showing off is allowed.',
-    'explore.showcaseHintMouse': 'Double-click a card to admire it up close, and drag it sideways to turn it over. You walked for every one of these, so showing off is allowed.',
+    'explore.showcaseHintMouse': 'Right-click a card to admire it up close, and drag it sideways to turn it over. You walked for every one of these, so showing off is allowed.',
     'area.button': 'District',
     'area.modern': 'Modern division',
     'area.historical': 'Historical division',
@@ -521,7 +521,7 @@ const T = {
     // Phone-width version, short enough for one line.
     'explore.cityBlurbShort': 'Dojdi na místa, odemkni karty i příběhy.',
     'explore.showcaseHintTouch': 'Podrž prst na kartě a pokochej se jí zblízka. Přejetím do strany ji otočíš, přejetím nahoru si přečteš její příběh. Za každou z nich jsi poctivě nachodil kilometry, takže chlubit se smíš.',
-    'explore.showcaseHintMouse': 'Dvojklikem si kartu prohlédneš zblízka a tažením do strany ji otočíš. Za každou z nich jsi poctivě nachodil kilometry, takže chlubit se smíš.',
+    'explore.showcaseHintMouse': 'Pravým kliknutím si kartu prohlédneš zblízka a tažením do strany ji otočíš. Za každou z nich jsi poctivě nachodil kilometry, takže chlubit se smíš.',
     'area.button': 'Čtvrť',
     'area.modern': 'Moderní členění',
     'area.historical': 'Historické členění',
@@ -974,7 +974,7 @@ const T = {
     // Phone-width version, short enough for one line.
     'explore.cityBlurbShort': '走到真实地点打卡，解锁卡片和背后的故事。',
     'explore.showcaseHintTouch': '长按卡片可以凑近欣赏，左右滑能把它翻过来，上划还能读它的故事。每一张都是你一步一步走来的，炫耀一下不过分。',
-    'explore.showcaseHintMouse': '双击卡片可以凑近欣赏，左右拖动能把它翻过来。每一张都是你一步一步走来的，炫耀一下不过分。',
+    'explore.showcaseHintMouse': '右键点击卡片可以凑近欣赏，左右拖动能把它翻过来。每一张都是你一步一步走来的，炫耀一下不过分。',
     'area.button': '区域',
     'area.modern': '现代分区',
     'area.historical': '历史分区',

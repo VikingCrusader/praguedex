@@ -195,7 +195,7 @@ Locked cards show none of this. You have to earn the sparkle.
 
 A collected card is more than a tile in a grid. Pick it up and have a proper look:
 
-1. **Hold it up.** On a phone, press and hold a collected card; on a computer, double-click it. It fills the screen at full size and everything else dims, as if the rest of the city had stepped back out of respect.
+1. **Hold it up.** On a phone, press and hold a collected card; on a computer, right-click it. It fills the screen at full size and everything else dims, as if the rest of the city had stepped back out of respect.
 2. **Turn it over.** Drag sideways (finger or mouse) and the card turns over to show its back. It follows your hand, then settles with a little wobble, and a quick flick sends it further. Entirely useless. Deeply satisfying.
 3. **Read it.** On a phone, swipe up and the picture gives way to the card's story, right there inside the frame. Scroll to read, swipe down from the top to get the picture back.
 

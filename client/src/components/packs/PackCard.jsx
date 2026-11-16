@@ -28,7 +28,7 @@ function Crimps() {
 // Without `total` (a History event before the player's progress arrives) the
 // bar stays empty and there is no count.
 // Like a collected card, an unlocked pack opens the showcase on a long press or
-// a double click (`holdable` false turns that off). `showcase`: the enlarged
+// a right click (`holdable` false turns that off). `showcase`: the enlarged
 // copy inside CardShowcase; `story`: the paragraphs that fill it when read.
 // `artOnly` (the Map and the profile): just the art in its foil and seals, without
 // the name, progress bar and count. The showcase still picks up the whole packet.

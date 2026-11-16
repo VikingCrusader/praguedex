@@ -81,25 +81,22 @@ describe('LocationCard', () => {
     beforeEach(() => jest.useFakeTimers());
     afterEach(() => jest.useRealTimers());
 
-    test('a double click on a collected card opens the showcase, not the detail', () => {
+    test('a right click on a collected card opens the showcase, not the detail', () => {
       const onClick = jest.fn();
       const { container } = renderCard({ unlocked: true }, { onClick });
       const card = container.querySelector('.loc-card');
-      fireEvent.click(card);
-      fireEvent.click(card);
-      act(() => { jest.advanceTimersByTime(400); });
+      fireEvent.pointerDown(card, { pointerType: 'mouse', button: 2 });
+      fireEvent.contextMenu(card);
       expect(onClick).not.toHaveBeenCalled();
       expect(document.querySelector('.card-showcase .loc-card__name')).toHaveTextContent('Charles Bridge');
       fireEvent.keyDown(window, { key: 'Escape' });
       expect(document.querySelector('.card-showcase')).toBeNull();
     });
 
-    test('a single click still opens the detail, a moment later', () => {
+    test('a click on a collected card opens the detail at once', () => {
       const onClick = jest.fn();
       const { container } = renderCard({ unlocked: true }, { onClick });
       fireEvent.click(container.querySelector('.loc-card'));
-      expect(onClick).not.toHaveBeenCalled();
-      act(() => { jest.advanceTimersByTime(300); });
       expect(onClick).toHaveBeenCalledWith('charles-bridge');
       expect(document.querySelector('.card-showcase')).toBeNull();
     });

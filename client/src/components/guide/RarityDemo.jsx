@@ -12,7 +12,7 @@ import { useCardDistance } from './useCardDistance';
 // The Guide's rarity demo: one real card of each rank in a row; the picked one
 // stands large beside its description, and can be switched between locked and
 // collected, which plays the real unlock flip. Collected, it can be picked up
-// (double-click) into the showcase like any card. With Expedition picked, a
+// (right-click) into the showcase like any card. With Expedition picked, a
 // Learn more button opens the Expeditions window (`onMore`, 2026-11-16). With
 // the Secret example picked, a button goes to the History event that links it
 // (`secretEvent`), since that is the only way to find a secret card.

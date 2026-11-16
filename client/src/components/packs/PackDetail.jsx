@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { startTransition, useCallback, useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { useModalEntrance } from '../../hooks/useModalEntrance';
 import { pageCache, pageKey } from '../../utils/pageCache';
@@ -40,6 +40,23 @@ function usePackDetail(slug, refresh) {
   return [pack?.slug === slug ? pack : null, load];
 }
 
+// The pack's cards wait until the window is on screen (2026-11-16, user's call:
+// a pack should open at once). Mounting a pack's twenty-odd cards in the click's
+// own task held the window back by a beat; now the frame and text come first,
+// the entrance starts on the next frame, and the cards follow two frames later
+// as a transition, which React renders in slices so the entrance keeps playing.
+function useCardsLater(slug) {
+  const [ready, setReady] = useState(null);
+  useEffect(() => {
+    let second;
+    const first = requestAnimationFrame(() => {
+      second = requestAnimationFrame(() => startTransition(() => setReady(slug)));
+    });
+    return () => { cancelAnimationFrame(first); cancelAnimationFrame(second); };
+  }, [slug]);
+  return ready === slug;
+}
+
 // Until the pack's text arrives: grey lines where it will be, not a spinner.
 const Spinner = () => (
   <div className="detail-story-wait pack-detail__wait" role="status">
@@ -53,7 +70,7 @@ const Spinner = () => (
 
 // A pack opened: its wrapper, its text (the preview until unlocked; the server
 // holds back the rest), and its cards, the ones not collected yet locked.
-function PackBody({ pack, onOpenCard, onGuide, artOnly = false }) {
+function PackBody({ pack, onOpenCard, onGuide, artOnly = false, cardsReady = true }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -108,7 +125,7 @@ function PackBody({ pack, onOpenCard, onGuide, artOnly = false }) {
       </div>
       <h3 className="px-title pack-detail__cards-title">{convert(t('pack.cards'))}</h3>
       <div className="pack-detail__cards">
-        {pack.members.map(card => {
+        {!cardsReady ? pack.members.map(card => <div key={card.slug} className="pack-detail__slot" aria-hidden="true" />) : pack.members.map(card => {
           const distance = userPos ? haversineDistance(userPos.lat, userPos.lng, card.coordinates.lat, card.coordinates.lng) : null;
           const nearby = !card.unlocked && distance != null && distance <= NEARBY_REVEAL_M;
           return (
@@ -130,10 +147,11 @@ function PackBody({ pack, onOpenCard, onGuide, artOnly = false }) {
 // `onPickCard(slug)`: a card in it was clicked; the page decides what that shows.
 export function PackPanel({ slug, refresh, onPickCard }) {
   const [pack] = usePackDetail(slug, refresh);
+  const cardsReady = useCardsLater(slug);
   const [guide, setGuide] = useState(null);
   return (
     <div className="pack-panel" data-pack-panel={slug}>
-      {pack ? <PackBody pack={pack} onOpenCard={onPickCard} onGuide={setGuide} artOnly /> : <Spinner />}
+      {pack ? <PackBody pack={pack} onOpenCard={onPickCard} onGuide={setGuide} artOnly cardsReady={cardsReady} /> : <Spinner />}
       {guide && <AreaGuideModal kind={guide.kind} value={guide.value} onClose={() => setGuide(null)} />}
     </div>
   );
@@ -146,6 +164,7 @@ export default function PackDetail({ slug, onClose, onCheckIn, artOnly = false }
   const { lang } = useLang();
   const convert = useConvert();
   const [pack, load] = usePackDetail(slug);
+  const cardsReady = useCardsLater(slug);
   const [openSlug, setOpenSlug] = useState(null);
   // As on Explore: a locked card tapped within NEARBY_REVEAL_M (its lock wobbling)
   // opens and collects at once, for a signed-in player (2026-11-14, user's call).
@@ -187,7 +206,7 @@ export default function PackDetail({ slug, onClose, onCheckIn, artOnly = false }
       <div ref={overlayRef} className="px-overlay pack-detail-overlay" onClick={e => { e.stopPropagation(); close(); }}>
         <div ref={modalRef} className="px-modal pack-detail" onClick={e => e.stopPropagation()} role="dialog" aria-label={name}>
           <button type="button" className="px-modal__close" onClick={close} aria-label={t('areaGuide.close')}>✕</button>
-          {pack ? <PackBody pack={pack} onOpenCard={openCard} onGuide={setGuide} artOnly={artOnly} /> : <Spinner />}
+          {pack ? <PackBody pack={pack} onOpenCard={openCard} onGuide={setGuide} artOnly={artOnly} cardsReady={cardsReady} /> : <Spinner />}
         </div>
       </div>
       {guide && <AreaGuideModal kind={guide.kind} value={guide.value} onClose={() => setGuide(null)} />}

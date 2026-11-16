@@ -62,7 +62,7 @@ Nearly 1,500 location cards (1,275 in Prague, 210 more across Bohemia), each wit
 - **Proximity alerts:** walk within 50 m of an undiscovered place and the app tells you, with an optional system notification that checks you in when tapped.
 - **The Dex:** filter by grouped labels (era, architectural style, building type, …), rarity, district or historical quarter, straight from a clickable map of Prague; sort by distance, newest, rarity or recently collected. A hover preview shows a card's first paragraph; the side column shows your district and quarter, and what is next: XP to the next level, the nearest card, the day's hunt, your place in the History Timeline and the achievements closest to done.
 - **Where you are:** your district and quarter are worked out on your device from the official boundaries (ČÚZK RÚIAN), so your position never leaves it.
-- **Card showcase:** long-press (or double-click) a collected card to hold it up full screen; drag sideways to flip it over, swipe up to read its story.
+- **Card showcase:** long-press (or right-click) a collected card to hold it up full screen; drag sideways to flip it over, swipe up to read its story.
 
 ### Card packs and area guides
 

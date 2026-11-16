@@ -1,31 +1,24 @@
 import { useEffect, useRef, useState } from 'react';
 
-// Showcase gestures on a card or pack: hold this long on a touch screen,
-// or click twice within this long with a mouse.
+// Showcase gestures on a card or pack: hold this long on a touch screen.
 const LONG_PRESS_MS = 450;
-const DOUBLE_CLICK_MS = 250;
 
-// Long press (touch) or double click (mouse) opens the showcase. A mouse click
-// waits DOUBLE_CLICK_MS for a possible second click before counting as a tap;
-// a touch tap is immediate. `enabled`: false makes every click a plain tap.
+// Long press (touch) or right click (mouse) opens the showcase; a click is
+// always a plain tap, at once. (A double click opened it until 2026-11-16, which
+// made every mouse click wait 250 ms for a possible second one; user's call.)
+// `enabled`: false makes every click a plain tap and leaves the browser's own
+// context menu alone.
 // `showcaseOpen` is how it was opened ('touch' or 'mouse'), or false.
 export function useHoldGestures({ enabled, onTap }) {
   const [showcaseOpen, setShowcaseOpen] = useState(false);
-  const press = useRef({ timer: null, fired: false, x: 0, y: 0, pointer: 'mouse', clickTimer: null });
+  const press = useRef({ timer: null, fired: false, x: 0, y: 0, pointer: 'mouse' });
   const clearPress = () => { clearTimeout(press.current.timer); press.current.timer = null; };
-  useEffect(() => () => { clearTimeout(press.current.timer); clearTimeout(press.current.clickTimer); }, []);
+  useEffect(() => () => clearTimeout(press.current.timer), []);
 
   const handlers = {
     onClick: () => {
       if (press.current.fired) { press.current.fired = false; return; }
-      if (!enabled || press.current.pointer !== 'mouse') { onTap(); return; }
-      if (press.current.clickTimer) {
-        clearTimeout(press.current.clickTimer);
-        press.current.clickTimer = null;
-        setShowcaseOpen('mouse');
-        return;
-      }
-      press.current.clickTimer = setTimeout(() => { press.current.clickTimer = null; onTap(); }, DOUBLE_CLICK_MS);
+      onTap();
     },
     onPointerDown: e => {
       press.current.pointer = e.pointerType;
@@ -50,7 +43,12 @@ export function useHoldGestures({ enabled, onTap }) {
     // events and click the browser would emulate, or they land on the
     // showcase and close it again at once.
     onTouchEnd: e => { if (press.current.fired) e.preventDefault(); },
-    onContextMenu: enabled ? e => e.preventDefault() : undefined,
+    // A touch long press also fires contextmenu (Android): the timer above
+    // handles that one, so only a mouse (or pen) right click opens it here.
+    onContextMenu: enabled ? e => {
+      e.preventDefault();
+      if (press.current.pointer !== 'touch') setShowcaseOpen('mouse');
+    } : undefined,
   };
 
   return { handlers, showcaseOpen, closeShowcase: () => setShowcaseOpen(false) };

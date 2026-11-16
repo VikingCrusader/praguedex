@@ -30,7 +30,7 @@ const showsBack = deg => { const a = ((deg % 360) + 360) % 360; return a > 90 &&
 // Full-screen view for admiring a collected card: the same card, frame and
 // text included, scaled up evenly to the screen's height (or width, on a
 // narrow phone), with the full-size cover instead of the grid thumbnail.
-// Opened by a long press (phones) or a double click (desktop) on a collected
+// Opened by a long press (phones) or a right click (desktop) on a collected
 // card (LocationCard); a tap outside the card, a click or Escape closes it.
 // - Swiping up (touch) swaps the cover for the card's story, which fills the
 //   card inside its frame and scrolls; the card keeps its size. Swiping down

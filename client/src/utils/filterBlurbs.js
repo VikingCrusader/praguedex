@@ -320,9 +320,9 @@ export const EXPLORE_TIPS = [
     zh: '选“全部（含市外）”，再点布拉格外面，就只剩远征卡了。',
   },
   {
-    en: 'Double-click a card you have collected to admire it up close. You walked there, you may show off.',
-    cz: 'Dvojklikem si sesbíranou kartu prohlédnete zblízka. Došli jste si pro ni, můžete se chlubit.',
-    zh: '双击收集过的卡片，可以凑近欣赏。路是你走的，炫耀一下不过分。',
+    en: 'Right-click a card you have collected to admire it up close. You walked there, you may show off.',
+    cz: 'Pravým kliknutím si sesbíranou kartu prohlédnete zblízka. Došli jste si pro ni, můžete se chlubit.',
+    zh: '右键点击收集过的卡片，可以凑近欣赏。路是你走的，炫耀一下不过分。',
   },
   {
     en: 'Labels add up: the more you pick, the fewer cards survive. Gothic and bridge is a short list.',

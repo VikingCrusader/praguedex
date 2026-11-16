@@ -60,7 +60,7 @@ export default function ProfileGallery({ kind, achievements, paused, onClose, on
   useEffect(() => {
     if (paused) return undefined;
     const onKey = e => {
-      // The card showcase (a long press or double click) handles its own.
+      // The card showcase (a long press or right click) handles its own.
       if (e.key === 'Escape' && !document.querySelector('.card-showcase')) close();
     };
     window.addEventListener('keydown', onKey);

@@ -366,7 +366,7 @@ export default function ExplorePage() {
   const closeWelcome = useCallback(() => setWelcome(false), []);
 
 
-  // Touch screens get the long-press version, mice the double click.
+  // Touch screens get the long-press version, mice the right click.
   const showcaseHint = (
     <>
       <span className="explore-hint--touch">{convert(t('explore.showcaseHintTouch'))}</span>

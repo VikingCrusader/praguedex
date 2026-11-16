@@ -122,11 +122,11 @@ test.describe('card packs', () => {
     await setup(page);
     await page.goto('/explore');
     await page.locator('.filter-btn', { hasText: 'Packs' }).click();
-    await page.locator('.explore-main .pack-card[data-pack="prague-castle"]').dblclick();
+    await page.locator('.explore-main .pack-card[data-pack="prague-castle"]').click({ button: 'right' });
     await page.waitForTimeout(400);
     await expect(page.locator('.card-showcase')).toHaveCount(0);
     await page.keyboard.press('Escape');
-    await page.locator('.explore-main .pack-card[data-pack="vysehrad"]').dblclick();
+    await page.locator('.explore-main .pack-card[data-pack="vysehrad"]').click({ button: 'right' });
     const showcase = page.locator('.card-showcase');
     await expect(showcase.locator('.card-showcase__face .pack-card').first()).toBeVisible();
     await expect(page.locator('.pack-detail')).toHaveCount(0);

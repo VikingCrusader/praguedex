@@ -650,3 +650,9 @@ html:not([data-lang="zh"]) :is(#root, body) .guide-welcome__title { font-family:
   text-decoration: none; cursor: pointer;
 }
 .guide-inline-link:hover { text-decoration: underline; }
+
+/* Phone screenshots side by side in a window's text (PackShots in GuideBoard). */
+.guide-phones { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; max-width: 520px; margin: 6px 0 18px; }
+.guide-phones__item { margin: 0; display: grid; gap: 8px; align-content: start; }
+.guide-phones__item img { display: block; width: 100%; height: auto; border: 2px solid var(--border); border-radius: 14px; box-shadow: 3px 3px 0 var(--shadow); background: var(--bg-surface); }
+.guide-phones__item figcaption { font-size: 14px; line-height: 1.4; color: var(--text-muted); }

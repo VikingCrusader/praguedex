@@ -4,6 +4,7 @@ import { useLang, useConvert } from '../../context/LanguageContext';
 import { locationAPI, userAPI } from '../../services/api';
 import { pageCache, pageKey } from '../../utils/pageCache';
 import { useAuth } from '../../context/AuthContext';
+import { useTheme } from '../../context/ThemeContext';
 import { RARITY_VAR, RARITY_LABEL, ALL_RARITIES, isFindable } from '../../utils/rarity';
 import { DIFF_RARITIES } from '../../utils/guideContent';
 import { BOARD, fill } from '../../utils/guideBoard';
@@ -170,6 +171,23 @@ function Steps({ items, colorOf, offset = 0, plain = false, extra }) {
   ));
 }
 const Bold = ({ items }) => items.map((item, i) => <p key={i} className="guide-body"><strong>{item.b}</strong>{item.rest}</p>);
+// Two phone screenshots in the Packs window (2026-11-16, user's request): the
+// banner of packs close by over the shaking cards, and a shaking card inside a
+// pack, in the reader's theme. Taken on a Pixel 7 at the Old-New Synagogue.
+function PackShots({ c }) {
+  const { theme } = useTheme() || {};
+  const mode = theme === 'dark' ? 'dark' : 'light';
+  return (
+    <div className="guide-phones">
+      {['nearby', 'inside'].map(k => (
+        <figure key={k} className="guide-phones__item">
+          <img src={`/guide/packs-${k}-${mode}.webp`} alt="" loading="lazy" width="540" height="1099" />
+          <figcaption>{c.packsShots[k]}</figcaption>
+        </figure>
+      ))}
+    </div>
+  );
+}
 const Tip = ({ children }) => <div className="guide-tip"><span>{children}</span></div>;
 // The Rarity window lists the rarities in this order, Secret last (it is not in
 // DIFF_RARITIES, which also builds the Guide's rarity list).
@@ -237,6 +255,7 @@ function SectionText({ k, c, onOpenTile, onClose }) {
     case 'packs': return <>
       <p className="guide-body">{c.packsIntro}</p>
       <Bold items={c.packs} />
+      <PackShots c={c} />
       <p className="guide-body">{c.packsOutro}</p>
     </>;
     case 'ach': return <p className="guide-body">{c.ach}</p>;

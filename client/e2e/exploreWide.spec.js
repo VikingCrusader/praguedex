@@ -1,5 +1,11 @@
 import { test, expect } from '@playwright/test';
 
+// Layout tests measure the page, so skip Explore's entrance (its blocks slide in
+// from the left and the cards drop in): under reduced motion it doesn't play.
+// The animation test below turns motion back on for itself.
+// (test.use({ reducedMotion }) doesn't reach the page here, so emulateMedia.)
+test.beforeEach(({ page }) => page.emulateMedia({ reducedMotion: 'reduce' }));
+
 // Whatever backend happens to be running must not add its packs to the grid.
 test.beforeEach(({ page }) => page.route('**/api/packs', route => route.fulfill({ json: [] })));
 
@@ -49,6 +55,7 @@ test('with the side column My Collections stays lit and disabled, and a long Bac
 
 test('a card off screen pauses its animations and restarts them when it comes back', async ({ page }) => {
   const MYTHIC = Array.from({ length: 60 }, (_, i) => card(i, 'Praha 11', 'Chodov', true, { rarity: 'mythic', xpReward: 70 }));
+  await page.emulateMedia({ reducedMotion: 'no-preference' });
   await page.route('**/api/locations', route => route.fulfill({ json: MYTHIC }));
   await page.setViewportSize({ width: 1920, height: 940 });
   await page.goto('/explore');
@@ -56,11 +63,14 @@ test('a card off screen pauses its animations and restarts them when it comes ba
   const cards = page.locator('.explore-main .loc-card');
   await expect(cards).toHaveCount(60);
   const states = at => cards.nth(at).evaluate(el => [...new Set(el.getAnimations({ subtree: true }).map(a => a.playState))].join());
+  // Since the card effects moved to the GPU (2026-11-14) an off-screen card's
+  // effect elements are display: none, so it has no animations at all, not paused ones.
+  const still = s => s === '' || s === 'paused';
   await expect.poll(() => states(0)).toBe('running');
-  await expect.poll(() => states(59)).toBe('paused');
+  await expect.poll(async () => still(await states(59))).toBe(true);
   await cards.nth(59).scrollIntoViewIfNeeded();
   await expect.poll(() => states(59)).toBe('running');
-  await expect.poll(() => states(0)).toBe('paused');
+  await expect.poll(async () => still(await states(0))).toBe(true);
 });
 
 test('Treasure Hunt Finds in the collection card shows the count and filters to those cards', async ({ page }) => {
@@ -104,6 +114,8 @@ test.describe('Explore on a 2K screen', () => {
     await page.setViewportSize({ width: 2560, height: 1300 });
     await page.goto('/explore');
     await page.locator('.district-map__area').first().waitFor();
+    // Measure only after the entrance: the side column's blocks slide in from the left.
+    await expect(page.locator('.explore-page[data-enter]')).toHaveCount(0, { timeout: 10000 });
   });
 
   test('the title, filters and map sit in a side column, the cards fill the rest, nine to a row', async ({ page }) => {

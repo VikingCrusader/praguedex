@@ -26,14 +26,15 @@ async function open(page, { lang = 'en', signedIn = true } = {}) {
 test.describe('Explore header: where you are', () => {
   test('a signed-in user sees their district and quarter instead of the intro', async ({ page }) => {
     await open(page);
-    await expect(page.locator('.explore-here')).toHaveText('Prague 7, Holešovice');
+    // District and quarter are two buttons with a divider between them (since 2026-11-09).
+    await expect(page.locator('.explore-here__part')).toHaveText(['Prague 7', 'Holešovice']);
   });
 
   test('in Czech and Chinese too', async ({ page }) => {
     await open(page, { lang: 'cz' });
-    await expect(page.locator('.explore-here')).toHaveText('Praha 7, Holešovice');
+    await expect(page.locator('.explore-here__part')).toHaveText(['Praha 7', 'Holešovice']);
     await page.getByRole('button', { name: '中文' }).click();
-    await expect(page.locator('.explore-here')).toHaveText('布拉格7区，霍莱绍维采（Holešovice）');
+    await expect(page.locator('.explore-here__part')).toHaveText(['布拉格7区', '霍莱绍维采（Holešovice）']);
   });
 
   test('a guest keeps the intro line', async ({ page }) => {

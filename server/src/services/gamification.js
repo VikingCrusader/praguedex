@@ -329,6 +329,9 @@ const KAFKA_SLUGS = [
   "kafka-rotating-head",
   "new-jewish-cemetery-1782861254358",
   "delnicka-urazova-pojistovna-na-porici",
+  // The InterContinental stands where the house U Lodi was, the Kafkas' home
+  // 1907–1913, where he wrote The Metamorphosis (added 2026-11-16, user's call).
+  "fairmont-golden-prague",
 ];
 // My Praguers Understand Me: Dvořák, Smetana and Mozart in Prague.
 const MUSIC_SLUGS = [
@@ -1430,9 +1433,9 @@ export const ACHIEVEMENTS = [
     flavor: "One morning you woke up to find yourself transformed into a Kafka fan.",
     flavor_cz: "Jednoho rána jste se probudili a zjistili, že jste se proměnili v obdivovatele Kafky.",
     flavor_zh: "一天早上醒来，你发现自己变成了一个卡夫卡迷。",
-    description: "Check in at these 8 places: Kafka's House, Goltz-Kinský Palace, Golden Lane, Kafka Museum, Franz Kafka Statue, Kafka's Rotating Head (Quadrio), New Jewish Cemetery and the Workers' Accident Insurance Institute on Na Poříčí.",
-    description_cz: "Přihlaste se na těchto 8 místech: Kafkův dům, Palác Goltz-Kinských, Zlatá ulička, Muzeum Franze Kafky, Socha Franze Kafky, Kafkova točící se hlava, Nový židovský hřbitov a Dělnická úrazová pojišťovna Na Poříčí.",
-    description_zh: "打卡以下8个地点：卡夫卡故居、戈尔兹-金斯基宫、黄金巷、卡夫卡博物馆、卡夫卡雕像、卡夫卡旋转头像、新犹太公墓和波日奇街的工人意外保险局。",
+    description: "Check in at these 9 places: Kafka's House, Goltz-Kinský Palace, Golden Lane, Kafka Museum, Franz Kafka Statue, Kafka's Rotating Head (Quadrio), New Jewish Cemetery, the Workers' Accident Insurance Institute on Na Poříčí and Fairmont Golden Prague (former InterContinental).",
+    description_cz: "Přihlaste se na těchto 9 místech: Kafkův dům, Palác Goltz-Kinských, Zlatá ulička, Muzeum Franze Kafky, Socha Franze Kafky, Kafkova točící se hlava, Nový židovský hřbitov, Dělnická úrazová pojišťovna Na Poříčí a Fairmont Golden Prague (bývalý InterContinental).",
+    description_zh: "打卡以下9个地点：卡夫卡故居、戈尔兹-金斯基宫、黄金巷、卡夫卡博物馆、卡夫卡雕像、卡夫卡旋转头像、新犹太公墓、波日奇街的工人意外保险局和费尔蒙金色布拉格酒店（原洲际酒店）。",
     difficulty: "medium",
     check: ({ checkedSlugs }) => KAFKA_SLUGS.every((slug) => checkedSlugs.includes(slug)),
     progress: ({ checkedSlugs }) => ({

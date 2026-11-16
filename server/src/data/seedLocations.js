@@ -37688,6 +37688,126 @@ Park je také galerií národního obrození: mezi stromy stojí busty a sochy b
 🎁 彩蛋：1972年，拧下一块牌子总比挖走一棵树容易。一棵椴树，不需要名牌也知道自己是为什么被种下的。`,
     },
   },
+  {
+    // František Bílek's Moses: model 1905 (Cesta cycle), bought and cast by the
+    // Ministry of Education, set up unmarked in summer 1937 by Pařížská; removed
+    // 27 March 1940, sent to the Reich and melted; recast from the widow's plaster
+    // model and put back quietly on 2 July 1948, turned another way. Sources:
+    // ccsh.cz (Martin Jindra, 2023), spol-fb.cz, umenipromesto.eu, JTA 1935/1937.
+    name: "Statue of Moses",
+    slug: 'socha-mojzise',
+    localizedNames: { cz: "Socha Mojžíše", zh: "摩西像" },
+    labels: ["sculpture", "world-wars", "art-nouveau"],
+    district: 'Praha 1',
+    quarter: 'Josefov',
+    coordinates: { lat: 50.09031560980702, lng: 14.418589077409958 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `In a small patch of lawn on Pařížská, between the luxury boutiques and the Old-New Synagogue, a bronze Moses kneels with his head bowed, looking less like a lawgiver than a man who has just finished a very long shift. Most people walk straight past him, and for most of his life nobody told them who he was.
+
+The sculptor František Bílek, a symbolist who saw his work as a kind of prayer, modelled him in 1905 for his cycle The Way, about the spiritual journey of mankind. Moses holds a scroll on which he has just written one word, "Adam", the name of the first man, and with it all the stumbling and suffering of the people who came after. The Ministry of Education bought the work and had it cast in bronze, the city asked for it for the little garden facing the synagogue, and in the summer of 1937 it was set on a granite plinth there quietly, with no ceremony and no name on it.
+
+It lasted less than three years. Under the occupation the city's German-run administration had it taken down on 27 March 1940, and it was shipped to the Reich to be melted for war metal. Its destruction was later listed in Czechoslovakia's report to the Nuremberg tribunal among the Nazis' cultural crimes. Bílek's widow still had the original plaster model, so after the war Prague had the statue cast again, and on 2 July 1948 the new Moses went back onto his old spot, turned a different way, and once again without any ceremony.
+
+🎁 Bonus: Moses was put up twice and unveiled officially neither time. He seems to have taken it well: he has been kneeling here, writing "Adam" on his scroll, ever since.`,
+      cz: `Na malém trávníku v Pařížské ulici, mezi luxusními butiky a Staronovou synagogou, klečí bronzový Mojžíš se skloněnou hlavou a nevypadá ani tak jako zákonodárce, spíš jako muž po hodně dlouhé směně. Většina lidí jde kolem něj bez povšimnutí a po většinu jeho života jim nikdo ani neřekl, kdo to je.
+
+Sochař František Bílek, symbolista, který svou práci chápal jako druh modlitby, ho vymodeloval v roce 1905 pro cyklus Cesta o duchovní pouti lidstva. Mojžíš drží svitek, na který právě napsal jediné slovo, „Adam", jméno prvního člověka a s ním všechno klopýtání a utrpení lidí, kteří přišli po něm. Ministerstvo školství dílo koupilo a dalo ho odlít do bronzu, město si ho vyžádalo pro zahrádku naproti synagoze a v létě 1937 ho tam tiše postavili na žulový sokl, bez slavnosti a bez jména.
+
+Vydržel tu necelé tři roky. Za okupace ho městská správa pod německým vedením dala 27. března 1940 odstranit a socha odjela do Říše, kde ji roztavili na válečný kov. Její zničení se později dostalo do československé zprávy pro norimberský tribunál mezi kulturní zločiny nacistů. Bílkově vdově ale zůstal původní sádrový model, a tak Praha dala sochu po válce odlít znovu a 2. července 1948 se nový Mojžíš vrátil na své staré místo, jen jinak natočený, a zase bez slavnosti.
+
+🎁 Bonus: Mojžíše postavili dvakrát a ani jednou ho slavnostně neodhalili. Zdá se, že to nese dobře: od té doby tu klečí a píše na svůj svitek „Adam".`,
+      zh: `巴黎大街上一小块草坪里，夹在奢侈品精品店和老新犹太会堂之间，跪着一尊低着头的青铜摩西。他看上去不太像颁布律法的先知，倒更像一个刚下了超长夜班的人。大多数人从他身边走过都不会多看一眼，而在他存在的大部分时间里，也确实没人告诉过他们这是谁。
+
+雕塑家弗朗蒂舍克·比莱克是个象征主义者，把创作当成一种祈祷。他在1905年为组雕《道路》塑造了这尊摩西，那组作品讲的是人类的精神旅程。摩西手里拿着一卷经卷，上面刚写下一个词：“亚当”，第一个人的名字，也连带着他之后所有人的跌跌撞撞和苦难。教育部买下了这件作品，出钱铸成青铜；市政府要了它，放进会堂对面的小花园。1937年夏天，它被悄悄立在一座花岗岩基座上，没有揭幕仪式，基座上也没刻名字。
+
+它在这里只待了不到三年。占领期间，由德方掌控的市政当局在1940年3月27日把它拆了下来，运往德国本土熔掉，充作战争用金属。后来，捷克斯洛伐克提交给纽伦堡法庭的报告，把毁掉这尊雕像列进了纳粹的文化罪行。好在比莱克的遗孀手里还留着原来的石膏模型，战后布拉格据此重新铸造，1948年7月2日，新的摩西回到了老地方，只是换了个朝向，而且照旧没有任何仪式。
+
+🎁 彩蛋：摩西被立起来两次，一次正式揭幕都没有过。他看起来倒也不在意：从那以后，他就一直跪在这里，在经卷上写着“亚当”。`,
+    },
+  },
+  {
+    // The InterContinental (1968–74, Karel Filsak, Karel Bubeníček, Jaroslav
+    // Švec; opened 7 Dec 1974, the country's first five-star hotel; heritage
+    // protection refused), reopened 15 April 2025 as the Fairmont Golden Prague
+    // after a rebuild by TaK Architects. It stands on the site of the house U Lodi
+    // (Mikulášská 36), the Kafkas' home 1907–1913, where Kafka wrote The Judgment
+    // and The Metamorphosis in 1912; destroyed in the May 1945 uprising. Staré
+    // Město cadastral area, so not in the Josefov pack. Sources: archiweb.cz,
+    // Wikipedia, goethe.de (Kafka's Prague), kafkamuseum.cz.
+    name: "Fairmont Golden Prague (former InterContinental)",
+    slug: 'fairmont-golden-prague',
+    localizedNames: { cz: "Fairmont Golden Prague (bývalý InterContinental)", zh: "费尔蒙金色布拉格酒店（原洲际酒店）" },
+    labels: ["brutalism", "communism"],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.091440498890265, lng: 14.418380362984356 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `At the river end of Pařížská, where the street of Art Nouveau facades and designer shops meets the embankment, stands a big block of concrete that looks as if it took a wrong turn on its way to a housing estate. It is one of Prague's best-known brutalist buildings, and for half a century it was where the city put up the people it most wanted to impress.
+
+It was built between 1968 and 1974 to designs by Karel Filsak, Karel Bubeníček and Jaroslav Švec, for the state travel agency Čedok, which needed somewhere to take in Western visitors and their hard currency. When the InterContinental opened in December 1974, it was the first five-star hotel in the country. Its heavy, sculpted concrete was out of fashion within a generation, and the Ministry of Culture once refused to list it as a monument. Instead of coming down, it was rebuilt from 2021 by TaK Architects, who kept the brutalist shell, and on 15 April 2025 it reopened as the Fairmont Golden Prague.
+
+The plot has an older story too. On this corner stood the house U Lodi, "At the Ship", where Franz Kafka lived with his parents and sisters from 1907 to 1913, in a fourth-floor flat looking over the river. In September 1912 he wrote The Judgment here in a single night, and that autumn The Metamorphosis, and Kafka's biographer Reiner Stach takes this very flat as the home of the Samsa family. The house was destroyed by German shelling during the Prague Uprising in May 1945.
+
+🎁 Bonus: Literature's most famous beetle woke up somewhere on this corner. Today the rooms here cost a small fortune, and the guests are, as far as anyone knows, still human in the morning.`,
+      cz: `Na konci Pařížské u řeky, kde se ulice secesních fasád a značkových obchodů potkává s nábřežím, stojí velký betonový blok, který vypadá, jako by cestou na sídliště špatně odbočil. Je to jedna z nejznámějších brutalistních staveb Prahy a půl století tu město ubytovávalo lidi, na které chtělo nejvíc zapůsobit.
+
+Postavili ho v letech 1968 až 1974 podle návrhu Karla Filsaka, Karla Bubeníčka a Jaroslava Švece pro státní cestovní kancelář Čedok, která potřebovala, kam ubytovat západní návštěvníky a jejich tvrdou měnu. Když InterContinental v prosinci 1974 otevřel, byl to první pětihvězdičkový hotel v zemi. Jeho těžký, modelovaný beton vyšel za jednu generaci z módy a ministerstvo kultury ho kdysi odmítlo prohlásit za památku. Místo zbourání ho od roku 2021 přestavěli TaK Architects, kteří brutalistní skelet zachovali, a 15. dubna 2025 se znovu otevřel jako Fairmont Golden Prague.
+
+Pozemek má ale i starší příběh. Na tomhle rohu stával dům U Lodi, kde Franz Kafka v letech 1907 až 1913 bydlel s rodiči a sestrami v bytě ve čtvrtém patře s výhledem na řeku. V září 1912 tu za jedinou noc napsal Ortel a téhož podzimu Proměnu a Kafkův životopisec Reiner Stach považuje právě tenhle byt za domov rodiny Samsových. Dům zničila německá dělostřelba za Pražského povstání v květnu 1945.
+
+🎁 Bonus: Nejslavnější brouk literatury se probudil někde na tomhle rohu. Dnes tu pokoje stojí malé jmění a hosté jsou ráno, pokud je známo, pořád lidmi.`,
+      zh: `巴黎大街靠河的那一头，满街新艺术风格立面和名牌商店在这里撞上堤岸，路口立着一大块混凝土建筑，看上去像是去住宅小区的路上拐错了弯。它是布拉格最有名的粗野主义建筑之一，半个世纪里，这座城市最想给谁留个好印象，就把谁安排住在这里。
+
+它建于1968到1974年，由卡雷尔·菲尔萨克、卡雷尔·布贝尼切克和雅罗斯拉夫·什维茨设计，业主是国营旅行社切多克：国家需要一个地方，来接待西方游客，顺便收下他们的硬通货。1974年12月洲际酒店开业时，它是全国第一家五星级酒店。它那厚重、雕塑般的混凝土没过一代人就过时了，文化部还曾拒绝把它列为文物。结果它没被拆掉，而是从2021年起由TaK建筑事务所改建，保留了粗野主义的骨架，2025年4月15日以费尔蒙金色布拉格酒店的名字重新开业。
+
+这块地还有一段更早的故事。这个路口原先立着一栋叫“船屋”的房子，1907到1913年，弗朗茨·卡夫卡和父母、妹妹们就住在那里四楼一套看得见河的公寓里。1912年9月，他在这里一夜写完了《判决》，同年秋天又写出了《变形记》；卡夫卡传记作者赖纳·施塔赫认为，萨姆沙一家住的正是这套公寓。1945年5月布拉格起义期间，这栋房子毁于德军炮火。
+
+🎁 彩蛋：文学史上最有名的那只甲虫，就是在这个路口某处醒来的。如今这里的房间贵得吓人，而据大家所知，客人们早上醒来仍然都是人。`,
+    },
+  },
+  {
+    // Museum of Decorative Arts: founded 1885 at the initiative of the Chamber of
+    // Commerce and Trade; building by Josef Schulz in French Neo-Renaissance,
+    // 1897–1901 (UPM's own dates), on the site of two houses and part of the Jewish
+    // cemetery; the museum moved in during 1900. Josefov cadastral area. Sources:
+    // upm.cz, prague.eu, Wikipedia.
+    name: "Museum of Decorative Arts in Prague",
+    slug: 'umeleckoprumyslove-museum',
+    localizedNames: { cz: "Uměleckoprůmyslové museum v Praze", zh: "布拉格工艺美术博物馆" },
+    labels: ["museum", "historicism"],
+    district: 'Praha 1',
+    quarter: 'Josefov',
+    coordinates: { lat: 50.08995300978629, lng: 14.416473451919584 },
+    rarity: 'superior',
+    xpReward: 30,
+    description: {
+      en: `Between the Rudolfinum and the wall of the Old Jewish Cemetery stands a grand, sand-coloured palace that most visitors take for part of one or the other. It is neither: it is the Museum of Decorative Arts, Prague's treasure house of chairs, cups, glass, clocks, dresses and everything else people have made beautiful while making it useful.
+
+The museum was founded in 1885 at the initiative of the city's Chamber of Commerce and Trade, which wanted Bohemian craftsmen and factories to see the best design of past and present and learn from it. Its building was designed by Josef Schulz, the architect of the National Museum and, with Josef Zítek, of the Rudolfinum next door, in the style of the French Neo-Renaissance, and was built between 1897 and 1901 on the site of two older houses and a strip of the Jewish cemetery. The collections moved in during 1900.
+
+Inside are some of the finest holdings of their kind in Central Europe: Bohemian glass from the Baroque to the present, porcelain and ceramics, textiles and fashion, furniture, goldsmiths' work, prints and photography, and one of the best collections of Czech Cubist furniture and ceramics, objects shaped as if someone had folded a chair out of crystal. The building itself, with its richly decorated halls and staircase, is part of the show.
+
+🎁 Bonus: The museum still spells its name the old way, "museum" with an s, a century after Czech switched to "muzeum". For a museum of things made to last, it seems only right.`,
+      cz: `Mezi Rudolfinem a zdí Starého židovského hřbitova stojí velkolepý palác barvy písku, který většina návštěvníků považuje za součást jednoho, nebo druhého. Není ani jedním: je to Uměleckoprůmyslové museum, pražská pokladnice židlí, šálků, skla, hodin, šatů a všeho ostatního, co lidé udělali krásným, zatímco to dělali užitečným.
+
+Museum vzniklo v roce 1885 z podnětu pražské Obchodní a živnostenské komory, která chtěla, aby čeští řemeslníci a továrny viděli nejlepší design minulosti i současnosti a učili se z něj. Budovu navrhl Josef Schulz, architekt Národního muzea a spolu s Josefem Zítkem i sousedního Rudolfina, ve stylu francouzské neorenesance a postavila se v letech 1897 až 1901 na místě dvou starších domů a pruhu židovského hřbitova. Sbírky se do ní stěhovaly během roku 1900.
+
+Uvnitř jsou jedny z nejlepších sbírek svého druhu ve střední Evropě: české sklo od baroka po současnost, porcelán a keramika, textil a móda, nábytek, zlatnické práce, grafika a fotografie a jedna z nejlepších sbírek českého kubistického nábytku a keramiky, předmětů tvarovaných, jako by někdo složil židli z krystalu. Součástí představení je i budova sama, s bohatě zdobenými sály a schodištěm.
+
+🎁 Bonus: Museum si dodnes píše jméno postaru, „museum" s s, sto let poté, co čeština přešla na „muzeum". Pro museum věcí, které mají vydržet, se to tak nějak sluší.`,
+      zh: `在鲁道夫音乐厅和老犹太公墓的围墙之间，立着一座沙色的气派宫殿，大多数游客以为它是两者之一的一部分。其实都不是：这是布拉格工艺美术博物馆，一座收藏椅子、杯子、玻璃、钟表、衣裙，以及人们在把东西做得有用的同时又把它做得美的一切的宝库。
+
+博物馆创立于1885年，发起者是布拉格的工商会：他们希望波希米亚的工匠和工厂能看到古今最好的设计，并从中学习。馆舍由约瑟夫·舒尔茨设计，他也是国家博物馆的建筑师，还和约瑟夫·齐泰克一起设计了隔壁的鲁道夫音乐厅。大楼采用法国新文艺复兴风格，1897到1901年间建成，所在的地块原先是两栋老房子和犹太墓地的一条边。1900年，藏品陆续搬了进来。
+
+馆内收藏在中欧同类博物馆中数一数二：从巴洛克到当代的波希米亚玻璃、瓷器和陶器、纺织品与时装、家具、金银器、版画与摄影，还有最好的捷克立体主义家具和陶瓷收藏之一，那些东西的造型，就像有人用水晶折出了一把椅子。大楼本身，连同装饰华丽的展厅和楼梯，也是展品的一部分。
+
+🎁 彩蛋：这座博物馆的捷克语名字至今还沿用老拼法“museum”，用的是s，而捷克语早在一百年前就改成了“muzeum”。一座收藏耐久之物的博物馆，守着个老名字，倒也合情合理。`,
+    },
+  },
 ];
 async function run() {
   await connectDB();

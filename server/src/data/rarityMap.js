@@ -8,7 +8,7 @@ export const SLUG_RARITY = {
   'charles-bridge':               'legend',
   'st-vitus-cathedral':           'legend',
   'astronomical-clock':           'legend',
-  'josefov':                      'legend',
+  'spanelska-synagoga':           'legend',
   'karlstejn-castle':             'legend',
   'dancing-house':                'legend',
   'strahov-monastery':            'legend',

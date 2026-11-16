@@ -2977,6 +2977,14 @@ export const historyEvents = [
     },
     relatedLandmarks: [
       {
+        slug: "josefov",
+        relation: {
+          en: "The old Jewish Town, home of the community whose rights this charter first set down.",
+          cz: "Staré Židovské Město, domov obce, jejíž práva tahle listina poprvé sepsala.",
+          zh: "老犹太城，这份特许状最早写明其权利的那个社区，就住在这里。",
+        },
+      },
+      {
         slug: "old-new-synagogue-1782601630704",
         relation: {
           en: "Built in 1270, once Prague's Jewish community finally had firm legal footing under Otakar's 1254 charter, on the same right-bank ground the 1142 fire had pushed them into. Still Europe's oldest active synagogue today, with one honestly-acknowledged interruption: services stopped between 1942 and 1945.",
@@ -10061,6 +10069,14 @@ export const historyEvents = [
       zh: "1389年4月18日，圣周四（濯足节）这天，布拉格老城传出一则流言：一名犹太男孩，据说在基督徒的宗教游行队伍中把一支十字架撞倒在地。不管事实真相究竟如何，这个指控已经足够了。\n\n暴民冲进犹太区，在随后的暴力中，几乎屠杀了布拉格整个犹太社群。\n\n死亡人数估计超过三千人，男女老少皆有，成为捷克历史上最惨烈的一场反犹屠杀。当时的记载描述了街头肢体残缺的尸体，以及周围被洗劫、焚毁的房屋。\n\n少数幸存者之一，是一位名叫阿维格多尔·卡拉的年轻学者，他亲眼目睹了自己的父亲被杀害。他后来写下一首挽歌《一切苦难》（Et kol ha-tela'ah），哀悼布拉格犹太社群所失去的一切。\n\n六百多年过去，这首诗至今仍在每年赎罪日那天，在布拉格的犹太会堂里被诵读。\n\n屠杀发生时，瓦茨拉夫本人正在赫布参加帝国谈判。消息传来后，他匆忙赶回布拉格，下令将暴行中被劫掠的财产归还给原主。\n\n可这道命令形同虚设。那些原主里，几乎没人还活着能领回任何东西，无法归还的财产，最终转而进了王室国库。\n\n[[b]]没有任何留存的记录显示，瓦茨拉夫曾进一步追查这场屠杀，或惩处过任何责任人。[[/b]]\n\n到那时，瓦茨拉夫自己的优先事项，早已是公开的秘密。这位国王，最近这几年一直忙着为自己的[[link:the-indecisive-king-1382]]狮子、老虎、豹子和熊修建像样的兽舍[[/link]]，坚持每头动物都要按王室规定每天供应新鲜肉食，可对于自己数千名臣民的死亡，他却觉得没什么值得进一步过问的。",
     },
     relatedLandmarks: [
+      {
+        slug: "josefov",
+        relation: {
+          en: "The Jewish Town, where the massacre took place.",
+          cz: "Židovské Město, kde k masakru došlo.",
+          zh: "屠杀发生的地方：犹太城。",
+        },
+      },
       {
         slug: "old-new-synagogue-1782601630704",
         relation: {
@@ -24608,6 +24624,14 @@ export const historyEvents = [
     },
     relatedLandmarks: [
       {
+        slug: "josefov",
+        relation: {
+          en: "The Jewish Town the emperor and empress came to visit by sleigh.",
+          cz: "Židovské Město, které císař s císařovnou přijeli navštívit na saních.",
+          zh: "皇帝和皇后乘雪橇前来探访的犹太城。",
+        },
+      },
+      {
         slug: "old-new-synagogue-1782601630704",
         relation: {
           en: "The oldest synagogue in Europe still in use, built in the 13th century. Legend says Rabbi Loew's Golem still lies in its attic.",
@@ -25388,6 +25412,14 @@ export const historyEvents = [
           en: "Where Rabbi Loew was summoned in February 1592 to talk to a curtain with an emperor behind it.",
           cz: "Sem byl v únoru 1592 povolán rabi Löw, aby hovořil se závěsem, za nímž stál císař.",
           zh: "1592年2月，罗乌拉比被召到这里，隔着一道帘子和皇帝说话。",
+        },
+      },
+      {
+        slug: "josefov",
+        relation: {
+          en: "The Jewish Town of Rabbi Loew and Mordecai Maisel, at the height of its golden age.",
+          cz: "Židovské Město rabiho Löwa a Mordechaje Maisela na vrcholu svého zlatého věku.",
+          zh: "罗乌拉比和迈瑟尔的犹太城，正处在它黄金时代的顶点。",
         },
       },
       {
@@ -32446,6 +32478,14 @@ export const historyEvents = [
     ],
     "relatedLandmarks": [
       {
+        "slug": "josefov",
+        "relation": {
+          "en": "The Jewish Town, which the fire swept through from end to end.",
+          "cz": "Židovské Město, kterým oheň prošel od jednoho konce ke druhému.",
+          "zh": "大火从头烧到尾的犹太城。",
+        }
+      },
+      {
         "slug": "kostel-sv-jakuba-stare-mesto",
         "relation": {
           "en": "Its scaffolding caught fire in 1689 and the Gothic vault collapsed; it was rebuilt as a lower Baroque church, finished in 1702",
@@ -32695,6 +32735,14 @@ export const historyEvents = [
       }
     ],
     "relatedLandmarks": [
+      {
+        "slug": "josefov",
+        "relation": {
+          "en": "The Jewish Town, rebuilt along its old lanes after the fire.",
+          "cz": "Židovské Město, po požáru znovu postavené podél starých uliček.",
+          "zh": "火灾后沿着老巷子重建起来的犹太城。",
+        }
+      },
       {
         "slug": "klausova-synagoga",
         "relation": {

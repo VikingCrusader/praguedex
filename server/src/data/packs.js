@@ -532,6 +532,25 @@ export const PACKS = [
       'pomnik-jana-evangelisty-purkyne', 'park-karlovo-namesti',
     ],
   }),
+  pack({
+    slug: 'josefov',
+    released: '2026-11-16T21:40:00+01:00',
+    name: 'Josefov',
+    localizedNames: { cz: 'Josefov', zh: '约瑟夫城' },
+    foil: '#47406b',
+    labels: ['jewish', 'medieval', 'historicism', 'art-nouveau'],
+    // The old Jewish Town within its own katastrální území (2026-11-16, user's
+    // call): the synagogues, the Old Jewish Cemetery, the Town Hall, Pařížská and
+    // the Faculty of Arts. The Holy Spirit and Holy Saviour churches, Kafka's
+    // birthplace and Jan Palach Square with the Rudolfinum are left out. Took
+    // the slug from the Spanish Synagogue's card, now `spanelska-synagoga`.
+    members: [
+      'old-new-synagogue-1782601630704', 'old-jewish-cemetery', 'spanelska-synagoga', 'pinkas-synagogue',
+      'maiselova-synagoga', 'klausova-synagoga', 'vysoka-synagoga', 'nova-obradni-sin', 'zidovska-radnice',
+      'parizska', 'kafka-statue', 'dum-obchodnickeho-spolku-merkur', 'faculty-of-arts-uk',
+      'socha-mojzise', 'umeleckoprumyslove-museum',
+    ],
+  }),
 ];
 
 export const packsOfCard = (slug) => PACKS

@@ -44,7 +44,7 @@ export const AREA_LANDMARKS = {
       'cathedral-cyril-methodius', 'kafka-rotating-head',
     ],
     'Josefov': [
-      'old-new-synagogue-1782601630704', 'old-jewish-cemetery', 'josefov', 'pinkas-synagogue', 'maiselova-synagoga',
+      'josefov', 'old-new-synagogue-1782601630704', 'old-jewish-cemetery', 'spanelska-synagoga', 'pinkas-synagogue', 'maiselova-synagoga',
       'klausova-synagoga', 'vysoka-synagoga', 'zidovska-radnice', 'kafka-statue', 'parizska',
     ],
     'Hradčany': [

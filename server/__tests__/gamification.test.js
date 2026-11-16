@@ -415,7 +415,7 @@ describe('evaluateAchievements', () => {
     expect(ids(q('Nusle', 31, 13, ['nusle-bridge', 'nuselske-udoli']))).toContain('valley_of_laments');
     expect(ids(q('Vyšehrad', 22, 18, ['sousosi-premysl-a-libuse']))).toContain('libuse_prophecy');
     expect(ids(q('Vyšehrad', 22, 17, ['sousosi-premysl-a-libuse']))).not.toContain('libuse_prophecy');
-    expect(ids(q('Josefov', 13, 11, ['old-new-synagogue-1782601630704', 'josefov']))).toContain('golem_in_the_attic');
+    expect(ids(q('Josefov', 13, 11, ['old-new-synagogue-1782601630704', 'spanelska-synagoga']))).toContain('golem_in_the_attic');
     expect(ids({ checkedSlugs: ['sapa-praha'] })).toContain('a_bowl_of_pho');
     expect(ids({ checkedSlugs: ['new-castle-ruins-near-kunratice-1783003399902'] })).toContain('king_died_of_anger');
     const wm = ['mohyla-bile-hory', 'hvezda-game-reserve', 'the-pilgrimage-site-of-our-lady-of-victory-on-white-mountain-1783352113593'];

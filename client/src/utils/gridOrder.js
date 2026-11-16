@@ -14,7 +14,7 @@ export const FEATURED_SLUGS = [
   'kafka-rotating-head', 'old-jewish-cemetery', 'strahov-library', 'st-nicholas-mala-strana',
   'miminka-kampa', 'powder-tower', 'kafka-statue', 'municipal-house',
   'national-museum', 'rudolfinum', 'kafka-museum', 'loreta-prague',
-  'josefov', 'tynsky-dvur-ungelt', 'national-library-czech-republic', 'kino-lucerna',
+  'spanelska-synagoga', 'tynsky-dvur-ungelt', 'national-library-czech-republic', 'kino-lucerna',
   'pinkas-synagogue', 'petrin-tower', 'old-town-hall', 'quo-vadis-trabant',
   'zizkov-horse-statue', 'wallenstein-palace', 'wallenstein-garden-1783750953785', 'curajici-postavy-david-cerny',
   'strahov-monastery', 'prague-zoo', 'cathedral-cyril-methodius', 'dalibor-tower',

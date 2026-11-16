@@ -582,8 +582,9 @@ const ZIZKOV = quarterShareWith("Žižkov", 0.5, ["zizkov-tv-tower", "zizkov-hor
 const BOHNICE = quarterShareWith("Bohnice", 0.5, ["bohnice", "oc-krakov", "psychiatricka-nemocnice-bohnice"]);
 const NUSLE = quarterShareWith("Nusle", 0.4, ["nusle-bridge", "nuselske-udoli"]);
 const VYSEHRAD = quarterShareWith("Vyšehrad", 0.8, ["sousosi-premysl-a-libuse"]);
-// The slug "josefov" is the Spanish Synagogue's card, not the whole quarter.
-const JOSEFOV = quarterShareWith("Josefov", 0.8, ["old-new-synagogue-1782601630704", "josefov"]);
+// The Spanish Synagogue's card was "josefov" until 2026-11-16, when the
+// Josefov card pack took that slug.
+const JOSEFOV = quarterShareWith("Josefov", 0.8, ["old-new-synagogue-1782601630704", "spanelska-synagoga"]);
 // City of Silver: Kutná Hora and its four big sights (user's list, 2026-11-03).
 const SILVER_CITY = placesOnly(["kutna-hora", "vlassky-dvur", "kostel-svate-barbory", "kostnice-sedlec", "sedlecky-klaster"]);
 const PHO = placesOnly(["sapa-praha"]);

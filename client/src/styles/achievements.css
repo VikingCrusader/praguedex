@@ -906,27 +906,12 @@ html[data-lang="zh"] .ach-badge-pill:not(.ach-badge-pill--xp) { width: 108px; }
 html .card-ach__head .ach-badge-pill.ach-badge-pill { flex: none; width: auto; justify-content: center; padding: 0 6px; border-width: 1px; font-size: 11px; line-height: 18px; }
 .card-ach__flavor { font-size: 13px; line-height: 1.35; color: var(--text-muted); }
 .card-ach__item .ach-progress { margin-top: 0; max-width: none; }
-.card-ach__more {
-  margin-top: 8px;
-  padding: 0;
-  font: inherit;
-  font-size: 14px;
-  color: var(--gold);
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-.card-ach__also { margin: 8px 0 0; font-size: 14px; line-height: 1.5; color: var(--text-muted); }
-.card-ach__also-link {
-  padding: 0;
-  font: inherit;
-  color: var(--text-primary);
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-.card-ach__also-link:hover { color: var(--gold); }
 /* Same width within a language, like every other difficulty badge. */
 html[data-lang="en"] .card-ach__head .ach-badge-pill.ach-badge-pill { min-width: 64px; }
 html[data-lang="cz"] .card-ach__head .ach-badge-pill.ach-badge-pill { min-width: 78px; }
 html[data-lang="zh"] .card-ach__head .ach-badge-pill.ach-badge-pill { min-width: 40px; }
+
+/* The story behind an achievement (2026-11-17): plain reading text, same size
+   as the requirement, paragraphs spaced like a card's story. */
+.ach-modal__story p { margin: 0; font-size: 16px; line-height: 1.65; color: var(--text-primary); }
+.ach-modal__story p + p { margin-top: 10px; }

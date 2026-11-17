@@ -17,6 +17,7 @@ import { parsePreferences } from '../utils/preferences.js';
 import { syncAchievements, buildAchievementStats, historyEraOrder } from '../services/achievementStats.js';
 import { historyReadingSummary } from './historyController.js';
 import { PACKS } from '../data/packs.js';
+import { ACHIEVEMENT_STORIES } from '../data/achievementStories.js';
 import { BIG_BATCH } from '../utils/dbBatch.js';
 import { locationCatalog, withLocations } from '../services/locationCatalog.js';
 
@@ -679,6 +680,10 @@ function achievementEntry(ach, earned, rates) {
     description:    ach.description,
     description_cz: ach.description_cz,
     description_zh: ach.description_zh,
+    // The story behind it, for the few built on history or culture.
+    story:          ACHIEVEMENT_STORIES[ach.id]?.en,
+    story_cz:       ACHIEVEMENT_STORIES[ach.id]?.cz,
+    story_zh:       ACHIEVEMENT_STORIES[ach.id]?.zh,
     difficulty:     ach.difficulty,
     xp:             ACHIEVEMENT_XP[ach.difficulty] || 0,
     unlockRate:     rates[ach.id],

@@ -183,6 +183,13 @@ export default function AchievementModal({ achievement: ach, onClose }) {
           </div>
         </div>
 
+        {ach.story && (
+          <div className="ach-modal__section ach-modal__story">
+            <div className="ach-modal__label">{t('ach.story')}</div>
+            {text('story').split(/\n\s*\n/).map((para, i) => <p key={i}>{para}</p>)}
+          </div>
+        )}
+
         <div className="ach-modal__section">
           <div className="ach-modal__label">{t('ach.requirement')}</div>
           <p className="ach-modal__req">{text('description')}</p>

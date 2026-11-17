@@ -189,6 +189,62 @@ export function playHuntWinSound() {
   } catch (_) {}
 }
 
+// ── Card pack opening ────────────────────────────────────────────────────
+// Timed to PackUnlocked's animation in packs.css: the top strip tears from
+// 720 ms (`pack-tear`, the rip itself in its first ~300 ms) and the cards fan
+// out from 1180 ms (`pack-fan`, 40 ms apart). The rip is crackling noise:
+// short grains of random loudness, denser and brighter as it runs, through a
+// band-pass, so it reads as foil and paper tearing rather than a hiss.
+export const PACK_TEAR_AT_MS = 720;
+export const PACK_FAN_AT_MS = 1180;
+
+function tearRip(ac, t, dur = 0.34) {
+  const sr = ac.sampleRate;
+  const len = Math.floor(sr * dur);
+  const buf = ac.createBuffer(1, len, sr);
+  const data = buf.getChannelData(0);
+  let i = 0;
+  while (i < len) {
+    const p = i / len;
+    // Grains get shorter (denser crackle) as the tear speeds up.
+    const grain = Math.floor(sr * (0.012 - 0.008 * p) * (0.5 + Math.random()));
+    const amp = (0.25 + Math.random() * 0.75) * Math.min(1, p * 6) * (1 - p * 0.55);
+    for (let k = 0; k < grain && i < len; k++, i++) data[i] = (Math.random() * 2 - 1) * amp;
+  }
+  const src = ac.createBufferSource();
+  src.buffer = buf;
+  const hp = ac.createBiquadFilter();
+  hp.type = 'highpass'; hp.frequency.value = 900;
+  const bp = ac.createBiquadFilter();
+  bp.type = 'bandpass'; bp.Q.value = 0.7;
+  bp.frequency.setValueAtTime(2200, t);
+  bp.frequency.exponentialRampToValueAtTime(5200, t + dur);
+  const g = ac.createGain();
+  g.gain.setValueAtTime(0.0001, t);
+  g.gain.exponentialRampToValueAtTime(0.55, t + 0.02);
+  g.gain.setValueAtTime(0.55, t + dur * 0.7);
+  g.gain.exponentialRampToValueAtTime(0.001, t + dur);
+  src.connect(hp); hp.connect(bp); bp.connect(g); g.connect(ac.destination);
+  src.start(t); src.stop(t + dur + 0.02);
+}
+
+// The strip tearing off, then a soft flick for each card as it fans out.
+export function playPackTearSound(cards = 3) {
+  try {
+    const ac = ctx();
+    ac.resume?.();
+    const t0 = ac.currentTime;
+    const tear = t0 + PACK_TEAR_AT_MS / 1000;
+    noiseBurst(ac, tear - 0.05, 0.05, { freq: 1400, q: 1.5, gain: 0.18 }); // the pull before the rip
+    tearRip(ac, tear);
+    noiseBurst(ac, tear + 0.36, 0.22, { freq: 3000, sweepTo: 900, q: 0.8, gain: 0.08 }); // strip flying off
+    for (let i = 0; i < cards; i++) {
+      noiseBurst(ac, t0 + (PACK_FAN_AT_MS + i * 40) / 1000, 0.06, { freq: 1800 + i * 300, q: 1.1, gain: 0.16 });
+    }
+  } catch (_) {}
+  setTimeout(() => navigator.vibrate?.([30, 20, 30, 20, 50]), PACK_TEAR_AT_MS);
+}
+
 // ── Achievement unlocked ─────────────────────────────────────────────────
 // Original "ding-dang" chime (2026-11-02), meant to land harder than the
 // level-up fanfare: a quick upward shimmer, a low thump, two struck bells a

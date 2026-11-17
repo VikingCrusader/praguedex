@@ -748,7 +748,6 @@ export const SLUG_RARITY = {
   'uhelny-trh':                     'rare',     // medieval charcoal-market square, Mozart lived on the corner in 1787
   'palac-knih-luxor':               'rare',     // 1925-27 Avion pleasure palace, now Central Europe's largest bookstore
   'kasna-na-malem-namesti':         'superior', // 1560 Renaissance ironwork grille, oldest surviving fountain in Prague
-  'dvorakovo-nabrezi':              'superior', // 1899-1908 embankment, only one never renamed across regime changes
 
   // ── Old Town curiosities batch (2026-08-06) ──────────────────────────────
   'smallest-house-in-prague':       'rare',     // 1853 Liebel infill house, 2.25m wide, ex-brothel until 1922

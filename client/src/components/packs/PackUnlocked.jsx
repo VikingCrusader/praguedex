@@ -4,7 +4,7 @@ import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { PACKS_UNLOCKED_EVENT, PACK_SHOW_MS } from '../../utils/achievementEvents';
 import { getLocalCoverPath, toThumbPath } from '../../utils/localCover';
 import { getLocName } from '../../utils/locName';
-import { playHuntWinSound, playUnlockSound } from '../../utils/sound';
+import { playHuntWinSound, playUnlockSound, playPackTearSound, PACK_FAN_AT_MS } from '../../utils/sound';
 import PackCard from './PackCard';
 import PackDetail from './PackDetail';
 
@@ -48,7 +48,13 @@ export default function PackUnlocked() {
     setQueue(rest);
     setLeaving(false);
     setCurrent(next);
-    if (next.stage === 'complete') playHuntWinSound(); else playUnlockSound('legend');
+    // The strip tears with its own sound (2026-11-17, user's request); the
+    // fanfare waits for the cards to fan out. Under reduced motion there is no
+    // tear to hear, so only the fanfare plays, at once.
+    const fanfare = () => (next.stage === 'complete' ? playHuntWinSound() : playUnlockSound('legend'));
+    if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) { fanfare(); return; }
+    playPackTearSound(next.cards?.length || 3);
+    timers.current.push(setTimeout(fanfare, PACK_FAN_AT_MS));
   }, [current, levelUpEvent, queue]);
 
   const dismiss = () => {

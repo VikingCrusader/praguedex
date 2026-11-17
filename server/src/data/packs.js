@@ -97,6 +97,7 @@ export const PACKS = [
       'palac-goltz-kinskych', 'stone-bell-house', 'dum-u-bileho-jednorozce', 'storch-house', 'dum-u-lazara', 'schieruv-dum',
       'park-u-staromestskeho-namesti', 'prazska-mestska-pojistovna', 'dum-u-clovicku', 'dum-zlaty-kriz',
       'kostel-sv-mikulase-stare-mesto', 'dum-u-zlateho-slona', 'dum-u-minuty',
+      'dum-u-zlateho-jednorozce-staromestske-namesti',
     ],
   }),
   pack({
@@ -238,9 +239,11 @@ export const PACKS = [
     labels: ['street', 'baroque', 'classicism', 'contemporary'],
     // The buildings along the street from Anděl to Motol, plus Sacré Coeur Park,
     // which the footbridge over the street lands in (2026-11-10, user's call). Took
-    // over the street's own card, slug and cover; the card was deleted.
+    // over the street's own card, slug and cover; the card was deleted. The
+    // Ringhoffer works and the Nový Smíchov mall moved to the Anděl pack on
+    // 2026-11-17 (user's call).
     members: [
-      'ringhofferovy-zavody', 'oc-novy-smichov', 'lavka-novy-smichov-sacre-coeur', 'park-sacre-coeur', 'smichov-gate',
+      'lavka-novy-smichov-sacre-coeur', 'park-sacre-coeur', 'smichov-gate',
       'green-point-smichov', 'malostransky-hrbitov', 'kostel-nejsvetejsi-trojice-kosire', 'kaple-nanebevzeti-panny-marie-klamovka',
       'klamovka-1783291602610', 'kostel-sv-jana-nepomuckeho-kosire', 'zamek-motol', 'motolsky-pivovar', 'maltezsky-mlyn',
       'krucifix-motol', 'krematorium-motol',
@@ -551,6 +554,124 @@ export const PACKS = [
       'maiselova-synagoga', 'klausova-synagoga', 'vysoka-synagoga', 'nova-obradni-sin', 'zidovska-radnice',
       'parizska', 'kafka-statue', 'dum-obchodnickeho-spolku-merkur', 'faculty-of-arts-uk',
       'socha-mojzise', 'umeleckoprumyslove-museum',
+    ],
+  }),
+  pack({
+    slug: 'dvorakovo-nabrezi',
+    released: '2026-11-17T17:40:00+01:00',
+    name: 'Dvořák Embankment',
+    localizedNames: { cz: 'Dvořákovo nábřeží', zh: '德沃夏克河堤' },
+    foil: '#2a5d73',
+    labels: ['waterbody', 'bridge', 'brutalism', 'historicism'],
+    // The buildings on the river itself, from the Faculty of Law to the Štefánik
+    // Bridge (2026-11-17, user's call: riverside only). Jan Palach Square with the
+    // Rudolfinum, the Mánes and Dvořák statues is the next pack; St Agnes, St
+    // Castulus, Sts Simon and Jude and the smallest house stand inland and stay
+    // out, as does Merkur Palace across Revoluční. Took over the one-point
+    // embankment card's slug and cover.
+    members: [
+      'pravnicka-fakulta-uk-knihovna', 'namesti-curieovych', 'fairmont-golden-prague',
+      'kodl-contemporary', 'hotel-president', 'cechuv-most', 'sochy-geniu-cechuv-most',
+      'pristaviste-u-cechova-mostu', 'nemocnice-na-frantisku', 'ministerstvo-prumyslu-a-obchodu',
+      'stefanikuv-most',
+    ],
+  }),
+  pack({
+    slug: 'namesti-jana-palacha',
+    released: '2026-11-17T19:30:00+01:00',
+    name: 'Jan Palach Square',
+    localizedNames: { cz: 'Náměstí Jana Palacha', zh: '扬·帕拉赫广场' },
+    foil: '#6b2f3a',
+    labels: ['square', 'cultural', 'communism', 'historicism'],
+    // The square and what frames it (2026-11-17): the Rudolfinum with the Dvořák
+    // statue, the Mánes Bridge and statue, the Museum of Decorative Arts and the
+    // Faculty of Arts (both shared with Josefov), UMPRUM, the Fourteen Hearts
+    // memorial and Hejduk's Palach memorial. Lea Vivot's bench by the Four Seasons
+    // is too far down the embankment. New slug.
+    members: [
+      'rudolfinum', 'socha-antonina-dvoraka', 'josef-manes-monument-1782932267279', 'manesuv-most',
+      'umeleckoprumyslove-museum', 'faculty-of-arts-uk', 'pamatnik-ctrnact-srdci',
+      'vysoka-skola-umeleckoprumyslova', 'pamatnik-jana-palacha-sousosi',
+    ],
+  }),
+  pack({
+    slug: 'ujezd',
+    released: '2026-11-17T20:30:00+01:00',
+    name: 'Újezd',
+    localizedNames: { cz: 'Újezd', zh: '乌耶兹德' },
+    foil: '#4f5d2f',
+    labels: ['street', 'church', 'communism', 'early-modern'],
+    // The street at the foot of Petřín and the old village it was named after
+    // (2026-11-17): from the Museum of Music (Újezd 50 / Karmelitská) to the Pink
+    // Tank on Kinských square where the street ends, with St John the Baptist Na
+    // Prádle and St Lawrence (the two village churches), Tyrš House, the Memorial
+    // to the Victims of Communism, the Hunger Wall (shared with Petřín) and the
+    // Baroque walls. Took over the one-point Újezd card (two check-ins) and its cover.
+    members: [
+      'czech-museum-of-music', 'church-of-john-the-baptist-in-prague-1782392522439',
+      'kostel-sv-vavrence-mala-strana', 'tyrs-house-1782409888726',
+      'memorial-to-the-victims-of-communism-1782565714871', 'hunger-wall-1782410203381',
+      'marianske-hradby-rosickych', 'torzo-tanku',
+    ],
+  }),
+  pack({
+    slug: 'maltezske-namesti',
+    released: '2026-11-17T21:30:00+01:00',
+    name: 'Malta Square',
+    localizedNames: { cz: 'Maltézské náměstí', zh: '马耳他广场' },
+    foil: '#8f2a2a',
+    labels: ['square', 'church', 'palace', 'medieval'],
+    // The Knights of St John's corner of the Lesser Town (2026-11-17): Our Lady
+    // beneath the Chain and the Grand Priory, the Lennon Wall, the palaces of
+    // Malta Square and Grand Priory Square, Havel's bench and Brokoff's St John
+    // the Baptist. The old Malta Square card was turned into that statue (same
+    // slug and spot, user's call), so the pack has a new slug. Our Lady
+    // Victorious and Saxon House belong to Karmelitská and Mostecká.
+    members: [
+      'malta-square-1782492877948', 'virgin-mary-under-chain-1782394339035', 'mala-strana',
+      'john-lennon-wall', 'buquoy-palace-embassy-of-france-1782407266228', 'lavicka-vaclava-havla',
+      'nostick-palace-ministry-of-culture-of-the-czech-republic-1782395857267',
+      'velkoprevorsky-mlyn', 'turbovsky-palac', 'dum-u-zlateho-jednorozce-lazenska',
+    ],
+  }),
+  pack({
+    slug: 'andel',
+    released: '2026-11-17T22:30:00+01:00',
+    name: 'Anděl',
+    localizedNames: { cz: 'Anděl', zh: '安德尔' },
+    foil: '#3f6f7a',
+    labels: ['contemporary', 'functionalism', 'transport', 'communism'],
+    // The Smíchov crossroads and what grew around it (2026-11-17): Zlatý Anděl,
+    // the Nový Smíchov mall and the Ringhoffer works (both moved here from
+    // Plzeňská, user's call), the synagogue, the Women's Homes, Na Knížecí, the
+    // V4 mural and the Staropramen visitor centre. The náměstí 14. října cluster
+    // to the north (St Wenceslas, the town hall, market hall, National House)
+    // stays out. Took over the Anděl Pedestrian Zone card's slug and cover; the
+    // card was deleted (user's call).
+    members: [
+      'zlaty-andel', 'oc-novy-smichov', 'ringhofferovy-zavody', 'smichovska-synagoga',
+      'zenske-domovy', 'na-knizeci-bus-terminal', '30-years-of-v4-mural-1783626154504',
+      'staropramen-navstevnicke-centrum', 'stanice-metra-andel', 'manifesto-market-andel',
+    ],
+  }),
+  pack({
+    slug: 'stary-smichov',
+    released: '2026-11-17T23:30:00+01:00',
+    name: 'Old Smíchov',
+    localizedNames: { cz: 'Starý Smíchov', zh: '斯米霍夫老城中心' },
+    foil: '#7a4a2a',
+    labels: ['square', 'historicism', 'art-nouveau', 'baroque'],
+    // The old town centre of Smíchov (2026-11-17): Náměstí 14. října with St
+    // Wenceslas, the National House, the market hall and the Bear Fountain, and
+    // Štefánikova with the town hall, the Švanda Theatre, Portheimka and Prager's
+    // bank, plus Arbes Square and the regional authority. The KGB Museum card
+    // stands here on the map but the museum is in the Lesser Town (Vlašská), so
+    // it stays out; the Justice Palace and the Chasm of Time belong to Kinských
+    // square. New slug.
+    members: [
+      'kostel-sv-vaclava-smichov', 'narodni-dum-na-smichove', 'smchov-market-hall-1782866198316', 'medvedi-kasna',
+      'smchov-town-hall-1783626407856', 'svandovo-divadlo-smichov', 'portheimka', 'arbesovo-namesti',
+      'budova-banky-stefanikova-smichov', 'krajsky-urad-stredoceskeho-kraje',
     ],
   }),
 ];

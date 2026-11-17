@@ -1970,21 +1970,21 @@ Navrhl ji architekt Josef Fanta, známý hlavně secesním hlavním nádražím,
     description: {
       en: `Welcome to the memorial on Jan Palach Square, raised in memory of the fourteen students and staff of Charles University's Faculty of Arts who lost their lives on 21 December 2023, a wound the university and the city, are still learning to carry.
 
-On the afternoon of 21 December 2023, a 24-year-old student opened fire inside the Faculty of Arts' main building, a short walk from this square. Thirteen people were killed on the spot and a fourteenth victim died after falling while trying to escape; twenty-five others were wounded before the attacker was killed in an exchange with police. It remains the deadliest mass shooting in the country's modern history.
+On the afternoon of 21 December 2023, a 24-year-old student opened fire inside the Faculty of Arts' main building, right on this square. He killed fourteen people and wounded more than twenty others, then shot himself as the police closed in. It remains the deadliest mass shooting in the country's modern history.
 
 The memorial itself is a deliberately unpolished, roughly hewn sandstone monolith, nearly three metres tall and weighing about eight tonnes, designed by sculptor Vojtěch Adamec Jr. and set in place by architect Vojtěch Králíček. It was unveiled on 20 June 2024, six months after the attack. In September 2025, a plaque bearing the names of all fourteen victims was added beside it, so that anyone passing through the square would know exactly whom the stone remembers.
 
 The gunman's motive has never been fully explained. What remains is this stone, the fourteen names beside it, and a square that Prague now shares between two histories: Jan Palach's protest against occupation in 1969, and, more than half a century later, another loss the city did not choose.`,
       cz: `Vítejte u památníku na náměstí Jana Palacha, který byl postaven na památku čtrnácti studentů a zaměstnanců Filozofické fakulty Univerzity Karlovy, kteří přišli o život 21. prosince 2023 – ránu, kterou se univerzita i město stále učí nést.
 
-Odpoledne 21. prosince 2023 zahájil 24letý student palbu v hlavní budově Filozofické fakulty, která se nachází kousek od tohoto náměstí. Třináct lidí bylo zabito na místě a čtrnáctá oběť zemřela po pádu při pokusu o útěk; dalších dvacet pět bylo zraněno, než byl útočník zabit při přestřelce s policií. Dodnes se jedná o nejkrvavější masovou střelbu v moderní historii země.
+Odpoledne 21. prosince 2023 zahájil 24letý student palbu v hlavní budově Filozofické fakulty přímo na tomto náměstí. Zabil čtrnáct lidí a více než dvacet dalších zranil, a když se k němu blížila policie, zastřelil se. Dodnes se jedná o nejkrvavější masovou střelbu v moderní historii země.
 
 Samotný památník je záměrně neleštěný, hrubě opracovaný pískovcový monolit, vysoký téměř tři metry a vážící asi osm tun, navržený sochařem Vojtěchem Adamcem ml. a osazený architektem Vojtěchem Králíčkem. Byl odhalen 20. června 2024, šest měsíců po útoku. V září 2025 byla vedle něj umístěna pamětní deska se jmény všech čtrnácti obětí, aby každý, kdo prochází náměstím, věděl, koho přesně kámen připomíná.
 
 Motiv střelce nebyl nikdy plně vysvětlen. Zůstal jen tento kámen, čtrnáct jmen vedle něj a náměstí, které Praha nyní sdílí mezi dvěma dějinami – protestem Jana Palacha proti okupaci v roce 1969 a o více než půl století později další ztrátou, kterou si město nevybralo.`,
       zh: `欢迎来到扬·帕拉赫广场的纪念碑，这里是为了纪念2023年12月21日在查理大学文学院枪击案中丧生的14名学生和教职工而建。这场悲剧至今仍是大学和这座城市难以愈合的伤痛。
 
-2023年12月21日下午，一名24岁的学生在距离广场不远的文学院主楼内开枪扫射。13人当场死亡，第14名受害者在试图逃生时坠楼身亡；另有25人受伤。枪手在与警方的交火中被击毙。这起枪击案至今仍是捷克现代史上伤亡最惨重的枪击事件。
+2023年12月21日下午，一名24岁的学生在广场上的文学院主楼内开枪扫射。他打死了14人，打伤二十多人，在警方逼近时开枪自杀。这起枪击案至今仍是捷克现代史上伤亡最惨重的枪击事件。
 
 纪念碑本身是一块未经打磨、粗犷的砂岩巨石，高近3米，重约8吨，由雕塑家小沃伊捷赫·阿达梅茨设计，由建筑师沃伊捷赫·克拉利切克安放。纪念碑于2024年6月20日揭幕，距袭击发生已过去六个月。2025年9月，碑旁增添了一块刻有全部十四名遇难者姓名的牌匾，以便每一位路过广场的人都能确切地知道这块石头纪念的是谁。
 
@@ -18484,35 +18484,6 @@ Za kašnou stojí Rottův dům, bývalý obchod se železem, jehož novorenesan�
 喷泉后面是罗特之家，从前是一家五金店，它的新文艺复兴立面上画满了手工业和农耕的场景，依据的是米科拉什·阿莱什的设计。给一口井做背景，再合适不过地五彩缤纷。
 
 🎁 彩蛋：栅栏的每一块格板图案都不一样，仿佛铁匠想在一单活儿上把自己会的花样全都炫一遍。它就像一本立在广场中央的文艺复兴铁艺小图录。`,
-    },
-  },
-  {
-    name: 'Dvořák Embankment',
-    slug: 'dvorakovo-nabrezi',
-    localizedNames: { cz: 'Dvořákovo nábřeží', zh: '德沃夏克滨河大道' },
-    labels: ['street', 'waterbody'],
-    district: 'Praha 1',
-    quarter: 'Staré Město',
-    coordinates: { lat: 50.09154483633834, lng: 14.416015845381862 },
-    rarity: 'superior',
-    xpReward: 30,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Dvo%C5%99%C3%A1kovo_n%C3%A1b%C5%99e%C5%BE%C3%AD',
-    description: {
-      en: `Dvořák Embankment runs along the Vltava on the northern edge of the Old Town, from the Čech Bridge toward the Štefánik Bridge. It looks like the plainest kind of riverside road, but it is a product of one of the biggest makeovers Prague ever had.
-
-It was built between 1899 and 1908 as part of the great clearance and sanitation of the old Jewish Town and the riverside slums around it. First a main sewer went in, then a river wall, a promenade and a landing for boats. Before that, the riverbank here held bathhouses, timber yards and a saltpetre works, and part of the old street was even called Saltpetre Street, which tells you how pleasant it was to live downwind. In 1904 the new embankment was named after the composer Antonín Dvořák, who died that same year, and it has carried his name ever since. The quarter behind it is still called Na Františku.
-
-🎁 Bonus: A walk along it takes you past the Faculty of Law of Charles University, built in 1928 and 1929 to a design by Ladislav Machoň, two big hotels, and the Convent of St. Agnes of Bohemia, one of the oldest Gothic buildings in Prague and now part of the National Gallery.`,
-      cz: `Dvořákovo nábřeží se táhne podél Vltavy na severním okraji Starého Města, od Čechova mostu směrem ke Štefánikovu mostu. Vypadá jako ta nejobyčejnější nábřežní silnice, ale je výsledkem jedné z největších proměn, jaké Praha kdy zažila.
-
-Vzniklo v letech 1899 až 1908 v rámci velké asanace bývalého Židovského Města a nábřežních chudinských čtvrtí kolem něj. Nejdřív se položila hlavní stoka, pak nábřežní zeď, promenáda a přístaviště pro lodě. Předtím tu na břehu stály lázně, dřevařské sklady a sanytrárna a část staré ulice se dokonce jmenovala Sanytrová, což napovídá, jak příjemné bylo bydlet po větru. V roce 1904 bylo nové nábřeží pojmenováno po skladateli Antonínu Dvořákovi, který téhož roku zemřel, a jeho jméno nese dodnes. Čtvrti za ním se pořád říká Na Františku.
-
-🎁 Bonus: Procházka po nábřeží vás provede kolem Právnické fakulty Univerzity Karlovy z let 1928 a 1929 podle návrhu Ladislava Machoně, kolem dvou velkých hotelů a Anežského kláštera, jedné z nejstarších gotických staveb v Praze, která je dnes součástí Národní galerie.`,
-      zh: `德沃夏克滨河大道沿着伏尔塔瓦河，位于老城北缘，从切赫桥一直通往施特凡尼克桥方向。它看上去是一条再普通不过的滨河路，却是布拉格有史以来最大的一次改造的产物。
-
-它建于1899年到1908年，是老犹太城及周边河岸贫民区大规模清理和卫生整治的一部分。先铺下一条主下水道，然后是河堤、步行道和一个游船码头。在那之前，这段河岸上有澡堂、木材场和一家硝石厂，老街的一段甚至就叫“硝石街”，住在下风口有多舒服，可想而知。1904年，新建的滨河大道以当年去世的作曲家安东宁·德沃夏克命名，这个名字一直沿用至今。它背后的街区至今仍叫“弗朗蒂谢克”。
-
-🎁 彩蛋：沿着它走一趟，会经过查理大学法学院，那是拉迪斯拉夫·马洪设计、1928年至1929年建成的大楼，还有两家大酒店，以及圣阿格尼丝修道院，它是布拉格最古老的哥特式建筑之一，如今属于国家美术馆。`,
     },
   },
   {
@@ -38049,6 +38020,348 @@ Pak Winton skoro padesát let mlčel. V roce 1988 našla jeho žena na půdě al
 之后，温顿沉默了将近五十年。1988年，他的妻子在阁楼里发现了一本剪贴簿，里面满是名单和照片。英国广播公司的节目《这就是生活》讲述了这个故事，温顿本人就坐在观众席里。主持人问在场有没有人的性命是他救下的，他周围的人全都站了起来。2003年他被封为爵士，2014年获得捷克白狮勋章。这座雕像出自雕塑家弗洛尔·肯特之手，2009年9月1日揭幕，那一天，一列满载他当年救下的“孩子”及其家人的老式列车从这里出发，重走当年去伦敦的路。青铜眼镜被人偷走过三次，最后一次丢了大约五年，直到一次公开募捐出钱，请修复师帕维尔·施赖伯把它装了回去。
 
 🎁 彩蛋：尼古拉斯·温顿于2015年7月1日去世，享年106岁。那一天，正好是他的一列火车载着241个孩子从这个车站出发的76周年。`,
+    },
+  },
+  {
+    // Before the Rudolfinum on Jan Palach Square (2026-11-17, user's coordinates).
+    // Commissioned by the city in 1949 from Josef Wagner (d. 1957), finished by his
+    // son Jan Wagner, architect Pavel Smetana; unveiled 4 June 2000 at the close of
+    // the Prague Spring festival, "provisionally" on the lawn instead of the steps.
+    name: 'Antonín Dvořák Statue',
+    slug: 'socha-antonina-dvoraka',
+    localizedNames: { cz: 'Socha Antonína Dvořáka', zh: '德沃夏克雕像' },
+    labels: ['monument', 'sculpture', 'national-revival'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.08924147793408, lng: 14.415188364022523 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `On the lawn in front of the Rudolfinum, three metres of bronze Antonín Dvořák stands with his hands behind his back, looking as if he has just heard a wrong note from the hall behind him. He has every right to be there: the building's main hall is named after him. He just had to wait half a century to arrive.
+
+The city commissioned the statue in 1949 from the sculptor Josef Wagner, working with the architect Pavel Smetana. Wagner died in 1957 with the work unfinished, and his son Jan completed it from his father's design. Then it waited for decades, for money, for a place and for the right moment. It was finally unveiled on 4 June 2000, at the close of the Prague Spring music festival. The violinist Josef Suk, Dvořák's great-grandson, had wanted it on the Rudolfinum's steps, and the mayor had promised as much, but architects and art historians objected that the steps belonged to the building. So the statue was set on the lawn, provisionally. It is still there.
+
+The spot is right. On 4 January 1896 Dvořák himself conducted the first concert of the Czech Philharmonic in this building, and the orchestra still plays in the hall that bears his name.
+
+🎁 Bonus: Dvořák spent three years in America, wrote the New World Symphony there, and came home to Prague anyway. He was also a passionate railway enthusiast who knew the timetables by heart, so a statue that faces the river and not a station is perhaps the one thing here he would complain about.`,
+      cz: `Na trávníku před Rudolfinem stojí tři metry bronzového Antonína Dvořáka s rukama za zády a tváří se, jako by právě zaslechl ze sálu za sebou falešný tón. Má na to plné právo: hlavní sál budovy nese jeho jméno. Jen musel na příchod čekat půl století.
+
+Město sochu objednalo v roce 1949 u sochaře Josefa Wagnera, který na ní pracoval s architektem Pavlem Smetanou. Wagner zemřel roku 1957, aniž ji dokončil, a podle otcova návrhu ji dodělal jeho syn Jan. Pak se desítky let čekalo, na peníze, na místo i na vhodnou chvíli. Odhalena byla nakonec 4. června 2000 na závěr festivalu Pražské jaro. Houslista Josef Suk, Dvořákův pravnuk, ji chtěl na schodišti Rudolfina a primátor mu to slíbil, jenže architekti a historici umění namítli, že schodiště patří budově. Socha tak skončila na trávníku, provizorně. Stojí tam dodnes.
+
+Místo je to správné. Čtvrtého ledna 1896 tu Dvořák sám dirigoval první koncert České filharmonie a orchestr dodnes hraje v sále, který nese jeho jméno.
+
+🎁 Bonus: Dvořák strávil tři roky v Americe, napsal tam Novosvětskou a stejně se vrátil do Prahy. Byl také vášnivý milovník železnice a jízdní řády znal nazpaměť, takže socha, která se dívá na řeku, a ne na nádraží, je tu možná to jediné, na co by si stěžoval.`,
+      zh: `鲁道夫音乐厅门前的草坪上，站着三米高的青铜德沃夏克，双手背在身后，一脸像是刚从身后的大厅里听见了一个错音。他站在这儿完全名正言顺：这座楼的主厅就叫德沃夏克厅。只不过，他足足等了半个世纪才到。
+
+1949年，市政府向雕塑家约瑟夫·瓦格纳订制了这尊像，建筑师帕维尔·斯美塔那与他合作。瓦格纳1957年去世时作品还没完成，他的儿子扬按照父亲的设计把它做完。然后就是几十年的等待：等钱，等地方，等时机。直到2000年6月4日“布拉格之春”音乐节闭幕时，它才终于揭幕。德沃夏克的曾孙、小提琴家约瑟夫·苏克希望把它放在音乐厅的台阶上，市长也答应了，可建筑师和艺术史学家反对，说台阶属于建筑本身。于是雕像就“暂时”放在了草坪上，一直放到今天。
+
+这个位置选得没错。1896年1月4日，德沃夏克本人就在这座楼里指挥了捷克爱乐乐团的第一场音乐会，乐团至今仍在以他命名的大厅里演奏。
+
+🎁 彩蛋：德沃夏克在美国待了三年，在那里写出了《自新大陆》，最后还是回了布拉格。他还是个狂热的火车迷，列车时刻表倒背如流，所以这尊面朝河、不朝火车站的雕像，大概是这里唯一会让他抱怨的地方。`,
+    },
+  },
+  {
+    // On the Dvořák Embankment by Curie Square (2026-11-17, user's coordinates and
+    // pick: one of the most recognisable riverside buildings). The SIA house
+    // (1927-28, František Krásný), seat of the World Federation of Trade Unions,
+    // the Budovatel hotel added 1978, both refaced in late brutalism by Karel
+    // Filsak, Ludvík Pivoňka and Karel Filsak Jr. before 1989 (Památkový katalog);
+    // Klimeš's "Wing" on the frame; renovation finished 2016.
+    name: 'Hotel President',
+    slug: 'hotel-president',
+    localizedNames: { cz: 'Hotel President', zh: '总统酒店' },
+    labels: ['brutalism', 'communism'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.09257930288576, lng: 14.419720929562466 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Walk along the Old Town bank and one building refuses to blend in: a block of raw concrete and dark glass held in a huge concrete frame, with a concrete wing perched on top as if the building were thinking about flying across the river to Letná. This is Hotel President, and inside the concrete a much politer building is hiding.
+
+It began in 1927 and 1928 as the house of the Association of Architects and Engineers, a neat Neoclassical design by František Krásný. Under communism the building had a more political career: it housed the World Federation of Trade Unions, the Soviet bloc's international union body, which had its seat in Prague. In 1978 a hotel called Budovatel, the Builder, was added on its eastern side, and in the 1980s the architects Karel Filsak, Ludvík Pivoňka and Karel Filsak Jr. wrapped both in one new late-brutalist skin. The concrete sculpture on the frame, called simply Wing, is by Josef Klimeš.
+
+After 1989 the building became the President, and a renovation finished in 2016 gave it new interiors and an extra floor while keeping the concrete face that makes it one of the most recognisable buildings on the river.
+
+🎁 Bonus: Karel Filsak also designed the InterContinental next door, and seen from the Letná bank the two hotels run together into one long concrete wall. The heritage experts say exactly the same thing, only more politely.`,
+      cz: `Projděte se po staroměstském nábřeží a jedna budova se odmítá ztratit v davu: blok z režného betonu a tmavého skla sevřený obrovským betonovým rámem, na jehož vrcholu sedí betonové křídlo, jako by dům uvažoval, že přeletí řeku na Letnou. Je to Hotel President a uvnitř toho betonu se skrývá mnohem zdvořilejší stavba.
+
+Začal v letech 1927 a 1928 jako dům Spolku architektů a inženýrů, úhledná klasicizující stavba Františka Krásného. Za komunismu se budova dala na politickou dráhu: sídlila v ní Světová odborová federace, mezinárodní odborová organizace sovětského bloku, která měla sídlo v Praze. V roce 1978 k ní na východní straně přibyl hotel Budovatel a v 80. letech oba domy architekti Karel Filsak, Ludvík Pivoňka a Karel Filsak ml. zabalili do jednoho nového pozdně brutalistního pláště. Betonová plastika na rámu, nazvaná prostě Křídlo, je dílem Josefa Klimeše.
+
+Po roce 1989 se z budovy stal President a rekonstrukce dokončená v roce 2016 jí dala nové interiéry a patro navíc, ale betonovou tvář, díky níž patří k nejnápadnějším domům na řece, nechala.
+
+🎁 Bonus: Karel Filsak navrhl i vedlejší InterContinental a při pohledu z letenského břehu oba hotely splývají v jednu dlouhou betonovou zeď. Památkáři říkají přesně totéž, jen zdvořileji.`,
+      zh: `沿着老城这一侧的河岸走，总有一栋楼怎么都不肯融入背景：一块清水混凝土加深色玻璃的大楼，被一个巨大的混凝土框架箍着，框架顶上还蹲着一只混凝土翅膀，好像这栋楼正琢磨着要飞过河去莱特纳。这就是总统酒店，而在这层混凝土里面，其实藏着一栋斯文得多的老楼。
+
+它最早是1927年至1928年建成的建筑师与工程师协会会所，弗朗蒂谢克·克拉斯尼设计的一座端庄的新古典风格建筑。共产主义时期，这栋楼走上了更政治的道路：总部设在布拉格的世界工会联合会，也就是苏联阵营的国际工会组织，就在这里办公。1978年，它东侧加建了一家名叫“建设者”的酒店；80年代，建筑师卡雷尔·菲尔萨克、卢德维克·皮沃尼卡和小卡雷尔·菲尔萨克给两栋楼套上了同一层晚期粗野主义的新外壳。框架上那件名叫《翅膀》的混凝土雕塑，出自约瑟夫·克利梅什之手。
+
+1989年以后，这栋楼成了总统酒店。2016年完工的翻修给它换了室内、加了一层，却保留了那张混凝土面孔，让它依旧是河边辨识度最高的建筑之一。
+
+🎁 彩蛋：隔壁的洲际酒店也是卡雷尔·菲尔萨克设计的。从莱特纳那一侧的河岸看过来，两家酒店连成了一整面长长的混凝土墙。文物保护专家也是这么说的，只是说得客气些。`,
+    },
+  },
+  {
+    // At the Old Town end of Čech Bridge (2026-11-17, user's coordinates; user's
+    // idea: find Marie Curie's links to Prague). Old Janské náměstí (the Nepomuk
+    // legend), site of Otakar II's monastery of 1256, cleared around 1900, named
+    // in 1960 after the Curies; KodlContemporary's glass pavilion since 2025.
+    name: 'Curie Square',
+    slug: 'namesti-curieovych',
+    localizedNames: { cz: 'Náměstí Curieových', zh: '居里夫妇广场' },
+    labels: ['square', 'medieval'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.09115552905393, lng: 14.418897615515592 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Curie Square is the open space where Pařížská meets the river, between the Faculty of Law, two big hotels and the end of Čech Bridge. Trams rattle across it, students cut through it, and almost nobody stops to wonder why a square in the Old Town is named after two French physicists.
+
+The place is older than it looks. In 1256 King Otakar II founded a monastery with a church of the Holy Cross here, and the little square beside it was named after St John of Nepomuk, because legend said his body had been pulled out of the Vltava on this bank in 1393. Monastery and square both disappeared in the great clearance around 1900 that built the embankment, and the space left over got its present name in 1960, after Marie and Pierre Curie.
+
+The link is real. The ore from which the Curies isolated polonium and radium in 1898 came from Jáchymov in western Bohemia, tonnes of mining waste that nobody else wanted. Marie Curie visited Jáchymov in 1925 and, on her way home from Warsaw that year, stopped in Prague at the invitation of the Czechoslovak government. Since 2025 a low glass pavilion of the KodlContemporary gallery has stood on the square.
+
+🎁 Bonus: The official reasoning of 1960 named Marie and her son-in-law Frédéric Joliot-Curie, a Nobel laureate, a communist and president of the World Peace Council. In the Prague of 1960, that was the best recommendation a name could have.`,
+      cz: `Náměstí Curieových je volné prostranství, kde se Pařížská potkává s řekou, mezi Právnickou fakultou, dvěma velkými hotely a koncem Čechova mostu. Projíždějí tudy tramvaje, studenti tudy zkracují cestu a skoro nikdo se nezastaví, aby se podivil, proč se náměstí na Starém Městě jmenuje po dvou francouzských fyzicích.
+
+Místo je starší, než vypadá. Roku 1256 tu Přemysl Otakar II. založil klášter s kostelem svatého Kříže a náměstíčku vedle se říkalo Janské, podle svatého Jana Nepomuckého, protože jeho tělo prý bylo roku 1393 vytaženo z Vltavy právě na tomto břehu. Klášter i náměstíčko zmizely při velké asanaci kolem roku 1900, při níž vzniklo nábřeží, a prostor, který zbyl, dostal dnešní jméno v roce 1960, po Marii a Pierru Curieových.
+
+Ta souvislost je skutečná. Ruda, z níž Curieovi roku 1898 izolovali polonium a radium, pocházela z Jáchymova v západních Čechách, tuny důlního odpadu, o který nikdo jiný nestál. Marie Curie-Skłodowská Jáchymov navštívila v roce 1925 a téhož roku se na zpáteční cestě z Varšavy na pozvání československé vlády zastavila v Praze. Od roku 2025 stojí na náměstí nízký skleněný pavilon galerie KodlContemporary.
+
+🎁 Bonus: Oficiální zdůvodnění z roku 1960 jmenovalo Marii a jejího zetě Frédérica Joliot-Curieho, nositele Nobelovy ceny, komunistu a předsedu Světové rady míru. V Praze roku 1960 si jméno nemohlo přát lepší doporučení.`,
+      zh: `居里夫妇广场是巴黎大街和河岸交汇处的一片空地，夹在法学院、两家大酒店和切赫桥桥头之间。电车从这里哐当驶过，学生们从这里抄近路，几乎没人停下来想一想：老城里的一个广场，为什么要以两位法国物理学家命名？
+
+这个地方比它看上去老得多。1256年，奥托卡二世在这里建了一座修道院和圣十字教堂，旁边的小广场以圣约翰·内波穆克命名，因为传说1393年他的遗体就是在这段河岸被从伏尔塔瓦河里捞上来的。1900年前后修河堤的大拆迁中，修道院和小广场都消失了，剩下的这片空地在1960年得到了现在的名字，纪念玛丽和皮埃尔·居里。
+
+这层渊源是真的。1898年居里夫妇从中提炼出钋和镭的矿石，就来自波希米亚西部的雅希莫夫，是几吨别人都不要的矿渣。1925年，居里夫人参观了雅希莫夫，同年从华沙回国途中又应捷克斯洛伐克政府之邀在布拉格停留。从2025年起，广场上还多了科德尔当代艺术空间的一座低矮玻璃展馆。
+
+🎁 彩蛋：1960年的官方命名理由里写的，其实是玛丽和她的女婿弗雷德里克·约里奥-居里。他是诺贝尔奖得主、共产党员，还是世界和平理事会主席。在1960年的布拉格，一个名字找不到比这更好的推荐信了。`,
+    },
+  },
+  {
+    // On the Čertovka by Grand Priory Square (2026-11-17, user's coordinates).
+    // The Knights of St John's mill (once Štěpánovský mlýn), rebuilt 1598,
+    // taken from the Grand Prior under Joseph II, flood 1890, big fire 1938,
+    // repaired by the city, empty today (cs.wikipedia); the wheel shows from
+    // Charles Bridge.
+    name: "Grand Prior's Mill",
+    slug: 'velkoprevorsky-mlyn',
+    localizedNames: { cz: 'Velkopřevorský mlýn', zh: '大修道院长磨坊' },
+    labels: ['renaissance', 'waterbody'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.08630286214838, lng: 14.407615387691497 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Where the Čertovka slips between Kampa and the Lesser Town, a big wooden water wheel turns slowly against the wall of an old house, and half the visitors to Prague photograph it without knowing whose it is. It belongs to the Grand Prior's Mill, the mill of the Knights of St John, whose church and palace stand round the corner.
+
+The knights built a mill here when they settled at the end of the Judith Bridge in the 12th century, on the man-made channel that drove the wheels of the Lesser Town. The house was rebuilt in its present Renaissance form in 1598. The Grand Prior kept his rights over it until Joseph II's reforms in the 1780s took them away, and after that the town and a string of private owners ran it. The river was not always kind: a flood damaged the mill in 1890, and in 1938 a great fire swept through it, after which the city paid for its repair. It has long stopped grinding, and the house now stands empty, but the wheel is still there.
+
+🎁 Bonus: The best view of the wheel is free: from the little bridge over the Čertovka by the Lennon Wall, or from Charles Bridge itself, looking down into the channel. The railings of that little bridge are hung with lovers' padlocks, so the knights' mill has ended up as Prague's most romantic piece of industrial machinery.`,
+      cz: `Tam, kde se Čertovka protahuje mezi Kampou a Malou Stranou, se u zdi starého domu pomalu otáčí velké dřevěné mlýnské kolo a polovina návštěvníků Prahy si ho vyfotí, aniž by věděla, čí je. Patří Velkopřevorskému mlýnu, mlýnu johanitů, jejichž kostel a palác stojí hned za rohem.
+
+Rytíři tu postavili mlýn, když se ve 12. století usadili u konce Juditina mostu, na umělém náhonu, který poháněl malostranská kola. Dnešní renesanční podobu dostal dům roku 1598. Velkopřevor nad ním držel svá práva, dokud mu je v 80. letech 18. století nevzaly josefínské reformy, a pak ho spravovalo město a řada soukromých majitelů. Řeka k němu nebyla vždy laskavá: roku 1890 ho poškodila povodeň a roku 1938 jím prošel velký požár, po kterém zaplatilo opravu město. Mlít už dávno přestal a dům dnes stojí prázdný, ale kolo tu pořád je.
+
+🎁 Bonus: Nejlepší pohled na kolo je zadarmo: z můstku přes Čertovku u Lennonovy zdi nebo přímo z Karlova mostu dolů do náhonu. Zábradlí toho můstku je ověšené zámky zamilovaných, takže rytířský mlýn skončil jako nejromantičtější kus průmyslové techniky v Praze.`,
+      zh: `魔鬼溪在康帕岛和小城之间穿过的地方，一架巨大的木水车贴着一栋老房子的墙慢慢转着。来布拉格的游客有一半会给它拍照，却不知道它是谁家的。它属于大修道院长磨坊，也就是医院骑士团的磨坊，骑士团的教堂和宫殿就在拐角那边。
+
+12世纪骑士们在尤迪特桥桥头落脚时，就在这里建了磨坊，建在这条带动小城各家水车的人工水渠上。这栋房子在1598年改建成了如今的文艺复兴样式。大修道院长一直握着磨坊的权利，直到18世纪80年代约瑟夫二世的改革把它收走，此后先由市政府、再由一连串私人业主经营。河水对它并不总是客气：1890年一场洪水冲坏了磨坊，1938年又烧了一场大火，之后由市政府出钱修复。它早就不磨面了，房子如今空着，可水车还在。
+
+🎁 彩蛋：看水车最好的位置不要钱：列侬墙旁边跨过魔鬼溪的那座小桥，或者直接站在查理大桥上往水渠里看。那座小桥的栏杆上挂满了情侣的爱情锁，于是骑士团的磨坊，成了布拉格最浪漫的一件工业机械。`,
+    },
+  },
+  {
+    // On Malta Square (2026-11-17, user's coordinates and pick: one more
+    // country's embassy). The house At the Black Griffin, also At the Three
+    // Silver Stars; after a fire in 1765 rebuilt in Rococo by Josef Jäger for
+    // František Xaver Turba; the Embassy of Japan, closed to visitors.
+    name: 'Turba Palace (Embassy of Japan)',
+    slug: 'turbovsky-palac',
+    localizedNames: { cz: 'Turbovský palác (Velvyslanectví Japonska)', zh: '图尔巴宫（日本大使馆）' },
+    labels: ['palace', 'embassy', 'baroque'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.08604642027608, lng: 14.40506330527685 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `On the south side of Malta Square stands a pale Rococo palace that looks as if it had been iced rather than built,. This is the Turba Palace, and since the knights next door have been receiving ambassadors for centuries, it seems only fair that one of the square's palaces should belong to an embassy too: here, Japan's.
+
+The house had other names before it had a palace: At the Black Griffin, and At the Three Silver Stars. After a fire in 1765 its owner František Xaver Turba had it rebuilt in the then fashionable Rococo style by the architect Josef Jäger, and his family name stuck to it. Its façade, with soft curves and delicate stucco, is one of the most graceful on the square, which is lined almost entirely with noble palaces.
+
+Today the palace is the Embassy of Japan and is not open to visitors, so the façade is all you get. It is enough.
+
+🎁 Bonus: Stand in the middle of Malta Square and count: within a few dozen steps there are the Ministry of Culture, the French and Japanese embassies, a sovereign order of knights with its own diplomats, and a statue of St John the Baptist keeping an eye on all of them.`,
+      cz: `Na jižní straně Maltézského náměstí stojí světlý rokokový palác, který vypadá spíš polevou politý než postavený. Je to Turbovský palác, a když sousední rytíři přijímají velvyslance už staletí, je jen spravedlivé, že jeden z paláců na náměstí patří velvyslanectví také: tady japonskému.
+
+Dům měl jiná jména dřív, než se stal palácem: U Černého gryfa a U Tří stříbrných hvězd. Po požáru roku 1765 ho majitel František Xaver Turba nechal architektem Josefem Jägerem přestavět v tehdy módním rokoku a jeho příjmení na domě zůstalo. Průčelí s měkkými křivkami a jemnou štukovou výzdobou patří k nejpůvabnějším na náměstí, které lemují skoro samé šlechtické paláce.
+
+Dnes v paláci sídlí velvyslanectví Japonska a návštěvníkům otevřený není, takže zůstává jen průčelí. Stačí.
+
+🎁 Bonus: Postavte se doprostřed Maltézského náměstí a počítejte: na pár desítek kroků je tu ministerstvo kultury, francouzské a japonské velvyslanectví, suverénní rytířský řád s vlastními diplomaty a socha svatého Jana Křtitele, která na ně na všechny dohlíží.`,
+      zh: `马耳他广场南侧有一座浅色的洛可可宫殿，看着不像是盖出来的，倒像是淋了一层糖霜。这就是图尔巴宫。隔壁的骑士团几百年来一直在接待各国使节，广场上有一座宫殿归大使馆用也算公平：这里是日本大使馆。
+
+这栋房子在成为宫殿之前，还有过别的名字：“黑狮鹫之家”和“三颗银星之家”。1765年一场火灾后，房主弗朗蒂谢克·克萨维尔·图尔巴请建筑师约瑟夫·耶格尔，按当时时髦的洛可可风格把它重建，他的姓也就留在了这座房子上。它的立面线条柔和，灰泥装饰精巧，在这个几乎被贵族宫殿围满的广场上，算得上最优雅的一座。
+
+如今宫殿是日本大使馆，不对游客开放，只能看看立面。不过光看立面也就够了。
+
+🎁 彩蛋：站到马耳他广场正中数一数：几十步之内，有文化部、法国和日本两座大使馆、一个拥有自己外交官的主权骑士团，还有一尊施洗约翰像，把他们全都看在眼里。`,
+    },
+  },
+  {
+    // Lázeňská 11 in the Lesser Town (2026-11-17, user's coordinates; the name
+    // says it is Beethoven's lodging, user's call). The inn At the Golden
+    // Unicorn, where Beethoven stayed on his first visit to Prague in 1796;
+    // bronze plaque with his relief from 1927, the centenary of his death.
+    name: "House at the Golden Unicorn (Beethoven's Lodging)",
+    slug: 'dum-u-zlateho-jednorozce-lazenska',
+    localizedNames: { cz: 'Dům U Zlatého jednorožce (Beethovenův pobyt)', zh: '金独角兽之家（贝多芬故居）' },
+    labels: ['cultural', 'national-revival'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.086869848844096, lng: 14.405657741583205 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `In Lázeňská Street, a few steps from the dark towers of Our Lady beneath the Chain, a bronze Beethoven looks out from a plaque on an old house, frowning slightly, as if the crowds heading for Charles Bridge were humming out of tune. In 1796 this was the inn At the Golden Unicorn, and the young composer stayed here on his first visit to Prague.
+
+Beethoven was twenty-five, newly famous in Vienna as a pianist, and on a concert tour that would take him on to Dresden, Leipzig and Berlin. Prague, which had adored Mozart, received him warmly, and he stayed for weeks. He played in the salons of the nobility and wrote music for the people he met: the concert aria Ah! perfido for the singer Josepha Duschek, the same Duschek at whose villa Mozart had finished Don Giovanni, and little pieces for mandolin for the young Countess Josephine Clary. He came back to Prague in 1798 and gave public concerts.
+
+The plaque was put up in 1927, a hundred years after his death. The inn is long gone, but the house still carries its sign in its name.
+
+🎁 Bonus: In February 1796 Beethoven wrote to his brother from Prague that he was well, very well, that his art was winning him friends and respect, and that this time he would make a good deal of money. Prague had understood Mozart; it seems it understood him too.`,
+      cz: `V Lázeňské ulici, pár kroků od tmavých věží Panny Marie pod řetězem, shlíží z pamětní desky na starém domě bronzový Beethoven a trochu se mračí, jako by davy mířící na Karlův most falešně broukaly. Roku 1796 tu byl hostinec U Zlatého jednorožce a mladý skladatel v něm bydlel při své první návštěvě Prahy.
+
+Beethovenovi bylo pětadvacet, ve Vídni se právě proslavil jako klavírista a byl na koncertním turné, které ho mělo zavést dál do Drážďan, Lipska a Berlína. Praha, která zbožňovala Mozarta, ho přijala vřele a zdržel se tu celé týdny. Hrál v salonech šlechty a psal hudbu pro lidi, které tu poznal: koncertní árii Ah! perfido pro pěvkyni Josefínu Duškovou, tutéž Duškovou, v jejíž vile Mozart dokončil Dona Giovanniho, a drobné skladby pro mandolínu pro mladou hraběnku Josefínu Claryovou. Roku 1798 se do Prahy vrátil a koncertoval veřejně.
+
+Deska tu visí od roku 1927, sto let po jeho smrti. Hostinec je dávno pryč, ale dům si jeho znamení nese ve jméně dodnes.
+
+🎁 Bonus: V únoru 1796 napsal Beethoven z Prahy bratrovi, že se má dobře, velmi dobře, že mu jeho umění získává přátele i úctu a že tentokrát vydělá pěkné peníze. Praha rozuměla Mozartovi; zdá se, že rozuměla i jemu.`,
+      zh: `澡堂街上，离锁链下的圣母教堂那两座深色塔楼只有几步，一栋老房子墙上的纪念牌里，青铜的贝多芬微微皱着眉往外看，好像往查理大桥涌去的人群哼跑了调。1796年，这里是“金独角兽”旅馆，年轻的作曲家第一次来布拉格时就住在这里。
+
+那年贝多芬二十五岁，刚以钢琴家的身份在维也纳出了名，正在做一趟巡演，接下来还要去德累斯顿、莱比锡和柏林。曾经那么喜爱莫扎特的布拉格热情地接待了他，他一住就是好几个星期。他在贵族的沙龙里演奏，也给在这里认识的人写曲子：给女歌唱家约瑟法·杜谢克写了音乐会咏叹调《啊！负心人》，莫扎特当年就是在她家的别墅里写完《唐璜》的；还给年轻的克拉里伯爵小姐写了几首曼陀林小品。1798年他又来了一次，开了公开音乐会。
+
+这块纪念牌是1927年挂上去的，正好是他去世一百周年。旅馆早就没了，可房子的名字里至今还留着它的招牌。
+
+🎁 彩蛋：1796年2月，贝多芬从布拉格给弟弟写信，说自己过得很好，非常好，他的艺术为他赢得了朋友和尊重，这一回还能挣上一大笔钱。布拉格懂了莫扎特，看来也懂他。`,
+    },
+  },
+  {
+    // On Old Town Square (2026-11-17, user's coordinates). The house At the
+    // Golden Unicorn, where Bedřich Smetana opened his music institute in 1848
+    // (memorial plaque); not the Lesser Town inn of the same name where
+    // Beethoven stayed.
+    name: "House at the Golden Unicorn (Smetana's Music School)",
+    slug: 'dum-u-zlateho-jednorozce-staromestske-namesti',
+    localizedNames: { cz: 'Dům U Zlatého jednorožce (Smetanův hudební ústav)', zh: '金独角兽之家（斯美塔那音乐学校）' },
+    labels: ['cultural', 'national-revival'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.086650836286346, lng: 14.419859006339411 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Old Town Square is so crowded with famous houses that one more unicorn hardly stands out. This one, the house At the Golden Unicorn, is worth a look all the same: in 1848 a young, broke and very determined Bedřich Smetana opened his music school here.
+
+Smetana was twenty-four. He had come to Prague to study, made a living as a music teacher in a noble family, and wanted to work for himself. To get started he wrote to the most famous pianist in Europe, Franz Liszt, sent him his first piano pieces and asked, quite frankly, for money. Liszt sent no loan but did something better: he accepted the dedication and found the pieces a publisher, and the two became friends for life. In the summer of 1848, the year of revolution, when Prague's streets filled with barricades and Smetana was writing marches for the National Guard, he opened his music institute in this house. A plaque on the façade remembers it.
+
+The school taught piano to the daughters and sons of Prague's middle class for years. Smetana himself went on to The Bartered Bride, Má vlast and, in the end, total deafness, still composing.
+
+🎁 Bonus: Smetana asked Liszt for a loan of four hundred gulden. He never got it. He got a publisher and a friend for life instead, which turned out to be the better deal for everyone.`,
+      cz: `Staroměstské náměstí je tak nacpané slavnými domy, že jeden jednorožec navíc skoro nevynikne. Dům U Zlatého jednorožce si ale pohled zaslouží: roku 1848 si tu mladý, chudý a velmi odhodlaný Bedřich Smetana otevřel hudební školu.
+
+Smetanovi bylo čtyřiadvacet. Do Prahy přišel studovat, živil se jako učitel hudby v šlechtické rodině a chtěl pracovat na sebe. Aby mohl začít, napsal nejslavnějšímu klavíristovi Evropy, Ferenci Lisztovi, poslal mu své první klavírní skladby a zcela otevřeně ho požádal o peníze. Liszt žádnou půjčku neposlal, ale udělal něco lepšího: přijal věnování, našel skladbám nakladatele a ti dva se stali přáteli na celý život. V létě 1848, v roce revoluce, kdy pražské ulice zaplnily barikády a Smetana psal pochody pro Národní gardu, otevřel v tomto domě svůj hudební ústav. Připomíná to deska na průčelí.
+
+Škola léta učila hře na klavír dcery a syny pražských měšťanů. Smetana sám pak došel k Prodané nevěstě, Mé vlasti a nakonec k úplné hluchotě, a skládal dál.
+
+🎁 Bonus: Smetana žádal Liszta o půjčku čtyř set zlatých. Nikdy ji nedostal. Dostal místo ní nakladatele a přítele na celý život, což se ukázalo jako lepší obchod pro všechny.`,
+      zh: `老城广场上名房子扎堆，多一只独角兽几乎没人注意。可这栋“金独角兽之家”值得看一眼：1848年，年轻、没钱、却铁了心的斯美塔那在这里开了他的音乐学校。
+
+那年斯美塔那二十四岁。他来布拉格求学，靠在一户贵族家里当音乐教师谋生，一心想自立门户。为了起步，他给全欧洲最有名的钢琴家李斯特写信，附上自己最早的几首钢琴曲，直截了当地开口借钱。李斯特没借钱，却做了件更好的事：他接受了这部作品的题献，还替它找了出版商，两人从此成了一辈子的朋友。1848年夏天，正是革命之年，布拉格街头筑满了街垒，斯美塔那一边给国民卫队写进行曲，一边在这栋房子里开起了他的音乐学校。立面上的一块纪念牌记着这件事。
+
+这所学校好些年里一直教布拉格市民家的子女弹钢琴。斯美塔那自己后来写出了《被出卖的新娘》和《我的祖国》，最后完全失聪，却仍在作曲。
+
+🎁 彩蛋：斯美塔那向李斯特借四百古尔登，这笔钱他一直没借到。他得到的是一个出版商和一位终生的朋友，结果对谁来说都是更划算的买卖。`,
+    },
+  },
+  {
+    // Anděl metro station, line B (2026-11-17, user's coordinates). Opened
+    // 2 November 1985 as Moskevská, Soviet engineers involved, architects Eva
+    // Břusková, Marie Davidová and Lev Popov; the bronze "Moskva–Praha" in the
+    // vestibule since 1985; renamed Anděl in February 1990; twin station
+    // Pražskaja in Moscow; in 2024 the city chose an explanatory sign over
+    // altering the work.
+    name: 'Anděl Metro Station',
+    slug: 'stanice-metra-andel',
+    localizedNames: { cz: 'Stanice metra Anděl', zh: '安德尔地铁站' },
+    labels: ['transport', 'communism'],
+    district: 'Praha 5',
+    quarter: 'Smíchov',
+    coordinates: { lat: 50.07117895117037, lng: 14.40396593380747 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `In the vestibule of Anděl station, among the hurrying commuters, hangs a large bronze work with two city names on it: Moskva and Praha. It is a leftover from the years when this station was not called Anděl at all, and a small lesson in how to deal with an awkward piece of history.
+
+The line B station opened on 2 November 1985 as Moskevská, Moscow Station. Soviet engineers took a large part in building it, and the Czech architects Eva Břusková and Marie Davidová worked with the Soviet architect Lev Popov. The bronze "Moskva–Praha" was there from the first day, meant to show the friendship between Czechoslovakia and the Soviet Union, the same Soviet Union whose tanks had occupied the country in 1968 and whose army was still stationed in it. At the same time Moscow opened a station called Pražskaja, built with Czechoslovak help. In February 1990, three months after the Velvet Revolution, Moskevská took the name of the crossroads above it, Anděl.
+
+The bronze stayed. Decades later the deputy mayor Zdeněk Hřib proposed altering it, and after a long debate the city decided in 2024 to keep it and add a sign explaining that the "friendship" it celebrates was imposed under occupation.
+
+🎁 Bonus: Moscow's Pražskaja, on the grey line, still carries its name and its Czech-designed decoration. One half of the friendship was renamed; the other half is still waiting for its partner to call back.`,
+      cz: `Ve vestibulu stanice Anděl visí mezi spěchajícími cestujícími velké bronzové dílo se jmény dvou měst: Moskva a Praha. Je to pozůstatek let, kdy se tahle stanice vůbec nejmenovala Anděl, a malá lekce, jak naložit s nepohodlným kusem dějin.
+
+Stanice linky B se otevřela 2. listopadu 1985 jako Moskevská. Na její stavbě se velkou měrou podíleli sovětští inženýři a české architektky Eva Břusková a Marie Davidová pracovaly se sovětským architektem Lvem Popovem. Bronzová plastika Moskva–Praha tu byla od prvního dne a měla ukazovat přátelství Československa se Sovětským svazem, týmž Sovětským svazem, jehož tanky v roce 1968 obsadily zemi a jehož armáda tu stále stála. Moskva zároveň otevřela stanici Pražskaja, postavenou s československou pomocí. V únoru 1990, tři měsíce po sametové revoluci, převzala Moskevská jméno křižovatky nad sebou, Anděl.
+
+Bronz zůstal. O desítky let později navrhl náměstek primátora Zdeněk Hřib dílo upravit a po dlouhé debatě se město v roce 2024 rozhodlo ho ponechat a doplnit cedulí, která vysvětluje, že „přátelství“, které oslavuje, bylo vnucené za okupace.
+
+🎁 Bonus: Moskevská Pražskaja na šedé lince si své jméno i výzdobu navrženou Čechy drží dodnes. Jedna polovina přátelství se přejmenovala; ta druhá pořád čeká, až jí partner zavolá zpátky.`,
+      zh: `安德尔站的门厅里，匆匆赶路的人群旁边，挂着一件很大的青铜作品，上面写着两座城市的名字：莫斯科和布拉格。这是这座车站还根本不叫“安德尔”那些年留下来的东西，也是一堂小课：怎么对待一段尴尬的历史。
+
+这座地铁B线车站于1985年11月2日开通，当时叫“莫斯科站”。苏联工程师在建设中出了很大的力，捷克建筑师埃娃·布鲁斯科娃和玛丽·达维多娃与苏联建筑师列夫·波波夫合作设计。“莫斯科—布拉格”青铜作品从通车第一天就在这里，用来展示捷克斯洛伐克和苏联的友谊，而正是这个苏联，1968年用坦克占领了这个国家，军队还一直驻扎在这里。同一时间，莫斯科开通了一座在捷克斯洛伐克帮助下建成的车站，叫“布拉格站”。1990年2月，天鹅绒革命三个月后，“莫斯科站”改用了头顶上那个路口的名字：安德尔。
+
+青铜作品留了下来。几十年后，副市长兹德涅克·赫日布提议改动它，经过长时间的争论，市政府在2024年决定保留它，再配一块说明牌，讲清楚它歌颂的“友谊”是占领之下强加的。
+
+🎁 彩蛋：莫斯科灰线上的“布拉格站”，至今仍保留着这个名字和捷克人设计的装饰。这段友谊的一半已经改了名，另一半还在等对方回电话。`,
+    },
+  },
+  {
+    // Manifesto Market Anděl (2026-11-17, user's coordinates). A food market of
+    // reused containers by Chybík + Krištof, built in about 35 days in 2021 on
+    // the site of a former Vietnamese market at the corner of Anděl and Na
+    // Knížecí, with the containers, lights and furniture of the closed Smíchov
+    // branch; a temporary use of a plot awaiting development.
+    name: 'Manifesto Market Anděl',
+    slug: 'manifesto-market-andel',
+    localizedNames: { cz: 'Manifesto Market Anděl', zh: '安德尔宣言市集' },
+    labels: ['restaurants-and-cafes', 'contemporary'],
+    district: 'Praha 5',
+    quarter: 'Smíchov',
+    coordinates: { lat: 50.06927124707773, lng: 14.404182807665597 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Between the bus terminal and the glass office blocks of Anděl sits a little town of shiny metal cabins, string lights and long wooden tables, where you can eat your way around the world in one lunch break. Manifesto Market Anděl is a food market built as if it expected to be packed up and moved one day, which is exactly the point.
+
+The Manifesto idea came from the landscape architect Martin Barry, who wanted to bring neglected city plots to life while they waited for their real future. Prague's first market opened at Florenc, the second in 2019 in a car park by the National House in Smíchov. When that one closed, its containers, lights, furniture and floors were carried a few hundred metres to a new site: the plot of a former Vietnamese market at the corner of Anděl and Na Knížecí. The architects Chybík + Krištof rebuilt them into a new market in about thirty-five days, and it opened in 2021 with stalls from more than a dozen restaurants and a couple of bars.
+
+It is a temporary use: the plot belongs to a developer and is waiting for a building. Until then, it is one of the liveliest corners of Smíchov.
+
+🎁 Bonus: The site's own history fits the menu. Before the containers came, this was a Vietnamese market, and Prague's Vietnamese community has done more for the city's food than almost anyone. Some of the noodles here are a homecoming.`,
+      cz: `Mezi autobusovým nádražím a skleněnými kancelářskými budovami Anděla stojí městečko z lesklých plechových kabin, světelných řetězů a dlouhých dřevěných stolů, kde se dá za jednu polední pauzu projíst kolem světa. Manifesto Market Anděl je tržnice postavená tak, jako by počítala s tím, že ji jednou sbalí a odvezou, a přesně o to jde.
+
+Myšlenka Manifesta pochází od krajinného architekta Martina Barryho, který chtěl oživit zanedbané městské pozemky, než přijde jejich skutečná budoucnost. První pražská tržnice vznikla na Florenci, druhá roku 2019 na parkovišti u Národního domu na Smíchově. Když ta skončila, její kontejnery, světla, nábytek i podlahy se přestěhovaly o pár set metrů dál na nové místo: na pozemek bývalé vietnamské tržnice na rohu Anděla a Na Knížecí. Architekti Chybík + Krištof z nich zhruba za pětatřicet dní postavili novou tržnici a ta se otevřela v roce 2021 se stánky víc než tuctu restaurací a několika bary.
+
+Je to dočasné využití: pozemek patří developerovi a čeká na stavbu. Do té doby je to jeden z nejživějších koutů Smíchova.
+
+🎁 Bonus: Historie místa se k jídelníčku hodí. Než sem přišly kontejnery, byla tu vietnamská tržnice, a pražští Vietnamci udělali pro zdejší jídlo víc než skoro kdokoli jiný. Některé zdejší nudle se vlastně vrátily domů.`,
+      zh: `在巴士总站和安德尔的玻璃写字楼之间，坐落着一座由亮闪闪的金属小屋、串灯和长木桌搭成的小镇，一个午休就能吃遍全世界。安德尔宣言市集是一座仿佛随时准备打包搬走的美食市集，而这恰恰就是它的用意。
+
+“宣言”的点子来自景观建筑师马丁·巴里，他想在城市里被闲置的地块等待真正的未来之前，先让它们热闹起来。布拉格第一家宣言市集开在弗洛伦茨，第二家2019年开在斯米霍夫国民会馆旁的一个停车场上。那家关门后，它的集装箱、灯具、家具和地板被搬到几百米外的新地方：安德尔和克尼热齐路口一块曾经是越南市场的地皮。建筑事务所Chybík + Krištof用大约三十五天把它们重新搭成一座新市集，2021年开张，有十几家餐馆的摊位，还有几个酒吧。
+
+这是临时用途：地皮属于开发商，正等着盖楼。在那之前，这里是斯米霍夫最热闹的角落之一。
+
+🎁 彩蛋：这块地自己的历史和菜单正好对得上。集装箱来之前，这里是一个越南市场，而布拉格的越南社群为这座城市的饮食所做的贡献，几乎没人比得上。这里的一些米粉，算是回了娘家。`,
     },
   },
 ];

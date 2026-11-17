@@ -271,8 +271,8 @@ describe('evaluateAchievements', () => {
     expect(ids(all.slice(1))).not.toContain('behind_the_iron_curtain');
   });
 
-  test('never_forget needs all five places, Terezín included', () => {
-    const all = ['pinkas-synagogue', 'praha-bubny-station', 'hagibor', 'praha-hlavni-nadrazi', 'koncentracni-tabor-terezin'];
+  test('never_forget needs all seven places, Terezín included', () => {
+    const all = ['pinkas-synagogue', 'praha-bubny-station', 'ulice-nicholase-wintona', 'hagibor', 'praha-hlavni-nadrazi', 'socha-nicholase-wintona', 'koncentracni-tabor-terezin'];
     const ids = s => evaluateAchievements({ ...baseStats, checkedSlugs: s }, []).map(a => a.id);
     expect(ids(all)).toContain('never_forget');
     expect(ids(all.slice(0, -1))).not.toContain('never_forget');

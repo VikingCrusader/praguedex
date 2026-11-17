@@ -405,8 +405,8 @@ const IRON_CURTAIN_SLUGS = [
 // "extreme" achievement (user's call, 2026-11-02).
 // Eighty Thousand Names: the Holocaust in Prague (the id is older than the name).
 const NEVER_FORGET_SLUGS = [
-  "pinkas-synagogue", "praha-bubny-station", "hagibor", "praha-hlavni-nadrazi",
-  "koncentracni-tabor-terezin",
+  "pinkas-synagogue", "praha-bubny-station", "ulice-nicholase-wintona", "hagibor", "praha-hlavni-nadrazi",
+  "socha-nicholase-wintona", "koncentracni-tabor-terezin",
 ];
 // Eighty-Two Children: Lidice, split out of the above on 2026-11-05.
 const LIDICE_SLUGS = [
@@ -1574,9 +1574,9 @@ export const ACHIEVEMENTS = [
     flavor: "Nearly 80,000 names on the walls of a synagogue, and the small station they left from. Remember them.",
     flavor_cz: "Téměř 80 000 jmen na zdech synagogy a malé nádraží, odkud odjížděli. Pamatujte na ně.",
     flavor_zh: "一座会堂墙上近八万个名字，一座他们离开时的小车站。记住他们。",
-    description: "Check in at these 5 places, one of them outside Prague: Pinkas Synagogue, Praha-Bubny Station, Hagibor, Prague Main Station and Terezín Concentration Camp.",
-    description_cz: "Přihlaste se na těchto 5 místech, z nichž jedno je mimo Prahu: Pinkasova synagoga, nádraží Praha-Bubny, Hagibor, Praha hlavní nádraží a Koncentrační tábor Terezín.",
-    description_zh: "打卡以下5个地点，其中一处在布拉格以外：平卡斯犹太会堂、布布尼车站、哈吉博、布拉格主火车站和特雷津集中营。",
+    description: "Check in at these 7 places, one of them outside Prague: Pinkas Synagogue, Praha-Bubny Station, Nicholas Winton Street, Hagibor, Prague Main Station, Nicholas Winton Statue and Terezín Concentration Camp.",
+    description_cz: "Přihlaste se na těchto 7 místech, z nichž jedno je mimo Prahu: Pinkasova synagoga, nádraží Praha-Bubny, Ulice Nicholase Wintona, Hagibor, Praha hlavní nádraží, Socha Nicholase Wintona a Koncentrační tábor Terezín.",
+    description_zh: "打卡以下7个地点，其中一处在布拉格以外：平卡斯犹太会堂、布布尼车站、尼古拉斯·温顿街、哈吉博、布拉格主火车站、尼古拉斯·温顿雕像和特雷津集中营。",
     difficulty: "extreme",
     check: ({ checkedSlugs }) => NEVER_FORGET_SLUGS.every((slug) => checkedSlugs.includes(slug)),
     progress: ({ checkedSlugs }) => ({

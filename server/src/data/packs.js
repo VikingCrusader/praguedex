@@ -361,7 +361,7 @@ export const PACKS = [
     members: [
       'kostel-sv-klimenta-bubny', 'anthony', 'euspa-praha', 'delnicka-urazova-pojistovna', 'wpp-praha-bubenska',
       'veletrzni-palace', 'mama-shelter-praha', 'policejni-prezidium-cr', 'maly-berlin', 'praha-bubny-station',
-      'brana-nenavratna', 'praha-holesovice-nadrazi',
+      'brana-nenavratna', 'praha-holesovice-nadrazi', 'ulice-nicholase-wintona',
     ],
   }),
   pack({
@@ -381,6 +381,7 @@ export const PACKS = [
       'masarykovo-nadrazi', 'masarycka-building', 'city-of-prague-museum', 'florenc-bus-terminal', 'severojizni-magistrala',
       'park-tesnov', 'ministry-of-agriculture-building-1783752679810', 'building-of-ministry-of-transport-1782931759410',
       'hilton-prague', 'diamond-point-1783752450170', 'stanice-metra-florenc', 'florentinum', 'hotel-opera-tesnov',
+      'pamatnik-obetem-kolektivizace',
     ],
   }),
   pack({
@@ -466,11 +467,12 @@ export const PACKS = [
     // náměstí Svatopluka Čecha, with Ďolíček, KOH-I-NOOR and the station. Left out:
     // the Eden quarter (Slavia's stadium, the ministry, Eden, Vlasta, Kubánské
     // náměstí), the Míčánky courts and the rail depot. Took over the one-point
-    // Vršovice card (vrovice-1784036943824) and its cover.
+    // Vršovice card (vrovice-1784036943824) and its cover. The Chemapol building
+    // (2026-11-17) is the one exception from the Eden side, user's call.
     members: [
       'kostel-sv-mikulase-vrsovice', 'vrovice-castle-1782567405263', 'vrsovicka-zalozna', 'husuv-sbor-vrsovice',
       'kostel-sv-vaclava-vrsovice', 'dolicek', 'koh-i-noor', 'praha-vrsovice-nadrazi', 'krymska-ulice',
-      'heroldovy-sady', 'cukrovar-vrsovice',
+      'heroldovy-sady', 'cukrovar-vrsovice', 'zed-street-artu-moskevska', 'budova-chemapolu',
     ],
   }),
   pack({
@@ -487,7 +489,7 @@ export const PACKS = [
     members: [
       'haje', '-1783379166594', 'cosmonauts-monument-1783380746060', 'chodovska-tvrz',
       'westfield-chodov', 'the-park-chodov', 'narodni-archiv', 'komunitni-centrum-matky-terezy',
-      'zoopark-milicov', 'hotel-opatov-a-sandra', 'centralni-park-jizniho-mesta',
+      'zoopark-milicov', 'hotel-opatov-a-sandra', 'centralni-park-jizniho-mesta', 'litochlebske-namesti',
     ],
   }),
   pack({

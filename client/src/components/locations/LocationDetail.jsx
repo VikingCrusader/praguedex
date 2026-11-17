@@ -18,6 +18,7 @@ import EditLocationForm from "./EditLocationForm";
 import DistrictLine, { descriptiveLabels } from "./DistrictLine";
 import TagButton from "./TagInfo";
 import PackLinks from "../packs/PackLinks";
+import CardAchievements from "./CardAchievements";
 import {
   RARITY_VAR,
   RARITY_LABEL, RARITY_ICON,
@@ -645,6 +646,8 @@ export default function LocationDetail({
                   </div>
                 );
               })()}
+
+              <CardAchievements loc={loc} refreshKey={checkInResult ? 1 : 0} />
 
               <hr className="px-divider" />
 

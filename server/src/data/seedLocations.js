@@ -30675,27 +30675,29 @@ Po roce 1945 palác připadl ministerstvu výživy. Roku 1968 tu zasedalo Národ
     localizedNames: { cz: 'Severojižní magistrála', zh: '南北干道' },
     labels: ['transport', 'communism'],
     district: 'Praha 8',
-    quarter: 'Nové Město',
-    coordinates: { lat: 50.09071091638146, lng: 14.437807438575204 },
+    quarter: 'Karlín',
+    // Moved 2026-11-17 (user's call) to the walkway under the flyover at Těšnov,
+    // where its noise is felt best; a planned separate flyover card merged in here.
+    coordinates: { lat: 50.09262634848635, lng: 14.437022629494306 },
     rarity: 'common',
     xpReward: 10,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/Severoji%C5%BEn%C3%AD_magistr%C3%A1la',
     description: {
-      en: `Here the North-South Arterial Road, known to every Prague driver simply as the magistrála, flies over Florenc on concrete legs at about the height of the neighbours' second-floor windows. It is not beautiful, nobody claims it is, and up to a hundred thousand vehicles a day still use it to cross the city.
+      en: `Here the North-South Arterial Road, known to every Prague driver simply as the magistrála and on this stretch officially as Wilsonova, after the American president Woodrow Wilson, flies over Florenc on concrete legs at about the height of the neighbours' second-floor windows. It is not beautiful, nobody claims it is, and up to a hundred thousand vehicles a day still use it to cross the city.
 
 The road came out of the traffic plans of the 1960s and was built in stages through the 1970s: the Nusle Bridge to Rumunská Street in 1973, from there to the Hlávka Bridge in 1978. To push a motorway-sized road through the historic centre, the planners took Wilsonova Street past the main station and the National Museum and lifted it over Florenc on this flyover. The price was high. Těšnov station, once called the most beautiful station in Central Europe, was pulled down for it, the parks around Florenc were cut apart, and the Museum of Prague was left looking straight at the traffic. Even the street's name had a story: under the communists it was Vítězného února, after the February 1948 coup, and only after 1989 did it go back to honouring Woodrow Wilson.
 
 Since then the city has been arguing about what to do with it. A study by the Danish urbanist Jan Gehl, approved in 2017, proposed calming it step by step and reconnecting the National Museum with Wenceslas Square. The speed limit came down to 50 km/h in 2019, and the debate goes on.
 
 🎁 Bonus: Woodrow Wilson has his statue just up the road, by the main station. The original by Albin Polasek, unveiled on 4 July 1928, was torn down by the German occupiers during the war; a new casting came back in 2011, so the president once again looks out over the road that carries his name.`,
-      cz: `Tady severojižní magistrála, kterou každý pražský řidič zná prostě jako magistrálu, přelétá Florenc na betonových nohách zhruba ve výšce oken ve druhém patře sousedních domů. Hezká není, nikdo to netvrdí, a přesto po ní denně projede až sto tisíc vozidel napříč městem.
+      cz: `Tady severojižní magistrála, kterou každý pražský řidič zná prostě jako magistrálu a která se v tomhle úseku úředně jmenuje Wilsonova, po americkém prezidentu Woodrowu Wilsonovi, přelétá Florenc na betonových nohách zhruba ve výšce oken ve druhém patře sousedních domů. Hezká není, nikdo to netvrdí, a přesto po ní denně projede až sto tisíc vozidel napříč městem.
 
 Silnice vzešla z dopravních plánů 60. let a stavěla se po etapách během 70. let: od Nuselského mostu k Rumunské ulici roku 1973, odtud k Hlávkovu mostu roku 1978. Aby protlačili silnici dálničních rozměrů historickým centrem, vedli projektanti Wilsonovou ulicí kolem hlavního nádraží a Národního muzea a nad Florencí ji zvedli na tuto estakádu. Cena byla vysoká. Padlo kvůli ní Těšnovské nádraží, kdysi označované za nejkrásnější nádraží ve střední Evropě, parky kolem Florence byly rozťaty a Muzeum hlavního města Prahy zůstalo koukat přímo do provozu. I jméno ulice má svůj příběh: za komunistů se jmenovala Vítězného února, podle převratu v únoru 1948, a teprve po roce 1989 se vrátila k Woodrowu Wilsonovi.
 
 Od té doby se město přou, co s ní. Studie dánského urbanisty Jana Gehla, schválená roku 2017, navrhla magistrálu postupně zklidnit a znovu propojit Národní muzeum s Václavským náměstím. Rychlost se roku 2019 snížila na 50 km/h a debata pokračuje.
 
 🎁 Bonus: Woodrow Wilson má svou sochu kousek odsud, u hlavního nádraží. Originál od Albína Poláška, odhalený 4. července 1928, za války strhli němečtí okupanti, nový odlitek se vrátil roku 2011, takže prezident zase shlíží na silnici, která nese jeho jméno.`,
-      zh: `在这里，南北干道（布拉格的司机们都直接叫它“干道”）踩着水泥桥墩从弗洛伦茨上空飞过，高度差不多和旁边楼房的三楼窗户齐平。它不好看，也没人说它好看，可每天还是有多达十万辆车靠它穿城而过。
+      zh: `在这里，南北干道（布拉格的司机们都直接叫它“干道”，这一段的正式名字则是威尔逊街，得名于美国总统伍德罗·威尔逊）踩着水泥桥墩从弗洛伦茨上空飞过，高度差不多和旁边楼房的三楼窗户齐平。它不好看，也没人说它好看，可每天还是有多达十万辆车靠它穿城而过。
 
 这条路源自20世纪60年代的交通规划，在70年代分段建成：1973年通了努塞尔桥到鲁穆恩斯卡街一段，1978年又从那里通到赫拉夫卡桥。为了让一条高速公路级别的大路穿过历史城区，规划者让它沿着威尔逊街经过中央火车站和国家博物馆，到了弗洛伦茨再用这座高架桥抬起来。代价很大。泰什诺夫火车站，这座曾被称为中欧最美的车站，因此被拆掉；弗洛伦茨一带的公园被切得七零八落；布拉格市博物馆从此正对着车流。连这条街的名字都有故事：共产党时期它叫“胜利的二月街”，纪念1948年的二月政变，直到1989年以后才重新改回纪念伍德罗·威尔逊的名字。
 
@@ -37806,6 +37808,247 @@ Uvnitř jsou jedny z nejlepších sbírek svého druhu ve střední Evropě: če
 馆内收藏在中欧同类博物馆中数一数二：从巴洛克到当代的波希米亚玻璃、瓷器和陶器、纺织品与时装、家具、金银器、版画与摄影，还有最好的捷克立体主义家具和陶瓷收藏之一，那些东西的造型，就像有人用水晶折出了一把椅子。大楼本身，连同装饰华丽的展厅和楼梯，也是展品的一部分。
 
 🎁 彩蛋：这座博物馆的捷克语名字至今还沿用老拼法“museum”，用的是s，而捷克语早在一百年前就改成了“muzeum”。一座收藏耐久之物的博物馆，守着个老名字，倒也合情合理。`,
+    },
+  },
+  {
+    // 2026-11-17, user's coordinates, for the Vršovice pack. Facts: Greenpeace ČR
+    // (Wall Street festival, Škapa, 50 years of Greenpeace), expats.cz (300 m²,
+    // two facades, "Gai and Gaia"), The Chemistry Gallery (the two figures),
+    // Street Art Cities (painted early September 2022). The wall is a festival
+    // wall, so the text says the painting is the current one.
+    name: 'Moskevská Street Art Wall',
+    slug: 'zed-street-artu-moskevska',
+    localizedNames: { cz: 'Zeď se street artem v Moskevské', zh: '莫斯科街涂鸦墙' },
+    labels: ['cultural', 'contemporary'],
+    district: 'Praha 10',
+    quarter: 'Vršovice',
+    coordinates: { lat: 50.071633241228746, lng: 14.450819394882352 },
+    rarity: 'superior',
+    xpReward: 30,
+    description: {
+      en: `On Moskevská, where a house is missing from the row, the bare walls of its neighbours have been turned into one of the biggest paintings in Vršovice. Prague builders call a gap like this a proluka. Painters call it a canvas, and this one is about 300 square metres.
+
+The wall belongs to Wall Street, a Prague festival run by The Chemistry Gallery that hands blank city walls to street artists. The painting on it now went up in early September 2022: Gai and Gaia by Michal Škapa, one of the best-known Czech street artists, who started out spraying trains and walls as Tron in the 1990s. It was commissioned by the Czech branch of Greenpeace for the organisation's fiftieth anniversary, one of a series of large murals painted around the world for that birthday, and it was the largest piece the festival had made until then.
+
+The painting runs round the corner over two facades. On one a girl stares straight out at you, and Škapa meant her gaze to make you think again about who you are. On the other a shaman with a crown of plants stands up to his ankles in water while planets and gears turn behind him, and he is the one who brings the spark of hope. Walls like this are not forever: when the festival needs the space, a new painting may take its place, so what you see could be newer than this card.
+
+🎁 Bonus: Gaia is the ancient Greek name for the Earth itself, the mother of everything. Greenpeace was born in 1971, when a small boat sailed out to protest a nuclear test in Alaska, so fifty years later it got a planet-sized birthday card on a wall in Prague 10.`,
+      cz: `V Moskevské, kde v řadě domů jeden chybí, se z holých zdí sousedů stal jeden z největších obrazů ve Vršovicích. Stavaři takové mezeře říkají proluka. Malíři plátno, a tohle má zhruba 300 metrů čtverečních.
+
+Zeď patří festivalu Wall Street, který pořádá The Chemistry Gallery a který svěřuje prázdné zdi ve městě street artistům. Malba, která je na ní teď, vznikla začátkem září 2022: Gai a Gaia od Michala Škapy, jednoho z nejznámějších českých street artistů, který v devadesátých letech začínal sprejovat vlaky a zdi pod jménem Tron. Objednala ji česká pobočka Greenpeace k padesátému výročí organizace, jako jednu z řady velkých maleb, které k těm narozeninám vznikly po celém světě, a byla to do té doby největší práce festivalu.
+
+Malba obtáčí roh přes dvě fasády. Na jedné se na vás upřeně dívá dívka a Škapa chtěl, aby vás její pohled přiměl znovu se zamyslet, kdo jste. Na druhé stojí šaman s korunou z rostlin po kotníky ve vodě, za ním se otáčejí planety a ozubená kola, a právě on přináší jiskru naděje. Takové zdi nejsou navěky: když festival místo potřebuje, může ji nahradit nová malba, takže to, co uvidíte, může být novější než tahle karta.
+
+🎁 Bonus: Gaia je starořecké jméno pro samotnou Zemi, matku všeho. Greenpeace se zrodil v roce 1971, kdy malá loď vyplula protestovat proti jaderné zkoušce na Aljašce, a o padesát let později dostal přání k narozeninám velké jako planeta, na zdi v Praze 10.`,
+      zh: `在莫斯科街，一排房子里缺了一栋，两边邻居光秃秃的墙就成了弗尔绍维采最大的画之一。布拉格的建筑工人管这种空缺叫“豁口”，画家则管它叫画布，这一块大约有300平方米。
+
+这面墙属于“华尔街”艺术节，由化学画廊主办，专门把城里空白的墙面交给街头艺术家。现在墙上这幅画是2022年9月初画上去的：米哈尔·什卡帕的《盖与盖娅》。什卡帕是捷克最有名的街头艺术家之一，上世纪九十年代他还用“特隆”这个名字在火车和墙上喷涂鸦。这幅画是绿色和平组织捷克分部为庆祝组织成立五十周年委托创作的，属于当时在世界各地为这个生日画下的一系列巨幅壁画，也是这个艺术节到那时为止最大的一件作品。
+
+画面绕过墙角，铺满两面外墙。一面上，一个女孩直直地盯着你，什卡帕希望她的目光让人重新想一想自己是谁。另一面上，一个头戴植物冠冕的萨满站在没过脚踝的水里，身后旋转着行星和齿轮，带来希望的火花的正是他。这样的墙不会永远不变：艺术节需要地方时，新画可能会盖掉旧画，所以你看到的也许比这张卡片写的还要新。
+
+🎁 彩蛋：盖娅是古希腊人对大地本身的称呼，万物之母。绿色和平诞生于1971年，那年一条小船驶向阿拉斯加，去抗议一次核试验。五十年后，它在布拉格10区的一面墙上收到了一张行星那么大的生日贺卡。`,
+    },
+  },
+  {
+    // 2026-11-17, user's coordinates, for the Vršovice pack (user's call: in the
+    // pack although it stands on the Eden side). Facts: Archiweb and the Klub Za
+    // starou Prahu statement (1966-1970, Nováková and Šestáková, Chemapol and
+    // Investa), estav.cz ("Italák", the Italian FEAL curtain wall), Seznam Zprávy
+    // and energozrouti.cz (Agam's façade in the 2003-2004 renovation, more than 300
+    // shades; Chemapol Group; Daramis, asbestos, demolition), cc.cz (not listed as
+    // a monument), e15 (replacement in the early 2030s).
+    name: 'Chemapol Building',
+    slug: 'budova-chemapolu',
+    localizedNames: { cz: 'Budova Chemapolu', zh: '凯马波尔大楼' },
+    labels: ['communism', 'contemporary'],
+    district: 'Praha 10',
+    quarter: 'Vršovice',
+    coordinates: { lat: 50.069671351960324, lng: 14.463930441086248 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Among the grey slabs of eastern Vršovice stands an office block painted in every colour of the rainbow, stripe after stripe, as if someone had spilled a paint chart over it. Visitors often take it for a Pride statement. It has nothing to do with Pride: the colours are a work of art, and the building underneath is an office block of the 1960s.
+
+It was built between 1966 and 1970 to a design by the architects Zdenka Marie Nováková and Dagmar Šestáková, as the headquarters of two state foreign trade enterprises, Chemapol and Investa. Under communism such enterprises held the monopoly on trade with the outside world, and they were meant to look the part. Its light curtain wall of glass and aluminium came from the Italian firm FEAL, because no Czechoslovak company could make one, and the building earned the nickname Italák, "the Italian". For many people it looked like a piece of the West dropped into Prague 10. After 1989 Chemapol was turned into the Chemapol Group, one of the big business empires of the 1990s, which collapsed into bankruptcy at the turn of the millennium.
+
+The rainbow came in the renovation of 2003 and 2004, when the Israeli artist Yaacov Agam, a pioneer of op art and kinetic art, designed the façade in more than 300 shades. Many architects felt the paint hid a fine building. In the 2020s the developer Daramis announced plans to pull it down, citing asbestos, and to build a block of flats, shops and a kindergarten in its place. The Club for Old Prague protested, calling it one of the best Czechoslovak buildings of the "golden sixties", but the Ministry of Culture declined to list it as a monument.
+
+🎁 Bonus: Agam's pictures are famous for changing as you walk past them, showing one image from the left and another from the right. Walk along Kodaňská while you still can and watch the stripes shift.`,
+      cz: `Mezi šedými paneláky východních Vršovic stojí kancelářská budova natřená všemi barvami duhy, pruh za pruhem, jako by se na ni vylil vzorník barev. Návštěvníci ji často berou jako vzkaz k Pride. S Pride nemá nic společného: barvy jsou umělecké dílo a pod nimi je kancelářská budova ze šedesátých let.
+
+Postavila se v letech 1966 až 1970 podle návrhu architektek Zdenky Marie Novákové a Dagmar Šestákové jako sídlo dvou státních podniků zahraničního obchodu, Chemapolu a Investy. Za komunismu měly tyto podniky monopol na obchod se zahraničím a měly podle toho i vypadat. Lehký závěsný plášť ze skla a hliníku dodala italská firma FEAL, protože žádná československá firma ho vyrobit neuměla, a budova dostala přezdívku Italák. Mnoha lidem připadala jako kousek Západu, který spadl do Prahy 10. Po roce 1989 se Chemapol proměnil v Chemapol Group, jedno z velkých podnikatelských impérií devadesátých let, které na přelomu tisíciletí skončilo v konkurzu.
+
+Duha přišla při rekonstrukci v letech 2003 a 2004, kdy fasádu ve více než 300 odstínech navrhl izraelský umělec Yaacov Agam, průkopník op-artu a kinetického umění. Podle mnoha architektů barva zakryla dobrou stavbu. Ve dvacátých letech oznámil developer Daramis, že budovu kvůli azbestu zbourá a postaví na jejím místě blok s byty, obchody a školkou. Klub Za starou Prahu protestoval a označil ji za jednu z nejlepších československých staveb „zlatých šedesátých“, ministerstvo kultury ji však za památku neprohlásilo.
+
+🎁 Bonus: Agamovy obrazy jsou známé tím, že se mění, jak kolem nich jdete: zleva ukazují jeden obraz, zprava jiný. Projděte se po Kodaňské, dokud to jde, a sledujte, jak se pruhy přelévají.`,
+      zh: `在弗尔绍维采东部灰扑扑的板楼中间，立着一栋涂满彩虹各色的办公楼，一道条纹接一道条纹，像是有人把整本色卡泼在了上面。游客常把它当成骄傲月的宣言。其实它和骄傲月毫无关系：这些颜色是一件艺术品，底下则是一栋上世纪六十年代的办公楼。
+
+大楼建于1966到1970年间，由建筑师兹德恩卡·玛丽·诺瓦科娃和达格玛尔·谢斯塔科娃设计，是两家国营外贸企业凯马波尔和英维斯塔的总部。在共产党时期，这类企业垄断着和外部世界的全部贸易，楼也得配得上这个身份。它轻盈的玻璃铝合金幕墙来自意大利公司FEAL，因为当时没有一家捷克斯洛伐克企业造得出来，于是大楼得了个外号叫“意大利佬”。在很多人眼里，它就像一块掉进布拉格10区的西方。1989年以后，凯马波尔改组成凯马波尔集团，成了九十年代的大商业帝国之一，到世纪之交却以破产收场。
+
+彩虹是在2003到2004年翻修时来的：以色列艺术家雅科夫·阿甘，欧普艺术和动态艺术的先驱，用三百多种色调设计了立面。不少建筑师觉得，这层颜料盖住了一栋好建筑。到了2020年代，开发商达拉米斯宣布要以含石棉为由拆掉它，在原地建一片带公寓、商店和幼儿园的街区。布拉格老城保护俱乐部提出抗议，称它是捷克斯洛伐克“黄金六十年代”最好的建筑之一，但文化部没有把它列为文物。
+
+🎁 彩蛋：阿甘的画以“边走边变”出名：从左边看是一幅画，从右边看又是另一幅。趁它还在，沿着哥本哈根街走一遍，看看这些条纹怎么流动起来。`,
+    },
+  },
+  {
+    // 2026-11-17, user's coordinates, for the Florenc pack. Facts: pametni-desky-v-
+    // praze.cz, drobnepamatky.cz, totalita.cz and cs.wikipedia "Ministerstvo
+    // zemědělství ČR" (unveiled Sunday 23 May 2004; Jiří Plieštik, Tomáš Novotný,
+    // Zuzana Mezerová, Petr Podzemský; 6 m stainless-steel crop in barbed wire;
+    // Asociace soukromého zemědělství, June 2001, 1.3 million CZK from 717 donors;
+    // Sládek's Selské písně on the plaque), ČT24 (Akce Kulak, from 1951).
+    name: 'Memorial to the Victims of Collectivisation',
+    slug: 'pamatnik-obetem-kolektivizace',
+    localizedNames: { cz: 'Památník obětem kolektivizace v zemědělství', zh: '农业集体化受难者纪念碑' },
+    labels: ['monument', 'communism'],
+    district: 'Praha 8',
+    quarter: 'Karlín',
+    coordinates: { lat: 50.093854318187184, lng: 14.436703816376347 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `In the small park in front of the Ministry of Agriculture on Těšnov, a sheaf of young grain six metres tall rises out of the ground in stainless steel. It is bound in barbed wire, and it is growing anyway. This is the memorial to the farmers who lost their land, their homes and often their freedom when the communists collectivised Czech agriculture.
+
+Collectivisation began in 1949, when a new law set up the unified agricultural cooperatives, the JZD. Farmers were meant to join of their own free will. Those who didn't were squeezed with impossible delivery quotas, fines and trials, and the better-off among them were branded kulaks, class enemies. In the Kulak Action, from 1951, thousands of farming families were forced off their farms and moved to the far side of the country, often with a few hours' notice and only what they could carry. Many farmers went to prison, and their children were barred from studying. By the end of the 1950s private farming had all but disappeared.
+
+The memorial was the idea of the Association of Private Farming, the farmers who took their land back after 1989. In June 2001 they called for it, and a public collection raised over 1.3 million crowns from 717 donors. It was made by the sculptor Jiří Plieštik with the architects Tomáš Novotný and Zuzana Mezerová, the smith Petr Podzemský did the metalwork, and it was unveiled on Sunday 23 May 2004. The plaque quotes Josef Václav Sládek's Peasant Songs.
+
+🎁 Bonus: The memorial stands at the door of the Ministry of Agriculture, the same ministry that in the 1950s pushed the cooperatives through. Anyone going in to work passes the grain in the wire.`,
+      cz: `V parčíku před budovou ministerstva zemědělství na Těšnově roste ze země šest metrů vysoký trs mladého osení z nerezové oceli. Je spoutaný ostnatým drátem, a stejně roste. Je to památník sedlákům, kteří přišli o půdu, domov a často i o svobodu, když komunisté kolektivizovali české zemědělství.
+
+Kolektivizace začala v roce 1949, kdy nový zákon zavedl jednotná zemědělská družstva, JZD. Sedláci do nich měli vstupovat dobrovolně. Kdo nechtěl, toho dusily nesplnitelné dodávky, pokuty a soudy, a ti zámožnější byli označeni za kulaky, třídní nepřátele. V Akci Kulak byly od roku 1951 tisíce selských rodin vyhnány z hospodářství a vystěhovány na druhý konec republiky, často s několikahodinovým předstihem a jen s tím, co unesly. Mnoho sedláků šlo do vězení a jejich děti nesměly studovat. Na konci padesátých let soukromé zemědělství téměř zmizelo.
+
+Památník vznikl z podnětu Asociace soukromého zemědělství, tedy sedláků, kteří po roce 1989 znovu převzali svou půdu. V červnu 2001 o něj požádali a veřejná sbírka vynesla přes 1,3 milionu korun od 717 dárců. Vytvořil ho akademický sochař Jiří Plieštik s architekty Tomášem Novotným a Zuzanou Mezerovou, kovářské práce provedl Petr Podzemský a odhalen byl v neděli 23. května 2004. Na desce jsou verše ze Selských písní Josefa Václava Sládka.
+
+🎁 Bonus: Památník stojí u dveří ministerstva zemědělství, téhož ministerstva, které v padesátých letech družstva prosazovalo. Kdo jde do práce, míjí osení v drátech.`,
+      zh: `在泰什诺夫农业部大楼前的小公园里，一簇六米高的不锈钢嫩麦从地里长出来。它被铁丝网捆着，却照样在长。这是献给那些农民的纪念碑：共产党在捷克推行农业集体化时，他们失去了土地、家园，常常还有自由。
+
+集体化始于1949年，那年一部新法律设立了统一农业合作社，捷克语简称JZD。按规定，农民入社全凭自愿。不愿入社的人，就被不可能完成的交售指标、罚款和审判压得喘不过气；家境好一些的，被扣上“富农”的帽子，成了阶级敌人。从1951年开始的“富农行动”中，成千上万个农户被赶出自家农庄，迁到国家的另一头，往往只提前几个小时通知，只能带走手里拿得动的东西。许多农民进了监狱，他们的孩子不准上学深造。到五十年代末，私人农业几乎消失了。
+
+纪念碑是私营农业协会发起的，会员就是1989年以后重新拿回土地的农民。2001年6月他们提出这个请求，一次公开募捐从717位捐款人那里筹到了130多万克朗。它由雕塑家伊日·普利耶什蒂克和建筑师托马什·诺沃特尼、祖扎娜·梅泽罗娃共同创作，铁艺由铁匠彼得·波泽姆斯基完成，2004年5月23日星期天揭幕。铭牌上刻着约瑟夫·瓦茨拉夫·斯拉德克《农民之歌》里的诗句。
+
+🎁 彩蛋：纪念碑就立在农业部门口，正是五十年代推行合作社的那个部。每个进楼上班的人，都要从这簇被铁丝缠住的麦子旁边走过。`,
+    },
+  },
+  {
+    // 2026-11-17, user's coordinates (in the park beside the roundabout, which can't
+    // be walked onto), for the Jižní Město pack. Facts: Václav Huml's excavation
+    // report (Litochleby, mentioned indirectly in 1326, its old buildings excavated
+    // in 1973 before Jižní Město), Pražský deník and ČT24, October 2010 (lime alley
+    // about 80 years old, memorials to the dead of both world wars, the office
+    // complex plan and the residents' protest; outcome not stated on purpose).
+    name: 'Litochlebské Square',
+    slug: 'litochlebske-namesti',
+    localizedNames: { cz: 'Litochlebské náměstí', zh: '利托赫莱布广场' },
+    labels: ['square', 'communism'],
+    district: 'Praha 11',
+    quarter: 'Chodov',
+    coordinates: { lat: 50.031798098957545, lng: 14.506598952662943 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `In the middle of Chodov, among the panel blocks of Jižní Město, the traffic goes round a big, neat roundabout planted with trees. It is called a square, though nobody can stand in the middle of it, so the best place to admire it is this park on its edge, watching the buses and cars circle like a slow, well-behaved carousel.
+
+The square takes its name from Litochleby, a small farming hamlet that stood here for about six centuries; the written records first hint at it in 1326. In the late 1960s and 1970s the fields of Chodov were chosen for Jižní Město, the biggest housing estate in Prague, and in 1973 Litochleby's last old buildings were pulled down to make way for it. Archaeologists came first and recorded its houses, rooms and ovens before the bulldozers arrived.
+
+A little of the old village outlived it: a lime alley planted between the wars and memorials to the local men who died in the First and Second World Wars. They are what keeps the place a square in spirit and not just a junction. In 2010 a plan for a large office complex beside them made the neighbours fear for about sixty trees and shrubs, and the people of Chodov took to the petitions to defend their bit of green.
+
+🎁 Bonus: Chodov and Litochleby became part of Prague only in 1968. The estate built on their fields is now home to roughly 80,000 people, more than live in most Czech towns, and the old hamlet survives mainly as a name on the bus timetables.`,
+      cz: `Uprostřed Chodova, mezi panelovými domy Jižního Města, krouží doprava kolem velkého upraveného kruhového objezdu se stromy. Říká se mu náměstí, i když doprostřed se nikdo nepostaví, takže nejlépe se na něj dívá z tohohle parčíku na okraji, odkud jsou vidět autobusy a auta, jak obíhají jako pomalý, slušně vychovaný kolotoč.
+
+Náměstí nese jméno Litochleb, malé zemědělské osady, která tu stála asi šest století; písemné prameny ji nepřímo zmiňují poprvé v roce 1326. Na přelomu šedesátých a sedmdesátých let padla volba na chodovská pole jako místo pro Jižní Město, největší pražské sídliště, a v roce 1973 musely ustoupit i poslední staré budovy Litochleb. Ještě před bagry přišli archeologové a zdokumentovali jejich domy, světnice a pece.
+
+Kousek staré vsi ji přežil: lipová alej vysazená mezi válkami a pomníky místním mužům padlým v první a druhé světové válce. Díky nim je to místo náměstím v duchu, a ne jen křižovatkou. V roce 2010 plán na velký administrativní komplex vedle nich vyděsil sousedy kvůli zhruba šedesáti stromům a keřům a Chodovští se pustili do petic, aby svůj kousek zeleně ubránili.
+
+🎁 Bonus: Chodov i s Litochleby se součástí Prahy staly teprve v roce 1968. Na jejich polích dnes na sídlišti žije zhruba 80 000 lidí, víc než ve většině českých měst, a stará osada přežívá hlavně jako jméno v jízdních řádech autobusů.`,
+      zh: `在霍多夫正中央，南城的板楼群之间，车流绕着一个种满树、修得整整齐齐的大环岛打转。它叫广场，可谁也站不到它中间去，所以欣赏它最好的地方就是边上的这片小公园：看公交车和小汽车一圈圈地绕，像一座慢悠悠、规规矩矩的旋转木马。
+
+广场的名字来自利托赫莱比，一个在这里存在了大约六百年的小农庄；文献里最早间接提到它是在1326年。上世纪六十年代末到七十年代，霍多夫的田野被选来建南城，布拉格最大的住宅区，1973年利托赫莱比最后的老房子也被拆掉，给新楼让路。推土机来之前，考古学家先到了一步，把那些房屋、房间和炉灶都记录了下来。
+
+老村子有一小部分活得比它长：一条两次大战之间种下的椴树林荫道，还有纪念第一次和第二次世界大战中阵亡的本地男人的纪念碑。正是它们让这里在精神上还算个广场，而不只是个路口。2010年，一个在旁边建大型办公综合体的计划让邻居们担心起那大约六十棵树和灌木，霍多夫人纷纷签起请愿书，要保住自家门口这一小片绿。
+
+🎁 彩蛋：霍多夫和利托赫莱比直到1968年才并入布拉格。如今在它们的田地上建起的住宅区里住着大约八万人，比捷克大多数城镇的人口还多，而那个老农庄主要还活在公交时刻表上的一个站名里。`,
+    },
+  },
+  {
+    // 2026-11-17, user's coordinates (in the underpass), for the Bubny pack and the
+    // Eighty Thousand Names achievement. Facts: Novinky and expats.cz (opened
+    // Tuesday 3 September 2024 with some of Winton's children present; from
+    // Bubenská to Argentinská under two railway lines; Toy Box's mural; the idea
+    // of Pavel Štingl, former head of the Memorial of Silence), Radio Prague,
+    // Street Art Cities. The ninth train of 1 September 1939: Winton's own account.
+    name: 'Nicholas Winton Street',
+    slug: 'ulice-nicholase-wintona',
+    localizedNames: { cz: 'Ulice Nicholase Wintona', zh: '尼古拉斯·温顿街' },
+    labels: ['street', 'world-wars', 'jewish'],
+    district: 'Praha 7',
+    quarter: 'Holešovice',
+    coordinates: { lat: 50.10278459970377, lng: 14.439743700583662 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `For more than a century the rail yard at Bubny cut Prague 7 in half, and anyone on foot between Letná and Holešovice had to walk round it. Since September 2024 a new street ducks under the tracks instead, through two underpasses, and it carries the name of a British stockbroker: Nicholas Winton, who in 1939 got 669 mostly Jewish children out of Czechoslovakia just before the war.
+
+The street runs from Bubenská to Argentinská, past the old Bubny station. The idea came from Pavel Štingl, the former director of the Memorial of Silence, the memorial being built in that station, and Prague 7 took it up. It opened on Tuesday 3 September 2024, and some of the people Winton saved as children came to walk it. For now it is still a plain, provisional path, the first piece of the new quarter planned for the old rail yard. In one of the underpasses the artist Toy Box painted a large mural of Winton and the children, so the walk under the railway is not grey at all.
+
+The place was chosen with care. A few hundred metres away, at Bubny station, the Nazi transports left between 1941 and 1945, carrying tens of thousands of Prague Jews to Łódź and Terezín, and most of them never came back. Winton's trains left from the main station across town, two years earlier, and those children survived. A street named after the man who got some of them out now runs past the platform the others could not escape.
+
+🎁 Bonus: The largest of Winton's trains, with about 250 children aboard, was due to leave Prague on 1 September 1939. That morning Germany invaded Poland, the borders closed and the train never left. Almost none of those children survived the war. The street that bears his name opened eighty-five years later, almost to the day.`,
+      cz: `Přes sto let dělilo nádraží Bubny Prahu 7 napůl a kdo šel pěšky mezi Letnou a Holešovicemi, musel ho obcházet. Od září 2024 vede pod kolejemi nová ulice, dvěma podchody, a nese jméno britského makléře: Nicholase Wintona, který v roce 1939 těsně před válkou dostal z Československa 669 převážně židovských dětí.
+
+Ulice vede z Bubenské do Argentinské, kolem starého nádraží Bubny. Nápad přišel od Pavla Štingla, bývalého ředitele Památníku ticha, který na tom nádraží vzniká, a Praha 7 se ho chopila. Otevřela se v úterý 3. září 2024 a přišli se po ní projít i někteří z těch, které Winton jako děti zachránil. Zatím je to prostá, provizorní cesta, první kousek nové čtvrti plánované na místě kolejiště. V jednom z podchodů namalovala umělkyně Toy Box velkou nástěnnou malbu Wintona a dětí, takže cesta pod tratí vůbec není šedá.
+
+Místo nebylo vybráno náhodou. Pár set metrů odtud, z nádraží Bubny, odjížděly v letech 1941 až 1945 nacistické transporty, které odvezly desítky tisíc pražských Židů do Lodže a Terezína, a většina z nich se už nevrátila. Wintonovy vlaky odjížděly o dva roky dřív z hlavního nádraží na druhé straně města a ty děti přežily. Ulice pojmenovaná po muži, který některé z nich dostal ven, teď vede kolem nástupiště, z něhož ostatní uniknout nemohli.
+
+🎁 Bonus: Největší z Wintonových vlaků, s asi 250 dětmi, měl z Prahy odjet 1. září 1939. Toho rána Německo napadlo Polsko, hranice se zavřely a vlak nikdy neodjel. Téměř nikdo z těch dětí válku nepřežil. Ulice nesoucí jeho jméno se otevřela o osmdesát pět let později, skoro na den přesně.`,
+      zh: `一百多年来，布布尼的铁路站场把布拉格7区一劈两半，步行往返莱特纳和霍莱绍维采的人只能绕着走。2024年9月起，一条新街从铁轨底下穿了过去，经过两条地下通道，它以一位英国股票经纪人的名字命名：尼古拉斯·温顿。1939年战争爆发前夕，他把669个大多是犹太人的孩子送出了捷克斯洛伐克。
+
+这条街从布本斯卡街通到阿根廷街，经过老布布尼车站。主意是帕维尔·什廷格尔出的，他曾是“沉默纪念馆”的馆长，这座纪念馆正在那个车站里筹建；7区政府采纳了这个提议。街道在2024年9月3日星期二开通，几位当年被温顿救下的“孩子”也来走了一走。眼下它还只是一条朴素的临时通道，是计划在旧站场上建起的新街区的第一块。其中一条地下通道里，艺术家“玩具盒”画了一幅温顿和孩子们的巨幅壁画，所以从铁路底下穿过的这段路一点也不灰暗。
+
+选这里是有用意的。几百米外的布布尼车站，1941到1945年间开出过一列列纳粹遣送列车，把数以万计的布拉格犹太人运往罗兹和特雷津，他们中的大多数再也没有回来。温顿的火车早两年从城另一头的中央火车站开出，车上的孩子活了下来。如今，一条以救出其中一些孩子的人命名的街，就从另一些人没能逃脱的站台旁边经过。
+
+🎁 彩蛋：温顿最大的一列火车载着大约250个孩子，原定1939年9月1日离开布拉格。那天早上德国入侵波兰，边境关闭，火车再也没能开出。车上的孩子几乎无一在战争中幸存。以他命名的这条街，在八十五年后几乎同一天开通。`,
+    },
+  },
+  {
+    // 2026-11-17, user's coordinates (platform 1 of the main station), for the
+    // Eighty Thousand Names achievement; not in a pack. Facts: expats.cz / ČTK
+    // (Flor Kent, unveiled 1 September 2009 on platform 1; the glasses stolen three
+    // times, the last time for about five years; restorer Pavel Schreiber, 13,000
+    // CZK from a public collection), Radio Prague, nicholaswinton.com (Winton Train
+    // 2009), Winton's biography (Chadwick, the 1988 scrapbook and That's Life,
+    // knighthood 2003, Order of the White Lion 2014, died 1 July 2015 at 106).
+    name: 'Nicholas Winton Statue',
+    slug: 'socha-nicholase-wintona',
+    localizedNames: { cz: 'Socha Nicholase Wintona', zh: '尼古拉斯·温顿雕像' },
+    labels: ['monument', 'sculpture', 'world-wars', 'jewish'],
+    district: 'Praha 2',
+    quarter: 'Vinohrady',
+    coordinates: { lat: 50.08247296873949, lng: 14.43517103861738 },
+    rarity: 'superior',
+    xpReward: 30,
+    description: {
+      en: `On platform 1 of Prague's main station, among the commuters and the rolling suitcases, a man in a suit stands in bronze with a small boy and girl beside him and a suitcase at his feet, looking down the tracks. He is Nicholas Winton, and in 1939 this is where his trains left from, carrying 669 children away from the Nazis.
+
+Winton was a 29-year-old London stockbroker who, at the end of 1938, came to Prague instead of going skiing in Switzerland. The city was full of refugees from the Sudetenland, which Germany had just taken, many of them Jewish families who could see what was coming. Winton started listing children whose parents wanted them out. Back in London he found British foster families and the £50 guarantee each child needed, and when the Home Office paperwork was too slow he had some of it forged. In Prague the dangerous work was done by Trevor Chadwick and others. Between March and August 1939 eight transports, the first by plane and the rest by train, took 669 children to Britain. Most of them never saw their parents again.
+
+Then Winton said nothing for almost fifty years. In 1988 his wife found a scrapbook in the attic, full of lists and photographs, and the BBC programme That's Life told the story with Winton in the studio audience. Asked whether anyone present owed their life to him, the people all around him stood up. He was knighted in 2003 and received the Czech Order of the White Lion in 2014. The statue, by the sculptor Flor Kent, was unveiled on 1 September 2009, on the day a vintage train full of his "children" and their families set off from here to retrace the journey to London. Vandals stole the bronze glasses three times, the last time for about five years, until a public collection paid the restorer Pavel Schreiber to put them back.
+
+🎁 Bonus: Nicholas Winton died on 1 July 2015, at the age of 106. It was 76 years to the day since one of his trains had left this station with 241 children aboard.`,
+      cz: `Na prvním nástupišti pražského hlavního nádraží, mezi dojíždějícími a kufry na kolečkách, stojí v bronzu muž v obleku, vedle něj malý chlapec a holčička, u nohou kufr, a dívá se podél kolejí. Je to Nicholas Winton a v roce 1939 odtud vyjížděly jeho vlaky, které odvezly 669 dětí z dosahu nacistů.
+
+Winton byl devětadvacetiletý londýnský makléř, který na konci roku 1938 místo na lyže do Švýcarska přijel do Prahy. Město bylo plné uprchlíků ze Sudet, které právě zabralo Německo, mezi nimi mnoha židovských rodin, které tušily, co přijde. Winton začal sepisovat děti, které rodiče chtěli dostat pryč. V Londýně pak hledal britské pěstounské rodiny a záruku 50 liber, kterou každé dítě potřebovalo, a když byly papíry z ministerstva vnitra příliš pomalé, nechal některé zfalšovat. Nebezpečnou práci v Praze odvedl Trevor Chadwick a další. Mezi březnem a srpnem 1939 odvezlo osm transportů, první letadlem a ostatní vlakem, 669 dětí do Británie. Většina z nich už své rodiče nikdy neviděla.
+
+Pak Winton skoro padesát let mlčel. V roce 1988 našla jeho žena na půdě album plné seznamů a fotografií a pořad BBC That's Life příběh odvysílal s Wintonem v publiku. Když se moderátorka zeptala, jestli tu je někdo, kdo mu vděčí za život, lidé všude kolem něj vstali. V roce 2003 byl pasován na rytíře a v roce 2014 dostal Řád Bílého lva. Socha od sochařky Flor Kent byla odhalena 1. září 2009, v den, kdy odtud historický vlak plný jeho „dětí“ a jejich rodin vyrazil znovu projet cestu do Londýna. Vandalové bronzové brýle ukradli třikrát, naposledy asi na pět let, než veřejná sbírka zaplatila restaurátorovi Pavlu Schreiberovi, aby je vrátil.
+
+🎁 Bonus: Nicholas Winton zemřel 1. července 2015 ve věku 106 let. Bylo to přesně 76 let ode dne, kdy z tohoto nádraží odjel jeden z jeho vlaků s 241 dětmi.`,
+      zh: `在布拉格中央火车站的1号站台，通勤的人群和滚轮行李箱之间，站着一个穿西装的青铜男人，身边是一个小男孩和一个小女孩，脚边放着一只手提箱，他望着铁轨的远方。他就是尼古拉斯·温顿。1939年，他的火车就从这里开出，把669个孩子带离了纳粹的魔爪。
+
+温顿当时是一位29岁的伦敦股票经纪人。1938年底，他没去瑞士滑雪，而是来了布拉格。城里挤满了从苏台德地区逃来的难民，那片地方刚被德国占去，难民中有许多犹太家庭已经看清了接下来会发生什么。温顿开始登记那些父母想送走的孩子。回到伦敦，他为孩子们找英国寄养家庭，筹措每个孩子必需的50英镑担保金；内政部的文件办得太慢时，他干脆让人伪造了一部分。在布拉格，冒险的实际工作由特雷弗·查德威克等人完成。1939年3月到8月间，八批转运，第一批坐飞机，其余坐火车，把669个孩子送到了英国。他们中的大多数，再也没见到自己的父母。
+
+之后，温顿沉默了将近五十年。1988年，他的妻子在阁楼里发现了一本剪贴簿，里面满是名单和照片。英国广播公司的节目《这就是生活》讲述了这个故事，温顿本人就坐在观众席里。主持人问在场有没有人的性命是他救下的，他周围的人全都站了起来。2003年他被封为爵士，2014年获得捷克白狮勋章。这座雕像出自雕塑家弗洛尔·肯特之手，2009年9月1日揭幕，那一天，一列满载他当年救下的“孩子”及其家人的老式列车从这里出发，重走当年去伦敦的路。青铜眼镜被人偷走过三次，最后一次丢了大约五年，直到一次公开募捐出钱，请修复师帕维尔·施赖伯把它装了回去。
+
+🎁 彩蛋：尼古拉斯·温顿于2015年7月1日去世，享年106岁。那一天，正好是他的一列火车载着241个孩子从这个车站出发的76周年。`,
     },
   },
 ];

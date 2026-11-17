@@ -863,3 +863,70 @@ html[data-lang="zh"] .ach-badge-pill:not(.ach-badge-pill--xp) { width: 108px; }
   .ci-reward__bar-gain { transition: none; }
 }
 .ci-reward__pack img { width: 26px; height: 26px; object-fit: contain; }
+
+/* Related achievements under a card's story (CardAchievements.jsx, 2026-11-17). */
+.card-ach { margin: -6px 0 18px; }
+.card-ach__label {
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+/* One achievement to a row, so its whole name shows (user's call). */
+.card-ach__list { display: flex; flex-direction: column; gap: 8px; }
+.card-ach__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  padding: 8px;
+  font: inherit;
+  font-size: 14px;
+  text-align: left;
+  color: var(--text-primary);
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.card-ach__item:hover { border-color: var(--gold); }
+.card-ach__item .ach-icon { flex: none; width: 44px; height: 44px; font-size: 24px; }
+.card-ach__body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.card-ach__head { display: flex; align-items: flex-start; justify-content: space-between; gap: 6px; min-width: 0; }
+.card-ach__name {
+  flex: 1;
+  min-width: 0;
+  font-weight: 700;
+  line-height: 1.3;
+}
+/* The pill as a small tag here, so the name keeps the room. */
+html .card-ach__head .ach-badge-pill.ach-badge-pill { flex: none; width: auto; justify-content: center; padding: 0 6px; border-width: 1px; font-size: 11px; line-height: 18px; }
+.card-ach__flavor { font-size: 13px; line-height: 1.35; color: var(--text-muted); }
+.card-ach__item .ach-progress { margin-top: 0; max-width: none; }
+.card-ach__more {
+  margin-top: 8px;
+  padding: 0;
+  font: inherit;
+  font-size: 14px;
+  color: var(--gold);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.card-ach__also { margin: 8px 0 0; font-size: 14px; line-height: 1.5; color: var(--text-muted); }
+.card-ach__also-link {
+  padding: 0;
+  font: inherit;
+  color: var(--text-primary);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.card-ach__also-link:hover { color: var(--gold); }
+/* Same width within a language, like every other difficulty badge. */
+html[data-lang="en"] .card-ach__head .ach-badge-pill.ach-badge-pill { min-width: 64px; }
+html[data-lang="cz"] .card-ach__head .ach-badge-pill.ach-badge-pill { min-width: 78px; }
+html[data-lang="zh"] .card-ach__head .ach-badge-pill.ach-badge-pill { min-width: 40px; }

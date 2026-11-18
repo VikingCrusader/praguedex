@@ -665,13 +665,102 @@ export const PACKS = [
     // Wenceslas, the National House, the market hall and the Bear Fountain, and
     // Štefánikova with the town hall, the Švanda Theatre, Portheimka and Prager's
     // bank, plus Arbes Square and the regional authority. The KGB Museum card
-    // stands here on the map but the museum is in the Lesser Town (Vlašská), so
-    // it stays out; the Justice Palace and the Chasm of Time belong to Kinských
-    // square. New slug.
+    // stays out; the Justice Palace and the Chasm of Time belong to Kinských
+    // square. New slug. Dientzenhofer Gardens by Jirásek Bridge joined the
+    // same day as a new card; the Lesser Town Water Tower, on the river, waits
+    // for a Smíchov embankment pack (user's call).
     members: [
       'kostel-sv-vaclava-smichov', 'narodni-dum-na-smichove', 'smchov-market-hall-1782866198316', 'medvedi-kasna',
       'smchov-town-hall-1783626407856', 'svandovo-divadlo-smichov', 'portheimka', 'arbesovo-namesti',
       'budova-banky-stefanikova-smichov', 'krajsky-urad-stredoceskeho-kraje',
+      'dienzenhoferovy-sady',
+    ],
+  }),
+  pack({
+    slug: 'krizovnicke-namesti',
+    released: '2026-11-18T12:00:00+01:00',
+    name: 'Křižovnické Square',
+    localizedNames: { cz: 'Křižovnické náměstí', zh: '十字军骑士广场' },
+    foil: '#3f6b5c',
+    labels: ['square', 'baroque', 'church', 'gothic'],
+    // The Old Town end of Charles Bridge (2026-11-18): the square itself (bridge
+    // tower, the Knights of the Cross church, the Holy Saviour, Charles IV), the
+    // first steps of Karlova (the French Crown and
+    // Colloredo-Mansfeld) and Novotného lávka (Smetana Museum, water tower,
+    // Smetana monument, weir, Karlovy lázně). Charles Bridge and its statues are
+    // left for a bridge pack of their own; Embryo, Bellevue and Lea Vivot's bench
+    // lie further along the embankment; the Klementinum, St Clement and the
+    // Astronomical Tower stand too far back from the square (user's call). New
+    // slug, the square had no card.
+    members: [
+      'staromestska-mostecka-vez', 'kostel-sv-frantiska-z-assisi', 'kostel-sv-salvatora',
+      'monument-to-charles-iv-1783353104539', 'dum-u-francouzske-koruny',
+      'colloredo-mansfeldsky-palac', 'smetana-museum', 'staromestska-vodarenska-vez',
+      'pomnik-bedricha-smetany', 'staromestsky-jez', 'karlovy-lazne',
+    ],
+  }),
+  pack({
+    slug: 'mostecka',
+    released: '2026-11-18T14:00:00+01:00',
+    name: 'Mostecká',
+    localizedNames: { cz: 'Mostecká', zh: '大桥街' },
+    foil: '#7a3f4f',
+    labels: ['street', 'baroque', 'gothic', 'palace'],
+    // The Lesser Town bridgehead (2026-11-18): Mostecká from the bridge towers to
+    // Malostranské náměstí, with Saxon House, Kaunitz Palace and Grömling Palace
+    // at the top (shared with Malostranské náměstí), plus the two side streets'
+    // St Joseph (Josefská) and the Golden Unicorn (Lázeňská, shared with Malta
+    // Square). Kaiserstein Palace stands on the square itself and stays out, as do
+    // the Charles Bridge statues. Took over the one-point street card
+    // (`mosteck-bridge-ave-1782391331744`, two check-ins) and its cover; the card
+    // was deleted (user's call), keeping the name Mostecká. The House at the
+    // Three Ostriches (with the bishops' court story) and Saská ulička were
+    // added for it the same day.
+    members: [
+      'malostranska-mostecka-vez', 'saxon-house-1782424496089',
+      'kaunitz-palace-embassy-of-serbia-1782493255720', 'palac-gromlingovsky',
+      'st-josephs-church-1782390038875', 'dum-u-zlateho-jednorozce-lazenska',
+      'dum-u-tri-pstrosu', 'saska-ulicka',
+    ],
+  }),
+  pack({
+    slug: 'vlasska',
+    released: '2026-11-18T16:00:00+01:00',
+    name: 'Vlašská',
+    localizedNames: { cz: 'Vlašská', zh: '意大利街' },
+    foil: '#8a5a2a',
+    labels: ['street', 'embassy', 'baroque', 'communism'],
+    // The street from Tržiště up to the Raoul Wallenberg promenade below Petřín
+    // (2026-11-18, user's call: only what stands on the street or close by):
+    // Schönborn Palace on the corner, Lobkowicz Palace with the Quo Vadis
+    // Trabant in its garden, the Italian Hospital and the Sisters of Mercy
+    // hospital. The Vrtba Garden opens onto Karmelitská and the Seminary Garden
+    // belongs to Petřín. The House at the Great Shoe (Erben's house, 1857-67,
+    // opposite the embassy) joined the same day as a new card (user's call).
+    // New slug.
+    members: [
+      'schnborn-palace-embassy-of-the-us-1782396405461', 'lobkovick-palace-german-embassy-1782395580834',
+      'quo-vadis-trabant', 'dum-u-velkeho-strevice', 'italian-hospital-1782409426667',
+      'nemocnice-milosrdnych-sester',
+    ],
+  }),
+  pack({
+    slug: 'nerudova',
+    released: '2026-11-18T22:00:00+01:00',
+    name: 'Nerudova',
+    localizedNames: { cz: 'Nerudova', zh: '聂鲁达街' },
+    foil: '#4a5a8a',
+    labels: ['street', 'embassy', 'baroque', 'palace'],
+    // The steep street from Malostranské náměstí up to the bend into Ke Hradu
+    // (2026-11-18, user's call): Morzin Palace (Romanian Embassy) and U
+    // Kajetánů, plus five new cards for it: Thun-Hohenstein Palace (Italian
+    // Embassy), Bretfeld Palace and the house signs At the Two Suns (Neruda's
+    // home), At the Three Fiddles and At the Golden Horseshoe. The Palace of the
+    // Lords of Hradec is on the Castle Steps and Hradčany Square is its own
+    // place, so both stay out. New slug.
+    members: [
+      'morzin-palace-1782409018600', 'dum-u-tri-houslicek', 'thun-hohenstejnsky-palac', 'u-kajetanu',
+      'dum-u-zlate-podkovy', 'bretfelduv-palac', 'dum-u-dvou-sluncu',
     ],
   }),
 ];

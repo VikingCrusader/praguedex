@@ -38364,6 +38364,375 @@ Je to dočasné využití: pozemek patří developerovi a čeká na stavbu. Do t
 🎁 彩蛋：这块地自己的历史和菜单正好对得上。集装箱来之前，这里是一个越南市场，而布拉格的越南社群为这座城市的饮食所做的贡献，几乎没人比得上。这里的一些米粉，算是回了娘家。`,
     },
   },
+  {
+    // At the Smíchov end of Jirásek Bridge (2026-11-17, user's coordinates and
+    // angle: a park named after the Baroque master with no Baroque building in
+    // it, famous for a tree). Facts from cs.wikipedia "Dienzenhoferovy sady":
+    // Jesuit garden, Dientzenhofer's pavilion of 1735, botanical garden from
+    // 1775 (Mikan), extended 1835, German university's after 1882, parcelled
+    // from 1899, named 1920, present form 1929 by Vlastislav Hofman with Beneš's
+    // statue Spring, pavilion demolished for the bridge; memorial oak since 2005.
+    name: 'Dientzenhofer Gardens',
+    slug: 'dienzenhoferovy-sady',
+    localizedNames: { cz: 'Dienzenhoferovy sady', zh: '迪恩岑霍费尔花园' },
+    labels: ['park', 'nature'],
+    district: 'Praha 5',
+    quarter: 'Smíchov',
+    coordinates: { lat: 50.075352458384096, lng: 14.408528384352616 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `A park named after Prague's greatest Baroque architect ought to be full of domes and swirling façades. Dientzenhofer Gardens, at the Smíchov end of Jirásek Bridge, has not a single Baroque building in it. Its most famous resident is a tree: a big old oak that has outlived the very building the park is named after.
+
+The ground once belonged to the Jesuits of the Lesser Town, and in 1735 Kilian Ignaz Dientzenhofer built them a Baroque pavilion in their garden here. When the order was abolished in 1773 the garden passed to a study fund, and in 1775 Maria Theresa had it made into a botanical garden. Its first director, Josef Mikan, built greenhouses and a wall against the floods, which came often all the same. In 1835 the neighbouring garden was added and an English-style park laid out in the middle, ending at Dientzenhofer's pavilion. In its day it was counted among the richest botanical gardens in Central Europe.
+
+When the university split into Czech and German halves in 1882, the garden went to the German one. The Czechs got a new garden across the river at Na Slupi in 1898, and from 1899 the old one was parcelled out for apartment houses and an embankment. What was left of the green was named after the pavilion in 1920. Then came Jirásek Bridge: the park got its present form in 1929 to a design by Vlastislav Hofman, with Ladislav Beneš's statue Spring, and the pavilion, which stood in the bridge's way, was pulled down. Moving it about 150 metres upstream was considered and dropped. The oak stayed. About 20 metres tall, with a trunk more than 3.75 metres round, it was declared a memorial tree in 2005.
+
+🎁 Bonus: The botanical garden left one more trace. The street along the park is still called V Botanice, "In the Botanical Garden", more than a century after the last greenhouse went, and the botanical garden at Na Slupi, just across the river, is its Czech heir.`,
+      cz: `Park pojmenovaný po největším pražském barokním architektovi by měl být plný kupolí a vlnících se průčelí. V Dienzenhoferových sadech na smíchovském konci Jiráskova mostu nestojí ani jedna barokní stavba. Jejich nejslavnějším obyvatelem je strom: velký starý dub, který přežil i samotnou stavbu, po níž se park jmenuje.
+
+Pozemek kdysi patřil malostranským jezuitům a roku 1735 jim tu Kilián Ignác Dientzenhofer postavil v zahradě barokní pavilon. Když byl řád roku 1773 zrušen, přešla zahrada na studijní fond a roku 1775 z ní Marie Terezie nechala zřídit botanickou zahradu. Její první ředitel Josef Mikan postavil skleníky a zeď proti povodním, které sem stejně chodily často. Roku 1835 se k ní přidala sousední zahrada a uprostřed vznikl anglický park zakončený Dientzenhoferovým pavilonem. Ve své době patřila k nejbohatším botanickým zahradám ve střední Evropě.
+
+Když se univerzita roku 1882 rozdělila na českou a německou, připadla zahrada německé. Češi dostali roku 1898 novou zahradu na druhém břehu Na Slupi a od roku 1899 se stará parcelovala pro činžovní domy a nábřeží. Zbytek zeleně dostal roku 1920 jméno po pavilonu. Pak přišel Jiráskův most: park získal dnešní podobu roku 1929 podle návrhu Vlastislava Hofmana, se sochou Jaro od Ladislava Beneše, a pavilon, který mostu stál v cestě, byl zbořen. Uvažovalo se o jeho přesunu asi o 150 metrů proti proudu, ale sešlo z toho. Dub zůstal. Je vysoký asi 20 metrů, jeho kmen má v obvodu přes 3,75 metru a od roku 2005 je památným stromem.
+
+🎁 Bonus: Botanická zahrada tu zanechala ještě jednu stopu. Ulice podél parku se dodnes jmenuje V Botanice, víc než sto let poté, co zmizel poslední skleník, a botanická zahrada Na Slupi hned přes řeku je jejím českým dědicem.`,
+      zh: `一座以布拉格最伟大的巴洛克建筑师命名的公园，按理说该满是穹顶和翻卷的立面。可位于伊拉塞克桥斯米霍夫一端的迪恩岑霍费尔花园里，一座巴洛克建筑也没有。这里最有名的居民是一棵树：一棵高大的老橡树，它甚至比公园名字所指的那座建筑活得还久。
+
+这块地曾属于小城的耶稣会，1735年，基利安·伊格纳茨·迪恩岑霍费尔在他们的花园里建了一座巴洛克亭阁。1773年耶稣会被解散，花园归了学业基金，1775年玛丽亚·特蕾莎下令把它改成植物园。首任园长约瑟夫·米坎盖了温室，还修了一道防洪墙，可洪水照样常来。1835年，旁边的花园也并了进来，中间辟出一座英式园林，尽头就是迪恩岑霍费尔的亭阁。在当时，它算得上中欧藏品最丰富的植物园之一。
+
+1882年大学分成捷克和德意志两部分，花园划给了德意志那一半。捷克人在1898年于河对岸的纳斯卢皮得到一座新植物园，从1899年起，老园子被分块卖掉，盖起了公寓楼和河堤。剩下的那片绿地在1920年以亭阁命名。接着伊拉塞克桥来了：1929年，公园按弗拉斯蒂斯拉夫·霍夫曼的设计改成了今天的样子，还立起了拉迪斯拉夫·贝内什的雕塑《春》，而挡在桥路上的亭阁被拆掉了。当时也考虑过把它往上游挪大约150米，最后不了了之。橡树留了下来。它高约20米，树干周长超过3.75米，2005年被定为纪念树。
+
+🎁 彩蛋：植物园还留下了一个痕迹。公园边上那条街至今叫“植物园街”，离最后一座温室消失已经一百多年了；而河对岸纳斯卢皮的植物园，就是它的捷克继承人。`,
+    },
+  },
+  {
+    // On a scrap of island off Janáčkovo nábřeží (2026-11-17, user's
+    // coordinates). cs.wikipedia "Malostranská vodárenská věž": on the site of
+    // Jan Petržilka's mill (hence Petržilkovská), a stone tower replacing a
+    // wooden one in the 16th century (text 1561–62, infobox 1582–96, so no year
+    // given), 34 m, seven floors, Renaissance; Božek's pumps 1826; supplied the
+    // Lesser Town until 1886; restored 1987–88 with a footbridge to the office
+    // building next door; smallest historic water tower in Prague, the only one
+    // on the left bank.
+    name: 'Lesser Town Water Tower',
+    slug: 'malostranska-vodarenska-vez',
+    localizedNames: { cz: 'Malostranská vodárenská věž', zh: '小城水塔' },
+    labels: ['tower', 'renaissance', 'waterbody'],
+    district: 'Praha 5',
+    quarter: 'Smíchov',
+    coordinates: { lat: 50.07616873650401, lng: 14.409300647679197 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `On a scrap of island off the Smíchov embankment, tied by a footbridge to a modern office block, stands a slim stone tower that looks as if it had wandered over from the Old Town and got stuck. It is the Lesser Town Water Tower, the smallest of Prague's historic water towers and the only one on the left bank.
+
+For centuries the Lesser Town drank from the river. A mill stood here, owned by the miller Jan Petržilka, which is why the tower is also called Petržilka's, and beside it a wooden tower lifted Vltava water high enough for it to run down through pipes to the fountains and houses of the Lesser Town. In the 16th century the wooden tower was replaced by this stone one, Renaissance in style, 34 metres tall with seven floors. In 1826 its waterworks got new pumps from the Czech engineer Josef Božek, like the Old Town Water Tower across the river, and it kept the Lesser Town supplied until 1886.
+
+After that the tower stood idle. It was restored in 1987–88, when it was joined by the footbridge to the building next door, and it is a protected cultural monument.
+
+🎁 Bonus: The pumps were in good hands. Josef Božek also built a steam carriage, which he drove through Prague in 1815, and a steamboat that sailed the Vltava two years later. Between inventing the future, he kept the Lesser Town's taps running.`,
+      cz: `Na kousku ostrova u smíchovského nábřeží, přivázaná lávkou k moderní kancelářské budově, stojí štíhlá kamenná věž, která vypadá, jako by sem zabloudila ze Starého Města a zůstala tu. Je to Malostranská vodárenská věž, nejmenší z historických pražských vodárenských věží a jediná na levém břehu.
+
+Malá Strana pila po staletí z řeky. Stál tu mlýn mlynáře Jana Petržilky, proto se věži říká také Petržilkovská, a vedle něj dřevěná věž vytahovala vltavskou vodu tak vysoko, aby mohla potrubím stékat ke kašnám a domům Malé Strany. V 16. století dřevěnou věž nahradila tahle kamenná, renesanční, vysoká 34 metrů a se sedmi podlažími. Roku 1826 dostala vodárna nová čerpadla od českého inženýra Josefa Božka, stejně jako Staroměstská vodárenská věž na druhém břehu, a zásobovala Malou Stranu až do roku 1886.
+
+Pak věž stála bez užitku. Opravena byla v letech 1987–88, kdy ji lávka spojila se sousední budovou, a je kulturní památkou.
+
+🎁 Bonus: Čerpadla byla v dobrých rukou. Josef Božek postavil také parní vůz, kterým roku 1815 projel Prahou, a o dva roky později parník, který plul po Vltavě. Mezi vynalézáním budoucnosti udržoval Malé Straně vodu v kohoutcích.`,
+      zh: `斯米霍夫河堤边一小块岛上，一座细长的石塔用一座人行天桥拴在一栋现代写字楼旁边，看上去像是从老城迷路走到这里，再也没回去。这就是小城水塔，布拉格历史水塔里最小的一座，也是左岸唯一的一座。
+
+几百年来，小城喝的都是河水。这里原有一座磨坊，主人是磨坊主扬·佩特日尔卡，所以这座塔也叫“佩特日尔卡塔”。磨坊旁边有一座木塔，把伏尔塔瓦河水提到足够高的地方，再让它顺着管道流到小城的喷泉和人家。16世纪，木塔换成了眼前这座文艺复兴风格的石塔，高34米，共七层。1826年，水厂装上了捷克工程师约瑟夫·博热克造的新水泵，和河对岸的老城水塔一样，它一直为小城供水到1886年。
+
+此后水塔就闲置了。1987至1988年修缮时，天桥把它和隔壁的楼连在了一起，如今它是受保护的文化古迹。
+
+🎁 彩蛋：水泵交到了靠谱的人手里。约瑟夫·博热克还造过一辆蒸汽车，1815年开着它在布拉格转了一圈，两年后又造了一艘在伏尔塔瓦河上航行的蒸汽船。发明未来之余，他还顺手保住了小城的自来水。`,
+    },
+  },
+  {
+    // On Dražického náměstí at the foot of Mostecká (2026-11-18, user's
+    // coordinates, for the Mostecká pack). Renaissance house built for the
+    // ostrich-feather dealer Jan Fux (1597), ostriches painted on the front in
+    // 1606; in 1714 Deodatus (sources call him Armenian or Syrian) opened
+    // Prague's first coffee house here; a hotel and restaurant since the 1970s.
+    // The square stands on the bishops' court (cs.wikipedia "Biskupský dvůr
+    // (Praha)"): Wycliffe's books burned there in 1410, Hus's declaration on its
+    // gate in 1414, razed by the Hussites in 1420; its one surviving tower is
+    // hidden behind Mostecká 16, so it gets no card of its own (user's call).
+    name: 'House at the Three Ostriches',
+    slug: 'dum-u-tri-pstrosu',
+    localizedNames: { cz: 'Dům U Tří pštrosů', zh: '三只鸵鸟之家' },
+    labels: ['renaissance', 'restaurants-and-cafes'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.08738071216921, lng: 14.40720382537267 },
+    rarity: 'superior',
+    xpReward: 30,
+    description: {
+      en: `Walk across Charles Bridge to the Lesser Town, look right just before the bridge towers, and three ostriches look back at you from a house front. They have been standing there, painted and slightly surprised, since 1606, and the house they advertise is also where Prague drank its first cup of coffee.
+
+The ground under it has a heavier past. For more than two centuries the bishops, later archbishops, of Prague had their fortified court here at the bridgehead, rebuilt in Gothic style in the 14th century by Bishop Jan IV of Dražice, who gave the little square its name. In 1410 the books of John Wycliffe were burned in its courtyard, and in 1414 Jan Hus nailed to its gate a declaration of his faith and his readiness to defend it at the Council of Constance. In 1420 the Hussites razed the court to the ground, and it was never rebuilt.
+
+On part of its site a Renaissance house went up in 1597 for Jan Fux, a merchant in ostrich feathers, then the height of fashion on hats and helmets. In 1606 he had his trade painted across the façade, and the birds named the house long before houses had numbers. In 1714 it was bought by a merchant from the Ottoman lands known as Deodatus. The sources can't agree whether he was Armenian or Syrian, but they agree on the rest: he had been selling coffee in the street in oriental dress, heating it over coals, and in this house he opened Prague's first coffee house. Within a few decades the city had dozens. Since a renovation in the 1970s the house has been a hotel.
+
+🎁 Bonus: One piece of the bishops' court survives: a Gothic tower hidden in the back of the house at Mostecká 16, invisible from the street. The ostriches, meanwhile, have had the best view of the bridge for four hundred years.`,
+      cz: `Přejdi Karlův most na Malou Stranu, těsně před mosteckými věžemi se podívej doprava a z průčelí domu se na tebe podívají tři pštrosi. Stojí tam, namalovaní a trochu překvapení, od roku 1606, a dům, který propagují, je zároveň místem, kde Praha vypila svůj první šálek kávy.
+
+Půda pod ním má těžší minulost. Přes dvě stě let tu u předmostí stál opevněný dvůr pražských biskupů, později arcibiskupů, ve 14. století goticky přestavěný biskupem Janem IV. z Dražic, po němž má jméno malé náměstí. Roku 1410 se na jeho dvoře pálily knihy Johna Wycliffa a roku 1414 přibil Jan Hus na jeho vrata prohlášení o své víře a o tom, že je ochoten ji hájit na koncilu v Kostnici. Roku 1420 husité dvůr srovnali se zemí a už nikdy nebyl obnoven.
+
+Na části jeho místa vyrostl roku 1597 renesanční dům pro Jana Fuxe, obchodníka s pštrosími péry, která tehdy byla vrcholem módy na kloboucích i přilbách. Roku 1606 si dal své řemeslo namalovat přes celé průčelí a ptáci dali domu jméno dávno předtím, než domy dostaly čísla. Roku 1714 ho koupil obchodník z Osmanské říše zvaný Deodatus. Prameny se nemohou shodnout, jestli byl Armén, nebo Syřan, ale ve zbytku se shodují: předtím prodával kávu na ulici v orientálním oděvu a ohříval ji nad uhlíky, a v tomhle domě otevřel první pražskou kavárnu. Za pár desetiletí jich ve městě byly desítky. Od rekonstrukce v 70. letech je v domě hotel.
+
+🎁 Bonus: Kus biskupského dvora přece jen přežil: gotická věž ukrytá v zadní části domu Mostecká 16, z ulice neviditelná. Pštrosi mezitím mají už čtyři sta let nejlepší výhled na most.`,
+      zh: `走过查理大桥到小城那头，在桥塔跟前往右边一看，一栋房子的门面上有三只鸵鸟正看着你。它们从1606年起就站在那儿，被画在墙上，表情略带惊讶。它们代言的这栋房子，也是布拉格喝下第一杯咖啡的地方。
+
+它脚下这块地，过去可沉重得多。两百多年里，布拉格的主教（后来是大主教）把设防的府邸设在这个桥头。14世纪，德拉日采的扬四世主教把它改建成哥特式，这个小广场就以他命名。1410年，威克里夫的书在府邸的院子里被烧掉；1414年，扬·胡斯把一份声明钉在府门上，宣告自己的信仰，并表示愿意去康斯坦茨大公会议上为它辩护。1420年，胡斯派把主教府夷为平地，再也没有重建。
+
+1597年，在它的一部分旧址上盖起了一栋文艺复兴风格的房子，房主扬·富克斯做鸵鸟羽毛生意，当时帽子和头盔上最时髦的就是鸵鸟毛。1606年，他让人把自家的生意画满了整面门面，早在房子有门牌号之前，这几只鸟就给它起好了名字。1714年，一个来自奥斯曼帝国、人称德奥达图斯的商人买下了这栋房子。各种资料说不清他到底是亚美尼亚人还是叙利亚人，其余的倒是说法一致：他原本穿着东方服装在街头卖咖啡，在炭火上加热，后来就在这栋房子里开了布拉格第一家咖啡馆。几十年后，城里的咖啡馆已经有好几十家。70年代翻修之后，这里成了一家酒店。
+
+🎁 彩蛋：主教府其实还剩下一块：一座哥特式塔楼，藏在大桥街16号房子的后院里，从街上根本看不见。倒是那三只鸵鸟，四百年来一直占着看大桥的最好位置。`,
+    },
+  },
+  {
+    // A quiet lane a few steps south of Mostecká (2026-11-18, user's
+    // coordinates, for the Mostecká pack). Named after Saxon House (Praha 1
+    // Uličník): no name until 1870, the part towards the river called Lužická
+    // in 1870-1891 after the Lusatian Seminary across the bridge, Saská since
+    // 1891. Cobbles, lamps and an arch over the lane (fotopraha.com).
+    name: 'Saská ulička',
+    slug: 'saska-ulicka',
+    localizedNames: { cz: 'Saská ulička', zh: '萨克森小巷' },
+    labels: ['street', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.08696597167571, lng: 14.407053029892134 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Thousands of people a day come off Charles Bridge and march straight up Mostecká. Turn left instead, under the bridge towers, and within a few steps the noise is gone: cobbles, old lamps, an arch thrown across the lane, and a street so quiet it feels like the back door of the Lesser Town, which is more or less what it is.
+
+The lane takes its name from Saxon House, the old building on the corner by the bridge towers, which Charles IV gave in the 14th century to Rudolf I, Duke of Saxony. For a long time the lane itself had no name at all. From 1870 the part towards the river was called Lužická, after the Lusatian Seminary on the other side of the bridge, and only in 1891 did the whole lane become Saská. It curves round behind the houses of Mostecká towards Lázeňská, the street of the old bathhouses, and the knights' quarter around Malta Square.
+
+🎁 Bonus: Prague 1's own street register calls it a quiet oasis in the shadow of Charles Bridge. That is still true, mostly because the crowds don't know it is there. Now you do; please keep it to yourself.`,
+      cz: `Z Karlova mostu sejdou denně tisíce lidí a všichni pochodují rovnou nahoru Mosteckou. Odboč místo toho doleva, pod mosteckými věžemi, a po pár krocích je hluk pryč: kočičí hlavy, staré lampy, oblouk přehozený přes uličku a ulice tak tichá, že působí jako zadní vchod Malé Strany, kterým víceméně je.
+
+Ulička má jméno po Saském domě, starém domě na rohu u mosteckých věží, který Karel IV. ve 14. století daroval saskému vévodovi Rudolfu I. Dlouho přitom neměla jméno vůbec žádné. Od roku 1870 se část směrem k řece jmenovala Lužická, podle Lužického semináře na druhé straně mostu, a teprve roku 1891 se celá ulička stala Saskou. Stáčí se za domy Mostecké k Lázeňské, ulici starých lázní, a k rytířské čtvrti kolem Maltézského náměstí.
+
+🎁 Bonus: Uličník Prahy 1 ji popisuje jako poklidnou oázu ve stínu Karlova mostu. Pořád to platí, hlavně proto, že davy o ní nevědí. Ty už ano, tak to prosím nikomu neříkej.`,
+      zh: `每天有成千上万的人走下查理大桥，然后一股脑儿直奔大桥街往上走。你不如在桥塔底下往左一拐，走几步，喧闹就没了：石子路、老路灯、横跨小巷的一道拱门，安静得像小城的后门，其实也差不多就是。
+
+这条小巷得名于萨克森之家，就是桥塔边街角那栋老房子，14世纪查理四世把它赐给了萨克森公爵鲁道夫一世。很长时间里，小巷本身连名字都没有。从1870年起，靠河的那一段叫“卢萨蒂亚街”，得名于大桥另一侧的卢萨蒂亚神学院，直到1891年整条小巷才统一叫“萨克森街”。它在大桥街的房子背后绕个弯，通向老浴场所在的浴场街，再往前就是马耳他广场一带的骑士街区。
+
+🎁 彩蛋：布拉格一区自己编的街道志说，这里是“查理大桥阴影下一片宁静的绿洲”。现在依然如此，主要是因为人群根本不知道它在这儿。现在你知道了，拜托别告诉别人。`,
+    },
+  },
+  {
+    // Vlašská 333/30, opposite the German Embassy (2026-11-18, user's
+    // coordinates and call: a common card, for the Vlašská pack). Also called
+    // U Velké boty. Renaissance front; the houses Vlašská 331-334 arose in the
+    // last third of the 16th century on plots carved out of a garden (Staletá
+    // Praha 1971), later Baroque and Classicist changes; Karel Jaromír Erben
+    // lived here 1857-1867 (cs.wikipedia "Vlašská (Praha)"); listed, among other
+    // things for a 19th-century tiled stove and an old kitchen range
+    // (Noc literatury 2022); a small family hotel today.
+    name: 'House at the Great Shoe',
+    slug: 'dum-u-velkeho-strevice',
+    localizedNames: { cz: 'Dům U Velkého střevíce', zh: '大鞋之家' },
+    labels: ['renaissance', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.08759762158517, lng: 14.398125818761134 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Opposite the German Embassy on Vlašská stands a modest Renaissance house with a name that sounds like a fairy tale: At the Great Shoe. Fittingly, one of the men who lived here was the poet who collected Czech fairy tales.
+
+The house goes back to the 16th century, when a garden on this slope was divided into plots and a row of burgher houses went up along the street; it was altered in the Baroque and Classicist periods but kept its Renaissance front. Like every Prague house before numbers, it was known by its sign, and a shoe was as good a landmark as a golden snake or three ostriches. From 1857 to 1867 it was home to Karel Jaromír Erben, the city's archivist and the author of Kytice, the book of dark ballads every Czech child reads at school, who also gathered the folk tales of Goldilocks and the three golden hairs of Grandfather Know-All. Today the house is a small family hotel, and its listing as a monument rests partly on things you would hardly expect: a 19th-century tiled stove and an old wood-burning kitchen range.
+
+🎁 Bonus: In the autumn of 1989 this was the best seat on the street. The East Germans who crowded Vlašská in front of the embassy, waiting for their chance to get in, were standing right outside the shoe.`,
+      cz: `Naproti německému velvyslanectví ve Vlašské stojí skromný renesanční dům se jménem jako z pohádky: U Velkého střevíce. A sedí to, protože tu bydlel básník, který české pohádky sbíral.
+
+Dům sahá do 16. století, kdy se zahrada na tomto svahu rozdělila na parcely a podél ulice vyrostla řada měšťanských domů; v baroku a klasicismu byl upraven, ale renesanční průčelí si nechal. Jako každý pražský dům před zavedením čísel se jmenoval podle svého znamení, a střevíc byl stejně dobrý orientační bod jako zlatý had nebo tři pštrosi. V letech 1857 až 1867 tu bydlel Karel Jaromír Erben, městský archivář a autor Kytice, kterou čte ve škole každé české dítě, a také sběratel pohádek o Zlatovlásce nebo o třech zlatých vlasech děda Vševěda. Dnes je v domě malý rodinný hotel a jeho památková ochrana stojí mimo jiné na věcech, které byste nečekali: na kachlových kamnech z 19. století a starém sporáku na dřevo.
+
+🎁 Bonus: Na podzim 1989 to bylo nejlepší místo v ulici. Východní Němci, kteří se tlačili ve Vlašské před velvyslanectvím a čekali, až se dostanou dovnitř, stáli přímo před střevícem.`,
+      zh: `意大利街上，德国大使馆的正对面，有一栋朴素的文艺复兴小楼，名字听着像童话：“大鞋之家”。说来也巧，在这里住过的人里，正好有一位收集捷克童话的诗人。
+
+这栋房子可以追溯到16世纪，当时这片山坡上的一座花园被分成小块，沿街盖起了一排市民住宅；后来经过巴洛克和古典主义时期的改动，但临街的文艺复兴门面一直保留着。和门牌号出现之前的每栋布拉格房子一样，它靠招牌得名，一只鞋和一条金蛇、三只鸵鸟一样，都是好认的路标。1857年到1867年，卡雷尔·雅罗米尔·埃尔本住在这里。他是布拉格的市档案馆馆长，写下了捷克每个孩子在学校都要读的暗黑叙事诗集《花束》，还收集了《金发姑娘》《无所不知老爷爷的三根金头发》这些民间童话。如今这里是一家小小的家庭旅馆，它被列为文物，部分原因说出来都没人信：一座19世纪的瓷砖炉，外加一台烧柴的老灶台。
+
+🎁 彩蛋：1989年秋天，这里是整条街最好的位置。那些挤在意大利街上、守在大使馆门前等着进去的东德人，就站在这只大鞋的门口。`,
+    },
+  },
+  {
+    // Nerudova 214/20, the Italian Embassy (2026-11-18, user's coordinates, for
+    // the Nerudova pack). cs.wikipedia "Kolovratský palác (Praha, Nerudova)":
+    // Renaissance houses of Jáchym of Hradec (1558) and Vilém Slavata (1602);
+    // built 1716-1721 for Norbert Leopold Libštejnský of Kolowrat to Santini's
+    // design, portal sculpture with Braun (the eagles from his workshop); the
+    // Thuns' from 1769 to 1924; Zítek's interiors 1869-1871; Italian state 1924.
+    name: 'Thun-Hohenstein Palace (Italian Embassy)',
+    slug: 'thun-hohenstejnsky-palac',
+    localizedNames: { cz: 'Thun-Hohenštejnský palác (Velvyslanectví Itálie)', zh: '图恩-霍恩施泰因宫（意大利大使馆）' },
+    labels: ['embassy', 'palace', 'baroque'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.08865253344169, lng: 14.400390397047973 },
+    rarity: 'superior',
+    xpReward: 30,
+    description: {
+      en: `A short way up Nerudova, two enormous stone eagles spread their wings over a doorway, as if the palace behind them might take off at any moment and fly up to the Castle. It is the Italian Embassy, and it has one of the most dramatic front doors in Prague.
+
+The site was owned by some of the biggest names in Bohemia long before the palace existed: Jáchym of Hradec bought a Renaissance house here in 1558, and in 1602 it passed to Vilém Slavata. In 1701 it came to Norbert Leopold Libštejnský of Kolowrat, who had the present palace built from 1716 to 1721 to a design by Jan Blažej Santini-Aichel, the architect of Morzin Palace a few steps down the street. The sculptor Matthias Bernard Braun worked on the portal, and the eagles came from his workshop. The palace passed to the Thun family in 1769, which is why it carries their name, and in 1869 to 1871 its interiors were redone to designs by Josef Zítek, the architect of the National Theatre. In 1924 the Thuns sold it to the Italian state, and the embassy has been here ever since.
+
+🎁 Bonus: Vilém Slavata, one of its early owners, is the man the Bohemian nobles threw out of a window of Prague Castle in 1618, just up the hill from here. He survived the fall, and went on to write a very long account of it.`,
+      cz: `Kousek nad začátkem Nerudovy ulice roztahují nad vchodem křídla dva obrovští kamenní orli, jako by palác za nimi měl každou chvíli vzlétnout a odletět nahoru na Hrad. Je to italské velvyslanectví a má jedny z nejdramatičtějších vstupních dveří v Praze.
+
+Pozemek patřil zvučným jménům dávno předtím, než tu palác stál: Jáchym z Hradce tu roku 1558 koupil renesanční dům a roku 1602 přešel na Viléma Slavatu. Roku 1701 ho získal Norbert Leopold Libštejnský z Kolovrat, který dal v letech 1716 až 1721 postavit dnešní palác podle návrhu Jana Blažeje Santiniho-Aichela, autora Morzinského paláce o pár kroků níž. Na portálu pracoval sochař Matyáš Bernard Braun a orli pocházejí z jeho dílny. Roku 1769 přešel palác na Thuny, proto nese jejich jméno, a v letech 1869 až 1871 dostal nové interiéry podle návrhu Josefa Zítka, architekta Národního divadla. Roku 1924 ho Thunové prodali italskému státu a velvyslanectví tu sídlí dodnes.
+
+🎁 Bonus: Vilém Slavata, jeden z jeho prvních majitelů, je ten, koho čeští stavové roku 1618 vyhodili z okna Pražského hradu, kousek do kopce odtud. Pád přežil a pak o něm napsal velmi dlouhé vyprávění.`,
+      zh: `聂鲁达街才走了没多远，一扇大门上方，两只巨大的石鹰张开翅膀，好像身后这座宫殿随时会腾空而起，一路飞上城堡。这里是意大利大使馆，它的大门是布拉格最有戏剧感的大门之一。
+
+早在宫殿出现之前，这块地的主人就一个比一个响亮：1558年，赫拉德茨的约阿希姆在这里买下一栋文艺复兴房子；1602年，它又归了维廉·斯拉瓦塔。1701年，房产落到科洛弗拉特家族的诺贝特·利布施泰因斯基手里，他在1716年到1721年间请扬·布拉热伊·桑蒂尼-艾谢尔盖了今天这座宫殿，这位建筑师也设计了往下几步的莫尔辛宫。雕塑家马蒂亚斯·贝尔纳德·布劳恩参与了大门的雕饰，两只鹰出自他的作坊。1769年宫殿传到图恩家族手里，所以用了他们的名字；1869年到1871年，又按国家剧院的建筑师约瑟夫·兹特克的设计重修了室内。1924年，图恩家族把它卖给了意大利政府，大使馆从此一直设在这里。
+
+🎁 彩蛋：早年的房主之一维廉·斯拉瓦塔，就是1618年被波希米亚贵族从布拉格城堡窗户扔出去的那位，事发地点就在这条街往上的山顶。他摔下去活了下来，后来还写了一篇非常长的经过。`,
+    },
+  },
+  {
+    // Nerudova 233/47 (2026-11-18, user's coordinates, for the Nerudova pack).
+    // cs.wikipedia "Dům U Dvou slunců": Renaissance around 1600, Baroque
+    // rebuild 1673-1690 with two volute gables and the sign (two suns with
+    // faces, IHS, an angel's head); baker Jan Toma already used the sign around
+    // 1650; Jan Neruda lived here with his parents 1845-1857; plaque of 29 Sept
+    // 1895 (Oliva, Smolík), the day Ostruhová became Nerudova; a pub today.
+    // Pablo Neruda's pen name: told by pragitecture and others, kept as "said".
+    name: 'House at the Two Suns',
+    slug: 'dum-u-dvou-sluncu',
+    localizedNames: { cz: 'Dům U Dvou slunců', zh: '两个太阳之家' },
+    labels: ['cultural', 'baroque'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.08850081865186, lng: 14.397264411472564 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Near the top of the steep street, two suns with human faces smile down from a house front. They have been doing it since the 17th century, and for twelve years they smiled at a boy who would grow up to give the whole street its name.
+
+The house goes back to around 1600 and was rebuilt in Baroque style between 1673 and 1690, when it got its two curling gables and the sign: two sun discs with faces, the monogram IHS and an angel's head on top. The name is older still; around 1650 the baker Jan Toma was already calling the house At the Two Suns. From 1845 to 1857 the family of Jan Neruda lived here in a single ground-floor room, with a little tobacco shop opening onto the street. Neruda became one of the great Czech writers, and his Tales of the Little Quarter are set among these very houses. On 29 September 1895 a bronze plaque was unveiled on the house, and on the same day the street, until then called Ostruhová, Spur Street, was renamed Nerudova. The ground floor is a pub today.
+
+🎁 Bonus: The Chilean poet Neftalí Reyes is said to have taken his pen name, Pablo Neruda, in homage to the Czech writer. If so, a one-room flat under two painted suns ended up with a Nobel Prize in Literature, just not the one it raised.`,
+      cz: `Skoro na vrcholu strmé ulice se z průčelí domu usmívají dvě slunce s lidskými tvářemi. Dělají to od 17. století a dvanáct let se usmívala na kluka, po kterém se jednou bude jmenovat celá ulice.
+
+Dům sahá až kolem roku 1600 a v letech 1673 až 1690 byl barokně přestavěn; tehdy dostal dva volutové štíty i znamení: dva sluneční kotouče s tvářemi, monogram IHS a nahoře andělskou hlavičku. Jméno je ještě starší, už kolem roku 1650 dům jako U Dvou slunců užíval pekař Jan Toma. V letech 1845 až 1857 tu v jediné přízemní místnosti bydlela rodina Jana Nerudy, s krámkem s tabákem s dveřmi do ulice. Z Nerudy se stal jeden z největších českých spisovatelů a jeho Povídky malostranské se odehrávají právě mezi těmihle domy. 29. září 1895 byla na domě odhalena bronzová pamětní deska a téhož dne byla ulice, do té doby Ostruhová, přejmenována na Nerudovu. V přízemí je dnes hospoda.
+
+🎁 Bonus: Chilský básník Neftalí Reyes si prý své pseudonym Pablo Neruda vzal na počest českého spisovatele. Pokud je to pravda, dočkal se jeden pokoj pod dvěma namalovanými slunci Nobelovy ceny za literaturu, jen ne pro toho, koho vychoval.`,
+      zh: `快走到这条陡街的顶头时，一栋房子的门面上有两个长着人脸的太阳在朝下微笑。它们从17世纪起就这样笑着，其中有十二年，它们笑着看一个男孩长大，后来这整条街都以他命名。
+
+这栋房子可以追溯到1600年前后，1673年到1690年间改建成巴洛克风格，那时有了两座带涡卷的山墙，也有了这块招牌：两个带人脸的太阳、IHS 圣名缩写，顶上一个小天使头。名字比招牌还早，大约1650年，面包师扬·托马就已经管这栋房子叫“两个太阳之家”了。1845年到1857年，扬·聂鲁达一家住在这里一楼的一个单间里，还开了一家朝街的小烟草铺。聂鲁达后来成了捷克最伟大的作家之一，他的《小城故事》写的正是这一带的房子。1895年9月29日，房子上揭幕了一块青铜纪念牌，同一天，这条原本叫“马刺街”的街道改名为聂鲁达街。如今一楼是一家酒馆。
+
+🎁 彩蛋：据说智利诗人内夫塔利·雷耶斯给自己取笔名“巴勃罗·聂鲁达”，就是为了致敬这位捷克作家。真是这样的话，两个画出来的太阳底下那个单间，最后也算沾上了一座诺贝尔文学奖，只不过得奖的不是它养大的那个孩子。`,
+    },
+  },
+  {
+    // Nerudova 240/33, also U Léta a zimy (2026-11-18, user's coordinates, for
+    // the Nerudova pack). cs.wikipedia "Bretfeldovský palác": bought 13 June
+    // 1765 by Josef Bretfeld, rector of Charles University, rebuilt the same
+    // year probably by Jan Josef Wirch; St Nicholas relief and staircase group
+    // by Platzer; ennobled 1770, knight 1793, baron 1807; a bon vivant who gave
+    // balls; Mozart and Casanova among the guests (no date given: kept as
+    // tradition); privately owned.
+    name: 'Bretfeld Palace',
+    slug: 'bretfelduv-palac',
+    localizedNames: { cz: 'Bretfeldovský palác', zh: '布雷特费尔德宫' },
+    labels: ['palace', 'baroque'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.088421992948746, lng: 14.398137607505442 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Every street needs one house where the parties were better than anywhere else. On Nerudova it was this one, a Rococo palace with a gilded St Nicholas over the door, and if tradition is right, two of the most famous guests of the 18th century came here to dance.
+
+The palace grew out of an older Renaissance and early Baroque house. On 13 June 1765 it was bought by Josef Bretfeld, a law professor and rector of Charles University, who had it rebuilt the same year, probably by Jan Josef Wirch. The gilded relief of St Nicholas with two angels on the façade and the sculpture on the staircase are by Ignác František Platzer, the leading Prague sculptor of the day. Bretfeld rose steadily: Maria Theresa made him a nobleman in 1770, and by 1807 he was a baron. He was also a famous bon vivant who held balls here. Tradition counts Wolfgang Amadeus Mozart and Giacomo Casanova among his guests, and since both men were in Prague in the autumn of 1787 for the premiere of Don Giovanni, the story at least has the dates on its side. The house is also known as At Summer and Winter, after Baroque allegorical statues, and it is privately owned today.
+
+🎁 Bonus: Casanova, who had once seduced half of Venice, spent his last years as a librarian in a Bohemian château. A ball at a university rector's house fits rather nicely between the two careers.`,
+      cz: `Každá ulice potřebuje jeden dům, kde byly večírky lepší než kdekoli jinde. V Nerudově to byl tenhle, rokokový palác se zlaceným svatým Mikulášem nad vchodem, a jestli má tradice pravdu, chodili sem tančit dva z nejslavnějších hostů 18. století.
+
+Palác vyrostl ze staršího renesančního a raně barokního domu. 13. června 1765 ho koupil Josef Bretfeld, profesor práv a rektor Univerzity Karlovy, a ještě téhož roku ho dal přestavět, pravděpodobně Janem Josefem Wirchem. Zlacený reliéf svatého Mikuláše se dvěma anděly na průčelí i sochy na schodišti jsou od Ignáce Františka Platzera, předního pražského sochaře té doby. Bretfeld stoupal: Marie Terezie ho roku 1770 povýšila do šlechtického stavu a roku 1807 už byl baronem. Byl také proslulý bonviván, který tu pořádal plesy. Tradice mezi jeho hosty řadí Wolfganga Amadea Mozarta i Giacoma Casanovu, a protože oba byli na podzim 1787 v Praze kvůli premiéře Dona Giovanniho, má ten příběh aspoň data na své straně. Domu se také říká U Léta a zimy podle barokních alegorických soch a dnes je v soukromých rukou.
+
+🎁 Bonus: Casanova, který kdysi svedl půl Benátek, strávil poslední léta jako knihovník na zámku v Čechách. Ples u univerzitního rektora mezi ty dvě kariéry zapadá docela hezky.`,
+      zh: `每条街都需要一栋派对办得比别处都好的房子。在聂鲁达街，就是这一栋：一座洛可可宫殿，门上是镀金的圣尼古拉。如果传说没错，18世纪最出名的两位客人都来这里跳过舞。
+
+这座宫殿是在一栋更老的文艺复兴兼早期巴洛克房子的基础上改建的。1765年6月13日，法学教授、查理大学校长约瑟夫·布雷特费尔德买下了它，当年就请人改建，设计者很可能是扬·约瑟夫·维尔赫。门面上带两个天使的镀金圣尼古拉浮雕，以及楼梯上的雕像，都出自当时布拉格最好的雕塑家伊格纳茨·弗朗齐歇克·普拉策之手。布雷特费尔德一路高升：1770年玛丽亚·特蕾莎封他为贵族，到1807年他已经是男爵了。他还是出了名的享乐家，常在这里办舞会。传说他的客人里有莫扎特，也有卡萨诺瓦。1787年秋天，两人都为了《唐璜》的首演待在布拉格，所以这个故事至少在时间上站得住脚。这栋房子也叫“夏与冬之家”，名字来自巴洛克时期的寓意雕像，如今归私人所有。
+
+🎁 彩蛋：卡萨诺瓦年轻时几乎征服了半个威尼斯，晚年却在波希米亚的一座城堡里当图书管理员。在大学校长家的舞会上跳一曲，正好卡在这两段人生中间。`,
+    },
+  },
+  {
+    // Nerudova 210/12, also Rabštejnský (2026-11-18, user's coordinates, for
+    // the Nerudova pack). No Wikipedia article. Waymarking (citing
+    // kralovskacesta.cz): early-18th-century sign of three crossed violins
+    // recalling three violin-making families; Tomáš Edlinger (1662-1729),
+    // founder of the Prague violin school; rebuilt 1965 with a wine bar.
+    // Novinky 2022 (a guide): Edlinger joined Leonard Pradter's workshop and
+    // took over business and widow; Blesk 2016: the Paganini ghost legend.
+    name: 'House at the Three Fiddles',
+    slug: 'dum-u-tri-houslicek',
+    localizedNames: { cz: 'Dům U Tří housliček', zh: '三把小提琴之家' },
+    labels: ['cultural', 'baroque'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.08866508449093, lng: 14.400958453478898 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Above a doorway near the bottom of Nerudova, three little violins cross each other in a Baroque frame. It is one of the best-known house signs in Prague, and unlike most of them it is not a riddle: violin makers lived and worked here.
+
+The sign dates from the early 18th century and recalls the families of violin makers who owned the house one after another. The most famous of them was Tomáš Edlinger (1662 to 1729), regarded as the founder of the Prague school of violin making. Prague's guides like to tell how he got here: he came to work for the instrument maker Leonard Pradter, and when Pradter died, Edlinger took over not only the workshop but also the widow, and their son became a violin maker too. Instruments from the Prague school are still played and collected today. The house itself is older than the sign, and since a reconstruction in 1965 its ground floor has been a wine bar.
+
+🎁 Bonus: One legend says that on quiet nights wild violin music can be heard here, played by the ghost of Niccolò Paganini. Paganini did play in Prague, in 1828, but he never lived in this house, so if the story is true, he is a very determined ghost.`,
+      cz: `Nad vchodem v dolní části Nerudovy ulice se v barokním rámu kříží troje malé housličky. Je to jedno z nejznámějších domovních znamení v Praze a na rozdíl od většiny z nich to není hádanka: žili a pracovali tu houslaři.
+
+Znamení pochází z počátku 18. století a připomíná houslařské rodiny, které dům postupně vlastnily. Nejslavnějším z nich byl Tomáš Edlinger (1662 až 1729), pokládaný za zakladatele pražské houslařské školy. Pražští průvodci rádi vyprávějí, jak se sem dostal: nastoupil k výrobci nástrojů Leonardu Pradterovi, a když Pradter zemřel, převzal Edlinger nejen dílnu, ale i vdovu, a jejich syn se stal houslařem také. Nástroje pražské školy se dodnes hrají i sbírají. Dům sám je starší než znamení a od rekonstrukce v roce 1965 je v jeho přízemí vinárna.
+
+🎁 Bonus: Podle jedné pověsti tu za tichých nocí znějí zběsilé tóny houslí, na které hraje duch Niccola Paganiniho. Paganini v Praze opravdu hrál, roku 1828, ale v tomhle domě nikdy nebydlel, takže jestli je ta pověst pravdivá, je to velmi odhodlaný duch.`,
+      zh: `聂鲁达街下段的一扇门上方，三把小提琴在一个巴洛克画框里交叉在一起。这是布拉格最有名的房屋招牌之一，而且和大多数招牌不同，它不是谜语：这里真的住过制琴师。
+
+这块招牌是18世纪初的，纪念先后拥有这栋房子的几个制琴世家。其中最有名的是托马什·埃德林格（1662年到1729年），他被视为布拉格制琴学派的开山人。布拉格的导游很爱讲他是怎么来到这里的：他先在乐器匠莱昂纳德·普拉特那里干活，普拉特去世后，埃德林格不光接手了作坊，还娶了遗孀，他们的儿子后来也成了制琴师。布拉格学派的提琴至今仍有人在拉、有人在收藏。房子本身比招牌更老，1965年翻修以后，一楼开成了一家葡萄酒馆。
+
+🎁 彩蛋：有个传说讲，安静的夜里这里会传出狂乱的小提琴声，拉琴的是帕格尼尼的鬼魂。帕格尼尼确实在布拉格演出过，那是1828年，可他从没在这栋房子里住过。要是传说属实，这位鬼魂可真够执着的。`,
+    },
+  },
+  {
+    // Nerudova 220/34 (2026-11-18, user's coordinates, for the Nerudova pack).
+    // cs.wikipedia "Nerudova": probably to Ulrico Aostalli's plan before 1579,
+    // late Baroque front. praguemylove (2011): a gilded horseshoe marked the
+    // house from the 16th century, worked in the early 18th century into a
+    // painting of St Wenceslas on horseback. Novinky 2022 (a guide): the name
+    // is far older than the picture, and the painter had to twist the white
+    // horse's front leg to show the shoe. Hotel and restaurant today.
+    name: 'House at the Golden Horseshoe',
+    slug: 'dum-u-zlate-podkovy',
+    localizedNames: { cz: 'Dům U Zlaté podkovy', zh: '金马蹄铁之家' },
+    labels: ['hidden-gem', 'renaissance'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.08856949609753, lng: 14.398387584941782 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `On a house halfway up Nerudova, St Wenceslas rides a white horse across the façade, and the horse is holding up one front hoof at a slightly odd angle. There is a reason. The house was called At the Golden Horseshoe long before the saint arrived, and the painter had to make sure everyone could still see the shoe.
+
+The house is Renaissance, probably built to a plan by Ulrico Aostalli before 1579, and its front was remodelled in late Baroque style. A gilded horseshoe, which was supposed to bring luck, marked it as early as the 16th century. In the early 18th century the old sign was folded into a new picture of the patron saint of Bohemia on horseback, with the golden shoe on his horse's hoof. Prague's guides like to point out that to show it off, the painter had to give the poor horse a front leg twisted almost out of its socket. Today the house is a hotel with a restaurant.
+
+🎁 Bonus: House signs were Prague's addresses until numbers came in the late 18th century, so a sign was worth keeping even when fashions changed. Here the owners simply let a saint ride in and carry the old address on his horse's foot.`,
+      cz: `Na domě v půli Nerudovy ulice jede po průčelí svatý Václav na bílém koni a kůň drží jedno přední kopyto v trochu podivném úhlu. Má to svůj důvod. Dům se jmenoval U Zlaté podkovy dávno předtím, než sem svatý Václav přijel, a malíř musel zařídit, aby podkova byla pořád vidět.
+
+Dům je renesanční, patrně postavený podle plánu Ulrica Aostalliho před rokem 1579, a jeho průčelí bylo upraveno pozdně barokně. Zlacená podkova, která měla nosit štěstí, ho označovala už v 16. století. Na počátku 18. století bylo staré znamení začleněno do nového obrazu patrona Čech na koni, se zlatou podkovou na koňském kopytě. Pražští průvodci rádi upozorňují, že malíř musel chudákovi běloušovi, aby podkovu ukázal, skoro vykloubit přední nohu. Dnes je v domě hotel s restaurací.
+
+🎁 Bonus: Domovní znamení byla pražskými adresami, dokud koncem 18. století nepřišla čísla, takže stálo za to je zachovat, i když se móda změnila. Tady majitelé prostě nechali přijet světce, aby starou adresu nosil na koňské noze.`,
+      zh: `聂鲁达街半山腰的一栋房子上，圣瓦茨拉夫骑着一匹白马从门面上走过，那匹马的一只前蹄抬得有点别扭。这是有原因的：早在圣人来到这里之前，这栋房子就叫“金马蹄铁之家”了，画家得保证大家还能看见那只马蹄铁。
+
+这是一栋文艺复兴房子，很可能是1579年以前按乌尔里科·奥斯塔利的设计建的，后来门面改成了晚期巴洛克风格。一只据说能带来好运的镀金马蹄铁，早在16世纪就挂在这里当招牌。到了18世纪初，这块老招牌被画进了一幅新画：波希米亚的主保圣人骑在马上，金马蹄铁就钉在马蹄上。布拉格的导游很爱指给游客看：为了把马蹄铁亮出来，画家差点把那匹可怜白马的前腿掰脱臼。如今这栋房子是一家带餐厅的酒店。
+
+🎁 彩蛋：在18世纪后期有门牌号之前，房屋招牌就是布拉格的地址，所以就算时尚变了，招牌也值得留着。这里的房主干脆请来一位圣人，让他的马把老地址钉在脚上。`,
+    },
+  },
 ];
 async function run() {
   await connectDB();

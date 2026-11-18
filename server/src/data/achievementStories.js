@@ -323,6 +323,18 @@ Hlavní pramen, Vřídlo, dodnes tryská vodu o teplotě asi 73 °C do výšky k
 主泉至今仍把约73摄氏度的热水喷到十二米高，人们还是拿着带壶嘴的小瓷杯，沿着柱廊一口一口地喝。`,
   },
 
+  hundred_spires: {
+    en: `Prague's nickname, the city of a hundred spires (in Czech simply stověžatá, "hundred-towered"), goes back to the early 19th century. The mathematician and priest Bernard Bolzano is said to have taken it literally and counted the towers himself, arriving at 103.
+
+Nobody has managed a final count since. Depending on what counts as a tower, estimates run from several hundred to a few thousand.`,
+    cz: `Přízvisko stověžatá má Praha od počátku 19. století. Matematik a kněz Bernard Bolzano ho prý vzal doslova, věže sám spočítal a došel ke 103.
+
+Konečný počet od té doby nikdo nezná. Podle toho, co se za věž považuje, se odhady pohybují od několika set po několik tisíc.`,
+    zh: `布拉格在捷克语里叫“百塔之城”，这个名号从19世纪初就有了。据说数学家、神父波尔查诺当了真，亲自数了一遍，数出103座。
+
+从那以后，再没人数清过。看你把什么算作塔，估计从几百座到几千座都有，所以中文叫它“千塔之城”，说不定更老实。`,
+  },
+
   seven_bridges: {
     en: `Königsberg in Prussia had seven bridges joining two river islands to the banks, and its citizens liked to ask whether you could walk across every one exactly once. In 1736 the mathematician Leonhard Euler proved you couldn't, and in doing so founded graph theory.
 

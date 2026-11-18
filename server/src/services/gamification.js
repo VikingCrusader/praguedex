@@ -506,6 +506,16 @@ const BRIDGE_SLUGS = [
   "stefanikuv-most", "cechuv-most", "manesuv-most", "charles-bridge",
   "most-legii", "jiraskuv-most", "palackeho-most",
 ];
+// City of a Hundred Spires (2026-11-17, the user's fifteen plus four of
+// Claude's: Jindřišská, Dalibor, the St Nicholas bell tower and Žižkov): gates,
+// belfries, water towers, lookouts and high-rises, all of them.
+const TOWER_SLUGS = [
+  "powder-tower", "staromestska-mostecka-vez", "malostranska-mostecka-vez", "jindrisska-vez",
+  "dalibor-tower", "svatomikulasska-zvonice", "velka-jizni-vez-katedraly", "astronomicka-vez-klementina",
+  "staromestska-vodarenska-vez", "malostranska-vodarenska-vez", "sitkova-water-tower", "novomlysnska-water-tower",
+  "vodarenska-vez-letna", "michelska-vodarenska-vez", "maidens-castles-dvn-1783211067574", "petrin-tower",
+  "zizkov-tv-tower", "grand-hotel-prague-towers", "city-tower-prague",
+];
 // Castaway: the four islands in the centre (Štvanice has no card yet). Kampa's
 // own card was retired into its pack (2026-11-10, user's call), so any card on
 // Kampa counts for it.
@@ -860,7 +870,7 @@ function CASTLE_PROGRESS({ checkedSlugs, quarterCount = {}, quarterTotal = {} })
 // Card pack achievements (2026-11-13, user's list). Hitting the Streets: the
 // packs that follow one street. Any 4 of them; a new street pack joins this
 // list (user's call), the target stays at 4.
-export const STREET_PACK_SLUGS = ["na-prikope", "narodni-trida", "evropska-trida", "plzenska-ulice"];
+export const STREET_PACK_SLUGS = ["na-prikope", "narodni-trida", "evropska-trida", "plzenska-ulice", "ujezd", "mostecka", "vlasska", "nerudova"];
 const STREET_PACKS_NEED = 4;
 const packNames = (lang) => STREET_PACK_SLUGS
   .map((s) => PACKS.find((p) => p.slug === s))
@@ -1967,6 +1977,26 @@ export const ACHIEVEMENTS = [
       current: BRIDGE_SLUGS.filter((slug) => checkedSlugs.includes(slug)).length,
       target: BRIDGE_SLUGS.length,
       slugs: BRIDGE_SLUGS,
+    }),
+  },
+  {
+    id: "hundred_spires",
+    icon: "🗼",
+    name: "City of a Hundred Spires",
+    name_cz: "Stověžatá Praha",
+    name_zh: "千塔之城",
+    flavor: "They say Prague has a hundred spires. Start with these nineteen.",
+    flavor_cz: "Praze se říká stověžatá. Začněte těmi devatenácti.",
+    flavor_zh: "都说布拉格有千塔，先从这十九座数起。",
+    description: "Check in at nineteen towers: the Powder Tower, the Old Town and Malá Strana Bridge Towers, Jindřišská Tower, Dalibor Tower, the St. Nicholas Bell Tower, the Great South Tower of St. Vitus Cathedral, the Astronomical Tower of the Klementinum, the Old Town, Lesser Town, Šítkovská, Novomlýnská, Letná and Michle Water Towers, Maiden's Castles (Děvín), the Petřín Observation Tower, the Žižkov TV Tower, the Grand Hotel Prague Towers and City Tower.",
+    description_cz: "Přihlaste se u devatenácti věží: Prašná brána, Staroměstská a Malostranská mostecká věž, Jindřišská věž, Daliborka, Svatomikulášská městská zvonice, Velká jižní věž katedrály, Astronomická věž Klementina, Staroměstská, Malostranská, Šítkovská, Novomlýnská a Michelská vodárenská věž, Vodárenská věž na Letné, Vodárenská věž Děvín, Rozhledna na Petříně, Žižkovský televizní vysílač, Grand Hotel Praha Towers a City Tower Praha.",
+    description_zh: "打卡十九座塔：火药塔、旧城桥塔、小城桥塔、圣亨利钟楼、达利博尔塔、圣尼古拉市政钟楼、圣维特主教座堂大南塔、克莱门蒂努姆天文塔、旧城水塔、小城水塔、希特科夫水塔、新磨坊水塔、莱特纳水塔、米赫莱水塔、德文水塔、彼得任瞭望塔、日什科夫电视塔、布拉格大酒店双塔和布拉格城市塔。",
+    difficulty: "hard",
+    check: ({ checkedSlugs }) => TOWER_SLUGS.every((slug) => checkedSlugs.includes(slug)),
+    progress: ({ checkedSlugs }) => ({
+      current: TOWER_SLUGS.filter((slug) => checkedSlugs.includes(slug)).length,
+      target: TOWER_SLUGS.length,
+      slugs: TOWER_SLUGS,
     }),
   },
   {

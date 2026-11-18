@@ -565,3 +565,9 @@ by_the_book: a thick old history book lying open, large, its pages showing a han
 ```
 jewel_box: a small open wooden jewellery box with a red velvet lining, large and filling most of the square, its lid raised; instead of jewels it holds a fan of small collectible cards standing on edge, each a clearly different colour and material: cream paper, pale blue porcelain, green jade, deep violet amethyst, wine-red garnet, shining gold, brushed silver, honey amber, dark steel-blue platinum and black obsidian with a teal sheen. A string of round white pearls and one sparkling blue diamond spill over the front edge. The joke: a black-and-white magpie perched on the raised lid, tugging one more card out of the box with its beak, about to make off with it.
 ```
+
+### Group 53: 千塔之城, done (2026-11-17)
+
+```
+hundred_spires: a crowded skyline of many different towers squeezed shoulder to shoulder, large and filling the square: dark Gothic gate towers with pointed roofs, a slim stone water tower, a little iron lookout tower like a small Eiffel tower, a tall concrete TV tower with pods, a modern glass high-rise and church spires with gold crosses. The joke: a tiny man on a ladder in the front, holding a long tally stick covered in notches, counting them one by one, with a big pile of discarded tally sticks at the ladder's foot.
+```

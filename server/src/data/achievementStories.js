@@ -454,4 +454,34 @@ Protože stojí na kopci, je její vrchol nad mořem zhruba stejně vysoko jako 
 
 因为它站在山上，塔顶的海拔和埃菲尔铁塔塔顶差不多高。缆索铁路和镜子迷宫也是同一年、为同一场博览会建的。`,
   },
+
+  dolce_vita: {
+    en: `Italians have been coming to Prague for a very long time. Florenc is said to be named after Florence, and tradition links the name to Charles IV's New Town of 1348, when Italians were allowed to settle just outside its walls.
+
+The great wave came in the 16th and 17th centuries: builders, stonemasons and stucco workers from the lakes of northern Italy, who put up the city's Renaissance and Baroque palaces and settled below the Castle. In 1573 they founded their own congregation and in 1602 a hospital on the street that is still called Vlašská, Italian Street, where the Italian Cultural Institute works today. Many of Prague's Baroque masters had Italian names, from Carlo Lurago to Santini, born in Prague into a family of Italian stonemasons. In 1924 Italy bought the Thun-Hohenstein Palace on Nerudova, and its embassy has been there ever since.`,
+    cz: `Italové chodí do Prahy už hodně dlouho. Florenc má prý jméno po Florencii a tradice ho spojuje s Novým Městem Karla IV. z roku 1348, kdy se Italové mohli usazovat hned za jeho hradbami.
+
+Velká vlna přišla v 16. a 17. století: stavitelé, kameníci a štukatéři od severoitalských jezer, kteří stavěli renesanční a barokní paláce a usazovali se pod Hradem. Roku 1573 založili vlastní kongregaci a roku 1602 špitál v ulici, která se dodnes jmenuje Vlašská a kde dnes působí Italský kulturní institut. Mnoho pražských barokních mistrů mělo italská jména, od Carla Lurago po Santiniho, narozeného v Praze do rodiny italských kameníků. Roku 1924 koupila Itálie Thun-Hohenštejnský palác v Nerudově ulici a její velvyslanectví v něm sídlí dodnes.`,
+    zh: `意大利人来布拉格，已经有很长的历史了。据说佛罗伦茨就得名于佛罗伦萨，传统说法把这个名字和1348年查理四世建新城联系在一起：当时意大利人获准在新城城墙外定居。
+
+真正的大潮出现在16和17世纪：来自意大利北部湖区的建筑师、石匠和灰泥匠在这里盖起文艺复兴和巴洛克宫殿，并在城堡脚下安了家。1573年他们成立了自己的修会，1602年又在一条至今仍叫“意大利街”的街上建了医院，如今那里是意大利文化中心。布拉格的巴洛克大师里，不少人都有意大利名字，从卡洛·卢拉戈到桑蒂尼，后者就出生在布拉格一个意大利石匠世家。1924年，意大利买下了聂鲁达街的图恩-霍恩施泰因宫，意大利大使馆从此一直设在那里。`,
+  },
+
+  bohmische_dorfer: {
+    en: `For most of its history Prague spoke two languages. German merchants settled at Poříčí, just outside the Old Town, in the 12th century, and Duke Soběslav II granted them their own rights; in 1348 Charles IV gave the Dukes of Saxony a house at the end of the bridge. For centuries Czech and German were simply the two languages of one city.
+
+In the 19th century they turned into two camps. The Germans of Prague had their club, the German Casino on Na Příkopě, from 1875, and answered the Czech National Theatre with their own New German Theatre, today's State Opera, in 1888; even the university split in two in 1882. Then came the occupation of 1939 to 1945, when the German-speaking Jewish families of blocks like Malý Berlín were driven out and murdered, and after the war the expulsion of some three million German-speaking Czechoslovaks; the German Casino became the Slavonic House.
+
+The thread was picked up again in 1989, when thousands of East Germans camped in the garden of the West German embassy on Vlašská, and in 1997 the two countries signed a declaration of reconciliation. The Goethe-Institut on the embankment is part of that slow work.`,
+    cz: `Po většinu své historie mluvila Praha dvěma jazyky. Němečtí kupci se ve 12. století usadili na Poříčí, hned za Starým Městem, a kníže Soběslav II. jim udělil vlastní práva; roku 1348 daroval Karel IV. saským vévodům dům u konce mostu. Po staletí byly čeština a němčina prostě dva jazyky jednoho města.
+
+V 19. století se z nich staly dva tábory. Pražští Němci měli od roku 1875 svůj klub, Německé kasino na Příkopě, a na české Národní divadlo odpověděli roku 1888 vlastním Novým německým divadlem, dnešní Státní operou; roku 1882 se na dvě rozdělila i univerzita. Pak přišla okupace v letech 1939 až 1945, kdy byly německy mluvící židovské rodiny z domů jako Malý Berlín vyhnány a zavražděny, a po válce odsun asi tří milionů německy mluvících Čechoslováků; z Německého kasina se stal Slovanský dům.
+
+Nit se znovu navázala roku 1989, kdy v zahradě západoněmeckého velvyslanectví ve Vlašské tábořily tisíce východních Němců, a roku 1997 obě země podepsaly deklaraci o vzájemném smíření. Goethe-Institut na nábřeží je součástí té pomalé práce.`,
+    zh: `布拉格历史上的大部分时间里，都说着两种语言。12世纪，德意志商人在老城外的泊日奇定居，索别斯拉夫二世公爵还给了他们专门的权利；1348年，查理四世把桥头的一栋房子赐给萨克森公爵。几百年来，捷克语和德语不过是同一座城市的两种语言。
+
+到了19世纪，两种语言变成了两个阵营。布拉格的德意志人从1875年起有了自己的俱乐部，就是护城河街上的德意志俱乐部；1888年，他们又盖起新德意志剧院，也就是今天的国家歌剧院，回应捷克人的国家剧院；1882年，连大学都一分为二。接着是1939年到1945年的占领：像小柏林这样的公寓楼里，说德语的犹太家庭被赶走、被杀害。战后，大约三百万说德语的捷克斯洛伐克人被驱逐出境，德意志俱乐部也改名为“斯拉夫宫”。
+
+1989年，这根线重新接上了：成千上万的东德人在意大利街的西德大使馆花园里扎营。1997年，两国签署了和解宣言。河堤边的歌德学院，就是这项慢功夫的一部分。`,
+  },
 };

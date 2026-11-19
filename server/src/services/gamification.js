@@ -872,6 +872,21 @@ function CASTLE_PROGRESS({ checkedSlugs, quarterCount = {}, quarterTotal = {} })
 // list (user's call), the target stays at 4.
 export const STREET_PACK_SLUGS = ["na-prikope", "narodni-trida", "evropska-trida", "plzenska-ulice", "ujezd", "mostecka", "vlasska", "nerudova"];
 const STREET_PACKS_NEED = 4;
+// La Dolce Vita (2026-11-18): both packs complete plus the embassy card.
+const LITTLE_ITALY_PACKS = ["florenc", "vlasska"];
+const ITALIAN_EMBASSY = "thun-hohenstejnsky-palac";
+// Böhmische Dörfer (2026-11-18, the user's design): Czechs and Germans in
+// Prague. The user's five places plus Claude's three (the State Opera, once the
+// New German Theatre; the Slavonic House, once the German Casino; the Berlin
+// Wall fragment), and the Poříčí pack, the 12th-century German settlement.
+// Heydrich's sites were left out on purpose: they belong to Operation
+// Anthropoid, and this one is about living side by side (user agreed).
+const GERMAN_SLUGS = [
+  "saxon-house-1782424496089", "slovansky-dum", "state-opera", "maly-berlin",
+  "lobkovick-palace-german-embassy-1782395580834", "quo-vadis-trabant",
+  "fragment-berlinske-zdi-strasnice", "goethe-institut-prag",
+];
+const GERMAN_PACKS = ["porici"];
 const packNames = (lang) => STREET_PACK_SLUGS
   .map((s) => PACKS.find((p) => p.slug === s))
   .map((p) => (lang === "en" ? p.name : p.localizedNames[lang]))
@@ -1909,6 +1924,55 @@ export const ACHIEVEMENTS = [
       current: STREET_PACK_SLUGS.filter((s) => completedPackSlugs.includes(s)).length,
       target: STREET_PACKS_NEED,
       packs: { need: STREET_PACKS_NEED, slugs: STREET_PACK_SLUGS },
+    }),
+  },
+  {
+    // La Dolce Vita (2026-11-18, the user's design and pick of name): complete
+    // the Florenc and Vlašská packs and check in at the Italian Embassy.
+    id: "dolce_vita",
+    icon: "🇮🇹",
+    name: "La Dolce Vita",
+    name_cz: "Dolce vita",
+    name_zh: "意式风情",
+    flavor: "Florence, an Italian street and the embassy. Italy without the flight.",
+    flavor_cz: "Florencie, Vlašská a velvyslanectví. Itálie bez letenky.",
+    flavor_zh: "佛罗伦萨、意大利街、大使馆，不用坐飞机的意大利。",
+    description: "Complete the Florenc and Vlašská packs, and check in at the Thun-Hohenstein Palace, the Italian Embassy.",
+    description_cz: "Dokončete balíčky Florenc a Vlašská a přihlaste se u Thun-Hohenštejnského paláce, italského velvyslanectví.",
+    description_zh: "集齐佛罗伦茨和意大利街两个卡包，并在意大利大使馆图恩-霍恩施泰因宫打卡。",
+    difficulty: "hard",
+    check: ({ checkedSlugs = [], completedPackSlugs = [] }) =>
+      LITTLE_ITALY_PACKS.every((s) => completedPackSlugs.includes(s)) && checkedSlugs.includes(ITALIAN_EMBASSY),
+    progress: ({ checkedSlugs = [], completedPackSlugs = [] }) => ({
+      current: LITTLE_ITALY_PACKS.filter((s) => completedPackSlugs.includes(s)).length + (checkedSlugs.includes(ITALIAN_EMBASSY) ? 1 : 0),
+      target: LITTLE_ITALY_PACKS.length + 1,
+      slugs: [ITALIAN_EMBASSY],
+      packs: { need: LITTLE_ITALY_PACKS.length, slugs: LITTLE_ITALY_PACKS },
+    }),
+  },
+  {
+    // Böhmische Dörfer (2026-11-18): the German name in every language, the
+    // user's call. Germans call anything incomprehensible "Bohemian villages";
+    // Czechs say "Spanish villages".
+    id: "bohmische_dorfer",
+    icon: "🏘️",
+    name: "Böhmische Dörfer",
+    name_cz: "Böhmische Dörfer",
+    name_zh: "Böhmische Dörfer",
+    flavor: "To a German, anything baffling is \"Bohemian villages\". Time to see them.",
+    flavor_cz: "Němcům je nesrozumitelné „české vesnice“, nám „španělské“. Čas to prozkoumat.",
+    flavor_zh: "德国人把看不懂的东西叫“波希米亚村庄”，那就去看个明白。",
+    description: "Complete the Poříčí pack and check in at Saxon House, the Slavonic House, the State Opera, Malý Berlín, the Lobkowicz Palace (German Embassy), Quo Vadis, the Berlin Wall fragment in Strašnice and the Goethe-Institut.",
+    description_cz: "Dokončete balíček Poříčí a přihlaste se u Saského domu, Slovanského domu, Státní opery, Malého Berlína, Lobkovického paláce (německého velvyslanectví), sochy Quo Vadis, fragmentu Berlínské zdi ve Strašnicích a Goethe-Institutu.",
+    description_zh: "集齐泊日奇卡包，并在萨克森之家、斯拉夫宫、布拉格国家歌剧院、小柏林、洛布科维奇宫（德国大使馆）、长腿特拉比、斯特拉什尼采柏林墙残片和布拉格歌德学院打卡。",
+    difficulty: "hard",
+    check: ({ checkedSlugs = [], completedPackSlugs = [] }) =>
+      GERMAN_PACKS.every((s) => completedPackSlugs.includes(s)) && GERMAN_SLUGS.every((s) => checkedSlugs.includes(s)),
+    progress: ({ checkedSlugs = [], completedPackSlugs = [] }) => ({
+      current: GERMAN_PACKS.filter((s) => completedPackSlugs.includes(s)).length + GERMAN_SLUGS.filter((s) => checkedSlugs.includes(s)).length,
+      target: GERMAN_PACKS.length + GERMAN_SLUGS.length,
+      slugs: GERMAN_SLUGS,
+      packs: { need: GERMAN_PACKS.length, slugs: GERMAN_PACKS },
     }),
   },
   {

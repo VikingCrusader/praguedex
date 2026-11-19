@@ -91,13 +91,17 @@ export const PACKS = [
     foil: '#8a3f1d',
     labels: ['square', 'medieval', 'gothic', 'baroque'],
     // The square and the houses right on it, as in the Starter Pack achievement.
-    // Took over the card of the same slug (and its cover).
+    // Took over the card of the same slug (and its cover). The House at the
+    // Minute and the Golden Unicorn moved to the Malé náměstí pack on
+    // 2026-11-19 (user's call; Starter Pack still counts the Minute), and the
+    // new Týn School card joined the same day, as did the House at the White
+    // Unicorn (603/15, slug trckovsky-dum), the old card of that name having
+    // been renamed the Stone Ram (its real house, 551/17).
     members: [
       'tyn-church', 'mariansky-sloup', 'old-town-hall', 'astronomical-clock', 'pamatnik-jana-husa', '27-krizu-staromestske-namesti',
       'palac-goltz-kinskych', 'stone-bell-house', 'dum-u-bileho-jednorozce', 'storch-house', 'dum-u-lazara', 'schieruv-dum',
       'park-u-staromestskeho-namesti', 'prazska-mestska-pojistovna', 'dum-u-clovicku', 'dum-zlaty-kriz',
-      'kostel-sv-mikulase-stare-mesto', 'dum-u-zlateho-slona', 'dum-u-minuty',
-      'dum-u-zlateho-jednorozce-staromestske-namesti',
+      'kostel-sv-mikulase-stare-mesto', 'dum-u-zlateho-slona', 'tynska-skola', 'trckovsky-dum',
     ],
   }),
   pack({
@@ -761,6 +765,61 @@ export const PACKS = [
     members: [
       'morzin-palace-1782409018600', 'dum-u-tri-houslicek', 'thun-hohenstejnsky-palac', 'u-kajetanu',
       'dum-u-zlate-podkovy', 'bretfelduv-palac', 'dum-u-dvou-sluncu',
+    ],
+  }),
+  pack({
+    slug: 'male-namesti',
+    released: '2026-11-19T00:50:00+01:00',
+    name: 'Little Square',
+    localizedNames: { cz: 'Malé náměstí', zh: '小广场' },
+    foil: '#8a6a2a',
+    labels: ['square', 'gothic', 'renaissance', 'historicism'],
+    // The little triangular square beside the Old Town Hall, only what stands
+    // on it (2026-11-19, user's call): the fountain, the House at the Minute
+    // and the Golden Unicorn (both moved from Old Town Square), Richter House,
+    // the old Golden Angel card rewritten as the House at the Angel, and two
+    // new cards, Rott House and the Golden Lily. Michalská, Melantrichova and
+    // Karlova stay out. New slug.
+    members: [
+      'kasna-na-malem-namesti', 'rottuv-dum', 'dum-u-minuty', 'dum-u-zlateho-jednorozce-staromestske-namesti',
+      'dum-u-zlateho-andela', 'richtruv-dum', 'dum-u-zlate-lilie',
+    ],
+  }),
+  pack({
+    slug: 'marianske-namesti',
+    released: '2026-11-19T01:28:00+01:00',
+    name: 'Marian Square',
+    localizedNames: { cz: 'Mariánské náměstí', zh: '圣母广场' },
+    foil: '#5a4a6e',
+    labels: ['square', 'baroque', 'art-nouveau', 'sculpture'],
+    // The square between the Klementinum and the New Town Hall (2026-11-19,
+    // user's call): the Klementinum (east entrance on the square) with its
+    // Astronomical Tower, the New Town Hall with Rabbi Löw and the new Iron
+    // Man card on its corners, the City Library with the mayor's residence,
+    // Clam-Gallas Palace (its side and garden wall face the square) and the new
+    // Terezka fountain card. St Clement (Karlova), U Zlatého tygra (Husova)
+    // and Kafka's birthplace stay out. New slug.
+    members: [
+      'national-library-czech-republic', 'astronomicka-vez-klementina', 'nova-radnice-marianske-namesti',
+      'socha-rabiho-lowa', 'socha-zelezny-muz', 'rezidence-primatora', 'clam-gallasuv-palac', 'kasna-terezka',
+    ],
+  }),
+  pack({
+    slug: 'ovocny-trh',
+    released: '2026-11-19T01:40:00+01:00',
+    name: 'Fruit Market',
+    localizedNames: { cz: 'Ovocný trh', zh: '水果市场' },
+    foil: '#8a4a3a',
+    labels: ['square', 'medieval', 'classicism', 'cubism'],
+    // The triangular square between Celetná and the Estates Theatre
+    // (2026-11-19, user's call): the Carolinum, the Estates Theatre, the new
+    // card Kolowrat Palace, the House of the Black Madonna on the Celetná
+    // corner and the Men's Passage that opens onto it. Took over the
+    // one-point square card's slug and cover (one check-in), the card deleted.
+    // Chromy's Commendatore was removed in 2025 and is only mentioned in the
+    // theatre card. The Wimmer Palace (Rytířská), St Gall and Celetná stay out.
+    members: [
+      'estates-theatre', 'karolinum', 'kolowratsky-palac-ovocny-trh', 'dum-u-cerne-matky-bozi', 'panska-pasaz',
     ],
   }),
 ];

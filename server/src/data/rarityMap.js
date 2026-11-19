@@ -435,7 +435,6 @@ export const SLUG_RARITY = {
   'cerna-ruze':                    'superior', // 1929-32 Oldřich Tyl functionalist passage
   'palac-myslbek':                 'common', // 1994-96 post-revolution commercial building
   'palac-zivnostenske-banky-nekazanka': 'superior', // 1868 first Czech-capital bank, Braun portal
-  'ovocny-trh':                    'rare',  // 13th-c market square, renamed 3x before "fruit"
   'haasuv-obchodni-dum':           'epic',  // 1871, Prague's first modern department store
   'ceska-eskomptni-banka':         'rare',  // 1863 bank, Nazi-seized, later KB HQ, now Trinity Bank
   'divadlo-broadway':              'common', // 1938 cinema, renamed Sevastopol under communism

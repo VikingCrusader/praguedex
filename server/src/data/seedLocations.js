@@ -4531,32 +4531,37 @@ Dokud reformy roku 1770 nezavedly v habsburských zemích čísla domů, oriento
     },
   },
   {
-    name: 'House at the Golden Angel',
+    // Rewritten 2026-11-19 for the Malé náměstí pack (user's call and
+    // coordinates): was a vague house-sign card; now Dům U Anděla / V ráji,
+    // Malé náměstí 1, after cs.wikipedia "Dům U Anděla" (domus Angeli
+    // apothecarii 1374-1405, Romanesque cellars, Rejsek vault, 1340s murals
+    // found 1994, Ericsson sign, Polish Institute). Slug kept for its two
+    // check-ins.
+    name: 'House at the Angel',
     slug: 'dum-u-zlateho-andela',
-    localizedNames: { cz: 'Dům U Zlatého anděla', zh: '金天使之家' },
-    labels: ['early-modern'],
+    localizedNames: { cz: 'Dům U Anděla', zh: '天使之家' },
+    labels: ['gothic',  'romanesque'],
     district: 'Praha 1',
     quarter: 'Staré Město',
-    coordinates: { lat: 50.086538164674074, lng: 14.42008412923989 },
+    coordinates: { lat: 50.086502056294066, lng: 14.420142099673914 },
     rarity: 'rare',
     xpReward: 20,
-    wikipediaUrl: '',
     description: {
-      en: `The House at the Golden Angel is one more entry in Prague's long catalogue of house signs. Before streets had numbers, a gilded angel on the façade was how you told people which house you meant. This one stands in the old lanes just south of Old Town Square.
+      en: `Every house on Malé náměstí had a sign, but this one has a real man behind its name. The angel here was not, at first, a figure with wings. He was Angelo, an apothecary from Florence who mixed medicines for the court of Charles IV.
 
-Angels were among the most popular house signs in old Prague. They stood for protection and good luck, which was handy for a merchant who wanted passers-by to trust what was sold inside. Signs like this did the job of an address for centuries, until the reforms of 1770 gave every Prague house a number. After that the signs were no longer needed, but as with so many old house names, nobody bothered to take them down, and the name stuck.
+Records from 1374 to 1405 call the house "the house of Angelo the apothecary". He was a Florentine botanist and pharmacist in the service of Charles IV, and he is also credited with a famous herb garden in the New Town. The house is older than him. Its cellars are Romanesque, from the second half of the 12th century, its Gothic walls rise to the second floor, and the courtyard wing has a late Gothic star vault by Matěj Rejsek, the builder of the Powder Tower. In 1994 restorers found fragments of murals from the 1340s on the walls of a hall, scenes from a tale of knights. From 1482 to 1891 the house was called In Paradise, and today it is home to the Polish Institute.
 
-🎁 Bonus: Prague has several houses named after angels, and one whole neighbourhood too. Anděl in Smíchov takes its name from an old house sign with an angel. Trying to find your way around the city by looking for "the house with the angel" would get you lost very quickly.`,
-      cz: `Dům U Zlatého anděla je další položkou v dlouhém katalogu pražských domovních znamení. Než měly ulice čísla, pozlacený anděl na fasádě byl způsob, jak lidem říct, o kterém domě mluvíte. Tenhle stojí ve starých uličkách kousek jižně od Staroměstského náměstí.
+🎁 Bonus: Some like to link Angelo with the Voynich manuscript, the undeciphered book that later turned up at Rudolf II's court. Nobody has proved it. What is certain is less mysterious: for decades a gold Ericsson sign hung on the house, left from the days when the Swedish firm's Prague agents worked here, and you can still spot it in Czech films of 1978.`,
+      cz: `Znamení měl na Malém náměstí každý dům, ale za jménem tohohle stojí skutečný člověk. Anděl tu zpočátku nebyl postava s křídly. Byl to Angelo, lékárník z Florencie, který tu míchal léky pro dvůr Karla IV.
 
-Andělé patřili ke vůbec nejoblíbenějším domovním znamením staré Prahy. Znamenali ochranu a štěstí, což se hodilo kupci, který chtěl, aby kolemjdoucí věřili tomu, co se uvnitř prodává. Takováhle znamení sloužila jako adresa po celá staletí, dokud reformy roku 1770 nedaly každému pražskému domu číslo. Potom už znamení nebyla potřeba, ale jako u tolika starých domovních jmen se je nikdo neobtěžoval sundat a jméno zůstalo.
+Prameny z let 1374 až 1405 dům nazývají „domem lékárníka Angela“. Byl to florentský botanik a lékárník ve službách Karla IV. a připisuje se mu i slavná bylinná zahrada na Novém Městě. Dům je ale starší než on. Sklepy jsou románské, z druhé poloviny 12. století, gotické zdi sahají až do druhého patra a dvorní křídlo má pozdně gotickou hvězdovou klenbu od Matěje Rejska, stavitele Prašné brány. Roku 1994 našli restaurátoři na stěnách jednoho sálu zlomky nástěnných maleb ze 40. let 14. století, výjevy z rytířského příběhu. V letech 1482 až 1891 se dům jmenoval V ráji a dnes v něm sídlí Polský institut.
 
-🎁 Bonus: V Praze je hned několik domů pojmenovaných po andělech a k tomu celá čtvrť. Anděl na Smíchově dostal jméno po starém domovním znamení s andělem. Kdo by se chtěl ve městě orientovat podle „domu s andělem“, velmi rychle by zabloudil.`,
-      zh: `金天使之家是布拉格长长一串门牌标志里的又一个。在街道还没有门牌号的年代，立面上的一尊镀金天使，就是告诉别人“我说的是哪栋房子”的办法。这栋楼就在老城广场南边的老街巷里。
+🎁 Bonus: Někteří rádi spojují Angela s Voynichovým rukopisem, nerozluštěnou knihou, která se později objevila na dvoře Rudolfa II. Nikdo to nedokázal. Jisté je něco méně tajemného: desítky let visel na domě zlatý nápis Ericsson, památka na dobu, kdy tu sídlili pražští zástupci švédské firmy, a dodnes ho zahlédnete v českých filmech z roku 1978.`,
+      zh: `小广场上家家都有招牌，可这栋房子的名字背后，站着一个真实的人。这里的“天使”起初并不是长着翅膀的雕像，而是安杰洛，一位来自佛罗伦萨的药剂师，在这里为查理四世的宫廷配药。
 
-天使是老布拉格最受欢迎的门牌标志之一。它代表庇护和好运，对一个希望路人信得过店里货物的商人来说正合适。这样的标志当了好几个世纪的地址，直到1770年的改革给布拉格每栋房子都编了号。从那以后标志就用不着了，但和许多老房名一样，没人费心把它摘下来，名字也就留了下来。
+1374年到1405年的文献把这栋房子叫作“药剂师安杰洛之家”。他是佛罗伦萨的植物学家和药剂师，为查理四世效力，据说新城一座有名的药草园也出自他手。房子本身比他还老：地窖是罗马式的，建于12世纪下半叶；哥特式的墙一直砌到二楼；院子里的侧翼有一座晚期哥特式星形拱顶，出自火药塔的建造者马捷·雷耶塞克之手。1994年，修复人员在一间大厅的墙上发现了14世纪40年代的壁画残片，画的是一个骑士故事。1482年到1891年间，这栋房子叫“天堂之家”，如今是波兰学院的所在地。
 
-🎁 彩蛋：布拉格有好几栋以天使命名的房子，还有一整个街区。斯米霍夫的安德尔（意为“天使”）就得名于一块带天使的老门牌。要是有人想靠找“有天使的那栋楼”在城里认路，很快就会迷路。`,
+🎁 彩蛋：有人喜欢把安杰洛和伏尼契手稿扯在一起，那本至今没人读懂的书后来出现在鲁道夫二世的宫廷里，不过谁也没能证明。确定的事情就没那么神秘了：几十年里，房子上一直挂着一块金色的“Ericsson”招牌，那是这家瑞典公司的布拉格代理在这里办公时留下的，在1978年的捷克电影里还能看到它。`,
     },
   },
   {
@@ -4647,32 +4652,43 @@ Postaven byl v letech 1755 až 1765 pro hraběte Jana Arnošta Goltze podle náv
     },
   },
   {
-    name: 'House at the White Unicorn',
+    // Renamed 2026-11-19 (user's call and coordinates): the card told the
+    // story of Staroměstské náměstí 551/17, the House at the Stone Ram (Fanta
+    // salon, Einstein plaque; cs.wikipedia "Dům U Kamenného beránka"), under
+    // its pharmacy's name, and stood ~30 m west of it. The house called the
+    // White Unicorn today, 603/15 next to the Týn School, has no card. Slug
+    // kept for its check-ins.
+    name: 'House at the Stone Ram',
     slug: 'dum-u-bileho-jednorozce',
-    localizedNames: { cz: 'Dům U Bílého jednorožce', zh: '白独角兽之家' },
-    labels: ['cultural'],
+    localizedNames: { cz: 'Dům U Kamenného beránka', zh: '石羊之家' },
+    labels: ['cultural', 'renaissance'],
     district: 'Praha 1',
     quarter: 'Staré Město',
-    coordinates: { lat: 50.08748447214407, lng: 14.422089942178513 },
+    coordinates: { lat: 50.08742196821041, lng: 14.422517965774151 },
     rarity: 'rare',
     xpReward: 20,
-    wikipediaUrl: '',
     description: {
-      en: `The House at the White Unicorn stands on Old Town Square, one of the many houses there still known by the sign it carried before streets had numbers. Behind its front, in the early 20th century, was one of the most remarkable living rooms in Europe.
+      en: `The House at the Stone Ram stands where Celetná runs into Old Town Square, and it has a name problem: for a long time most people called it the White Unicorn. Behind its front, in the early 20th century, was one of the most remarkable living rooms in Europe.
 
-The house is medieval at its core, rebuilt many times since, and the white unicorn on its front was once simply its address. In the years before the First World War it was the home of Berta Fanta, whose family ran a pharmacy on the ground floor. Upstairs she held a salon where Prague's German-speaking intellectuals met to talk about philosophy, science and art. Franz Kafka and his friend Max Brod came here, along with philosophers and scientists, and during his year as a professor in Prague in 1911 and 1912, so did the young Albert Einstein, who is said to have played the violin at these evenings.
+The house has Romanesque foundations, and some historians count it among the oldest in Prague. The name At the Stone Ram is recorded from 1452, and the early Renaissance portal dates from around 1520. In the early 17th century it belonged to Václav Šťastný Pětipeský, one of the directors who governed Bohemia during the uprising against the Habsburgs; the third floor and the big gable date from his time. Later a pharmacy, At the White Unicorn, gave the house its second name, and after a fire in May 1945 its interiors had to be rebuilt.
 
-🎁 Bonus: Einstein's Prague year gets far less attention than his time in Bern or Berlin, but it was here that he took important early steps toward his general theory of relativity. So this house above a chemist's shop may have heard both Kafka and Einstein in the same room, a rare meeting point of modern literature and modern physics.`,
-      cz: `Dům U Bílého jednorožce stojí na Staroměstském náměstí, jeden z mnoha zdejších domů, které se dodnes jmenují podle znamení, jež nesly, než měly ulice čísla. Za jeho průčelím se na počátku 20. století nacházel jeden z nejpozoruhodnějších salonů v Evropě.
+Around 1900 the pharmacy belonged to Max Fanta, and upstairs his wife Berta held a salon where Prague's German-speaking intellectuals talked philosophy, science and art: Franz Kafka and Max Brod, Franz Werfel, Hugo Bergmann, even Rudolf Steiner. In 1911 and 1912, during his year as a professor in Prague, the young Albert Einstein came too and played violin duets with the pianist Otýlie Nagelová; a plaque with his head recalls it.
 
-Dům má středověké jádro a od té doby byl mnohokrát přestavován; bílý jednorožec na průčelí býval prostě jeho adresou. V letech před první světovou válkou tu bydlela Berta Fantová, jejíž rodina vedla v přízemí lékárnu. V patře pořádala salon, kde se scházeli pražští německy mluvící intelektuálové, aby debatovali o filozofii, vědě a umění. Chodil sem Franz Kafka a jeho přítel Max Brod, filozofové a vědci a během svého roku na pražské profesuře v letech 1911 a 1912 i mladý Albert Einstein, který prý na těchto večerech hrál na housle.
+🎁 Bonus: Look for the ram's head beside the second-floor balcony. One of its horns has broken off, and some say that is how the house came to be taken for a unicorn in the first place.`,
+      cz: `Dům U Kamenného beránka stojí tam, kde Celetná ústí do Staroměstského náměstí, a má potíž se jménem: dlouho mu většina lidí říkala U Bílého jednorožce. Za jeho průčelím byl na počátku 20. století jeden z nejpozoruhodnějších obývacích pokojů v Evropě.
 
-🎁 Bonus: Einsteinův pražský rok se těší mnohem menší pozornosti než jeho léta v Bernu nebo Berlíně, ale právě tady udělal důležité první kroky k obecné teorii relativity. Tenhle dům nad lékárnou tak možná slyšel Kafku i Einsteina v jedné místnosti, vzácné místo setkání moderní literatury a moderní fyziky.`,
-      zh: `白独角兽之家位于老城广场，是那里许多至今仍以门牌号出现之前所挂的标志命名的房子之一。20世纪初，它的立面背后，藏着欧洲最了不起的客厅之一。
+Dům má románské základy a někteří historici ho řadí k nejstarším v Praze. Jméno U Kamenného beránka je doloženo od roku 1452 a raně renesanční portál pochází z doby kolem roku 1520. Na počátku 17. století patřil Václavu Šťastnému Pětipeskému, jednomu z direktorů, kteří vládli Čechám za stavovského povstání proti Habsburkům; z jeho doby je třetí patro i velký štít. Později dala domu druhé jméno lékárna U Bílého jednorožce a po požáru v květnu 1945 se musely znovu postavit jeho interiéry.
 
-这栋房子的核心是中世纪的，此后多次改建，立面上的白独角兽从前就是它的地址。一战前那些年，这里住着贝尔塔·范塔，她家在楼下开着一家药房。她在楼上办了一个沙龙，布拉格讲德语的知识分子们在这里聚会，谈论哲学、科学和艺术。弗朗茨·卡夫卡和他的朋友马克斯·布罗德常来，还有一些哲学家和科学家，1911年至1912年在布拉格当教授的那一年里，年轻的阿尔伯特·爱因斯坦也来过，据说他还在这些晚会上拉过小提琴。
+Kolem roku 1900 patřila lékárna Maxi Fantovi a v patře pořádala jeho žena Berta salon, kde pražští německy mluvící intelektuálové debatovali o filozofii, vědě a umění: Franz Kafka a Max Brod, Franz Werfel, Hugo Bergmann, a dokonce Rudolf Steiner. V letech 1911 a 1912, za svého roku profesury v Praze, sem chodil i mladý Albert Einstein a hrál na housle dueta s klavíristkou Otýlií Nagelovou; připomíná to deska s jeho hlavou.
 
-🎁 彩蛋：比起在伯尔尼和柏林的岁月，爱因斯坦在布拉格的这一年受到的关注少得多，可正是在这里，他朝广义相对论迈出了重要的早期几步。所以这栋药房楼上的房子，也许在同一个房间里听过卡夫卡和爱因斯坦说话，那是现代文学与现代物理难得的交汇点。`,
+🎁 Bonus: Najděte beraní hlavu vedle balkonu ve druhém patře. Jeden roh má ulomený a někteří tvrdí, že právě proto si dům kdysi spletli s jednorožcem.`,
+      zh: `石羊之家就在采列特纳街汇入老城广场的地方，它的名字有点麻烦：很长时间里，大多数人都管它叫“白独角兽之家”。20世纪初，在它的门面后面，有一间全欧洲都数得上的客厅。
+
+这栋房子的地基是罗马式的，有些历史学家把它算作布拉格最古老的房子之一。“石羊”这个名字从1452年起就有记载，早期文艺复兴风格的大门建于1520年前后。17世纪初，房主是瓦茨拉夫·什查斯特尼·佩季佩斯基，他是反抗哈布斯堡的等级起义期间统治波希米亚的执政官之一；四楼和那面大山墙都是他那个时候加上的。后来，楼下一家叫“白独角兽”的药房给了房子第二个名字。1945年5月的一场大火之后，屋里的陈设不得不全部重建。
+
+1900年前后，药房的主人是马克斯·范塔，他的妻子贝尔塔在楼上办了一个沙龙，布拉格说德语的知识分子在这里谈哲学、科学和艺术：弗朗茨·卡夫卡和马克斯·布罗德、弗朗茨·韦尔弗、胡戈·贝格曼，连鲁道夫·施泰纳都来过。1911到1912年，年轻的阿尔伯特·爱因斯坦在布拉格当了一年教授，他也来这里，和钢琴家奥蒂莉·纳格洛娃合奏小提琴二重奏；墙上有一块刻着他头像的纪念牌记着这件事。
+
+🎁 彩蛋：找找三楼阳台旁边的那个羊头。它断了一只角，有人说，这栋房子当初就是因此被错认成了独角兽。`,
     },
   },
   {
@@ -10060,35 +10076,6 @@ Pozemek se uvolnil roku 1926, kdy byla zbořena stará bankovní budova. Od 30. 
 实业银行创立于1868年，那时波希米亚的银行业由维也纳和讲德语的机构把持，它就是为了给捷克企业融资而成立的，后来成了捷克经济的支柱之一。它的总部由建筑师奥斯瓦尔德·波利夫卡设计：纳普日科佩街上较早的一栋是1894年至1896年的新文艺复兴建筑，有一座由一流捷克艺术家以绘画和雕塑装饰得富丽堂皇的营业大厅；朝内卡赞卡街的是后来约1912年落成的新艺术风格大楼，两楼之间以天桥相连。在内卡赞卡街一侧，大楼嵌入了一座更古老的巴洛克门廊，上面的雕塑出自马蒂亚斯·伯恩哈德·布劳恩的作坊。
 
 🎁 彩蛋：对19世纪60年代的捷克爱国者来说，把钱存进一家捷克银行本身就是一个小小的政治行动。这栋楼的华丽，显示了这家民族银行一代人之后积攒起了多大的自信。`,
-    },
-  },
-  {
-    name: 'Fruit Market Square',
-    slug: 'ovocny-trh',
-    localizedNames: { cz: 'Ovocný trh', zh: '果品市场广场' },
-    labels: ['square', 'medieval'],
-    district: 'Praha 1',
-    quarter: 'Staré Město',
-    coordinates: { lat: 50.08667686968571, lng: 14.4250759979213 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Ovocn%C3%BD_trh_(Praha)',
-    description: {
-      en: `Ovocný trh, the Fruit Market, is a long triangular square in the Old Town between Celetná Street and the Estates Theatre. It has been a marketplace since the 13th century and changed its name several times before finally settling on the produce that made it famous.
-
-It began as the New Marketplace, set up to take pressure off the main market on Old Town Square. From the 14th century it was the New Meat Market, from the 17th century it was known as the Royal Avenue, and in 1870 it got its present name. Until the early 20th century it was the most fragrant corner of the Old Town, crowded with stalls of fresh and dried fruit, nuts, vegetables and even live birds. Today it is a pedestrian zone framed by some of Prague's most important buildings: the Estates Theatre, where Mozart's Don Giovanni had its premiere in 1787, the Cubist House of the Black Madonna, and the Carolinum, the medieval heart of Charles University.
-
-🎁 Bonus: After a few centuries of being named after whatever was sold there, the square ended up named after the fruit it was best known for. Sometimes the most obvious name really is the last one you try.`,
-      cz: `Ovocný trh je dlouhé trojúhelníkové náměstí na Starém Městě mezi Celetnou ulicí a Stavovským divadlem. Tržištěm je od 13. století a několikrát změnilo jméno, než se konečně ustálilo na zboží, které ho proslavilo.
-
-Začínalo jako Nové tržiště, zřízené proto, aby ulevilo hlavnímu trhu na Staroměstském náměstí. Od 14. století to byl Nový trh masný, od 17. století se mu říkalo Královská třída a roku 1870 dostal dnešní jméno. Až do počátku 20. století to byl nejvoňavější kout Starého Města, plný stánků s čerstvým i sušeným ovocem, ořechy, zeleninou a dokonce živými ptáky. Dnes je to pěší zóna obklopená některými z nejvýznamnějších pražských budov: Stavovským divadlem, kde měl roku 1787 premiéru Mozartův Don Giovanni, kubistickým domem U Černé Matky Boží a Karolinem, středověkým srdcem Univerzity Karlovy.
-
-🎁 Bonus: Po několika staletích, kdy se jmenovalo podle toho, co se tu zrovna prodávalo, skončilo náměstí se jménem ovoce, kterým bylo nejznámější. Někdy je to nejzřejmější jméno opravdu to poslední, na které přijdete.`,
-      zh: `水果市场是老城里一个狭长的三角形广场，位于采莱特纳街和等级剧院之间。它从13世纪起就是市场，改过好几次名字，最后才定在让它出名的那样东西上。
-
-它起初叫“新市场”，是为了分担老城广场上主市场的压力而设的。从14世纪起它叫“新肉市”，17世纪起被称为“皇家大街”，1870年才有了现在的名字。直到20世纪初，它都是老城最香的角落，挤满了卖新鲜水果和果干、坚果、蔬菜甚至活鸟的摊子。如今这里是步行区，四周是布拉格几座最重要的建筑：1787年莫扎特《唐璜》首演的等级剧院、立体主义风格的黑色圣母之家，以及查理大学的中世纪核心卡罗林宫。
-
-🎁 彩蛋：几百年来卖什么就叫什么，这个广场最后用上了它最出名的水果做名字。有时候，最显而易见的名字，真的就是你最后才想到的那一个。`,
     },
   },
   {
@@ -38731,6 +38718,237 @@ Dům je renesanční, patrně postavený podle plánu Ulrica Aostalliho před ro
 这是一栋文艺复兴房子，很可能是1579年以前按乌尔里科·奥斯塔利的设计建的，后来门面改成了晚期巴洛克风格。一只据说能带来好运的镀金马蹄铁，早在16世纪就挂在这里当招牌。到了18世纪初，这块老招牌被画进了一幅新画：波希米亚的主保圣人骑在马上，金马蹄铁就钉在马蹄上。布拉格的导游很爱指给游客看：为了把马蹄铁亮出来，画家差点把那匹可怜白马的前腿掰脱臼。如今这栋房子是一家带餐厅的酒店。
 
 🎁 彩蛋：在18世纪后期有门牌号之前，房屋招牌就是布拉格的地址，所以就算时尚变了，招牌也值得留着。这里的房主干脆请来一位圣人，让他的马把老地址钉在脚上。`,
+    },
+  },
+  {
+    // Malé náměstí 3 (2026-11-19, user's coordinates, for the Malé náměstí
+    // pack). cs.wikipedia "Rottův dům", pragitecture.eu: Romanesque cellars,
+    // U Pštrosů 1405, Jan Pytlík c. 1500, V. J. Rott's ironmongery, rebuilt
+    // 1896-97, façade after Aleš by Hofbauer and Novák; cultural monument.
+    name: 'Rott House',
+    slug: 'rottuv-dum',
+    localizedNames: { cz: 'Rottův dům', zh: '罗特之家' },
+    labels: ['historicism'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.086729489178126, lng: 14.419212631416846 },
+    rarity: 'superior',
+    xpReward: 30,
+    description: {
+      en: `On a square full of medieval house signs, one house simply writes its owner's name across the front in big letters: V. J. Rott. It is the most cheerful advertisement in the Old Town, a whole façade painted with farmers, smiths and gardeners, all to sell nails and hammers.
+
+The house is far older than the paint. Its cellars are Romanesque, from the second half of the 12th century, and in 1405 it was known as At the Ostriches. Around 1500 it belonged to Jan Pytlík, one of the men who paid for the Prague Bible of 1488, the first complete Bible printed in Czech. In the middle of the 19th century it passed to the ironmonger Vincenc Josef Rott, who had started out on the other side of the square, and his son Ladislav turned it into a department store. In 1896–97 it was rebuilt in neo-Renaissance style and got its painted front: climbing plants and allegories of crafts and farm work, a blacksmith, a carpenter, a reaper, a gardener and a housewife, designed by Mikoláš Aleš and painted by Arnošt Hofbauer and Láďa Novák. Between the upper floors runs a prayer to St Wenceslas not to let us, or those who come after us, perish. Tools and hardware were sold here for about a century and a half; today the house is a restaurant.
+
+🎁 Bonus: In the summer of 1897 Aleš was drawing the designs for the Storch House on Old Town Square at almost the same time, so two of the Old Town's best-known painted fronts, a short walk apart, came off the same drawing board.`,
+      cz: `Na náměstí plném středověkých domovních znamení jeden dům prostě napsal jméno majitele velkými písmeny přes celé průčelí: V. J. Rott. Je to nejveselejší reklama na Starém Městě, celá fasáda pomalovaná sedláky, kováři a zahradníky, a to všechno kvůli prodeji hřebíků a kladiv.
+
+Dům je mnohem starší než malby. Sklepy má románské, z druhé poloviny 12. století, a roku 1405 se mu říkalo U Pštrosů. Kolem roku 1500 patřil Janu Pytlíkovi, jednomu z mužů, kteří zaplatili Pražskou bibli z roku 1488, první úplnou bibli vytištěnou česky. V polovině 19. století přešel na železníka Vincence Josefa Rotta, který začínal na druhé straně náměstí, a jeho syn Ladislav z něj udělal obchodní dům. V letech 1896–97 byl přestavěn v novorenesančním slohu a dostal malované průčelí: popínavé rostliny a alegorie řemesel a polních prací, kováře, tesaře, žence, zahradníka a hospodyni, podle návrhů Mikoláše Alše je namalovali Arnošt Hofbauer a Láďa Novák. Mezi horními patry běží prosba ke svatému Václavu: „Nedej zahynouti nám ni budoucím.“ Nářadí a železářské zboží se tu prodávalo zhruba půldruhého století, dnes je v domě restaurace.
+
+🎁 Bonus: V létě 1897 kreslil Aleš téměř zároveň návrhy pro Štorchův dům na Staroměstském náměstí, takže dvě z nejznámějších malovaných průčelí Starého Města, jen kousek od sebe, vznikla na stejném rýsovacím prkně.`,
+      zh: `小广场上满是中世纪的门牌招牌，偏偏有一栋房子直接把主人的名字用大字写满了门面：V. J. Rott。这是老城最欢快的一块广告牌，整面墙画满了农夫、铁匠和园丁，为的只是卖钉子和锤子。
+
+房子比墙上的画老得多。它的地窖是罗马式的，建于12世纪下半叶；1405年，这里叫“鸵鸟之家”。1500年前后，房主是扬·皮特利克，1488年出版的《布拉格圣经》就有他出的钱，那是第一部完整印刷的捷克语圣经。19世纪中叶，房子到了五金商温琴茨·约瑟夫·罗特手里，他最早是在广场对面起家的；他的儿子拉迪斯拉夫又把这里改成了百货商店。1896到1897年，房子按新文艺复兴风格重建，换上了这面彩绘门面：攀缘的花草，还有手艺和农活的寓意画，铁匠、木匠、割麦人、园丁和家庭主妇，由米科拉什·阿莱什设计，阿尔诺什特·霍夫鲍尔和拉佳·诺瓦克动笔。上面几层之间写着一句向圣瓦茨拉夫的祈祷：别让我们和我们的后人灭亡。这里卖了大约一个半世纪的工具和五金，如今是一家餐厅。
+
+🎁 彩蛋：1897年夏天，阿莱什几乎同时也在给老城广场上的鹳屋画设计稿，所以老城两面最有名的彩绘门面，相隔不过几步路，出自同一张画板。`,
+    },
+  },
+  {
+    // Malé náměstí 12 (2026-11-19, user's coordinates, for the Malé náměstí
+    // pack). cs.wikipedia "Dům U Zlaté lilie": Gothic, 1402, pharmacy until
+    // 1575, Dientzenhofer before 1698, Classicist 1801; the oldest-shop-window
+    // claim from a blog, so hedged.
+    name: 'House at the Golden Lily',
+    slug: 'dum-u-zlate-lilie',
+    localizedNames: { cz: 'Dům U Zlaté lilie', zh: '金百合之家' },
+    labels: ['gothic',  'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.08635440409751, lng: 14.419537601773827 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `The House at the Golden Lily is easy to walk past on the south side of Malé náměstí, which is a pity, because it may have the oldest shop window in Prague.
+
+It is a Gothic house from the late 14th century, first recorded in 1402 as At the Lily, and for a long time it was a pharmacy, until 1575; in the Middle Ages this side of the square was a street of apothecaries. The Renaissance added two storeys, Kryštof Dientzenhofer gave it an early Baroque remodel before 1698, and in 1801 it was rebuilt once more in Classicist style. At the end of the 18th century it held a bookshop.
+
+🎁 Bonus: Look at the ground floor. A shop-window frame painted with gold lilies has survived there, and it is said to be the oldest shop window in Prague.`,
+      cz: `Dům U Zlaté lilie na jižní straně Malého náměstí se snadno přehlédne, a to je škoda, protože možná má nejstarší výkladec v Praze.
+
+Je to gotický dům z konce 14. století, poprvé zmíněný roku 1402 jako U Lilie, a dlouho v něm byla lékárna, až do roku 1575; ve středověku byla tahle strana náměstí ulicí lékárníků. Renesance přidala dvě patra, Kryštof Dientzenhofer ho před rokem 1698 raně barokně upravil a roku 1801 byl ještě jednou přestavěn klasicistně. Na konci 18. století v něm bylo knihkupectví.
+
+🎁 Bonus: Podívejte se na přízemí. Zachoval se tam rám výkladce pomalovaný zlatými liliemi a říká se, že je to nejstarší výkladec v Praze.`,
+      zh: `金百合之家在小广场南侧，很容易一走而过，这就可惜了，因为它可能有布拉格最古老的橱窗。
+
+这是一栋14世纪末的哥特式房子，1402年第一次见于记载，叫“百合之家”。它做了很久的药房，一直开到1575年；中世纪时，广场的这一边就是一条药剂师街。文艺复兴时期加盖了两层，1698年以前，克里斯托夫·丁岑霍费尔把它改成了早期巴洛克式，1801年又按古典主义风格重建了一次。18世纪末，这里开过一家书店。
+
+🎁 彩蛋：看看一楼。那里保留着一个画着金色百合的橱窗框，据说是布拉格最古老的橱窗。`,
+    },
+  },
+  {
+    // Staroměstské náměstí 604/14, in front of the Týn Church (2026-11-19,
+    // user's coordinates, for the Old Town Square pack). cs.wikipedia
+    // "Týnská škola", pragitecture.eu: two houses (1359, 1363) joined after
+    // 1407, school from 1394 (Teige 1910) to 1842, Rokycana and Bydžovský
+    // taught, Rejsek a pupil, Gothic arcade, Renaissance gables mid-16th c.
+    name: 'Týn School',
+    slug: 'tynska-skola',
+    localizedNames: { cz: 'Týnská škola', zh: '提恩学校' },
+    labels: ['gothic', 'renaissance'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.087650535385585, lng: 14.422042613403585 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Everyone who has photographed the Týn Church has photographed the Týn School too, whether they meant to or not. The house with the Gothic arcade and the two stepped gables stands right in front of the church, and its arcade is the way in.
+
+It began as two burgher houses, first recorded in 1359 and 1363 and joined into one after 1407. By tradition the Týn parish school moved in at the end of the 14th century, and for more than four hundred years boys learned Latin here, in the shadow of the church that became the main church of the Hussite Old Town. Among the teachers were Jan Rokycana, the Utraquist preacher of Týn, and in 1560–1581 the humanist Marek Bydžovský of Florentinum. The pointed arches and cross vaults of the arcade are Gothic; the gables, finished with little arches and balls, were added in a Renaissance rebuild around the middle of the 16th century, and an 18th-century fresco of the Assumption sits between the upper windows. In 1842 the school moved to the old Minorite monastery at St James, and the rooms became flats.
+
+🎁 Bonus: One of its pupils was Matěj Rejsek, who went on to build the Powder Tower and still signed himself "bachelor of the Týn school". So the man who gave the Old Town its gate learned his letters in the house that hides its church.`,
+      cz: `Kdo kdy fotil Týnský chrám, vyfotil i Týnskou školu, ať chtěl, nebo ne. Dům s gotickým podloubím a dvěma stupňovitými štíty stojí přímo před kostelem a jeho podloubím se do kostela vchází.
+
+Vznikl ze dvou měšťanských domů, poprvé zmíněných v letech 1359 a 1363 a spojených v jeden po roce 1407. Podle tradice se sem na konci 14. století nastěhovala týnská farní škola a přes čtyři sta let se tu chlapci učili latinu, ve stínu kostela, který se stal hlavním chrámem husitského Starého Města. Mezi učiteli byl Jan Rokycana, utrakvistický kazatel u Týna, a v letech 1560–1581 humanista Marek Bydžovský z Florentina. Lomené oblouky a křížové klenby podloubí jsou gotické; štíty zakončené obloučky a koulemi přibyly při renesanční přestavbě kolem poloviny 16. století a mezi horními okny je fresca Nanebevzetí Panny Marie z 18. století. Roku 1842 se škola přestěhovala do bývalého minoritského kláštera u svatého Jakuba a z místností se staly byty.
+
+🎁 Bonus: Jedním z jejích žáků byl Matěj Rejsek, pozdější stavitel Prašné brány, který se i potom podepisoval jako „bakalář školy Týnské“. Muž, který dal Starému Městu bránu, se tedy učil číst v domě, který mu schovává kostel.`,
+      zh: `拍过提恩教堂的人，其实都拍过提恩学校，不管是不是故意的。这栋带哥特式拱廊和两座阶梯形山墙的房子就挡在教堂正前方，进教堂得从它的拱廊下面穿过去。
+
+它原本是两栋市民住宅，分别在1359年和1363年见于记载，1407年以后合成了一栋。按传统说法，提恩教区的学校在14世纪末搬了进来，此后四百多年，男孩们就在这里学拉丁文，头顶上就是后来成为胡斯派老城主教堂的提恩教堂。这里的老师里有提恩教堂的圣杯派传道人扬·罗基察纳，1560年到1581年还有人文主义学者马雷克·比德佐夫斯基。拱廊的尖拱和交叉拱顶是哥特式的；山墙顶上饰有小拱和圆球，是16世纪中叶前后文艺复兴改建时加上去的；楼上窗户之间还有一幅18世纪的《圣母升天》壁画。1842年，学校搬到了圣雅各教堂旁边的前小兄弟会修道院，这里的房间改成了住宅。
+
+🎁 彩蛋：这里的学生里有一位马捷·雷耶塞克，后来他建起了火药塔，落款时仍自称“提恩学校的学士”。给老城造了城门的人，当年就是在这栋挡住教堂的房子里学认字的。`,
+    },
+  },
+  {
+    // Staroměstské náměstí 603/15 (also Celetná 603/1), between the Týn
+    // School and Celetná, in front of the Týn Church (2026-11-19, user's call
+    // and coordinates: it is in every photo of Týn). Register entry 38691/1-332
+    // (two Romanesque houses, Renaissance merger, late Baroque fronts 1770);
+    // aroundus.com (Wikipedia-derived): arcade after 1330, 1363, Trčka family,
+    // gables removed 1858 and restored 1987. The old dum-u-bileho-jednorozce
+    // card is now the Stone Ram; its cover (this house) moved here.
+    name: 'House at the White Unicorn',
+    slug: 'trckovsky-dum',
+    localizedNames: { cz: 'Dům U Bílého jednorožce', zh: '白独角兽之家' },
+    labels: ['baroque', 'gothic'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.087504592254774, lng: 14.42215335602739 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `If the Týn Church is the star of Old Town Square, the House at the White Unicorn is the extra who keeps walking into every shot. Its pink Baroque front and Gothic arcade stand right in front of the church's two towers, so nearly every photo of them has this house in the bottom half.
+
+It grew out of two Romanesque houses, adapted in Gothic times; the ground-floor arcade of pointed arches and cross-ribbed vaults dates from after 1330, and the house is first recorded in 1363. In the late 16th century the noble Trčka family made it a Renaissance palace, which is why it is also called the Trčka House, and in 1770 it got the late Baroque fronts you see today, one on the square and one round the corner on Celetná. The name comes from an old relief of a unicorn, which became the sign of a pharmacy, At the White Unicorn; the name has wandered since, and the famous Fanta pharmacy, where Einstein played the violin, is usually placed in the Stone Ram house across Celetná. Today the arcade holds a café and the upper floors an art exhibition.
+
+🎁 Bonus: In 1858 the tall gables were taken down to make room for an extra floor, and they only came back, in a changed form, in a reconstruction of 1987. So in a postcard of Týn from before the 1980s, the house in front looks noticeably flatter.`,
+      cz: `Je-li Týnský chrám hvězdou Staroměstského náměstí, dům U Bílého jednorožce je komparzista, který se plete do každého záběru. Jeho růžové barokní průčelí s gotickým podloubím stojí přímo před dvěma věžemi kostela, takže skoro každá jejich fotografie má tenhle dům v dolní polovině.
+
+Vznikl ze dvou románských domů, upravených v gotice; přízemní podloubí s lomenými oblouky a křížovými žebrovými klenbami pochází z doby po roce 1330 a dům je poprvé zmíněn roku 1363. Na konci 16. století z něj šlechtický rod Trčků udělal renesanční palác, proto se mu říká také Trčkovský dům, a roku 1770 dostal pozdně barokní průčelí, která vidíte dnes, jedno do náměstí a druhé za rohem do Celetné. Jméno má podle starého reliéfu jednorožce, který se stal znamením lékárny U Bílého jednorožce; to jméno se od té doby stěhovalo a slavná Fantova lékárna, kde hrál na housle Einstein, se obvykle klade do domu U Kamenného beránka na druhé straně Celetné. Dnes je v podloubí kavárna a v patrech výstava umění.
+
+🎁 Bonus: Roku 1858 byly vysoké štíty strženy, aby se mohlo přistavět další patro, a vrátily se, v pozměněné podobě, až při rekonstrukci v roce 1987. Na pohlednici Týna z doby před osmdesátými léty proto vypadá dům před ním znatelně plošší.`,
+      zh: `如果说提恩教堂是老城广场的主角，白独角兽之家就是那个总往镜头里走的群演。它粉色的巴洛克门面和哥特式拱廊就立在教堂两座塔楼的正前方，所以几乎每一张塔楼的照片，下半截都是这栋房子。
+
+它由两栋罗马式房子合并而来，哥特时期经过改建；一楼的尖拱拱廊和交叉肋拱建于1330年以后，房子在1363年第一次见于记载。16世纪末，贵族特尔奇卡家族把它改成了文艺复兴宫殿，所以它也叫“特尔奇卡之家”。1770年，它换上了今天看到的晚期巴洛克门面，一面朝广场，另一面在拐角朝向采列特纳街。名字来自一块古老的独角兽浮雕，后来成了“白独角兽”药房的招牌；这个名字此后到处搬家，范塔家那家有名的药房、爱因斯坦拉过小提琴的地方，一般认为在采列特纳街对面的石羊之家。如今拱廊下是一家咖啡馆，楼上是艺术展。
+
+🎁 彩蛋：1858年，为了加盖一层楼，高高的山墙被拆掉了，直到1987年修复时才以改过的样子重新出现。所以在80年代以前的提恩教堂明信片上，教堂前面这栋房子看起来明显要“扁”一些。`,
+    },
+  },
+  {
+    // Mariánské náměstí, in the garden wall of Clam-Gallas Palace (2026-11-19,
+    // user's coordinates, for the Mariánské náměstí pack). praha1.cz 2015:
+    // Prachner 1812 after Bergler, two jugs = two sources, five stars, 1953
+    // copy (original in the National Gallery), 2015 restoration, the dragoon
+    // captain's 10,000 gold legend.
+    name: 'Terezka Fountain',
+    slug: 'kasna-terezka',
+    localizedNames: { cz: 'Kašna Terezka (Vltava)', zh: '小特蕾莎喷泉' },
+    labels: ['sculpture', 'classicism'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.08672137550954, lng: 14.417675430885728 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `In a niche in the garden wall of the Clam-Gallas Palace sits a young woman pouring water from two jugs, and she has been doing it for over two hundred years. Officially she is the river Vltava. To Prague she has always been Terezka.
+
+The fountain was made in 1812 by the sculptor Václav Prachner, after a design by the Bavarian painter Josef Bergler. The two jugs stand for the river's two sources, and the five stars above recall St John of Nepomuk, the saint thrown into the Vltava. The garden behind the wall was laid out in 1800 on the old cemetery of the little church of Our Lady on the Pond, which gave the square its name, and the church's remains lie just below the fountain. Visitors were not kind to her: the damaged original went to the National Gallery, and the figure you see is a white sandstone copy made in 1953. In 2015 the fountain was restored, with a new lead basin and new pipes.
+
+🎁 Bonus: Nobody knows for sure where the name comes from, perhaps from a girl who fetched water here. The story goes that a retired dragoon captain who lived in a corner house in Linhartská watched her from his window, fell in love, and left her ten thousand gold pieces in his will. His disappointed relatives went to court, and Terezka never saw a coin.`,
+      cz: `Ve výklenku v zahradní zdi Clam-Gallasova paláce sedí mladá žena a lije vodu ze dvou džbánů, a dělá to už přes dvě stě let. Oficiálně je to řeka Vltava. Pro Prahu je to odjakživa Terezka.
+
+Kašnu vytvořil roku 1812 sochař Václav Prachner podle návrhu bavorského malíře Josefa Berglera. Dva džbány znamenají dva prameny řeky a pět hvězd nad nimi připomíná svatého Jana Nepomuckého, svrženého do Vltavy. Zahrada za zdí vznikla roku 1800 na bývalém hřbitově kostelíka Panny Marie na Louži, podle něhož se náměstí jmenuje, a zbytky kostela leží těsně pod kašnou. Návštěvníci k ní laskaví nebyli: poškozený originál putoval do Národní galerie a postava, kterou vidíte, je kopie z bílého pískovce z roku 1953. Roku 2015 byla kašna obnovena a dostala novou olověnou nádrž a nové potrubí.
+
+🎁 Bonus: Odkud se jméno vzalo, nikdo přesně neví, snad podle dívky, která sem chodila pro vodu. Vypráví se, že vysloužilý rytmistr od dragounů, který bydlel v nárožním domě v Linhartské, ji pozoroval z okna, zamiloval se a odkázal jí v závěti deset tisíc zlatých. Zklamaní příbuzní šli k soudu a Terezka neviděla ani krejcar.`,
+      zh: `克拉姆-加拉斯宫花园墙上的一个壁龛里，坐着一位年轻女子，正从两只水罐里往外倒水，这一倒就是两百多年。按官方说法，她是伏尔塔瓦河；可在布拉格人嘴里，她一直叫“小特蕾莎”。
+
+这座喷泉是雕塑家瓦茨拉夫·普拉赫纳1812年按巴伐利亚画家约瑟夫·贝格勒的设计做的。两只水罐代表伏尔塔瓦河的两个源头，上面的五颗星让人想起被扔进伏尔塔瓦河的圣约翰·内波穆克。墙后的花园建于1800年，原址是“水塘边圣母小教堂”的墓地，广场的名字就来自这座教堂，教堂的遗迹就埋在喷泉下面不远处。游客对她并不温柔：受损的原作被送进了国家美术馆，你现在看到的是1953年用白砂岩做的复制品。2015年喷泉又修复了一次，换上了新的铅制水池和新管道。
+
+🎁 彩蛋：这个名字从哪来，谁也说不准，也许是因为一个常来这里打水的姑娘。传说住在林哈特街拐角房子里的一位退役龙骑兵上尉，天天从窗口看着她，爱上了她，还在遗嘱里给她留了一万枚金币。失望的亲戚们告上了法庭，结果小特蕾莎一个子儿也没拿到。`,
+    },
+  },
+  {
+    // Corner of the New Town Hall toward Platnéřská (2026-11-19, user's
+    // coordinates, for the Mariánské náměstí pack). Šaloun, building 1908-11
+    // by Polívka (prague.eu), guild of armourers in U Železného muže from
+    // 1573 (old-prague.com); legend as in the New Town Hall card.
+    name: 'Iron Man Statue',
+    slug: 'socha-zelezny-muz',
+    localizedNames: { cz: 'Železný muž', zh: '铁人像' },
+    labels: ['sculpture', 'art-nouveau'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.0872935497591, lng: 14.417808967658035 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `On the corner of the New Town Hall facing Platnéřská stands a knight in full armour with no face, just a dark visor where his eyes should be. He is Prague's Iron Man, and by the city's own legend he has been waiting a very long time for someone to talk to him.
+
+When the New Town Hall went up in 1908–1911 to designs by Osvald Polívka, the sculptor Ladislav Šaloun filled its two corners with figures from Prague legends instead of the usual allegories: Rabbi Löw on one, the Iron Man on the other. The story behind him belongs to Platnéřská itself, the street of the armourers; from 1573 their guild met in a house called At the Iron Man, whose sign was a knight in armour. The tale, in its best-known form, is of a young man who killed the woman he loved in a fit of jealousy and was turned to iron for it, to be set free only by words of forgiveness from an innocent girl. In 2004 the statues were restored along with the rest of the façade.
+
+🎁 Bonus: In the legend he may leave his place only rarely and walks the old streets at night looking for that girl. Prague, being Prague, has supplied plenty of ghost tours since, but so far nobody has broken the spell.`,
+      cz: `Na nároží Nové radnice do Platnéřské stojí rytíř v plné zbroji bez tváře, jen s tmavým hledím tam, kde by měl mít oči. Je to pražský Železný muž a podle staré pověsti už hodně dlouho čeká, až na něj někdo promluví.
+
+Když v letech 1908–1911 rostla Nová radnice podle návrhu Osvalda Polívky, sochař Ladislav Šaloun osadil její dvě nároží místo obvyklých alegorií postavami z pražských pověstí: na jedno rabiho Löwa, na druhé Železného muže. Příběh za ním patří přímo Platnéřské, ulici platnéřů; od roku 1573 se jejich cech scházel v domě U Železného muže, který měl ve znamení rytíře ve zbroji. Pověst v nejznámější podobě vypráví o mladíkovi, který v návalu žárlivosti zabil dívku, kterou miloval, a byl za to proměněn v železo, a vysvobodit ho může jen slovo odpuštění z úst nevinné dívky. Roku 2004 byly sochy restaurovány spolu s celým průčelím.
+
+🎁 Bonus: Podle pověsti smí své místo opustit jen zřídka a v noci chodí starými ulicemi a hledá tu dívku. Praha mu od té doby dodala spoustu strašidelných procházek, ale kletbu zatím nikdo nezlomil.`,
+      zh: `新市政厅朝着普拉特涅尔斯卡街的那个转角上，站着一位全身铠甲、没有脸的骑士，眼睛的位置只有一道黑黢黢的面甲缝。他就是布拉格的“铁人”，按照老传说，他等着有人跟他说句话，已经等了很久很久。
+
+1908到1911年，新市政厅按奥斯瓦尔德·波利夫卡的设计建起来时，雕塑家拉迪斯拉夫·沙隆没有在两个转角放常见的寓意像，而是放了布拉格传说里的人物：一边是罗乌拉比，一边就是铁人。他的故事属于普拉特涅尔斯卡街本身，这是一条铠甲匠的街；从1573年起，铠甲匠行会就在一栋叫“铁人之家”的房子里聚会，招牌正是一位披甲骑士。流传最广的版本说，一个年轻人因为嫉妒杀了自己心爱的姑娘，被罚变成了铁，只有一位无辜少女说出原谅的话，他才能解脱。2004年，这些雕像和整面外墙一起修复过。
+
+🎁 彩蛋：传说他难得能离开自己的位置，夜里在老街上游荡，寻找那位姑娘。布拉格当然顺水推舟，从此多了不少鬼故事徒步游，可到现在也没人解开这道咒语。`,
+    },
+  },
+  {
+    // Ovocný trh 579/6, next to the Estates Theatre (2026-11-19, user's
+    // coordinates, for the Ovocný trh pack). cs.wikipedia "Kolowratský palác":
+    // U Bílého medvěda 1670 (Orsi?), U Modrého hroznu 1697, finished 1725,
+    // Langweil model, rebuilds 1927/1951, restitution 1991, lease to the
+    // National Theatre 1993 for 1 CZK a year, Divadlo Kolowrat in the attic
+    // (the article says the theatre decided to leave in 2014, so past tense).
+    name: 'Kolowrat Palace',
+    slug: 'kolowratsky-palac-ovocny-trh',
+    localizedNames: { cz: 'Kolowratský palác', zh: '科洛夫拉特宫' },
+    labels: ['baroque', 'palace'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.08595809185802, lng: 14.424186535669525 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Next door to the Estates Theatre stands a long Baroque front that most theatregoers walk past on their way in. It belongs to the Kolowrat Palace, and for years it was in on the act: the theatre's own chamber stage sat up in its attic.
+
+The palace grew out of two Gothic houses. The Kolowrats acquired the first, At the White Bear, in 1670 and had it rebuilt, probably to a design by Giovanni Domenico Orsi; in 1697 they bought the neighbouring house, At the Blue Grape, and joined it on, and the Baroque rebuild of both was finished in 1725. Around 1830, as the Langweil model of Prague shows, the palace had four wings, a sala terrena and a garden running all the way to Na Příkopě. Heavy rebuilds in 1927 and 1951 left only the wing facing the square, which still keeps its Baroque vaults on the ground floor and painted beam ceilings upstairs. After 1989 the palace went back to the Kolowrat family, and in the attic the National Theatre ran a small drama stage, the Kolowrat Theatre, linked to the Estates Theatre by an underground corridor.
+
+🎁 Bonus: In 1993 Count Jindřich Kolowrat-Krakowský leased the palace to the National Theatre for twenty years at a rent of one crown a year, probably the best deal any Prague theatre has ever had.`,
+      cz: `Hned vedle Stavovského divadla stojí dlouhé barokní průčelí, kolem kterého většina návštěvníků divadla projde cestou dovnitř. Patří Kolowratskému paláci a ten léta hrál s nimi: v jeho podkroví sídlila komorní scéna divadla.
+
+Palác vznikl ze dvou gotických domů. První, U Bílého medvěda, získali Kolowratové roku 1670 a dali ho přestavět, nejspíš podle návrhu Giovanniho Domenica Orsiho; roku 1697 koupili sousední dům U Modrého hroznu a připojili ho a barokní přestavba obou byla dokončena roku 1725. Kolem roku 1830, jak ukazuje Langweilův model Prahy, měl palác čtyři křídla, salu terrenu a zahradu, která sahala až na Příkopy. Velké přestavby v letech 1927 a 1951 z něj nechaly jen křídlo do náměstí, které si dodnes drží barokní klenby v přízemí a malované trámové stropy v patře. Po roce 1989 se palác vrátil rodině Kolowratů a v podkroví provozovalo Národní divadlo malou činoherní scénu, Divadlo Kolowrat, spojenou se Stavovským divadlem podzemní chodbou.
+
+🎁 Bonus: Roku 1993 pronajal hrabě Jindřich Kolowrat-Krakowský palác Národnímu divadlu na dvacet let za nájem jedné koruny ročně, což je nejspíš nejlepší obchod, jaký kdy nějaké pražské divadlo uzavřelo.`,
+      zh: `庄园剧院隔壁，有一面长长的巴洛克门面，大多数去看戏的人都是从它前面直接走进剧院的。这就是科洛夫拉特宫，而且好些年里，它也是剧院的一员：剧院自己的小剧场就设在它的阁楼上。
+
+这座宫殿由两栋哥特式房子合并而来。1670年，科洛夫拉特家族买下了第一栋“白熊之家”，大概按乔瓦尼·多梅尼科·奥尔西的设计重建；1697年，他们又买下隔壁的“蓝葡萄之家”并连在一起，两栋房子的巴洛克改建在1725年完工。从朗韦尔的布拉格城市模型可以看到，1830年前后，这座宫殿有四翼、一间花园厅，花园一直延伸到护城河街。1927年和1951年的两次大改建之后，只剩下朝着广场的这一翼，一楼至今保留着巴洛克拱顶，楼上还有彩绘木梁天花板。1989年以后，宫殿归还给了科洛夫拉特家族，国家剧院在阁楼上经营过一个小话剧场，叫“科洛夫拉特剧场”，有一条地下通道和庄园剧院相连。
+
+🎁 彩蛋：1993年，伯爵因德日赫·科洛夫拉特-克拉科夫斯基把宫殿租给国家剧院，租期二十年，租金每年一克朗。这大概是布拉格所有剧院谈成过的最划算的一笔买卖。`,
     },
   },
 ];

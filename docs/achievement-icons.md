@@ -571,3 +571,19 @@ jewel_box: a small open wooden jewellery box with a red velvet lining, large and
 ```
 hundred_spires: a crowded skyline of many different towers squeezed shoulder to shoulder, large and filling the square: dark Gothic gate towers with pointed roofs, a slim stone water tower, a little iron lookout tower like a small Eiffel tower, a tall concrete TV tower with pods, a modern glass high-rise and church spires with gold crosses. The joke: a tiny man on a ladder in the front, holding a long tally stick covered in notches, counting them one by one, with a big pile of discarded tally sticks at the ladder's foot.
 ```
+
+### Group 54: 意式风情, done (2026-11-19)
+
+```
+dolce_vita: a small Prague street corner turned Italian, large and filling the square: a Baroque house front with green shutters and a little balcony, an Italian tricolour flag (three vertical stripes, green, white and red, no letters) hanging from it, and on the cobbles in front a tiny café table with a steaming espresso cup and a plate of spaghetti; behind the rooftops a red-tiled Baroque dome, so it is clearly Prague, not Rome.
+```
+
+### Group 55: Böhmische Dörfer, done (2026-11-19)
+
+The first idea (a village under a magnifying glass, after the saying) was
+dropped by the user: with a German flag on it the joke no longer works, so the
+icon shows the achievement's real subject, Czechs and Germans as neighbours.
+
+```
+bohmische_dorfer: two old Prague houses, large and filling the square, leaning towards each other across a very narrow cobbled lane so their top windows almost touch; from the left window hangs a Czech flag (two horizontal stripes, white on top and red below, with a blue triangle pointing in from the pole side), from the right window a German flag (three horizontal stripes, black, red and gold); a neighbour leans out of each window and they hand each other a plate across the gap, a Czech dumpling going one way and a pretzel the other; behind and between the roofs the silhouette of Prague Castle with St Vitus' spires. No letters, words or labels anywhere in the picture.
+```

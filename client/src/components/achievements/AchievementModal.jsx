@@ -122,7 +122,7 @@ export default function AchievementModal({ achievement: ach, onClose }) {
             ))}
             {r.packs && (
               <div>
-                <div className="ach-modal__sublabel" style={{ marginTop: 10 }}>{t('ach.pickNPacks', { n: r.packs.need })}</div>
+                <div className="ach-modal__sublabel" style={{ marginTop: 10 }}>{r.packs.need >= r.packs.items.length ? t('ach.requiredPacks') : t('ach.pickNPacks', { n: r.packs.need })}</div>
                 <ul className="ach-places">
                   {r.packs.items.map(pk => (
                     <li key={pk.slug} className={`ach-places__item${pk.done ? ' ach-places__item--done' : ''}`}>

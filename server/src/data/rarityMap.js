@@ -167,7 +167,6 @@ export const SLUG_RARITY = {
   'hanavsky-pavilon':             'rare',  // cast-iron neo-rococo pavilion, Letná Park
   'vyton':                        'rare',
   'kostel-sv-havla':              'rare',
-  'celetna':                      'rare',
   'holesovicky-pivovar':          'rare',
   'u-zlateho-tygra':              'rare',
   'hrzansky-palac':               'rare',

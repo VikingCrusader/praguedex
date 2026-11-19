@@ -223,10 +223,14 @@ describe('evaluateAchievements', () => {
   });
 
   test('metamorphosis needs all its places', () => {
-    const all = ["kafkuv-dum", "palac-goltz-kinskych", "golden-lane", "kafka-museum", "kafka-statue", "kafka-rotating-head", "new-jewish-cemetery-1782861254358", "delnicka-urazova-pojistovna-na-porici", "fairmont-golden-prague"];
+    const all = ["kafkuv-dum", "palac-goltz-kinskych", "golden-lane", "kafka-museum", "kafka-statue", "kafka-rotating-head", "new-jewish-cemetery-1782861254358", "delnicka-urazova-pojistovna-na-porici", "fairmont-golden-prague",
+      "dum-u-minuty", "sixtuv-dum", "dum-u-tri-kralu", "palac-hrzanu-celetna", "palac-generali", "schnborn-palace-embassy-of-the-us-1782396405461",
+      "palac-louvre", "hotel-evropa-1783748217364"];
     const ids = s => evaluateAchievements({ ...baseStats, checkedSlugs: s }, []).map(a => a.id);
     expect(ids(all)).toContain('metamorphosis');
     expect(ids(all.slice(1))).not.toContain('metamorphosis');
+    // Two of the three haunts are needed, not one.
+    expect(ids(all.slice(0, -1))).not.toContain('metamorphosis');
   });
 
   test('prague_understands_me needs all its places', () => {

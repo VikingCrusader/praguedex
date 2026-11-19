@@ -258,17 +258,17 @@ Rozvod vstoupil v platnost 1. ledna 1993 bez jediného výstřelu, proto se mu �
   },
 
   metamorphosis: {
-    en: `Franz Kafka was born in 1883 in a house beside St Nicholas on Old Town Square and spent almost his whole life within a short walk of it: school in the Goltz-Kinský Palace, where his father kept a haberdashery, and fourteen years as a lawyer at the Workers' Accident Insurance Institute on Na Poříčí, writing at night. In the winter of 1916 he worked in a tiny house on Golden Lane rented by his sister Ottla.
+    en: `Franz Kafka was born in 1883 in a house beside St Nicholas on Old Town Square and spent almost his whole life within a short walk of it: school in the Goltz-Kinský Palace, where his father kept a haberdashery, and fourteen years as a lawyer at the Workers' Accident Insurance Institute on Na Poříčí, writing at night. In between, the family moved from flat to flat round the square, to the House at the Minute and two houses in Celetná among others, and his first job was nine months as a clerk at Generali on Wenceslas Square. In the winter of 1916 he worked in a tiny house on Golden Lane rented by his sister Ottla.
 
 In The Metamorphosis the salesman Gregor Samsa wakes up one morning as a monstrous insect. Kafka never says what kind; he even asked his publisher not to draw it on the cover. Only the charwoman, who isn't afraid of him, calls him "old dung beetle", and so everyone has pictured a beetle ever since.
 
 He published little, and before he died in 1924 asked his friend Max Brod to burn the rest. Brod didn't, and so the world got The Trial and The Castle.`,
-    cz: `Franz Kafka se narodil roku 1883 v domě vedle svatého Mikuláše na Staroměstském náměstí a skoro celý život strávil kousek od něj: gymnázium v paláci Goltz-Kinských, kde měl otec galanterii, a čtrnáct let jako právník v Dělnické úrazové pojišťovně na Poříčí, psaní po nocích. V zimě 1916 psal v malém domku ve Zlaté uličce, který si pronajala jeho sestra Ottla.
+    cz: `Franz Kafka se narodil roku 1883 v domě vedle svatého Mikuláše na Staroměstském náměstí a skoro celý život strávil kousek od něj: gymnázium v paláci Goltz-Kinských, kde měl otec galanterii, a čtrnáct let jako právník v Dělnické úrazové pojišťovně na Poříčí, psaní po nocích. Mezitím se rodina stěhovala z bytu do bytu kolem náměstí, mimo jiné do domu U Minuty a do dvou domů v Celetné, a jeho první prací bylo devět měsíců úředníkem u Generali na Václavském náměstí. V zimě 1916 psal v malém domku ve Zlaté uličce, který si pronajala jeho sestra Ottla.
 
 V Proměně se obchodní cestující Řehoř Samsa jednoho rána probudí jako obrovský hmyz. Jaký, Kafka nikdy neřekl; nakladatele dokonce žádal, aby ho na obálku nekreslil. Jen posluhovačka, která se ho nebojí, mu říká „starý chrobáku“, a tak si ho od té doby všichni představují jako brouka.
 
 Vydal málo, a než roku 1924 zemřel, požádal přítele Maxe Broda, aby zbytek spálil. Brod to neudělal, a tak svět dostal Proces a Zámek.`,
-    zh: `卡夫卡1883年出生在老城广场圣尼古拉教堂旁边的一栋房子里，几乎一辈子都没离开那一带多远：中学在戈尔茨-金斯基宫读，父亲的杂货铺也开在那里；后来在波日奇街的工人事故保险局当了十四年法律职员，夜里写作。1916年冬天，他在黄金巷妹妹奥特拉租下的小屋里写东西。
+    zh: `卡夫卡1883年出生在老城广场圣尼古拉教堂旁边的一栋房子里，几乎一辈子都没离开那一带多远：中学在戈尔茨-金斯基宫读，父亲的杂货铺也开在那里；后来在波日奇街的工人事故保险局当了十四年法律职员，夜里写作。这期间，他家在广场周围一处一处地搬，住过一分钟之家，也住过采列特纳街上的两栋房子；他的第一份工作，是在瓦茨拉夫广场的忠利保险公司当了九个月职员。1916年冬天，他在黄金巷妹妹奥特拉租下的小屋里写东西。
 
 《变形记》里，推销员格里高尔·萨姆沙一天早上醒来，发现自己变成了一只巨大的虫子。至于是什么虫，卡夫卡从没说过，还特意叮嘱出版商别在封面上画它。只有那个不怕他的老女佣管他叫“老屎壳郎”，于是从那以后，大家想象中的他就成了一只甲虫。
 

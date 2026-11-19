@@ -38951,6 +38951,567 @@ Palác vznikl ze dvou gotických domů. První, U Bílého medvěda, získali Ko
 🎁 彩蛋：1993年，伯爵因德日赫·科洛夫拉特-克拉科夫斯基把宫殿租给国家剧院，租期二十年，租金每年一克朗。这大概是布拉格所有剧院谈成过的最划算的一笔买卖。`,
     },
   },
+  {
+    // Panská 897/12, on the corner of Jindřišská (2026-11-19, user's
+    // coordinates, for the Jindřišská pack). No Wikipedia article.
+    // famoushotels.org (the hotel's own history): opened 21 April 1909,
+    // Viennese Art Nouveau, designed by the builder and owner František
+    // Buldra with the architect George Justich; bought by Emanuel Oppel in
+    // 1924 and made the city's leading hotel; closed 1 January 1986, rebuilt
+    // "house within a house" keeping the outer walls, reopened 1989.
+    // ceskemozaiky.cz: glass mosaic lettering, PALACE four times and HOTEL
+    // twice, on the Panská and Jindřišská fronts, dated 1924. Its communist
+    // years and the famous-guest lists couldn't be checked, so left out.
+    name: 'Hotel Palace',
+    slug: 'hotel-palace-panska',
+    localizedNames: { cz: 'Hotel Palace', zh: '宫殿酒店' },
+    labels: ['art-nouveau'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.083861760557305, lng: 14.427890019561397 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `On the corner of Panská and Jindřišská stands a cream-coloured Art Nouveau hotel with a green copper roof. It has been called Palace since 1909 and spells it out in gold mosaic, four times, in case once wasn't enough. It is one of the few grand Prague hotels of its day that is still a hotel.
+
+It opened on 21 April 1909. It was designed by its owner, the Prague builder František Buldra, together with the architect George Justich, in the Viennese version of Art Nouveau: calmer and more geometric than the swirling Parisian kind, with a smooth façade, fine stucco and a corner that turns gracefully from one street into the other. In 1924 the hotel was bought by Emanuel Oppel, who made it the smartest address in the city, and the glass mosaic lettering on both fronts, PALACE four times and HOTEL twice, dates from his time.
+
+By the 1980s the building was worn out. On 1 January 1986 it closed and was rebuilt as a "house within a house": the outer walls and the façade were kept, and a completely new hotel was built inside them. It reopened in 1989, just in time for a very different country.
+
+🎁 Bonus: The main post office stands across the street, so for over a century guests have been able to write "wish you were here" and post it before reaching the corner.`,
+      cz: `Na rohu Panské a Jindřišské stojí krémově bílý secesní hotel se zelenou měděnou střechou, který se od roku 1909 jmenuje Palace a pro jistotu to hlásá zlatou mozaikou čtyřikrát, kdyby jednou nestačilo. Patří k málu velkých pražských hotelů své doby, které jsou hotelem dodnes.
+
+Otevřel 21. dubna 1909. Navrhl ho jeho majitel, pražský stavitel František Buldra, spolu s architektem Georgem Justichem, ve vídeňské podobě secese: klidnější a geometričtější než rozevláté pařížské, s hladkou fasádou, jemnou štukovou výzdobou a nárožím, které se ladně stáčí z jedné ulice do druhé. Roku 1924 hotel koupil Emanuel Oppel a udělal z něj nejelegantnější adresu ve městě; z jeho doby pochází i skleněná mozaiková písmena na obou průčelích, čtyřikrát PALACE a dvakrát HOTEL.
+
+V 80. letech už byla budova opotřebovaná. 1. ledna 1986 se zavřela a přestavěla se systémem „dům v domě“: obvodové zdi a fasáda zůstaly a uvnitř nich vyrostl úplně nový hotel. Znovu otevřel roku 1989, právě včas pro úplně jinou zemi.
+
+🎁 Bonus: Přes ulici stojí hlavní pošta, takže hosté mohou už přes sto let napsat pohled „škoda, že tu nejsi“ a odeslat ho, než dojdou na roh.`,
+      zh: `潘斯卡街和圣亨利街的转角上，立着一栋奶白色、顶着绿色铜皮屋顶的分离派酒店。它从1909年起就叫“宫殿”，还怕你没看见，用金色马赛克在墙上拼了四遍。在当年布拉格的大酒店里，它是少数几家到今天还在当酒店的。
+
+酒店在1909年4月21日开业，设计者是业主本人、布拉格建造商弗兰蒂谢克·布尔德拉，和建筑师乔治·尤斯蒂赫一起完成。风格是维也纳式的分离派：比巴黎那种飘逸卷曲的新艺术更安静、更讲几何，门面平整，灰泥装饰精细，转角从一条街优雅地转进另一条街。1924年，埃马努埃尔·奥佩尔买下酒店，把它变成了全城最体面的地址；两面墙上那些玻璃马赛克字母，四个PALACE、两个HOTEL，也是他那个时候装上的。
+
+到了80年代，这栋楼已经旧得不行了。1986年1月1日，酒店关门，按“房中房”的办法重建：外墙和门面原样保留，里面整个盖了一座新酒店。1989年它重新开业，正好赶上一个完全不同的国家。
+
+🎁 彩蛋：总邮局就在街对面。一百多年来，住在这里的客人写完一张“真希望你也在”的明信片，走到街角之前就能寄出去。`,
+    },
+  },
+  {
+    // Jindřišská 939/20, also the Goldberg House or the palace At the Green
+    // Meadow (2026-11-19, user's coordinates, for the Jindřišská pack).
+    // cs.wikipedia "Harrachovský palác": Gothic cellars of older houses;
+    // owned in the 18th century by Count Václav Ignác Deym of Stříteže, used
+    // mostly as a granary; hit by Prussian guns in 1757; rebuilt into a palace
+    // by the commercial councillor Jiří Tobiáš Goldberg z Kholbergu, done
+    // around 1770, façade altered 1777; architect Antonín Schmidt (newly
+    // shown; long wrongly given to Palliardi); bought 1856 by Count František
+    // Arnošt Harrach, after whom it is named; heirs sold it to the state in
+    // 1921, which gave it to the Obuv Praha shoe enterprise; sold in 1991 to a
+    // Baťa-linked company, which rebuilt and extended it 2015-2017 to a design
+    // by AV 19; offices, shops and the Museum of Senses. Cultural monument.
+    name: 'Harrach Palace',
+    slug: 'harrachovsky-palac-jindrisska',
+    localizedNames: { cz: 'Harrachovský palác', zh: '哈拉赫宫' },
+    labels: ['palace', 'baroque'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.08408045197841, lng: 14.428881721284775 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Halfway along Jindřišská stands a calm Baroque palace with three names, and the one that stuck belongs to a family who bought it almost a century after it was built. Before it was grand, it stored grain; once it was grand, it ended up in the shoe trade. Today it deals in illusions, as the home of the Museum of Senses.
+
+The site once held several smaller houses, the oldest of them Gothic, as their cellars still show. In the 18th century it belonged to Count Václav Ignác Deym of Stříteže, who used it mostly as a granary, and in 1757 the Prussian guns besieging Prague hit it. The real transformation came from Jiří Tobiáš Goldberg, a merchant and commercial councillor, who added a neighbouring house and turned the whole into a palace, finished around 1770, with its façade altered in 1777. It was long credited to Ignác Palliardi, but its architect has now been shown to be Antonín Schmidt.
+
+In 1856 the palace was bought by Count František Arnošt Harrach, and his name stuck. His heirs sold it to the Czechoslovak state in 1921, and it ended up with the state shoe company Obuv Praha. In 1991 it was sold to a company linked to the Baťa shoe firm, which restored it and added a modern extension in 2015 to 2017. Inside are offices, shops and the Museum of Senses.
+
+🎁 Bonus: Goldberg built it and the Harrachs named it, but the shoemakers, first the state's and then Baťa's, have held it the longest.`,
+      cz: `V půli Jindřišské stojí klidný barokní palác se třemi jmény a to, které se ujalo, patří rodu, jenž ho koupil skoro sto let poté, co byl postaven. Než byl honosný, skladovalo se v něm obilí; když už honosný byl, skončil v obuvnickém byznysu. Dnes obchoduje s iluzemi, protože v něm sídlí Muzeum smyslů.
+
+Na místě dřív stálo několik menších domů, z nichž nejstarší byl gotický, jak dodnes ukazují sklepy. V 18. století patřil hraběti Václavu Ignáci Deymovi ze Stříteže, který ho používal hlavně jako sýpku, a roku 1757 ho zasáhla pruská děla obléhající Prahu. Skutečnou proměnu přinesl až Jiří Tobiáš Goldberg z Kholbergu, obchodník a komerční rada, který přikoupil sousední dům a celek přestavěl na palác, hotový kolem roku 1770, s fasádou upravenou roku 1777. Dlouho se připisoval Ignáci Palliardimu, nově se ale prokázalo, že jeho architektem byl Antonín Schmidt.
+
+Roku 1856 palác koupil hrabě František Arnošt z Harrachu a jeho jméno už mu zůstalo. Dědicové ho roku 1921 prodali československému státu a palác nakonec připadl podniku Obuv Praha. Roku 1991 ho koupila společnost spojená s firmou Baťa, která ho v letech 2015 až 2017 opravila a přistavěla k němu moderní křídlo. Uvnitř jsou kanceláře, obchody a Muzeum smyslů.
+
+🎁 Bonus: Goldberg ho postavil a Harrachové mu dali jméno, nejdéle ho ale drželi obuvníci, nejdřív státní a pak Baťovi.`,
+      zh: `圣亨利街走到一半，有一座安静的巴洛克宫殿。它有三个名字，最后叫开的那个，属于一个在它建成将近一百年后才买下它的家族。它还没气派起来的时候是粮仓，气派起来以后进了鞋业，如今做的是错觉的生意：感官博物馆就开在这里。
+
+这块地上原来是几栋小房子，最老的一栋是哥特式的，地窖至今还在。18世纪，它属于德伊姆伯爵瓦茨拉夫·伊格纳茨，他主要拿它当粮仓用；1757年普鲁士军队围攻布拉格时，炮弹还打中过它。真正让它脱胎换骨的，是商人兼商务参事伊日·托比亚什·戈尔德贝格：他买下隔壁的房子，把两栋合成一座宫殿，大约在1770年完工，1777年又改了门面。很长时间里，人们都把它算在伊格纳茨·帕利亚尔迪名下，后来才查清，真正的建筑师是安东宁·施密特。
+
+1856年，哈拉赫伯爵弗兰蒂谢克·阿尔诺什特买下了宫殿，从此它就叫了哈拉赫宫。1921年，他的继承人把它卖给了捷克斯洛伐克国家，宫殿后来落到了国营鞋业公司“布拉格鞋业”手里。1991年，它又被卖给一家和巴塔鞋业有关的公司；这家公司在2015到2017年间把它修复，还加盖了一座现代的新翼。如今里面是办公室、商店和感官博物馆。
+
+🎁 彩蛋：戈尔德贝格盖了它，哈拉赫家给了它名字，可守着它最久的，是做鞋的：先是国家的，后是巴塔的。`,
+    },
+  },
+  {
+    // Terraced park on Žižkov between Riegrovy sady and VŠE (2026-11-19,
+    // user's coordinates). prague.eu: vineyard of the Old Town parish of St
+    // Nicholas; garden restaurant with concerts from 1876; balloon flights
+    // thanks to the nearby gasworks; from 1885 the city's park nursery with
+    // greenhouses by František Thomayer, where orchids were grown; four
+    // terraces. Pražský deník 11 Apr 2007: Prague 3's regeneration, about
+    // CZK 30 million, a kindergarten once stood on the plot, fenced and locked
+    // at night, due to open at the end of September 2007. kudyznudy.cz:
+    // sandstone stairs with an artificial mountain stream, pond with fish and
+    // turtles, gazebo at the top used for weddings. No architect named and no
+    // explanation of the name found, so neither is given.
+    name: 'Rajská zahrada Park',
+    slug: 'park-rajska-zahrada-zizkov',
+    localizedNames: { cz: 'Rajská zahrada', zh: '天堂花园公园' },
+    labels: ['park'],
+    district: 'Praha 3',
+    quarter: 'Žižkov',
+    coordinates: { lat: 50.0822672931416, lng: 14.442396714092729 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Tucked between Riegrovy sady and the University of Economics, the Paradise Garden climbs a Žižkov slope in four terraces, with a stream running down the stairs in the middle. Paradise, it turns out, has opening hours: the gates are locked at night, and a caretaker keeps the peace.
+
+The land has been many things before a park. It began as a large vineyard belonging to the parish of St Nicholas in the Old Town. In 1876 a garden restaurant opened here with concerts, and thanks to the gasworks nearby, balloons were later filled and launched from it. From 1885 the plot was the city's nursery garden for Prague's parks, with greenhouses designed by the garden architect František Thomayer, where orchids were grown. New streets and buildings slowly closed in on every side, a kindergarten stood here for a while, and what was left was a steep, neglected plot.
+
+In 2007 the Prague 3 district rebuilt it as a public park for about 30 million crowns, its largest green investment in years. Each terrace got its own use, so the noisy and the quiet don't get in each other's way: playgrounds at the bottom, a sports pitch, pétanque and table tennis, and higher up a pond with water plants, fish and turtles. Sandstone stairs run through the middle, and an artificial mountain stream tumbles down beside them. At the top stands a gazebo with a view across Žižkov to Prague Castle.
+
+🎁 Bonus: The gazebo at the top is a popular place for weddings, so on a summer Saturday you may share the view with a bride, a photographer and a row of guests trying not to fall into the stream.`,
+      cz: `Mezi Riegrovými sady a Vysokou školou ekonomickou šplhá žižkovským svahem Rajská zahrada ve čtyřech terasách a prostředkem po schodech jí stéká potok. Ráj, jak se ukazuje, má otevírací dobu: v noci se zamyká a o pořádek se stará správce.
+
+Než se z pozemku stal park, vystřídal několik rolí. Začínal jako velká vinice, která patřila staroměstské faře u sv. Mikuláše. Roku 1876 tu otevřela zahradní restaurace s koncerty a díky blízké plynárně se odsud později plnily a vypouštěly balony. Od roku 1885 sloužil pozemek jako městské zahradnictví pro pražské parky se skleníky podle návrhu zahradního architekta Františka Thomayera, ve kterých se pěstovaly orchideje. Nové ulice a domy se k němu ze všech stran pomalu přibližovaly, nějaký čas tu stála mateřská škola a nakonec zbyl prudký zanedbaný svah.
+
+Roku 2007 ho Praha 3 přestavěla na veřejný park za zhruba třicet milionů korun, svou největší investici do zeleně za několik let. Každá terasa dostala vlastní účel, aby si hluční a tiší nepřekáželi: dole dětská hřiště, sportovní plocha, pétanque a stolní tenis, výš jezírko s vodními rostlinami, rybami a želvami. Prostředkem vedou pískovcové schody a vedle nich stéká umělá horská bystřina. Nahoře stojí altán s výhledem přes Žižkov až na Pražský hrad.
+
+🎁 Bonus: Altán nahoře je oblíbeným místem svateb, takže v letní sobotu se o výhled možná podělíte s nevěstou, fotografem a řadou hostů, kteří se snaží nespadnout do potoka.`,
+      zh: `天堂花园夹在里格尔公园和经济大学之间，顺着日什科夫的山坡分成四层台地往上爬，中间的台阶旁还淌着一条小溪。原来天堂也有营业时间：晚上大门上锁，由管理员看着。
+
+这块地在变成公园之前，换过好几种身份。它起初是一大片葡萄园，属于老城圣尼古拉堂区。1876年，这里开了一家带音乐会的花园餐馆；后来又因为附近有煤气厂，人们在这里给热气球充气、放飞。从1885年起，这块地成了给布拉格各个公园育苗的市属苗圃，温室由园林设计师弗兰蒂谢克·托马耶尔设计，里面养过兰花。新街道和新房子从四面八方慢慢围过来，这里还一度盖过幼儿园，最后只剩下一片陡峭、荒废的坡地。
+
+2007年，布拉格第三区花了大约三千万克朗，把它改建成公园，这是该区多年来在绿地上最大的一笔投资。每一层台地各有用途，好让爱热闹的和爱清静的互不打扰：下面是儿童游乐场、运动场、滚球场和乒乓球台，再往上是一个种着水草、养着鱼和乌龟的小池塘。中间是一道砂岩台阶，旁边一条人造山溪顺势流下。最高处有一座凉亭，可以越过日什科夫一直望到布拉格城堡。
+
+🎁 彩蛋：山顶的凉亭很受新人欢迎，常有人在这里办婚礼。所以夏天的周六来，你可能要和一位新娘、一位摄影师，外加一排努力别掉进溪里的宾客，一起分享这片风景。`,
+    },
+  },
+  {
+    // Bubeneč, Praha 6 (2026-11-19, user's coordinates; the user asked for
+    // the airmen's memorial and Hladík's Peace group to be part of this
+    // card). virtualni.praha.eu: Dürichovo náměstí until 1940, Scharnhorstplatz
+    // 1940-45, Dürich again, náměstí Svobody since 1947; Ministry of Defence
+    // building 471/27 of 1925 with four soldier statues from Břetislav Benda's
+    // studio; schools on the east side (ZŠ Emy Destinnové); the Glass House
+    // 728/1 by Richard Ferdinand Podzemný, first tenants 1938; memorial
+    // foundation stone 29 Oct 1993, unveiled 12 May 1995, by František
+    // (Franta) Bělský. turistika.cz (via search): broken wings, marble panels
+    // with the names of all 546 Czechoslovak airmen killed in the war. RAF
+    // Museum: put up by the Association of Czechoslovak Foreign Airmen 1939.
+    // GHMP restoration plan (via search): Peace (children with a dove), stone,
+    // by Karel Hladík, 1960, moved for the memorial in 1995 and set back up
+    // nearby three years later; Hladík died after an accident in his studio
+    // in 1967. virtualni.praha.eu dates Peace to the late 1920s, which can't
+    // be right for a sculptor born in 1912, so the GHMP date is used.
+    name: 'Freedom Square',
+    slug: 'namesti-svobody-bubenec',
+    localizedNames: { cz: 'Náměstí Svobody', zh: '自由广场' },
+    labels: ['square', 'world-wars'],
+    district: 'Praha 6',
+    quarter: 'Bubeneč',
+    coordinates: { lat: 50.100982244050805, lng: 14.399998624723535 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Freedom Square in Bubeneč is a quiet green square of schools, offices and functionalist flats a few steps from Vítězné náměstí. In the middle stands a memorial to the Czechoslovak airmen who died in the Second World War, and on the lawn nearby two stone children play with a dove.
+
+The square has been renamed with every change of regime. It was first named after Josef Dürich, a Czech politician of the resistance abroad in the First World War. In 1940 the occupiers renamed it after Gerhard von Scharnhorst, a Prussian general. Dürich came back after the war, and in 1947 the square got its present name, a celebration of the free Czechoslovak state. On its west side stands a large Ministry of Defence building from 1925, with four statues of Czechoslovak soldiers of the time from the studio of Břetislav Benda. On the corner is the Glass House, a functionalist block by Richard Ferdinand Podzemný whose first tenants moved in in 1938. The east side is schools, one of them named after the opera singer Ema Destinnová.
+
+The memorial was put up by the association of Czechoslovak airmen who had served abroad. Its foundation stone was laid on 29 October 1993 and it was unveiled on 12 May 1995. At its centre is a sculpture of broken wings, and marble panels carry the names of all 546 Czechoslovak airmen killed in the war, most of them flying with the RAF. Its sculptor, Franta Bělský, had himself gone to Britain as a young man and served in the Czechoslovak army in exile. He made this memorial for the comrades who never came home at a time when the survivors were finally being honoured instead of punished, as many had been under the communists. Before the memorial, the middle of the square belonged to Karel Hladík's Peace, a stone group of two children with a dove from 1960. It was moved to make room, and three years later set up again on the lawn in front of the schools.
+
+🎁 Bonus: Hladík also made a Peace for the rose garden at Lidice, the village the Nazis wiped out in 1942, so the two children on this lawn have a counterpart in one of the most solemn places in the country.`,
+      cz: `Náměstí Svobody v Bubenči je klidné zelené náměstí se školami, úřady a funkcionalistickými domy kousek od Vítězného náměstí. Uprostřed stojí památník československým letcům, kteří padli ve druhé světové válce, a na trávníku opodál si dvě kamenné děti hrají s holubicí.
+
+Náměstí se přejmenovávalo s každou změnou režimu. Nejdřív neslo jméno Josefa Düricha, českého politika zahraničního odboje za první světové války. Roku 1940 ho okupanti pojmenovali po pruském generálovi Gerhardu von Scharnhorstovi. Po válce se Dürich vrátil a roku 1947 dostalo náměstí dnešní jméno na oslavu svobodného československého státu. Na západní straně stojí velká budova ministerstva obrany z roku 1925 se čtyřmi sochami tehdejších československých vojáků z ateliéru Břetislava Bendy. Na rohu je Skleněný dům, funkcionalistický činžák Richarda Ferdinanda Podzemného, do kterého se první nájemníci nastěhovali roku 1938. Východní stranu tvoří školy, jedna z nich nese jméno operní pěvkyně Emy Destinnové.
+
+Památník postavilo sdružení československých letců, kteří sloužili v zahraničí. Základní kámen byl položen 29. října 1993 a odhalen byl 12. května 1995. Uprostřed je plastika zlomených křídel a mramorové desky nesou jména všech 546 československých letců, kteří ve válce zahynuli, většina z nich v RAF. Jeho autor Franta Bělský sám jako mladík odešel do Británie a sloužil v československé armádě v zahraničí. Památník kamarádům, kteří se domů nevrátili, vytvořil v době, kdy přeživší konečně dostávali poctu místo trestu, který mnohé z nich za komunistů stihl. Před památníkem patřil střed náměstí sousoší Mír Karla Hladíka z roku 1960, dvě kamenné děti s holubicí. Muselo mu uvolnit místo a o tři roky později bylo znovu postaveno na trávníku před školami.
+
+🎁 Bonus: Hladík vytvořil Mír také pro růžový sad v Lidicích, obci, kterou nacisté roku 1942 vyhladili, takže dvě děti na tomhle trávníku mají protějšek na jednom z nejvážnějších míst v zemi.`,
+      zh: `布贝内奇的自由广场是一片安静的绿地广场，四周是学校、办公楼和功能主义公寓，离胜利广场只有几步路。广场中央立着一座纪念碑，纪念二战中牺牲的捷克斯洛伐克飞行员；旁边的草坪上，两个石头孩子正和一只鸽子玩耍。
+
+这座广场每换一次政权，就换一次名字。它最早以约瑟夫·迪里赫命名，他是一战时期在海外抗争的捷克政治家。1940年，占领者把它改名为沙恩霍斯特广场，纪念一位普鲁士将军。战后迪里赫的名字回来了，1947年广场才得到今天的名字，用来庆祝重获自由的捷克斯洛伐克。广场西侧是一座1925年建成的国防部大楼，上面有四尊当时捷克斯洛伐克士兵的雕像，出自布热蒂斯拉夫·本达的工作室。转角处是“玻璃楼”，理查德·费迪南德·波德泽姆尼设计的功能主义公寓楼，1938年住进了第一批住户。东侧是几所学校，其中一所以歌剧女高音艾玛·戴斯汀诺娃命名。
+
+纪念碑由曾在海外服役的捷克斯洛伐克飞行员协会建立，1993年10月29日奠基，1995年5月12日揭幕。中央是一组折断的翅膀，大理石碑板上刻着全部546名在战争中牺牲的捷克斯洛伐克飞行员的名字，他们大多在英国皇家空军中作战。雕塑家弗兰塔·别尔斯基年轻时也去了英国，在流亡的捷克斯洛伐克军队中服役。他为那些没能回家的战友立下这座纪念碑时，幸存的飞行员终于开始得到荣誉，不再像共产党时期许多人那样遭受惩罚。在纪念碑之前，广场中央属于卡雷尔·赫拉迪克的《和平》，一组1960年的石雕，两个孩子和一只鸽子。为了给纪念碑让位，它被挪走，三年后重新立在了学校前的草坪上。
+
+🎁 彩蛋：赫拉迪克也为利迪策的玫瑰园做过一件《和平》。利迪策是1942年被纳粹夷平的村庄，所以这片草坪上的两个孩子，在全国最肃穆的地方之一，还有一对遥遥相望的同伴。`,
+    },
+  },
+  {
+    // Wuchterlova 523/5, facing Šabach Park (2026-11-19, user's coordinates).
+    // pragitecture.eu, goout.net, kudyznudy.cz, virtualni.praha.eu: designed
+    // by Jiří Stibral, built by Alois Zima 1925-27 (virtualni says 1925-26);
+    // theological college, patriarch's seat and prayer hall, now the church's
+    // headquarters; hall opened 19 Oct 1928; Karel Farský, founder and first
+    // patriarch, died here on 12 June 1927 (façade plaque); 42 m tower with
+    // the chalice and clock; vault modelled on Vladislav Hall; cross by Vilím
+    // Amort, bust of Hus by Ladislav Šaloun, busts of Farský and Procházka;
+    // columbarium of about 600 urns; Tuček organ laid out as a Hussite sun;
+    // relief of Hus taking leave of his friends by Josef Kotyza; listed 1990.
+    name: 'Hussite Congregation Dejvice',
+    slug: 'husuv-sbor-dejvice',
+    localizedNames: { cz: 'Husův sbor v Dejvicích', zh: '德伊维采胡斯集会堂' },
+    labels: ['church', 'historicism'],
+    district: 'Praha 6',
+    quarter: 'Dejvice',
+    coordinates: { lat: 50.0979047670561, lng: 14.397202204654102 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Facing Šabach Park in Dejvice rises a ten-storey church with a 42-metre tower, a chalice on its front and a clock right under the chalice. It is the head office of the Czechoslovak Hussite Church, a church that broke away from Rome in 1920 and then, for its own headquarters, borrowed the vault of a Gothic royal hall.
+
+The church was founded in January 1920, in the first months of the new republic, by Catholic priests who wanted a national church with services in Czech. Its founder and first patriarch was Karel Farský, and this building, designed by Jiří Stibral and built by Alois Zima from 1925 to 1927, was meant to be its centre: a theological college, the patriarch's seat and a prayer hall in one. Farský never saw it finished. He died here on 12 June 1927, as a plaque on the front records, and the hall was opened on 19 October 1928. Stibral mixed styles on purpose, mostly neo-Gothic with pseudo-Romanesque windows, to show a church that saw itself as finishing the Czech Reformation. Since 1971 it has carried "Hussite" in its name, and the building is still its headquarters.
+
+Inside, the ribbed vault over the hall was modelled on Vladislav Hall at Prague Castle, and lamps shaped like palm trees stand beside the communion table as trees of life. Behind the table hangs a tall crucifix by Vilím Amort, with a large bust of Jan Hus by Ladislav Šaloun, the sculptor of the Hus monument on Old Town Square, and busts of the first two patriarchs, Farský and Adolf Procházka. The organ pipes are arranged as a Hussite sun. In the walls is a columbarium of about 600 urns, and above the main entrance a relief by Josef Kotyza shows Hus taking leave of his friends.
+
+🎁 Bonus: The belfry has exactly one bell, and it isn't used. For a church named after a movement famous for its war wagons and battle hymns, the headquarters is remarkably quiet.`,
+      cz: `Naproti Šabachovu parku v Dejvicích se zvedá desetipodlažní kostel se 42 metrů vysokou věží, kalichem na průčelí a hodinami hned pod kalichem. Je to ústředí Církve československé husitské, církve, která se roku 1920 odtrhla od Říma a pro své vlastní sídlo si pak vypůjčila klenbu gotického královského sálu.
+
+Církev vznikla v lednu 1920, v prvních měsících nové republiky, z katolických kněží, kteří chtěli národní církev s bohoslužbami v češtině. Jejím zakladatelem a prvním patriarchou byl Karel Farský a tahle budova, kterou navrhl Jiří Stibral a v letech 1925 až 1927 postavil Alois Zima, měla být jejím střediskem: bohosloveckou kolejí, sídlem patriarchy a modlitebnou zároveň. Farský ji hotovou neviděl. Zemřel tu 12. června 1927, jak připomíná deska na průčelí, a sbor byl otevřen 19. října 1928. Stibral záměrně míchal slohy, hlavně novogotiku s pseudorománskými okny, aby ukázal církev, která se viděla jako dovršitelka české reformace. Od roku 1971 nese ve jménu slovo husitská a budova je dodnes jejím sídlem.
+
+Žebrová klenba nad sálem je inspirována Vladislavským sálem Pražského hradu a vedle stolu Páně stojí lampy ve tvaru palem jako stromy života. Za stolem visí vysoký krucifix od Viléma Amorta, dále je tu velká busta Jana Husa od Ladislava Šalouna, autora Husova pomníku na Staroměstském náměstí, a busty prvních dvou patriarchů, Farského a Adolfa Procházky. Píšťaly varhan jsou uspořádány do tvaru husitského slunce. Ve zdech je kolumbárium asi pro 600 uren a nad hlavním vchodem ukazuje reliéf Josefa Kotyzy, jak se Mistr Jan Hus loučí s přáteli.
+
+🎁 Bonus: Ve zvonici visí přesně jeden zvon a nepoužívá se. Na sídlo církve pojmenované po hnutí proslulém vozovými hradbami a válečnými chorály je to místo pozoruhodně tiché.`,
+      zh: `德伊维采的沙巴赫公园对面，立着一座十层楼高的教堂，塔楼高42米，正面有一只圣杯，圣杯正下方还挂着一面钟。这里是捷克斯洛伐克胡斯教会的总部。这个教会1920年和罗马分了家，可轮到盖自己的总部时，却借来了一座哥特式王家大厅的拱顶。
+
+教会成立于1920年1月，正是新共和国诞生后的头几个月，创立它的是一批想要一个用捷克语做礼拜的民族教会的天主教神父。创始人兼第一任牧首是卡雷尔·法尔斯基。这座楼由伊日·斯蒂布拉尔设计，阿洛伊斯·齐马在1925到1927年间建成，本来就要做教会的中心：神学院、牧首驻地和礼拜堂，三合一。法尔斯基没能看到它完工。正面的牌匾记着，他1927年6月12日在这里去世，礼拜堂到1928年10月19日才启用。斯蒂布拉尔有意混搭风格，以新哥特式为主，配上仿罗马式的窗户，好表现这个教会的自我定位：要把捷克的宗教改革进行到底。从1971年起，教会的名字里加上了“胡斯”，这座楼至今仍是它的总部。
+
+大厅上方的肋拱，仿的是布拉格城堡的弗拉迪斯拉夫大厅；圣餐桌两旁立着棕榈树形状的灯，象征生命之树。桌后挂着维莱姆·阿莫特做的高大十字架，旁边有拉迪斯拉夫·沙隆做的胡斯大型胸像，他也是老城广场胡斯纪念碑的作者；还有前两任牧首法尔斯基和阿道夫·普罗哈兹卡的胸像。管风琴的音管排成了一轮“胡斯太阳”。墙里是一座可放约600个骨灰瓮的骨灰堂，正门上方是约瑟夫·科蒂扎的浮雕，刻的是胡斯和朋友们告别。
+
+🎁 彩蛋：钟楼里只挂着一口钟，而且不用。一个以战车阵和战歌闻名的运动，它的后人把总部弄得这么安静，也算难得。`,
+    },
+  },
+  {
+    // Celetná 553/2, also Donínský dům (2026-11-19, user's coordinates, for
+    // the Celetná pack). cs.wikipedia "Sixtův dům" and "Celetná": cellars of
+    // the 12th-13th c.; owners incl. Jindřich Lefl of Lažany (Hus's
+    // protector); Donín name after 1470; Sixt of Ottersdorf from 1560 (the
+    // street article says 1567), his son rebuilt it 1607-1612; façade reworked
+    // before 1736, attic statues by Antonín Braun 1736 (the Charles VI went to
+    // the Lapidárium in 1919); the Kafkas lived here 1888-89; a Ritz-Carlton
+    // conversion approved 2020, works from 2022.
+    name: 'Sixt House',
+    slug: 'sixtuv-dum',
+    localizedNames: { cz: 'Sixtův dům', zh: '西克斯特之家' },
+    labels: ['baroque', 'romanesque'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.08720825647649, lng: 14.422298491008203 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `The first house on Celetná's south side looks like a dignified Baroque townhouse with statues on its roof. Underneath it is one of the oldest buildings on the street, and for a year it was home to a five-year-old Franz Kafka.
+
+The cellars go back to the 12th and 13th centuries, when this was a Romanesque house at street level; the street has risen since. Its owners read like a short history of Prague. Jindřich Lefl of Lažany, one of Jan Hus's noble protectors, held it, then the lords of Donín, and in 1560 Sixt of Ottersdorf, an Old Town official, whose name it still carries. His son rebuilt it in 1607 to 1612. The Baroque front came in the 1730s, and in 1736 Antonín Braun, nephew of the great Matthias Bernhard Braun, set the statues along the top.
+
+In 1888 and 1889 the Kafka family lived here, one of several flats they rented around Old Town Square while Franz was a small boy. The house is now being turned into a luxury hotel.
+
+🎁 Bonus: One of Braun's statues on the roof was Emperor Charles VI. In 1919, a year after the empire fell, he was taken down and sent to the National Museum's stone collection, which is a polite way of retiring an emperor.`,
+      cz: `První dům na jižní straně Celetné vypadá jako důstojný barokní měšťanský dům se sochami na střeše. Pod ním se ale skrývá jedna z nejstarších staveb v ulici a na rok to byl domov pětiletého Franze Kafky.
+
+Sklepy pocházejí z 12. a 13. století, kdy tu na úrovni tehdejší ulice stál románský dům; ulice od té doby vystoupala výš. Jeho majitelé se čtou jako krátké dějiny Prahy. Patřil Jindřichu Leflovi z Lažan, jednomu ze šlechtických ochránců Jana Husa, pak pánům z Donína a roku 1560 Sixtovi z Ottersdorfu, staroměstskému úředníkovi, jehož jméno nese dodnes. Jeho syn ho v letech 1607 až 1612 přestavěl. Barokní průčelí přišlo ve 30. letech 18. století a roku 1736 na něj Antonín Braun, synovec velkého Matyáše Bernarda Brauna, osadil sochy.
+
+V letech 1888 a 1889 tu bydlela rodina Kafkových, v jednom z několika bytů, které si kolem Staroměstského náměstí pronajímala, když byl Franz malý. Dnes se dům přestavuje na luxusní hotel.
+
+🎁 Bonus: Jednou z Braunových soch na střeše byl císař Karel VI. Roku 1919, rok po pádu monarchie, ho sundali a poslali do lapidária Národního muzea, což je zdvořilý způsob, jak poslat císaře do důchodu.`,
+      zh: `采列特纳街南侧的第一栋房子，看上去是一栋体面的巴洛克市民住宅，屋顶上站着一排雕像。可它底下藏着整条街最老的建筑之一，而且有一年，这里住着一个五岁的弗朗茨·卡夫卡。
+
+它的地窖可以追溯到12和13世纪，那时这里是一栋和街面齐平的罗马式房子，后来街面一点点抬高了。它的历任主人读起来像一部布拉格简史：先是胡斯的贵族保护人之一、拉然的因德日赫·莱夫尔，然后是多宁家族；1560年，它归了老城的官员、奥特斯多夫的西克斯特，房子至今还叫他的名字。他的儿子在1607到1612年把它重建了一遍。巴洛克门面是18世纪30年代加上的；1736年，大雕塑家马蒂亚什·贝尔纳德·布劳恩的侄子安东宁·布劳恩，在屋顶上立起了雕像。
+
+1888到1889年，卡夫卡一家住在这里。弗朗茨小时候，他们在老城广场周围前前后后租过好几处房子，这是其中之一。如今这栋房子正在改建成一家豪华酒店。
+
+🎁 彩蛋：屋顶上布劳恩的雕像里，原本有一尊皇帝查理六世。1919年，帝国垮台一年以后，他被请了下来，送进国家博物馆的石雕馆。这大概是让一位皇帝退休最客气的办法。`,
+    },
+  },
+  {
+    // Celetná 602/3, also Pikhartovský or U Tří královen (2026-11-19, user's
+    // coordinates, for the Celetná pack). cs.wikipedia "Dům U tří králů
+    // (Celetná)": 13th-14th c. origin, two Romanesque-Gothic vaulted cellars,
+    // first mention 1365, Renaissance rebuild about 1600, the Šporks 1710-1769;
+    // the Vegetárka restaurant on the ground floor in the later 20th c.
+    // cs.wikipedia "Celetná" (citing a residence registration): Kafka lived
+    // here 1896-1907.
+    name: 'House at the Three Kings',
+    slug: 'dum-u-tri-kralu',
+    localizedNames: { cz: 'Dům U Tří králů', zh: '三王之家' },
+    labels: ['gothic', 'renaissance'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.08740157087686, lng: 14.422515072819593 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `A narrow house a few steps from Old Town Square, with a Gothic gable and a sign of the Three Kings. It is easy to walk past, but Franz Kafka didn't: he lived here for eleven years, from the age of 13 to 24, longer than anywhere else in his childhood.
+
+The house is medieval, first mentioned in 1365, and two vaulted Romanesque and Gothic cellars survive under it. Around 1600 it was rebuilt in the Renaissance style, and in the 18th century it belonged for a while to the Šporks, one of the great Baroque noble families. The Kafkas moved in in 1896, when Franz was at the German grammar school in the Kinský Palace on the square, and they stayed until 1907, by which time he had taken his law degree. In the late 20th century the ground floor held Vegetárka, a vegetarian restaurant.
+
+🎁 Bonus: Kafka is said to have once drawn a small circle round the square for a friend: here his school, there his university, there his office, "my whole life is shut in this little circle". From this house, all of it was a few minutes' walk.`,
+      cz: `Úzký dům pár kroků od Staroměstského náměstí, s gotickým štítem a znamením Tří králů. Snadno se dá přejít, Franz Kafka ho ale nepřešel: bydlel tu jedenáct let, od třinácti do čtyřiadvaceti, déle než kdekoli jinde v dětství a mládí.
+
+Dům je středověký, poprvé zmíněný roku 1365, a pod ním se dochovaly dva klenuté sklepy z románské a gotické doby. Kolem roku 1600 byl renesančně přestavěn a v 18. století ho nějaký čas vlastnili Šporkové, jeden z velkých barokních šlechtických rodů. Kafkovi se sem nastěhovali roku 1896, kdy Franz chodil na německé gymnázium v Kinského paláci na náměstí, a zůstali do roku 1907, kdy už měl za sebou doktorát práv. Koncem 20. století byla v přízemí vegetariánská restaurace Vegetárka.
+
+🎁 Bonus: Kafka prý jednou příteli opsal kolem náměstí malý kruh: tady gymnázium, tamhle univerzita, tamhle kancelář, „v tomhle malém kruhu je uzavřen celý můj život“. Z tohohle domu to bylo všechno pár minut pěšky.`,
+      zh: `离老城广场只有几步路，有一栋窄窄的房子，顶着哥特式山墙，挂着“三王”的招牌。很容易就走过去了，可卡夫卡没有走过去：他在这里住了十一年，从十三岁住到二十四岁，比他童年和少年时代住过的任何地方都久。
+
+这栋房子是中世纪的，1365年第一次见于记载，底下还留着两间带拱顶的罗马式和哥特式地窖。1600年前后它按文艺复兴风格重建过，18世纪有一阵子归施波克家族所有，那是巴洛克时代的大贵族之一。卡夫卡一家1896年搬进来，那时弗朗茨正在广场上金斯基宫里的德语文理中学念书；他们一直住到1907年，那时他已经拿到了法学博士。20世纪后期，一楼开着一家叫“素食馆”的素食餐厅。
+
+🎁 彩蛋：据说卡夫卡有一次给朋友在广场周围画了一个小圈：这里是中学，那里是大学，那边是办公室，“我的一辈子都关在这个小圈子里”。从这栋房子出发，圈里的每一处都只要走几分钟。`,
+    },
+  },
+  {
+    // Celetná 558/12, Kamzíková 8 (2026-11-19, user's coordinates, for the
+    // Celetná pack); not the Hrzán Palace at Hradčany (`hrzansky-palac`).
+    // cs.wikipedia "Palác Hrzánů z Harasova": bought 1701 by Count Zikmund
+    // Valentin Hrzán; design probably Alliprandi, finished about 1723 under the
+    // Kinskýs; Vrtba added a storey 1801; Lobkowicz from 1839; interiors and
+    // new wings 1911; plaques for the Kafkas' wholesale 1906-1912 and
+    // František Stadler 1912-1939; seven bays and an atlas portal. cc.cz /
+    // Forbes: the Hrzán passage reopened after a reconstruction, with the
+    // smallest concert hall in the country; Frank Gehry was among the owners
+    // after 1990, so the Dancing House was "very probably" designed here.
+    name: 'Hrzán Palace (Celetná)',
+    slug: 'palac-hrzanu-celetna',
+    localizedNames: { cz: 'Palác Hrzánů z Harasova', zh: '赫尔赞宫（采列特纳街）' },
+    labels: ['palace', 'baroque'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.08714836413182, lng: 14.423344923403441 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `A Baroque palace with two muscular atlantes holding up its portal, and behind it a passage right through to Kamzíková. Over three centuries it has housed counts, Kafka's father's shop and, quite possibly, the first sketches of the Dancing House.
+
+Count Zikmund Valentin Hrzán of Harasov bought the site in 1701 and had a palace built, probably to a design by Giovanni Battista Alliprandi, who died before it was done; it was finished around 1723, by which time the Kinskýs owned it. The Vrtbas added a storey in 1801, the Lobkowiczs took it over in 1839, and in 1911 the interiors were rebuilt and new wings added. Two plaques record its shopkeepers: from 1906 to 1912 Hermann and Julie Kafka ran their wholesale business in fancy goods here, followed by František Stadler from 1912 to 1939.
+
+After 1990 the American architect Frank Gehry was among its owners, and the Dancing House on the embankment was very probably designed here. The long-closed passage through its two courtyards has reopened with shops, galleries and what is said to be the smallest concert hall in the country.
+
+🎁 Bonus: A Baroque palace on the Royal Way may have given birth to Prague's most un-Baroque building. The atlantes on the portal have kept their opinion to themselves.`,
+      cz: `Barokní palác se dvěma svalnatými atlanty, kteří drží portál, a za ním průchod až do Kamzíkové. Za tři století v něm sídlili hrabata, obchod Kafkova otce a docela možná i první skici Tančícího domu.
+
+Hrabě Zikmund Valentin Hrzán z Harasova koupil pozemek roku 1701 a dal tu postavit palác, pravděpodobně podle návrhu Giovanniho Battisty Alliprandiho, který dokončení nedožil; hotovo bylo kolem roku 1723, kdy už palác patřil Kinským. Vrtbové roku 1801 přistavěli patro, roku 1839 ho převzali Lobkovicové a roku 1911 byly přestavěny interiéry a přibyla nová křídla. Dvě pamětní desky připomínají obchodníky: v letech 1906 až 1912 tu měli Hermann a Julie Kafkovi velkoobchod s galanterií, po nich v letech 1912 až 1939 František Stadler.
+
+Po roce 1990 patřil mezi majitele americký architekt Frank Gehry a Tančící dům na nábřeží tu velmi pravděpodobně vznikl. Léta zavřený průchod oběma dvory se znovu otevřel, s obchody, galeriemi a prý nejmenším koncertním sálem v zemi.
+
+🎁 Bonus: Barokní palác na Královské cestě možná dal život nejméně barokní stavbě v Praze. Atlanti na portálu si svůj názor nechávají pro sebe.`,
+      zh: `一座巴洛克宫殿，两个肌肉发达的阿特拉斯巨人托着它的大门，门后一条通道一直穿到卡姆齐科瓦街。三百年里，这里住过伯爵，开过卡夫卡父亲的店，还很可能画出了跳舞的房子的第一批草图。
+
+1701年，哈拉索夫的赫尔赞伯爵日格蒙德·瓦伦丁买下这块地，盖起一座宫殿，设计者很可能是乔瓦尼·巴蒂斯塔·阿利普兰迪，可他没等到完工就去世了；宫殿大约在1723年才建成，那时房主已经换成了金斯基家族。1801年，弗尔特巴家族加盖了一层；1839年，洛布科维奇家族接手；1911年，内部重新改建，还添了新的侧翼。墙上的两块纪念牌记着在这里做生意的人：1906到1912年，赫尔曼和尤莉·卡夫卡在这里开小百货批发行，之后从1912到1939年是弗兰蒂谢克·斯塔德勒。
+
+1990年以后，美国建筑师弗兰克·盖里也是它的房主之一，河岸上那座跳舞的房子，很可能就是在这里设计出来的。穿过两个院子的通道关了很多年，如今又开放了，里面有商店、画廊，据说还有全国最小的音乐厅。
+
+🎁 彩蛋：国王之路上的一座巴洛克宫殿，可能孕育了布拉格最不巴洛克的一栋楼。大门上的两位巨人对此不发表意见。`,
+    },
+  },
+  {
+    // Celetná 597/13, rear wing on Štupartská (2026-11-19, user's
+    // coordinates, for the Celetná pack). cs.wikipedia "Millesimovský palác
+    // (Celetná)": Romanesque core (12th c.) and a Gothic house; the Cavrianis
+    // began the Baroque rebuild early in the 18th c.; Jan Josef
+    // Caretto-Millesimo finished it in 1756 and put his arms over the door;
+    // architect probably Anselmo Lurago or František Ignác Prée; a noble
+    // casino and restaurant in the 19th c.; Institute of Marxism-Leninism in
+    // the 1970s; Charles University since 1990. Protected since 1964.
+    name: 'Caretto-Millesimo Palace',
+    slug: 'millesimovsky-palac',
+    localizedNames: { cz: 'Caretto-Millesimovský palác', zh: '卡雷托-米莱西莫宫' },
+    labels: ['palace', 'baroque', 'academy'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.087313229905455, lng: 14.424045421495123 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `A calm late-Baroque palace with a coat of arms over the door, which has seen nobles at cards, Marxist-Leninists at lectures and, today, students of Charles University. The arms have outlasted all of them.
+
+Under it lie a Romanesque core from the 12th century and a later Gothic house. Early in the 18th century the Cavriani family began turning the site into a Baroque palace, and Count Jan Josef Caretto-Millesimo finished it in 1756, placing his arms over the entrance. The architect is not known for certain: probably Anselmo Lurago, possibly František Ignác Prée. In the 19th century the palace held a noble casino, a club where the aristocracy met, and a restaurant.
+
+In the 1970s it housed the Institute of Marxism-Leninism, and since 1990 it has belonged to Charles University.
+
+🎁 Bonus: For about twenty years the dialectics of history were taught under a count's coat of arms. Nobody took the arms down, and in the end it was the institute that left.`,
+      cz: `Klidný pozdně barokní palác s erbem nad vchodem, který viděl šlechtu u karet, marxisty-leninisty na přednáškách a dnes studenty Univerzity Karlovy. Erb je přečkal všechny.
+
+Pod ním leží románské jádro z 12. století a pozdější gotický dům. Na počátku 18. století začali Cavrianové přestavovat místo na barokní palác a hrabě Jan Josef Caretto-Millesimo ho roku 1756 dokončil a nad vchod umístil svůj erb. Architekt není jistý: nejspíš Anselmo Lurago, možná František Ignác Prée. V 19. století tu sídlilo šlechtické kasino, klub, kde se scházela aristokracie, a restaurace.
+
+V 70. letech 20. století v paláci sídlil Ústav marxismu-leninismu a od roku 1990 patří Univerzitě Karlově.
+
+🎁 Bonus: Zhruba dvacet let se tu pod hraběcím erbem vyučovala dialektika dějin. Erb nikdo nesundal a nakonec odešel ústav.`,
+      zh: `一座安静的晚期巴洛克宫殿，门上挂着一枚纹章。它见过贵族打牌，见过马列主义者上课，如今见的是查理大学的学生。这些人都走了，纹章还在。
+
+宫殿底下是12世纪的罗马式内核和一栋后来的哥特式房子。18世纪初，卡夫里亚尼家族开始把这里改建成巴洛克宫殿；1756年，卡雷托-米莱西莫伯爵扬·约瑟夫把它建完，在大门上方挂上了自己的纹章。建筑师是谁并不确定：很可能是安塞尔莫·卢拉戈，也可能是弗兰蒂谢克·伊格纳茨·普雷。19世纪，这里开着贵族俱乐部，也就是贵族们聚会的地方，还有一家餐厅。
+
+20世纪70年代，宫殿里设了马列主义研究所；1990年起，它归查理大学所有。
+
+🎁 彩蛋：差不多二十年里，人们在一位伯爵的纹章底下讲授历史辩证法。始终没有人把纹章摘下来，最后走掉的反倒是研究所。`,
+    },
+  },
+  {
+    // Celetná 596/15 (2026-11-19, user's coordinates and description: a
+    // square functionalist block among red-roofed Baroque houses, for the
+    // Celetná pack). cs.wikipedia "Celetná" (its only source): former Baťa
+    // department store, functionalist, three storeys, reinforced-concrete
+    // frame, Josef Gočár, 1933-1934, approved for use 1937. No article of its
+    // own; what stood here before and today's use weren't found, so left out.
+    name: 'Former Baťa Store (Celetná)',
+    slug: 'obchodni-dum-bata-celetna',
+    localizedNames: { cz: 'Bývalý obchodní dům Baťa', zh: '原巴塔百货（采列特纳街）' },
+    labels: ['functionalism'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.08726024173454, lng: 14.424331920298448 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Walk down Celetná between the Baroque fronts and the red roofs, and suddenly there is a plain, square box of a building, all straight lines and big windows, as if someone had parked a piece of the 1930s among the palaces. That is exactly what Baťa did.
+
+The Baťa shoe company of Zlín was the great Czech business success of the interwar years, and it opened shops in modern buildings of its own in the centre of every town it could. This one, a three-storey functionalist block on a reinforced-concrete frame, was designed by Josef Gočár and built in 1933 and 1934. Functionalism was the style of the young republic: no ornament, honest materials, light, and form that follows use, and on the Royal Way it still makes its point.
+
+🎁 Bonus: Gočár had already left his mark on this street twenty years earlier, with the Cubist House of the Black Madonna at its far end. Few architects get to change their minds so publicly on the same street.`,
+      cz: `Jdete Celetnou mezi barokními průčelími a červenými střechami a najednou je tu prostá hranatá krabice, samé rovné linie a velká okna, jako by tu někdo mezi paláci zaparkoval kus 30. let. Přesně to Baťa udělal.
+
+Zlínská obuvnická firma Baťa byla největším českým podnikatelským úspěchem meziválečných let a v centru každého města, kde to šlo, otevírala obchody ve vlastních moderních budovách. Tuhle, třípatrovou funkcionalistickou stavbu se železobetonovým skeletem, navrhl Josef Gočár a postavila se v letech 1933 a 1934. Funkcionalismus byl slohem mladé republiky: žádný ornament, poctivé materiály, světlo a tvar daný účelem, a na Královské cestě to dodnes nepřehlédnete.
+
+🎁 Bonus: Gočár se do téhle ulice zapsal už o dvacet let dřív, kubistickým domem U Černé Matky Boží na jejím druhém konci. Málokterý architekt mění názor tak veřejně, a ještě ve stejné ulici.`,
+      zh: `沿着采列特纳街走，两边都是巴洛克门面和红屋顶，忽然冒出一个方方正正的盒子，全是直线和大窗户，好像有人把一截20世纪30年代停在了这群宫殿中间。巴塔干的正是这件事。
+
+兹林的巴塔鞋业是两次大战之间捷克最成功的生意，只要办得到，它就在每座城市的市中心开店，而且住的是自己盖的现代大楼。这一栋三层的功能主义建筑用钢筋混凝土框架，由约瑟夫·戈恰尔设计，1933到1934年建成。功能主义是年轻共和国的风格：不要装饰，材料实在，采光充足，形式服从用途。放在国王之路上，到今天还是一眼就能看出来。
+
+🎁 彩蛋：二十年前，戈恰尔就在这条街的另一头留下了立体主义的黑圣母之屋。很少有建筑师能在同一条街上，这么公开地改主意。`,
+    },
+  },
+  {
+    // Celetná 595/17, also Manhartský palác, U koz or Šrámkův dům, through to
+    // Štupartská 12 (2026-11-19, user's coordinates, for the Celetná pack).
+    // cs.wikipedia "Menhartovský palác": house U koz first mentioned 1402 and
+    // 1413; owned at some point by Kryštof Harant of Polžice and by Adam of
+    // Wallenstein (no dates); rebuilt after 1700, probably by Vít Václav
+    // Kaňka with his son František Maxmilián, for Jan Kristian Stubig and
+    // then Jan Bedřich Manhart; the Piarists bought it in 1752 for their
+    // college, headed by Gelasius Dobner; city property from 1780; a wooden
+    // Hercules with a lion probably by Bendl; today Divadlo v Celetné and the
+    // Arts and Theatre Institute. Protected since 1964.
+    name: 'Menhart Palace',
+    slug: 'menhartovsky-palac',
+    localizedNames: { cz: 'Menhartovský palác', zh: '门哈特宫' },
+    labels: ['palace', 'baroque', 'cultural'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.08728231776144, lng: 14.424730716142726 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Halfway down Celetná, a Baroque palace runs right through the block to Štupartská. Today it is a theatre, and it suits the part: its cast list over six centuries includes a nobleman executed on Old Town Square and the historian who first called Bohemia's favourite chronicle a pack of inventions.
+
+The site was once a house called At the Goats, first mentioned in 1402. Among its owners were Kryštof Harant of Polžice, traveller, composer and one of the 27 men executed on Old Town Square in 1621, and Adam of Wallenstein. After 1700 the houses were rebuilt as a palace, probably by Vít Václav Kaňka and his son František Maxmilián, and it took its name from the owner Jan Bedřich Manhart. In 1752 the Piarists bought it for their college, headed for a time by Gelasius Dobner, and in 1780 it passed to the city.
+
+Today it is home to Divadlo v Celetné, the Celetná Theatre, and the Arts and Theatre Institute. Inside stands a wooden Hercules wrestling a lion, probably by Jan Jiří Bendl.
+
+🎁 Bonus: Dobner made his name by proving that Hájek's beloved Czech Chronicle was largely made up. The house where he worked now stages made-up stories every night, and sells tickets for them.`,
+      cz: `V půli Celetné prochází celým blokem až do Štupartské barokní palác. Dnes je v něm divadlo a ta role mu sedí: v jeho obsazení za šest století najdeme šlechtice popraveného na Staroměstském náměstí i historika, který jako první prohlásil oblíbenou českou kroniku za snůšku výmyslů.
+
+Na místě stál dům zvaný U Koz, poprvé zmíněný roku 1402. Mezi jeho majiteli byli Kryštof Harant z Polžic, cestovatel, skladatel a jeden ze sedmadvaceti popravených na Staroměstském náměstí roku 1621, a Adam z Valdštejna. Po roce 1700 byly domy přestavěny na palác, nejspíš Vítem Václavem Kaňkou a jeho synem Františkem Maxmiliánem, a jméno dostal po majiteli Janu Bedřichu Manhartovi. Roku 1752 ho koupili piaristé pro svou kolej, kterou nějaký čas vedl Gelasius Dobner, a roku 1780 přešel na město.
+
+Dnes v něm sídlí Divadlo v Celetné a Institut umění – Divadelní ústav. Uvnitř stojí dřevěný Herkules zápasící se lvem, nejspíš od Jana Jiřího Bendla.
+
+🎁 Bonus: Dobner se proslavil tím, že dokázal, že oblíbená Hájkova kronika je z velké části vymyšlená. V domě, kde působil, se dnes vymyšlené příběhy hrají každý večer, a ještě se na ně prodávají lístky.`,
+      zh: `采列特纳街走到一半，有一座巴洛克宫殿，整整穿过一个街区，一直通到什图帕尔茨卡街。如今里面是一家剧院，这个角色它演得很合适：六百年来的“演员表”里，有一位在老城广场上被处决的贵族，还有一位历史学家，头一个站出来说波希米亚人最爱的那部编年史是一堆编出来的故事。
+
+这里原来是一栋叫“山羊之家”的房子，1402年第一次见于记载。历任房主里有克里什托夫·哈兰特：旅行家、作曲家，也是1621年在老城广场被处决的27人之一；还有瓦尔德施泰因家族的亚当。1700年以后，几栋房子被改建成一座宫殿，设计者很可能是维特·瓦茨拉夫·坎卡和他的儿子弗兰蒂谢克·马克西米利安，宫殿的名字来自房主扬·贝德日赫·曼哈特。1752年，皮亚尔会买下它做学院，格拉修斯·多布纳曾经主持过这所学院；1780年，它归了城市。
+
+如今这里是采列特纳剧院和艺术与戏剧研究所的所在地。楼里还立着一尊和狮子搏斗的木雕赫拉克勒斯，很可能出自扬·伊日·本德尔之手。
+
+🎁 彩蛋：多布纳成名，靠的是证明大家最爱的哈耶克编年史大半是编的。如今他工作过的这栋楼里，每天晚上都在演编出来的故事，而且还卖票。`,
+    },
+  },
+  {
+    // Celetná 588/29, also Králodvorská 1 and Templová 2 (2026-11-19, user's
+    // coordinates, for the Celetná pack). cs.wikipedia "Dům U Zlatého anděla":
+    // about five medieval houses, first mention 1333; a hotel from 1778;
+    // classicist rebuilds 1816 and 1824 (Karel Schmidt, Josef Kranner),
+    // façades and galleries finished 1860; guests: Bakunin 1848, two Slavic
+    // Congress delegates preparing a petition to the emperor in June 1848, the
+    // Danish queen 1862, the kings of Saxony and Hanover with their families
+    // 1866; the Brandeis publishing house until WWII. Over the portal a copy
+    // of a gilded wooden angel with a wreath, a cornucopia and a caduceus; the
+    // original is in the City of Prague Museum. Slug `dum-u-zlateho-andela` is
+    // the House at the Angel on Malé náměstí. Cover: the old Golden Angel
+    // card's pixel art, which showed this very angel.
+    name: 'House at the Golden Angel',
+    slug: 'dum-u-zlateho-andela-celetna',
+    localizedNames: { cz: 'Dům U Zlatého anděla', zh: '金天使之家' },
+    labels: ['classicism'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.087448884010925, lng: 14.4260690954467 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Over the door of this corner house a gilded angel lounges with a wreath in one hand and a cornucopia in the other, as if waving guests in. For most of the 19th century that is exactly what the house did: it was one of the best hotels in Prague, and its guest list ran from a Russian anarchist to two kings on the run.
+
+The site once held about five medieval houses, first mentioned in 1333. In 1778 the house became a hotel, and in 1816 and 1824 it was rebuilt in the Classicist style by Karel Schmidt and Josef Kranner. In 1848 the anarchist Mikhail Bakunin stayed here, and in June that year two delegates to the Slavic Congress sat in one of its rooms drafting a petition to the emperor. In 1862 the Queen of Denmark came, and in 1866 the Kings of Saxony and Hanover arrived with their families.
+
+Later the house held the Brandeis publishing house, known for its Jewish calendars, until the Second World War. The angel over the door is a copy; the gilded wooden original is in the City of Prague Museum.
+
+🎁 Bonus: The two kings of 1866 weren't on holiday. Both had sided with Austria against Prussia that summer and lost, and Hanover ceased to exist. Few hotel guests have had a worse week.`,
+      cz: `Nad vchodem tohohle nárožního domu se rozvaluje zlacený anděl s věncem v jedné ruce a rohem hojnosti v druhé, jako by mával hostům, ať jdou dál. Většinu 19. století dům dělal přesně tohle: byl jedním z nejlepších pražských hotelů a jeho kniha hostů sahala od ruského anarchisty po dva krále na útěku.
+
+Na místě stálo asi pět středověkých domů, poprvé zmíněných roku 1333. Roku 1778 se z domu stal hotel a v letech 1816 a 1824 ho klasicistně přestavěli Karel Schmidt a Josef Kranner. Roku 1848 tu bydlel anarchista Michail Bakunin a v červnu téhož roku seděli v jednom z pokojů dva delegáti Slovanského sjezdu nad peticí k císaři. Roku 1862 přijela dánská královna a roku 1866 saský a hannoverský král i s rodinami.
+
+Později tu až do druhé světové války sídlilo nakladatelství Brandeis, známé svými židovskými kalendáři. Anděl nad vchodem je kopie; zlacený dřevěný originál je ve sbírkách Muzea hlavního města Prahy.
+
+🎁 Bonus: Ti dva králové roku 1866 nebyli na dovolené. Oba se toho léta postavili s Rakouskem proti Prusku a prohráli, a Hannoversko přestalo existovat. Málokterý host hotelu měl horší týden.`,
+      zh: `这栋转角房子的门上，一位镀金的天使斜靠着，一手拿花环，一手抱丰饶角，像是在招呼客人进门。19世纪的大部分时间里，这栋房子干的正是这件事：它是布拉格最好的酒店之一，住客名单从一位俄国无政府主义者一直排到两位逃难的国王。
+
+这里原来大约有五栋中世纪房子，1333年第一次见于记载。1778年，房子改成了酒店；1816年和1824年，卡雷尔·施密特和约瑟夫·克兰纳按古典主义风格把它重建了一遍。1848年，无政府主义者巴枯宁住在这里；同年6月，斯拉夫代表大会的两位代表坐在这里的一间客房里，起草给皇帝的请愿书。1862年来了丹麦王后，1866年，萨克森国王和汉诺威国王也带着家眷住了进来。
+
+后来，这里一直到二战都是布兰德斯出版社的所在地，这家出版社以印犹太历书出名。门上的天使是复制品，镀金的木雕原件收藏在布拉格城市博物馆。
+
+🎁 彩蛋：1866年的那两位国王可不是来度假的。那年夏天，他们都跟着奥地利打普鲁士，结果打输了，汉诺威王国从此不复存在。很少有酒店客人过过比这更糟的一个星期。`,
+    },
+  },
+  {
+    // Celetná 587/36, also Ovocný trh 14, the "New Mint" (2026-11-19, user's
+    // coordinates, for the Celetná pack). cs.wikipedia "Palác Pachtů z Rájova
+    // (Celetná 36)": the Velflovic house, acquired by Wenceslas IV in 1409, a
+    // mint 1420-1434; Queen Johanna of Rožmitál lived here about 1454-1473;
+    // the mint restored 1539 and working until 1784 (the street article says
+    // 1783); rebuilt 1755 by Jan Josef Wirch for František Josef Pachta of
+    // Rájov, Chief Mintmaster 1755-1774; portal with miners and soldiers by
+    // I. F. Platzer, 1759; military command from 1784; in 1848 Windischgrätz
+    // was quartered here with his family, fighting broke out in front of it
+    // and his wife Marie Eleonora was killed by a stray bullet at a window
+    // (12 June); courts from 1849; today the District Court for Prague 1.
+    name: 'Pachta Palace (New Mint)',
+    slug: 'palac-pachtu-celetna',
+    localizedNames: { cz: 'Palác Pachtů z Rájova (Nová mincovna)', zh: '帕赫塔宫（新铸币厂）' },
+    labels: ['palace', 'baroque'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.0873511943183, lng: 14.426676742205473 },
+    rarity: 'superior',
+    xpReward: 30,
+    description: {
+      en: `At the Powder Tower end of Celetná stands a long late-Baroque palace whose portal is guarded by stone miners and soldiers. For centuries money was made here, a queen lived here, and in 1848 a stray bullet here made the Prague uprising personal for the general who crushed it.
+
+In 1409 King Wenceslas IV bought the house that stood here, and in the Hussite years it served as a mint. Around the middle of the 15th century Queen Johanna of Rožmitál, the wife of George of Poděbrady, lived here. The mint was restored in 1539 and kept striking coins until the 1780s. In 1755 the palace got its present form from Jan Josef Wirch, for František Josef Pachta of Rájov, the kingdom's Chief Mintmaster, and in 1759 Ignác František Platzer carved the miners and soldiers on the portal.
+
+From 1784 the building housed the army's command for Bohemia. In June 1848 its commander, Prince Alfred Windischgrätz, was living here with his family when fighting broke out in front of the building in the Prague uprising, and on 12 June his wife, Princess Eleonore, was killed by a stray bullet as she stood at a window. Windischgrätz crushed the uprising within days. Since 1849 the palace has been a courthouse, and today it is the District Court for Prague 1.
+
+🎁 Bonus: On the portal, the miners who dug the silver and the soldiers who guarded it got statues. The clerks who counted it got nothing, which seems about right for a mint.`,
+      cz: `Na konci Celetné u Prašné brány stojí dlouhý pozdně barokní palác, jehož portál hlídají kamenní horníci a vojáci. Po staletí se tu razily peníze, bydlela tu královna a roku 1848 tu zbloudilá kulka udělala z pražského povstání osobní věc generála, který ho potlačil.
+
+Roku 1409 koupil dům, který tu stál, král Václav IV., a v husitských letech sloužil jako mincovna. Kolem poloviny 15. století tu bydlela královna Johana z Rožmitálu, manželka Jiřího z Poděbrad. Mincovna byla obnovena roku 1539 a razila až do 80. let 18. století. Roku 1755 dal palác dnešní podobu Jan Josef Wirch pro Františka Josefa Pachtu z Rájova, nejvyššího mincmistra království, a roku 1759 vytesal Ignác František Platzer horníky a vojáky na portálu.
+
+Od roku 1784 tu sídlilo zemské vojenské velitelství. V červnu 1848 tu se svou rodinou bydlel jeho velitel kníže Alfred Windischgrätz, když se během pražského povstání začalo bojovat před budovou, a 12. června jeho manželku, kněžnu Eleonoru, zasáhla u okna zbloudilá kulka. Windischgrätz povstání během několika dní potlačil. Od roku 1849 je palác soudní budovou a dnes v něm sídlí Obvodní soud pro Prahu 1.
+
+🎁 Bonus: Na portálu dostali sochy horníci, kteří stříbro kopali, a vojáci, kteří ho hlídali. Úředníci, kteří ho počítali, nedostali nic, což k mincovně docela sedí.`,
+      zh: `采列特纳街靠火药塔的那一头，立着一座长长的晚期巴洛克宫殿，大门由石雕的矿工和士兵把守。几百年里，这里铸过钱，住过一位王后；1848年，这里的一颗流弹，让布拉格起义成了镇压它的那位将军的私仇。
+
+1409年，国王瓦茨拉夫四世买下了当时站在这里的房子；胡斯战争那些年，它被用作铸币厂。15世纪中叶前后，波杰布拉德的伊日的王后、罗日米塔尔的约翰娜住在这里。铸币厂在1539年恢复，一直铸币到18世纪80年代。1755年，扬·约瑟夫·维尔赫为王国的首席铸币官、拉约夫的帕赫塔·弗兰蒂谢克·约瑟夫把宫殿改成了今天的样子；1759年，伊格纳茨·弗兰蒂谢克·普拉策在大门上雕了矿工和士兵。
+
+从1784年起，这里是波希米亚的军事司令部。1848年6月，司令温迪施格雷茨亲王阿尔弗雷德正和家人住在这里，布拉格起义中，楼前打了起来；6月12日，他的妻子埃莱奥诺蕾王妃站在窗口，被一颗流弹打中身亡。几天之内，温迪施格雷茨就镇压了起义。从1849年起，宫殿一直是法院，如今这里是布拉格第一区法院。
+
+🎁 彩蛋：大门上，挖银子的矿工和守银子的士兵都有雕像，数银子的文书却什么也没捞着。放在铸币厂门口，倒也挺合适。`,
+    },
+  },
 ];
 async function run() {
   await connectDB();

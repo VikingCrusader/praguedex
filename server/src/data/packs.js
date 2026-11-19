@@ -822,6 +822,48 @@ export const PACKS = [
       'estates-theatre', 'karolinum', 'kolowratsky-palac-ovocny-trh', 'dum-u-cerne-matky-bozi', 'panska-pasaz',
     ],
   }),
+  pack({
+    slug: 'jindrisska',
+    released: '2026-11-19T12:00:00+01:00',
+    name: 'Jindřišská',
+    localizedNames: { cz: 'Jindřišská', zh: '圣亨利街' },
+    foil: '#5a6a3a',
+    labels: ['street', 'gothic', 'art-nouveau', 'historicism'],
+    // The street from Wenceslas Square to Senovážné náměstí (2026-11-19,
+    // user's call): Generali Palace and Družba on its two corners with the
+    // square (shared with the Wenceslas Square pack), the Main Post Office,
+    // the new cards Hotel Palace (Panská corner) and Harrach Palace, the
+    // Mucha Museum a few steps up Panská, St Henry and its belfry, and at the
+    // far end Senovážné náměstí's Sugar Industry Palace and Czech Musicians.
+    // The Jerusalem Synagogue (Jeruzalémská) stays out. New slug.
+    members: [
+      'palac-generali', 'obchodni-dum-ceskeho-svazu-vyrobnich-druzstev', 'czech-post-jindrisska', 'hotel-palace-panska',
+      'mucha-museum', 'harrachovsky-palac-jindrisska', 'kostel-sv-jindricha', 'jindrisska-vez',
+      'cukrovarnicky-palac', 'cesti-muzikanti',
+    ],
+  }),
+  pack({
+    slug: 'celetna',
+    released: '2026-11-19T19:00:00+01:00',
+    name: 'Celetná',
+    localizedNames: { cz: 'Celetná', zh: '采列特纳街' },
+    foil: '#7a3a4a',
+    labels: ['street', 'gothic', 'baroque', 'palace'],
+    // The first stretch of the Royal Way, Old Town Square to the Powder Tower
+    // (2026-11-19, user's call): the White Unicorn on the square corner
+    // (shared with Old Town Square), eight new cards (Sixt House, the Three
+    // Kings, the Hrzán and Caretto-Millesimo palaces, the Baťa store, the
+    // Menhart Palace, the Golden Angel, the Pachta Palace), the Black Madonna
+    // (shared with the Fruit Market) and at the far end the Broadway, the
+    // Czech Discount Bank and the Powder Tower (shared with Na Příkopě).
+    // Took over the one-point street card's slug and cover (two check-ins),
+    // the card deleted. Týn Church, Ungelt and St James stand off the street.
+    members: [
+      'trckovsky-dum', 'sixtuv-dum', 'dum-u-tri-kralu', 'palac-hrzanu-celetna', 'millesimovsky-palac',
+      'obchodni-dum-bata-celetna', 'menhartovsky-palac', 'dum-u-zlateho-andela-celetna', 'palac-pachtu-celetna',
+      'dum-u-cerne-matky-bozi', 'divadlo-broadway', 'ceska-eskomptni-banka', 'powder-tower',
+    ],
+  }),
 ];
 
 export const packsOfCard = (slug) => PACKS

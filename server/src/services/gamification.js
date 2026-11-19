@@ -332,7 +332,29 @@ const KAFKA_SLUGS = [
   // The InterContinental stands where the house U Lodi was, the Kafkas' home
   // 1907–1913, where he wrote The Metamorphosis (added 2026-11-16, user's call).
   "fairmont-golden-prague",
+  // Raised to Gold on 2026-11-19 (user's call) with the rest of his life's
+  // addresses: the House at the Minute (home 1889-1896), Sixt House (1888-89)
+  // and the Three Kings (1896-1907) in Celetná, the Hrzán Palace there (his
+  // parents' shop 1906-1912), the Generali Palace (his first job, 1907-08)
+  // and Schönborn Palace (his flat in 1917).
+  "dum-u-minuty",
+  "sixtuv-dum",
+  "dum-u-tri-kralu",
+  "palac-hrzanu-celetna",
+  "palac-generali",
+  "schnborn-palace-embassy-of-the-us-1782396405461",
 ];
+// Plus any 2 of his haunts: Café Louvre, Berta Fanta's salon in the House at
+// the Stone Ram, and Hotel Evropa, where he read The Judgement in 1912.
+const KAFKA_HAUNTS = ["palac-louvre", "dum-u-bileho-jednorozce", "hotel-evropa-1783748217364"];
+const KAFKA_HAUNTS_NEED = 2;
+const KAFKA = ({ checkedSlugs = [] }) => ({
+  current: KAFKA_SLUGS.filter((slug) => checkedSlugs.includes(slug)).length
+    + Math.min(KAFKA_HAUNTS_NEED, KAFKA_HAUNTS.filter((slug) => checkedSlugs.includes(slug)).length),
+  target: KAFKA_SLUGS.length + KAFKA_HAUNTS_NEED,
+  slugs: KAFKA_SLUGS,
+  picks: [{ need: KAFKA_HAUNTS_NEED, slugs: KAFKA_HAUNTS }],
+});
 // My Praguers Understand Me: Dvořák, Smetana and Mozart in Prague.
 const MUSIC_SLUGS = [
   "muzeum-antonina-dvoraka",
@@ -870,7 +892,7 @@ function CASTLE_PROGRESS({ checkedSlugs, quarterCount = {}, quarterTotal = {} })
 // Card pack achievements (2026-11-13, user's list). Hitting the Streets: the
 // packs that follow one street. Any 4 of them; a new street pack joins this
 // list (user's call), the target stays at 4.
-export const STREET_PACK_SLUGS = ["na-prikope", "narodni-trida", "evropska-trida", "plzenska-ulice", "ujezd", "mostecka", "vlasska", "nerudova"];
+export const STREET_PACK_SLUGS = ["na-prikope", "narodni-trida", "evropska-trida", "plzenska-ulice", "ujezd", "mostecka", "vlasska", "nerudova", "jindrisska", "celetna"];
 const STREET_PACKS_NEED = 4;
 // La Dolce Vita (2026-11-18): both packs complete plus the embassy card.
 const LITTLE_ITALY_PACKS = ["florenc", "vlasska"];
@@ -1459,16 +1481,12 @@ export const ACHIEVEMENTS = [
     flavor: "One morning you woke up to find yourself transformed into a Kafka fan.",
     flavor_cz: "Jednoho rána jste se probudili a zjistili, že jste se proměnili v obdivovatele Kafky.",
     flavor_zh: "一天早上醒来，你发现自己变成了一个卡夫卡迷。",
-    description: "Check in at these 9 places: Kafka's House, Goltz-Kinský Palace, Golden Lane, Kafka Museum, Franz Kafka Statue, Kafka's Rotating Head (Quadrio), New Jewish Cemetery, the Workers' Accident Insurance Institute on Na Poříčí and Fairmont Golden Prague (former InterContinental).",
-    description_cz: "Přihlaste se na těchto 9 místech: Kafkův dům, Palác Goltz-Kinských, Zlatá ulička, Muzeum Franze Kafky, Socha Franze Kafky, Kafkova točící se hlava, Nový židovský hřbitov, Dělnická úrazová pojišťovna Na Poříčí a Fairmont Golden Prague (bývalý InterContinental).",
-    description_zh: "打卡以下9个地点：卡夫卡故居、戈尔兹-金斯基宫、黄金巷、卡夫卡博物馆、卡夫卡雕像、卡夫卡旋转头像、新犹太公墓、波日奇街的工人意外保险局和费尔蒙金色布拉格酒店（原洲际酒店）。",
-    difficulty: "medium",
-    check: ({ checkedSlugs }) => KAFKA_SLUGS.every((slug) => checkedSlugs.includes(slug)),
-    progress: ({ checkedSlugs }) => ({
-      current: KAFKA_SLUGS.filter((slug) => checkedSlugs.includes(slug)).length,
-      target: KAFKA_SLUGS.length,
-      slugs: KAFKA_SLUGS,
-    }),
+    description: "Check in at these 15 places: Kafka's House, House at the Minute, Sixt House, House at the Three Kings, Hrzán Palace (Celetná), Goltz-Kinský Palace, Generali Palace, the Workers' Accident Insurance Institute on Na Poříčí, Fairmont Golden Prague (former InterContinental), Schönborn Palace (Embassy of the U.S.), Golden Lane, Kafka Museum, Franz Kafka Statue, Kafka's Rotating Head (Quadrio) and New Jewish Cemetery, plus any 2 of his haunts: Louvre Palace (Café Louvre), House at the Stone Ram and Hotel Evropa.",
+    description_cz: "Přihlaste se na těchto 15 místech: Kafkův dům, Dům U Minuty, Sixtův dům, Dům U Tří králů, Palác Hrzánů z Harasova, Palác Goltz-Kinských, Palác Generali, Dělnická úrazová pojišťovna Na Poříčí, Fairmont Golden Prague (bývalý InterContinental), Schönbornský palác (velvyslanectví USA), Zlatá ulička, Muzeum Franze Kafky, Socha Franze Kafky, Kafkova točící se hlava a Nový židovský hřbitov, a k tomu na libovolných 2 z jeho oblíbených míst: Palác Louvre (Café Louvre), Dům U Kamenného beránka a Hotel Evropa.",
+    description_zh: "打卡以下15个地点：卡夫卡故居、一分钟之家、西克斯特之家、三王之家、赫尔赞宫（采列特纳街）、戈尔兹-金斯基宫、忠利宫、波日奇街的工人意外保险局、费尔蒙金色布拉格酒店（原洲际酒店）、舍恩博恩宫（美国大使馆）、黄金巷、卡夫卡博物馆、卡夫卡雕像、卡夫卡旋转头像和新犹太公墓，另外在他常去的3个地方中任选2个：卢浮宫咖啡馆、石羊之家和欧罗巴大饭店。",
+    difficulty: "hard",
+    check: (stats) => done(KAFKA(stats)),
+    progress: KAFKA,
   },
   {
     id: "prague_understands_me",

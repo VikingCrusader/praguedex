@@ -536,7 +536,7 @@ export const PACKS = [
       'novomestska-radnice', 'brauniv-dum', 'kasna-se-sochou-svateho-josefa', 'pomnik-karoliny-svetle',
       'kostel-sv-ignace', 'budova-byvale-ceske-polytechniky', 'charles-square-center', 'faustuv-dum',
       'budova-byvaleho-ck-trestniho-soudu', 'vseobecna-fakultni-nemocnice', 'cathedral-cyril-methodius',
-      'kostel-sv-vaclava-na-zderaze', 'kostel-sv-jana-na-skalce',
+      'kostel-sv-vaclava-na-zderaze',
       'dvorakuv-dum-zitna', 'jezuitska-kolej-karlovo-namesti', 'pomnik-vitezslava-halka',
       'pomnik-jana-evangelisty-purkyne', 'park-karlovo-namesti',
     ],
@@ -556,7 +556,7 @@ export const PACKS = [
     members: [
       'old-new-synagogue-1782601630704', 'old-jewish-cemetery', 'spanelska-synagoga', 'pinkas-synagogue',
       'maiselova-synagoga', 'klausova-synagoga', 'vysoka-synagoga', 'nova-obradni-sin', 'zidovska-radnice',
-      'parizska', 'kafka-statue', 'dum-obchodnickeho-spolku-merkur', 'faculty-of-arts-uk',
+      'kafka-statue', 'dum-obchodnickeho-spolku-merkur', 'faculty-of-arts-uk',
       'socha-mojzise', 'umeleckoprumyslove-museum',
     ],
   }),
@@ -572,9 +572,12 @@ export const PACKS = [
     // Rudolfinum, the Mánes and Dvořák statues is the next pack; St Agnes, St
     // Castulus, Sts Simon and Jude and the smallest house stand inland and stay
     // out, as does Merkur Palace across Revoluční. Took over the one-point
-    // embankment card's slug and cover.
+    // embankment card's slug and cover. Curie Square and the Fairmont moved to
+    // the Pařížská pack on 2026-11-20 (user's call); KodlContemporary is shared.
+    // The conservatory's Theatre Na Rejdišti (public entrance from the embankment)
+    // joined on 2026-11-20 at the west end, before the Faculty of Law.
     members: [
-      'pravnicka-fakulta-uk-knihovna', 'namesti-curieovych', 'fairmont-golden-prague',
+      'divadlo-na-rejdisti', 'pravnicka-fakulta-uk-knihovna',
       'kodl-contemporary', 'hotel-president', 'cechuv-most', 'sochy-geniu-cechuv-most',
       'pristaviste-u-cechova-mostu', 'nemocnice-na-frantisku', 'ministerstvo-prumyslu-a-obchodu',
       'stefanikuv-most',
@@ -862,6 +865,96 @@ export const PACKS = [
       'trckovsky-dum', 'sixtuv-dum', 'dum-u-tri-kralu', 'palac-hrzanu-celetna', 'millesimovsky-palac',
       'obchodni-dum-bata-celetna', 'menhartovsky-palac', 'dum-u-zlateho-andela-celetna', 'palac-pachtu-celetna',
       'dum-u-cerne-matky-bozi', 'divadlo-broadway', 'ceska-eskomptni-banka', 'powder-tower',
+    ],
+  }),
+  pack({
+    slug: 'palackeho-namesti',
+    released: '2026-11-20T12:00:00+01:00',
+    name: 'Palacký Square',
+    localizedNames: { cz: 'Palackého náměstí', zh: '帕拉茨基广场' },
+    foil: '#6b5a2e',
+    labels: ['square', 'monument', 'national-revival', 'gothic'],
+    // Where the New Town comes down to the river, on the site of old Podskalí
+    // (2026-11-20, user's call): Sucharda's Palacký Monument (the old one-point
+    // square card, rewritten as the monument and renamed
+    // `pomnik-frantiska-palackeho` with its cover), the bridge, the embankment
+    // with the Náplavka below, Emmaus and St John on the Rock (moved here
+    // from Charles Square on 2026-11-20: it faces Emmaus across Vyšehradská), Hypšman's ministries (the new card for the Ministry of
+    // Labour; the Ministry of Health on the square has none), and to the south
+    // the Holy Trinity church of old Podskalí and the old poorhouse that is now
+    // the Ministry of Justice, plus Mařatka's legionary memorial on náměstí Pod
+    // Emauzy (new card). Zítkovy sady is only named in the text. The Výtoň
+    // customs house and Botel Admirál stay out.
+    members: [
+      'pomnik-frantiska-palackeho', 'palackeho-most', 'rasinovo-nabrezi', 'emmaus-monastery-1782494564055',
+      'kostel-sv-jana-na-skalce', 'ministerstvo-prace-a-socialnich-veci', 'pomnik-praha-svym-viteznym-synum', 'kostel-nejsvetejsi-trojice-spalena',
+      'ministerstvo-spravedlnosti',
+    ],
+  }),
+  pack({
+    slug: 'branik',
+    released: '2026-11-20T18:00:00+01:00',
+    name: 'Braník',
+    localizedNames: { cz: 'Braník', zh: '布拉尼克' },
+    foil: '#3e6b5a',
+    labels: ['village-and-town', 'factory', 'nature', 'baroque'],
+    // Old Braník and what lies close by, not the whole katastrální území
+    // (2026-11-20, user's call): the Dominican Courtyard, St Prokop, the
+    // theatre, the new cards for the Hus monument on Branické náměstí and the
+    // Na Křížku château on the slope, the Balance sculpture, the Braník rocks
+    // with the Dobeška viewpoint and the Evangelical church below them, and
+    // to the south the ice houses and the brewery. Barrandov Bridge, the
+    // railway bridge and TESLA stay out. Took over the one-point Old Braník
+    // card's cover (two check-ins), the card deleted. New slug.
+    members: [
+      'dominikansky-dvur', 'kostel-sv-prokopa-branik', 'branicke-divadlo', 'pomnik-jana-husa-branik', 'zamecek-na-krizku',
+      'balance-sculpture-1783548889811', 'brank-rock-cliff-1783427336440', 'viewpoint-dobeka-1782864480282',
+      'evangelicky-kostel-branik', 'branicke-ledarny', 'brank-brewery-1782863740784',
+    ],
+  }),
+  pack({
+    slug: 'parizska',
+    released: '2026-11-20T21:00:00+01:00',
+    name: 'Pařížská',
+    localizedNames: { cz: 'Pařížská', zh: '巴黎大街' },
+    foil: '#6b4a5e',
+    labels: ['street', 'art-nouveau', 'historicism', 'jewish'],
+    // The boulevard cut through the Jewish Town around 1900, from Old Town
+    // Square to Čech Bridge (2026-11-20, user's call): St Nicholas and Schier
+    // House on the square corners, the Merkur house, the Old-New Synagogue and
+    // Bílek's Moses beside it, and at the river end Curie Square, the Fairmont
+    // (Pařížská 30; both moved here from the Dvořák Embankment pack) and
+    // KodlContemporary, its glass corner extension (shared with the
+    // embankment). Took over the one-point street card's slug and cover (two
+    // check-ins), the card deleted; it also left the Josefov pack.
+    members: [
+      'kostel-sv-mikulase-stare-mesto', 'schieruv-dum', 'dum-obchodnickeho-spolku-merkur',
+      'old-new-synagogue-1782601630704', 'socha-mojzise', 'namesti-curieovych', 'fairmont-golden-prague', 'kodl-contemporary',
+    ],
+  }),
+  pack({
+    slug: 'nuselske-udoli',
+    released: '2026-11-20T23:00:00+01:00',
+    name: 'Nusle Valley',
+    localizedNames: { cz: 'Nuselské údolí', zh: '努斯莱山谷' },
+    foil: '#4a5a72',
+    labels: ['bridge', 'communism', 'nature', 'gothic'],
+    // The valley of the Botič under the Nusle Bridge and what stands on its
+    // rims, not the whole katastrální území (2026-11-20, user's call): the
+    // bridge, the metro station, the Congress Centre and the twin towers of the
+    // Grand Hotel on the Pankrác end; Folimanka with its park, sports hall,
+    // shelter and Kintera's sculpture; the Artistic Garden; down the valley the
+    // Fidlovačka theatre and the Nusle brewery; and on the Karlov rim the
+    // church, the Police Museum in its monastery, the Bastion of the Wayside
+    // Shrine and the Ztracenka garden (new card) with the memorial to the victims
+    // of two totalitarian regimes on its terrace. Took
+    // over the one-point Nusle Valley card's slug and cover (two check-ins), the
+    // card deleted; the Valley of Laments achievement now asks for this pack.
+    members: [
+      'nusle-bridge', 'vysehrad-stanice-metra', 'kongresove-centrum-praha', 'grand-hotel-prague-towers',
+      'sportovni-hala-folimanka', 'kryt-folimanka', 'kristof-kintera-rozhodnuti',
+      'umelecka-zahrada-nusle', 'divadlo-na-fidlovacce', 'nuselsky-pivovar',
+      'karlov-church', 'muzeum-policie-cr', 'bastion-u-bozich-muk', 'zahrada-ztracenka', 'pomnik-obetem-dvou-totalitnich-rezimu',
     ],
   }),
 ];

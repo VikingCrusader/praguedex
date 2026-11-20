@@ -114,7 +114,7 @@ export const AREA_LANDMARKS = {
       'karluv-stanek', 'lom-zbraslav', 'kaplicka-panny-marie-zbraslavske', 'zbraslav',
     ],
     'Braník': [
-      'brank-rock-cliff-1783427336440', 'viewpoint-dobeka-1782864480282', 'old-brank-1783436995414', 'dominikansky-dvur',
+      'brank-rock-cliff-1783427336440', 'viewpoint-dobeka-1782864480282', 'branik', 'dominikansky-dvur',
       'brank-brewery-1782863740784', 'branicke-ledarny', 'kostel-sv-prokopa-branik', 'barrandovsky-most',
     ],
     'Krč': [

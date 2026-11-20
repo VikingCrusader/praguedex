@@ -3492,35 +3492,6 @@ Sochař a kameník Karel Novák koupil pozemek roku 1924 a postavil tu dílnu se
     },
   },
   {
-    name: 'Nusle Valley',
-    slug: 'nuselske-udoli',
-    localizedNames: { cz: 'Nuselské údolí', zh: '努斯莱山谷' },
-    labels: ['nature', 'street'],
-    district: 'Praha 2',
-    quarter: 'Nusle',
-    coordinates: { lat: 50.06567560723365, lng: 14.426793638481088 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Nuselsk%C3%A9_%C3%BAdol%C3%AD',
-    description: {
-      en: `The Nusle Valley is the deep green valley of the Botič stream between Vyšehrad and Vinohrady, spanned by the long Nusle Bridge. In the Middle Ages its German nickname was Jammertal, the Valley of Lament, which is not the sort of name estate agents love.
-
-People lived here long before Prague: there are finds from the Stone Age and from early Slavic settlements, and the valley is first mentioned in writing in the 11th century, in the founding charter of the Vyšehrad Chapter. In the Middle Ages its sunny slopes were covered with vineyards. The dark nickname came from the Thirty Years' War, when in 1639 and again in 1648 Swedish armies set up their guns on the heights here to bombard Vyšehrad and the walls of the New Town, and the valley was left devastated; in Czech the name became Jamrtál. Nusle recovered, grew into a town of its own by 1898 and joined Greater Prague in 1922, by then a busy working district.
-
-🎁 Bonus: High above it all, since 1973, runs the Nusle Bridge, about 40 metres above the valley floor, carrying the main road across its top and metro line C hidden inside its body. It changed the valley forever, and from below its great grey span is still one of the most dramatic sights in Prague, especially at dusk, when the lights of the traffic run across the sky.`,
-      cz: `Nuselské údolí je hluboké zelené údolí Botiče mezi Vyšehradem a Vinohrady, přes které se klene dlouhý Nuselský most. Ve středověku mělo německou přezdívku Jammertal, Údolí nářků, což není jméno, jaké by realitní makléři milovali.
-
-Lidé tu žili dávno před Prahou: jsou tu nálezy z doby kamenné i z raně slovanských osad a údolí je poprvé písemně zmíněno v 11. století v zakládací listině vyšehradské kapituly. Ve středověku pokrývaly jeho slunné stráně vinice. Temná přezdívka pochází z třicetileté války, kdy si roku 1639 a znovu roku 1648 švédská vojska postavila na zdejších výšinách děla, aby ostřelovala Vyšehrad a hradby Nového Města, a údolí zůstalo zpustošené; česky se z jména stal Jamrtál. Nusle se vzpamatovaly, roku 1898 vyrostly v samostatné město a roku 1922 se připojily k Velké Praze, tou dobou už jako rušná dělnická čtvrť.
-
-🎁 Bonus: Vysoko nad tím vším vede od roku 1973 Nuselský most, asi 40 metrů nad dnem údolí, který po své horní ploše převádí magistrálu a ve svém těle skrývá linku metra C. Údolí navždy proměnil a zespodu je jeho velký šedý oblouk dodnes jedním z nejpůsobivějších pohledů v Praze, hlavně za soumraku, kdy po nebi běží světla aut.`,
-      zh: `努斯莱山谷是维谢赫拉德和维诺赫拉迪之间博蒂奇溪那条深深的绿色山谷，长长的努塞尔大桥横跨其上。中世纪时它的德语外号叫“Jammertal”，意思是“哀叹之谷”，房产中介大概不会喜欢这种名字。
-
-早在布拉格出现之前，这里就有人居住：有石器时代和早期斯拉夫聚落的遗物，11世纪维谢赫拉德教士团的创立特许状里首次提到了这条山谷。中世纪时，向阳的山坡上种满了葡萄。那个阴郁的外号来自三十年战争：1639年和1648年，瑞典军队两度在这里的高地上架起大炮，轰击维谢赫拉德和新城的城墙，山谷因此满目疮痍；这个名字在捷克语里变成了“扬姆尔塔尔”。努塞尔后来恢复了元气，1898年发展成一座独立的小城，1922年并入大布拉格，那时已是一个热闹的工人街区。
-
-🎁 彩蛋：从1973年起，这一切的高处横着努塞尔大桥，离谷底约40米，桥面上是城市主干道，桥身里藏着地铁C线。它永远地改变了这条山谷，从下面仰望，那道巨大的灰色桥身至今仍是布拉格最壮观的景象之一，尤其是在黄昏，车灯在天上流动的时候。`,
-    },
-  },
-  {
     name: 'Church of the Nativity of the Virgin Mary (Malá Chuchle)',
     slug: 'kostel-narozeni-panny-marie-mala-chuchle',
     localizedNames: { cz: 'Kostel Narození Panny Marie (Malá Chuchle)', zh: '小胡赫莱圣母诞生堂' },
@@ -39510,6 +39481,265 @@ Od roku 1784 tu sídlilo zemské vojenské velitelství. V červnu 1848 tu se sv
 从1784年起，这里是波希米亚的军事司令部。1848年6月，司令温迪施格雷茨亲王阿尔弗雷德正和家人住在这里，布拉格起义中，楼前打了起来；6月12日，他的妻子埃莱奥诺蕾王妃站在窗口，被一颗流弹打中身亡。几天之内，温迪施格雷茨就镇压了起义。从1849年起，宫殿一直是法院，如今这里是布拉格第一区法院。
 
 🎁 彩蛋：大门上，挖银子的矿工和守银子的士兵都有雕像，数银子的文书却什么也没捞着。放在铸币厂门口，倒也挺合适。`,
+    },
+  },
+  {
+    // Palacký Square pack (2026-11-20, user's call; coordinates from the user).
+    // Bohumil Hypšman's ministry buildings below Emmaus, 1924-29 (archiweb:
+    // "former Ministry of Social Care and regional office"); the twin on the
+    // square itself is the Ministry of Health and has no card.
+    name: 'Ministry of Labour and Social Affairs',
+    slug: 'ministerstvo-prace-a-socialnich-veci',
+    localizedNames: { cz: 'Ministerstvo práce a sociálních věcí', zh: '捷克劳动和社会事务部' },
+    labels: ['municipal'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.07162790486141, lng: 14.415748329612223 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `The Ministry of Labour and Social Affairs works out of a long, calm building at the foot of the Emmaus Monastery. Its architect had a medieval monastery and a national monument for neighbours, and he decided that the polite thing to do was not to shout.
+
+The building is one of the ministries that Bohumil Hypšman designed below Emmaus for the young Czechoslovak state, built between 1924 and 1929. One of them was built for the Ministry of Social Care, the forerunner of today's ministry, so the work done here has changed less in a century than the country around it. Its twin, facing Palacký Square, is now the Ministry of Health.
+
+Hypšman, born Hübschmann in Prague in 1878, studied in Vienna under Otto Wagner and spent much of his career fitting new buildings into old Prague. Here he shaped the whole slope between the river and the monastery, the ministries, the terraces and in 1930 the monastery's forecourt, weighing every height against Emmaus so that it stays the crown of the hill. He counted it as his most important work.
+
+🎁 Bonus: Most ministries are built to impress the citizen at the door. This one was built to defer to the monks upstairs, which for a ministry of social affairs may be the right sense of priorities.`,
+      cz: `Ministerstvo práce a sociálních věcí sídlí v dlouhé, klidné budově pod Emauzským klášterem. Její architekt měl za sousedy středověký klášter a národní pomník a usoudil, že slušné je nekřičet.
+
+Budova patří k ministerstvům, která pro mladý československý stát navrhl pod Emauzy Bohumil Hypšman a která vznikla v letech 1924 až 1929. Jedno z nich bylo postaveno pro ministerstvo sociální péče, předchůdce dnešního ministerstva, takže práce, která se tu dělá, se za sto let změnila méně než země kolem. Její dvojče, obrácené k Palackého náměstí, je dnes ministerstvem zdravotnictví.
+
+Hypšman, narozený roku 1878 v Praze jako Hübschmann, studoval ve Vídni u Otty Wagnera a velkou část kariéry strávil tím, že do staré Prahy vsazoval nové stavby. Tady upravil celý svah mezi řekou a klášterem, ministerstva, terasy a roku 1930 i předprostor kláštera, a každou výšku poměřoval s Emauzy, aby zůstaly korunou svahu. Sám to považoval za své nejvýznamnější dílo.
+
+🎁 Bonus: Většina ministerstev se staví tak, aby udělala dojem na občana u dveří. Tohle bylo postaveno tak, aby dalo přednost mnichům nahoře, což je pro ministerstvo sociálních věcí možná docela správné pořadí.`,
+      zh: `捷克劳动和社会事务部的办公楼，是艾玛乌斯修道院脚下一座又长又安静的建筑。它的建筑师邻居是一座中世纪修道院和一座民族纪念碑，于是他认定，礼貌的做法就是别大声嚷嚷。
+
+这座楼属于博胡米尔·希普什曼在艾玛乌斯修道院下方为年轻的捷克斯洛伐克设计的一组部委建筑，建于1924到1929年。其中一座是为社会福利部而建的，也就是今天这个部的前身，所以一百年来，这里干的活比外面的国家变得还少。它的孪生兄弟面朝帕拉茨基广场，如今是卫生部。
+
+希普什曼1878年生于布拉格，原名许布施曼，曾在维也纳师从奥托·瓦格纳，一辈子大半时间都在琢磨怎么把新房子放进老布拉格。在这里，他规划了河岸和修道院之间的整片坡地：部委大楼、台地，还有1930年修道院门前的广场，每一处高度都拿艾玛乌斯来掂量，好让修道院始终是这片坡顶的冠冕。他自己认为，这是他最重要的作品。
+
+🎁 彩蛋：大多数部委大楼都是盖来镇住门口的老百姓的，这一座却是盖来给楼上的修士让路的。对一个管社会事务的部门来说，这样排先后，大概也算摆对了位置。`,
+    },
+  },
+  {
+    // Palacký Square pack (2026-11-20, user's call; coordinates from the user).
+    // Mařatka's legionary memorial on náměstí Pod Emauzy: figures by Mařatka,
+    // obelisk by B. Hübschmann (Hypšman), foundation stone 1928, unveiled
+    // October 1932 (the city's page says 29 Oct), destroyed on Nazi orders in
+    // 1940, recast by Kateřina Amortová and unveiled again 28 Oct 1998.
+    name: 'Monument to Prague\'s Victorious Sons',
+    slug: 'pomnik-praha-svym-viteznym-synum',
+    localizedNames: { cz: 'Pomník Praha svým vítězným synům', zh: '布拉格献给胜利的儿子们纪念碑' },
+    labels: ['monument', 'sculpture', 'world-wars'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.07225903686959, lng: 14.415653661496998 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `At the foot of the Emmaus Monastery a granite obelisk rises over a group of bronze soldiers, and a woman among them fastens a linden sprig to their banner. The city put it up to say thank you, the occupiers pulled it down to make a point, and the city put it back to make one too.
+
+The monument honours the people of Prague who fell in the First World War and the Czechoslovak Legions, the volunteers who fought for the Allies in Russia, France and Italy and helped win the country its independence in 1918. The figures are by Josef Mařatka, a pupil of Myslbek who had worked in Rodin's studio in Paris; the obelisk was designed by Bohumil Hypšman, who was laying out the ministries around this square at the same time. The foundation stone was laid in 1928, ten years after independence, and the monument was unveiled in October 1932. On the stone are two lines from Viktor Dyk's poem The Land Speaks: If you leave me, I shall not perish. If you leave me, you will perish.
+
+In 1940 the Nazis had it torn down and destroyed, as a reminder of Czechoslovak statehood they wanted gone. Mařatka's plaster model survived in the City of Prague Museum, and from it the sculptor Kateřina Amortová recast the figures. The monument was unveiled again on 28 October 1998, the eightieth anniversary of independence, and wreaths are still laid here on that day.
+
+🎁 Bonus: Dyk wrote his lines as the homeland speaking to a citizen tempted to give up on it. The monument has now had the same conversation with Prague twice, once in 1932 and again in 1998, and both times Prague listened.`,
+      cz: `Pod Emauzským klášterem se nad skupinou bronzových vojáků zvedá žulový obelisk a žena mezi nimi připíná na jejich prapor lipovou ratolest. Město ho postavilo, aby poděkovalo, okupanti ho strhli, aby něco dokázali, a město ho postavilo znovu, aby dokázalo něco také.
+
+Pomník připomíná Pražany padlé v první světové válce a československé legie, dobrovolníky, kteří bojovali na straně Dohody v Rusku, Francii a Itálii a pomohli roku 1918 vybojovat samostatnost. Postavy jsou od Josefa Mařatky, žáka Myslbeka, který pracoval v Rodinově ateliéru v Paříži; obelisk navrhl Bohumil Hypšman, který v téže době upravoval okolí s ministerstvy. Základní kámen byl položen roku 1928, deset let po vzniku republiky, a pomník byl odhalen v říjnu 1932. Na kameni stojí dva verše z básně Viktora Dyka Země mluví: Opustíš-li mne, nezahynu. Opustíš-li mne, zahyneš!
+
+Roku 1940 dali nacisté pomník strhnout a zničit jako připomínku československé státnosti, kterou chtěli vymazat. Mařatkův sádrový model se zachoval v Muzeu hlavního města Prahy a podle něj sochařka Kateřina Amortová postavy znovu odlila. Pomník byl znovu odhalen 28. října 1998, k osmdesátému výročí republiky, a v ten den se sem dodnes kladou věnce.
+
+🎁 Bonus: Dyk ty verše napsal jako hlas vlasti, který mluví k občanovi pokoušenému ji opustit. Pomník teď vedl s Prahou stejný rozhovor dvakrát, roku 1932 a znovu roku 1998, a Praha pokaždé poslechla.`,
+      zh: `艾玛乌斯修道院脚下，一座花岗岩方尖碑立在一群青铜士兵之上，其中一位女子正往他们的军旗上系一枝椴树枝。这座碑是城市立来道谢的，占领者拆掉它是为了表明态度，后来城市又把它立了回去，也是为了表明态度。
+
+纪念碑纪念的是第一次世界大战中阵亡的布拉格人，以及捷克斯洛伐克军团：那些在俄国、法国和意大利站在协约国一边作战、帮助国家在1918年赢得独立的志愿兵。人物雕塑出自约瑟夫·马拉特卡之手，他是米斯尔贝克的学生，还在巴黎罗丹的工作室干过；方尖碑由博胡米尔·希普什曼设计，那几年他正在规划周围的部委建筑。1928年，独立十周年时奠基，1932年10月揭幕。石碑上刻着维克多·迪克《土地在说话》里的两句诗："你若离弃我，我不会灭亡；你若离弃我，你将灭亡！"
+
+1940年，纳粹下令把它拆毁，因为它让人想起他们要抹掉的捷克斯洛伐克国家。马拉特卡的石膏模型保存在布拉格市博物馆里，雕塑家卡特日娜·阿莫尔托娃据此重新铸造了人物。1998年10月28日，独立八十周年那天，纪念碑再次揭幕，如今每年这一天还有人来这里献花圈。
+
+🎁 彩蛋：迪克写这两句诗，是让祖国对一个想放弃它的公民说话。这座碑已经跟布拉格把同样的话说了两遍，1932年一次，1998年又一次，两次布拉格都听进去了。`,
+    },
+  },
+  {
+    // Braník pack (2026-11-20, user's call; coordinates from the user).
+    // Jindřich Říha, unveiled 1905; May 1945 plaque in front (virtualni.praha.eu).
+    name: 'Jan Hus Monument (Braník)',
+    slug: 'pomnik-jana-husa-branik',
+    localizedNames: { cz: 'Pomník Jana Husa na Branickém náměstí', zh: '布拉尼克胡斯纪念碑' },
+    labels: ['monument', 'sculpture', 'national-revival'],
+    district: 'Praha 4',
+    quarter: 'Braník',
+    coordinates: { lat: 50.03441121524836, lng: 14.415742564702137 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `On Branické náměstí, Master Jan Hus stands above a seated woman and a Hussite warrior, put there by a village that was not yet part of Prague. Braník unveiled its Hus in 1905, a full ten years before Prague got round to its own on Old Town Square.
+
+Hus (c. 1371–1415) preached church reform in Prague's Bethlehem Chapel and was burned at the stake at the Council of Constance in 1415 after a trial whose outcome was settled before it began. By around 1900 he had become the great symbol of the Czech national movement, and towns and villages across Bohemia raised memorials to him, often to the displeasure of the Catholic Church, which still counted him a heretic.
+
+Braník was then a village of brewery and lime-kiln workers, building its new church of St Prokop in the same years, and it commissioned the sculptor Jindřich Říha. His Hus stands tallest, with a seated woman on one side of the pedestal and a Hussite warrior on the other. In front of the monument a plaque, put up in 1945, remembers the men of Braník killed in the Prague Uprising that May.
+
+🎁 Bonus: Ladislav Šaloun's great Hus memorial on Old Town Square was unveiled in 1915, for the five-hundredth anniversary of his death. Braník's had already stood for a decade by then, so on this one point the village was ahead of the capital.`,
+      cz: `Na Branickém náměstí stojí mistr Jan Hus nad sedící ženou a husitským bojovníkem a postavila ho sem obec, která ještě nepatřila k Praze. Braník svého Husa odhalil roku 1905, celých deset let předtím, než se Praha dostala k vlastnímu na Staroměstském náměstí.
+
+Hus (asi 1371–1415) kázal o nápravě církve v pražské Betlémské kapli a roku 1415 byl na kostnickém koncilu upálen po procesu, jehož výsledek byl dán dřív, než začal. Kolem roku 1900 se stal velkým symbolem českého národního hnutí a města i obce po celých Čechách mu stavěly pomníky, často k nelibosti katolické církve, která ho stále měla za kacíře.
+
+Braník byl tehdy obcí dělníků z pivovaru a vápenek, v týchž letech si stavěl nový kostel svatého Prokopa a pomník zadal sochaři Jindřichu Říhovi. Jeho Hus stojí nejvýš, po jedné straně podstavce sedí žena, po druhé husitský bojovník. Před pomníkem připomíná deska z roku 1945 braníkské muže padlé v květnovém povstání téhož roku.
+
+🎁 Bonus: Šalounův velký Husův pomník na Staroměstském náměstí byl odhalen roku 1915, k pětistému výročí jeho smrti. Ten braníkský tou dobou stál už deset let, takže aspoň v tomhle byla obec napřed před metropolí.`,
+      zh: `布拉尼克广场上，扬·胡斯大师站在一位坐着的女子和一名胡斯派战士之上。把他立在这里的，是一个当时还不属于布拉格的村子。布拉尼克在1905年为它的胡斯揭幕，比布拉格在老城广场上立起自己的那一座整整早了十年。
+
+胡斯（约1371–1415）在布拉格伯利恒小教堂宣讲教会改革，1415年在康斯坦茨大公会议上被烧死在火刑柱上，那场审判还没开始，结果就已经定了。到1900年前后，他已经成了捷克民族运动最重要的象征，波希米亚各地的城镇乡村纷纷为他立碑，天主教会对此常常很不高兴，因为在它眼里胡斯仍是异端。
+
+那时的布拉尼克是个住着啤酒厂工人和石灰窑工人的村子，同一时期还在盖新的圣普罗科普教堂，纪念碑请的是雕塑家因德日赫·日哈。他的胡斯站在最高处，基座一侧坐着一位女子，另一侧是一名胡斯派战士。纪念碑前有一块1945年立的纪念牌，纪念当年五月布拉格起义中牺牲的布拉尼克人。
+
+🎁 彩蛋：老城广场上沙隆的那座巨大的胡斯纪念碑，是1915年胡斯殉难五百周年时才揭幕的。那时布拉尼克这一座已经立了十年，至少在这件事上，村子跑在了首都前头。`,
+    },
+  },
+  {
+    // Braník pack (2026-11-20, user's call; coordinates from the user).
+    // Vlnitá 33, čp. 77: neo-Renaissance, 2nd half of the 19th c., farmstead
+    // turned restaurant early 20th c., sgraffito by Ladislav Novák after Aleš
+    // (some sources say Aleš himself), "opraveno l.p. 1905", listed 1958,
+    // restored after 2003, offices today (cs.wikipedia, Commons).
+    name: 'Na Křížku Château',
+    slug: 'zamecek-na-krizku',
+    localizedNames: { cz: 'Zámeček Na Křížku', zh: '十字架小城堡' },
+    labels: ['historicism', 'hidden-gem'],
+    district: 'Praha 4',
+    quarter: 'Braník',
+    coordinates: { lat: 50.03671163917459, lng: 14.41791436145446 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `On the steep slope above old Braník stands a little château that looks as if a Renaissance lord had shrunk his palace to fit a vineyard. No lord ever lived here. It started as a farmhouse and spent its best years as a pub.
+
+The building took its present neo-Renaissance shape in the second half of the 19th century, when it was the farmstead of a vineyard on the Braník hillside. Early in the 20th century it was turned into a restaurant, one of the places Praguers walked out to on a Sunday to sit above the river with a glass. Its upper façades are covered in sgraffito in the manner of Mikoláš Aleš, usually credited to Ladislav Novák and sometimes to Aleš himself, with a welcoming verse and a panel announcing that the house was "repaired in the year of the Lord 1905".
+
+The vineyard on the slope below lasted until 1946. The château has been a protected monument since 1958 and was fully restored after 2003, and today it holds offices, so the sgraffito is best admired from the street.
+
+🎁 Bonus: The street used to be called Na Křížku, "at the little cross", and gave the château its name. The street was later renamed Vlnitá, "Wavy", but the house kept the old name, which, for a building that has outlived its vineyard, its farm and its pub, is the least it was owed.`,
+      cz: `Na prudkém svahu nad starým Braníkem stojí zámeček, který vypadá, jako by si renesanční pán zmenšil palác, aby se vešel do vinice. Žádný pán tu nikdy nebydlel. Začínal jako statek a nejlepší léta prožil jako hospoda.
+
+Dnešní novorenesanční podobu dostal ve druhé polovině 19. století, kdy byl usedlostí vinice na braníkském svahu. Na počátku 20. století byl přestavěn na restauraci, jedno z míst, kam si Pražané v neděli vyšli posedět nad řekou se sklenkou. Horní části průčelí pokrývají sgrafita v duchu Mikoláše Alše, obvykle připisovaná Ladislavu Novákovi a občas samotnému Alšovi, s uvítacím veršem a s nápisem, že dům byl „opraven l. p. 1905“.
+
+Vinice na svahu pod ním vydržela do roku 1946. Zámeček je kulturní památkou od roku 1958, po roce 2003 prošel úplnou rekonstrukcí a dnes v něm sídlí kanceláře, takže sgrafita je nejlepší obdivovat z ulice.
+
+🎁 Bonus: Ulice se dřív jmenovala Na Křížku a dala zámečku jméno. Později ji přejmenovali na Vlnitou, ale dům si staré jméno nechal, což je pro stavbu, která přežila svou vinici, svůj statek i svou hospodu, to nejmenší, co jí patřilo.`,
+      zh: `老布拉尼克上方的陡坡上，立着一座小城堡，看上去像是哪位文艺复兴贵族把自己的宫殿缩小了，好塞进一片葡萄园里。可这里从没住过什么贵族。它最早是座农庄，最风光的年月是当酒馆。
+
+它在19世纪下半叶有了今天的新文艺复兴模样，那时它是布拉尼克山坡上一片葡萄园的农庄。20世纪初，它被改成了餐馆，布拉格人星期天会走到这里，在河的上方坐下来喝一杯。上半部的外墙满是米科拉什·阿莱什风格的五彩刮画，一般认为出自拉迪斯拉夫·诺瓦克之手，也有人说是阿莱什本人画的，上面有一段欢迎来客的诗，还有一行字说这座房子"于主历1905年修缮"。
+
+坡下的葡萄园一直撑到1946年。小城堡1958年起是文物保护建筑，2003年后经过全面修复，如今里面是办公室，所以刮画最好在街上欣赏。
+
+🎁 彩蛋：这条街原来叫"小十字架街"，小城堡的名字就是从这儿来的。后来街改名叫"波浪街"，房子却留住了老名字。一座熬过了自己的葡萄园、自己的农庄和自己的酒馆的房子，这点待遇总该有。`,
+    },
+  },
+  {
+    name: 'Theatre Na Rejdišti',
+    slug: 'divadlo-na-rejdisti',
+    localizedNames: { cz: 'Divadlo Na Rejdišti', zh: '雷伊季什捷剧院' },
+    labels: ['cultural', 'academy'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.090863263024055, lng: 14.416061377864935 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Divadlo_Na_Rejdi%C5%A1ti',
+    description: {
+      en: `Most Prague theatres hire their actors. Divadlo Na Rejdišti grows them. This is the stage of the Prague Conservatory, where students in their last two years act and sing in front of paying strangers, and where tonight's nervous young lead might be the name on next decade's posters.
+
+The theatre sits inside the conservatory's main building by the river, a house with a busier career than most of its students. It went up in 1901 as an imperial-royal grammar school. After 1918 the new Czechoslovak parliament moved into the Rudolfinum next door and took this building for its offices: it was raised by a storey, given a new facade and, in 1923, joined to the Rudolfinum by a covered bridge designed by Václav Roštlapil. After the Second World War it went to the conservatory, which had itself been moved out of the Rudolfinum after 1918 to make room for those same MPs.
+
+The stage itself is young. The school's old orchestral hall was rebuilt as a theatre, paid for by the EEA and Norway Grants with help from the City of Prague, and regular performances began on 21 February 2011. Fifth- and sixth-year students of drama, classical singing and popular singing put on plays, operas, operettas and musicals with professional directors, designers and choreographers, and a ticket costs a fraction of what the big houses charge. The public entrance is on the river side, from Dvořákovo nábřeží.
+
+🎁 Bonus: The conservatory was founded in 1808, and Antonín Dvořák ran it from 1901 to 1904. The theatre's motto comes from the actor and teacher Miroslav Haller: you can't train a sailor on dry land, and you can't train an actor without a stage.`,
+      cz: `Většina pražských divadel si herce najímá. Divadlo Na Rejdišti si je pěstuje. Je to scéna Pražské konzervatoře, kde studenti posledních dvou ročníků hrají a zpívají před platícími diváky, a dnešní nervózní mladý představitel hlavní role může být jménem na plakátech příštího desetiletí.
+
+Divadlo je uvnitř hlavní budovy konzervatoře u řeky, domu s pestřejší kariérou, než má většina jeho studentů. Postavili ho roku 1901 jako c. k. gymnázium. Po roce 1918 se do sousedního Rudolfina nastěhoval nový československý parlament a tuto budovu si vzal pro své kanceláře: přistavěli jí patro, dali jí novou fasádu a roku 1923 ji s Rudolfinem spojili krytým mostem podle návrhu Václava Roštlapila. Po druhé světové válce připadla konzervatoři, která sama musela po roce 1918 z Rudolfina odejít, aby udělala místo právě těm poslancům.
+
+Samotná scéna je mladá. Školní orchestrální sál byl přestavěn na divadlo z prostředků Fondů EHP a Norska za spoluúčasti hlavního města Prahy a pravidelný provoz začal 21. února 2011. Studenti pátých a šestých ročníků hudebně dramatického oboru, klasického a populárního zpěvu tu uvádějí činohru, opery, operety a muzikály s profesionálními režiséry, scénografy a choreografy, a vstupenka stojí zlomek toho, co si účtují velká divadla. Vchod pro veřejnost je od řeky, z Dvořákova nábřeží.
+
+🎁 Bonus: Konzervatoř vznikla roku 1808 a v letech 1901 až 1904 ji vedl Antonín Dvořák. Motto divadla pochází od herce a pedagoga Miroslava Hallera: jako nelze vychovat námořníka na suché zemi, nelze vychovat herce bez jeviště.`,
+      zh: `布拉格的大多数剧院是雇演员，这家剧院是种演员。它是布拉格音乐学院的舞台，最后两个年级的学生在这里第一次对着买票进场的陌生人演戏、唱歌。今晚台上那个紧张的年轻主角，说不定就是十年后海报上的名字。
+
+剧院藏在音乐学院临河的主楼里，这栋楼的履历比大多数学生都丰富。它1901年建成，原本是一所帝国皇家文理中学。1918年后，新成立的捷克斯洛伐克议会搬进了隔壁的鲁道夫音乐厅，顺手把这栋楼拿来当办公楼：加盖了一层，换了新立面，1923年还按瓦茨拉夫·罗斯特拉皮尔的设计，用一座封闭的廊桥把它和鲁道夫音乐厅连了起来。二战后，这栋楼归了音乐学院，而音乐学院当年正是为了给这批议员腾地方，才在1918年后搬出了鲁道夫音乐厅。
+
+舞台本身很年轻。学校原来的管弦乐厅被改建成剧场，经费来自欧洲经济区和挪威基金，布拉格市也出了钱，2011年2月21日开始正式演出。五、六年级学表演、古典声乐和流行声乐的学生，跟职业导演、舞美和编舞一起排演话剧、歌剧、轻歌剧和音乐剧，票价只有大剧院的零头。观众入口在临河那一面，从德沃夏克河堤进。
+
+🎁 彩蛋：这所音乐学院创办于1808年，1901年至1904年的院长是安东宁·德沃夏克。剧院的座右铭出自演员兼教师米罗斯拉夫·哈勒：在旱地上培养不出水手，没有舞台也培养不出演员。`,
+    },
+  },
+  {
+    name: 'Smíchov Riverside Quay',
+    slug: 'smichovska-naplavka',
+    localizedNames: { cz: 'Smíchovská náplavka', zh: '斯米霍夫河畔码头' },
+    labels: ['waterbody', 'cafe'],
+    district: 'Praha 5',
+    quarter: 'Smíchov',
+    coordinates: { lat: 50.06947686735983, lng: 14.411339458101445 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Ho%C5%99ej%C5%A1%C3%AD_n%C3%A1b%C5%99e%C5%BE%C3%AD',
+    description: {
+      en: `Across the river, the quay at Výtoň is where Prague goes to be seen. The Smíchov side is where it goes once it has had enough of that: the same river, the same vaults in the wall, the same view of Vyšehrad and the railway bridge, and a good deal more room to sit down with a beer.
+
+The quay lies below Hořejší nábřeží, the embankment that runs some 900 metres along the left bank from the railway bridge under Vyšehrad to Jirásek Bridge. Before it was built, this was a working shore of an industrial suburb, so full of chimneys that Smíchov was called Prague's ironworks, with popular river baths and a wooden open-air theatre that was pulled down in 1938. The embankment between Palacký and Jirásek bridges went up after 1903, and the stretch with the wide lower quay towards the railway bridge was finished in the 1920s. For decades the quay was a place to unload: sand dredged from the riverbed came ashore here and was carted off through the city.
+
+Smíchov stayed industrial until the early 1980s, and the quay only turned into a promenade afterwards. The vaults in the river wall now hold bars, cafés, a neighbourhood workshop of the City Library and the community space Kobka 17. In summer there is an open-air cinema, in winter an ice rink, and a seasonal ferry crosses to Výtoň. The Admirál botel, a hotel ship, is moored at the bank.
+
+🎁 Bonus: The old Smíchov waterworks still stands under the railway bridge at the quay's southern end, a reminder that this bank spent far longer working than relaxing.`,
+      cz: `Na druhém břehu, na náplavce na Výtoni, se Praha chodí ukázat. Smíchovská strana je pro chvíle, kdy už jí to stačilo: stejná řeka, stejné kobky ve zdi, stejný výhled na Vyšehrad a železniční most a o dost víc místa, kde si sednout s pivem.
+
+Náplavka leží pod Hořejším nábřežím, které vede asi 900 metrů podél levého břehu od železničního mostu pod Vyšehradem k Jiráskovu mostu. Než vzniklo, byl tu pracovní břeh průmyslového předměstí, tak plného komínů, že se Smíchovu říkalo pražský železářský, s oblíbenými říčními lázněmi a dřevěnou divadelní arénou, zbořenou roku 1938. Nábřeží mezi Palackého a Jiráskovým mostem se stavělo po roce 1903 a úsek se širokou dolní náplavkou směrem k železničnímu mostu byl dokončen ve 20. letech 20. století. Po desetiletí se tu vykládalo: písek vybagrovaný ze dna řeky šel na břeh právě tady a odvážel se odsud po městě.
+
+Smíchov zůstal průmyslový až do počátku 80. let a z náplavky se promenáda stala až potom. V kobkách v nábřežní zdi jsou dnes bary, kavárny, sousedská dílna Městské knihovny a komunitní prostor Kobka 17. V létě tu hraje letní kino, v zimě je tu kluziště a sezonní přívoz vozí lidi na Výtoň. U břehu kotví botel Admirál.
+
+🎁 Bonus: Pod železničním mostem na jižním konci náplavky dodnes stojí stará smíchovská vodárna, připomínka toho, že tenhle břeh mnohem déle pracoval, než odpočíval.`,
+      zh: `河对岸维通的码头，是布拉格出门去让人看的地方。斯米霍夫这一边，是它看够了人以后来的地方：同一条河，同样嵌在墙里的拱洞，同样望得见高堡和铁路桥，只是能坐下来喝杯啤酒的空地多得多。
+
+码头在上河堤路下方。这条河堤沿着伏尔塔瓦河左岸延伸约900米，从高堡脚下的铁路桥一直到伊拉塞克桥。修河堤以前，这里是一个工业郊区干活的河岸，烟囱多到斯米霍夫被叫作"布拉格的铁厂"，岸边还有热闹的河水浴场和一座露天木头剧场，剧场在1938年拆掉了。帕拉茨基桥到伊拉塞克桥之间的河堤在1903年后动工，朝铁路桥方向、带宽阔下层码头的那一段在20世纪20年代完工。几十年里，这里是卸货的地方：从河床挖上来的沙子就在这儿上岸，再拉到城里各处。
+
+斯米霍夫一直是工业区，到20世纪80年代初才变样，码头也是那以后才成了散步的地方。河堤墙里的拱洞如今开着酒吧、咖啡馆、市图书馆的街坊工作坊和社区空间"17号拱洞"。夏天有露天电影，冬天有溜冰场，季节性渡船开往对岸的维通。岸边还泊着酒店船"海军上将号"。
+
+🎁 彩蛋：码头南头的铁路桥下，至今还立着斯米霍夫的老水厂。它提醒人们：这片河岸干活的年头，远比休闲的年头长。`,
+    },
+  },
+  {
+    // Nusle Valley pack (2026-11-20, user's call; coordinates from the user).
+    // Rebuilt 2010 by Michal Gavlas (Mapamátky; prague.eu dates 2010 too);
+    // the two-regimes memorial stands on one of its terraces.
+    name: 'Ztracenka Garden',
+    slug: 'zahrada-ztracenka',
+    localizedNames: { cz: 'Zahrada Ztracenka', zh: '失落花园' },
+    labels: ['park', 'hidden-gem'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.06820300520164, lng: 14.426505206602151 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Ztracenka means "the lost one", and for a long time this garden lived up to its name. Tucked into the slope below Karlov, between the New Town walls and the university buildings of Albertov, it is the kind of place most people find only by taking the wrong staircase.
+
+Vineyards once covered the slope beneath Karlov. They vanished in the Thirty Years' War and left town gardens behind, overgrown and hard to get into. Under socialism the site served as a playground, and then it slid back into neglect, a steep tangle of greenery that became a refuge for the homeless.
+
+In 2010 it was rebuilt to designs by the architect Michal Gavlas as a terraced garden in the Italian manner. Its brick retaining walls are modelled on the Baroque bastions of the New Town and in many places join the old masonry itself. On one of the terraces stands the Memorial to the Victims of Two Totalitarian Regimes, three stone blocks by Ondřej Tuček and Ladislav Sorokáč.
+
+🎁 Bonus: From the terraces you look out over the lower New Town, the Albertov campus and the tower of St Apollinaris. The garden is open every day, costs nothing and is still mostly empty, which may be the last way in which it is lost.`,
+      cz: `Ztracenka si své jméno dlouho zasloužila. Je schovaná ve svahu pod Karlovem, mezi novoměstskými hradbami a univerzitními budovami na Albertově, a většina lidí na ni narazí jen tak, že vyjde po špatných schodech.
+
+Svah pod Karlovem kdysi pokrývaly vinice. Zmizely za třicetileté války a zůstaly po nich městské zahrady, zarostlé a těžko přístupné. Za socialismu tu bylo hřiště, a pak místo znovu upadlo, strmá změť zeleně, ve které hledali útočiště bezdomovci.
+
+Roku 2010 ji podle návrhu architekta Michala Gavlase přestavěli na terasovou zahradu v italském duchu. Cihlové opěrné zdi se inspirují barokními bastiony Nového Města a na mnoha místech navazují přímo na staré zdivo. Na jedné z teras stojí Pomník obětem dvou totalitních režimů, tři kamenné bloky od Ondřeje Tučka a Ladislava Sorokáče.
+
+🎁 Bonus: Z teras je vidět na dolní Nové Město, albertovský kampus a věž svatého Apolináře. Zahrada je otevřená každý den, nic nestojí a pořád je skoro prázdná, což je možná poslední způsob, jakým je pořád ztracená.`,
+      zh: `"Ztracenka"的意思是"失落的那一个"，很长一段时间里，这座花园也确实名副其实。它藏在卡尔洛夫下方的坡上，夹在新城城墙和阿尔贝托夫的大学楼之间，大多数人只有走错了楼梯才会撞见它。
+
+卡尔洛夫脚下的山坡上曾经满是葡萄园。三十年战争中葡萄园消失了，只剩下一片片城里人的园子，杂草丛生，很难进去。社会主义时期这里当过游乐场，后来又荒废了，成了一面杂木丛生的陡坡，无家可归的人常在这里落脚。
+
+2010年，建筑师米哈尔·加夫拉斯把它改建成了意大利风格的台地花园。砖砌的挡土墙仿照新城的巴洛克棱堡，很多地方直接和老城墙接在一起。其中一层台地上，立着两个极权政权受害者纪念碑，是翁德热·图切克和拉迪斯拉夫·索罗卡奇创作的三块石碑。
+
+🎁 彩蛋：从台地上望出去，能看到新城下城、阿尔贝托夫校园和圣阿波利纳尔教堂的钟楼。花园天天开放，不要门票，也还是几乎没人，这大概是它如今唯一还"失落"着的地方。`,
     },
   },
 ];

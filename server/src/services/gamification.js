@@ -612,7 +612,9 @@ const ZIZKOV = quarterShareWith("Žižkov", 0.5, ["zizkov-tv-tower", "zizkov-hor
 // card lies just over the line in Troja) and the psychiatric hospital, whose
 // grounds host the Mezi ploty festival. User's idea, 2026-11-04.
 const BOHNICE = quarterShareWith("Bohnice", 0.5, ["bohnice", "oc-krakov", "psychiatricka-nemocnice-bohnice"]);
-const NUSLE = quarterShareWith("Nusle", 0.4, ["nusle-bridge", "nuselske-udoli"]);
+// The Valley of Laments became a pack achievement on 2026-11-20 (user's call),
+// when the one-point Nusle Valley card was retired into its pack.
+const NUSLE_VALLEY_PACK = "nuselske-udoli";
 const VYSEHRAD = quarterShareWith("Vyšehrad", 0.8, ["sousosi-premysl-a-libuse"]);
 // The Spanish Synagogue's card was "josefov" until 2026-11-16, when the
 // Josefov card pack took that slug.
@@ -723,7 +725,7 @@ function STARTING_ZONE({ checkedSlugs = [] }) {
 // and the First Republic, which put it on the presidential standard in 1920
 // (Masaryk, and Lány, where he died and is buried); 20 National Revival cards.
 const TRUTH_PREVAILS = placesAndLabels(
-  ["pamatnik-jana-husa", "palackeho-namesti", "pomnik-josefa-jungmanna", "national-museum", "national-theatre",
+  ["pamatnik-jana-husa", "pomnik-frantiska-palackeho", "pomnik-josefa-jungmanna", "national-museum", "national-theatre",
     "vysehrad-cemetery", "pamatnik-tg-masaryka", "zamek-lany"],
   [["national-revival", 20]]);
 // Generalissimo: Wallenstein's palace in the Lesser Town and what belongs to it.
@@ -892,7 +894,7 @@ function CASTLE_PROGRESS({ checkedSlugs, quarterCount = {}, quarterTotal = {} })
 // Card pack achievements (2026-11-13, user's list). Hitting the Streets: the
 // packs that follow one street. Any 4 of them; a new street pack joins this
 // list (user's call), the target stays at 4.
-export const STREET_PACK_SLUGS = ["na-prikope", "narodni-trida", "evropska-trida", "plzenska-ulice", "ujezd", "mostecka", "vlasska", "nerudova", "jindrisska", "celetna"];
+export const STREET_PACK_SLUGS = ["na-prikope", "narodni-trida", "evropska-trida", "plzenska-ulice", "ujezd", "mostecka", "vlasska", "nerudova", "jindrisska", "celetna", "parizska"];
 const STREET_PACKS_NEED = 4;
 // La Dolce Vita (2026-11-18): both packs complete plus the embassy card.
 const LITTLE_ITALY_PACKS = ["florenc", "vlasska"];
@@ -2174,12 +2176,16 @@ export const ACHIEVEMENTS = [
     flavor: "In the Thirty Years' War the Swedes set up their guns here, and the valley earned its old nickname: the Valley of Laments.",
     flavor_cz: "Za třicetileté války tu Švédové postavili děla a údolí dostalo starou přezdívku Jamrtál, údolí nářků.",
     flavor_zh: "三十年战争时，瑞典人在这里架起大炮，山谷从此得了个老外号：“哀叹之谷”。",
-    description: "Collect 40% of the cards in Nusle, including the Nusle Bridge and the Nusle Valley.",
-    description_cz: "Sesbírejte 40 % karet v Nuslích, mezi nimi Nuselský most a Nuselské údolí.",
-    description_zh: "收集努斯莱40%的卡片，其中必须包括努斯莱大桥和努斯莱山谷。",
+    description: "Complete the Nusle Valley pack.",
+    description_cz: "Dokončete balíček Nuselské údolí.",
+    description_zh: "集齐努斯莱山谷卡包。",
     difficulty: "medium",
-    check: (stats) => done(NUSLE(stats)),
-    progress: NUSLE,
+    check: ({ completedPackSlugs = [] }) => completedPackSlugs.includes(NUSLE_VALLEY_PACK),
+    progress: ({ completedPackSlugs = [] }) => ({
+      current: completedPackSlugs.includes(NUSLE_VALLEY_PACK) ? 1 : 0,
+      target: 1,
+      packs: { need: 1, slugs: [NUSLE_VALLEY_PACK] },
+    }),
   },
   {
     id: "little_poland",

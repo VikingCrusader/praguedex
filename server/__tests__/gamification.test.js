@@ -416,7 +416,8 @@ describe('evaluateAchievements', () => {
     const q = (quarter, total, n, slugs) => ({ checkedSlugs: slugs, quarterTotal: { [quarter]: total }, quarterCount: { [quarter]: n } });
     expect(ids(q('Žižkov', 30, 15, ['zizkov-tv-tower', 'zizkov-horse-statue']))).toContain('tower_and_general');
     expect(ids(q('Žižkov', 30, 14, ['zizkov-tv-tower', 'zizkov-horse-statue']))).not.toContain('tower_and_general');
-    expect(ids(q('Nusle', 31, 13, ['nusle-bridge', 'nuselske-udoli']))).toContain('valley_of_laments');
+    expect(ids({ completedPackSlugs: ['nuselske-udoli'] })).toContain('valley_of_laments');
+    expect(ids(q('Nusle', 31, 13, ['nusle-bridge']))).not.toContain('valley_of_laments');
     expect(ids(q('Vyšehrad', 22, 18, ['sousosi-premysl-a-libuse']))).toContain('libuse_prophecy');
     expect(ids(q('Vyšehrad', 22, 17, ['sousosi-premysl-a-libuse']))).not.toContain('libuse_prophecy');
     expect(ids(q('Josefov', 13, 11, ['old-new-synagogue-1782601630704', 'spanelska-synagoga']))).toContain('golem_in_the_attic');
@@ -487,7 +488,7 @@ describe('evaluateAchievements', () => {
 
   test('the 2026-11-04 batch', () => {
     const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
-    const truth = ['pamatnik-jana-husa', 'palackeho-namesti', 'pomnik-josefa-jungmanna', 'national-museum', 'national-theatre',
+    const truth = ['pamatnik-jana-husa', 'pomnik-frantiska-palackeho', 'pomnik-josefa-jungmanna', 'national-museum', 'national-theatre',
       'vysehrad-cemetery', 'pamatnik-tg-masaryka', 'zamek-lany'];
     expect(ids({ checkedSlugs: truth, labelCount: { 'national-revival': 20 } })).toContain('truth_prevails');
     expect(ids({ checkedSlugs: truth, labelCount: { 'national-revival': 19 } })).not.toContain('truth_prevails');

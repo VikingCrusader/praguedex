@@ -344,7 +344,9 @@ export default function MapPage() {
       maxTiles={maxTiles}
       onPick={pickCard}
       packs={allPacks}
-      leadPacks={packsOnly || area ? shownPacks : []}
+      // Under the Packs filter the right column lists the packs; the bottom bar
+      // keeps to the nearest cards so the two don't repeat each other.
+      leadPacks={!packsOnly && area ? shownPacks : []}
       onPickPack={pickPack}
     />
   );

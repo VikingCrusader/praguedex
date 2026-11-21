@@ -320,7 +320,7 @@ export default function ExplorePage() {
     : rarity ? (RARITY_BLURB[lang] || RARITY_BLURB.en)[rarity] : null;
   const titleText  = areaActive
     ? convert(beyondCity ? (RARITY_LABEL[lang]?.expedition ?? RARITY_LABEL.en.expedition) : area.kind === 'district' ? t('detail.district', { n: area.value.slice(6) }) : `${area.district ? `${t('detail.district', { n: area.district.slice(6) })}${lang === 'zh' ? '，' : ', '}` : ''}${quarterName(area.value, lang)}`)
-    : t(guest ? 'explore.titleGuest' : inCollection ? 'explore.titleCollection' : cityOnly ? 'explore.titleCity' : 'explore.title');
+    : t(guest ? 'explore.titleGuest' : packsShown ? 'explore.titlePacks' : inCollection ? 'explore.titleCollection' : cityOnly ? 'explore.titleCity' : 'explore.title');
 
   const changeScope = city => { setCityOnly(city); if (!city || beyondCity) setArea(null); };
   // My Collections shows every collected card, so it has neither control.

@@ -670,7 +670,7 @@ export const historyEvents = [
         },
       },
       {
-        slug: "namesti-miru",
+        slug: "bazilika-sv-ludmily",
         relation: {
           en: "The only Basilica of St. Ludmila in the world: a soaring 19th-century tribute to a woman murdered a thousand years before it was built.",
           cz: "Jediná bazilika svaté Ludmily na světě: velkolepý devatenáctistoletý hold ženě, zavražděné tisíc let předtím, než tahle stavba vůbec vznikla.",
@@ -13949,7 +13949,7 @@ export const historyEvents = [
     ],
     relatedLandmarks: [
       {
-        slug: "vitkov-national-memorial",
+        slug: "vitkov",
         relation: {
           en: "The hill Žižka fortified and held on 14 July 1420, the site that broke Sigismund's own crusade before it ever reached Prague's walls.",
           cz: "Kopec, který Žižka opevnil a 14. července 1420 udržel, místo, kde se Zikmundova vlastní křížová výprava zlomila dřív, než vůbec dosáhla pražských hradeb.",

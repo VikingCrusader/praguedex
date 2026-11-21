@@ -137,7 +137,7 @@ describe('evaluateAchievements', () => {
 
   test('hradcany_conqueror needs all seven places and 60% of Hradčany', () => {
     const seven = ['st-vitus-cathedral', 'new-royal-palace', 'old-royal-palace', 'st-georges-basilica',
-      'kralovska-zahrada', 'strahov-monastery', 'queen-annes-summer-palace-1782584407663'];
+      'zpivajici-fontana', 'strahov-monastery', 'queen-annes-summer-palace-1782584407663'];
     const ids = s => evaluateAchievements({ ...baseStats, quarterTotal: { 'Hradčany': 70 }, ...s }, []).map(a => a.id);
     expect(ids({ checkedSlugs: seven, quarterCount: { 'Hradčany': 42 } })).toContain('hradcany_conqueror');
     expect(ids({ checkedSlugs: seven, quarterCount: { 'Hradčany': 41 } })).not.toContain('hradcany_conqueror');
@@ -217,7 +217,7 @@ describe('evaluateAchievements', () => {
     expect(ids(win)).toContain('mind_the_window');
     expect(ids(win.slice(1))).not.toContain('mind_the_window');
     const chalice = ['tyn-church', 'pamatnik-jana-husa', 'bethlehem-chapel', 'kostel-sv-martina-ve-zdi',
-      'kostel-panny-marie-snezne', 'zizkov-horse-statue', 'namesti-jiriho-z-podebrad', 'husuv-sbor-vrsovice', 'husuv-sbor-vinohrady', 'novomestska-radnice'];
+      'kostel-panny-marie-snezne', 'zizkov-horse-statue', 'kostel-nejsvetejsiho-srdce-pane', 'husuv-sbor-vrsovice', 'husuv-sbor-vinohrady', 'novomestska-radnice'];
     expect(ids(chalice)).toContain('chalice_be_with_you');
     expect(ids(chalice.slice(1))).not.toContain('chalice_be_with_you');
   });

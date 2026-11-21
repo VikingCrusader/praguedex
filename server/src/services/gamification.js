@@ -314,7 +314,7 @@ const WINDOW_SLUGS = ["novomestska-radnice", "old-royal-palace", "slavatuv-obeli
 // and the New Town Hall itself (user's addition, 2026-11-02).
 const CHALICE_SLUGS = [
   "tyn-church", "pamatnik-jana-husa", "bethlehem-chapel", "kostel-sv-martina-ve-zdi",
-  "kostel-panny-marie-snezne", "zizkov-horse-statue", "namesti-jiriho-z-podebrad",
+  "kostel-panny-marie-snezne", "zizkov-horse-statue", "kostel-nejsvetejsiho-srdce-pane",
   "husuv-sbor-vrsovice", "husuv-sbor-vinohrady", "novomestska-radnice",
 ];
 // 20th-century and composer/writer achievements (2026-11-02, ahead of the
@@ -736,7 +736,7 @@ const WALLENSTEIN = placesOnly([
 // AEIOU: the Habsburgs from Ferdinand I to Maria Theresa (Rudolf II has his
 // own, Cabinet of Curiosities, so the two lists don't share a place).
 const HABSBURG = placesOnly([
-  "kralovska-zahrada", "queen-annes-summer-palace-1782584407663", "hvezda-game-reserve",
+  "zpivajici-fontana", "queen-annes-summer-palace-1782584407663", "hvezda-game-reserve",
   "micovna-prazskeho-hradu", "new-royal-palace", "socha-marie-terezie",
 ]);
 const RUDOLF = placesOnly([
@@ -874,7 +874,7 @@ const METRO_TERMINALS = ["nemocnice-motol", "depo-hostivar", "haje", "letňany",
 // mark, so the bar only fills when both parts are complete.
 const CASTLE_SLUGS = [
   "st-vitus-cathedral", "new-royal-palace", "old-royal-palace", "st-georges-basilica",
-  "kralovska-zahrada", "strahov-monastery", "queen-annes-summer-palace-1782584407663",
+  "zpivajici-fontana", "strahov-monastery", "queen-annes-summer-palace-1782584407663",
 ];
 const CASTLE_QUARTER = "Hradčany";
 const CASTLE_QUARTER_SHARE = 0.6;
@@ -1215,9 +1215,9 @@ export const ACHIEVEMENTS = [
     flavor: "The castle has surrendered, and most of Hradčany with it.",
     flavor_cz: "Hrad se vzdal, a s ním většina Hradčan.",
     flavor_zh: "城堡投降了，城堡区也降了大半。",
-    description: "Check in at St Vitus Cathedral, the New Royal Palace, the Old Royal Palace, St George's Basilica, the Royal Garden, Strahov Monastery and Queen Anne's Summer Palace, and collect at least 60% of the cards in Hradčany.",
-    description_cz: "Přihlaste se v katedrále sv. Víta, Novém královském paláci, Starém královském paláci, bazilice sv. Jiří, Královské zahradě, Strahovském klášteře a Letohrádku královny Anny a sesbírejte alespoň 60 % karet na Hradčanech.",
-    description_zh: "打卡圣维特大教堂、新皇宫、旧皇宫、圣乔治圣殿、皇家花园、斯特拉霍夫修道院和安娜皇后夏宫，并且收集城堡区（Hradčany）至少60%的卡片。",
+    description: "Check in at St Vitus Cathedral, the New Royal Palace, the Old Royal Palace, St George's Basilica, the Singing Fountain in the Royal Garden, Strahov Monastery and Queen Anne's Summer Palace, and collect at least 60% of the cards in Hradčany.",
+    description_cz: "Přihlaste se v katedrále sv. Víta, Novém královském paláci, Starém královském paláci, bazilice sv. Jiří, u Zpívající fontány v Královské zahradě, ve Strahovském klášteře a Letohrádku královny Anny a sesbírejte alespoň 60 % karet na Hradčanech.",
+    description_zh: "打卡圣维特大教堂、新皇宫、旧皇宫、圣乔治圣殿、皇家花园的歌唱喷泉、斯特拉霍夫修道院和安娜皇后夏宫，并且收集城堡区（Hradčany）至少60%的卡片。",
     difficulty: "hard",
     check: (stats) => {
       const p = CASTLE_PROGRESS(stats);
@@ -1463,9 +1463,9 @@ export const ACHIEVEMENTS = [
     flavor: "From the pulpit of the Bethlehem Chapel to the rider on Vítkov hill, following the chalice all the way.",
     flavor_cz: "Od kazatelny Betlémské kaple až k jezdci na Vítkově, celou cestu za kalichem.",
     flavor_zh: "从伯利恒礼拜堂的讲坛，到维特科夫山上的骑士，一路追随圣杯。",
-    description: "Check in at ten Hussite places: the Týn Church, the Jan Hus Monument, the Bethlehem Chapel, St Martin in the Wall, Our Lady of the Snows, the New Town Hall, the Jan Žižka Monument, Jiřího z Poděbrad Square and the Hussite congregations in Vršovice and Vinohrady.",
-    description_cz: "Přihlaste se na deseti husitských místech: Chrám Matky Boží před Týnem, Památník Jana Husa, Betlémská kaple, kostel sv. Martina ve zdi, kostel Panny Marie Sněžné, Novoměstská radnice, Pomník Jana Žižky, náměstí Jiřího z Poděbrad, Husův sbor ve Vršovicích a Husův sbor Vinohrady.",
-    description_zh: "打卡十处胡斯派地点：泰恩前的圣母教堂、扬·胡斯纪念碑、伯利恒礼拜堂、墙中圣马丁教堂、雪地圣母教堂、新城市政厅、扬·杰式卡纪念像、波杰布拉德的伊日广场，以及弗尔绍维采和维诺赫拉迪的胡斯集会堂。",
+    description: "Check in at ten Hussite places: the Týn Church, the Jan Hus Monument, the Bethlehem Chapel, St Martin in the Wall, Our Lady of the Snows, the New Town Hall, the Jan Žižka Monument, the Church of the Sacred Heart on Jiřího z Poděbrad Square and the Hussite congregations in Vršovice and Vinohrady.",
+    description_cz: "Přihlaste se na deseti husitských místech: Chrám Matky Boží před Týnem, Památník Jana Husa, Betlémská kaple, kostel sv. Martina ve zdi, kostel Panny Marie Sněžné, Novoměstská radnice, Pomník Jana Žižky, kostel Nejsvětějšího Srdce Páně na náměstí Jiřího z Poděbrad, Husův sbor ve Vršovicích a Husův sbor Vinohrady.",
+    description_zh: "打卡十处胡斯派地点：泰恩前的圣母教堂、扬·胡斯纪念碑、伯利恒礼拜堂、墙中圣马丁教堂、雪地圣母教堂、新城市政厅、扬·杰式卡纪念像、伊日广场上的至圣耶稣圣心教堂，以及弗尔绍维采和维诺赫拉迪的胡斯集会堂。",
     difficulty: "hard",
     check: ({ checkedSlugs }) => CHALICE_SLUGS.every((slug) => checkedSlugs.includes(slug)),
     progress: ({ checkedSlugs }) => ({
@@ -2548,9 +2548,9 @@ export const ACHIEVEMENTS = [
     flavor: "Five vowels, four hundred years, and nobody knows what they meant.",
     flavor_cz: "Pět samohlásek, čtyři sta let, a co znamenají, neví nikdo.",
     flavor_zh: "五个字母，四百年江山，到底什么意思没人知道。",
-    description: "Check in at the Royal Garden, Queen Anne's Summer Palace, Hvězda Game Reserve, the Ball Game Hall of Prague Castle, the New Royal Palace and the Maria Theresa Statue.",
-    description_cz: "Přihlaste se v Královské zahradě, v Letohrádku královny Anny, v oboře Hvězda, v Míčovně Pražského hradu, v Novém královském paláci a u Sochy Marie Terezie.",
-    description_zh: "打卡皇家花园、安娜王后夏宫、星形猎苑、布拉格城堡球场馆、新皇宫和玛丽亚·特蕾莎雕像。",
+    description: "Check in at the Singing Fountain in the Royal Garden, Queen Anne's Summer Palace, Hvězda Game Reserve, the Ball Game Hall of Prague Castle, the New Royal Palace and the Maria Theresa Statue.",
+    description_cz: "Přihlaste se u Zpívající fontány v Královské zahradě, v Letohrádku královny Anny, v oboře Hvězda, v Míčovně Pražského hradu, v Novém královském paláci a u Sochy Marie Terezie.",
+    description_zh: "打卡皇家花园的歌唱喷泉、安娜王后夏宫、星形猎苑、布拉格城堡球场馆、新皇宫和玛丽亚·特蕾莎雕像。",
     difficulty: "medium",
     check: (stats) => done(HABSBURG(stats)),
     progress: HABSBURG,

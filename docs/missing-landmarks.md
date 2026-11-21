@@ -15,14 +15,13 @@ Coordinates are always supplied by the user.
 | Kafka's birthplace (U Věže, náměstí Franze Kafky) | Staré Město | Mentioned in the Old Town and Josefov guides; only a bust and a plaque, so a small card at most | 2026-11-04 |
 | Devil's Column (Čertův sloup) | Vyšehrad | Its legend is in the Vyšehrad guide; three broken stone pieces by the basilica | 2026-11-04 |
 | Slavín | Vyšehrad | The shared tomb of the nation's great in the middle of the cemetery; may belong inside the cemetery card instead | 2026-11-04 |
-| Vinohrady water tower (Vinohradská vodárna) | Vinohrady | The 1882 neo-Renaissance water tower on Korunní, a landmark of the district | 2026-11-04 |
 | Kinsky Garden (Kinského zahrada) | Smíchov | The landscaped park on the Petřín slope around the Kinsky summer palace (which has a card), with the wooden church of St Michael | 2026-11-04 |
 | Břevnov monastery brewery | Břevnov | Claims the oldest brewing records in the country; may fit inside the monastery card instead | 2026-11-04 |
 | Krč forest (Krčský les) | Krč | The big forest the Krč and Prague 4 guides send people into | 2026-11-04 |
 | Spořilov garden suburb | Záběhlice | The 1920s garden city of identical family houses; only its church has a card | 2026-11-04 |
 | IKEM (Institute for Clinical and Experimental Medicine) | Krč | One of the country's leading hospitals; could also count toward Angel in White | 2026-11-04 |
 | Central Military Hospital (Ústřední vojenská nemocnice) | Střešovice | Named in the Střešovice guide; a big hospital that could also count toward Angel in White | 2026-11-04 |
-| Vinohrady Cemetery (Vinohradský hřbitov) | Vinohrady / Strašnice | The cemetery as a whole; its chapel, with Václav Havel's tomb in the side wall, has a card (`kaple-sv-vaclava-vinohradsky-hrbitov`), as does the crematorium next to it | 2026-11-04 |
+| Vinohrady Cemetery (Vinohradský hřbitov) | Vinohrady / Strašnice | The cemetery as a whole (2026-11-21: the user decided against a card, the chapel is enough); its chapel, with Václav Havel's tomb in the side wall, has a card (`kaple-sv-vaclava-vinohradsky-hrbitov`), as does the crematorium next to it | 2026-11-04 |
 | Hostivař–Záběhlice forest park (Lesopark Hostivař) | Hostivař | One of the largest forest parks in Prague, named in the Prague 15 and Hostivař guides | 2026-11-04 |
 | Centrum Černý Most (shopping centre and IKEA) | Černý Most | The big mall and IKEA at the end of line B that the Prague 14 and Černý Most guides joke about; commercial, so optional | 2026-11-04 |
 | Horní Počernice: more cards | Horní Počernice | Prague 20 has a single card (Chvaly chateau); candidates: St Ludmila church, the Divadlo Horní Počernice theatre, Svépravice village green, the Počernice ponds | 2026-11-04 |

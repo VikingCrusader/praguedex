@@ -56,12 +56,12 @@ export const AREA_LANDMARKS = {
       'vysehrad-leopold-gate', 'taborska-brana', 'vysehrad-wall-walkway', 'libusina-lazen',
     ],
     'Vinohrady': [
-      'namesti-miru', 'kostel-nejsvetejsiho-srdce-pane', 'namesti-jiriho-z-podebrad', 'riegrovy-sady', 'vinohrady-rose-garden',
+      'namesti-miru', 'bazilika-sv-ludmily', 'kostel-nejsvetejsiho-srdce-pane', 'namesti-jiriho-z-podebrad', 'riegrovy-sady', 'grebovka',
       'divadlo-na-vinohradech', 'state-opera', 'praha-hlavni-nadrazi', 'czech-radio-building-1782668063575', 'vinohradsky-pavilon',
-      'kaple-sv-vaclava-vinohradsky-hrbitov',
+      'kaple-sv-vaclava-vinohradsky-hrbitov', 'vinohradska-vodarna', 'vila-bratri-capku',
     ],
     'Žižkov': [
-      'zizkov-tv-tower', 'vitkov-national-memorial', 'zizkov-horse-statue', 'olsanske-hrbitovy', 'new-jewish-cemetery-1782861254358',
+      'zizkov-tv-tower', 'vitkov', 'vitkov-national-memorial', 'zizkov-horse-statue', 'olsanske-hrbitovy', 'new-jewish-cemetery-1782861254358',
       'armadni-muzeum-zizkov', 'hasek-memorial', 'kostel-sv-prokopa-sladkovskeho', 'palac-akropolis', 'nakladove-nadrazi-zizkov',
       'stadion-viktoria-zizkov',
     ],

@@ -154,7 +154,6 @@ export const SLUG_RARITY = {
   'storch-house':                 'rare',
   'praha-bubny-station':          'rare',
   'riegrovy-sady':                'rare',
-  'vinohrady-rose-garden':        'rare',
   'hasek-memorial':               'rare',
   'aquapalace':                   'rare',
   'mirror-maze-petrin':           'rare',

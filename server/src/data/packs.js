@@ -14,8 +14,11 @@ import PACK_DESCRIPTIONS from './packDescriptions.js';
 
 export const PACK_UNLOCK_AT = 3;
 export const PACK_UNLOCK_XP = 40;
-// Set beside the achievement tiers: 800 is what a Diamond pays.
-export const packCompleteXp = (cards) => Math.min(800, Math.max(100, cards * 25));
+// Set beside the achievement tiers: 800 is what a Diamond pays. 15 XP a card
+// since 2026-11-21 (25 until then; user's call: with 50+ packs the bonus equalled
+// the cards' own XP). It counts cards, not rarity, on purpose. XP already paid
+// for completed packs is kept.
+export const packCompleteXp = (cards) => Math.min(800, Math.max(100, cards * 15));
 
 // `released` is when the pack went live (its commit), for the Newest sort on
 // Explore: packs stand among the cards by that time (2026-11-11, user's call).
@@ -29,14 +32,15 @@ export const PACKS = [
     localizedNames: { cz: 'Pražský hrad', zh: '布拉格城堡' },
     foil: '#7a1f2b',
     labels: ['castle and fortress', 'medieval', 'gothic', 'renaissance'],
-    // Inside the walls plus the castle's own gardens; Hradčany Square is outside the gate.
+    // Inside the walls plus the gardens on the southern ramparts; Hradčany Square
+    // is outside the gate. The Deer Moat, the Powder Bridge and everything north of
+    // them moved to the Royal Garden pack on 2026-11-21 (user's call).
     members: [
       'matyasova-brana', 'new-royal-palace', 'st-vitus-cathedral', 'velka-jizni-vez-katedraly', 'old-royal-palace',
       'vladislavsky-sal', 'st-georges-basilica', 'church-of-our-lady-prague-castle', 'kaple-sv-krize-prazsky-hrad',
       'obelisk-prague-castle', 'nove-probostvi', 'rozmbersky-palac-ustav-slechticen', 'lobkowicz-palace',
-      'golden-lane', 'dalibor-tower', 'cerna-vez-prazsky-hrad', 'bila-vez-prazsky-hrad', 'prasna-vez-mihulka', 'prasny-most',
-      'jeleni-prikop', 'kralovska-zahrada', 'queen-annes-summer-palace-1782584407663', 'micovna-prazskeho-hradu',
-      'jizdarna-prazskeho-hradu', 'prezidentsky-domek', 'nova-oranzerie', 'zahrada-na-valech', 'plecnikova-vyhlidka', 'slavatuv-obelisk',
+      'golden-lane', 'dalibor-tower', 'cerna-vez-prazsky-hrad', 'bila-vez-prazsky-hrad', 'prasna-vez-mihulka',
+      'zahrada-na-valech', 'plecnikova-vyhlidka', 'slavatuv-obelisk',
     ],
   }),
   pack({
@@ -80,7 +84,7 @@ export const PACKS = [
     members: [
       'letna-park', 'letn-plain-1782906159291', 'vyhlidka-na-letne', 'letenske-jezirko', 'letensky-zamecek',
       'the-letn-carousel--1783352292475', 'hanavsky-pavilon', 'kaple-sv-mari-magdaleny', 'pavilon-expo-58-vystaviste',
-      'vodarenska-vez-letna', 'epet-arena', 'technical-museum', 'kramarova-vila', 'bio-oko',
+      'vodarenska-vez-letna', 'epet-arena', 'technical-museum', 'kramarova-vila', 'bio-oko', 'lavka-borka-sipka',
     ],
   }),
   pack({
@@ -955,6 +959,105 @@ export const PACKS = [
       'sportovni-hala-folimanka', 'kryt-folimanka', 'kristof-kintera-rozhodnuti',
       'umelecka-zahrada-nusle', 'divadlo-na-fidlovacce', 'nuselsky-pivovar',
       'karlov-church', 'muzeum-policie-cr', 'bastion-u-bozich-muk', 'zahrada-ztracenka', 'pomnik-obetem-dvou-totalitnich-rezimu',
+    ],
+  }),
+  pack({
+    slug: 'namesti-miru',
+    released: '2026-11-21T00:30:00+01:00',
+    name: 'Náměstí Míru',
+    localizedNames: { cz: 'Náměstí Míru', zh: '和平广场' },
+    foil: '#7a5a3a',
+    labels: ['square', 'church', 'historicism', 'art-nouveau'],
+    // The heart of Vinohrady and the ring of buildings round it (2026-11-21,
+    // user's call), not the I. P. Pavlova end: St Ludmila, the Vinohrady
+    // Theatre, the National House and the old town hall (new cards), the Čapek
+    // brothers' monument, the metro station and the old Tobacco Administration
+    // on Slezská, now the Municipal Court (new card). The slug was
+    // the basilica's card, renamed `bazilika-sv-ludmily` with its cover (its
+    // History link moved with it). The market hall (Vinohradský pavilon) stands
+    // two blocks east and stays out.
+    members: [
+      'bazilika-sv-ludmily', 'divadlo-na-vinohradech', 'narodni-dum-na-vinohradech', 'vinohradska-radnice',
+      'pomnik-bratri-capku', 'metro-station-namesti-miru-1783382951167', 'mestsky-soud-slezska',
+    ],
+  }),
+  pack({
+    slug: 'grebovka',
+    released: '2026-11-21T02:00:00+01:00',
+    name: 'Grébovka',
+    localizedNames: { cz: 'Grébovka (Havlíčkovy sady)', zh: '格雷波夫卡' },
+    foil: '#4a6b3a',
+    labels: ['park', 'villa', 'historicism', 'nature'],
+    // Moritz Gröbe's park, Havlíčkovy sady (2026-11-21, user's call): the villa,
+    // the vineyard pavilion, the garden pavilion, and the new cards Grotta and
+    // Dolní Landhauska (the lower of the two old vineyard farms). The
+    // one-point park card `vinohrady-rose-garden` (named a rose garden but
+    // telling the whole park's story, two check-ins) was deleted, user's call.
+    // New slug.
+    members: [
+      'grobova-vila', 'altan-grebovka', 'pavilon-grebovka', 'grotta-grebovka', 'dolni-landhauska',
+    ],
+  }),
+  pack({
+    slug: 'namesti-jiriho-z-podebrad',
+    released: '2026-11-21T03:30:00+01:00',
+    name: 'Jiřího z Poděbrad',
+    localizedNames: { cz: 'Jiřího z Poděbrad', zh: '伊日广场' },
+    foil: '#5a3a5e',
+    labels: ['square', 'church', 'communism', 'tower'],
+    // The neighbourhood of Vinohrady and Žižkov around Jiřího z Poděbrad Square
+    // and the TV tower (2026-11-21, user's call): Plečnik's church, the fountain
+    // (the old one-point square card, rewritten as the United Europe Fountain
+    // and renamed `fontana-sjednocena-evropa`), the TV tower, Škroupovo
+    // náměstí, the Svatopluk Čech Gardens, the water tower, the Evangelical and
+    // Hussite churches, Atrium Flora and the Old Jewish Cemetery under the TV
+    // tower (new card). The pack took over the square's slug,
+    // so the History link to it now opens the pack.
+    members: [
+      'kostel-nejsvetejsiho-srdce-pane', 'fontana-sjednocena-evropa', 'zizkov-tv-tower', 'skroupovo-namesti',
+      'sady-svatopluka-cecha', 'vinohradska-vodarna', 'ceskobratrska-cirkev-vinohrady', 'husuv-sbor-vinohrady', 'oc-flora',
+      'stary-zidovsky-hrbitov-zizkov',
+    ],
+  }),
+  pack({
+    slug: 'vitkov',
+    released: '2026-11-21T12:00:00+01:00',
+    name: 'Vítkov',
+    localizedNames: { cz: 'Vítkov', zh: '维特科夫山' },
+    foil: '#5e4a2a',
+    labels: ['monument', 'medieval', 'world-wars', 'nature'],
+    // Vítkov hill and a few cards at its foot (2026-11-21, user's call): the
+    // National Memorial, Kafka's Žižka statue, the vineyard slope, the tunnel
+    // through the hill, the Army Museum, the Hašek memorial, the Bethlehem
+    // Chapel in Žižkov and the U Vystřelenýho oka pub (new card). The Karlín cards at the north foot stay in the Karlín
+    // pack. New slug; the 1420 battle event links it first.
+    members: [
+      'vitkov-national-memorial', 'zizkov-horse-statue', 'vinicni-svah-vitkov', 'karln-ikov-tunnel-1782860314854',
+      'armadni-muzeum-zizkov', 'hasek-memorial', 'bethlehem-chapel-in-ikov-1782603513682', 'u-vystreleneho-oka',
+    ],
+  }),
+  pack({
+    slug: 'kralovska-zahrada',
+    released: '2026-11-21T14:00:00+01:00',
+    name: 'Royal Garden',
+    localizedNames: { cz: 'Královská zahrada', zh: '皇家花园' },
+    foil: '#3e6b4a',
+    labels: ['park', 'renaissance', 'palace', 'monument'],
+    // North of Prague Castle, across the Deer Moat (2026-11-21, user's call):
+    // the moat and the Powder Bridge, the Riding School, the Royal Garden with
+    // Queen Anne's Summer Palace, the Ball Game Hall, the New Orangery and the
+    // President's House (all moved out of the castle pack), the new Singing
+    // Fountain card, and east of it the
+    // Chotek Gardens with the Zeyer monument, Sophie Chotek's fan, the Písek
+    // Gate, the Bílek Villa, the Czech Lion on Chotkova, the Famous Log and the
+    // Bořek Šípek footbridge over to Letná (new card, shared with the Letná pack).
+    // Took over the one-point Royal Garden card's slug and cover (two
+    // check-ins), the card deleted.
+    members: [
+      'jeleni-prikop', 'prasny-most', 'jizdarna-prazskeho-hradu', 'queen-annes-summer-palace-1782584407663', 'zpivajici-fontana',
+      'micovna-prazskeho-hradu', 'nova-oranzerie', 'prezidentsky-domek', 'chotek-gardens-1782425484882',
+      'pomnik-julia-zeyera', 'vejir-zofie-chotkove', 'psek-gate-1782393038404', 'bilkova-vila',
+      'socha-cesky-lev', 'the-famous-log', 'lavka-borka-sipka',
     ],
   }),
 ];

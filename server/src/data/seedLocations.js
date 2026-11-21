@@ -19412,7 +19412,7 @@ Zlacená hebrejská písmena kolem Kristovy hlavy mají temnější příběh. R
   },
   {
     name: 'Basilica of St. Ludmila',
-    slug: 'namesti-miru',
+    slug: 'bazilika-sv-ludmily',
     localizedNames: { cz: 'Bazilika sv. Ludmily', zh: '圣鲁德米拉圣殿' },
     labels: ['church', 'historicism'],
     district: 'Praha 2',
@@ -29801,42 +29801,42 @@ Rokycany se poprvé připomínají roku 1110 jako statek pražských biskupů a 
     },
   },
   {
-    // Added 2026-10-08 at the user's request (coordinates user-supplied), to
-    // link from the-bells-toll-twice-1471 (George of Poděbrady's legacy).
-    name: 'Jiřího z Poděbrad Square',
-    slug: 'namesti-jiriho-z-podebrad',
-    localizedNames: { cz: 'Náměstí Jiřího z Poděbrad', zh: '波杰布拉德的伊日广场' },
-    labels: ['square'],
+    // The square card, added 2026-10-08, was rewritten as the fountain on
+    // 2026-11-21 (user's call; new coordinates from the user) when the square
+    // became a pack. Petr Šedivý, signature dated 1982 (1981 in ČTK); square
+    // rebuilt Jan 2024 - Jun 2026 (Melková, Cikán); author's dispute per
+    // novinky.cz 25.7.2026.
+    name: 'United Europe Fountain',
+    slug: 'fontana-sjednocena-evropa',
+    localizedNames: { cz: 'Fontána Sjednocená Evropa', zh: '统一欧洲喷泉' },
+    labels: ['sculpture', 'communism'],
     district: 'Praha 3',
     quarter: 'Vinohrady',
-    coordinates: { lat: 50.077940831668215, lng: 14.44899532519572 },
+    coordinates: { lat: 50.07756235623904, lng: 14.449510878137838 },
     rarity: 'common',
     xpReward: 10,
-    wikipediaUrl: 'https://en.wikipedia.org/wiki/Ji%C5%99%C3%ADho_z_Pod%C4%9Bbrad_Square',
     description: {
-      en: `Welcome to Jiřího z Poděbrad Square, "Jiřák" to the locals, a big leafy square in Vinohrady named after the Hussite king who spent much of his reign quarrelling with popes. Its centrepiece is, naturally, a Catholic church. George, who ruled a kingdom of two faiths and married two wives from Catholic families, would probably call that fair.
+      en: `In the middle of Jiřího z Poděbrad Square, in front of Plečnik's great church, a block of dark granite steps down in heavy terraces, and water spills over them into a pool where children splash in summer. It is called United Europe, and it was made by a sculptor under communism, which makes it one of the more optimistic names in Prague.
 
-The church is the Church of the Most Sacred Heart of Our Lord, built between 1928 and 1932 to a design by the Slovenian architect Josip Plečnik, and it looks like nothing else in Prague. Its long body resembles an ancient basilica crossed with an ocean liner: dark brick walls studded with jutting blocks of pale granite, under a white band and a great sloping roof. Instead of a spire it has a broad, flat tower 42 metres high, pierced by a round glass clock 7.6 metres across. It is often counted among the finest Czech buildings of the 20th century, and it has been proposed for the UNESCO World Heritage list.
+The fountain is the work of the academic sculptor Petr Šedivý, made in the early 1980s; the date carved in its signature is 1982. Critics have called it a brutalist mass, and for years it stood dry. When the whole square was rebuilt between January 2024 and June 2026, to designs by Pavla Melková and Miroslav Cikán, the fountain was kept and brought back with new jets, mist, coloured lights and a shallow splash pool.
 
-The rest of the square is an everyday Vinohrady living room. Benches, lawns and big old trees surround the church, and the park was recently reworked to soak up rainwater instead of shedding it into the drains. Several days a week the farmers' market fills the square with stalls of cheese, bread, vegetables and coffee, and it is one of the best-known markets in the city. Underneath runs metro line A, whose Jiřího z Poděbrad station opened in December 1980 and reopened after a full renovation in 2023.
+Not everyone was pleased. Šedivý said that his metro ventilation shaft from the 1980s, which stood on the square, had been demolished, and that the stone had been cleaned too hard. When the signature on the fountain reappeared freshly legible, he called the lettering a forgery that was not his. The district said it had ordered no change to the signature.
 
-🎁 Bonus: Plečnik was also the architect President Masaryk chose to modernise Prague Castle in the 1920s, so the man who designed this Catholic church on the Hussite king's square also redesigned the seat of Bohemia's kings.`,
+🎁 Bonus: At the reopening, the architect compared the square and its church to Sacré-Cœur in Paris. Locals were less lyrical: the new red loungers drew most of the complaints, and an online poll found most readers unhappy. The children in the splash pool, as far as anyone could tell, had no objections at all.`,
+      cz: `Uprostřed náměstí Jiřího z Poděbrad, před Plečnikovým velkým kostelem, sestupuje blok tmavé žuly v těžkých terasách a voda po nich stéká do bazénku, kde se v létě cachtají děti. Jmenuje se Sjednocená Evropa a vytvořil ji sochař za komunismu, což z ní dělá jedno z optimističtějších jmen v Praze.
 
-      cz: `Vítejte na náměstí Jiřího z Poděbrad, kterému místní říkají „Jiřák“, velkém zeleném náměstí na Vinohradech pojmenovaném po husitském králi, který se velkou část své vlády přel s papeži. Jeho dominantou je, jak jinak, katolický kostel. Jiří, který vládl zemi dvojí víry a oženil se dvakrát s ženami z katolických rodin, by to nejspíš považoval za spravedlivé.
+Fontána je dílem akademického sochaře Petra Šedivého z počátku 80. let; v jejím podpisu je vytesán rok 1982. Kritici o ní mluví jako o brutalistní hmotě a léta stála na suchu. Když se v letech 2024 až 2026 podle návrhu Pavly Melkové a Miroslava Cikána přestavovalo celé náměstí, fontána zůstala a vrátila se s novými tryskami, mlhou, barevným osvětlením a mělkým brouzdalištěm.
 
-Je to kostel Nejsvětějšího Srdce Páně, postavený v letech 1928 až 1932 podle návrhu slovinského architekta Josipa Plečnika, a nevypadá jako nic jiného v Praze. Jeho dlouhé tělo připomíná antickou baziliku zkříženou s zaoceánským parníkem: tmavé cihlové zdi poseté vystupujícími kvádry světlé žuly, nad nimi bílý pás a velká šikmá střecha. Místo věže se špičkou má širokou plochou věž vysokou 42 metrů, prolomenou kulatými skleněnými hodinami o průměru 7,6 metru. Často se řadí k nejlepším českým stavbám 20. století a byl navržen na seznam světového dědictví UNESCO.
+Ne všichni byli spokojení. Šedivý řekl, že jeho větrací šachtu metra z 80. let, která na náměstí stála, zbourali a kámen očistili příliš agresivně. Když se podpis na fontáně objevil nově čitelný, nazval to písmo falzem, které není jeho. Radnice uvedla, že žádnou změnu podpisu nenařídila.
 
-Zbytek náměstí je obyčejný vinohradský obývák. Kostel obklopují lavičky, trávníky a velké staré stromy a park byl nedávno přestavěn tak, aby dešťovou vodu zadržoval, místo aby ji posílal do kanálů. Několikrát týdně zaplní náměstí farmářský trh se stánky se sýry, chlebem, zeleninou a kávou, jeden z nejznámějších trhů ve městě. Pod náměstím vede linka metra A, jejíž stanice Jiřího z Poděbrad byla otevřena v prosinci 1980 a po kompletní rekonstrukci znovu zprovozněna roku 2023.
+🎁 Bonus: Při slavnostním otevření přirovnal architekt náměstí s kostelem k Sacré-Cœur v Paříži. Místní byli méně lyričtí: nejvíc stížností sklidila nová červená lehátka a v internetové anketě byla většina čtenářů nespokojená. Děti v brouzdališti, pokud se dalo poznat, nenamítaly nic.`,
+      zh: `伊日广场正中，普列赤尼克那座大教堂前面，一块深色花岗岩一层层地往下叠成沉重的台阶，水顺着台阶淌进池子，夏天孩子们就在里面踩水。它叫"统一的欧洲"，却是一位雕塑家在共产党时代做的，这让它成了布拉格最乐观的名字之一。
 
-🎁 Bonus: Plečnik byl také architekt, kterého si prezident Masaryk vybral ve 20. letech k modernizaci Pražského hradu. Muž, který navrhl tenhle katolický kostel na náměstí husitského krále, tedy přestavěl i sídlo českých králů.`,
+喷泉出自学院派雕塑家彼得·谢迪维之手，作于20世纪80年代初，签名里刻的年份是1982年。评论家说它是一团粗野主义的石块，它也确实干涸了好些年。2024年1月到2026年6月，整个广场按帕夫拉·梅尔科娃和米罗斯拉夫·齐坎的设计重建，喷泉被保留下来，添了新的喷嘴、水雾、彩灯和一个浅浅的戏水池。
 
-      zh: `欢迎来到波杰布拉德的伊日广场，本地人管它叫“伊日广场”。这是维诺赫拉迪一片绿树成荫的大广场，以一位大半辈子都在和教皇吵架的胡斯派国王命名，而广场的中心，偏偏是一座天主教堂。这位统治着两种信仰、两任妻子又都出身天主教家庭的国王，大概会觉得这很公平。
+不是所有人都满意。谢迪维说，他80年代立在广场上的地铁通风井被拆了，石头也洗得太狠。喷泉上的签名重新变得清清楚楚时，他说那几个字是伪造的，不是他刻的。区政府则表示，从没下令改动签名。
 
-这座教堂叫耶稣圣心堂，1928至1932年按斯洛文尼亚建筑师普列赤尼克的设计建成，在布拉格找不到第二座长这样的建筑。它长长的教堂主体，像是古罗马巴西利卡和远洋邮轮的混合体：深色的砖墙上嵌满凸出的浅色花岗岩块，上面是一道白色腰带和一个大坡屋顶。它没有尖塔，而是一座42米高的扁平宽塔，塔身上嵌着一面直径7.6米的圆形玻璃大钟。它常被列为捷克20世纪最出色的建筑之一，还被提名列入联合国教科文组织世界遗产名录。
-
-广场的其余部分，是维诺赫拉迪人的日常客厅。长椅、草坪和高大的老树围着教堂，公园前不久刚改造过，好把雨水留在地里，而不是一股脑排进下水道。每周有好几天，农夫市集会摆满广场，卖奶酪、面包、蔬菜和咖啡，是全城最有名的市集之一。广场底下是地铁A线，伊日站1980年12月开通，2023年全面翻修后重新启用。
-
-🎁 彩蛋：20世纪20年代，马萨里克总统请来改造布拉格城堡的，也正是普列赤尼克。也就是说，在胡斯派国王的广场上设计这座天主教堂的人，也重新设计了波希米亚历代国王的居所。`,
+🎁 彩蛋：重新开放那天，建筑师把广场和教堂比作巴黎的圣心堂。本地人可没那么诗意：新的红色躺椅招来的抱怨最多，网上投票里大多数读者都不满意。至于戏水池里的孩子们，看样子一点意见都没有。`,
     },
   },
   {
@@ -31127,47 +31127,6 @@ Od poloviny 19. století v ní sídlila Malostranská beseda, vlastenecký spole
   // orangery and Lví dvůr, Prague's first zoo, kept until 1740; Bergeron 1603
   // on the hidden passage over the covered bridge; Esprinchard 1597 on the
   // deer), prague.eu (English landscape layout from the mid-19th century).
-  {
-    name: 'Royal Garden',
-    slug: 'kralovska-zahrada',
-    localizedNames: { cz: 'Královská zahrada', zh: '皇家花园' },
-    labels: ['park', 'renaissance'],
-    district: 'Praha 1',
-    quarter: 'Hradčany',
-    coordinates: { lat: 50.09322118986762, lng: 14.40248228815487 },
-    rarity: 'superior',
-    xpReward: 30,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kr%C3%A1lovsk%C3%A1_zahrada',
-    description: {
-      en: `Across the Deer Moat from Prague Castle lies a long, neat garden that kings once kept for themselves. Today anyone may stroll through it in the warmer months, past rare trees, a hall built for ball games and a fountain that sings. The lions, sadly, moved out long ago.
-
-King Ferdinand I founded the garden in 1534 on old vineyards north of the moat and laid it out on Italian Renaissance models, with trees and plants that did not grow anywhere else in Central Europe. Over the following decades it filled up with buildings: Queen Anne's Summer Palace at its eastern end, the long ball-game hall by Bonifác Wolmut with its walls covered in sgraffito, and a fig house built for Maximilian II in 1572. Rudolf II grew citrus fruit in the orangery and, around 1581, built the Lion Court by the entrance, Prague's first zoo, which kept animals until 1740.
-
-In front of the summer palace stands the Singing Fountain. Ferdinand ordered it in 1562, the Italian Francesco Terzi designed it and the bell-founder Tomáš Jaroš of Brno cast it in bronze in 1568: two basins, one above the other, with a little bagpiper on top. Ferdinand did not live to see it, and water only ran through it in the 1570s. The singing is acoustics, not magic: water dripping from the upper basin makes the bronze bowl below ring softly, and you can hear it if you crouch with your ear close to the lower basin.
-
-Later centuries added Baroque statues, such as Matthias Bernhard Braun's Allegory of Night in front of the ball-game hall and Jan Jiří Bendl's Hercules. In the mid-19th century the strict Renaissance beds gave way to a looser English-style landscape garden, and that is largely what you walk through today. The Lion Court is now a restaurant, and a small villa in the garden serves the Czech president as a retreat. The garden closes completely in winter.
-
-🎁 Bonus: In 1603 the French traveller Pierre Bergeron noticed that the covered wooden bridge from the castle to the garden had a hidden passage on top, so the emperor could walk to his garden without being seen and watch whoever he liked along the way.`,
-      cz: `Za Jelením příkopem naproti Pražskému hradu se táhne dlouhá upravená zahrada, kterou si kdysi králové nechávali jen pro sebe. Dnes se jí v teplých měsících může projít kdokoli, kolem vzácných stromů, sálu pro míčové hry a fontány, která zpívá. Lvi se bohužel odstěhovali už dávno.
-
-Zahradu založil král Ferdinand I. roku 1534 na starých vinicích severně od příkopu a nechal ji upravit podle italských renesančních vzorů, se stromy a rostlinami, jaké jinde ve střední Evropě nerostly. V dalších desetiletích přibývaly stavby: Letohrádek královny Anny na východním konci, dlouhá Míčovna Bonifáce Wolmuta se sgrafity po celých zdech a fíkovna, postavená pro Maxmiliána II. roku 1572. Rudolf II. pěstoval v oranžerii citrusy a kolem roku 1581 postavil u vstupu Lví dvůr, první pražskou zoo, kde se zvířata chovala až do roku 1740.
-
-Před letohrádkem stojí Zpívající fontána. Objednal ji Ferdinand roku 1562, navrhl ji Ital Francesco Terzi a zvonař Tomáš Jaroš z Brna ji roku 1568 odlil z bronzu: dvě mísy nad sebou a nahoře malý dudák. Ferdinand se jí nedožil a voda jí poprvé protekla až v 70. letech 16. století. Zpívání není kouzlo, ale akustika: voda kapající z horní mísy rozeznívá bronzovou mísu pod ní tichým zvukem a uslyšíte ho, když se k dolní míse skloníte s uchem až u ní.
-
-Další staletí přidala barokní sochy, například Braunovu Alegorii Noci před Míčovnou a Bendlova Herkula. V polovině 19. století vystřídal přísné renesanční záhony volnější anglický krajinářský park a ten je z velké části k vidění dodnes. Ve Lvím dvoře je dnes restaurace a malá vila v zahradě slouží českému prezidentovi k odpočinku. V zimě je zahrada úplně zavřená.
-
-🎁 Bonus: Roku 1603 si francouzský cestovatel Pierre Bergeron všiml, že krytý dřevěný most z hradu do zahrady má nahoře skrytou chodbu. Císař tak mohl dojít do své zahrady, aniž ho kdo viděl, a cestou pozorovat, koho se mu zachtělo.`,
-      zh: `隔着鹿沟，布拉格城堡对面躺着一座狭长、齐整的花园，从前是国王们留给自己的。如今天气暖和的月份，谁都可以进去走走：看看稀罕的树、一座专门打球用的大厅，还有一座会唱歌的喷泉。至于狮子，可惜早就搬走了。
-
-1534年，斐迪南一世国王在鹿沟北边的老葡萄园上建起这座花园，照着意大利文艺复兴的样子布置，种的都是中欧别处见不到的树木花草。接下来的几十年里，园子里的房子越来越多：东头是安娜王后夏宫，中间是建筑师沃尔穆特设计的长长的球戏厅，满墙刻着灰泥刻画；1572年，又给马克西米利安二世盖了一座无花果房。鲁道夫二世在温室里种柑橘，1581年前后又在入口旁修了狮子院，这是布拉格的第一座动物园，一直养动物养到1740年。
-
-夏宫前面，立着那座“会唱歌的喷泉”。1562年斐迪南下的订单，意大利人泰尔齐设计，布尔诺的铸钟匠雅罗什在1568年用青铜铸成：上下两层水盆，最顶上站着一个吹风笛的小人。斐迪南没等到它完工，喷泉真正出水，已经是16世纪70年代的事了。它会唱歌，靠的不是魔法，是声学：水从上层盆里滴下来，打在下层的青铜盆上，发出轻轻的嗡鸣。蹲下身，把耳朵凑到下层水盆边，就能听见。
-
-后来的几百年，园子里又添了巴洛克雕像，比如球戏厅前布劳恩的《夜的寓言》和本德尔的《赫拉克勒斯》。19世纪中叶，规规矩矩的文艺复兴花坛改成了更随性的英式风景园，今天走在里面看到的，大体就是那时的样子。狮子院如今是一家餐厅；园子里还有一栋小别墅，是捷克总统休息的地方。冬天，花园整个关门。
-
-🎁 彩蛋：1603年，法国旅行家皮埃尔·贝尔热龙注意到，从城堡通往花园的那座带顶的木桥上面，还藏着一条暗道。皇帝从这里去花园，谁也看不见他，他却能一路看着自己想看的人。`,
-    },
-  },
   // Statue of Rabbi Löw (2026-10-18, coordinates from the user). Sources:
   // visitczechia.com (Šaloun chose Loew over allegorical figures as a symbol of
   // the whole Jewish Quarter; about 6 m with pedestal, the stone figure 360 cm;
@@ -39740,6 +39699,474 @@ Roku 2010 ji podle návrhu architekta Michala Gavlase přestavěli na terasovou 
 2010年，建筑师米哈尔·加夫拉斯把它改建成了意大利风格的台地花园。砖砌的挡土墙仿照新城的巴洛克棱堡，很多地方直接和老城墙接在一起。其中一层台地上，立着两个极权政权受害者纪念碑，是翁德热·图切克和拉迪斯拉夫·索罗卡奇创作的三块石碑。
 
 🎁 彩蛋：从台地上望出去，能看到新城下城、阿尔贝托夫校园和圣阿波利纳尔教堂的钟楼。花园天天开放，不要门票，也还是几乎没人，这大概是它如今唯一还"失落"着的地方。`,
+    },
+  },
+  {
+    // Náměstí Míru pack (2026-11-21, user's call; coordinates from the user).
+    // Antonín Turek, 1893-94; events from cs.wikipedia and prague.eu. Sources
+    // disagree on Popp's sculpture over the door (Palacký bust vs allegories).
+    name: 'National House of Vinohrady',
+    slug: 'narodni-dum-na-vinohradech',
+    localizedNames: { cz: 'Národní dům na Vinohradech', zh: '维诺赫拉迪国民会馆' },
+    labels: ['cultural', 'historicism'],
+    district: 'Praha 2',
+    quarter: 'Vinohrady',
+    coordinates: { lat: 50.07565480600763, lng: 14.438152679736339 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `The National House on Náměstí Míru was built as the living room of a whole town: a ballroom, a theatre, a gym, a library, a café and a restaurant under one neo-Renaissance roof. For a hundred and thirty years Vinohrady has danced, voted, argued and founded things here.
+
+The independent town of Royal Vinohrady built it in 1893–1894 to designs by its architect Antonín Turek, as a social and cultural centre for its fast-growing Czech population. Sculptures by Antonín Popp and Josef Strachovský decorate it, and Adolf Liebscher painted the great hall. The building's guest book reads like a short history of the country. In 1898 the Czech National Social Party held its founding congress here, and in 1921 the Czechoslovak Legionnaires' Association was founded here. In 1927 the Soviet poet Vladimir Mayakovsky gave a reading in the great hall, which has been called the Mayakovsky Hall ever since. In June 1967 the Fourth Congress of the Union of Czechoslovak Writers met here, and the speeches of Ludvík Vaculík, Milan Kundera and others openly attacked the regime, one of the sparks of the Prague Spring.
+
+After 1955 the building belonged to the state railways as a cultural centre for railway workers. It got its old name back after 1989 and today hosts balls, conferences and two restaurants.
+
+🎁 Bonus: Under communism the hall kept the name of a Soviet poet, and its stage gave a platform to writers who demanded freedom from the Soviet-backed regime. Mayakovsky, who wrote poems of revolt himself, might not have minded.`,
+      cz: `Národní dům na náměstí Míru vznikl jako obývák celého města: plesový sál, divadlo, tělocvična, knihovna, kavárna a restaurace pod jednou novorenesanční střechou. Sto třicet let se tu na Vinohradech tančí, volí, hádá a zakládá.
+
+Samostatné město Královské Vinohrady ho postavilo v letech 1893 až 1894 podle návrhu svého architekta Antonína Turka jako společenské a kulturní středisko pro rychle rostoucí české obyvatelstvo. Zdobí ho sochy Antonína Poppa a Josefa Strachovského a velký sál vymaloval Adolf Liebscher. Kniha hostů domu se čte jako krátké dějiny země. Roku 1898 tu měla zakládající sjezd Česká strana národně sociální, roku 1921 tu vznikla Československá obec legionářská. Roku 1927 tu ve velkém sále četl sovětský básník Vladimir Majakovskij a sál se od té doby jmenuje Majakovského. V červnu 1967 se tu sešel IV. sjezd Svazu československých spisovatelů a projevy Ludvíka Vaculíka, Milana Kundery a dalších otevřeně zaútočily na režim, jedna z jisker Pražského jara.
+
+Od roku 1955 dům patřil státním drahám jako kulturní dům železničářů. Po roce 1989 dostal zpátky své staré jméno a dnes v něm jsou plesy, konference a dvě restaurace.
+
+🎁 Bonus: Za komunismu nesl sál jméno sovětského básníka a z jeho pódia promlouvali spisovatelé, kteří žádali svobodu od režimu, který se opíral o Sověty. Majakovskij, sám autor vzbouřeneckých veršů, by asi nic nenamítal.`,
+      zh: `和平广场上的国民会馆，是当年整座城的客厅：舞厅、剧场、体操馆、图书馆、咖啡馆和餐厅，全在一个新文艺复兴风格的屋顶下。一百三十年来，维诺赫拉迪人在这里跳舞、投票、争吵，还创办了不少东西。
+
+独立的皇家维诺赫拉迪城在1893到1894年建起了它，设计者是城里的建筑师安东宁·图雷克，用作这座飞速增长的捷克人城市的社交和文化中心。楼上装饰着安东宁·波普和约瑟夫·斯特拉霍夫斯基的雕塑，大厅的壁画出自阿道夫·利布舍尔之手。这栋楼的来宾簿，读起来就像一部浓缩的国家史：1898年，捷克民族社会党在这里开了成立大会；1921年，捷克斯洛伐克军团协会在这里成立；1927年，苏联诗人马雅可夫斯基在大厅里朗诵，大厅从此就叫"马雅可夫斯基厅"；1967年6月，捷克斯洛伐克作家协会第四次代表大会在这里召开，瓦楚利克、昆德拉等人的发言公开抨击政权，成了"布拉格之春"的火种之一。
+
+1955年以后，这栋楼归国家铁路所有，成了铁路工人文化宫。1989年后它要回了原来的名字，如今用来办舞会、开会，楼下还有两家餐厅。
+
+🎁 彩蛋：共产党时代，大厅顶着一位苏联诗人的名字，讲台上却站着要求摆脱亲苏政权、争取自由的作家。马雅可夫斯基自己也写过造反的诗，大概不会介意。`,
+    },
+  },
+  {
+    // Náměstí Míru pack (2026-11-21, user's call; coordinates from the user).
+    // encyklopedie.praha2.cz / prahaarchit: plans by Josef Franzl, built
+    // 1876-78, opened for the 500th anniversary of Charles IV's death; raised
+    // by two floors in 1928-29 and stripped of its historicist facade; joined
+    // to the former savings bank in 2004-05.
+    name: 'Vinohrady Town Hall',
+    slug: 'vinohradska-radnice',
+    localizedNames: { cz: 'Vinohradská radnice', zh: '维诺赫拉迪市政厅' },
+    labels: ['municipal'],
+    district: 'Praha 2',
+    quarter: 'Vinohrady',
+    coordinates: { lat: 50.07563204781551, lng: 14.434908689705498 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `The Prague 2 district office works out of the old town hall of Royal Vinohrady, on the corner of Náměstí Míru and Jugoslávská. It is a plain, sensible office building today, which is exactly what makes its story fun: it began as the proudest building in town, and the town itself had not quite been made a town yet.
+
+The councillors of Vinohrady, then a fast-growing municipality just outside Prague's walls, borrowed 120,000 gulden from the Prague savings bank and had a town hall built in 1876–1878 to plans by Josef Franzl. It was neo-Renaissance, with a tower and painted decoration, and it opened in 1878, for the five-hundredth anniversary of the death of Charles IV, whose vineyards had given the place its name. A year later, in 1879, Vinohrady was formally raised to the rank of a town. After it joined Prague in 1922, the building became the seat of the district offices. In 1928–1929 it was raised by two storeys and lost its historicist façade, and in 2004–2005 it was joined to the neighbouring former savings bank.
+
+🎁 Bonus: Vinohrady built its town hall first and became a town afterwards, and it paid for it with a loan from Prague, the city that would swallow it forty-four years later.`,
+      cz: `Úřad městské části Praha 2 sídlí ve staré radnici Královských Vinohrad na rohu náměstí Míru a Jugoslávské. Dnes je to střízlivá, rozumná úřední budova, a právě proto je její příběh zábavný: začínala jako nejpyšnější stavba ve městě, které tehdy ještě ani nebylo městem.
+
+Radní Vinohrad, tehdy rychle rostoucí obce za pražskými hradbami, si vypůjčili 120 000 zlatých u Městské spořitelny pražské a v letech 1876 až 1878 si podle plánů Josefa Franzla postavili radnici. Byla novorenesanční, s věží a malovanou výzdobou, a otevřela se roku 1878 k pětistému výročí smrti Karla IV., jehož vinice daly místu jméno. O rok později, roku 1879, byly Vinohrady povýšeny na město. Po připojení k Praze roku 1922 se budova stala sídlem obvodních úřadů. V letech 1928 až 1929 byla zvýšena o dvě patra a přišla o historizující fasádu a v letech 2004 až 2005 byla propojena se sousední budovou bývalé spořitelny.
+
+🎁 Bonus: Vinohrady si nejdřív postavily radnici a městem se staly až potom, a zaplatily ji půjčkou od Prahy, tedy od města, které je o čtyřicet čtyři let později spolklo.`,
+      zh: `布拉格2区政府在皇家维诺赫拉迪的老市政厅里办公，就在和平广场和南斯拉夫街的拐角。如今它是一栋朴素、实在的办公楼，可正因如此它的故事才好玩：它当年是城里最神气的建筑，而那座"城"当时还没正式成为城。
+
+那时的维诺赫拉迪是布拉格城墙外一个飞速长大的乡镇，镇议员们向布拉格市立储蓄银行借了12万古尔登，在1876到1878年按约瑟夫·弗兰茨尔的设计盖起了市政厅。它是新文艺复兴风格，有塔楼和彩绘装饰，1878年落成，正赶上查理四世逝世五百周年，这个地方的名字就来自他的葡萄园。一年后的1879年，维诺赫拉迪才正式升格为城市。1922年并入布拉格后，这里成了区政府所在地。1928到1929年，楼加高了两层，历史主义风格的立面也被拆掉；2004到2005年，它又和隔壁的老储蓄银行大楼连成了一体。
+
+🎁 彩蛋：维诺赫拉迪先盖了市政厅，后来才成了城；盖楼的钱，还是向布拉格借的，而四十四年后，正是布拉格把它整个吞了下去。`,
+    },
+  },
+  {
+    // Vinohrady (2026-11-21, user's call; coordinates from the user). Ladislav Machoň, 1923-24 (cs.wikipedia "Dvojdům bratří Čapků"); Praha 10 bought Karel's half in 2013 for a house museum (opening planned for early 2027, archiweb/ČTK Dec 2025); Josef's half still belongs to his descendants.
+    name: "Čapek Brothers' Villa",
+    slug: 'vila-bratri-capku',
+    localizedNames: { cz: "Dvojdům bratří Čapků", zh: "恰佩克兄弟别墅" },
+    labels: ['villa', 'world-wars'],
+    district: 'Praha 10',
+    quarter: 'Vinohrady',
+    coordinates: { lat: 50.07496152380711, lng: 14.467312192520515 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `On a quiet little square at the end of a street named after them stands the double house of Karel and Josef Čapek, the brothers who gave the world the word robot. Josef's half is still a private home, so please admire it from the street and don't disturb the people who live there.
+
+The architect Ladislav Machoň built the two houses as one in 1923–1924, and the brothers moved in around 1925: Karel and their father in the right half, Josef with his family and a painter's studio under the roof in the left. They shared the garden, which Karel tended with the obsession he turned into his book The Gardener's Year. On Fridays Karel's half filled with the "pátečníci", the Friday men, writers, scientists and politicians who came to talk, President Masaryk among them.
+
+The house saw the end of both brothers. Karel died here on Christmas Day 1938, a few weeks after Munich; when the Gestapo came for him in March 1939, they found only his widow. Josef was arrested on 1 September 1939 and died in the Bergen-Belsen camp in April 1945. In 2013 the district of Prague 10 bought Karel's half to turn it into a museum of his and Olga Scheinpflugová's life here, and Josef's half still belongs to his descendants.
+
+🎁 Bonus: Karel wrote that a true gardener is not someone who grows flowers but someone who grows soil. From the street you can still see the garden he spent so many hours on his knees in.`,
+      cz: `Na tichém náměstíčku na konci ulice, která nese jejich jméno, stojí dvojdům Karla a Josefa Čapka, bratrů, kteří dali světu slovo robot. Josefova polovina je dodnes soukromým domovem, tak se prosím dívej z ulice a obyvatele neruš.
+
+Architekt Ladislav Machoň postavil oba domy jako jeden v letech 1923 až 1924 a bratři se sem nastěhovali kolem roku 1925: Karel s otcem do pravé poloviny, Josef s rodinou a malířským ateliérem pod střechou do levé. Sdíleli zahradu, o kterou se Karel staral s vášní, z níž pak vznikl Zahradníkův rok. V pátek se Karlova polovina plnila pátečníky, spisovateli, vědci a politiky, kteří sem chodili debatovat, mezi nimi i prezident Masaryk.
+
+Dům viděl konec obou bratrů. Karel tu zemřel na Boží hod vánoční 1938, pár týdnů po Mnichovu; když si pro něj v březnu 1939 přišlo gestapo, našlo už jen jeho vdovu. Josefa zatkli 1. září 1939 a zemřel v dubnu 1945 v koncentračním táboře Bergen-Belsen. Roku 2013 koupila Praha 10 Karlovu polovinu, aby v ní zřídila muzeum jeho a Olžina života, a Josefova polovina dál patří jeho potomkům.
+
+🎁 Bonus: Karel napsal, že pravý zahradník není ten, kdo pěstuje květiny, ale ten, kdo pěstuje půdu. Z ulice je dodnes vidět zahrada, nad kterou strávil tolik hodin na kolenou.`,
+      zh: `在一条以他们命名的街道尽头，一座安静的小广场边上，立着卡雷尔和约瑟夫·恰佩克兄弟的双联别墅，就是这对兄弟把"机器人"这个词送给了世界。约瑟夫那一半至今仍是私人住宅，请在街上看看就好，不要打扰住户。
+
+建筑师拉迪斯拉夫·马洪在1923到1924年把两栋房子当作一栋来盖，兄弟俩大约在1925年搬了进来：卡雷尔和父亲住右半边，约瑟夫带着一家人住左半边，屋顶下是他的画室。两家共用一个花园，卡雷尔对它痴迷到后来写成了《园丁的一年》。每逢星期五，卡雷尔家里就坐满了"星期五聚会"的客人，作家、科学家、政治家来这里聊天，马萨里克总统也在其中。
+
+这栋房子送走了兄弟两人。卡雷尔1938年圣诞节死在这里，那是慕尼黑协定后没几个星期；1939年3月盖世太保上门抓他时，只见到了他的遗孀。约瑟夫在1939年9月1日被捕，1945年4月死在贝尔根-贝尔森集中营。2013年，布拉格10区买下了卡雷尔那一半，要把它改成纪念他和妻子奥尔加生活的博物馆；约瑟夫那一半仍属于他的后人。
+
+🎁 彩蛋：卡雷尔写过，真正的园丁不是种花的人，而是养土的人。从街上望过去，还能看到他当年跪在地上消磨了无数时光的那片花园。`,
+    },
+  },
+  {
+    // Vinohrady (2026-11-21, user's call; coordinates from the user). Antonín Turek, 1882 (cs/en.wikipedia, pragitecture; 1891 is the reservoir and boiler house); out of service 1962; being turned into the Hydropolis water education centre (opening dates disagree, 2026-2028).
+    name: "Vinohrady Water Tower",
+    slug: 'vinohradska-vodarna',
+    localizedNames: { cz: "Vinohradská vodárenská věž", zh: "维诺赫拉迪水塔" },
+    labels: ['tower', 'historicism'],
+    district: 'Praha 10',
+    quarter: 'Vinohrady',
+    coordinates: { lat: 50.07526927097062, lng: 14.449099258327099 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `On Korunní stands a tall neo-Renaissance tower that looks as if it ought to belong to a town hall or a castle. It is a water tower, and for eighty years its job was to make sure the bathtubs of Vinohrady filled up.
+
+The young town of Royal Vinohrady was growing so fast that it needed its own water supply, and in 1882 its architect Antonín Turek built this tower beside a steam pumping station. The pumps lifted water from an underground reservoir to a tank on the seventh floor, and from there gravity pushed it down into the houses around. Until 1912 the water came from the Vltava, later from the springs at Káraný, and after 1914 the steam engines gave way to electric motors. The tower was taken out of service in 1962, and its insides were later turned into flats and offices.
+
+It has been a protected monument since 1991, and the city is now converting it into Hydropolis, a centre about water, with a viewing terrace on top.
+
+🎁 Bonus: Turek dressed a piece of plumbing as a palace, with sculptures, cornices and a crown of a roof. Vinohrady was a town that wanted even its water pipes to look respectable.`,
+      cz: `V Korunní stojí vysoká novorenesanční věž, která vypadá, jako by patřila k radnici nebo k zámku. Je to vodárna a osmdesát let měla na starosti, aby se na Vinohradech naplnily vany.
+
+Mladé město Královské Vinohrady rostlo tak rychle, že potřebovalo vlastní vodovod, a roku 1882 tu jeho architekt Antonín Turek postavil věž vedle parní čerpací stanice. Čerpadla hnala vodu z podzemního vodojemu do nádrže v sedmém patře a odtud ji gravitace tlačila dolů do okolních domů. Do roku 1912 tekla voda z Vltavy, pak z pramenů v Káraném, a po roce 1914 vystřídaly parní stroje elektromotory. Z provozu byla věž vyřazena roku 1962 a její nitro se později proměnilo v byty a kanceláře.
+
+Kulturní památkou je od roku 1991 a město z ní teď dělá Hydropolis, centrum o vodě s vyhlídkovou terasou nahoře.
+
+🎁 Bonus: Turek oblékl kus vodovodu do paláce, se sochami, římsami a korunou střechy. Vinohrady byly město, které chtělo, aby i jeho vodovodní trubky vypadaly slušně.`,
+      zh: `科伦尼街上立着一座高高的新文艺复兴风格塔楼，看上去像是哪座市政厅或城堡的。其实它是一座水塔，八十年里，它的工作就是让维诺赫拉迪家家户户的浴缸能放满水。
+
+年轻的皇家维诺赫拉迪城长得太快，需要自己的供水系统。1882年，城里的建筑师安东宁·图雷克在一座蒸汽泵站旁边盖起了这座塔。水泵把地下水库里的水抽到七楼的水箱，再靠重力流进周围的房子。1912年以前用的是伏尔塔瓦河水，后来改用卡拉内的泉水；1914年以后，蒸汽机换成了电动机。1962年水塔停用，内部后来改成了公寓和办公室。
+
+它从1991年起是文物保护建筑，如今市政府正把它改造成一座讲水的科普中心"Hydropolis"，塔顶还会有观景平台。
+
+🎁 彩蛋：图雷克给一截水管穿上了宫殿的衣裳，有雕塑、檐口，还有一顶皇冠似的屋顶。维诺赫拉迪这座城，连自来水管都要体体面面的。`,
+    },
+  },
+  {
+    // Vinohrady (2026-11-21, user's call; coordinates from the user, second of two near-identical pairs). Kotěra's own house, 1908-09 (cs.wikipedia); sold 1927, bought 1939 by the present owners' forebears, confiscated 1948, returned after 1989; private, no tours (novinky.cz).
+    name: "Kotěra Villa",
+    slug: 'koterova-vila',
+    localizedNames: { cz: "Kotěrova vila", zh: "科捷拉别墅" },
+    labels: ['villa', 'hidden-gem'],
+    district: 'Praha 10',
+    quarter: 'Vinohrady',
+    coordinates: { lat: 50.07333282847845, lng: 14.450312492977107 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `In Hradešínská Street stands the house that Jan Kotěra, the father of modern Czech architecture, built for himself. It is a private home, lived in by a family, so please look at it from the street and don't disturb the people inside.
+
+Kotěra and his wife Berta bought the plot in 1907, and he built the villa in 1908–1909. Having started out in Vienna's Art Nouveau under Otto Wagner, he used his own house to try out something plainer: red brick and roughly scratched plaster instead of ornament, a tower-like bay holding the staircase, an arched entrance and a terrace with steps down into the garden. The rooms were laid out for living and working at once, with a music room and a skylit salon downstairs and Kotěra's study and studio upstairs, where he also taught. Architects have read it ever since as one of the first Czech houses whose outside simply shows how the inside works.
+
+The house was sold in 1927, a few years after Kotěra's death. In 1939 it was bought by the forebears of today's owners; it was taken from them in 1948 and given back after 1989.
+
+🎁 Bonus: Kotěra trained a whole generation of Czech architects, among them Josef Gočár and Pavel Janák, and the studio upstairs was built for teaching, so this quiet family house was, for a few years, also a classroom of modern architecture.`,
+      cz: `V Hradešínské ulici stojí dům, který si postavil Jan Kotěra, otec moderní české architektury. Je to soukromý rodinný dům, kde se bydlí, tak se prosím dívej z ulice a obyvatele neruš.
+
+Kotěra s manželkou Bertou koupili pozemek roku 1907 a vilu postavil v letech 1908 až 1909. Začínal ve vídeňské secesi u Otty Wagnera a na vlastním domě si vyzkoušel něco střídmějšího: režné cihly a hrubě rýhovanou omítku místo ornamentu, věžovitý rizalit se schodištěm, obloukový vstup a terasu se schody do zahrady. Místnosti byly rozvržené pro bydlení i práci zároveň, s hudebním salonem a salonem se světlíkem v přízemí a Kotěrovou pracovnou a ateliérem v patře, kde také učil. Architekti ho od té doby čtou jako jeden z prvních českých domů, jehož vnějšek prostě ukazuje, jak funguje uvnitř.
+
+Dům byl prodán roku 1927, pár let po Kotěrově smrti. Roku 1939 ho koupili předkové dnešních majitelů, roku 1948 jim byl zabrán a po roce 1989 vrácen.
+
+🎁 Bonus: Kotěra vychoval celou generaci českých architektů, mezi nimi Josefa Gočára a Pavla Janáka, a ateliér v patře byl postavený pro výuku, takže tenhle tichý rodinný dům byl pár let i učebnou moderní architektury.`,
+      zh: `赫拉德辛斯卡街上的这栋房子，是"捷克现代建筑之父"扬·科捷拉给自己盖的。它是私人民宅，至今有人家住着，请在街上看看就好，不要打扰住户。
+
+科捷拉和妻子贝尔塔在1907年买下这块地，1908到1909年盖起了别墅。他早年在维也纳跟着奥托·瓦格纳做新艺术风格，到了自己家，却试了更朴素的路子：用清水红砖和粗刮的灰泥代替装饰，一个塔楼似的凸出部分装着楼梯，拱形的入口，还有一个沿台阶通往花园的露台。房间的安排兼顾生活和工作：楼下是音乐室和带天窗的客厅，楼上是科捷拉的书房和工作室，他也在这里教学生。从那以后，建筑师们一直把它看作最早一批"从外面就能看出里面怎么用"的捷克住宅之一。
+
+科捷拉去世几年后，这栋房子在1927年被卖掉。1939年，今天主人的长辈买下了它，1948年被没收，1989年后才归还。
+
+🎁 彩蛋：科捷拉带出了整整一代捷克建筑师，戈恰尔、雅纳克都是他的学生；楼上的工作室本就是为教学盖的，所以这栋安静的家宅，也当过几年现代建筑的课堂。`,
+    },
+  },
+  {
+    // Vinohrady (2026-11-21, user's call; coordinates from the user). cs.wikipedia "Pivovar Královské Vinohrady": burghers' brewery, built 1891-93 by Václav Nekvasil's firm, first beer 1894, brewing stopped in WWII, later maltings and stores, sold 1998, fire around 2000 (2000 vs 2001); today's brewpub in the old cellars (prague.eu), revival year not confirmed.
+    name: "Vinohrady Brewery",
+    slug: 'vinohradsky-pivovar',
+    localizedNames: { cz: "Vinohradský pivovar", zh: "维诺赫拉迪啤酒厂" },
+    labels: ['factory', 'restaurants-and-cafes'],
+    district: 'Praha 10',
+    quarter: 'Vinohrady',
+    coordinates: { lat: 50.07533279028754, lng: 14.45757235342267 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Under a block of new flats on Korunní, in the vaulted cellars of a brewery that stopped brewing during the Second World War, Vinohrady is making its own beer again. The tanks stand where the old fermentation cellar was, and the taproom and an underground ballroom fill the rest.
+
+The burghers of Royal Vinohrady founded their own brewery in 1893, built by the firm of Václav Nekvasil, and the first beer flowed in 1894. It grew into a big concern with two brewhouses, but brewing stopped during the war and never started again; under communism the buildings served as a malthouse and then as stores. In 1998 the site was sold for housing, and around 2000 a fire swept through it. The malthouse and its two kiln chimneys survived, the rest became flats, and the cellars were saved for the beer.
+
+🎁 Bonus: Vinohrady means "vineyards", and the district was named after Charles IV's wine. It took the local burghers about five hundred years to decide that what the neighbourhood really needed was a brewery.`,
+      cz: `Pod blokem nových bytů v Korunní, ve sklepích s klenbami pivovaru, který přestal vařit za druhé světové války, si Vinohrady zase vaří vlastní pivo. Tanky stojí tam, kde bývala stará spilka, a zbytek zabírá výčep a podzemní sál.
+
+Měšťané Královských Vinohrad si roku 1893 založili vlastní pivovar, postavený firmou Václava Nekvasila, a první pivo teklo roku 1894. Vyrostl ve velký podnik se dvěma varnami, jenže za války se vařit přestalo a už nezačalo; za komunismu sloužily budovy jako sladovna a pak jako sklady. Roku 1998 se areál prodal na bydlení a kolem roku 2000 jím prošel požár. Sladovna se dvěma komíny hvozdů přežila, zbytek se proměnil v byty a sklepy zůstaly pivu.
+
+🎁 Bonus: Vinohrady se jmenují po vinicích Karla IV. Místním měšťanům trvalo zhruba pět set let, než přišli na to, že čtvrť ve skutečnosti potřebuje pivovar.`,
+      zh: `科伦尼街上一片新公寓楼的下面，是一座老啤酒厂的拱顶地窖。这家厂在二战时停了酿造，如今维诺赫拉迪又在这里酿起了自己的啤酒：发酵罐摆在当年的发酵窖里，其余的地方是酒馆和一间地下舞厅。
+
+皇家维诺赫拉迪的市民们在1893年办起了自己的啤酒厂，由瓦茨拉夫·内克瓦西尔的公司建造，1894年出了第一批酒。后来它发展成有两个糖化车间的大厂，可战争期间停了酿造，就再也没恢复；共产党时代，厂房先当麦芽厂，后来当仓库。1998年厂区卖给了开发商盖住宅，2000年前后又遭了一场火。麦芽厂和两根烘麦炉烟囱保住了，其余的变成了公寓，地窖则留给了啤酒。
+
+🎁 彩蛋：维诺赫拉迪的意思是"葡萄园"，名字来自查理四世的葡萄酒。当地市民花了差不多五百年才想明白：这片街区真正需要的，是一家啤酒厂。`,
+    },
+  },
+  {
+    // Náměstí Míru pack (2026-11-21, user's call; coordinates from the user). Slezská 9: built 1926-28 by Alois Dryák for the Czechoslovak Tobacco Administration, frieze by Josef Jiříkovský, sculpture by Jaroslav Horejc, a paternoster; protected since 2003; now the Municipal Court's commercial and administrative divisions (cs.wikipedia).
+    name: "Municipal Court in Prague (Slezská)",
+    slug: 'mestsky-soud-slezska',
+    localizedNames: { cz: "Městský soud v Praze (Slezská)", zh: "布拉格市法院（斯莱兹斯卡街）" },
+    labels: ['municipal'],
+    district: 'Praha 2',
+    quarter: 'Vinohrady',
+    coordinates: { lat: 50.07647147653745, lng: 14.439384150894949 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Just off Náměstí Míru, on Slezská, stands a grave, columned building where Prague's Municipal Court hears commercial and administrative cases. It was not built for judges at all. It was built for tobacco.
+
+The architect Alois Dryák designed it in 1926–1928 as the headquarters of the Czechoslovak Tobacco Administration, the state monopoly that made and sold the young republic's cigarettes and cigars. It is a calm, classicising palace of three wings and four storeys, and its decoration gives the game away: a frieze by Josef Jiříkovský shows work on the tobacco plantations, and there is sculpture by Jaroslav Horejc. Inside, a paternoster lift still circles between the floors. Today it belongs to the court, and it has been a protected monument since 2003.
+
+🎁 Bonus: Dryák also designed the setting of the Palacký Monument on Palacký Square. Here he built a temple to a state monopoly on tobacco, and the court that took it over now spends its days on business disputes, which is perhaps the most fitting second career a tobacco palace could have.`,
+      cz: `Kousek od náměstí Míru, ve Slezské, stojí vážná budova se sloupy, kde Městský soud v Praze projednává obchodní a správní věci. Pro soudce ale vůbec nevznikla. Vznikla pro tabák.
+
+Architekt Alois Dryák ji navrhl v letech 1926 až 1928 jako sídlo Československé tabákové režie, státního monopolu, který vyráběl a prodával cigarety a doutníky mladé republiky. Je to klidný klasicizující palác o třech křídlech a čtyřech podlažích a výzdoba prozrazuje, k čemu sloužil: vlys Josefa Jiříkovského ukazuje práci na tabákových plantážích a jsou tu i sochy Jaroslava Horejce. Uvnitř dodnes mezi patry krouží páternoster. Dnes patří soudu a kulturní památkou je od roku 2003.
+
+🎁 Bonus: Dryák navrhl i architekturu Palackého pomníku na Palackého náměstí. Tady postavil chrám státnímu tabákovému monopolu a soud, který ho převzal, dnes celé dny řeší obchodní spory, což je pro tabákový palác asi ta nejvhodnější druhá kariéra.`,
+      zh: `离和平广场几步远的斯莱兹斯卡街上，有一栋庄重的柱廊大楼，布拉格市法院在这里审理商事和行政案件。可它根本不是为法官盖的，而是为烟草盖的。
+
+建筑师阿洛伊斯·德里亚克在1926到1928年设计了它，作为捷克斯洛伐克烟草专卖局的总部，这个国营垄断机构负责年轻共和国的香烟和雪茄的生产和销售。它是一座沉稳的古典风格宫殿，三翼四层，装饰一眼就露了底：约瑟夫·伊日科夫斯基的饰带画的是烟草种植园里的劳作，还有雅罗斯拉夫·霍雷茨的雕塑。楼里至今还有一部循环电梯在楼层间转个不停。如今它归法院使用，从2003年起是文物保护建筑。
+
+🎁 彩蛋：帕拉茨基广场上帕拉茨基纪念碑的建筑部分，也是德里亚克设计的。他在这里给国家烟草专卖盖了一座殿堂，接手的法院如今整天处理商业纠纷，对一座烟草宫来说，这大概是再合适不过的第二份职业了。`,
+    },
+  },
+  {
+    // Grébovka (2026-11-21, user's call; coordinates from the user). cs.wikipedia
+    // "Havlíčkovy sady" and encyklopedie.praha2.cz: Antonín Barvitius, rockwork
+    // by Josef Vorlíček, begun after 1871; fountain figure by Schnirch (Bohuslav
+    // or Bohumil), Neptune or Triton; restored 2010-11, reopened September 2011.
+    name: 'Grotta (Grébovka)',
+    slug: 'grotta-grebovka',
+    localizedNames: { cz: 'Grotta v Havlíčkových sadech', zh: '格雷波夫卡人造岩洞' },
+    labels: ['park', 'sculpture', 'historicism'],
+    district: 'Praha 2',
+    quarter: 'Vinohrady',
+    coordinates: { lat: 50.070039788807144, lng: 14.443272915085451 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Halfway down the slopes of Grébovka, a cliff of craggy rock rises out of the trees, full of caves, stairways and terraces, with a stone sea god in a pool at its foot. None of it is natural. It is the Grotta, a nineteenth-century millionaire's idea of romance, built of brick and cement.
+
+The industrialist Moritz Gröbe, who made his fortune building railways with the firm of Lanna and Šebek, laid out his private park on the Vinohrady slopes from 1871 to 1888. For its showpiece the architect Antonín Barvitius designed an artificial grotto, after studying grottoes and fountains in Italy and Germany, and the sculptor Josef Vorlíček shaped its rocks. The "stone" is good brick on cement mortar, rendered to look like rock with dripping stalactites, and inside are narrow passages, little halls with stone benches, niches and underground corridors, with a viewing terrace and a triumphal arch on top. In the pool, a kneeling Neptune by Bohuslav Schnirch holds up a shell, and in the shell lies a crocodile whose raised head is the fountain's spout. Restorers say the figure is really Triton.
+
+After the park opened to the public in 1906, the grotto had its own restaurant for a time. Later it decayed, was vandalised, walled up and broken into again, and the Neptune statue taken away for repair in 1974 vanished, to turn up years later at Třebotov castle. A restoration in 2010–2011 brought the grotto back, with a copy of the statue in the pool; the original is kept at the New Town Hall. The upper terrace stays closed for safety.
+
+🎁 Bonus: In the 1978 Czech film Beauty and the Beast, the Grotta played the Beast's castle. Gröbe would probably have approved: he built it to look like something out of a fairy tale in the first place.`,
+      cz: `V půli svahu Grébovky se ze stromů zvedá skalní útes plný jeskyní, schodišť a teras a u jeho paty stojí v jezírku kamenný mořský bůh. Nic z toho není přírodní. Je to Grotta, představa romantiky jednoho milionáře z 19. století, postavená z cihel a cementu.
+
+Průmyslník Moritz Gröbe, který zbohatl na stavbě železnic s firmou Lanna a Šebek, zakládal svůj soukromý park na vinohradských svazích v letech 1871 až 1888. Jako jeho chloubu navrhl architekt Antonín Barvitius umělou jeskyni, když předtím studoval jeskyně a fontány v Itálii a Německu, a skály vymodeloval sochař Josef Vorlíček. „Kámen“ jsou kvalitní cihly na cementové maltě, omítnuté tak, aby vypadaly jako skála s krápníky, a uvnitř jsou úzké chodby, malé síně s kamennými lavicemi, výklenky a podzemní chodby, nahoře vyhlídková terasa s triumfálním obloukem. V jezírku klečí Neptun od Bohuslava Schnircha a drží lasturu, v níž leží krokodýl, jehož zdvižená hlava je chrlič fontány. Restaurátoři tvrdí, že je to ve skutečnosti Triton.
+
+Po otevření parku pro veřejnost roku 1906 měla jeskyně nějaký čas vlastní restauraci. Později chátrala, byla ničena vandaly, zazděna a zase vylamována a socha Neptuna, odvezená roku 1974 k opravě, zmizela, aby se o léta později našla na zámku v Třebotově. Obnova v letech 2010 až 2011 jeskyni vrátila život a do jezírka kopii sochy; originál je uložen na Novoměstské radnici. Horní terasa zůstává z bezpečnostních důvodů zavřená.
+
+🎁 Bonus: Ve filmu Panna a netvor z roku 1978 hrála Grotta zámek Netvora. Gröbe by asi souhlasil: postavil ji přece právě proto, aby vypadala jako z pohádky.`,
+      zh: `格雷波夫卡的半山坡上，一面嶙峋的山崖从树丛里拔地而起，满是洞穴、台阶和平台，崖脚的水池里还站着一位石雕海神。可这些全都不是天然的。这就是"格罗塔"，一位19世纪富豪心目中的浪漫，用砖和水泥砌出来。
+
+靠和兰纳-舍贝克公司一起修铁路发家的实业家莫里茨·格罗贝，在1871到1888年间，在维诺赫拉迪的山坡上修了自己的私家园林。作为园中的压轴之作，建筑师安东宁·巴尔维提乌斯先去意大利和德国考察了一圈岩洞和喷泉，回来设计了这座人造岩洞，雕塑家约瑟夫·沃尔利切克负责塑造山石。所谓的"石头"其实是用水泥砂浆砌的好砖，外面抹上灰浆，做成带钟乳石的岩石模样；里面有狭窄的通道、摆着石凳的小厅、壁龛和地下廊道，顶上还有观景平台和一座凯旋门。水池里，博胡斯拉夫·施尼尔赫雕的海神涅普顿单膝跪地，高举一只贝壳，贝壳里趴着一条鳄鱼，它抬起的脑袋就是喷泉的出水口。不过修复师说，这位其实是特里同。
+
+1906年公园对公众开放后，岩洞里有一阵子还开过餐馆。后来它日渐破败，被人破坏、砌死，又被人凿开；1974年送去修复的海神像不翼而飞，多年后才在特雷博托夫城堡里找到。2010到2011年的修复让岩洞重获新生，池中换上了雕像的复制品，原作存放在新城市政厅。上层平台出于安全原因仍不开放。
+
+🎁 彩蛋：在1978年的捷克电影《美女与野兽》里，格罗塔演的是野兽的城堡。格罗贝大概不会反对：他当初修它，本来就是想让它看起来像童话里的东西。`,
+    },
+  },
+  {
+    // Grébovka pack (2026-11-21, user's call; coordinates from the user).
+    // cs.wikipedia "Havlíčkovy sady" and encyklopedie.praha2.cz (Dolní
+    // Landhauska): farm from c. 1600 (Halířovský grunt), Jesuit summer house,
+    // rebuilt 1871 by Gröbe, neo-Renaissance (Barvitius per cs.wikipedia only);
+    // seven flats after WWII; new roof and facade 2007; CEELI Institute lodging.
+    // Gröbe bought it in 1870 (encyklopedie) or the 1860s (cs.wikipedia).
+    name: 'Dolní Landhauska',
+    slug: 'dolni-landhauska',
+    localizedNames: { cz: 'Dolní Landhauska', zh: '下兰德豪斯卡庄园' },
+    labels: ['homestead', 'historicism', 'hidden-gem'],
+    district: 'Praha 2',
+    quarter: 'Vinohrady',
+    coordinates: { lat: 50.06847225322259, lng: 14.447366736939708 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Down in the valley at the foot of Grébovka's vineyard stands a handsome neo-Renaissance house with a richly decorated façade, looking far too grand for a farm. It is one, or was: Dolní Landhauska is the lower of the two old vineyard farms on which the whole park was built. It is not open to the public, but you can admire it from the park.
+
+A farm stood here by around 1600, known as the Halířovský grunt. After the Thirty Years' War it belonged to the Jesuits, who used it and its upper twin as a summer house for their sick and elderly brothers, and the German word for a country house, Landhaus, stuck to both of them. Later owners included the Pachta family and Baron Jakub Wimmer, and then Josef Lumbe, a professor and the last director of the Prague Polytechnic, who turned part of the vineyard into orchards.
+
+Around 1870 the industrialist Moritz Gröbe bought both farms for his park, and in 1871 he rebuilt this one as the two-storey house you see today, probably to designs by Antonín Barvitius, the architect of his villa on the hill above. After the Second World War it was split into seven flats. In 2007 it got a new roof and façade, and today it houses guests of the CEELI Institute, which restored it.
+
+🎁 Bonus: Look for the letters "M. G." on the façade. Gröbe signed his house the way a painter signs a canvas, which, for a man who rebuilt an entire hillside as his own picture, seems only fair.`,
+      cz: `Dole v údolí pod vinicí Grébovky stojí pohledný novorenesanční dům s bohatě zdobeným průčelím, na statek až příliš honosný. A přitom statek je, nebo byl: Dolní Landhauska je dolní ze dvou starých viničních usedlostí, na kterých celý park vznikl. Veřejnosti přístupná není, ale z parku si ji prohlédneš dobře.
+
+Usedlost tu stála už kolem roku 1600 a říkalo se jí Halířovský grunt. Po třicetileté válce patřila jezuitům, kteří ji i její horní dvojče využívali jako letní sídlo pro nemocné a staré spolubratry, a německé slovo pro venkovské sídlo, Landhaus, už oběma zůstalo. Mezi dalšími majiteli byli Pachtové a baron Jakub Wimmer a pak Josef Lumbe, profesor a poslední ředitel pražské polytechniky, který část vinice proměnil v sady.
+
+Kolem roku 1870 koupil průmyslník Moritz Gröbe obě usedlosti pro svůj park a roku 1871 tuhle přestavěl na dnešní dvoupatrový dům, nejspíš podle návrhu Antonína Barvitia, architekta jeho vily na kopci nad ní. Po druhé světové válce se rozdělila na sedm bytů. Roku 2007 dostala novou střechu a fasádu a dnes v ní bydlí hosté institutu CEELI, který ji obnovil.
+
+🎁 Bonus: Hledej na průčelí písmena „M. G.“. Gröbe se na svůj dům podepsal jako malíř na plátno, což je pro muže, který celý svah přestavěl na vlastní obraz, docela spravedlivé.`,
+      zh: `格雷波夫卡葡萄园脚下的山谷里，立着一栋漂亮的新文艺复兴风格房子，立面装饰华丽，作为农庄未免太气派了。可它确实是农庄，或者说曾经是：下兰德豪斯卡就是整座公园赖以建成的两座老葡萄园农庄里位置较低的那一座。它不对公众开放，但从公园里就能好好欣赏。
+
+大约1600年这里就有一座农庄，叫"哈利日农庄"。三十年战争后它归了耶稣会，修士们把它和山上那座"孪生兄弟"一起用作生病和年老会友的避暑屋，德语里"乡间宅邸"的说法"Landhaus"就这样粘在了两座农庄身上。后来的主人有帕赫塔家族、雅库布·维默男爵，还有布拉格理工学院的教授、也是最后一任院长约瑟夫·伦贝，他把一部分葡萄园改成了果园。
+
+1870年前后，实业家莫里茨·格罗贝为了修公园把两座农庄都买了下来，1871年把这一座改建成今天这栋两层楼，设计者很可能是给他在坡顶盖别墅的建筑师安东宁·巴尔维提乌斯。二战后它被分成了七套公寓。2007年换了新屋顶和新立面，如今由修复它的CEELI研究院用来接待客人。
+
+🎁 彩蛋：找找立面上的字母"M. G."。格罗贝像画家在画布上落款一样给自己的房子签了名；对一个把整面山坡改造成自己作品的人来说，这也算理所应当。`,
+    },
+  },
+  {
+    // Jiřího z Poděbrad pack (2026-11-21, user's call; coordinates from the
+    // user). kehilaprag.cz: founded 1680 as a plague cemetery, regular burials
+    // 1787-1890, about 40,000 buried; prague.eu / praha3.cz / cs.wikipedia: about
+    // three quarters turned into Mahlerovy sady in 1960, more lost to the TV
+    // tower (1985-92), Jewish Museum since 1999, Ezekiel Landau (1713-1793).
+    name: 'Old Jewish Cemetery (Žižkov)',
+    slug: 'stary-zidovsky-hrbitov-zizkov',
+    localizedNames: { cz: 'Starý židovský hřbitov na Žižkově', zh: '日什科夫老犹太公墓' },
+    labels: ['jewish', 'early-modern'],
+    district: 'Praha 3',
+    quarter: 'Žižkov',
+    coordinates: { lat: 50.08149297279121, lng: 14.4505475259546 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `At the foot of the Žižkov TV tower, behind a wall on Fibichova, lies a small, quiet cemetery of leaning gravestones. It is what remains of one of Prague's largest Jewish burial grounds, and most of it now lies under the lawns of the park around the tower.
+
+The cemetery was founded in 1680, outside the city, as a burial ground for victims of a plague, and it was used again in the next plague in the early 18th century. From 1787 it was the main cemetery of the Prague Jewish community, after burials in the old cemetery in the Jewish Town were stopped, and it stayed in use until 1890, when the New Jewish Cemetery opened further east. Some 40,000 people were buried here, among them many rabbis and scholars. The best known is Ezekiel Landau (1713–1793), chief rabbi of Prague and one of the great Jewish legal authorities of his age, whose grave still draws visitors from abroad.
+
+In 1960 about three quarters of the cemetery were cleared and turned into a public park, Mahlerovy sady, and building the TV tower in 1985–1992 damaged it further. The surviving part is a protected monument, cared for by the Jewish Museum in Prague since 1999. It is open to visitors on most days, but closed on Saturdays and Jewish holidays.
+
+🎁 Bonus: Look at the gravestones and you will see small pebbles left on top of them. In Jewish tradition visitors leave a stone rather than flowers, because a stone does not wilt.`,
+      cz: `U paty Žižkovského vysílače, za zdí ve Fibichově ulici, leží malý tichý hřbitov s nakloněnými náhrobky. Je to zbytek jednoho z největších pražských židovských pohřebišť a většina z něj dnes leží pod trávníky parku kolem vysílače.
+
+Hřbitov vznikl roku 1680 za městem jako pohřebiště obětí moru a znovu se na něm pohřbívalo při další morové epidemii na počátku 18. století. Od roku 1787, kdy se přestalo pohřbívat na starém hřbitově v židovském městě, byl hlavním hřbitovem pražské židovské obce a sloužil až do roku 1890, kdy se otevřel Nový židovský hřbitov dál na východě. Pohřbeno tu bylo kolem 40 000 lidí, mezi nimi mnoho rabínů a učenců. Nejznámější z nich je Ezechiel Landau (1713–1793), pražský vrchní rabín a jedna z velkých autorit židovského práva své doby, jehož hrob dodnes přitahuje návštěvníky ze zahraničí.
+
+Roku 1960 byly asi tři čtvrtiny hřbitova zrušeny a proměněny ve veřejný park, Mahlerovy sady, a stavba vysílače v letech 1985 až 1992 ho poškodila ještě víc. Zachovaná část je kulturní památkou a od roku 1999 o ni pečuje Židovské muzeum v Praze. Návštěvníkům je otevřená většinu dní, zavřeno je v sobotu a o židovských svátcích.
+
+🎁 Bonus: Podívej se na náhrobky a uvidíš na nich položené kamínky. V židovské tradici nechávají návštěvníci místo květin kámen, protože kámen neuvadne.`,
+      zh: `日什科夫电视塔脚下，菲比赫街的一道墙后面，有一片小小的、安静的墓地，墓碑东倒西歪。这里是布拉格最大的犹太墓地之一仅存的部分，它的大半如今就埋在电视塔周围公园的草坪下面。
+
+墓地建于1680年，当时还在城外，用来埋葬瘟疫的死者；18世纪初又一场瘟疫来袭时再次启用。1787年犹太城里的老墓地停止下葬后，这里成了布拉格犹太社区的主要墓地，一直用到1890年，那年更东边的新犹太公墓开放。这里大约葬了4万人，其中有许多拉比和学者。最有名的是耶赫兹克尔·兰道（1713–1793），布拉格首席拉比，也是那个时代最重要的犹太律法权威之一，至今仍有外国访客专程来他墓前。
+
+1960年，墓地约四分之三被清除，改成了公共公园"马勒公园"；1985到1992年修建电视塔，又让它受了更多损伤。保存下来的部分是文物保护单位，1999年起由布拉格犹太博物馆照管。墓地大多数日子对访客开放，周六和犹太节日关闭。
+
+🎁 彩蛋：仔细看墓碑，会发现上面放着一颗颗小石子。按犹太传统，访客留下的是石头而不是鲜花，因为石头不会凋谢。`,
+    },
+  },
+  {
+    // Vítkov pack (2026-11-21, user's call; coordinates from the user).
+    // U Božích bojovníků 3; opened 1993 in former potato and coal cellars,
+    // decor by Martin Velíšek (kudyznudy, blesk, topzine); scenes of Hřebejk's
+    // Horem pádem shot here; Havel reportedly a guest; Mon-Sat from 16:30,
+    // closed Sundays (prague.eu).
+    name: 'U Vystřelenýho oka',
+    slug: 'u-vystreleneho-oka',
+    localizedNames: { cz: 'Hostinec U Vystřelenýho oka', zh: '“中箭之眼”酒馆' },
+    labels: ['restaurants-and-cafes', 'hidden-gem'],
+    district: 'Praha 3',
+    quarter: 'Žižkov',
+    coordinates: { lat: 50.08710925082173, lng: 14.449545636979014 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `At the foot of Vítkov, in a street called U Božích bojovníků, "At the Warriors of God", there is a pub called At the Shot-Out Eye. Up on the hill stands a one-eyed general on a bronze horse. Down here, Žižkov drinks to his missing eye.
+
+Jan Žižka is said to have lost one eye in his youth, and in 1421, at the siege of Rabí castle, an arrow took the other, so the greatest general of the Hussite wars fought his last campaigns completely blind. The pub opened in 1993, after the building was returned to its owners, in what had been cellars for potatoes and coal. The artist Martin Velíšek painted its walls and its sign with cheerfully irreverent Hussite scenes, and it quickly became one of the best-known old-style pubs in Žižkov, with concerts and literary evenings on a little stage in the courtyard. Jan Hřebejk shot scenes of his film Horem pádem here, and Václav Havel is said to have dropped in.
+
+It opens in the late afternoon and is closed on Sundays.
+
+🎁 Bonus: Žižka never lost a battle, and he won most of the later ones without being able to see at all. The pub has kept the joke going for thirty years: here you can lose track of everything, and nobody will hold it against you.`,
+      cz: `Pod Vítkovem, v ulici U Božích bojovníků, je hospoda U Vystřelenýho oka. Nahoře na kopci stojí jednooký vojevůdce na bronzovém koni. Tady dole na jeho chybějící oko pije Žižkov.
+
+Jan Žižka prý přišel o jedno oko už v mládí a roku 1421 mu při obléhání hradu Rabí šíp vzal i druhé, takže největší vojevůdce husitských válek vedl svá poslední tažení úplně slepý. Hospoda se otevřela roku 1993, po restituci domu, ve sklepích, kde se dřív skladovaly brambory a uhlí. Výtvarník Martin Velíšek pomaloval její stěny i štít vesele neuctivými husitskými výjevy a brzy se z ní stala jedna z nejznámějších starých žižkovských hospod, s koncerty a literárními večery na malém pódiu na dvorku. Jan Hřebejk tu natáčel scény filmu Horem pádem a prý se tu zastavil i Václav Havel.
+
+Otevírá se v pozdním odpoledni a v neděli je zavřeno.
+
+🎁 Bonus: Žižka nikdy neprohrál bitvu a většinu těch pozdějších vyhrál, aniž by vůbec viděl. Hospoda ten vtip udržuje už třicet let: tady můžeš ztratit přehled o čemkoli a nikdo ti to nebude vyčítat.`,
+      zh: `维特科夫山脚下，有一条街叫"上帝的战士街"，街上有家酒馆叫"中箭之眼"。山顶上，一位独眼将军骑着青铜大马；山脚下，日什科夫人举杯敬他那只没了的眼睛。
+
+据说扬·杰式卡年轻时就瞎了一只眼，1421年围攻拉比城堡时，一支箭又射中了另一只，于是这位胡斯战争中最了不起的将军，最后几场仗是在完全失明的情况下打的。酒馆开张于1993年，那时这栋房子刚归还给原主，店面原本是存土豆和煤的地窖。画家马丁·韦利谢克在墙上和招牌上画满了嬉皮笑脸、毫不恭敬的胡斯派场景，没多久它就成了日什科夫最有名的老派酒馆之一，院子里的小舞台上常有音乐会和文学之夜。导演扬·赫热贝克在这里拍过电影《起起落落》的几场戏，据说哈维尔也来坐过。
+
+酒馆傍晚才开门，周日不营业。
+
+🎁 彩蛋：杰式卡一辈子没打过败仗，后期的大多数胜仗还是在什么都看不见的情况下打赢的。酒馆把这个梗玩了三十年：在这里，你喝到看不清什么都没关系，没人会怪你。`,
+    },
+  },
+  {
+    // Royal Garden pack (2026-11-21, user's call; coordinates from the user).
+    // Facts carried over from the deleted Royal Garden card: ordered by
+    // Ferdinand I in 1562, designed by Francesco Terzi, cast by Tomáš Jaroš of
+    // Brno in 1568, water from the 1570s. Replaces the Royal Garden card in
+    // Castle Conqueror and AEIOU.
+    name: 'Singing Fountain',
+    slug: 'zpivajici-fontana',
+    localizedNames: { cz: 'Zpívající fontána', zh: '歌唱喷泉' },
+    labels: ['sculpture', 'renaissance'],
+    district: 'Praha 1',
+    quarter: 'Hradčany',
+    coordinates: { lat: 50.09362556182699, lng: 14.404828352519543 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `In front of Queen Anne's Summer Palace, in the Royal Garden of Prague Castle, stands a bronze fountain of two basins, one above the other, with a little bagpiper on top. It is called the Singing Fountain, and if you crouch down and put your ear close to it, it lives up to the name.
+
+King Ferdinand I ordered it in 1562 for the garden he had founded in front of his queen's summer palace. The Italian Francesco Terzi designed it, and the bell-founder Tomáš Jaroš of Brno, better known for his church bells, cast it in bronze in 1568. Ferdinand did not live to see it finished, and water only began to run through it in the 1570s. The basins are covered with figures, masks and animals, and it is counted among the finest Renaissance fountains north of the Alps.
+
+The singing is acoustics, not magic: water dripping from the upper basin strikes the bronze bowl below and makes it ring softly, a bell-founder's fountain that still behaves a little like a bell.
+
+🎁 Bonus: The garden around it closes in winter, so the fountain sings only in the warmer months. Listen closely, because the sound is quiet: on a busy summer afternoon, the tourists are usually louder than the bronze.`,
+      cz: `Před Letohrádkem královny Anny v Královské zahradě Pražského hradu stojí bronzová fontána ze dvou mís nad sebou s malým dudákem nahoře. Jmenuje se Zpívající fontána, a když si dřepneš a přiložíš k ní ucho, svému jménu dostojí.
+
+Král Ferdinand I. ji objednal roku 1562 pro zahradu, kterou založil před letohrádkem své královny. Navrhl ji Ital Francesco Terzi a odlil ji z bronzu roku 1568 brněnský zvonař Tomáš Jaroš, známý spíš svými zvony. Ferdinand se jejího dokončení nedožil a voda jí začala protékat až v 70. letech 16. století. Mísy pokrývají postavy, masky a zvířata a fontána patří k nejkrásnějším renesančním kašnám na sever od Alp.
+
+Zpěv je akustika, ne kouzlo: voda, která kape z horní mísy, dopadá na bronzovou mísu pod ní a ta tiše zvoní, takže zvonařova fontána se dodnes chová trochu jako zvon.
+
+🎁 Bonus: Zahrada kolem ní je v zimě zavřená, takže fontána zpívá jen v teplejších měsících. Poslouchej pozorně, zvuk je tichý: za rušného letního odpoledne jsou turisté obvykle hlasitější než bronz.`,
+      zh: `布拉格城堡皇家花园里，安娜王后夏宫前面，立着一座青铜喷泉：上下两层水盆，顶上站着一个吹风笛的小人。它叫"歌唱喷泉"，你要是蹲下来把耳朵凑过去，就会发现它名副其实。
+
+费迪南一世国王在1562年下令建造它，放在他为王后夏宫前修建的花园里。设计者是意大利人弗朗切斯科·特尔齐，1568年由布尔诺的铸钟匠托马什·雅罗什用青铜铸成，他本来以铸教堂大钟闻名。费迪南没能等到它完工，直到16世纪70年代喷泉里才通上水。水盆上满是人物、面具和动物，它被认为是阿尔卑斯山以北最精美的文艺复兴喷泉之一。
+
+所谓"唱歌"其实是声学，不是魔法：水从上层盆里滴下来，打在下面的青铜盆上，让它轻轻作响。一位铸钟匠做的喷泉，至今还有点像一口钟。
+
+🎁 彩蛋：周围的花园冬天关闭，所以喷泉只在暖和的月份唱歌。要仔细听，声音很轻：夏天游客多的下午，游客通常比青铜还响。`,
+    },
+  },
+  {
+    // Royal Garden and Letná packs (2026-11-21, user's call; coordinates from
+    // the user). wikiwand "Chotkova (Praha)": a 1960s footbridge by Jaroslav
+    // Fragner, taken down for its state; the new one by Bořek Šípek, paid for
+    // through the Václav and Olga Havel Foundation, steel donated by Škoda
+    // Plzeň, opened 18 July 1998 with Havel as "Chotkova lávka" (a name the city
+    // never approved); meant to link the Castle and the Kramář Villa.
+    name: 'Bořek Šípek Footbridge',
+    slug: 'lavka-borka-sipka',
+    localizedNames: { cz: 'Lávka Bořka Šípka', zh: '博雷克·希佩克人行桥' },
+    labels: ['bridge', 'contemporary'],
+    district: 'Praha 1',
+    quarter: 'Hradčany',
+    coordinates: { lat: 50.09449011590812, lng: 14.409540891219338 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Above the hairpin bends of Chotkova, a slim footbridge with a playful railing leaps across the road from the Chotek Gardens to the Letná plain. It is short, it is light, and it was meant to say something: that the president at the Castle and the prime minister in the Kramář Villa were on speaking terms.
+
+A first footbridge was built here in the 1960s to a design by the architect Jaroslav Fragner, but it fell into such a poor state that it had to be taken down. Its replacement was designed by Bořek Šípek, the glass designer and architect whom President Václav Havel had made architect of Prague Castle. The Václav and Olga Havel Foundation backed the project, the city built it, and Škoda Plzeň donated the steel. It opened on 18 July 1998, with Havel there, under the name Chotkova lávka, which the city never officially approved; most people simply call it after its designer.
+
+The bridge links the Castle's gardens with the official residence of the Czech prime minister at the Kramář Villa, and it was meant as a small sign of good relations between the two halves of the government.
+
+🎁 Bonus: Few countries have connected the head of state and the head of government with an actual bridge. Prague did, and it is a footbridge barely a few dozen metres long. How much the relationship between the two offices has relied on it since is another question.`,
+      cz: `Nad serpentinami Chotkovy silnice přeskakuje štíhlá lávka s hravým zábradlím z Chotkových sadů na Letenskou pláň. Je krátká, lehká a měla něco říct: že prezident na Hradě a premiér v Kramářově vile spolu mluví.
+
+První lávka tu vznikla v 60. letech podle návrhu architekta Jaroslava Fragnera, ale dostala se do tak špatného stavu, že ji museli rozebrat. Novou navrhl Bořek Šípek, designér skla a architekt, kterého prezident Václav Havel jmenoval architektem Pražského hradu. Projekt podpořila Nadace Václava a Olgy Havlových, stavbu zaplatil magistrát a ocel věnovala Škoda Plzeň. Otevřela se 18. července 1998 za účasti Havla pod jménem Chotkova lávka, které ale město nikdy oficiálně neschválilo; většina lidí jí prostě říká podle autora.
+
+Lávka spojuje hradní zahrady se sídlem českého premiéra v Kramářově vile a měla být malým znamením dobrých vztahů mezi oběma polovinami vlády.
+
+🎁 Bonus: Málokterá země spojila hlavu státu a předsedu vlády skutečným mostem. Praha to udělala, a je to lávka sotva pár desítek metrů dlouhá. Nakolik se o ni vztahy obou úřadů od té doby opíraly, je jiná otázka.`,
+      zh: `霍特科娃路的发夹弯上方，一座纤细的人行桥带着俏皮的栏杆，从霍泰克花园一跃跨到莱特纳高地。它很短，很轻，却想说一件事：城堡里的总统和克拉马日别墅里的总理，彼此是说得上话的。
+
+这里最早的一座人行桥建于20世纪60年代，由建筑师雅罗斯拉夫·弗拉格纳设计，后来破损得太厉害，只好拆掉。新桥的设计者是玻璃设计师兼建筑师博雷克·希佩克，哈维尔总统任命他为布拉格城堡的建筑师。项目由瓦茨拉夫和奥尔加·哈维尔基金会推动，市政府出资建造，斯柯达比尔森捐赠了钢材。1998年7月18日，大桥在哈维尔的出席下开通，名字叫"霍特科娃人行桥"，不过市里从没正式批准过这个名字，大多数人干脆用设计者的名字叫它。
+
+这座桥把城堡的花园和捷克总理在克拉马日别墅的官邸连了起来，本意是象征政府两半之间的良好关系。
+
+🎁 彩蛋：很少有哪个国家真的用一座桥把国家元首和政府首脑连在一起。布拉格做到了，而那只是一座区区几十米长的人行桥。两个办公室的关系这些年到底靠没靠它，就是另一回事了。`,
     },
   },
 ];

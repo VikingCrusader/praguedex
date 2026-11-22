@@ -1060,6 +1060,46 @@ export const PACKS = [
       'socha-cesky-lev', 'the-famous-log', 'lavka-borka-sipka',
     ],
   }),
+  pack({
+    slug: 'dlouha',
+    released: '2026-11-22T18:00:00+01:00',
+    name: 'Dlouhá',
+    localizedNames: { cz: 'Dlouhá', zh: '长街' },
+    foil: '#8a4b2a',
+    labels: ['street', 'medieval', 'renaissance', 'cultural'],
+    // A street pack (2026-11-22, user's call): Old Town Square to Revoluční.
+    // The House at the Golden Elephant on the square corner (Dlouhá 2, shared
+    // with Old Town Square), the Theatre in Dlouhá, the House at the Golden
+    // Tree, Roxy (new card) and Vinok hanging above the street outside it.
+    // Revoluční at the far end stays out. Took over the one-point street card's
+    // slug and cover (one check-in), the card deleted.
+    members: [
+      'dum-u-zlateho-slona', 'roxy-prague', 'vinok-sculpture', 'divadlo-v-dlouhe', 'dum-u-zlateho-stromu',
+    ],
+  }),
+  pack({
+    slug: 'klarov',
+    released: '2026-11-22T21:00:00+01:00',
+    name: 'Klárov',
+    localizedNames: { cz: 'Klárov', zh: '克拉洛夫' },
+    foil: '#4a5a7a',
+    labels: ['square', 'monument', 'world-wars', 'communism'],
+    // The junction at the foot of the castle on the Malá Strana side
+    // (2026-11-22, user's call): the park with the Second Resistance, RAF and
+    // Charousková memorials, the Klar Institute and its House of Physical
+    // Culture, Kunsthalle Praha, Malostranská station with its garden, drinking
+    // fountain and the K111 shelter below, the Old Castle Stairs, the
+    // Wallenstein Riding School, the House at the White Boot, the Mánes Bridge
+    // (shared with Jan Palach Square) and the Straka Academy opposite the
+    // House of Physical Culture. Five new cards. Took over the one-point
+    // Klárov card's cover (two check-ins), the card deleted; new slug.
+    members: [
+      'klaruv-ustav-slepcu', 'pomnik-marie-charouskove', 'memorial-of-the-second-resistance-movement-1782425088643',
+      'pamatnik-ceskoslovenskym-letcum-raf', 'kunsthalle-praha', 'dum-kultury-tela', 'straka-academy-1782495890343',
+      'respirium-malostranska', 'pitko-malostranska', 'k111-klarov', 'valdstejnska-jizdarna',
+      'old-castle-stairs-1782582571631', 'dum-u-bile-boty', 'manesuv-most',
+    ],
+  }),
 ];
 
 export const packsOfCard = (slug) => PACKS

@@ -449,7 +449,6 @@ export const SLUG_RARITY = {
   'dum-u-zlateho-melounu':         'rare',  // 1401/1407 origins, Linka dance school from 1828
   'kostel-svate-vorsily':          'superior', // 1702-04 High Baroque, funded partly by F.A. Špork
   'hollar':                        'rare',  // Charles Univ. FSV building, ex-Hollar printmakers' society
-  'dlouha':                        'superior', // 10th-c trade route, name literally means "Long", Roxy club
   'kostel-svateho-michaela-archandela-podoli': 'superior', // 1222 first mention, Vyšehrad chapter property
   'dum-u-zlateho-stromu':          'rare',  // 1586-1608 Renaissance house, brewery, later VÚMS workplace
   'dum-zlaty-kriz':                'rare',  // 1906 rebuild, Old Town Square, funeral home use from 1939

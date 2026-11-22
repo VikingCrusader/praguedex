@@ -10509,41 +10509,6 @@ Postavena byla roku 1846 jako jeden z elegantních domů, které lemovaly nové 
     },
   },
   {
-    name: 'Dlouhá Street',
-    slug: 'dlouha',
-    localizedNames: { cz: 'Dlouhá', zh: '德劳哈街' },
-    labels: ['street', 'medieval'],
-    district: 'Praha 1',
-    quarter: 'Staré Město',
-    coordinates: { lat: 50.08948572429485, lng: 14.422538853845554 },
-    rarity: 'superior',
-    xpReward: 30,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Dlouh%C3%A1_(Praha)',
-    description: {
-      en: `Dlouhá is one of the oldest streets in the Old Town, running from Old Town Square toward the river near Štvanice. Its name simply means "long", which is exactly what it is, and medieval Praguers never saw a reason to call it anything else.
-
-The street grew up along one of the most important trade routes of early Prague, linking the market that became Old Town Square with the German merchant settlement around St Peter's Church and on to the fords across the Vltava toward northern and eastern Bohemia. It is recorded by name from the 14th century. Along its roughly 400 metres today you will find the Renaissance House at the Golden Tree with its arcaded courtyard, the Divadlo v Dlouhé theatre and the Roxy music club in a former cinema, where Fugazi played the first concert in 1992.
-
-Today Dlouhá is a lively street of bars, restaurants and small shops, quieter than the tourist routes nearby but full of life in the evening.
-
-🎁 Bonus: Dlouhá has kept its name for at least seven centuries. In a city where streets have been renamed after kings, emperors, communists and revolutionaries, a name that simply describes the street has proved to be the most durable of all.`,
-      cz: `Dlouhá je jednou z nejstarších ulic Starého Města a vede od Staroměstského náměstí k řece u Štvanice. Její jméno prostě říká, jaká je, a středověcí Pražané neviděli důvod jí říkat jinak.
-
-Ulice vyrostla podél jedné z nejdůležitějších obchodních cest raného Prahy, která spojovala tržiště, z něhož se stalo Staroměstské náměstí, s německou kupeckou osadou kolem kostela sv. Petra a dál s brody přes Vltavu směrem do severních a východních Čech. Jménem je doložena od 14. století. Na zhruba 400 metrech dnes najdete renesanční dům U Zlatého stromu s arkádovým nádvořím, Divadlo v Dlouhé a hudební klub Roxy v bývalém kině, kde roku 1992 zahráli první koncert Fugazi.
-
-Dnes je Dlouhá živou ulicí barů, restaurací a malých obchodů, klidnější než nedaleké turistické trasy, ale večer plná života.
-
-🎁 Bonus: Dlouhá si udržela jméno nejméně sedm století. Ve městě, kde se ulice přejmenovávaly po králích, císařích, komunistech i revolucionářích, se jméno, které ulici prostě popisuje, ukázalo jako nejtrvanlivější ze všech.`,
-      zh: `德劳哈街是老城最古老的街道之一，从老城广场一直通到斯特瓦尼采附近的河边。它的名字意思就是“长”，而它也确实很长，中世纪的布拉格人从没觉得有必要给它起别的名字。
-
-这条街沿着早期布拉格最重要的商路之一发展起来，这条路把后来成为老城广场的集市，与圣彼得教堂周围的德意志商人聚居区连在一起，再通往伏尔塔瓦河上去往北波希米亚和东波希米亚的渡口。从14世纪起就有它名字的记载。如今在它约400米的长度上，你能看到带拱廊庭院的文艺复兴风格金树之家、德劳哈剧院，还有由旧电影院改成的罗克西音乐俱乐部，1992年Fugazi在那里演了第一场。
-
-如今德劳哈街满是酒吧、餐馆和小店，比附近的游客路线安静，夜里却热闹非凡。
-
-🎁 彩蛋：德劳哈街的名字至少用了七百年。在一座街道被国王、皇帝、共产党人和革命者的名字轮番改来改去的城市里，一个只描述街道本身的名字，反倒成了最经久的那个。`,
-    },
-  },
-  {
     name: 'Church of St. Michael the Archangel (Podolí)',
     slug: 'kostel-svateho-michaela-archandela-podoli',
     localizedNames: { cz: 'Kostel svatého Michaela archanděla (Podolí)', zh: '圣米迦勒天使长教堂（波多利）' },
@@ -40088,6 +40053,265 @@ Otevírá se v pozdním odpoledni a v neděli je zavřeno.
 酒馆傍晚才开门，周日不营业。
 
 🎁 彩蛋：杰式卡一辈子没打过败仗，后期的大多数胜仗还是在什么都看不见的情况下打赢的。酒馆把这个梗玩了三十年：在这里，你喝到看不清什么都没关系，没人会怪你。`,
+    },
+  },
+  {
+    // Dlouhá pack (2026-11-22, user's call; coordinates from the user).
+    // Sources: cs.wikipedia "Roxy (klub v Praze)" (cinema from 1927, people's
+    // house of the Jewish society Beth-Haam, FAMU shoots, Fugazi 13 June 1992,
+    // ~600 capacity, 2011 closure threat), citybee.cz (First Republic
+    // restaurant, cinema and dance hall; flooded hall; Linhart Foundation and
+    // Jan Mayer won the 1992 tender), prague.eu (Lokál Dlouhááá at Dlouhá 33,
+    // opened 2009), en.wikipedia (New York Roxy opened 11 March 1927, ~5,900
+    // seats, architect Walter W. Ahlschlager). The "architect emigrated and
+    // built the New York Roxy" story is unsupported, so the bonus doubts it.
+    name: 'Roxy',
+    slug: 'roxy-prague',
+    localizedNames: { cz: 'Roxy', zh: 'Roxy俱乐部' },
+    labels: ['cultural'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.09075097323327, lng: 14.425853309088746 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Behind an ordinary Old Town front at Dlouhá 33, a staircase leads down into a round hall that has been a cinema, a ballroom, a film-school set and a flooded ruin, and since 1992 the best-known club in Prague. The building has lived many lives, and most of them happened after dark.
+
+The hall opened around 1927 as the Roxy cinema, named after the enormous picture palace that had just opened in New York. In the First Republic the house also had a restaurant and a dance hall known for its balls, and it was the people's house of the Jewish cultural society Beth-Haam. Under communism the Prague film school, FAMU, used the space for shooting. By the early 1990s the building was falling apart and the hall below was under water.
+
+In 1992 a group around the Linhart Foundation and the architect Jan Mayer won a tender for the building, pumped out the water and opened it as the Experimental Space Roxy. The first concert, on 13 June 1992, was given by the American punk band Fugazi. Roxy became one of the places where post-revolution Prague learned to go out: its stage has hosted Public Enemy, Faithless, Franz Ferdinand, the Yeah Yeah Yeahs and John Cale, and DJs from all over Europe, while upstairs the NoD gallery, theatre and café keep the experimental half of the name. In 2011 the club was nearly shut down over safety rules and noise, but the problems were fixed and the music went on. The same building is also home to Lokál Dlouhááá, a beer hall about seventy metres long, opened in 2009.
+
+🎁 Bonus: Prague likes to tell how the cinema's architect emigrated to America before the war and built an almost identical Roxy in New York. The dates spoil it: New York's Roxy, with nearly six thousand seats, opened in March 1927 to designs by the Chicago architect Walter Ahlschlager. If anything crossed the Atlantic, it was the name, and it travelled east.`,
+      cz: `Za obyčejným staroměstským průčelím v Dlouhé 33 vedou schody dolů do kulatého sálu, který byl kinem, tančírnou, natáčecím ateliérem filmové školy i zatopenou ruinou, a od roku 1992 je nejznámějším klubem v Praze. Ten dům prožil spoustu životů a většina z nich se odehrála po setmění.
+
+Sál se otevřel kolem roku 1927 jako kino Roxy, pojmenované po obřím filmovém paláci, který se právě otevřel v New Yorku. Za první republiky měl dům také restauraci a taneční sál proslulý bály a byl lidovým domem židovského kulturního spolku Beth-Haam. Za komunismu tu natáčela pražská filmová škola FAMU. Na začátku devadesátých let se dům rozpadal a sál v podzemí stál pod vodou.
+
+Roku 1992 vyhrála konkurz na budovu skupina kolem Linhartovy nadace a architekta Jana Mayera, vodu vyčerpala a otevřela tu Experimentální prostor Roxy. První koncert tu 13. června 1992 odehráli američtí punkeři Fugazi. Roxy se stalo jedním z míst, kde se porevoluční Praha učila chodit ven: na jeho pódiu hráli Public Enemy, Faithless, Franz Ferdinand, Yeah Yeah Yeahs i John Cale a DJové z celé Evropy, a nahoře drží experimentální polovinu jména galerie, divadlo a kavárna NoD. Roku 2011 hrozilo klubu zavření kvůli bezpečnostním předpisům a hluku, nedostatky se ale odstranily a hudba hraje dál. Ve stejném domě sídlí i Lokál Dlouhááá, zhruba sedmdesát metrů dlouhá pivnice otevřená roku 2009.
+
+🎁 Bonus: Praha ráda vypráví, jak architekt kina před válkou emigroval do Ameriky a postavil v New Yorku skoro stejné Roxy. Data tomu nepřejí: newyorské Roxy s téměř šesti tisíci místy se otevřelo už v březnu 1927 podle návrhu chicagského architekta Waltera Ahlschlagera. Jestli něco přeplulo Atlantik, bylo to jméno, a plulo na východ.`,
+      zh: `德劳哈街33号，一扇再普通不过的老城门面后面，一道楼梯通向地下的一座圆形大厅。它当过电影院、舞厅、电影学院的片场，还当过一片泡在水里的废墟，1992年起成了布拉格最有名的俱乐部。这栋房子活过好几辈子，大部分是在天黑以后。
+
+大厅大约在1927年作为Roxy电影院开张，名字借自纽约刚刚落成的那座巨型电影宫。第一共和国时期，这栋楼里还有一家餐厅和一个以舞会出名的舞厅，同时也是犹太文化协会Beth-Haam的“人民之家”。共产党时代，布拉格电影学院FAMU在这里拍片。到了九十年代初，房子已经破败不堪，地下大厅整个泡在水里。
+
+1992年，以林哈特基金会和建筑师扬·迈尔为核心的一群人赢下了这栋楼的招标，把水抽干，在这里开起了“Roxy实验空间”。1992年6月13日，美国朋克乐队Fugazi在这里演了第一场。Roxy从此成了革命后的布拉格学会“出去玩”的地方之一：Public Enemy、Faithless、弗朗兹·费迪南、Yeah Yeah Yeahs和约翰·凯尔都在这个舞台上演出过，欧洲各地的DJ也轮番登场；楼上的NoD画廊、剧场和咖啡馆，则撑起了名字里“实验”的那一半。2011年，俱乐部因为安全规定和噪音问题差点被关掉，问题整改之后，音乐照旧。同一栋楼里还有Lokál Dlouhááá，一家2009年开业、长约七十米的啤酒馆。
+
+🎁 彩蛋：布拉格人爱讲一个故事：电影院的建筑师战前移民美国，在纽约照着这里盖了一座几乎一模一样的Roxy。可惜日期不配合：纽约那座近六千座的Roxy早在1927年3月就开张了，设计师是芝加哥建筑师沃尔特·阿尔施拉格。真要说有什么东西横渡了大西洋，那也只是名字，而且是从西往东。`,
+    },
+  },
+  {
+    // Klárov pack (2026-11-22, user's call; coordinates from the user).
+    // Sources: cs.wikipedia "Klarův ústav slepců" (founded 1807 at Hradčany
+    // by Alois and Rosina Klar with Paul Alois and Karolína; land granted by
+    // Francis I in 1832; built 1836-1844 to designs by Vincenc Kulhánek and
+    // Josef Kranner; St Raphael chapel consecrated 1838; Tobit relief and the
+    // Raphael statue by Josef Max, the statue in the National Gallery depot
+    // since about 1955; Czech Geological Survey since 1993), virtualni.praha.eu
+    // (the St Wenceslas statue on Charles Bridge commissioned by the institute
+    // from Josef Kamil Böhm; the survey moved here when Parliament took the
+    // Smiřický Palace).
+    name: 'Klar Institute for the Blind',
+    slug: 'klaruv-ustav-slepcu',
+    localizedNames: { cz: 'Klarův ústav slepců', zh: '克拉尔盲人学院' },
+    labels: ['academy', 'classicism'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.0917617, lng: 14.4099425 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Klárov, the busy junction at the foot of the castle, is named after a man, and this is his house. Alois Klar spent half his life building a home for blind people in Prague. The city thanked him by naming the square after him, and then mostly forgot who he was.
+
+In 1807 Klar, his wife Rosina, their son Paul Alois and his wife Karolína founded a private school for blind children up in Hradčany. Klar soon saw the next problem: once a blind child had finished school, there was nowhere to go. In 1832 Emperor Francis I gave him this plot by the river, where the Brusnice stream ran into the Vltava, for an institute for blind adults, and the building went up between 1836 and 1844 under Paul Alois's direction, to designs by Vincenc Kulhánek and Josef Kranner.
+
+Its heart is the chapel of St Raphael, consecrated in 1838. In the Book of Tobit, Raphael is the archangel who guides young Tobias and shows him how to heal his father's blindness, and Josef Max carved that very scene for the relief in the gable. His marble statue of Raphael stood on the altar until the chapel was closed around 1955 and the statue went to a National Gallery depot. The house served the blind until the middle of the 20th century, then planning offices, and since 1993 it has been the seat of the Czech Geological Survey, which moved in after Parliament took its old palace on Malostranské náměstí.
+
+🎁 Bonus: The statue of St Wenceslas on Charles Bridge was ordered by this institute and carved by Josef Kamil Böhm. Millions of people walk past it every year without knowing that it was a gift from the blind of Klárov to a city they could not see.`,
+      cz: `Klárov, rušná křižovatka pod Hradem, se jmenuje po jednom muži a tohle je jeho dům. Alois Klar strávil půl života tím, že v Praze budoval domov pro nevidomé. Město mu poděkovalo tak, že po něm pojmenovalo náměstí, a pak většinou zapomnělo, kdo to byl.
+
+Roku 1807 založil Klar se ženou Rosinou, synem Pavlem Aloisem a jeho ženou Karolínou na Hradčanech soukromou školu pro slepé děti. Brzy narazil na další problém: když nevidomé dítě školu dokončilo, nemělo kam jít. Roku 1832 mu císař František I. daroval tento pozemek u řeky, kde do Vltavy tekla Brusnice, pro ústav pro dospělé nevidomé, a budova vyrostla v letech 1836 až 1844 pod vedením Pavla Aloise podle návrhů Vincence Kulhánka a Josefa Krannera.
+
+Jejím srdcem je kaple sv. Rafaela, vysvěcená roku 1838. V knize Tobiáš je Rafael archandělem, který provází mladého Tobiáše a ukáže mu, jak vyléčit otcovu slepotu, a Josef Max vytesal právě tuto scénu do reliéfu ve štítu. Jeho mramorová socha Rafaela stála na oltáři, dokud kolem roku 1955 kapli nezrušili a socha neodešla do depozitáře Národní galerie. Dům sloužil nevidomým do poloviny 20. století, potom plánovacím úřadům a od roku 1993 je sídlem České geologické služby, která se sem přestěhovala, když její starý palác na Malostranském náměstí zabrala Sněmovna.
+
+🎁 Bonus: Sochu sv. Václava na Karlově mostě objednal tento ústav a vytesal ji Josef Kamil Böhm. Miliony lidí kolem ní každý rok projdou a netuší, že je to dar nevidomých z Klárova městu, které sami nemohli vidět.`,
+      zh: `城堡山脚下那个车来车往的路口叫克拉洛夫，名字来自一个人，而这栋楼就是他的家业。阿洛伊斯·克拉尔花了半辈子，在布拉格为盲人建一个家。城市感谢他的方式，是拿他的名字给广场命名，然后基本忘了他是谁。
+
+1807年，克拉尔和妻子罗西娜、儿子帕维尔·阿洛伊斯以及儿媳卡罗琳娜，在城堡区办起了一所私立盲童学校。他很快发现了下一个问题：盲童读完书以后，无处可去。1832年，皇帝弗朗茨一世把河边这块地送给了他，就在布鲁斯尼采溪汇入伏尔塔瓦河的地方，用来办一所成年盲人学院。大楼在1836年到1844年间建成，由帕维尔·阿洛伊斯主持，设计者是文岑茨·库尔汉内克和约瑟夫·克兰纳。
+
+楼的核心是圣拉斐尔礼拜堂，1838年祝圣。在《多俾亚传》里，拉斐尔是那位引导少年多俾亚、教他治好父亲失明的大天使，约瑟夫·马克斯就把这一幕刻在了山墙的浮雕上。他雕的大理石拉斐尔像一直立在祭坛上，直到1955年前后礼拜堂被关闭，雕像进了国家美术馆的库房。这栋楼一直为盲人服务到20世纪中叶，后来归了计划部门，1993年起是捷克地质调查局的所在地：议会占了它在小城广场的老宫殿，它就搬到了这里。
+
+🎁 彩蛋：查理大桥上的圣瓦茨拉夫像，就是这所学院订制、由约瑟夫·卡米尔·贝姆雕刻的。每年几百万人从它身边走过，却不知道这是克拉洛夫的盲人送给一座他们自己看不见的城市的礼物。`,
+    },
+  },
+  {
+    // Klárov pack (2026-11-22). Sources: kunsthallepraha.org/en/building
+    // (Václav Karel Bedřich Zenger, ČVUT physicist and meteorologist, said to
+    // have advised Eiffel on the tower's lightning rod; Vilém Kvasnička's 1929
+    // design; built from 1930, running 1931, inaugurated 1934; AC to DC for
+    // trams and trolleybuses in Prague 6, 7 and part of 1; Kokpit club
+    // 2012-2015; bought by the Pudil Family Foundation 2015; Schindler Seko;
+    // opened 22 February 2022; the basement converters still feed the trams),
+    // cc.cz (Pešánek's kinetic light sculptures, Paris 1937, never installed,
+    // lost), forbes.cz (about CZK 800 million).
+    name: 'Kunsthalle Praha',
+    slug: 'kunsthalle-praha',
+    localizedNames: { cz: 'Kunsthalle Praha', zh: '布拉格艺术馆' },
+    labels: ['museum', 'contemporary'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.09235083024339, lng: 14.409732061231791 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `It looks like a sober Neoclassical temple, but for most of its life this building was a machine. The Zenger Transformer Station turned the city's high voltage into power for the trams. In 2022 it became one of Prague's most talked-about art galleries, and the trams never noticed.
+
+The station was designed by Vilém Kvasnička in 1929, with a classical front that would not upset Malá Strana and a reinforced-concrete interior that would carry the heavy equipment. Building began in 1930, the station was running by 1931 and was formally opened in 1934. It converted alternating current into direct current for the tram and trolleybus lines of Prague 6, 7 and part of Prague 1. It is named after Václav Karel Zenger, a physicist and meteorologist at the Czech Technical University who is said to have advised Gustave Eiffel on the lightning rod for his tower. The Electricity Works also ordered four kinetic light sculptures from Zdeněk Pešánek for the façade. They won prizes at the 1937 world exhibition in Paris, were never installed, and disappeared in the war; only models survive.
+
+After the operating equipment moved out, the building spent a few years as a club, and in 2015 it was bought by the Pudil Family Foundation, which had it rebuilt by the architects Schindler Seko into Kunsthalle Praha, a centre for modern and contemporary art. It opened on 22 February 2022, after a conversion reported to have cost some 800 million crowns, with three galleries, a bistro and a café on the old technical terrace looking across to the castle. The radical new interior was praised and criticised in about equal measure.
+
+🎁 Bonus: The art did not push the electricity out completely. The converters in the basement still feed Prague's tram network, so under the galleries the building goes on doing the job it was built for.`,
+      cz: `Vypadá jako střízlivý klasicistní chrám, ale většinu svého života byla tahle budova stroj. Zengerova transformační stanice měnila vysoké napětí města na proud pro tramvaje. Roku 2022 se z ní stala jedna z nejdiskutovanějších pražských galerií a tramvaje si toho ani nevšimly.
+
+Stanici navrhl roku 1929 Vilém Kvasnička, s klasicistním průčelím, které nepohorší Malou Stranu, a železobetonovým nitrem, které unese těžkou techniku. Stavba začala roku 1930, v provozu byla od roku 1931 a slavnostně otevřena roku 1934. Měnila střídavý proud na stejnosměrný pro tramvajové a trolejbusové linky Prahy 6, 7 a části Prahy 1. Nese jméno Václava Karla Zengera, fyzika a meteorologa z ČVUT, který prý radil Gustavu Eiffelovi s hromosvodem pro jeho věž. Elektrické podniky u Zdeňka Pešánka objednaly i čtyři kinetické světelné plastiky na fasádu. Na světové výstavě v Paříži roku 1937 získaly ceny, nikdy se ale neosadily a za války zmizely; zachovaly se jen modely.
+
+Když provozní technika odešla, sloužila budova pár let jako klub a roku 2015 ji koupila Nadace rodiny Pudilových, která ji podle návrhu ateliéru Schindler Seko přestavěla na Kunsthalle Praha, centrum moderního a současného umění. Otevřela se 22. února 2022 po přestavbě, která podle zpráv stála kolem 800 milionů korun, se třemi galeriemi, bistrem a kavárnou na staré technologické terase s výhledem na Hrad. Radikální nový interiér si vysloužil zhruba stejně chvály jako kritiky.
+
+🎁 Bonus: Umění elektřinu úplně nevytlačilo. Měniče ve sklepě dodnes napájejí pražskou tramvajovou síť, takže pod galeriemi dělá budova pořád to, k čemu byla postavena.`,
+      zh: `它看上去像一座朴素的新古典主义神殿，可这栋楼一生中的大部分时间其实是一台机器。曾格尔变电站把城市的高压电变成电车的动力。2022年，它摇身一变成了布拉格最受热议的美术馆之一，而电车们根本没察觉。
+
+变电站由维莱姆·克瓦斯尼奇卡在1929年设计：外面是不会惹小城区不快的古典立面，里面是撑得住重型设备的钢筋混凝土。工程1930年开工，1931年投入运行，1934年正式揭幕。它把交流电变成直流电，供布拉格6区、7区和1区部分地段的有轨电车和无轨电车使用。名字来自布拉格理工大学的物理学家兼气象学家瓦茨拉夫·卡雷尔·曾格尔，据说他曾就埃菲尔铁塔的避雷针给埃菲尔出过主意。电力公司还向兹德涅克·佩沙内克订了四件动态灯光雕塑来装饰立面。它们在1937年巴黎世博会上得了奖，却从没装上去，战争中下落不明，如今只剩模型。
+
+运行设备迁走后，这栋楼当过几年俱乐部，2015年被普迪尔家族基金会买下，由Schindler Seko建筑事务所改造成布拉格艺术馆，一座现当代艺术中心。2022年2月22日开馆，据报道改造花了约八亿克朗，馆内有三个展厅、一家小馆和一家开在老技术平台上的咖啡馆，正对着城堡。激进的新室内设计，夸的人和骂的人差不多一样多。
+
+🎁 彩蛋：艺术并没有把电力彻底赶走。地下室里的变流机至今仍在给布拉格的电车网供电，所以在展厅底下，这栋楼还在干它当初被建来干的活。`,
+    },
+  },
+  {
+    // Klárov pack (2026-11-22). Solemn: a victim of the 1968 occupation, no
+    // humorous opening. Spelled Charousková as in ÚSTR and ČVUT (the user
+    // wrote Charouzková). Sources: ustrcr.cz "August 1968 - Victims of the
+    // Occupation" (born Srbová, 25 Oct 1942, Otryby; shot by a Soviet soldier
+    // on 26 Aug 1968), aktualne.cvut.cz (lab assistant at a research
+    // institute, distance student at ČVUT, posthumous Ing. degree, rector's
+    // tribute 2019), praha1.cz (two-year-old son; plaque removed in 1970),
+    // pametnimista.usd.cas.cz (plaque put back 16 Dec 1989).
+    name: 'Memorial to Marie Charousková',
+    slug: 'pomnik-marie-charouskove',
+    localizedNames: { cz: 'Pomník Marie Charouskové', zh: '玛丽·哈鲁斯科娃纪念碑' },
+    labels: ['monument', 'communism'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.091219014613024, lng: 14.410209581616533 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `In the little park on Klárov, near the larger memorials to the Second World War, a small memorial remembers one young woman. Marie Charousková was shot here by a Soviet soldier on 26 August 1968, five days after the armies of the Warsaw Pact invaded Czechoslovakia.
+
+She was born Marie Srbová on 25 October 1942 in Otryby, near Kutná Hora. In 1968 she was twenty-five, worked as a laboratory assistant at an agricultural research institute and was studying at the Czech Technical University alongside her job. She had a two-year-old son. On the morning of 26 August she was on her way through Klárov when a Soviet soldier shot her. She was one of the many civilians killed in the first days of the occupation, most of them simply because they happened to be in the street.
+
+After her death a memorial plaque was put up here. In 1970, as "normalisation" set in and the regime erased the memory of August 1968, the authorities removed it, claiming it had been damaged. It came back on 16 December 1989, a month after the Velvet Revolution began. The Czech Technical University awarded her an engineering degree posthumously, and in 2019 its rector laid flowers here in her memory.
+
+🎁 Bonus: The plaque spent nineteen years out of sight. It came back to Klárov in December 1989, while the Soviet army was still in the country: the last of its soldiers left only in June 1991, so for a year and a half they could walk past the name of the woman one of them had shot.`,
+      cz: `V malém parčíku na Klárově, nedaleko větších pomníků druhé světové války, připomíná malý pomník jednu mladou ženu. Marii Charouskovou tu 26. srpna 1968 zastřelil sovětský voják, pět dní poté, co armády Varšavské smlouvy vtrhly do Československa.
+
+Narodila se jako Marie Srbová 25. října 1942 v Otrybech u Kutné Hory. Roku 1968 jí bylo pětadvacet, pracovala jako laborantka ve Výzkumném ústavu zemědělském a při zaměstnání studovala na ČVUT. Měla dvouletého syna. Ráno 26. srpna šla přes Klárov, když ji zastřelil sovětský voják. Patřila k mnoha civilistům, kteří zemřeli v prvních dnech okupace, většinou jen proto, že se ocitli na ulici.
+
+Po její smrti tu byla umístěna pamětní deska. Roku 1970, když nastupovala normalizace a režim vymazával vzpomínku na srpen 1968, ji úřady odstranily s odůvodněním, že byla poškozena. Vrátila se 16. prosince 1989, měsíc po začátku sametové revoluce. ČVUT jí udělilo titul inženýrky in memoriam a roku 2019 tu její rektor položil květiny.
+
+🎁 Bonus: Deska strávila devatenáct let mimo dohled. Na Klárov se vrátila v prosinci 1989, kdy sovětská armáda v zemi ještě byla: poslední její vojáci odjeli až v červnu 1991, takže ještě rok a půl mohli chodit kolem jména ženy, kterou jeden z nich zastřelil.`,
+      zh: `克拉洛夫的小公园里，离那几座较大的二战纪念碑不远，有一座小小的纪念碑，纪念一位年轻女子。1968年8月26日，也就是华沙条约国军队入侵捷克斯洛伐克五天之后，玛丽·哈鲁斯科娃在这里被一名苏联士兵开枪打死。
+
+她原名玛丽·斯尔博娃，1942年10月25日生于库特纳霍拉附近的奥特雷比。1968年她二十五岁，在一家农业研究所当实验员，同时在布拉格理工大学在职读书，家里有个两岁的儿子。8月26日早上，她正穿过克拉洛夫，一名苏联士兵向她开了枪。占领最初几天里，有许多平民遇难，大多只是因为当时恰好在街上。
+
+她死后，这里挂上了一块纪念牌。1970年，"正常化"开始，政权要抹掉人们对1968年8月的记忆，当局便以纪念牌"受损"为由把它拆走了。1989年12月16日，天鹅绒革命开始一个月后，它回到了原处。布拉格理工大学追授她工程师学位，2019年，校长来到这里为她献花。
+
+🎁 彩蛋：这块纪念牌消失了十九年。它在1989年12月回到克拉洛夫时，苏军还驻扎在这个国家：最后一批士兵直到1991年6月才撤走。于是有一年半的时间，他们可以从这个被他们的战友打死的女人的名字前走过。`,
+    },
+  },
+  {
+    // Klárov pack (2026-11-22). Sources: prazdnedomy.cz / poznejdomy.cz
+    // ("Klárův ústav II., Dům kultury těla": built 1906-1908 for the Klar
+    // Institute, director Emil Wagner, architect Josef Piskač, historicism
+    // with Art Nouveau touches, sculpture by Antonín Štrunc, opened 20 May
+    // 1909; 25 m pool in the garden wing's basement; Karel Houska's 1946
+    // rebuild; pool in use until the late 1980s; district prosecutor's office;
+    // 2002 flood), irozhlas.cz (Prague's first sauna, reportedly), novinky.cz
+    // (the state would not sell it for fear of eavesdropping on the Government
+    // Office opposite), uzsvm.gov.cz (owner ÚZSVM, building permit for a
+    // rebuild for the Government Office).
+    name: 'House of Physical Culture',
+    slug: 'dum-kultury-tela',
+    localizedNames: { cz: 'Dům kultury těla', zh: '体育文化之家' },
+    labels: ['historicism', 'art-nouveau', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.09217936012029, lng: 14.411023162770249 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Right opposite the Czech government's offices stands a handsome old building with boarded-up windows and peeling walls. Inside there is a swimming pool, and reportedly Prague's first sauna. It has been empty for years, and the state has refused to sell it to anyone, for fear that the new owners might start listening to the government across the road.
+
+It was built between 1906 and 1908 as an extension of the Klar Institute for the Blind, whose original house on Klárov had become too small for its growing school. The director Emil Wagner commissioned it from the architect Josef Piskač, who designed it in a historicist style with Art Nouveau touches, with sculpture by Antonín Štrunc, and it opened on 20 May 1909. In the basement of the garden wing lay a 25-metre pool with a gently sloping entry. After the Second World War the building was rebuilt in 1946 by Karel Houska for an economic council, and under communism, as the House of Physical Culture, it kept its pool and sauna open until the late 1980s.
+
+Later it housed the district prosecutor's office, the 2002 flood soaked the basement, and by the 2010s the house stood closed and decaying. It belongs to the state property office, which has received a building permit to restore it for the Office of the Government opposite.
+
+🎁 Bonus: When the state was asked why it would not simply sell the crumbling building, part of the answer was security: from its windows you look straight across the road at the Straka Academy, where the cabinet meets. So one of Prague's first saunas has stood empty for years for fear of eavesdroppers.`,
+      cz: `Přímo naproti Úřadu vlády stojí pěkná stará budova se zabedněnými okny a oprýskanými zdmi. Uvnitř je bazén a prý i první sauna v Praze. Je prázdná už léta a stát ji odmítá komukoli prodat, protože se bojí, že by noví majitelé mohli začít poslouchat vládu přes ulici.
+
+Postavili ji v letech 1906 až 1908 jako rozšíření Klarova ústavu slepců, jehož původní dům na Klárově už rostoucí škole nestačil. Ředitel Emil Wagner ji objednal u architekta Josefa Piskače, který ji navrhl v historizujícím slohu se secesními prvky, se sochařskou výzdobou Antonína Štrunce, a otevřela se 20. května 1909. Ve sklepě zahradního křídla byl pětadvacetimetrový bazén s pozvolným vstupem. Po druhé světové válce ji roku 1946 přestavěl Karel Houska pro hospodářskou radu a za komunismu si jako Dům kultury těla držela bazén i saunu v provozu až do konce osmdesátých let.
+
+Později tu sídlilo obvodní státní zastupitelství, povodeň roku 2002 zatopila sklep a v desátých letech už dům stál zavřený a chátral. Patří Úřadu pro zastupování státu ve věcech majetkových, který získal stavební povolení na jeho obnovu pro Úřad vlády naproti.
+
+🎁 Bonus: Když se stát ptali, proč chátrající budovu prostě neprodá, část odpovědi zněla bezpečnost: z jejích oken se díváte přímo přes ulici na Strakovu akademii, kde zasedá vláda. Jedna z prvních pražských saun tak léta stojí prázdná ze strachu před odposlechy.`,
+      zh: `捷克政府办公厅正对面，立着一栋漂亮的老房子，窗户钉死了，墙皮一块块往下掉。里面有一座游泳池，据说还有布拉格第一间桑拿。它空了好多年，国家却拒绝把它卖给任何人，生怕新房主会开始偷听马路对面的政府。
+
+它建于1906年到1908年，是克拉尔盲人学院的扩建部分：学院在克拉洛夫的老楼，已经装不下越办越大的学校了。院长埃米尔·瓦格纳请建筑师约瑟夫·皮斯卡奇设计，用的是带新艺术点缀的历史主义风格，雕塑出自安东宁·什特伦茨之手，1909年5月20日启用。花园翼楼的地下室里有一座25米长、缓坡入水的泳池。二战后的1946年，卡雷尔·豪斯卡为一个经济委员会改建了这栋楼；共产党时代它叫"体育文化之家"，泳池和桑拿一直开到八十年代末。
+
+后来这里成了区检察院，2002年的洪水淹了地下室，到2010年代，房子已经大门紧闭、日渐破败。它归国家财产代管局所有，代管局已经拿到施工许可，准备把它修好，交给对面的政府办公厅使用。
+
+🎁 彩蛋：有人问国家为什么不干脆把这栋破楼卖掉，回答里有一条是安全：从它的窗户望出去，马路对面就是内阁开会的斯特拉卡学院。于是，布拉格最早的桑拿之一，因为怕被窃听，空关了好多年。`,
+    },
+  },
+  {
+    // Klárov pack (2026-11-22). "Respirium" is the user's name for the
+    // garden. Sources: cs.wikipedia "Malostranská (stanice metra)" (opened
+    // 12 Aug 1978, built 1973-1978; architect Zdeněk Drobný, the garden with
+    // Otakar Kuča; a small park with a fountain in the courtyard in front of
+    // the Wallenstein Riding School with casts of Antonín Braun's ancient gods
+    // from Valeč; Hope after Matthias Bernard Braun's Kuks Virtues in the
+    // vestibule, Mercury and Venus from Valeč in the hall; Jan Smrž's lattices
+    // with house-sign motifs; Vystrčil's drinking trough), cs.wikipedia
+    // "Klárov" (the Krátký film building, demolished 1970 for the station).
+    name: 'Malostranská Station Garden',
+    slug: 'respirium-malostranska',
+    localizedNames: { cz: 'Respirium u stanice metra Malostranská', zh: '马拉斯特拉纳地铁站花园' },
+    labels: ['park', 'sculpture', 'communism'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.09116459198072, lng: 14.409399971446769 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Most metro stations give you an escalator and a ticket machine. Malostranská gives you a Baroque garden: a quiet courtyard with a fountain, gravel paths and stone gods, tucked behind the wall of the Wallenstein Riding School, where people coming up from line A can sit for a moment before the climb to the castle.
+
+The station opened on 12 August 1978, built where the Constructivist building of the Krátký film studio had stood until it was pulled down in 1970. The architect Zdeněk Drobný and the garden designer Otakar Kuča set out to make a station that would not look out of place in Malá Strana. Instead of the usual 1970s cladding there are wrought-iron lattices with motifs of Malá Strana house signs by Jan Smrž, and instead of a forecourt there is this small walled garden in front of the riding school, with a fountain and casts of statues of ancient gods by Antonín Braun, whose originals stand at the château of Valeč in western Bohemia.
+
+The Baroque theme goes on inside: in the vestibule stands a copy of Hope from Matthias Bernard Braun's famous Virtues at Kuks, and in the entrance hall a copy of his nephew Antonín's group of Mercury and Venus from Valeč. Out front, by the entrance, is a stone drinking fountain.
+
+🎁 Bonus: The gods in the garden are casts, and their originals have never been to Prague. Thousands of commuters a day pass a little piece of a château a hundred kilometres away, delivered by the communist metro builders of the 1970s, who otherwise rarely went in for Baroque.`,
+      cz: `Většina stanic metra vám nabídne eskalátor a automat na jízdenky. Malostranská vám nabídne barokní zahradu: tiché nádvoří s fontánou, štěrkovými cestičkami a kamennými bohy, schované za zdí Valdštejnské jízdárny, kde si lidé, kteří vyjedou z áčka, můžou na chvíli sednout, než začnou stoupat k Hradu.
+
+Stanice se otevřela 12. srpna 1978 na místě, kde do zbourání roku 1970 stála konstruktivistická budova studia Krátký film. Architekt Zdeněk Drobný a zahradní architekt Otakar Kuča chtěli stanici, která na Malé Straně nebude působit cize. Místo obvyklých obkladů sedmdesátých let tu jsou kované mříže s motivy malostranských domovních znamení od Jana Smrže a místo předprostoru tahle malá zahrada za zdí před jízdárnou, s fontánou a výdusky soch antických bohů od Antonína Brauna, jejichž originály stojí na zámku Valeč v západních Čechách.
+
+Barokní téma pokračuje i uvnitř: ve vestibulu stojí kopie Naděje z proslulých Ctností Matyáše Bernarda Brauna v Kuksu a ve vstupní hale kopie skupiny Merkura a Venuše jeho synovce Antonína z Valče. Venku u vchodu stojí kamenné pítko.
+
+🎁 Bonus: Bohové v zahradě jsou odlitky a jejich originály v Praze nikdy nebyly. Tisíce lidí denně tak míjejí kousek zámku sto kilometrů daleko, který sem dopravili komunističtí stavitelé metra sedmdesátých let, jinak na baroko nijak zvlášť nadšení.`,
+      zh: `大多数地铁站给你一部扶梯、一台售票机。马拉斯特拉纳站却给了你一座巴洛克花园：一方安静的庭院，有喷泉、碎石小径和石头神像，藏在华伦斯坦骑术学校的围墙后面。从A线上来的人，可以先在这里坐一会儿，再去爬城堡山。
+
+车站在1978年8月12日启用，所在地原本是"短片"电影厂那栋构成主义大楼，1970年被拆掉了。建筑师兹德涅克·德罗布尼和园林设计师奥塔卡尔·库恰想造一座放在小城区也不显突兀的车站。这里没有七十年代常见的那种墙面贴板，而是扬·斯姆尔日打造的铁艺栅栏，图案取自小城区的房屋招牌；也没有站前广场，而是骑术学校前这座围起来的小花园，园里有喷泉，还有安东宁·布劳恩所雕古代神祇的翻模，原作立在波希米亚西部的瓦莱奇城堡。
+
+巴洛克主题一直延续到站内：前厅里立着马蒂亚斯·伯纳德·布劳恩在库克斯那组著名"美德"雕像中"希望"的复制品，入口大厅里则是他侄子安东宁在瓦莱奇所作墨丘利与维纳斯群像的复制品。入口外面还有一座石头饮水台。
+
+🎁 彩蛋：花园里的神像都是翻模，原作从没来过布拉格。于是每天成千上万的通勤者，都在路过一座百公里外城堡的一小部分，而把它们搬来的，是七十年代的共产党地铁建设者，他们平时可没怎么热衷过巴洛克。`,
     },
   },
   {

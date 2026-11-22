@@ -393,6 +393,7 @@ const UPRISING_SLUGS = [
 const SPRING_SLUGS = [
   "czech-radio-building-1782668063575",
   "national-museum",
+  "pomnik-marie-charouskove",
   "pamatnik-palacha-zajice",
   "pamatnik-jana-palacha-sousosi",
   "faculty-of-arts-uk",
@@ -894,7 +895,7 @@ function CASTLE_PROGRESS({ checkedSlugs, quarterCount = {}, quarterTotal = {} })
 // Card pack achievements (2026-11-13, user's list). Hitting the Streets: the
 // packs that follow one street. Any 4 of them; a new street pack joins this
 // list (user's call), the target stays at 4.
-export const STREET_PACK_SLUGS = ["na-prikope", "narodni-trida", "evropska-trida", "plzenska-ulice", "ujezd", "mostecka", "vlasska", "nerudova", "jindrisska", "celetna", "parizska"];
+export const STREET_PACK_SLUGS = ["na-prikope", "narodni-trida", "evropska-trida", "plzenska-ulice", "ujezd", "mostecka", "vlasska", "nerudova", "jindrisska", "celetna", "parizska", "dlouha"];
 const STREET_PACKS_NEED = 4;
 // La Dolce Vita (2026-11-18): both packs complete plus the embassy card.
 const LITTLE_ITALY_PACKS = ["florenc", "vlasska"];
@@ -1559,9 +1560,9 @@ export const ACHIEVEMENTS = [
     flavor: "The spring was short. The tanks came in August.",
     flavor_cz: "Jaro bylo krátké. Tanky přijely v srpnu.",
     flavor_zh: "春天很短，八月，坦克就来了。",
-    description: "Check in at these 6 places: Czech Radio Building, National Museum, Jan Palach and Jan Zajíc Memorial, Jan Palach Memorial — House of the Son and House of the Mother, Charles University Faculty of Arts and Olšany Cemeteries.",
-    description_cz: "Přihlaste se na těchto 6 místech: Český rozhlas, Národní muzeum, Památník Jana Palacha a Jana Zajíce, Památník Jana Palacha — sousoší Dům syna a Dům matky, Filozofická fakulta UK a Olšanské hřbitovy.",
-    description_zh: "打卡以下6个地点：捷克广播电台总部大楼、国家博物馆、帕拉赫与扎伊茨纪念碑、扬·帕拉赫纪念碑——子之家与母之家、查理大学文学系大楼和奥尔萨内公墓。",
+    description: "Check in at these 7 places: Czech Radio Building, National Museum, Memorial to Marie Charousková, Jan Palach and Jan Zajíc Memorial, Jan Palach Memorial — House of the Son and House of the Mother, Charles University Faculty of Arts and Olšany Cemeteries.",
+    description_cz: "Přihlaste se na těchto 7 místech: Český rozhlas, Národní muzeum, Pomník Marie Charouskové, Památník Jana Palacha a Jana Zajíce, Památník Jana Palacha — sousoší Dům syna a Dům matky, Filozofická fakulta UK a Olšanské hřbitovy.",
+    description_zh: "打卡以下7个地点：捷克广播电台总部大楼、国家博物馆、玛丽·哈鲁斯科娃纪念碑、帕拉赫与扎伊茨纪念碑、扬·帕拉赫纪念碑——子之家与母之家、查理大学文学系大楼和奥尔萨内公墓。",
     difficulty: "medium",
     check: ({ checkedSlugs }) => SPRING_SLUGS.every((slug) => checkedSlugs.includes(slug)),
     progress: ({ checkedSlugs }) => ({

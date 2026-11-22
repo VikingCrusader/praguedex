@@ -66,13 +66,13 @@ For four days the insurgents held out against German troops with tanks. The Old 
   },
 
   prague_spring: {
-    en: `In 1968 Alexander Dubček's party promised "socialism with a human face": censorship eased, people spoke their minds, and for a few months Czechoslovakia felt free. On the night of 20 to 21 August the armies of the Warsaw Pact rolled in. Shots were fired at the radio building and across the face of the National Museum.
+    en: `In 1968 Alexander Dubček's party promised "socialism with a human face": censorship eased, people spoke their minds, and for a few months Czechoslovakia felt free. On the night of 20 to 21 August the armies of the Warsaw Pact rolled in. Shots were fired at the radio building and across the face of the National Museum. Five days later, on Klárov, a Soviet soldier shot dead Marie Charousková, a 25-year-old mother on her way across the square.
 
 In January 1969 the student Jan Palach set himself on fire at the top of Wenceslas Square in protest at the country's resignation. A month later Jan Zajíc did the same. The spring was over.`,
-    cz: `V roce 1968 slibovala Dubčekova strana „socialismus s lidskou tváří“: cenzura povolila, lidé mluvili nahlas a pár měsíců se Československo cítilo svobodné. V noci z 20. na 21. srpna vjela do země vojska Varšavské smlouvy. Střílelo se u rozhlasu i do průčelí Národního muzea.
+    cz: `V roce 1968 slibovala Dubčekova strana „socialismus s lidskou tváří“: cenzura povolila, lidé mluvili nahlas a pár měsíců se Československo cítilo svobodné. V noci z 20. na 21. srpna vjela do země vojska Varšavské smlouvy. Střílelo se u rozhlasu i do průčelí Národního muzea. O pět dní později zastřelil sovětský voják na Klárově pětadvacetiletou Marii Charouskovou, matku malého syna, která šla zrovna přes náměstí.
 
 V lednu 1969 se student Jan Palach na horním konci Václavského náměstí upálil na protest proti tomu, jak se země smířila s okupací. O měsíc později totéž udělal Jan Zajíc. Jaro skončilo.`,
-    zh: `1968年，杜布切克领导的党许诺“带着人性面孔的社会主义”：审查放松，人们敢说真话，有那么几个月，捷克斯洛伐克觉得自己自由了。8月20日夜里到21日，华沙条约组织的军队开了进来，广播大楼外和国家博物馆的正面都挨了枪。
+    zh: `1968年，杜布切克领导的党许诺“带着人性面孔的社会主义”：审查放松，人们敢说真话，有那么几个月，捷克斯洛伐克觉得自己自由了。8月20日夜里到21日，华沙条约组织的军队开了进来，广播大楼外和国家博物馆的正面都挨了枪。五天后，一名苏联士兵在克拉洛夫打死了正穿过广场的25岁母亲玛丽·哈鲁斯科娃。
 
 1969年1月，大学生扬·帕拉赫在瓦茨拉夫广场上端自焚，抗议国人对占领的屈从。一个月后，扬·扎伊茨也这样做了。春天结束了。`,
   },

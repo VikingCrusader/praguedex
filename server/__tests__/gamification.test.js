@@ -255,7 +255,7 @@ describe('evaluateAchievements', () => {
   });
 
   test('prague_spring needs all its places', () => {
-    const all = ["czech-radio-building-1782668063575", "national-museum", "pamatnik-palacha-zajice", "pamatnik-jana-palacha-sousosi", "faculty-of-arts-uk", "olsanske-hrbitovy"];
+    const all = ["czech-radio-building-1782668063575", "national-museum", "pomnik-marie-charouskove", "pamatnik-palacha-zajice", "pamatnik-jana-palacha-sousosi", "faculty-of-arts-uk", "olsanske-hrbitovy"];
     const ids = s => evaluateAchievements({ ...baseStats, checkedSlugs: s }, []).map(a => a.id);
     expect(ids(all)).toContain('prague_spring');
     expect(ids(all.slice(1))).not.toContain('prague_spring');

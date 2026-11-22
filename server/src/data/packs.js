@@ -85,6 +85,7 @@ export const PACKS = [
       'letna-park', 'letn-plain-1782906159291', 'vyhlidka-na-letne', 'letenske-jezirko', 'letensky-zamecek',
       'the-letn-carousel--1783352292475', 'hanavsky-pavilon', 'kaple-sv-mari-magdaleny', 'pavilon-expo-58-vystaviste',
       'vodarenska-vez-letna', 'epet-arena', 'technical-museum', 'kramarova-vila', 'bio-oko', 'lavka-borka-sipka',
+      'pod-bruskou-1783290906795',
     ],
   }),
   pack({
@@ -1091,13 +1092,15 @@ export const PACKS = [
     // fountain and the K111 shelter below, the Old Castle Stairs, the
     // Wallenstein Riding School, the House at the White Boot, the Mánes Bridge
     // (shared with Jan Palach Square) and the Straka Academy opposite the
-    // House of Physical Culture. Five new cards. Took over the one-point
+    // House of Physical Culture, and the toll house of the old Rudolf footbridge by
+    // the bridge (added the same evening). Six new cards. Took over the one-point
     // Klárov card's cover (two check-ins), the card deleted; new slug.
     members: [
       'klaruv-ustav-slepcu', 'pomnik-marie-charouskove', 'memorial-of-the-second-resistance-movement-1782425088643',
       'pamatnik-ceskoslovenskym-letcum-raf', 'kunsthalle-praha', 'dum-kultury-tela', 'straka-academy-1782495890343',
       'respirium-malostranska', 'pitko-malostranska', 'k111-klarov', 'valdstejnska-jizdarna',
-      'old-castle-stairs-1782582571631', 'dum-u-bile-boty', 'manesuv-most',
+      'old-castle-stairs-1782582571631', 'dum-u-bile-boty', 'manesuv-most', 'mytni-domek-rudolfovy-lavky',
+      'pod-bruskou-1783290906795',
     ],
   }),
 ];

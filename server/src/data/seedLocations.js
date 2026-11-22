@@ -40315,6 +40315,50 @@ Barokní téma pokračuje i uvnitř: ve vestibulu stojí kopie Naděje z proslul
     },
   },
   {
+    // Klárov pack (2026-11-22, user's call; coordinates from the user).
+    // Sources: cs.wikipedia "Hrázděný mýtní dům na Malé Straně" (built 1869
+    // with the footbridge, seat of the toll collector, a home after 1914,
+    // now the Gemini association's clubroom; Kosárkovo nábřeží / U Železné
+    // lávky 554/2) and "Rudolfova lávka" (1868-1869, the third suspension
+    // bridge over the Vltava in Prague, named after Crown Prince Rudolf, also
+    // the Iron or Chain Footbridge; two spans of 96 m, a 17.5 m cast-iron gate
+    // tower on the middle pier, deck 3.35 m wide; chain steel from Sheffield;
+    // served without major repairs until 1914, replaced by the Franz Ferdinand
+    // bridge, today the Mánes Bridge). No toll amounts found, so none given.
+    name: 'Toll House of the Rudolf Footbridge',
+    slug: 'mytni-domek-rudolfovy-lavky',
+    localizedNames: { cz: 'Hrázděný mýtní domek čp. 554', zh: '鲁道夫人行桥收费小屋' },
+    labels: ['national-revival', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.09032, lng: 14.41198 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Just north of the Mánes Bridge, on the Malá Strana bank, stands a little half-timbered house that looks as if it had wandered in from a German village. It is the last piece of a bridge that has not existed for more than a hundred years, and for decades its only job was to take your money before you crossed.
+
+In 1868 and 1869 a chain footbridge was built across the Vltava here, between Klárov and the Old Town bank where the Rudolfinum now stands. It was named after Crown Prince Rudolf, though Praguers also called it the Iron or the Chain Footbridge. It was the third suspension bridge in Prague: two spans of about 96 metres each, hung from chains of Sheffield steel, with a cast-iron gate tower seventeen and a half metres high on the middle pier, and a deck only a little over three metres wide. Crossing was not free, and this house, built in 1869 together with the bridge, was the seat of the toll collector.
+
+The footbridge served for almost half a century without major repairs, until 1914, when it gave way to a proper road bridge named after Archduke Franz Ferdinand, the bridge we now call the Mánes Bridge. The toll house was left behind with nothing to guard and became an ordinary home. Today it is the clubroom of the Gemini association, which works with children and young people.
+
+🎁 Bonus: The archduke did not have long to enjoy his bridge: he was shot in Sarajevo in the summer of 1914, and after the war Prague quietly gave the bridge a painter's name instead. Of the two bridges that stood here, the one that survives in any form is the footbridge, in the shape of a small wooden house that once collected its pennies.`,
+      cz: `Kousek severně od Mánesova mostu, na malostranském břehu, stojí malý hrázděný domek, který vypadá, jako by sem zabloudil z německé vesnice. Je to poslední kousek mostu, který už přes sto let neexistuje, a celá desetiletí měl jediný úkol: vybrat od vás peníze, než přejdete.
+
+V letech 1868 a 1869 tu přes Vltavu postavili řetězovou lávku, mezi Klárovem a staroměstským břehem, kde dnes stojí Rudolfinum. Pojmenovali ji po korunním princi Rudolfovi, Pražané jí ale říkali také Železná nebo Řetězová lávka. Byl to třetí visutý most v Praze: dvě pole po zhruba 96 metrech, zavěšená na řetězech ze sheffieldské oceli, se sedmnáct a půl metru vysokou litinovou branou na středním pilíři a mostovkou širokou jen něco přes tři metry. Přechod nebyl zadarmo a tenhle domek, postavený roku 1869 spolu s lávkou, byl sídlem výběrčího mýta.
+
+Lávka sloužila bez větších oprav skoro půl století, až do roku 1914, kdy ustoupila pořádnému silničnímu mostu pojmenovanému po arcivévodovi Františku Ferdinandovi, tomu, kterému dnes říkáme Mánesův most. Mýtní domek zůstal bez čeho hlídat a stal se obyčejným obydlím. Dnes je klubovnou sdružení Gemini, které pracuje s dětmi a mládeží.
+
+🎁 Bonus: Arcivévoda si svůj most moc neužil: v létě 1914 ho zastřelili v Sarajevu a po válce Praha mostu potichu dala jméno malíře. Ze dvou mostů, které tu stály, přežil v nějaké podobě jen ten starší, v podobě dřevěného domku, který kdysi vybíral jeho krejcary.`,
+      zh: `马内斯桥北边不远，小城区这一侧的河岸上，有一座小小的木构架房子，看着像是从德国哪个村子里走丢过来的。它是一座早已消失一百多年的桥留下的最后一块，而它几十年里唯一的工作，就是在你过桥之前收你的钱。
+
+1868年到1869年，这里建起一座铁链人行桥，跨过伏尔塔瓦河，连接克拉洛夫和对岸老城，也就是今天鲁道夫音乐厅所在的地方。它以鲁道夫皇储命名，布拉格人也管它叫"铁桥"或"链桥"。这是布拉格第三座悬索桥：两跨各约96米，吊在谢菲尔德产的钢链上，中间桥墩上立着一座十七米半高的铸铁门楼，桥面却只有三米多宽。过桥要交钱，而这座和桥一起在1869年建成的小屋，就是收费员的驻地。
+
+这座人行桥几乎没怎么大修就用了将近半个世纪，直到1914年，让位给一座正经的公路桥，以弗朗茨·斐迪南大公命名，也就是今天的马内斯桥。收费小屋从此没什么可守的，成了一户普通住宅。如今它是"双子座"协会的活动室，这个协会专做儿童和青少年工作。
+
+🎁 彩蛋：大公没能好好享受他的桥：1914年夏天他在萨拉热窝遇刺，战后布拉格悄悄把桥改用一位画家的名字命名。这里先后立过两座桥，真正以某种形式留下来的，反倒是那座老的人行桥，化身成一座当年替它收过零钱的小木屋。`,
+    },
+  },
+  {
     // Royal Garden pack (2026-11-21, user's call; coordinates from the user).
     // Facts carried over from the deleted Royal Garden card: ordered by
     // Ferdinand I in 1562, designed by Francesco Terzi, cast by Tomáš Jaroš of

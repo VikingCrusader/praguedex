@@ -587,3 +587,12 @@ icon shows the achievement's real subject, Czechs and Germans as neighbours.
 ```
 bohmische_dorfer: two old Prague houses, large and filling the square, leaning towards each other across a very narrow cobbled lane so their top windows almost touch; from the left window hangs a Czech flag (two horizontal stripes, white on top and red below, with a blue triangle pointing in from the pole side), from the right window a German flag (three horizontal stripes, black, red and gold); a neighbour leans out of each window and they hand each other a plate across the gap, a Czech dumpling going one way and a pretzel the other; behind and between the roofs the silhouette of Prague Castle with St Vitus' spires. No letters, words or labels anywhere in the picture.
 ```
+
+### Group 56: 母校, done (2026-11-23)
+
+No mortarboard: Czech graduations don't use one. The university's own
+symbol is the rector's sceptre, so that is the big central object.
+
+```
+alma_mater: a large ornate golden university sceptre, a rector's ceremonial mace with a Gothic crown-shaped head, lying diagonally across the whole square and filling it; under it an unfolded old paper city map of Prague with the winding blue river and a handful of tiny university buildings (a Gothic house with an oriel window, a Baroque palace, a tall concrete tower block) dotted far apart from each other at the map's corners. The joke: a paper tram ticket tied to the sceptre's shaft with a red string, because getting from one faculty to the next takes a tram ride. No letters, words or numbers anywhere.
+```

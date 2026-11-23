@@ -40437,6 +40437,251 @@ Lávka spojuje hradní zahrady se sídlem českého premiéra v Kramářově vil
 🎁 彩蛋：很少有哪个国家真的用一座桥把国家元首和政府首脑连在一起。布拉格做到了，而那只是一座区区几十米长的人行桥。两个办公室的关系这些年到底靠没靠它，就是另一回事了。`,
     },
   },
+  {
+    // Charles University buildings batch (2026-11-23). Sources: MFF UK pages on
+    // the Professed House (ms.mff.cuni.cz/tourist/ProfDum, mff.cuni.cz Malá Strana).
+    name: 'Professed House',
+    slug: 'profesni-dum',
+    localizedNames: { cz: 'Profesní dům', zh: '耶稣会宣誓会院' },
+    labels: ['academy', 'baroque'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.08838497250672, lng: 14.403559307067873 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `The long, sober Baroque block on the upper side of Malostranské náměstí seems to stand politely aside so that St Nicholas next door can show off. That was more or less the plan. Today Charles University's computer scientists work inside, which suits a house built by an order famous for keeping very careful records.
+
+After the Battle of White Mountain the Jesuits wanted a house in Prague for their professed members, the priests who had taken the order's full vows. In 1628 Wallenstein gave money to buy up the Lesser Town houses on the site, though the last twelve were only bought in 1671. The house went up from 1674 to about 1691 to plans by Francesco Caratti, Giovanni Domenico Orsi and Francesco Lurago, and it is plain on purpose: after the lavish Klementinum, the order's general Gian Paolo Oliva had warned against too much ornament. Some of the fathers taught mathematics and astronomy at the university, and their library, above the vault of a new St Wenceslas church built into the corner of the house, was rich in both. Its core was the library of the Holstein nobleman Heinrich Rantzau, carried off from near Hamburg as war booty on Wallenstein's orders; Tycho Brahe had once used those books as Rantzau's guest.
+
+When the order was dissolved in 1773, the state took the house and put the provincial court in it. After 1918 its cellars held the gold reserve of the new Czechoslovak state, during the war the German army moved in, and later it passed to the university's Faculty of Mathematics and Physics. During the restoration of 2000 to 2005 builders found the remains of a Romanesque rotunda of St Wenceslas under the house, with part of a 12th-century tiled floor.
+
+🎁 Bonus: The house's great benefactor was a young count, Václav Kolowrat-Liebsteinský, who gave the Jesuits his whole fortune, some 178,500 gulden, and died of typhus in Rome in 1659, aged 25. He is nowhere on the facade: the Kolowrat coat of arms on St Nicholas belongs to his uncle.`,
+      cz: `Dlouhý, střídmý barokní blok na horní straně Malostranského náměstí jako by zdvořile ustoupil stranou, aby se vedlejší svatý Mikuláš mohl předvést. Tak nějak to bylo i zamýšleno. Dnes tu pracují informatici Univerzity Karlovy, což se hodí k domu, který postavil řád proslulý velmi pečlivým vedením záznamů.
+
+Po bitvě na Bílé hoře chtěli jezuité v Praze dům pro své profesy, kněze, kteří složili plné řádové sliby. Roku 1628 dal Valdštejn peníze na výkup malostranských domů na tomto místě, i když posledních dvanáct se podařilo vykoupit až roku 1671. Dům se stavěl od roku 1674 zhruba do roku 1691 podle plánů Francesca Carattiho, Giovanniho Domenica Orsiho a Francesca Lurága a je prostý záměrně: po nákladném Klementinu varoval generál řádu Gian Paolo Oliva před přemírou ozdob. Někteří zdejší otcové přednášeli na univerzitě matematiku a astronomii a jejich knihovna nad klenbou nového kostela sv. Václava, vestavěného do nároží domu, byla v obou oborech bohatá. Jejím jádrem byla knihovna holštýnského šlechtice Jindřicha Rantzaua, kterou dal Valdštejn odvézt od Hamburku jako válečnou kořist; z týchž knih kdysi jako Rantzauův host čerpal Tycho Brahe.
+
+Po zrušení řádu roku 1773 dům převzal stát a umístil do něj zemský soud. Po roce 1918 se v jeho sklepích ukládal zlatý poklad nového Československa, za války se sem nastěhovala německá armáda a později dům připadl Matematicko-fyzikální fakultě. Při obnově v letech 2000 až 2005 našli stavbaři pod domem zbytky románské rotundy sv. Václava s kusem dlažby z 12. století.
+
+🎁 Bonus: Největším dobrodincem domu byl mladý hrabě Václav Kolovrat-Libštejnský, který jezuitům odkázal celé jmění, asi 178 500 zlatých, a roku 1659 zemřel v Římě na tyfus, ve věku 25 let. Na průčelí ho nenajdete: kolovratský erb na svatém Mikuláši patří jeho strýci.`,
+      zh: `小城广场上方一侧，一长排朴素的巴洛克建筑仿佛客气地往旁边让了让，好让隔壁的圣尼古拉教堂尽情出风头。当初的设想差不多就是这样。如今在里面上班的是查理大学的计算机系，这倒很配一座由“以记录详尽著称”的修会盖起来的房子。
+
+白山战役之后，耶稣会想在布拉格为宣誓会士建一座会院，也就是发过全部修会誓愿的神父。1628年，华伦斯坦出钱买下这里的小城民房，不过最后十二栋直到1671年才买齐。会院从1674年建到1691年前后，设计者是弗朗切斯科·卡拉蒂、乔瓦尼·多梅尼科·奥尔西和弗朗切斯科·卢拉戈。它朴素是故意的：克莱门特学院修得太奢华，修会总会长奥利瓦随后就告诫不要堆砌装饰。这里有些神父在大学讲授数学和天文，他们的图书馆就在会院一角新建的圣瓦茨拉夫教堂拱顶之上，这两门学问的藏书都很丰富。藏书的核心原属荷尔斯泰因贵族海因里希·兰曹，是华伦斯坦下令从汉堡附近当作战利品运来的；第谷当年在兰曹家做客时，就用过这些书。
+
+1773年修会被解散，国家接手会院，在里面设了波希米亚地方法院。1918年后，新生的捷克斯洛伐克把国家黄金储备存在它的地下室，二战期间德军进驻，后来这里归了查理大学数学物理学院。2000年到2005年修缮时，工人在会院下面挖出了一座罗马式圣瓦茨拉夫圆形教堂的遗迹，还有一块12世纪的瓷砖地面。
+
+🎁 彩蛋：会院最大的恩主是年轻的科洛夫拉特-利布施泰因斯基伯爵瓦茨拉夫，他把全部家产约17.85万古尔登捐给了耶稣会，1659年在罗马死于斑疹伤寒，年仅25岁。可是立面上找不到他：圣尼古拉教堂上的科洛夫拉特家族纹章，属于他的叔叔。`,
+    },
+  },
+  {
+    // Charles University buildings batch (2026-11-23). Built by Josef Hlávka's
+    // foundation for poor students; CTU runs it today, so it is not strictly a
+    // Charles University building. Sources: suz.cvut.cz, iforum.cuni.cz.
+    name: 'Hlávka College',
+    slug: 'hlavkova-kolej',
+    localizedNames: { cz: 'Hlávkova kolej', zh: '赫拉夫卡学生公寓' },
+    labels: ['academy', 'historicism', 'world-wars'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.07524639542541, lng: 14.416216010816065 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `On the corner of Jenštejnská and Dittrichova stands a cheerful neo-Renaissance house with painted gables and St Wenceslas above the bay window, the kind of place a rich family might build for itself. It was built for poor students, by a man who could have afforded a palace and preferred to give his money away.
+
+Josef Hlávka made his fortune as a builder in Vienna, where he built the Court Opera, and in Prague he designed the maternity hospital U Apolináře. Childless, he spent much of what he earned on Czech science and students: his money founded the Czech Academy of Sciences and Arts in 1890. The college was built in 1902 to 1904 for gifted students who could not pay for a room in Prague, with its own gym, kitchen and bakery, so the residents had fresh bread. The sgraffito on the front shows students, the emblems of the Czech lands and verses by the writer Karel Ladislav Klusáček. The foundation named after Josef, Marie and Zdeňka Hlávka still owns the house, and the Czech Technical University runs it as a dormitory.
+
+Its darkest night came in 1939. The medical student Jan Opletal lived here; he was shot during a demonstration against the occupation on 28 October and died on 11 November. Before dawn on 17 November German police and SS men broke into the college, as into other Prague dormitories, and dragged the students out. That day nine student leaders were executed at the Ruzyně barracks, more than a thousand students were sent to Sachsenhausen, and the Czech universities were closed. A commemoration is held in front of the building every 17 November, a date that since 1989 has two anniversaries.
+
+🎁 Bonus: The story goes that Hlávka would not buy his housekeeper a new pot at home, but fitted the college kitchen with expensive copper pans from Rott, Prague's finest ironmonger. Thrift for himself, the best for the students.`,
+      cz: `Na rohu Jenštejnské a Dittrichovy stojí veselý novorenesanční dům s malovanými štíty a svatým Václavem nad arkýřem, takový, jaký by si mohla postavit bohatá rodina pro sebe. Postavil ho ale pro chudé studenty muž, který si mohl dovolit palác, a radši své peníze rozdal.
+
+Josef Hlávka zbohatl jako stavitel ve Vídni, kde postavil dvorní operu, a v Praze navrhl porodnici U Apolináře. Byl bezdětný a velkou část výdělku věnoval české vědě a studentům: z jeho peněz vznikla roku 1890 Česká akademie věd a umění. Kolej se stavěla v letech 1902 až 1904 pro nadané studenty, kteří neměli na pražský podnájem, a měla vlastní tělocvičnu, kuchyni i pekárnu, takže obyvatelé měli čerstvý chléb. Sgrafita na průčelí ukazují studenty, znaky českých zemí a verše spisovatele Karla Ladislava Klusáčka. Dům dodnes patří Nadání Josefa, Marie a Zdeňky Hlávkových a jako kolej ho provozuje ČVUT.
+
+Nejtemnější noc tu přišla roku 1939. Bydlel tu student medicíny Jan Opletal, kterého 28. října postřelili při demonstraci proti okupaci a který 11. listopadu zemřel. Před svítáním 17. listopadu vtrhli němečtí policisté a esesáci do koleje, stejně jako do dalších pražských kolejí, a vyvlekli studenty ven. Téhož dne bylo v ruzyňských kasárnách popraveno devět studentských předáků, přes tisíc studentů bylo odvlečeno do Sachsenhausenu a české vysoké školy byly zavřeny. Před budovou se každý 17. listopad koná vzpomínka; od roku 1989 má to datum dvě výročí.
+
+🎁 Bonus: Vypráví se, že Hlávka doma odmítl hospodyni koupit nový hrnec, ale kuchyni koleje vybavil drahým měděným nádobím od Rotta, nejlepšího pražského železářství. Šetřit na sobě, pro studenty to nejlepší.`,
+      zh: `在延什泰因斯卡街和迪特里霍娃街的拐角，有一栋喜气洋洋的新文艺复兴式房子，山墙上满是彩绘，凸窗上方站着圣瓦茨拉夫，看上去像是哪户富人给自家盖的宅子。其实它是给穷学生盖的，出钱的人盖得起宫殿，却宁愿把钱送出去。
+
+约瑟夫·赫拉夫卡在维也纳当营造商发了家，维也纳宫廷歌剧院就是他建的；在布拉格，他设计了阿波利纳日产科医院。他没有子女，挣来的钱大多给了捷克的科学和学生：1890年成立的捷克科学与艺术学院，就是用他的钱办起来的。这座学生公寓建于1902年到1904年，专收付不起布拉格房租的优秀学生，有自己的体操房、厨房，甚至面包房，住在这里的学生天天有新鲜面包吃。立面上的五彩刮画画着学生、捷克各地的徽章，还有作家克卢萨切克写的诗句。房子至今归赫拉夫卡家族基金会所有，由捷克理工大学作为宿舍经营。
+
+它最黑暗的一夜在1939年。医学院学生扬·奥普莱塔尔就住在这里，他在10月28日反占领的游行中中枪，11月11日去世。11月17日天亮前，德国警察和党卫军冲进这里和布拉格其他学生宿舍，把学生拖了出去。当天，九名学生领袖在鲁津涅兵营被处决，一千多名学生被送进萨克森豪森集中营，捷克所有高校被关闭。每年11月17日，楼前都会举行纪念活动；1989年之后，这一天有了两个要纪念的日子。
+
+🎁 彩蛋：据说赫拉夫卡在家里连给女管家买个新锅都不肯，却给学生公寓的厨房配齐了昂贵的铜锅，买的是布拉格最好的五金店罗特家的货。对自己抠门，给学生最好的。`,
+    },
+  },
+  {
+    // Charles University buildings batch (2026-11-23). Sources: cs.wikipedia
+    // (Pedagogická fakulta UK; Minerva), avers.cz. The 1882–84 builder of the
+    // original school houses is not in the sources, so the text doesn't name one.
+    name: 'Faculty of Education, Charles University',
+    slug: 'pedagogicka-fakulta-uk',
+    localizedNames: { cz: 'Pedagogická fakulta Univerzity Karlovy', zh: '查理大学教育学院' },
+    labels: ['academy', 'historicism'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.07983712929113, lng: 14.420418990400911 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Just behind the Diamant house on Spálená, a long school building fills the block along Magdalény Rettigové. Future teachers study here, in a house that once belonged to the school that first taught Czech girls Latin and Greek, at a time when many people thought that was asking for trouble.
+
+The block stands where the Trinitarians had their convent beside the Church of the Holy Trinity. After the convent was pulled down, neo-Renaissance school buildings went up here in 1882 to 1884. In 1930 the architects Antonín Karfík and František Kadlec drew up a plan to adapt and join four schools on the site, a primary school, a burgher school, a German primary school and a school of women's occupations, with functionalist touches, two courtyards and a terrace over the gym. In 1934 the girls' grammar school Minerva moved in with 742 pupils.
+
+Minerva had been founded in 1890 by the writer Eliška Krásnohorská as the first grammar school for girls in Central Europe, and for forty-four years it wandered between rented rooms; Milena Jesenská was one of its pupils. A bust of Krásnohorská stood in the entrance hall. The school did not have its home for long: in 1942 the building was taken for military use, Minerva came back after the war, and in 1948 it had to make way for the new Faculty of Education, founded in 1946. Since 2025 the building has been under a long restoration, carried out bit by bit while teaching goes on.
+
+🎁 Bonus: The faculty does not own its main building. After years of dispute, the university and the city agreed in 2014 that the city keeps the house and the faculty rents it for fifty years, at 12,000 crowns a year. That is less than a month's rent for a small flat in Prague.`,
+      cz: `Hned za domem Diamant ve Spálené vyplňuje blok podél ulice Magdalény Rettigové dlouhá školní budova. Studují tu budoucí učitelé, v domě, který kdysi patřil škole, jež jako první učila české dívky latinu a řečtinu, v době, kdy si mnozí mysleli, že z toho nemůže vzejít nic dobrého.
+
+Blok stojí tam, kde měli trinitáři svůj konvent u kostela Nejsvětější Trojice. Po zboření konventu tu v letech 1882 až 1884 vyrostly novorenesanční školní budovy. Roku 1930 navrhli architekti Antonín Karfík a František Kadlec adaptaci a propojení čtyř zdejších škol, obecné, měšťanské, německé obecné a školy pro ženská povolání, s funkcionalistickými úpravami, dvěma dvory a terasou nad tělocvičnou. Roku 1934 se sem nastěhovalo dívčí gymnázium Minerva se 742 žačkami.
+
+Minervu založila roku 1890 spisovatelka Eliška Krásnohorská jako první dívčí gymnázium ve střední Evropě a čtyřicet čtyři let se stěhovala po pronajatých místnostech; jednou z jejích žaček byla Milena Jesenská. Ve vstupní hale stála busta Krásnohorské. Svůj domov ale škola neměla dlouho: roku 1942 byla budova zabrána pro vojenské účely, po válce se Minerva vrátila a roku 1948 musela uvolnit místo nové Pedagogické fakultě, založené roku 1946. Od roku 2025 prochází budova dlouhou obnovou, po etapách a za plného provozu.
+
+🎁 Bonus: Fakulta svou hlavní budovu nevlastní. Po letech sporů se univerzita a město roku 2014 dohodly, že dům zůstane městu a fakulta si ho na padesát let pronajme za 12 000 korun ročně. To je méně než měsíční nájem malého bytu v Praze.`,
+      zh: `就在斯帕莱纳街“钻石之家”后面，一栋长长的校舍占满了玛格达莱娜·雷蒂戈娃街边的整个街区。未来的老师们在这里念书，而这栋楼曾经属于一所第一个教捷克女孩拉丁文和希腊文的学校，那个年代，很多人觉得这简直是在自找麻烦。
+
+这个街区原是三位一体会的修院所在，紧挨着至圣三位一体教堂。修院拆掉以后，1882年到1884年间这里盖起了新文艺复兴式的校舍。1930年，建筑师安东宁·卡尔菲克和弗兰蒂谢克·卡德莱茨做了改建方案，把这里的四所学校连成一体：一所小学、一所市民学校、一所德语小学和一所女子职业学校，加了功能主义的改动、两个内院，还在体操馆上面修了露台。1934年，女子文理中学“密涅瓦”带着742名女生搬了进来。
+
+“密涅瓦”是女作家埃利什卡·克拉斯诺霍尔斯卡在1890年创办的，是中欧第一所女子文理中学，四十四年来一直在租来的房间之间辗转；米莲娜·耶森斯卡就是它的学生。门厅里立着克拉斯诺霍尔斯卡的半身像。可学校没能在这里待多久：1942年大楼被征作军用，战后“密涅瓦”搬了回来，1948年又得给1946年新成立的教育学院让位。2025年起，大楼开始一场漫长的修缮，一段一段地修，课照常上。
+
+🎁 彩蛋：教育学院并不拥有自己的主楼。大学和市政府争了好几年，2014年终于谈妥：房子归市里，学院租用五十年，租金每年一万两千克朗。这还不到布拉格一间小公寓一个月的房租。`,
+    },
+  },
+  {
+    // Charles University buildings batch (2026-11-23). Source: the campus's own
+    // history page (kampushybernska.cz/en/o-nas/historie-kampusu-hybernska).
+    name: 'Hybernská Campus',
+    slug: 'kampus-hybernska',
+    localizedNames: { cz: 'Kampus Hybernská', zh: '希伯尼亚校园' },
+    labels: ['academy', 'cultural', 'classicism'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.087115351127515, lng: 14.429687250565014 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Opposite the Hybernia theatre, a classicist front on Hybernská hides a courtyard where students drink coffee, borrow drills from a library of things and argue about the city. For decades the same rooms belonged to the secret police, so the house has gone from questioning people to inviting them to talk.
+
+The house goes back to the Middle Ages. A brewery stood on the plot from the 14th century, and its Gothic cellars are still there; in 1463 King George of Poděbrady bought the house to lodge his courtiers and the royal horses. In the 19th century Princess Josephine of Schwarzenberg held a salon here, then sold the house to a Saxon liqueur maker, Gottfried Leonhard, who opened a shop in front and a factory for liqueurs and fruit jellies in the courtyard. Between 1846 and 1862 the builder Johann Heinrich Frenzel gave it its classicist form, and later it filled up with flats, offices and a bank.
+
+After the communist coup of 1948 the state security, the StB, took the building, and from 1952 it belonged to the Ministry of the Interior. Its telephone cables ran to the StB headquarters in Bartolomějská, and the railings in the front wing are said to have been used to handcuff people waiting to be questioned. In 2012 Agnieszka Holland filmed scenes here for Burning Bush, her series about Jan Palach. After ten empty years the city lent the building to Charles University in 2017, and it opened as a campus with a cinema, a gallery, a café and that library of things; since 2021 the whole university runs it together with the city.
+
+🎁 Bonus: Leonhard the liqueur maker was 53 when he married 19-year-old Maria Karolina Zlobická, and he gave her the house as a wedding present. The marriage lasted seven years. Her second husband was Ferdinand Fügner, whose brother Jindřich founded the Sokol gymnastics movement.`,
+      cz: `Naproti divadlu Hybernia skrývá klasicistní průčelí v Hybernské dvůr, kde studenti pijí kávu, půjčují si vrtačky v knihovně věcí a hádají se o město. Celá desetiletí tytéž místnosti patřily tajné policii, takže dům se od vyslýchání lidí dostal k tomu, že je zve k rozhovoru.
+
+Dům sahá do středověku. Od 14. století stál na parcele pivovar, jehož gotické sklepy se zachovaly, a roku 1463 dům koupil král Jiří z Poděbrad, aby tu ubytoval dvořany a královské koně. V 19. století tu vedla salon kněžna Josefína ze Schwarzenbergu, která dům pak prodala saskému likérníkovi Gottfriedu Leonhardovi; ten si vpředu otevřel obchod a ve dvoře továrnu na likéry a ovocné želé. V letech 1846 až 1862 mu stavitel Johann Heinrich Frenzel dal klasicistní podobu a později se dům zaplnil byty, kancelářemi a bankou.
+
+Po komunistickém převratu roku 1948 budovu zabrala StB a od roku 1952 patřila ministerstvu vnitra. Telefonní kabely odtud vedly do centrály StB v Bartolomějské a zábradlí v přední části se prý používalo k připoutávání lidí, kteří čekali na výslech. Roku 2012 tu Agnieszka Hollandová natáčela scény Hořícího keře, seriálu o Janu Palachovi. Po deseti letech prázdnoty město roku 2017 svěřilo budovu Univerzitě Karlově a ta tu otevřela kampus s kinem, galerií, kavárnou a onou knihovnou věcí; od roku 2021 ho provozuje celá univerzita společně s městem.
+
+🎁 Bonus: Likérníkovi Leonhardovi bylo 53, když si bral devatenáctiletou Marii Karolinu Zlobickou, a dům jí dal jako svatební dar. Manželství vydrželo sedm let. Jejím druhým mužem byl Ferdinand Fügner, bratr Jindřicha Fügnera, zakladatele Sokola.`,
+      zh: `希伯尼亚剧院对面，希伯尼亚街上一道古典主义立面后面藏着一个院子：学生在这里喝咖啡、从“物品图书馆”借电钻、争论这座城市该怎么办。几十年间，这些房间属于秘密警察，所以这栋房子从“请你来问话”变成了“请你来聊聊”。
+
+房子的历史能追到中世纪。从14世纪起这块地上就有一家啤酒坊，哥特式的地窖至今还在；1463年，波杰布拉迪的伊日国王买下这里，安置他的廷臣和御马。19世纪，施瓦岑贝格家的约瑟芬公主在这里办过沙龙，后来把房子卖给了萨克森的利口酒商戈特弗里德·莱昂哈德。他在临街开了店，在院子里开了一家利口酒和果冻作坊。1846年到1862年间，营造商弗伦策尔把它改成了古典主义样式，后来楼里住满了人家，也开了办公室和银行。
+
+1948年共产党上台后，国家安全局（StB）接管了这栋楼，1952年起归内政部。这里的电话线直通巴托洛梅伊斯卡街的StB总部，前楼的栏杆据说被用来铐住等待审讯的人。2012年，阿格涅什卡·霍兰在这里拍了讲扬·帕拉赫的剧集《燃烧的灌木丛》里的一些场景。空置十年之后，市政府在2017年把它交给查理大学，这里成了一座有电影院、画廊、咖啡馆和那间物品图书馆的校园；2021年起由整个大学和市政府共同经营。
+
+🎁 彩蛋：利口酒商莱昂哈德53岁时娶了19岁的玛丽亚·卡罗利娜·兹洛比茨卡，把这栋房子当作结婚礼物送给了她。婚姻维持了七年。她的第二任丈夫是费迪南德·菲格纳，他的兄弟因德日赫·菲格纳创立了索科尔体操运动。`,
+    },
+  },
+  {
+    // Charles University buildings batch 2 (2026-11-23). Sources: htf.cuni.cz
+    // HTFN-511, cs/en Wikipedia. The Pacovská building's own history wasn't
+    // found, so the text is about the faculty.
+    name: 'Hussite Theological Faculty, Charles University',
+    slug: 'husitska-teologicka-fakulta-uk',
+    localizedNames: { cz: 'Husitská teologická fakulta Univerzity Karlovy', zh: '查理大学胡斯派神学院' },
+    labels: ['academy'],
+    district: 'Praha 4',
+    quarter: 'Krč',
+    coordinates: { lat: 50.0452854819267, lng: 14.442107669485766 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `On a quiet street in Krč, a plain building houses something that sounds like a joke about Czech history: a faculty for Hussites. Six centuries ago the Hussites were better known for war wagons than for seminars. Today they write dissertations, and the faculty's motto is "Complete the Czech Reformation".
+
+The Hussites in question belong to the Czechoslovak Church, founded in January 1920 by Catholic priests who broke with Rome in the new republic's first rush of confidence; since 1971 it has been called the Czechoslovak Hussite Church. Parliament had already founded a Hus Faculty of Protestant Theology in 1919, and from 1921 the new church sent its students there too. Lectures began in the sacristy of the Church of the Holy Saviour in the Old Town and moved into the former archbishop's seminary in the Klementinum. The Nazis closed the faculty in November 1939 along with all Czech universities, and in 1950 the communist state split it by church. The atheist state then tried to turn the Hussite half into a training school for church clerks, and failed.
+
+On 1 December 1989, in the middle of the Velvet Revolution, the faculty's head Jan Schwarz wrote to the rector asking to join Charles University, and in 1990 a law brought the Catholic, Protestant and Hussite faculties back into it. The Hussite faculty has since grown into something its founders would hardly recognise: besides theology it teaches social work and psychology, and since 2006 it has an Institute of Eastern Christianity for Orthodox theology.
+
+🎁 Bonus: A faculty of Hussites with an Orthodox institute and Catholic, Protestant and Hussite neighbours in the same university. Jan Hus was burned for less ecumenism than that.`,
+      cz: `V tiché krčské ulici sídlí v nenápadné budově něco, co zní jako vtip o českých dějinách: fakulta pro husity. Před šesti sty lety byli husité známější vozovými hradbami než semináři. Dnes píšou disertace a heslo fakulty zní „Dokončit českou reformaci“.
+
+Řeč je o husitech z Církve československé, kterou v lednu 1920 založili katoličtí kněží, kteří se v prvním nadšení z nové republiky rozešli s Římem; od roku 1971 nese jméno Církev československá husitská. Parlament už roku 1919 zřídil Husovu československou evangelickou fakultu bohosloveckou a od roku 1921 na ni posílala své studenty i nová církev. Přednášky začaly v sakristii kostela sv. Salvátora na Starém Městě a pak se přestěhovaly do bývalého arcibiskupského semináře v Klementinu. Nacisté fakultu v listopadu 1939 zavřeli spolu se všemi českými vysokými školami a roku 1950 ji komunistický stát rozdělil podle církví. Ateistický stát se pak snažil udělat z husitské poloviny učiliště pro církevní úředníky, a nepovedlo se mu to.
+
+Prvního prosince 1989, uprostřed sametové revoluce, napsal představený fakulty Jan Schwarz rektorovi žádost o začlenění do Univerzity Karlovy a roku 1990 zákon vrátil katolickou, evangelickou i husitskou fakultu do univerzity. Husitská fakulta od té doby vyrostla v něco, co by její zakladatelé sotva poznali: vedle teologie učí i sociální práci a psychologii a od roku 2006 má Ústav východního křesťanství pro pravoslavnou teologii.
+
+🎁 Bonus: Fakulta husitů s pravoslavným ústavem a s katolickými, evangelickými i husitskými sousedy v jedné univerzitě. Jana Husa upálili za mnohem méně ekumenismu.`,
+      zh: `克尔奇一条安静的街上，一栋不起眼的楼里，有个听上去像捷克历史笑话的地方：一所给胡斯派念书的学院。六百年前，胡斯派出名靠的是战车堡垒，不是研讨课。如今他们写博士论文，学院的校训是“完成捷克宗教改革”。
+
+这里说的胡斯派，属于捷克斯洛伐克教会。1920年1月，一批天主教神父趁着新共和国成立的那股劲头和罗马分道扬镳，创立了这个教会，1971年起改名捷克斯洛伐克胡斯派教会。议会早在1919年就设立了一所“胡斯新教神学院”，从1921年起，新教会也把学生送去那里。最初的课在老城救世主教堂的圣器室里上，后来搬进了克莱门特学院里原来的总主教神学院。1939年11月，纳粹把它和所有捷克高校一起关闭；1950年，共产党政府又把它按教会一分为二。无神论的国家随后想把胡斯派这一半改成培养教会文员的职业学校，结果没成。
+
+1989年12月1日，天鹅绒革命正在高潮，学院负责人扬·施瓦茨给校长写信，申请并入查理大学；1990年，一部法律把天主教、新教和胡斯派三所神学院都重新并入了大学。此后，胡斯派神学院长成了创办者恐怕都认不出来的样子：除了神学还开设社会工作和心理学，2006年起还设了一个研究东正教神学的东方基督教研究所。
+
+🎁 彩蛋：一所胡斯派的学院，里面有个东正教研究所，同一所大学里还有天主教和新教的邻居。当年胡斯被烧死，可没表现出这么多普世合一的精神。`,
+    },
+  },
+  {
+    // Charles University buildings batch 2 (2026-11-23). The MFF campus and the
+    // Kolej 17. listopadu next to it, one card (user's call). Coordinates fall in
+    // Libeň. Sources: cs.wikipedia Kolej 17. listopadu, mff.cuni.cz Troja page.
+    name: 'Troja Campus, Charles University',
+    slug: 'kampus-troja-uk',
+    localizedNames: { cz: 'Kampus Troja Univerzity Karlovy', zh: '查理大学特罗亚校区' },
+    labels: ['academy', 'brutalism'],
+    district: 'Praha 8',
+    quarter: 'Libeň',
+    coordinates: { lat: 50.11578726348304, lng: 14.449219087554518 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `North of the Barricade Fighters' Bridge, where Holešovice runs out and the road turns towards Troja, two concrete slabs rise high above the river: a student hall of residence with about 1,400 beds and, beside it, the physicists' faculty. Prague's future physicists sleep twenty floors up and walk to the lab.
+
+The campus was designed in 1965 for the Faculty of Mathematics and Physics by Karel Prager, the architect of the Federal Assembly building by the National Museum, with Jiří Albrecht and Jiří Kadeřábek, and it went up between 1968 and 1978 on the site of an old farmstead. Today most of the faculty's physics lives here: lecture halls, heavy laboratories, a cryogenics lab, the Astronomical Institute and, since 2020, the IMPAKT pavilion for computer science. Next to it Prager also designed the residence of 17 November, built from 1979 and opened in 1988. Its taller block reaches 70 metres with its antenna, which makes it one of the tallest buildings in Prague, and in front of it stands a small Prometheus by Václav Frýdecký, said to stand for Jan Palach.
+
+🎁 Bonus: The residence was named in 1988 after 17 November 1939, the day the Nazis closed the Czech universities, which the communist calendar marked as International Students' Day. A year after it opened, on 17 November 1989, students gathered at Albertov to mark that day, and the march that followed brought the regime down. The name has been doubly right ever since.`,
+      cz: `Severně od mostu Barikádníků, kde končí Holešovice a silnice se stáčí k Troji, se nad řekou zvedají dva betonové hranoly: kolej s asi 1 400 lůžky a vedle ní fakulta fyziků. Budoucí pražští fyzici spí ve dvacátém patře a do laboratoře to mají pěšky.
+
+Areál navrhl roku 1965 pro Matematicko-fyzikální fakultu Karel Prager, autor budovy Federálního shromáždění u Národního muzea, spolu s Jiřím Albrechtem a Jiřím Kadeřábkem, a stavěl se v letech 1968 až 1978 na místě bývalého statku. Dnes tu sídlí většina fakultní fyziky: posluchárny, těžké laboratoře, kryogenní pracoviště, Astronomický ústav a od roku 2020 pavilon IMPAKT pro informatiku. Vedle něj navrhl Prager i kolej 17. listopadu, stavěnou od roku 1979 a otevřenou roku 1988. Její vyšší blok měří i s anténou 70 metrů, což z něj dělá jednu z nejvyšších budov v Praze, a před ním stojí malý Prométheus Václava Frýdeckého, který prý představuje Jana Palacha.
+
+🎁 Bonus: Kolej dostala roku 1988 jméno podle 17. listopadu 1939, dne, kdy nacisté zavřeli české vysoké školy a který komunistický kalendář slavil jako Mezinárodní den studentstva. Rok po jejím otevření, 17. listopadu 1989, se studenti sešli na Albertově, aby si ten den připomněli, a průvod, který z toho vzešel, svrhl režim. Od té doby je to jméno správné dvakrát.`,
+      zh: `巴里卡德尼库大桥以北，霍莱绍维采到了头、公路拐向特罗亚的地方，两座混凝土板楼高高耸立在河边：一座是有大约1400张床位的学生宿舍，旁边是物理学家们的学院。布拉格未来的物理学家睡在二十楼，走路就能去实验室。
+
+校区是1965年为数学物理学院设计的，设计者是卡雷尔·普拉格，他也设计了国家博物馆旁边的联邦议会大楼，合作者是伊日·阿尔布雷希特和伊日·卡德扎贝克。校区1968年到1978年间建在一座旧农庄的地址上。如今学院的物理学大多在这里：报告厅、重型实验室、低温实验室、天文研究所，2020年起还有给计算机系用的IMPAKT楼。旁边的“11月17日”学生宿舍也出自普拉格之手，1979年动工，1988年启用。较高的那栋连天线有70米，是布拉格最高的楼之一。楼前立着一尊弗里德茨基做的小普罗米修斯像，据说代表的是扬·帕拉赫。
+
+🎁 彩蛋：宿舍在1988年以1939年11月17日命名，那天纳粹关闭了捷克的大学，共产党的日历把它定为“国际学生日”。宿舍启用一年后，1989年11月17日，学生们聚在阿尔贝托夫纪念这个日子，随后的游行推翻了政权。从那以后，这个名字就对了两回。`,
+    },
+  },
+  {
+    // Charles University buildings batch 2 (2026-11-23). Source: cs.wikipedia
+    // FTVS UK. The build date and architect of the former party-college building
+    // weren't found, so the text gives none.
+    name: 'Faculty of Physical Education and Sport, Charles University',
+    slug: 'ftvs-uk',
+    localizedNames: { cz: 'Fakulta tělesné výchovy a sportu Univerzity Karlovy', zh: '查理大学体育学院' },
+    labels: ['academy', 'communism'],
+    district: 'Praha 6',
+    quarter: 'Veleslavín',
+    coordinates: { lat: 50.09288869859643, lng: 14.333866490432289 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `On a street named after the Cuban revolutionary José Martí, a campus of running tracks, tennis courts and halls trains Czech athletes, coaches and physiotherapists. Under communism the same buildings trained something else: the party's own cadres. Prague called the place the Vokovice Sorbonne, and nobody meant it as a compliment.
+
+The faculty began in 1953 as the Institute of Physical Education and Sport, housed in Tyrš House in the Lesser Town, the old headquarters of the Sokol gymnastics movement. It joined Charles University in 1959 and became a faculty in 1965. The Vokovice complex belonged to the Political College of the Communist Party's Central Committee, where future officials studied Marxism-Leninism. After 1989 the party no longer needed it, and the sports faculty moved in. Today it has an athletics stadium, a sports hall, beach volleyball courts, a boathouse on the Troja white-water channel and a plastic swimming flume with a see-through wall, where swimmers swim against the current while their teachers watch every mistake. Its graduates include the gymnast Věra Čáslavská, the figure skater Tomáš Verner and the javelin thrower Vítězslav Veselý.
+
+🎁 Bonus: In the 1960s the Ethiopian Nigussie Roba studied here. Back home he became a national coach, and his runner Miruts Yifter won both the 5,000 and the 10,000 metres at the 1980 Moscow Olympics.`,
+      cz: `V ulici pojmenované po kubánském revolucionáři Josém Martím připravuje areál s běžeckými ovály, tenisovými kurty a halami české sportovce, trenéry a fyzioterapeuty. Za komunismu se v týchž budovách připravovalo něco jiného: stranické kádry. Praha tomu místu říkala Vokovická Sorbonna a nikdo to nemyslel jako poklonu.
+
+Fakulta začala roku 1953 jako Institut tělesné výchovy a sportu v Tyršově domě na Malé Straně, bývalém ústředí Sokola. Roku 1959 se stala součástí Univerzity Karlovy a roku 1965 fakultou. Vokovický areál patřil Vysoké škole politické ÚV KSČ, kde budoucí funkcionáři studovali marxismus-leninismus. Po roce 1989 ho strana už nepotřebovala a nastěhovala se sem sportovní fakulta. Dnes tu má atletický stadion, sportovní halu, kurty na beach volejbal, loděnici u troského slalomového kanálu a plastový plavecký žlab s průhlednou stěnou, kde plavci plavou proti proudu, zatímco učitelé sledují každou chybu. Mezi absolventy jsou gymnastka Věra Čáslavská, krasobruslař Tomáš Verner i oštěpař Vítězslav Veselý.
+
+🎁 Bonus: V šedesátých letech tu studoval Etiopan Nigussie Roba. Doma se stal reprezentačním trenérem a jeho běžec Miruts Yifter vyhrál na olympiádě v Moskvě 1980 závod na 5 000 i na 10 000 metrů.`,
+      zh: `在一条以古巴革命家何塞·马蒂命名的街上，一片有跑道、网球场和场馆的校园，培养着捷克的运动员、教练和理疗师。共产党时代，同样这些楼培养的是别的东西：党的干部。布拉格人管这里叫“沃科维采的索邦”，没人是在夸它。
+
+学院的前身是1953年成立的体育运动学院，设在小城的蒂尔什之家，也就是索科尔体操运动的老总部。1959年它并入查理大学，1965年升格为学院。沃科维采这片校园当年属于捷共中央政治学院，未来的干部在这里学马列主义。1989年以后，党用不上它了，体育学院就搬了进来。如今这里有田径场、体育馆、沙滩排球场，在特罗亚激流回旋赛道边还有船库，另外有个一面透明的塑料泳道，泳者逆着水流游，老师在外面把每个毛病看得一清二楚。毕业生里有体操名将薇拉·恰斯拉夫斯卡、花样滑冰选手托马什·韦尔内尔和标枪选手维捷斯拉夫·韦塞利。
+
+🎁 彩蛋：20世纪60年代，埃塞俄比亚人尼古西·罗巴在这里念过书。回国后他当上了国家队教练，他带的长跑运动员米鲁茨·伊夫特在1980年莫斯科奥运会上拿下了5000米和10000米两枚金牌。`,
+    },
+  },
 ];
 async function run() {
   await connectDB();

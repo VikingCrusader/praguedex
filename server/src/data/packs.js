@@ -158,6 +158,7 @@ export const PACKS = [
     members: [
       'municipal-house', 'powder-tower', 'divadlo-hybernia', 'kostel-sv-josefa-namesti-republiky', 'palladium-prague',
       'kotva-department-store', 'stara-celnice', 'ulicka-sv-huberta', 'hotel-kings-court-hilton-old-town',
+      'kampus-hybernska',
     ],
   }),
   pack({
@@ -203,6 +204,7 @@ export const PACKS = [
       'st-nicholas-mala-strana', 'svatomikulasska-zvonice', 'holy-trinity-column-of-lesser-town-1782494475173',
       'liechtenstein-palace-mala-strana-1782581902637', 'sternbersky-palac-mala-strana', 'palc-smiickch-czech-parliament-1782397003111',
       'malostranska-beseda', 'palac-gromlingovsky', 'kaiserstein-palace-1782406783694', 'st-thomas-church-1782394995826',
+      'profesni-dum',
     ],
   }),
   pack({
@@ -543,7 +545,7 @@ export const PACKS = [
       'budova-byvaleho-ck-trestniho-soudu', 'vseobecna-fakultni-nemocnice', 'cathedral-cyril-methodius',
       'kostel-sv-vaclava-na-zderaze',
       'dvorakuv-dum-zitna', 'jezuitska-kolej-karlovo-namesti', 'pomnik-vitezslava-halka',
-      'pomnik-jana-evangelisty-purkyne', 'park-karlovo-namesti',
+      'pomnik-jana-evangelisty-purkyne', 'park-karlovo-namesti', 'hlavkova-kolej',
     ],
   }),
   pack({

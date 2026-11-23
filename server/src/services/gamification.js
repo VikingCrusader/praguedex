@@ -729,6 +729,21 @@ const TRUTH_PREVAILS = placesAndLabels(
   ["pamatnik-jana-husa", "pomnik-frantiska-palackeho", "pomnik-josefa-jungmanna", "national-museum", "national-theatre",
     "vysehrad-cemetery", "pamatnik-tg-masaryka", "zamek-lany"],
   [["national-revival", 20]]);
+// Alma Mater (2026-11-23, user's idea): Charles University across the city,
+// an exception to packs being one walkable area, so an achievement instead.
+// Every place on the list is required (Gold; user's call the same day, it was
+// Silver with the Karolinum, the Faculty of Arts and Albertov plus any 6). Hlávka College (17 November 1939) is left out: it belongs to
+// the Hlávka foundation and Czech Technical University runs it.
+const CHARLES_UNI_MUST = ["karolinum", "faculty-of-arts-uk", "kampus-albertov"];
+const CHARLES_UNI_SLUGS = [
+  "hollar", "pravnicka-fakulta-uk-knihovna", "prvni-lekarska-fakulta-uk", "prirodovedecka-fakulta-uk",
+  "mff-uk-ke-karlovu", "profesni-dum", "kampus-troja-uk", "pedagogicka-fakulta-uk",
+  "husitska-teologicka-fakulta-uk", "ftvs-uk", "kampus-hybernska", "botanicka-zahrada-prf-uk",
+  // Added the same day (user's call): the first home of Charles College (1366–83)
+  // and the palace on Celetná the university has held since 1990.
+  "dum-u-lazara", "millesimovsky-palac",
+];
+const CHARLES_UNI = placesOnly([...CHARLES_UNI_MUST, ...CHARLES_UNI_SLUGS]);
 // Generalissimo: Wallenstein's palace in the Lesser Town and what belongs to it.
 const WALLENSTEIN = placesOnly([
   "wallenstein-palace", "wallenstein-garden-1783750953785", "valdstejnska-jizdarna",
@@ -1995,6 +2010,22 @@ export const ACHIEVEMENTS = [
       slugs: GERMAN_SLUGS,
       packs: { need: GERMAN_PACKS.length, slugs: GERMAN_PACKS },
     }),
+  },
+  {
+    id: "alma_mater",
+    icon: "🎓",
+    name: "Alma Mater",
+    name_cz: "Alma mater",
+    name_zh: "母校",
+    flavor: "The oldest university in Central Europe has no campus. It has a city.",
+    flavor_cz: "Nejstarší univerzita ve střední Evropě nemá kampus. Má město.",
+    flavor_zh: "中欧最古老的大学没有校园，它有一整座城。",
+    description: "Check in at all 17 of Charles University's houses, faculties and campuses on the list: the Karolinum, the House at the Lazarus, where Charles College began, the Caretto-Millesimo Palace, the Faculty of Arts, Albertov Campus, Hollar Palace, the Faculty of Law, the First Faculty of Medicine, the Faculty of Science, Mathematics and Physics at Ke Karlovu, the Professed House, the Troja Campus, the Faculty of Education, the Hussite Theological Faculty, the Faculty of Physical Education and Sport, Hybernská Campus and the Botanical Garden.",
+    description_cz: "Přihlaste se na všech 17 místech Univerzity Karlovy ze seznamu: v Karolinu, v domě U Lazara, kde začínala Karlova kolej, v Caretto-Millesimovském paláci, na Filozofické fakultě, v Kampusu Albertov, v Paláci Hollar, na Právnické fakultě, na 1. lékařské fakultě, na Přírodovědecké fakultě, na Matematicko-fyzikální fakultě Ke Karlovu, v Profesním domě, v Kampusu Troja, na Pedagogické fakultě, na Husitské teologické fakultě, na Fakultě tělesné výchovy a sportu, v Kampusu Hybernská a v Botanické zahradě.",
+    description_zh: "打卡查理大学全部17处校舍、学院和校区：卡罗利努姆、查理学院最早的落脚处拉扎尔之家、卡雷托-米莱西莫宫、文学院、阿尔贝托夫校区、霍拉尔宫、法学院、第一医学院、理学院、柯尔洛夫街的数学物理学院、耶稣会宣誓会院、特罗亚校区、教育学院、胡斯派神学院、体育学院、希伯尼亚校园和理学院植物园。",
+    difficulty: "hard",
+    check: (stats) => done(CHARLES_UNI(stats)),
+    progress: CHARLES_UNI,
   },
   {
     id: "fast_and_curious",

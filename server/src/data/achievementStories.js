@@ -467,6 +467,23 @@ Velká vlna přišla v 16. a 17. století: stavitelé, kameníci a štukatéři 
 真正的大潮出现在16和17世纪：来自意大利北部湖区的建筑师、石匠和灰泥匠在这里盖起文艺复兴和巴洛克宫殿，并在城堡脚下安了家。1573年他们成立了自己的修会，1602年又在一条至今仍叫“意大利街”的街上建了医院，如今那里是意大利文化中心。布拉格的巴洛克大师里，不少人都有意大利名字，从卡洛·卢拉戈到桑蒂尼，后者就出生在布拉格一个意大利石匠世家。1924年，意大利买下了聂鲁达街的图恩-霍恩施泰因宫，意大利大使馆从此一直设在那里。`,
   },
 
+  alma_mater: {
+    en: `Charles IV founded the university in 1348, the first north of the Alps and east of Paris, with four faculties: theology, law, medicine and the liberal arts. In 1366 he gave its masters' college, Charles College, a house in the Old Town that had belonged to a man named Lazar; seventeen years later, in 1383, his son Wenceslas IV moved the college into a merchant's house nearby, the Karolinum, which is still the university's seat. In 1409 the Decree of Kutná Hora gave the Czech nation three votes in the university to the foreign nations' one; the German masters left for Leipzig, and Jan Hus became rector.
+
+After White Mountain the Jesuits took over, and in 1654 the university was merged with their academy in the Klementinum as the Charles-Ferdinand University. In 1882 it split into a Czech and a German university. On 17 November 1939 the Nazis closed the Czech one: nine student leaders were executed and more than a thousand students sent to Sachsenhausen. In 1945 it was the German university's turn to close.
+
+The 20th century kept coming back to its students. In January 1969 Jan Palach, a student of the Faculty of Arts, set himself on fire against the occupation. On 17 November 1989 students gathered at Albertov to mark fifty years since 1939, and the march that set off from there brought down the regime. The university never built itself a campus; its faculties are spread across the city, from Malá Strana to Krč.`,
+    cz: `Karel IV. založil univerzitu roku 1348 jako první severně od Alp a východně od Paříže, se čtyřmi fakultami: teologickou, právnickou, lékařskou a artistickou. Roku 1366 dal koleji jejích mistrů, Karlově koleji, dům na Starém Městě, který patřil muži jménem Lazar; o sedmnáct let později, roku 1383, přestěhoval jeho syn Václav IV. kolej do nedalekého kupeckého domu, Karolina, které je sídlem univerzity dodnes. Roku 1409 dal Dekret kutnohorský české univerzitní národnosti tři hlasy proti jednomu hlasu cizích; němečtí mistři odešli do Lipska a rektorem se stal Jan Hus.
+
+Po Bílé hoře univerzitu převzali jezuité a roku 1654 byla spojena s jejich akademií v Klementinu jako Univerzita Karlo-Ferdinandova. Roku 1882 se rozdělila na českou a německou. Sedmnáctého listopadu 1939 nacisté českou univerzitu zavřeli: devět studentských předáků popravili a přes tisíc studentů odvlekli do Sachsenhausenu. Roku 1945 přišla řada na zavření německé univerzity.
+
+Dvacáté století se k jejím studentům stále vracelo. V lednu 1969 se student Filozofické fakulty Jan Palach upálil na protest proti okupaci. Sedmnáctého listopadu 1989 se studenti sešli na Albertově, aby si připomněli padesát let od roku 1939, a průvod, který odtud vyšel, svrhl režim. Kampus si univerzita nikdy nepostavila; její fakulty jsou rozeseté po celém městě, od Malé Strany po Krč.`,
+    zh: `1348年，查理四世创办了这所大学，它是阿尔卑斯山以北、巴黎以东的第一所大学，设神学、法学、医学和文学四个学院。1366年，他把老城一栋原属一个叫拉扎尔的人的房子给了教师们的学院，也就是查理学院；十七年后的1383年，他的儿子瓦茨拉夫四世把学院搬进附近一位商人的宅子，这就是卡罗利努姆，至今仍是校本部。1409年，《库特纳霍拉法令》规定大学里捷克“同乡会”有三票、外国同乡会只有一票；德意志教师们愤而出走莱比锡，扬·胡斯当上了校长。
+
+白山战役之后，耶稣会接管了大学，1654年把它和自己在克莱门特学院的学院合并，称为查理-斐迪南大学。1882年，大学一分为二，成了捷克大学和德国大学。1939年11月17日，纳粹关闭了捷克大学：九名学生领袖被处决，一千多名学生被送进萨克森豪森集中营。1945年，轮到德国大学被关闭。
+
+整个20世纪，历史一再找上它的学生。1969年1月，文学院学生扬·帕拉赫自焚，抗议苏联占领。1989年11月17日，学生们聚在阿尔贝托夫纪念1939年事件五十周年，从那里出发的游行推翻了政权。这所大学从来没给自己盖过一座校园，它的学院散落在全城，从小城一直到克尔奇。`,
+  },
   bohmische_dorfer: {
     en: `For most of its history Prague spoke two languages. German merchants settled at Poříčí, just outside the Old Town, in the 12th century, and Duke Soběslav II granted them their own rights; in 1348 Charles IV gave the Dukes of Saxony a house at the end of the bridge. For centuries Czech and German were simply the two languages of one city.
 

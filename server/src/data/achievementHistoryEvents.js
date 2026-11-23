@@ -13,4 +13,7 @@ export const ACHIEVEMENT_HISTORY_EVENTS = {
   aeiou: ['the-habsburgs-come-in-1526'],
   aula_regia: ['aula-regia-1292'],
   king_died_of_anger: ['the-king-who-was-frightened-to-death-1419'],
+  // Charles University: its founding, Hus as rector (the 1409 decree is told
+  // there) and the 1654 merger. Add 1882, 1939 and 1989 when those eras exist.
+  alma_mater: ['central-europes-first-university-1348', 'who-is-jan-hus-1412', 'two-schools-become-one-1654'],
 };

@@ -3594,7 +3594,10 @@ html[data-lang="zh"] .detail-title-name {
   .stat-card--ring { gap: 14px !important; padding: 16px; }
   /* The rank moves up beside the level badge; the XP bar takes the next line. */
   .level-row { gap: 12px !important; }
-  .stat-card.stat-card--rank-top { display: flex; flex-direction: column; justify-content: center; flex: 1; min-width: 0; padding: 8px 14px; }
+  /* The rank keeps its own width; the level badge gives way, its title
+     wrapping instead (a long English title left the rank only its padding). */
+  .stat-card.stat-card--rank-top { display: flex; flex-direction: column; justify-content: center; flex: 0 0 auto; min-width: 84px; padding: 8px 14px; }
+  .level-row > .level-badge { flex: 1 1 0; min-width: 0; }
   .stat-card--rank-top .stat-card__value { font-size: 24px; }
   .stat-card--rank-top .rank-change { display: block; margin: 2px 0 0; font-size: 13px; }
   .week-card__item--rank { display: none; }

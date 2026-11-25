@@ -10,6 +10,8 @@ import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import LabelFilterGroups from './LabelFilterGroups';
 import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, CITY_RARITIES, ALL_RARITIES, withSecret, hasSecretCard } from '../../utils/rarity';
 import { NEARBY_REVEAL_M, NEARBY_PACK_M } from '../../utils/geolocation';
+
+const NEAR_PACKS_BANNER_MAX = 4;
 import { packMatches, nearestPackFirst } from '../../utils/packs';
 import { getLocName } from '../../utils/locName';
 import { firstVisitOrder, featuredPacksFirst, interleavePacks, packsAtTheirCards, packsByRelease } from '../../utils/gridOrder';
@@ -204,15 +206,25 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   // banner above it (`nearPacksAsBanner`), so the first row stays free for cards
   // to collect.
   const isNearPack = p => p._distance != null && p._distance <= NEARBY_PACK_M;
+  // Nearest first. The phone banner shows at most NEAR_PACKS_BANNER_MAX (two
+  // rows of two) so the names stay readable where many packs meet, e.g. six
+  // around Malostranské náměstí (2026-11-25); the rest go back into the grid,
+  // where a distance sort still puts them near the top.
   const nearPacks = useMemo(
-    () => (packsOnly || discovered || treasureOnly || activeRarities.size > 0 ? [] : shownPacks.filter(isNearPack)),
+    () => (packsOnly || discovered || treasureOnly || activeRarities.size > 0
+      ? []
+      : shownPacks.filter(isNearPack).sort((a, b) => a._distance - b._distance)),
     [packsOnly, discovered, treasureOnly, activeRarities, shownPacks],
+  );
+  const bannerPacks = useMemo(
+    () => (nearPacksAsBanner ? nearPacks.slice(0, NEAR_PACKS_BANNER_MAX) : []),
+    [nearPacksAsBanner, nearPacks],
   );
   const gridItems = useMemo(() => {
     if (packsOnly) return shownPacks;
     if (discovered || treasureOnly || activeRarities.size > 0) return filtered;
     const near = nearPacksAsBanner ? [] : nearPacks;
-    const rest = shownPacks.filter(p => !nearPacks.includes(p));
+    const rest = shownPacks.filter(p => !(nearPacksAsBanner ? bannerPacks : nearPacks).includes(p));
     // Packs have no rarity, so sorted by rarity they all go to the bottom, after common (2026-11-11, user's call).
     if (sort === 'rarity') return [...filtered, ...(nearPacksAsBanner ? rest : shownPacks)];
     // Cards that can be collected right here (locked, within 100 m) lead, then
@@ -229,7 +241,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
     if (signedIn || filtered.some(l => l._distance != null)) return [...lead, ...packsAtTheirCards(rest, cards)];
     const narrowed = deferredSearch.trim() || activeLabels.size > 0 || areaChosen;
     return [...lead, ...(narrowed ? [...rest, ...cards] : interleavePacks(featuredPacksFirst(rest), cards))];
-  }, [packsOnly, shownPacks, nearPacks, nearPacksAsBanner, discovered, treasureOnly, activeRarities, filtered, sort, deferredSearch, activeLabels, areaChosen, signedIn]);
+  }, [packsOnly, shownPacks, nearPacks, bannerPacks, nearPacksAsBanner, discovered, treasureOnly, activeRarities, filtered, sort, deferredSearch, activeLabels, areaChosen, signedIn]);
 
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
@@ -503,10 +515,10 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
         </div>
       </div>
 
-      {nearPacksAsBanner && nearPacks.length > 0 && (
-        <div className={`near-packs${nearPacks.length >= 3 ? ' near-packs--many' : ''}`}>
+      {bannerPacks.length > 0 && (
+        <div className={`near-packs${bannerPacks.length >= 3 ? ' near-packs--many' : ''}`}>
           <span className="near-packs__label">{convert(t('pack.nearby'))}</span>
-          {nearPacks.map(p => (
+          {bannerPacks.map(p => (
             <button type="button" key={p.slug} className="detail-packs__pack near-packs__pack" style={{ '--foil': p.foil }} onClick={() => onPackClick?.(p.slug)}>
               <span className="near-packs__name">{convert(getLocName(p, lang))}</span>
               <span className="near-packs__count">{p.collected ?? 0}/{p.total}</span>

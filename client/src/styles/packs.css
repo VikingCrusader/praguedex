@@ -450,3 +450,5 @@
    their names aren't cut to a letter. */
 .near-packs--many { flex-wrap: wrap; row-gap: 6px; }
 .near-packs--many .near-packs__label { flex-basis: 100%; }
+/* Three or four (the most the banner shows): two per row. */
+.near-packs--many .near-packs__pack { flex: 1 1 calc(50% - 4px); }

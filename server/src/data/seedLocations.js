@@ -6478,32 +6478,20 @@ Plošina vznikla roku 2020 s vyvýšenou dřevěnou podlahou a zábradlím na hr
     },
   },
   {
-    name: 'Expo 58 Pavilion Site',
+    name: 'Expo 58 Pavilion',
     slug: 'pavilon-expo-58-vystaviste',
-    localizedNames: { cz: 'Místo pavilonu Expo 58 na Výstavišti', zh: '1958年世博会展馆旧址' },
-    labels: ['communism', 'hidden-gem'],
+    localizedNames: { cz: 'Pavilon Expo 58', zh: '1958年世博会展馆' },
+    labels: ['communism', 'cultural', 'hidden-gem'],
     district: 'Praha 7',
     quarter: 'Holešovice',
     coordinates: { lat: 50.0963783022535, lng: 14.429887757591638 },
     rarity: 'epic',
     xpReward: 50,
-    wikipediaUrl: '',
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Bruselsk%C3%BD_pavilon',
     description: {
-      en: `Nothing stands on this spot at the Výstaviště exhibition grounds today, but for three decades it held the Czechoslovak pavilion from the 1958 Brussels World's Fair, the greatest success of Czechoslovak architecture and design during the Cold War.
-
-The pavilion, designed by František Cubr, Josef Hrubý and Zdeněk Pokorný, was a sensation at Expo 58. It won the Gold Star, the fair's top prize for a pavilion, and the Czechoslovak exhibition gathered many more awards, from glass and design to film and the multimedia show Laterna Magika, which made its debut there. For a country behind the Iron Curtain it was a remarkable triumph. After the fair the pavilion was taken apart, brought home and rebuilt here, at what was then the Julius Fučík Park of Culture and Rest, where from 1960 it served as the "Brussels Pavilion" for exhibitions. In October 1991 it was destroyed by fire, and it was never rebuilt.
-
-🎁 Bonus: One part of the Brussels success survives: the pavilion's restaurant, which was rebuilt separately on the edge of Letná Park above the Vltava. Known today as the Expo 58 pavilion, it still stands there with a great view over the city.`,
-      cz: `Na tomto místě na Výstavišti dnes nic nestojí, ale tři desetiletí tu stál československý pavilon ze světové výstavy v Bruselu roku 1958, největší úspěch československé architektury a designu za studené války.
-
-Pavilon navržený Františkem Cubrem, Josefem Hrubým a Zdeňkem Pokorným byl na Expu 58 senzací. Získal Zlatou hvězdu, nejvyšší cenu výstavy pro pavilon, a československá expozice posbírala mnoho dalších ocenění, od skla a designu po film a multimediální představení Laterna magika, které tam mělo premiéru. Pro zemi za železnou oponou to byl pozoruhodný triumf. Po výstavě byl pavilon rozebrán, převezen domů a znovu postaven tady, v tehdejším Parku kultury a oddechu Julia Fučíka, kde od roku 1960 sloužil jako „Bruselský pavilon“ pro výstavy. V říjnu 1991 ho zničil požár a už nikdy nebyl obnoven.
-
-🎁 Bonus: Jedna část bruselského úspěchu přežila: restaurace pavilonu, která byla znovu postavena zvlášť na okraji Letenských sadů nad Vltavou. Dnes známá jako pavilon Expo 58 tam stále stojí s nádherným výhledem na město.`,
-      zh: `如今展览中心的这块地方空空荡荡，但在三十年里，这里立着1958年布鲁塞尔世博会的捷克斯洛伐克馆，那是冷战时期捷克斯洛伐克建筑与设计最辉煌的成就。
-
-这座展馆由弗朗蒂谢克·楚布尔、约瑟夫·赫鲁比和兹德涅克·波科尔尼设计，在1958年世博会上引起轰动。它赢得了世博会给展馆的最高奖金星奖，捷克斯洛伐克展区还拿下了许多其他奖项，从玻璃、设计到电影，还有在那里首演的多媒体演出“魔灯剧场”。对一个铁幕后的国家来说，这是了不起的胜利。世博会后，展馆被拆开运回国内，在当时的尤利乌斯·伏契克文化休息公园重新组装起来，从1960年起作为“布鲁塞尔馆”举办展览。1991年10月它毁于一场大火，再也没有重建。
-
-🎁 彩蛋：布鲁塞尔的辉煌还有一部分留存了下来：展馆的餐厅被单独重建在伏尔塔瓦河上方的莱特纳公园边上。它如今被称为“58年世博会馆”，依然立在那里，坐拥俯瞰全城的绝佳视野。`,
+      en: "The Expo 58 Pavilion is a round glass building on the edge of Letná Park, looking down on the Vltava like a spaceship that landed in 1958 and decided to stay. It is the last surviving piece of Czechoslovakia's greatest triumph at a world's fair, and it started life as a restaurant in Brussels.\n\nThe Czechoslovak pavilion at the Brussels World's Fair of 1958 was designed by František Cubr, Josef Hrubý and Zdeněk Pokorný, who had won the competition in 1956. It won the Gold Star as the best pavilion of the whole fair, some six million people came through it, among them Walt Disney, and Czechoslovakia went home with dozens of Grand Prix and medals. Laterna Magika made its debut there. The restaurant served Pilsner and Becherovka, with hams, butter and eggs flown in from Prague every month, and the wives of diplomats helped wash the dishes, partly so that nobody among the staff would be tempted to defect.\n\nAfter the fair the pavilion was taken home in pieces. Its main hall was rebuilt at the Výstaviště grounds, where it burned down on 25 October 1991, but the rounded restaurant went to Letná, where it ran as the restaurant Praha Expo 58 and was listed as a cultural monument in 1964. It closed in 1990, was sold off in the small privatisation, passed through several owners and fell apart, until an Austrian investor bought the ruin in 1997 and restored it by 2001. An advertising agency had its offices here until 2020, and since 2021 the ground floor has been an exhibition hall of the Adolf Loos Apartment and Gallery.\n\n🎁 Bonus: The restaurant took 140 staff to Brussels, its manager borrowed from Prague's Hotel Alcron. Its building is the one that made it home in one piece.",
+      cz: "Pavilon Expo 58 je kulatá skleněná stavba na okraji Letenských sadů, která shlíží na Vltavu jako vesmírná loď, jež přistála roku 1958 a rozhodla se zůstat. Je to poslední dochovaný kus největšího triumfu Československa na světové výstavě a začínal jako restaurace v Bruselu.\n\nČeskoslovenský pavilon na Světové výstavě v Bruselu roku 1958 navrhli František Cubr, Josef Hrubý a Zdeněk Pokorný, kteří roku 1956 vyhráli soutěž. Získal Zlatou hvězdu jako nejlepší pavilon celé výstavy, prošlo jím asi šest milionů lidí, mezi nimi Walt Disney, a Československo si odvezlo desítky Grand Prix a medailí. Debutovala tu Laterna magika. Restaurace čepovala Prazdroj a nalévala Becherovku, šunku, máslo a vejce sem každý měsíc vozilo letadlo z Prahy a manželky diplomatů pomáhaly s mytím nádobí, mimo jiné proto, aby nikoho z personálu nenapadlo emigrovat.\n\nPo výstavě pavilon odvezli domů po částech. Jeho hlavní hala byla znovu postavena na Výstavišti, kde 25. října 1991 shořela, ale zaoblená restaurace se dostala na Letnou, kde fungovala jako restaurace Praha Expo 58 a roku 1964 byla prohlášena kulturní památkou. Roku 1990 skončila, v malé privatizaci byla prodána, prošla několika majiteli a chátrala, dokud torzo roku 1997 nekoupil rakouský investor a do roku 2001 ho neobnovil. Do roku 2020 tu sídlila reklamní agentura a od roku 2021 je v přízemí výstavní síň Bytu a galerie Adolfa Loose.\n\n🎁 Bonus: Restaurace si do Bruselu vzala 140 zaměstnanců a vedoucího si vypůjčila z pražského hotelu Alcron. Její budova je ta, která se domů vrátila v celku.",
+      zh: "1958年世博会展馆是莱特纳公园边上一座圆形的玻璃建筑，俯瞰着伏尔塔瓦河，像一艘1958年降落、然后决定不走了的飞船。它是捷克斯洛伐克在世博会上最大一次胜利仅存的一块，而它最初的身份，是布鲁塞尔的一家餐馆。\n\n1958年布鲁塞尔世博会的捷克斯洛伐克馆，由1956年赢得竞赛的弗朗蒂舍克·楚布尔、约瑟夫·赫鲁比和兹德涅克·波科尔尼设计。它拿下了全届最佳展馆“金星奖”，约六百万人走进过这里，其中包括沃尔特·迪士尼，捷克斯洛伐克还捧回了几十个大奖和奖牌。“魔幻灯笼”剧场就是在这里首演的。展馆的餐厅卖比尔森啤酒和贝赫罗夫卡酒，火腿、黄油和鸡蛋每个月从布拉格空运过来；外交官的夫人们也来帮忙洗碗，部分原因是不想让哪位员工动了叛逃的念头。\n\n世博会结束后，展馆被拆成零件运回国。主展厅在展览中心重建，1991年10月25日毁于大火；而那座圆弧形的餐厅去了莱特纳，以“布拉格世博58”餐厅的名义营业，1964年被列为文物。1990年它关了门，在“小私有化”中被卖掉，几经易主，日渐破败，直到1997年一位奥地利投资人买下这具残骸，2001年把它修复一新。2020年以前这里是一家广告公司的办公室，2021年起，一楼成了阿道夫·路斯公寓与画廊的展厅。\n\n🎁 彩蛋：当年这家餐厅带了140名员工去布鲁塞尔，经理是从布拉格阿尔克隆酒店借来的。最后完完整整回到家的，正是它这座楼。",
     },
   },
   {

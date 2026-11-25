@@ -24,7 +24,7 @@ A few had got out in time. In 1939 Nicholas Winton, a young London stockbroker, 
     cz: `Na stěnách Pinkasovy synagogy je 77 297 jmen: Židé z Čech a Moravy zavraždění za šoa, u každého domovská obec a data narození a smrti. Od října 1941 byli pražští Židé shromažďováni na výstavišti a odváděni na nádraží Bubny, odkud vlaky odjížděly do Lodže, Terezína a dál do táborů.
 
 Několika se podařilo odejít včas. V roce 1939 zorganizoval mladý londýnský makléř Nicholas Winton vlaky, které z pražského hlavního nádraží odvezly do Británie 669 převážně židovských dětí. Skoro padesát let o tom mlčel.`,
-    zh: `平卡斯会堂的墙上写着77297个名字，都是在大屠杀中遇害的波希米亚和摩拉维亚犹太人，每个名字旁边写着家乡和生卒日期。从1941年10月起，布拉格的犹太人被集中到展览场，再步行押往布布尼车站，从那里坐火车前往罗兹、特雷津和更远的集中营。
+    zh: `平卡斯会堂的墙上写着77297个名字，都是在大屠杀中遇害的波希米亚和摩拉维亚犹太人，每个名字旁边写着家乡和生卒日期。从1941年10月起，布拉格的犹太人被集中到展览中心，再步行押往布布尼车站，从那里坐火车前往罗兹、特雷津和更远的集中营。
 
 也有少数人及时离开了。1939年，伦敦的年轻股票经纪人尼古拉斯·温顿组织了几趟列车，把669个孩子（大多是犹太孩子）从布拉格中央车站送到了英国。这件事他沉默了将近五十年。`,
   },

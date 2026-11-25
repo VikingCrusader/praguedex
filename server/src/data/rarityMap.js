@@ -27,7 +27,6 @@ export const SLUG_RARITY = {
   'divoka-sarka':                 'epic',  // wild canyon nature reserve, far NW
   'hotel-international-prague':   'epic',  // Stalinist wedding-cake, Dejvice
   'strahov-stadium':              'epic',  // world's largest stadium, up Petřín
-  'bohnice':                      'epic',  // psychiatric hospital park & music festivals
   'vojanovy-sady':                'epic',  // hidden walled garden in Malá Strana
   'vitkov-national-memorial':     'epic',  // colossal Žižka equestrian, off centre
   'pruhonice-park':               'epic',  // UNESCO park outside Prague
@@ -110,7 +109,6 @@ export const SLUG_RARITY = {
   'john-lennon-wall':             'rare',
   'nusle-bridge':                 'rare',
   'botanical-garden':             'rare',
-  'stromovka-park':               'rare',
   'troja-chateau-garden':         'rare',
   'prague-zoo':                   'rare',
   'palac-lazanskych':             'rare',

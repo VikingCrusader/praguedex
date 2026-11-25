@@ -90,7 +90,7 @@ export const QUARTERS = {
   'Střížkov':           { en: 'Střížkov',           zh: '斯特日日科夫' },
   'Suchdol':            { en: 'Suchdol',            zh: '苏赫多尔' },
   'Točná':              { en: 'Točná',              zh: '托奇纳' },
-  'Troja':              { en: 'Troja',              zh: '特洛亚' },
+  'Troja':              { en: 'Troja',              zh: '特罗亚' },
   'Třebonice':          { en: 'Třebonice',          zh: '特热博尼采' },
   'Třeboradice':        { en: 'Třeboradice',        zh: '特热博拉迪采' },
   'Uhříněves':          { en: 'Uhříněves',          zh: '乌赫日涅维斯' },

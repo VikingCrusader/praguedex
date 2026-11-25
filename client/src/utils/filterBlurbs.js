@@ -238,6 +238,16 @@ export const LABEL_BLURB = {
     cz: 'Dům, dvůr, pár hus a staletí názorů na sousedy.',
     zh: '一座房子，一个院子，几只鹅，和几百年来对邻居的意见。',
   },
+  gate: {
+    en: 'Built to keep people out. These days, mostly where they arrange to meet.',
+    cz: 'Postavené, aby nikoho nepustily dovnitř. Dnes se u nich hlavně schází.',
+    zh: '当初修来把人挡在外面，如今主要用来约人见面。',
+  },
+  island: {
+    en: 'Ten minutes from the Old Town, and you are a castaway.',
+    cz: 'Deset minut od Starého Města a jste trosečník.',
+    zh: '离老城十分钟，你就成了荒岛余生的人。',
+  },
   outside: {
     en: 'Beyond the tram lines, where the map starts to feel ambitious.',
     cz: 'Za koncem tramvají, kde začíná být mapa ambiciózní.',

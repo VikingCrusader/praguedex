@@ -19414,7 +19414,7 @@ export const historyEvents = [
         },
       },
       {
-        slug: "vystaviste-praha",
+        slug: "maroldovo-panorama",
         relation: {
           en: "Home of Luděk Marold's panorama of the battle of Lipany, painted in 1898, ninety-five metres long and eleven metres high.",
           cz: "Zde visí panorama bitvy u Lipan od Luďka Marolda z roku 1898, dlouhé devadesát pět a vysoké jedenáct metrů.",

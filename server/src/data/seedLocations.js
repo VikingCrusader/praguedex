@@ -329,9 +329,9 @@ According to legend, Duke Boleslav II founded a church here in 971 after St Matt
 Podle pověsti tu kníže Boleslav II. založil roku 971 kostel poté, co ho v lese z nebezpečí vysvobodil sv. Matěj, je to ale jen příběh: první spolehlivá zmínka o kostele tu pochází z roku 1404. Středověký kostel přestal stačit davům poutníků a v letech 1770 a 1771 ho nahradil dnešní pozdně barokní kostel s cenným interiérem. Poutě ke sv. Matějovi o jeho svátku v únoru byly v Praze prvními jarními poutěmi a časem se z náboženských událostí změnily v živou pouť se stánky a zábavou. Nakonec se pouť rozrostla natolik, že se přestěhovala na Výstaviště, kde se koná každý rok dodnes.
 
 🎁 Bonus: Každé Vánoce kostel vystavuje betlémy z perníku, tradici, která trvá od roku 1972. Kostel, který dal Praze její největší pouť, má tak dodnes rád sladké.`,
-      zh: `圣马提亚教堂坐落在德伊维采沙尔卡山谷上方的山丘上，四周是古老的墓地。正是这座教堂给了布拉格它至今仍在举办的最古老的庙会“马提亚节”，每年春天，这场庙会都会让展览场挤满游乐设施和小摊。
+      zh: `圣马提亚教堂坐落在德伊维采沙尔卡山谷上方的山丘上，四周是古老的墓地。正是这座教堂给了布拉格它至今仍在举办的最古老的庙会“马提亚节”，每年春天，这场庙会都会让展览中心挤满游乐设施和小摊。
 
-据传说，971年博莱斯拉夫二世公爵在森林里遇险，被圣马提亚救下，于是在这里建了一座教堂，不过这只是个故事：关于这里有教堂的第一份可靠记载是1404年的。中世纪的教堂容纳不下成群的朝圣者，1770年和1771年被现在这座内部陈设珍贵的晚期巴洛克教堂取代。2月圣马提亚节向他朝圣，是布拉格一年中最早的春季朝圣，久而久之，宗教活动变成了一场有小摊和娱乐的热闹庙会。后来庙会规模大到不得不搬到展览场，至今每年都在那里举行。
+据传说，971年博莱斯拉夫二世公爵在森林里遇险，被圣马提亚救下，于是在这里建了一座教堂，不过这只是个故事：关于这里有教堂的第一份可靠记载是1404年的。中世纪的教堂容纳不下成群的朝圣者，1770年和1771年被现在这座内部陈设珍贵的晚期巴洛克教堂取代。2月圣马提亚节向他朝圣，是布拉格一年中最早的春季朝圣，久而久之，宗教活动变成了一场有小摊和娱乐的热闹庙会。后来庙会规模大到不得不搬到展览中心，至今每年都在那里举行。
 
 🎁 彩蛋：每年圣诞节，教堂都会展出用姜饼做的耶稣诞生场景，这个传统从1972年延续至今。这座给了布拉格最大游乐庙会的教堂，至今仍然爱吃甜食。`,
     },
@@ -691,7 +691,7 @@ Jubilejní výstava zanechala Praze i několik dalších trvalých darů, mezi n
 
 这座亭子是哈瑙亲王威廉在科马罗夫的铁工厂为1891年周年纪念博览会制作的，为的是展示铸铁能做出什么。它由建筑师奥托·希泽尔以俏皮的新巴洛克风格设计，铁艺花边精巧得几乎看不出是金属。博览会结束后，亲王把它送给了城市，1898年它被拆开，在莱特纳这里重新组装，从此一直立在这里。
 
-周年纪念博览会还给布拉格留下了好几件长久的礼物，其中有彼得任山缆车、彼得任瞭望塔和展览场的克日日克喷泉。
+周年纪念博览会还给布拉格留下了好几件长久的礼物，其中有彼得任山缆车、彼得任瞭望塔和展览中心的克日日克喷泉。
 
 🎁 彩蛋：莱特纳公园里看上去最纤巧的建筑，用的却是和桥梁、铁路一样的材料。黄昏时来吧，那时铁艺花边泛着光，脚下的河水变成金色，你就会明白为什么从这里看到的风景会出现在那么多明信片上。`,
     },
@@ -1367,7 +1367,7 @@ Začínal jako středověká tvrz, poprvé doložená roku 1401. Byl přestavěn
   {
     name: "Křižík's Fountain",
     slug: 'krizikova-fontana',
-    localizedNames: { cz: 'Křižíkova fontána', zh: '克列谢克喷泉' },
+    localizedNames: { cz: 'Křižíkova fontána', zh: '克日日克喷泉' },
     labels: ['cafe', 'national-revival'],
     district: 'Praha 7',
     quarter: 'Bubeneč',
@@ -1386,11 +1386,11 @@ It was built for the Jubilee Exhibition of 1891 by František Křižík, the inv
 Postavil ji pro Jubilejní výstavu roku 1891 František Křižík, vynálezce a elektrotechnik, kterému se někdy říká „český Edison“. Pod skleněnou podlahu umístil obloukové lampy vlastní konstrukce, aby barevné elektrické světlo prosvítalo vodními proudy, což byla senzace v době, kdy bylo elektrické světlo ještě novinkou. Fontána byla úplně přestavěna pro Všeobecnou československou výstavu roku 1991, sto let po otevření, a dnes má kolem tří tisíc trysek, desítky čerpadel a přes tisíc světel, naprogramovaných tak, aby při večerních představeních tančily do rytmu hudby.
 
 🎁 Bonus: Rok 1891 byl pro Křižíka rušný. Na téže výstavě otevřel i první pražskou elektrickou tramvaj, která jezdila z Letné až k výstavišti. Jeden inženýr, jedna výstava a dva vynálezy, které změnily, jak Praha vypadala a jak se pohybovala.`,
-      zh: `展览场的克列谢克喷泉是欧洲最古老的灯光水景喷泉之一。一百多年来，它用变幻色彩的水柱让观众如痴如醉，如今它的表演还配上了音乐。
+      zh: `展览中心的克日日克喷泉是欧洲最古老的灯光水景喷泉之一。一百多年来，它用变幻色彩的水柱让观众如痴如醉，如今它的表演还配上了音乐。
 
 它是“捷克爱迪生”、发明家兼电气工程师弗朗蒂谢克·克日日克为1891年周年纪念博览会建造的。他把自己设计的弧光灯装在玻璃地板下面，让彩色的电光透过水柱照射上来，在电灯还是新鲜玩意儿的年代，这可是轰动一时的奇观。开放一百年后，喷泉为1991年的捷克斯洛伐克综合博览会彻底重建，如今有约三千个喷头、几十台水泵和一千多盏灯，经过编程，在晚间演出中随着音乐的节拍起舞。
 
-🎁 彩蛋：1891年对克日日克来说是忙碌的一年。在同一场博览会上，他还开通了布拉格第一条有轨电车线路，从莱特纳一直开到展览场。一位工程师、一场博览会、两项发明，改变了布拉格的样子和它移动的方式。`,
+🎁 彩蛋：1891年对克日日克来说是忙碌的一年。在同一场博览会上，他还开通了布拉格第一条有轨电车线路，从莱特纳一直开到展览中心。一位工程师、一场博览会、两项发明，改变了布拉格的样子和它移动的方式。`,
     },
   },
   {
@@ -1446,7 +1446,7 @@ Budovu navrhl architekt Vojtěch Ignác Ullmann roku 1863 jako restauraci na nov
 🎁 Bonus: Objednejte si pivo, sedněte si na jednu z dlouhých lavic a podívejte se z kopce dolů: řeka, mosty jeden za druhým a věže Starého Města se rozprostírají před vámi. Málokterá pivní zahrádka na světě má takový výhled.`,
       zh: `莱特纳公园边上的莱特纳小城堡，其实不是城堡，而是一栋1863年的新文艺复兴风格餐厅建筑。它在栗树下的大啤酒花园，能看到布拉格的桥和老城最美的景色之一，夏日傍晚是全城最受欢迎的地方之一。
 
-这栋楼由建筑师沃伊捷赫·伊格纳茨·乌尔曼在1863年设计，作为刚刚规划整理好的莱特纳平原上的一家餐厅，从那以后就一直供应吃喝。1891年周年纪念博览会期间，弗朗蒂谢克·克日日克修建的布拉格第一条有轨电车，就从这里开到展览场。附近公园里有一座19世纪末的老旋转木马，木马都是手工雕刻的，是欧洲同类中最古老的之一。如今这里有一个大型露天啤酒花园、一家餐厅和举办活动的厅堂。
+这栋楼由建筑师沃伊捷赫·伊格纳茨·乌尔曼在1863年设计，作为刚刚规划整理好的莱特纳平原上的一家餐厅，从那以后就一直供应吃喝。1891年周年纪念博览会期间，弗朗蒂谢克·克日日克修建的布拉格第一条有轨电车，就从这里开到展览中心。附近公园里有一座19世纪末的老旋转木马，木马都是手工雕刻的，是欧洲同类中最古老的之一。如今这里有一个大型露天啤酒花园、一家餐厅和举办活动的厅堂。
 
 🎁 彩蛋：点一杯啤酒，在长条凳上坐下，往山下看：河流、一座接一座的桥、老城的尖塔，全都铺展在你面前。世界上很少有啤酒花园能配上这样的风景。`,
     },
@@ -1576,7 +1576,7 @@ Instituce vznikla na počátku 50. let, kdy komunistický stát převzal Strahov
   {
     name: 'Old Wastewater Treatment Plant (Bubeneč)',
     slug: 'stara-cistirna-odpadnich-vod',
-    localizedNames: { cz: 'Stará čistírna odpadních vod v Bubenči', zh: '布本涅奇老污水处理厂' },
+    localizedNames: { cz: 'Stará čistírna odpadních vod v Bubenči', zh: '布贝内奇老污水处理厂' },
     labels: ['factory'],
     district: 'Praha 6',
     quarter: 'Bubeneč',
@@ -1595,7 +1595,7 @@ The plant was built between 1901 and 1906 as the final piece of Prague's first m
 Čistírna byla postavena v letech 1901 až 1906 jako poslední článek první moderní pražské kanalizace, kterou navrhl britský inženýr William Heerlein Lindley, autor kanalizací a vodovodů pro několik evropských měst. Čistila městské odpadní vody hlavně tak, že se kal usazoval ve velkých podzemních nádržích, a fungovala až do roku 1967, kdy ji nahradila nová čistírna na Císařském ostrově. Protože nebyla zbořena ani modernizována, dochovala se téměř úplná i s parními stroji, kotli a cihlovými klenutými komorami. Od roku 2010 je národní kulturní památkou, je součástí Evropské cesty industriálního dědictví a figuruje na indikativním seznamu České republiky pro UNESCO.
 
 🎁 Bonus: Může znít zvláštně jít se dívat na čistírnu, ale podzemní usazovací komory osvětlené světlem dopadajícím klenbami patří k nejatmosféričtějším prostorům v Praze. Posloužily dokonce i jako filmová kulisa.`,
-      zh: `布本涅奇老污水处理厂是一座保存完好的20世纪初污水处理厂，如今是博物馆和国家文化遗产。它展示了一座现代城市如何学会处理自己的污水，它的蒸汽机和拱顶地下室出人意料地壮观。
+      zh: `布贝内奇老污水处理厂是一座保存完好的20世纪初污水处理厂，如今是博物馆和国家文化遗产。它展示了一座现代城市如何学会处理自己的污水，它的蒸汽机和拱顶地下室出人意料地壮观。
 
 处理厂在1901年至1906年间建成，是布拉格第一套现代下水道系统的最后一环，由英国工程师威廉·赫尔莱因·林德利设计，他曾为好几座欧洲城市规划过下水道和供水系统。它主要靠让污泥在巨大的地下池里沉淀来处理城市污水，一直运转到1967年，后来由皇帝岛上的新厂接替。由于没有被拆除或现代化改造，它几乎完整地保存了下来，连蒸汽机、锅炉和砖砌拱顶的地下室都在。它从2010年起是国家文化遗产，是欧洲工业遗产之路的一部分，还在捷克的联合国教科文组织预备名单上。
 
@@ -1636,9 +1636,9 @@ Akademie vznikla z podnětu Společnosti vlasteneckých přátel umění a výuk
     slug: 'kostel-svateho-gotharda',
     localizedNames: { cz: 'Kostel svatého Gotharda', zh: '圣哥达教堂' },
     labels: ['church', 'classicism'],
-    district: 'Praha 7',
+    district: 'Praha 6',
     quarter: 'Bubeneč',
-    coordinates: { lat: 50.102695530385795, lng: 14.424576466136562 },
+    coordinates: { lat: 50.104092215163035, lng: 14.408146662368159 },
     rarity: 'common',
     xpReward: 10,
     wikipediaUrl: '',
@@ -2162,9 +2162,9 @@ Národní muzeum začalo sbírat historická kamenická díla v 19. století a e
 Muzeum je malé a málokdy přeplněné a sochy si tu můžete prohlédnout mnohem zblízka než na mostě nebo na náměstí.
 
 🎁 Bonus: Až budete příště obdivovat světce na Karlově mostě, je dost možné, že se díváte na dvojníka. Ošlehaný originál možná stojí tady, pár kilometrů odtud, a užívá si mnohem klidnější penzi.`,
-      zh: `展览场里的国家博物馆石雕陈列馆是一座安静的石头博物馆，布拉格许多最出色的户外雕塑，在经历了几百年的风吹雨打和污染之后，在这里退休养老。你今天在查理大桥上看到的一些圣人像是复制品，原件就立在这里。
+      zh: `展览中心里的国家博物馆石雕陈列馆是一座安静的石头博物馆，布拉格许多最出色的户外雕塑，在经历了几百年的风吹雨打和污染之后，在这里退休养老。你今天在查理大桥上看到的一些圣人像是复制品，原件就立在这里。
 
-国家博物馆从19世纪起开始收集历史石雕，石雕陈列馆在展览场的展览展示了从11世纪到19世纪的捷克雕塑和石刻。布拉格户外的石头饱受霜冻、雨水和污浊空气之苦，所以这些年来许多原件被搬进室内保护起来，外面换上了复制品。在这里你能看到罗马式和哥特式残件、文艺复兴时期的喷泉和门廊、曾立在老城广场上的圣母柱的部件，还有查理大桥上的巴洛克雕像原件，作者包括马蒂亚斯·伯恩哈德·布劳恩和费迪南德·马克西米利安·布罗科夫等雕塑家。
+国家博物馆从19世纪起开始收集历史石雕，石雕陈列馆在展览中心的展览展示了从11世纪到19世纪的捷克雕塑和石刻。布拉格户外的石头饱受霜冻、雨水和污浊空气之苦，所以这些年来许多原件被搬进室内保护起来，外面换上了复制品。在这里你能看到罗马式和哥特式残件、文艺复兴时期的喷泉和门廊、曾立在老城广场上的圣母柱的部件，还有查理大桥上的巴洛克雕像原件，作者包括马蒂亚斯·伯恩哈德·布劳恩和费迪南德·马克西米利安·布罗科夫等雕塑家。
 
 博物馆不大，很少拥挤，雕像能看得比在桥上或广场上近得多。
 
@@ -3687,7 +3687,7 @@ It went up between 1868 and 1872 to a design by the architect Ignác Vojtěch Ul
 Vyrostla v letech 1868 až 1872 podle návrhu architekta Ignáce Vojtěcha Ullmanna za pomoci Antonína Barvitia, zatímco jeho bratr, malíř Viktor Barvitius, pracoval na výzdobě. Stavebníkem byl Vojtěch Lanna mladší, podnikatel a jeden z velkých sběratelů umění Prahy 19. století. Vila se drží italského vzoru příměstské vily: dům s věží a sloupovou lodžií v upravené zahradě. Uvnitř pokrývají reprezentační místnosti malby řeckých a římských mýtů smíšené s alegoriemi oslavujícími Lannovy vlastní úspěchy.
 
 🎁 Bonus: Rodinné jmění nevydrželo. Lannova slavná sbírka umění byla kolem let 1909 a 1910 kus po kusu vydražena v Berlíně a o pár let později byla prodána i vila. Po několika majitelích byla roku 1948 znárodněna a od 50. let patří Akademii věd, která ji používá pro konference, obřady a hosty, takže dál slouží účelu, který měl její stavitel tak rád: ohromovat návštěvy.`,
-      zh: `兰纳别墅是布本涅奇的一座新文艺复兴风格夏季别墅，常被称为波希米亚第一座真正的新文艺复兴建筑。它是为一位实业家建造的，他想要一座漂亮的乡间宅子，也想要一个气派的地方来展示他的艺术收藏。
+      zh: `兰纳别墅是布贝内奇的一座新文艺复兴风格夏季别墅，常被称为波希米亚第一座真正的新文艺复兴建筑。它是为一位实业家建造的，他想要一座漂亮的乡间宅子，也想要一个气派的地方来展示他的艺术收藏。
 
 别墅于1868年至1872年间按照建筑师伊格纳茨·沃伊捷赫·乌尔曼的设计建成，安东宁·巴尔维蒂乌斯协助设计，他的兄弟、画家维克托·巴尔维蒂乌斯负责装饰。业主是小沃伊捷赫·兰纳，一位企业家，也是19世纪布拉格最了不起的艺术收藏家之一。别墅遵循意大利郊外别墅的范式：一座带塔楼和柱廊凉廊的房子，坐落在精心布置的园林中。屋内的会客厅绘满了希腊罗马神话壁画，其间夹着颂扬兰纳本人成就的寓意画。
 
@@ -5585,7 +5585,7 @@ Projekt začal koncem 90. let, když developeři pochopili, že rostoucí centru
     name: 'Gate to Rohan Island',
     slug: 'brana-na-rohansky-ostrov',
     localizedNames: { cz: 'Brána na Rohanský ostrov', zh: '罗汉岛之门' },
-    labels: ['contemporary'],
+    labels: ['gate', 'contemporary'],
     district: 'Praha 8',
     quarter: 'Karlín',
     coordinates: { lat: 50.09903043470918, lng: 14.46178690371143 },
@@ -6499,7 +6499,7 @@ The pavilion, designed by František Cubr, Josef Hrubý and Zdeněk Pokorný, wa
 Pavilon navržený Františkem Cubrem, Josefem Hrubým a Zdeňkem Pokorným byl na Expu 58 senzací. Získal Zlatou hvězdu, nejvyšší cenu výstavy pro pavilon, a československá expozice posbírala mnoho dalších ocenění, od skla a designu po film a multimediální představení Laterna magika, které tam mělo premiéru. Pro zemi za železnou oponou to byl pozoruhodný triumf. Po výstavě byl pavilon rozebrán, převezen domů a znovu postaven tady, v tehdejším Parku kultury a oddechu Julia Fučíka, kde od roku 1960 sloužil jako „Bruselský pavilon“ pro výstavy. V říjnu 1991 ho zničil požár a už nikdy nebyl obnoven.
 
 🎁 Bonus: Jedna část bruselského úspěchu přežila: restaurace pavilonu, která byla znovu postavena zvlášť na okraji Letenských sadů nad Vltavou. Dnes známá jako pavilon Expo 58 tam stále stojí s nádherným výhledem na město.`,
-      zh: `如今展览场的这块地方空空荡荡，但在三十年里，这里立着1958年布鲁塞尔世博会的捷克斯洛伐克馆，那是冷战时期捷克斯洛伐克建筑与设计最辉煌的成就。
+      zh: `如今展览中心的这块地方空空荡荡，但在三十年里，这里立着1958年布鲁塞尔世博会的捷克斯洛伐克馆，那是冷战时期捷克斯洛伐克建筑与设计最辉煌的成就。
 
 这座展馆由弗朗蒂谢克·楚布尔、约瑟夫·赫鲁比和兹德涅克·波科尔尼设计，在1958年世博会上引起轰动。它赢得了世博会给展馆的最高奖金星奖，捷克斯洛伐克展区还拿下了许多其他奖项，从玻璃、设计到电影，还有在那里首演的多媒体演出“魔灯剧场”。对一个铁幕后的国家来说，这是了不起的胜利。世博会后，展馆被拆开运回国内，在当时的尤利乌斯·伏契克文化休息公园重新组装起来，从1960年起作为“布鲁塞尔馆”举办展览。1991年10月它毁于一场大火，再也没有重建。
 
@@ -6857,7 +6857,7 @@ Parkhotel byl postaven roku 1967 podle návrhu architekta Zdeňka Edela s Jiří
 🎁 Bonus: Hotel postavený, aby zahraniční obchodní delegace ohromil úspěchy socialistického Československa, dnes patří veselé francouzské značce známé neonovými nápisy a svéráznými interiéry. Málokterá budova v Praze tak úplně změnila náladu a přitom si zachovala tvar.`,
       zh: `妈妈庇护所布拉格酒店位于霍勒绍维采，设在原来的公园饭店里，那是共产主义捷克斯洛伐克最早建成的现代豪华酒店之一。这家法国连锁酒店用自己俏皮多彩的室内设计填满了这栋60年代的建筑，同时保留了一些最出彩的原有元素。
 
-公园饭店在1967年建成，由建筑师兹德涅克·埃德尔和伊日·拉维奇卡设计，室内由阿莱娜·什拉姆科娃设计，靠近贸易博览宫和展览场。它面向外国商人和访客，属于国营的国际饭店连锁，提供了一种难得的西式舒适体验。它简洁的晚期现代主义设计看得出勒·柯布西耶的影响。从2014年起，它经过精心翻修，恢复了1967年的原貌，后来由妈妈庇护所接手，在自己大胆的装饰旁边保留了接待台和捷克挂毯等元素。
+公园饭店在1967年建成，由建筑师兹德涅克·埃德尔和伊日·拉维奇卡设计，室内由阿莱娜·什拉姆科娃设计，靠近贸易博览宫和展览中心。它面向外国商人和访客，属于国营的国际饭店连锁，提供了一种难得的西式舒适体验。它简洁的晚期现代主义设计看得出勒·柯布西耶的影响。从2014年起，它经过精心翻修，恢复了1967年的原貌，后来由妈妈庇护所接手，在自己大胆的装饰旁边保留了接待台和捷克挂毯等元素。
 
 🎁 彩蛋：一家为了让外国贸易代表团对社会主义捷克斯洛伐克的成就刮目相看而建的酒店，如今属于一个以霓虹灯招牌和古怪内饰闻名的欢快法国品牌。布拉格很少有建筑能这样彻底地换了心情，却保住了自己的模样。`,
     },
@@ -6973,7 +6973,7 @@ Vznikla jako náhrada staré čistírny v Bubenči na druhé straně kanálu, kt
 🎁 Bonus: Její elegantní předchůdkyně na druhé straně kanálu, Stará čistírna odpadních vod z roku 1906, je dnes muzeem průmyslového dědictví a jednou z nejpřekvapivějších pražských pamětihodností. Stará i nová čistírna spolu vyprávějí celý příběh o tom, jak se velkoměsto naučilo udržovat svou řeku čistou.`,
       zh: `布拉格中央污水处理厂位于布拉格北部伏尔塔瓦河中的皇帝岛上。全城冲进、倒进、洗进下水道的水，几乎都在这里净化，这是一份极不光鲜的工作，却让这条河半个多世纪来干净了许多。
 
-它是为了取代运河对岸布本涅奇的老污水处理厂而建的，老厂在1906年时算得上现代化，却已应付不了不断扩大的城市。新厂1959年动工，1965年投入运行，此后又几经扩建和现代化改造。2002年8月的大洪水冲破了它的防护堤，整个厂区被淹，损失惨重。从2018年起，一条全新的处理线和原有的处理线并肩运行，一起净化一百多万人的污水。
+它是为了取代运河对岸布贝内奇的老污水处理厂而建的，老厂在1906年时算得上现代化，却已应付不了不断扩大的城市。新厂1959年动工，1965年投入运行，此后又几经扩建和现代化改造。2002年8月的大洪水冲破了它的防护堤，整个厂区被淹，损失惨重。从2018年起，一条全新的处理线和原有的处理线并肩运行，一起净化一百多万人的污水。
 
 🎁 彩蛋：运河对岸它那位优雅的前辈，1906年的老污水处理厂，如今是一座工业遗产博物馆，是布拉格最出人意料的景点之一。新老两座处理厂合在一起，讲述了一座大城市如何学会让自己的河流保持干净的完整故事。`,
     },
@@ -7490,7 +7490,7 @@ The square was laid out in 1925 and first named Uralské náměstí, after the U
 Náměstí bylo založeno roku 1925 a nejdřív se jmenovalo Uralské, podle Uralu. Za německé okupace, v letech 1940 až 1945, to bylo náměstí Marie Terezie. Od roku 1952 nese jméno ruského básníka Alexandra Puškina, což odpovídalo sovětsky orientované kulturní politice raných komunistických let. V roce 2011 navrhla rusko-česká obchodní komora trojmetrovou bronzovou sochu Puškina od sochaře gruzínského původu Georgije Frangulyana, ale po námitkách místních obyvatel z plánu sešlo. O pár let později byla místo ní odhalena mnohem skromnější básníkova busta.
 
 🎁 Bonus: Je to jedno z mála míst v Praze, kde sousedé vyhráli veřejný spor o to, jak velký má být pomník ruského básníka. Po většinu svého života je ale náměstí prostě tichým parkem, kde lidé venčí psy, ať je na ceduli napsáno cokoli.`,
-      zh: `普希金广场是布本涅奇别墅区里一片绿树成荫的广场，面积约一万两千五百平方米。它改名的次数几乎和重新栽种的次数一样多，那一串名字读起来，就像在快速回顾当时是谁在布拉格背后盯着。
+      zh: `普希金广场是布贝内奇别墅区里一片绿树成荫的广场，面积约一万两千五百平方米。它改名的次数几乎和重新栽种的次数一样多，那一串名字读起来，就像在快速回顾当时是谁在布拉格背后盯着。
 
 广场建于1925年，最初叫乌拉尔广场，以乌拉尔山命名。德国占领期间，1940年到1945年，它叫玛丽亚·特蕾西亚广场。1952年起，它以俄国诗人亚历山大·普希金命名，这符合共产党执政初期向苏联看齐的文化政策。2011年，一个俄捷商会提议在这里立一尊三米高的普希金铜像，作者是格鲁吉亚出生的雕塑家格奥尔基·弗朗古良，但因当地居民反对，计划作罢。几年后，取而代之揭幕的是一尊朴素得多的诗人胸像。
 
@@ -7757,9 +7757,9 @@ Hrabě Václav Vojtěch ze Šternberka, stavitel Trojského zámku, požádal ar
 Svah pod ní je vinice svaté Kláry, jedna z nejstarších v Praze: réva tu na kopci rostla už ve 13. století, staletí předtím, než někoho napadlo stavět zámek. Ze zámku kdysi vedla cesta mezi řádky révy až ke dveřím kaple. Od roku 1995 kaple i vinice patří Botanické zahradě hl. m. Prahy, která z těchto svahů dodnes vyrábí víno, takže návštěva tu může skončit sklenkou.
 
 🎁 Bonus: vinice je nejstarším obyvatelem kopce, o nějakých čtyři sta let starší než zámek i kaple. Jméno si prostě vzala po nejmladším sousedovi.`,
-      zh: `欢迎来到圣克拉拉葡萄园和小教堂。特洛亚宫上方的山坡种满了葡萄，坡顶立着一座巴洛克小教堂，修建它的理由非常实际：附近的居民总被洪水挡在弥撒门外，于是干脆把弥撒搬到了山上。在特洛亚，这回总算不是为了葡萄。
+      zh: `欢迎来到圣克拉拉葡萄园和小教堂。特罗亚宫上方的山坡种满了葡萄，坡顶立着一座巴洛克小教堂，修建它的理由非常实际：附近的居民总被洪水挡在弥撒门外，于是干脆把弥撒搬到了山上。在特罗亚，这回总算不是为了葡萄。
 
-建造特洛亚宫的什滕贝格伯爵瓦茨拉夫·沃伊捷赫，在1691年向大主教的宗教法庭申请许可，理由是山下河水泛滥，常常让他的人去不了教堂。小教堂大约在1695年建成，献给圣克拉拉，也就是他妻子克拉拉·贝尔纳迪娜的主保圣人。建筑本身很低调，长方形平面、平顶天花板，加一座小塔楼，完全无意和山下的宫殿争风头。1924年一场火灾之后，它换上了今天的屋顶和塔楼，最近一次修缮是在1996年，至今每个星期天仍在这里做弥撒。
+建造特罗亚宫的什滕贝格伯爵瓦茨拉夫·沃伊捷赫，在1691年向大主教的宗教法庭申请许可，理由是山下河水泛滥，常常让他的人去不了教堂。小教堂大约在1695年建成，献给圣克拉拉，也就是他妻子克拉拉·贝尔纳迪娜的主保圣人。建筑本身很低调，长方形平面、平顶天花板，加一座小塔楼，完全无意和山下的宫殿争风头。1924年一场火灾之后，它换上了今天的屋顶和塔楼，最近一次修缮是在1996年，至今每个星期天仍在这里做弥撒。
 
 教堂脚下的山坡就是圣克拉拉葡萄园，布拉格最古老的葡萄园之一：早在13世纪，这座山上就种着葡萄，比任何人想到要建宫殿都早了好几百年。从前有一条小路从宫殿出发，穿过一行行葡萄藤，一直通到教堂门口。1995年起，教堂和葡萄园都归布拉格植物园所有，植物园至今仍用这片山坡上的葡萄酿酒，所以来这里的行程，可以用一杯酒收尾。
 
@@ -7804,7 +7804,7 @@ Každé jaro skleník hostí i oblíbenou výstavu motýlů, kdy mezi návštěv
   {
     name: 'Japanese Garden (Troja)',
     slug: 'japonska-zahrada-troja',
-    localizedNames: { cz: 'Japonská zahrada', zh: '日本园（特洛亚）' },
+    localizedNames: { cz: 'Japonská zahrada', zh: '日本园（特罗亚）' },
     labels: ['park', 'nature', 'cultural'],
     district: 'Praha 7',
     quarter: 'Troja',
@@ -7833,7 +7833,7 @@ Práce na zahradě začaly roku 1995 a veřejnosti se otevřela roku 1997. Má d
   {
     name: 'Troja Garden Labyrinth',
     slug: 'labyrint-trojske-zahrady',
-    localizedNames: { cz: 'Labyrint v Trojských zahradách', zh: '特洛亚花园迷宫' },
+    localizedNames: { cz: 'Labyrint v Trojských zahradách', zh: '特罗亚花园迷宫' },
     labels: ['park', 'nature', 'baroque', 'hidden-gem'],
     district: 'Praha 7',
     quarter: 'Troja',
@@ -10831,7 +10831,7 @@ Stavba začala roku 1927. Budova byla nejprve plánována jako kino, ale dokonč
     name: 'Slavonic Island',
     slug: 'slovansky-ostrov',
     localizedNames: { cz: 'Slovanský ostrov (Žofín)', zh: '斯拉夫岛（若芬岛）' },
-    labels: ['park', 'cultural', 'national-revival'],
+    labels: ['island', 'park', 'cultural', 'national-revival'],
     district: 'Praha 1',
     quarter: 'Nové Město',
     coordinates: { lat: 50.080377419623844, lng: 14.412417567959778 },
@@ -13642,7 +13642,7 @@ Vila byla postavena koncem 20. let pro advokáta Josefa Růžičku. V letech 193
     name: 'Neo-Gothic Gate to Stromovka',
     slug: 'novogoticka-brana-do-stromovky',
     localizedNames: { cz: 'Novogotická vstupní brána do Stromovky', zh: '斯特罗莫夫卡新哥特式大门' },
-    labels: ['park', 'historicism'],
+    labels: ['gate', 'park', 'historicism'],
     district: 'Praha 7',
     quarter: 'Bubeneč',
     coordinates: { lat: 50.10424656132381, lng: 14.413390561536122 },
@@ -13724,7 +13724,7 @@ The relationship is older than that. The Republic of China opened a legation in 
 Vztahy jsou ale starší. Čínská republika otevřela v Praze vyslanectví na počátku 30. let a tyto styky skončily, když Československo roku 1949 přešlo s uznáním k Pekingu. Během komunistických desetiletí byly obě země spojenci ve stejném táboře, s výkyvy nahoru i dolů. Po roce 1989 se vztahy staly složitějšími a otevřeněji diskutovanými. V roce 2019 Praha ukončila partnerskou smlouvu s Pekingem a na začátku roku 2020 místo ní podepsala jinou s Tchaj-pejí, veřejný spor, který vedl přímo přes tuhle adresu.
 
 🎁 Bonus: Už mnoho let pořádají stoupenci Fa-lun-kungu, duchovního hnutí zakázaného v Číně, na chodníku před velvyslanectvím, pár metrů od jeho brány, tiché meditační hlídky. Je to pravidelná připomínka toho, že ve svobodném městě je i práh ambasády otevřený protestu.`,
-      zh: `中华人民共和国驻捷克大使馆位于布本涅奇，这是一片绿树成荫的别墅区，布拉格的许多使馆都在这里。1949年10月，新中国在北京宣告成立仅几天后，捷克斯洛伐克就承认了它，此后中国一直在布拉格派驻使馆。
+      zh: `中华人民共和国驻捷克大使馆位于布贝内奇，这是一片绿树成荫的别墅区，布拉格的许多使馆都在这里。1949年10月，新中国在北京宣告成立仅几天后，捷克斯洛伐克就承认了它，此后中国一直在布拉格派驻使馆。
 
 两国的往来其实更早。中华民国在20世纪30年代初就在布拉格设立了公使馆，1949年捷克斯洛伐克改为承认北京后，这段关系随之结束。共产主义的几十年里，两国同属一个阵营，关系时冷时热。1989年以后，双边关系变得更加复杂，也被更公开地讨论。2019年，布拉格市终止了与北京的友好城市协议，2020年初转而与台北签署了一份，这场公开的风波正好经过这个地址。
 
@@ -14965,7 +14965,7 @@ V roce 1899 koupil mlýn jako ruinu známý pražský hostinský Jan Josef Čern
     name: 'Libocká Gate',
     slug: 'libocka-brana',
     localizedNames: { cz: 'Libocká brána', zh: '利博茨门' },
-    labels: ['renaissance'],
+    labels: ['gate', 'renaissance'],
     district: 'Praha 6',
     quarter: 'Liboc',
     coordinates: { lat: 50.08485061633346, lng: 14.336941837838138 },
@@ -17713,7 +17713,7 @@ Po více než sto letech je sbor stále aktivní na adrese Korunní 60 a koná b
     name: 'Cihelná Gate',
     slug: 'cihelna-brana',
     localizedNames: { cz: 'Cihelná Brána', zh: '齐赫尔纳城门' },
-    labels: ['classicism'],
+    labels: ['gate', 'classicism'],
     district: 'Praha 2',
     quarter: 'Vyšehrad',
     coordinates: { lat: 50.065290931318664, lng: 14.419159963747807 },
@@ -19571,7 +19571,7 @@ Místní pověst tvrdí, že se tu Libuše koupala se svými milenci a jakmile s
     name: 'Špička Gate',
     slug: 'brana-spicka',
     localizedNames: { cz: 'Brána Špička', zh: '施皮奇卡门' },
-    labels: ['ruin', 'gothic'],
+    labels: ['gate', 'ruin', 'gothic'],
     district: 'Praha 2',
     quarter: 'Vyšehrad',
     coordinates: { lat: 50.062222623824375, lng: 14.423082283983915 },
@@ -21959,7 +21959,7 @@ V dalších dvou stoletích následovaly gotické a renesanční úpravy, ale z�
     name: 'Old Town Bridge Tower',
     slug: 'staromestska-mostecka-vez',
     localizedNames: { cz: 'Staroměstská mostecká věž', zh: '旧城桥塔' },
-    labels: ['tower', 'gothic'],
+    labels: ['tower', 'gate', 'gothic'],
     district: 'Praha 1',
     quarter: 'Staré Město',
     coordinates: { lat: 50.08623517503191, lng: 14.413613758762608 },
@@ -23012,7 +23012,7 @@ Vykopávky na svazích odkryly přes sedmdesát hrobů z doby bronzové a poklad
   {
     name: 'Troja Bridge',
     slug: 'trojsky-most',
-    localizedNames: { cz: 'Trojský most', zh: '特洛亚桥' },
+    localizedNames: { cz: 'Trojský most', zh: '特罗亚桥' },
     labels: ['bridge', 'contemporary'],
     district: 'Praha 7',
     quarter: 'Troja',
@@ -23035,13 +23035,13 @@ Přes tři desetiletí předtím tu dopravu zajišťoval provizorní tramvajový
 Elegance měla svou cenu: původně rozpočtovaný na půl miliardy korun nakonec most město stál 1,3 miliardy, plus dalších 11 milionů korun pokuty za chyby ve výběrovém řízení. Pražská názvoslovná komise chvíli zvažovala pojmenovat most po bývalém prezidentu Václavu Havlovi, než někdo poukázal na zjevný problém: Havel se veřejně stavěl proti právě tomuto projektu okruhu, jehož je most součástí. Nakonec zůstalo u tradičního jména Trojský most.
 
 🎁 Bonus: Není to ani zdaleka první pražský most, který nesl jméno "Trojský most". Dnes už zaniklý most opodál, postavený v roce 1928, tohle jméno nosil osmnáct let, než byl v roce 1946 přejmenován na most Barikádníků, na počest mužů, kteří ho v květnu 1945 bránili.`,
-      zh: `欢迎来到特洛亚桥，这座造型利落的钢结构拱桥，自2014年起横跨伏尔塔瓦河，连接霍莱肖维采与特洛亚两区，承载着电车、汽车、自行车与行人往来两岸。它是布拉格最年轻的一座跨河大桥，也是姗姗来迟了许久才终于到来的一座。
+      zh: `欢迎来到特罗亚桥，这座造型利落的钢结构拱桥，自2014年起横跨伏尔塔瓦河，连接霍莱肖维采与特罗亚两区，承载着电车、汽车、自行车与行人往来两岸。它是布拉格最年轻的一座跨河大桥，也是姗姗来迟了许久才终于到来的一座。
 
 在此之前的三十多年里，这段河道一直靠一座绰号"喧闹鬼"的临时电车桥维持通行，建于1981年，也确实不负其名，2013年拆除时，几乎没人为它感到惋惜。取而代之的是一座网状拱桥：工程师称这种结构为"síťový oblouk"，斜向的缆索在拱与桥面之间纵横交错，而不是垂直悬挂。全长262米，主拱跨度达200.4米，对于说到底不过是布拉格内环路上一段车流繁忙路段而言，堪称异常优雅的解决方案。这项设计还在2015年拿下了欧洲钢结构设计大奖。
 
-优雅是有代价的：这座桥原本预算五亿克朗，最终却花掉了布拉格市13亿克朗，外加因招标程序出错而支付的1100万克朗罚款。布拉格市的地名委员会一度考虑以已故总统瓦茨拉夫·哈维尔的名字为大桥命名，直到有人指出一个明显的问题：哈维尔本人曾公开反对的，正是这座桥所属的那条内环路工程。于是，大桥最终还是保留了"特洛亚桥"这个传统名字。
+优雅是有代价的：这座桥原本预算五亿克朗，最终却花掉了布拉格市13亿克朗，外加因招标程序出错而支付的1100万克朗罚款。布拉格市的地名委员会一度考虑以已故总统瓦茨拉夫·哈维尔的名字为大桥命名，直到有人指出一个明显的问题：哈维尔本人曾公开反对的，正是这座桥所属的那条内环路工程。于是，大桥最终还是保留了"特罗亚桥"这个传统名字。
 
-🎁 彩蛋：这甚至都不是布拉格第一座叫"特洛亚桥"的大桥。附近一座如今已经不复存在的旧桥，建于1928年，就顶着这个名字用了整整十八年，直到1946年改名为"街垒战士桥"，以纪念1945年5月在桥上守卫的战士们。`,
+🎁 彩蛋：这甚至都不是布拉格第一座叫"特罗亚桥"的大桥。附近一座如今已经不复存在的旧桥，建于1928年，就顶着这个名字用了整整十八年，直到1946年改名为"街垒战士桥"，以纪念1945年5月在桥上守卫的战士们。`,
     },
   },
   {
@@ -23073,9 +23073,9 @@ Původní ocelový obloukový most na tomto místě vznikl v letech 1927–1928 
 🎁 Bonus: Pár set metrů po proudu řeky stojí nejnovější pražský most, Trojský most, otevřený v roce 2014, který nese přesně to jméno, kterého se tento most sám vzdal už v roce 1946. Trvalo to skoro sedmdesát let, ale jméno si na tenhle úsek Vltavy nakonec přece jen našlo cestu zpátky.`,
       zh: `欢迎来到街垒战士桥，自1980年起，这座桥一直承载着布拉格繁忙的南北干道，横跨伏尔塔瓦河连接霍莱肖维采与利本。但尽管名字听起来庄重肃穆，眼前这座桥其实并不是当年真正配得上这个名字的那一座。
 
-这个位置上最初的钢结构拱桥建于1927至1928年，最初十八年里，它的名字很简单，就叫"特洛亚桥"。1945年5月，战争的最后几天，捷克起义者在这座桥上构筑街垒，整整坚守了两天，抵挡住一支党卫队装甲纵队的进攻，这段防御战的细节，如今在这座桥两端的纪念物上都有更详尽的记载。1946年，市政府将这处渡口更名为"街垒战士桥"，以纪念这些战士。可几乎没有人在如今走过这座桥时会意识到：那座1928年建成、战士们真正站立过的桥，其实早已不复存在：到了20世纪70年代末，它那狭窄的十六米宽桥面，因排水设计不良而长年积水，当时又已沦为流浪者的栖身之所，再也无法承受布拉格日益增长的交通压力；1977年到1980年间，这座桥从桥墩基础往上被彻底拆除重建。如今挂着这个名字的桥，是1980年11月28日通车的，宽度是原桥的两倍多，而它自己，从未真正经历过任何一场战斗。
+这个位置上最初的钢结构拱桥建于1927至1928年，最初十八年里，它的名字很简单，就叫"特罗亚桥"。1945年5月，战争的最后几天，捷克起义者在这座桥上构筑街垒，整整坚守了两天，抵挡住一支党卫队装甲纵队的进攻，这段防御战的细节，如今在这座桥两端的纪念物上都有更详尽的记载。1946年，市政府将这处渡口更名为"街垒战士桥"，以纪念这些战士。可几乎没有人在如今走过这座桥时会意识到：那座1928年建成、战士们真正站立过的桥，其实早已不复存在：到了20世纪70年代末，它那狭窄的十六米宽桥面，因排水设计不良而长年积水，当时又已沦为流浪者的栖身之所，再也无法承受布拉格日益增长的交通压力；1977年到1980年间，这座桥从桥墩基础往上被彻底拆除重建。如今挂着这个名字的桥，是1980年11月28日通车的，宽度是原桥的两倍多，而它自己，从未真正经历过任何一场战斗。
 
-🎁 彩蛋：往下游几百米处，矗立着布拉格最年轻的跨河大桥，即2014年开通的"特洛亚桥"，用的正是这座桥自己在1946年放弃的那个名字。整整耗费了近七十年，这个名字最终还是绕了一圈，回到了伏尔塔瓦河的这段河道上。`,
+🎁 彩蛋：往下游几百米处，矗立着布拉格最年轻的跨河大桥，即2014年开通的"特罗亚桥"，用的正是这座桥自己在1946年放弃的那个名字。整整耗费了近七十年，这个名字最终还是绕了一圈，回到了伏尔塔瓦河的这段河道上。`,
     },
   },
   {
@@ -30322,7 +30322,7 @@ Biskup zemřel roku 1826 a usedlost brzy vyhořela a začala chátrat. Koncem 20
     name: "Children's Island",
     slug: 'detsky-ostrov',
     localizedNames: { cz: 'Dětský ostrov', zh: '儿童岛' },
-    labels: ['park', 'nature'],
+    labels: ['island', 'park', 'nature'],
     district: 'Praha 5',
     quarter: 'Smíchov',
     coordinates: { lat: 50.076849216977614, lng: 14.40939070378932 },
@@ -31191,7 +31191,7 @@ Doma to byla těžká léta. Roku 1611 mu zemřel malý syn a pak i manželka. P
     name: 'Matthias Gate',
     slug: 'matyasova-brana',
     localizedNames: { cz: 'Matyášova brána', zh: '马蒂亚斯门' },
-    labels: ['castle and fortress', 'baroque'],
+    labels: ['gate', 'baroque'],
     district: 'Praha 1',
     quarter: 'Hradčany',
     coordinates: { lat: 50.08995519709517, lng: 14.398829810705601 },
@@ -34200,7 +34200,7 @@ Trať zanikla v osmdesátých letech. Těšnovské nádraží, hrdou konečnou, 
     name: 'Rohan Island Meadow',
     slug: 'rohansky-ostrov',
     localizedNames: { cz: 'Louka na Rohanském ostrově', zh: '罗汉岛草地' },
-    labels: ['nature', 'park', 'waterbody'],
+    labels: ['island', 'nature', 'park', 'waterbody'],
     district: 'Praha 8',
     quarter: 'Karlín',
     coordinates: { lat: 50.10057780977124, lng: 14.464984870412248 },
@@ -35711,7 +35711,7 @@ Jaroslav Hašek znal Čtyřku zevnitř. V prosinci 1914, kdy válka teprve zača
     name: 'Štvanice Island',
     slug: 'stvanice',
     localizedNames: { cz: 'Ostrov Štvanice', zh: '施特万尼采岛' },
-    labels: ['park', 'waterbody'],
+    labels: ['island', 'park', 'waterbody'],
     district: 'Praha 7',
     quarter: 'Holešovice',
     coordinates: { lat: 50.096806164441475, lng: 14.447794625726633 },
@@ -36727,7 +36727,7 @@ Kaskáda dokončená v roce 2015 končí vysokým kovovým rámem, který měl p
     name: 'Rowing Island',
     slug: 'veslarsky-ostrov',
     localizedNames: { cz: 'Veslařský ostrov', zh: '赛艇岛' },
-    labels: ['nature'],
+    labels: ['island', 'nature'],
     district: 'Praha 4',
     quarter: 'Podolí',
     coordinates: { lat: 50.05198808650477, lng: 14.414918140335555 },
@@ -40680,6 +40680,329 @@ Fakulta začala roku 1953 jako Institut tělesné výchovy a sportu v Tyršově 
 学院的前身是1953年成立的体育运动学院，设在小城的蒂尔什之家，也就是索科尔体操运动的老总部。1959年它并入查理大学，1965年升格为学院。沃科维采这片校园当年属于捷共中央政治学院，未来的干部在这里学马列主义。1989年以后，党用不上它了，体育学院就搬了进来。如今这里有田径场、体育馆、沙滩排球场，在特罗亚激流回旋赛道边还有船库，另外有个一面透明的塑料泳道，泳者逆着水流游，老师在外面把每个毛病看得一清二楚。毕业生里有体操名将薇拉·恰斯拉夫斯卡、花样滑冰选手托马什·韦尔内尔和标枪选手维捷斯拉夫·韦塞利。
 
 🎁 彩蛋：20世纪60年代，埃塞俄比亚人尼古西·罗巴在这里念过书。回国后他当上了国家队教练，他带的长跑运动员米鲁茨·伊夫特在1980年莫斯科奥运会上拿下了5000米和10000米两枚金牌。`,
+    },
+  },
+  {
+    // Stromovka pack, 2026-11-25 (user's call, coordinates from the user).
+    // Sources: cs.wikipedia "Malá říčka" (pasted by the user): a blind arm of
+    // the Vltava, the surviving rest of the meandering Bubeneč arm by the
+    // Imperial Mill and the paper mill, mostly filled in during the 1899–1902
+    // regulation (Troja weir and lock, the canal, the Podbaba lock); inlet in
+    // the dyke on the left side of the canal, ~500 m arc westwards, outflow by
+    // a brick tunnel past the Imperial Mill into the piped Dejvický potok;
+    // desilted from October 2002, dyke repaired 2003 with stone from the
+    // park's flood-wrecked fence, inlet rebuilt as a stone cascade; birds incl.
+    // some that live free in the zoo; a fishing ground.
+    name: 'Malá říčka Backwater',
+    slug: 'mala-ricka',
+    localizedNames: { cz: 'Malá říčka', zh: '小河故道' },
+    labels: ['waterbody', 'nature', 'hidden-gem'],
+    district: 'Praha 7',
+    quarter: 'Bubeneč',
+    coordinates: { lat: 50.10821559595578, lng: 14.413013839895848 },
+    rarity: 'superior',
+    description: {
+      en: `On the northern edge of Stromovka lies a long, quiet curve of water that looks like a river but goes nowhere. It is a piece of the Vltava that the Vltava itself left behind, and today it belongs mostly to swans, herons and anglers with a lot of patience.
+
+Until the end of the 19th century a winding arm of the river ran here, past the Imperial Mill and the paper mill. Between 1899 and 1902 the Vltava was made navigable from Prague to Mělník: the Troja weir and lock went up, a navigation canal was dug, and most of the old Bubeneč arm was filled in. Malá říčka, "the little river", is what was left. Water still trickles in from the canal at its eastern end, bends west for about 500 metres and leaves through a brick tunnel that runs past the Imperial Mill into a buried stream, which carries it back to the Vltava.
+
+The flood of August 2002 put all of Stromovka under several metres of water. The repair of the park's water system began here that October, by dredging the mud out of Malá říčka. In 2003 its little dyke was rebuilt with stones from the park's old fence, which the flood had knocked down, and the inlet became a small stone cascade.
+
+🎁 Bonus: Kingfishers, grey herons, pochards, wigeons and moorhens all turn up here, and some of the birds are commuters: they live free in the zoo across the river and fly over to Malá říčka when it suits them.`,
+      cz: `Na severním okraji Stromovky leží dlouhý, tichý oblouk vody, který vypadá jako řeka, ale nikam neteče. Je to kus Vltavy, který Vltava sama opustila, a dnes patří hlavně labutím, volavkám a rybářům s velkou trpělivostí.
+
+Až do konce 19. století tu kolem Císařského mlýna a papírny meandrovalo rameno řeky. V letech 1899 až 1902 se Vltava splavňovala z Prahy do Mělníka: vyrostl trojský jez se zdymadlem, vykopal se plavební kanál a staré bubenečské rameno se z velké části zasypalo. Malá říčka je to, co z něj zbylo. Voda do ní dodnes přitéká z kanálu na východním konci, stáčí se asi 500 metrů obloukem na západ a odtéká cihlovou štolou kolem Císařského mlýna do zatrubněného Dejvického potoka, který ji vrací do Vltavy.
+
+Povodeň v srpnu 2002 zatopila celou Stromovku několika metry vody. Obnova vodního systému parku začala právě tady, v říjnu téhož roku odbahněním Malé říčky. V roce 2003 dostala opravenou hrázku z kamene ze starého oplocení obory, které povodeň zničila, a z přítoku se stala malá kamenná kaskáda.
+
+🎁 Bonus: Zastihnete tu ledňáčka, volavku popelavou, poláka velkého, hvízdáka i slípku zelenonohou. Někteří ptáci sem dokonce dojíždějí: žijí volně v zoo za řekou a na Malou říčku si zalétnou, kdy se jim zachce.`,
+      zh: `斯特罗莫夫卡北边有一道长长的、安静的弯水，看着像条河，其实哪儿也不流。它是伏尔塔瓦河自己丢下的一截，如今主要归天鹅、苍鹭和特别有耐心的钓鱼人所有。
+
+直到19世纪末，这里还有一条弯弯曲曲的河汊，从皇家磨坊和造纸厂旁边流过。1899到1902年，伏尔塔瓦河从布拉格到梅尔尼克被改造成可通航的河道：建起了特罗亚堰坝和船闸，挖了一条通航运河，布贝内奇的老河汊大部分被填平。“小河”就是剩下的那一段。河水至今还从运河那头流进来，向西绕出约500米的弧线，再经一条砖砌暗渠从皇家磨坊旁边流进一条埋在地下的小溪，最后回到伏尔塔瓦河。
+
+2002年8月的洪水让整个斯特罗莫夫卡泡在几米深的水下。公园水系的修复，正是从这里开始的：当年10月先给小河清了淤泥。2003年，它的小堤坝用公园旧围墙的石头重修，那道围墙正是被洪水冲垮的；进水口也改成了一道小小的石头跌水。
+
+🎁 彩蛋：翠鸟、苍鹭、红头潜鸭、赤颈鸭和黑水鸡都会在这里出现。有些鸟还是“通勤族”：它们平时自由地住在河对岸的动物园里，想来的时候就飞到小河这边串个门。`,
+    },
+  },
+  {
+    // Stromovka pack, 2026-11-25 (user's call, coordinates from the user).
+    // Sources: cs.wikipedia "Císařský mlýn (Praha, Bubeneč)" (pasted by the
+    // user): mill named 1217, St George's convent 1228–1395; Oldřich Dubanský
+    // 1547–1561; bought 1584 by Rudolf II's chamber; main building with the
+    // 22-arch arcade 1589–1590 (Ulrico Aostalli de Sala, Giovanni Antonio
+    // Brocco), sandstone pool, grotto with a domed vault and fountain fed by
+    // the 1604 waterworks, 1606 gate (Giovanni Maria Filippi); damaged by the
+    // Passau troops 1611; gem-cutting workshop of three generations of
+    // Miseroni (Ottavio, Dionysio, Eusebio), shown in the background of
+    // Škréta's portrait of Dionysio Miseroni's family; burned 1679; Saxon and
+    // French officers 1742; Chotek made the owner open the grotto to the
+    // public in summer (1804); cotton dye works and paper mill from 1825, inn
+    // and public baths 1832; listed 1964; Art Centrum depot from the
+    // mid-1980s; decay 1989–2005, flood 2002; residences 2005–2009; today the
+    // Embassy of Georgia, an international kindergarten and a hotel.
+    name: 'Imperial Mill',
+    slug: 'cisarsky-mlyn',
+    localizedNames: { cz: 'Císařský mlýn', zh: '皇家磨坊' },
+    labels: ['renaissance', 'factory', 'hidden-gem'],
+    district: 'Praha 6',
+    quarter: 'Bubeneč',
+    coordinates: { lat: 50.108969808907986, lng: 14.405203305588568 },
+    rarity: 'rare',
+    description: {
+      en: `At the western edge of Stromovka stands a mill that stopped grinding grain long ago and spent the following centuries trying out other careers: emperor's pleasure house, gem-cutting workshop, dye works, paper mill, pub, public baths, art depot and, today, an embassy. Its old stone gate has seen all of them.
+
+A water mill stood here on an arm of the Vltava as early as 1217, and for a long time it belonged to the Benedictine nuns of St George at Prague Castle. In 1584 Emperor Rudolf II's chamber bought it, and his builders turned it into something no ordinary miller needed. In 1589 and 1590 they put up a narrow main building with an arcade of 22 arches, a pool lined with sandstone and later a sunken grotto with a domed vault and a fountain. In 1606 the grounds got a gate of rusticated stone with a scrolled gable. Inside, the water wheels drove the cutting wheels of the Miseroni family, three generations of gem and crystal cutters, whose vessels and stone plates were carried up to the castle workshops.
+
+After Rudolf the mill went downhill: it was damaged by the Passau troops in 1611, burned in 1679, and in 1742 lodged Saxon and then French officers. From 1825 it housed a cotton dye works and a paper mill, then an inn and public baths. It became a protected monument in 1964, served the state art exporter Art Centrum as a depot in the 1980s and fell into decay after 1989. Between 2005 and 2009 modern residences went up around it, and they wiped out most of its historic character. Today the Embassy of Georgia, an international nursery and a hotel share the site.
+
+🎁 Bonus: Karel Škréta painted the gem cutter Dionysio Miseroni with his family, and in the background of the portrait you can see the cutting workshop with its water-driven wheels. And when Stromovka opened to the public in 1804, Count Chotek ordered the mill's owner to keep the buildings clean and to let the public into the grotto in summer.`,
+      cz: `Na západním okraji Stromovky stojí mlýn, který už dávno nemele obilí a další staletí strávil zkoušením jiných řemesel: císařský letohrádek, brusírna drahokamů, barvírna, papírna, hostinec, veřejné lázně, depozitář umění a dnes velvyslanectví. Jeho stará kamenná brána viděla všechno.
+
+Vodní mlýn tu na vltavském rameni stál už roku 1217 a dlouho patřil benediktinkám od svatého Jiří na Pražském hradě. V roce 1584 ho koupila komora císaře Rudolfa II. a jeho stavitelé z něj udělali něco, co by žádný obyčejný mlynář nepotřeboval. V letech 1589 a 1590 postavili úzkou hlavní budovu s arkádou o 22 obloucích, nádrž obloženou pískovcem a později zahloubenou jeskyni s kupolovou klenbou a kašnou. Roku 1606 dostal areál bránu s bosovanými pilastry a volutovým štítem. Uvnitř vodní kola poháněla brusné kotouče rodiny Miseroniů, tří generací brusičů drahých kamenů a křišťálu, jejichž nádoby a kamenné destičky se vozily do dílen na Hradě.
+
+Po Rudolfovi šlo s mlýnem z kopce: roku 1611 ho poničili Pasovští, roku 1679 vyhořel a v roce 1742 se v něm ubytovali saští a po nich francouzští důstojníci. Od roku 1825 tu fungovala barvírna bavlny a papírna, později hostinec a veřejné lázně. V roce 1964 se stal kulturní památkou, v 80. letech sloužil jako depozitář podniku Art Centrum, který vyvážel umění do ciziny, a po roce 1989 chátral. V letech 2005 až 2009 kolem něj vyrostly moderní rezidence, které jeho historický ráz téměř smazaly. Dnes areál sdílí velvyslanectví Gruzie, mezinárodní školka a hotel.
+
+🎁 Bonus: Karel Škréta namaloval brusiče Dionysia Miseroniho s rodinou a v pozadí portrétu je vidět brusírna s koly poháněnými vodou. A když se Stromovka roku 1804 otevřela veřejnosti, nařídil hrabě Chotek majiteli mlýna udržovat budovy v čistotě a v létě pouštět lidi do jeskyně.`,
+      zh: `斯特罗莫夫卡西边有一座磨坊，早就不磨麦子了。此后几百年里，它一直在换工作：皇帝的游乐场、宝石切割作坊、染坊、造纸厂、小酒馆、公共浴场、艺术品仓库，如今则是一座大使馆。它那道老石门，把这些全看在了眼里。
+
+早在1217年，这里的伏尔塔瓦河汊上就有一座水磨坊，很长时间归布拉格城堡圣乔治修道院的本笃会修女所有。1584年，鲁道夫二世的宫廷财务署把它买了下来，他的工匠们把它改成了任何普通磨坊主都用不着的样子。1589到1590年，他们盖起一座窄长的主楼，带一条22个拱的拱廊，修了一个砂岩砌边的水池，后来又挖了一座带穹顶和喷泉的下沉式人工洞窟。1606年，园子装上了一道粗面石柱、涡卷山花的大门。门里的水车带动着米塞罗尼家族的磨轮，这家三代都是宝石和水晶切割匠，他们做的器皿和石片一车车送上城堡的作坊。
+
+鲁道夫一走，磨坊就开始走下坡路：1611年被帕绍军队毁坏，1679年失火，1742年先后住进了萨克森和法国军官。1825年起这里开了棉布染坊和造纸厂，后来又有了小酒馆和公共浴场。1964年它被列为文物，80年代给专门向国外出口艺术品的国营公司“艺术中心”当仓库，1989年后渐渐破败。2005到2009年，周围盖起一片现代住宅，几乎抹掉了它的历史风貌。如今，格鲁吉亚大使馆、一所国际幼儿园和一家酒店共用这块地方。
+
+🎁 彩蛋：画家卡雷尔·什克雷塔给宝石切割匠迪奥尼西奥·米塞罗尼一家画过一幅肖像，画的背景里就能看到这座用水车带动磨轮的切割作坊。还有，1804年斯特罗莫夫卡向公众开放时，霍泰克伯爵专门命令磨坊主人把房子收拾干净，夏天还得放游客进那座人工洞窟参观。`,
+    },
+  },
+  {
+    // Stromovka pack, 2026-11-25 (user's call, coordinates from the user).
+    // Sources: bubenec.eu "Brány do Stromovky" (two-part gate at the end of
+    // Gotthardská, vaulted carriage entrance and a pedestrian gate; the
+    // enclosure had six gates, this one and a stretch of wall in the
+    // southwest survive; plaque on the opening; decree of 25 June 1804 in
+    // which Francis granted the request of the highest burgrave Count Jan
+    // Rudolf Chotek, took the reserve from the highest huntsman and gave it
+    // to the public; the neo-Gothic gate built 1814) and Památkový katalog
+    // "brána do královské obory" (asymmetric walled gate, semicircular main
+    // arch with profiled archivolt and stucco keystone, side gate, attic with
+    // a stone plaque, partly worn: "FRANZ DEM II. DEM BESTEN LANDESVATER /
+    // WELCHER DIESE KONIGL. GARTEN SEINEN GETREUEN / BOHMEN ZUM FREI GENUSSE
+    // WIDMETE / ...VOM OBBURGRAF .... CHOTEK ...MDCC..."). Exact day of the
+    // decree differs between sources (1 or 25 June), so no day given.
+    name: 'Gotthardská Gate to Stromovka',
+    slug: 'brana-kralovske-obory-gotthardska',
+    localizedNames: { cz: 'Brána do Královské obory v Gotthardské ulici', zh: '戈特哈德街园门' },
+    labels: ['gate', 'national-revival', 'park', 'hidden-gem'],
+    district: 'Praha 6',
+    quarter: 'Bubeneč',
+    coordinates: { lat: 50.10448159610487, lng: 14.409656661199325 },
+    rarity: 'rare',
+    description: {
+      en: `At the end of Gotthardská, a quiet villa street in Bubeneč, a plain old gate leads into Stromovka: one big arch for carriages, a smaller one for people on foot, and a stone plaque on top. Most people walk through it without looking up, which is a pity, because the plaque is a thank-you note to an emperor.
+
+Stromovka was a royal game reserve for more than five hundred years, fenced in and entered through six gates. In 1804 the highest burgrave of Bohemia, Count Jan Rudolf Chotek, asked Emperor Francis to take the reserve away from the court's chief huntsman and give it to the people of Prague, and the emperor agreed. This gate and a stretch of wall in the southwest of the park are what survives of the old enclosure. The plaque, partly worn away, is in German, and roughly says: "To Francis II, the best father of the land, who dedicated this royal garden to his faithful Bohemians for their free enjoyment", followed by the burgrave's name, Chotek.
+
+The grander neo-Gothic gate near the Viceroy's Summer Palace came only in 1814, built to celebrate the same opening. This one is older, simpler and still in daily use, by joggers, dog walkers and parents with prams who come in from the Bubeneč side.
+
+🎁 Bonus: The plaque calls the emperor Francis II, and that same year, 1804, he made himself Emperor of Austria as Francis I. For two years, until the Holy Roman Empire was dissolved in 1806, he was both at once, which is why you will find the opening of Stromovka credited to two different Francises.`,
+      cz: `Na konci Gotthardské, tiché vilové ulice v Bubenči, vede do Stromovky prostá stará brána: jeden velký oblouk pro povozy, menší pro pěší a nahoře kamenná deska. Většina lidí projde a nahoru se nepodívá, a to je škoda, protože ta deska je poděkování císaři.
+
+Stromovka byla přes pět set let královskou oborou, obehnanou zdí se šesti branami. Roku 1804 požádal nejvyšší purkrabí hrabě Jan Rudolf Chotek císaře Františka, aby oboru odňal nejvyššímu lovčímu a daroval ji Pražanům, a císař svolil. Z původní ohrady zbyla jen tahle brána a kus zdi na jihozápadě parku. Deska je německy, částečně setřelá, a říká zhruba: „Františku II., nejlepšímu otci země, který tuto královskou zahradu věnoval svým věrným Čechům k volnému užívání“, a dál jméno purkrabího Chotka.
+
+Okázalejší novogotická brána u Místodržitelského letohrádku přibyla až v roce 1814 na oslavu téhož otevření. Tahle je starší, prostší a pořád v každodenním provozu: chodí jí běžci, pejskaři a rodiče s kočárky z bubenečské strany.
+
+🎁 Bonus: Deska jmenuje císaře Františkem II., a téhož roku 1804 se prohlásil rakouským císařem jako František I. Dva roky, až do zániku Svaté říše římské v roce 1806, byl obojím zároveň, a proto se otevření Stromovky připisuje dvěma různým Františkům.`,
+      zh: `在布贝内奇一条安静的别墅街戈特哈德街的尽头，有一道朴素的老门通进斯特罗莫夫卡：一个大拱门走马车，一个小拱门走行人，门顶上嵌着一块石板。大多数人穿门而过，从来不抬头，这有点可惜，因为那块石板是一封写给皇帝的感谢信。
+
+斯特罗莫夫卡当了五百多年的皇家狩猎场，四周围着墙，开着六道门。1804年，波希米亚最高城堡伯爵扬·鲁道夫·霍泰克伯爵请求弗朗茨皇帝，把狩猎场从宫廷总猎官手里收回来，送给布拉格人，皇帝答应了。当年的围墙，如今只剩下这道门和公园西南角的一段墙。石板上刻的是德文，有些字已经磨掉了，大意是：“献给弗朗茨二世，国家最好的父亲，他把这座皇家园林献给忠诚的波希米亚人自由享用”，后面跟着城堡伯爵霍泰克的名字。
+
+公园里更气派的那座新哥特式大门，就在总督夏宫旁边，要到1814年才建起来，庆祝的也是这次开放。这道门更老、更朴素，至今天天有人走：跑步的、遛狗的，还有从布贝内奇那边推着婴儿车进园的爸爸妈妈。
+
+🎁 彩蛋：石板上管皇帝叫弗朗茨二世，可就在同一年，1804年，他又给自己加封为奥地利皇帝，称弗朗茨一世。直到1806年神圣罗马帝国解散，他有两年同时顶着这两个名号，所以你会看到斯特罗莫夫卡的开放被记在两个不同的“弗朗茨”名下。`,
+    },
+  },
+  {
+    // Bubeneč pack, 2026-11-25 (user's call, coordinates from the user).
+    // Source: cs.wikipedia "Pelléova vila": neo-Renaissance villa 1889–1890 by
+    // the builder Rudolf Koukola for the widow of Karel Knobloch (owner of the
+    // English brewery in Libeň) and her six children, on a (reportedly pear)
+    // orchard near Špejchar; stucco, not stone, detail unlike Villa Lanna;
+    // portico and terraces added 1932 (Matěj Blecha); stable for six horses;
+    // Koukola sold the rest of the plot to Stanislav Sucharda for his villa
+    // and studio; Marie Knoblochová lived there 1890–1906 (sold it in 1900);
+    // General Maurice Pellé lived there 1919–1920 (head of the French military
+    // mission, chief of the Czechoslovak General Staff 1919–1921, married
+    // Jarmila Braunerová in 1921); listed 1958; municipal kindergarten
+    // 1978–2001 (insensitive alterations, closed for lack of children); plaque
+    // to Pellé 1994, unveiled 1995 with the French Embassy; restored from
+    // 2003; Jiří Anderle's gallery 2003–2014 (ended in a dispute with the
+    // district); since September 2014 run by the association Porte
+    // (exhibitions, concerts, programmes for seniors and children); also the
+    // Prague 6 wedding hall.
+    name: 'Pellé Villa',
+    slug: 'pelleova-vila',
+    localizedNames: { cz: 'Pelléova vila', zh: '佩莱别墅' },
+    labels: ['villa', 'historicism', 'cultural'],
+    district: 'Praha 6',
+    quarter: 'Bubeneč',
+    coordinates: { lat: 50.09896900583363, lng: 14.407414381461672 },
+    rarity: 'rare',
+    description: {
+      en: `The Pellé Villa is a cream-coloured neo-Renaissance house in a garden at the top of Bubeneč, where you can see an exhibition, hear a concert or get married. It is named after a French general who lived here for only a year or two, which tells you a lot about who gets remembered.
+
+The villa was built in 1889 and 1890 by the builder Rudolf Koukola for Marie Knoblochová, widow of the owner of the English brewery in Libeň, and her six children, on what is said to have been a pear orchard. Compared with Villa Lanna nearby it was a thrifty kind of grandeur: its ornament is stucco, not stone. Koukola sold the rest of the plot to the sculptor Stanislav Sucharda, who built his own villa and studio next door. In 1919 and 1920 the house was the home of General Maurice Pellé, head of the French military mission, who from 1919 to 1921 was also chief of the Czechoslovak General Staff. The villa and the street were later named after him.
+
+It became a protected monument in 1958, which did not stop the municipal kindergarten that moved in in 1978 from tearing out the parquet and the stucco. The kindergarten closed in 2001 for lack of children, and after a restoration the villa reopened in 2003 as a gallery of the artist Jiří Anderle. That partnership ended in a dispute in 2014. Since then the Porte association has run it as a cultural centre with exhibitions, concerts and workshops, and Prague 6 holds its weddings here.
+
+🎁 Bonus: The villa honours a general who lived in it for a year or two. Marie Knoblochová, who built it and lived here for sixteen years with her six children, got neither a street nor a plaque.`,
+      cz: `Pelléova vila je krémová novorenesanční vila v zahradě na horním konci Bubenče, kde si můžete prohlédnout výstavu, poslechnout koncert nebo se vdát. Jmenuje se po francouzském generálovi, který tu bydlel jen rok nebo dva, a to o tom, koho si dějiny pamatují, vypovídá dost.
+
+Vilu postavil v letech 1889 a 1890 stavitel Rudolf Koukola pro Marii Knoblochovou, vdovu po majiteli Anglického pivovaru v Libni, a jejích šest dětí, údajně na místě hrušňového sadu. Ve srovnání s nedalekou Lannovou vilou šlo o úspornější přepych: výzdoba je ze štuku, ne z kamene. Zbytek pozemku Koukola prodal sochaři Stanislavu Suchardovi, který si hned vedle postavil vilu s ateliérem. V letech 1919 a 1920 tu bydlel generál Maurice Pellé, šéf francouzské vojenské mise a v letech 1919 až 1921 také náčelník československého generálního štábu. Po něm se později jmenuje vila i ulice.
+
+Kulturní památkou se stala v roce 1958, což nezabránilo obecní mateřské školce, která se sem nastěhovala v roce 1978, aby vytrhala parkety a otloukla štuky. Školka v roce 2001 zanikla pro nedostatek dětí a po rekonstrukci se vila v roce 2003 otevřela jako galerie Jiřího Anderleho. Spolupráce skončila v roce 2014 sporem. Od té doby ji jako kulturní centrum s výstavami, koncerty a dílnami provozuje spolek Porte a Praha 6 tu oddává.
+
+🎁 Bonus: Vila nese jméno generála, který v ní bydlel rok nebo dva. Marie Knoblochová, která ji postavila a žila tu šestnáct let se šesti dětmi, nemá ani ulici, ani desku.`,
+      zh: `佩莱别墅是布贝内奇高处一座奶油色的新文艺复兴式别墅，带着花园，在这里你可以看展览、听音乐会，也可以结婚。它以一位只在这里住了一两年的法国将军命名，这多少能说明，历史记住的往往是谁。
+
+别墅由建筑商鲁道夫·科乌科拉在1889到1890年间建成，主人是利本“英国啤酒厂”老板的遗孀玛丽·克诺布洛霍娃和她的六个孩子，据说地基原本是一片梨树园。跟不远处的兰纳别墅比，这是一种精打细算的气派：装饰用的是灰泥，不是石头。科乌科拉把地块剩下的部分卖给了雕塑家斯坦尼斯拉夫·苏哈达，他就在隔壁盖了自己的别墅和工作室。1919到1920年，法国军事使团团长莫里斯·佩莱将军住在这里，他在1919到1921年间还兼任捷克斯洛伐克总参谋长。后来，别墅和门前的街都以他命名。
+
+1958年它被列为文物，可这没能拦住1978年搬进来的区立幼儿园，拼花地板被撬掉，灰泥装饰也被敲掉了。2001年，幼儿园因为招不到孩子关了门。修复之后，别墅在2003年作为艺术家伊日·安德勒的画廊重新开放，这段合作在2014年不欢而散。此后，波尔特协会把它办成了文化中心，有展览、音乐会和工作坊，布拉格6区的婚礼也在这里举行。
+
+🎁 彩蛋：别墅用了一位只住了一两年的将军的名字。真正盖起它、带着六个孩子在这里住了十六年的玛丽·克诺布洛霍娃，既没有一条街，也没有一块纪念牌。`,
+    },
+  },
+  {
+    // Bubeneč pack, 2026-11-25 (user's call, coordinates from the user).
+    // Source: cs.wikipedia "Praha-Bubeneč (výhybna)": Goetheho 61/4, on the
+    // Praha–Děčín line (not the Buštěhrad railway); opened 1850 or 1854 (the
+    // article gives both; 1854 with the Northern State Railway Prague–Lovosice),
+    // so written as "the 1850s"; station building by Antonín Jüngling; named
+    // Bubeneč until 1942, then Praha-Bubeneč, since 2014 a passing loop
+    // controlled from Praha-Holešovice; sidings to the paper mill at the
+    // Imperial Mill (abolished 2006) and to the Juliska heating plant; last
+    // passenger train 28 August 2014, service moved to the new Praha-Podbaba
+    // stop; building listed 2013; bought by the city in 2018 for CZK 14.3
+    // million, Prague 6 took it over in 2019, tender won by the team behind
+    // Fuchs2; rebuilt from July 2023 (Ondřej Tuček, Jan Binter); opened
+    // 28 August 2024 as the community centre Stanice 6 (gallery, café, sports
+    // gear rental); the painter Jiří Bouda worked here as a signalman from 1959.
+    name: 'Stanice 6 (Old Bubeneč Station)',
+    slug: 'nadrazi-praha-bubenec',
+    localizedNames: { cz: 'Stanice 6 (bývalé nádraží Praha-Bubeneč)', zh: '6号站（布贝内奇老火车站）' },
+    labels: ['transport', 'cafe', 'cultural', 'hidden-gem'],
+    district: 'Praha 6',
+    quarter: 'Bubeneč',
+    coordinates: { lat: 50.10728535239202, lng: 14.404534046949106 },
+    rarity: 'common',
+    description: {
+      en: `The old Bubeneč station still has trains rushing past its platform, four tracks of them. They just no longer stop. Since 2024 the station building has had a second life as Stanice 6, a café, gallery and neighbourhood centre where you can sit on the old platform and watch the freight go by.
+
+The station opened in the 1850s on the line from Prague north towards Lovosice and Děčín, and its building was designed by Antonín Jüngling. It was simply called Bubeneč until 1942, then Praha-Bubeneč. Freight sidings once branched off here to the paper mill in the Imperial Mill and to the Juliska heating plant; the last of them was taken up in 2006. The last passenger train stopped here on 28 August 2014, and from the next day passengers used the new Praha-Podbaba stop instead. The tracks stayed, and today the station works as a passing loop run remotely from Holešovice.
+
+The empty building became a protected monument in 2013. The city bought it in 2018 for 14.3 million crowns, Prague 6 took it over and found an operator in a tender: the team behind Fuchs2 in Holešovice. The architects Ondřej Tuček and Jan Binter began rebuilding it in July 2023, and it opened as Stanice 6 on 28 August 2024, ten years to the day after the last passenger train.
+
+🎁 Bonus: In 1959, fresh out of school, the painter Jiří Bouda took a job here as a signalman. Railways became the great theme of his paintings, so this little station can fairly claim to have trained at least one artist.`,
+      cz: `Kolem starého bubenečského nádraží pořád jezdí vlaky, po čtyřech kolejích. Jenom už tu nezastavují. Od roku 2024 má staniční budova druhý život jako Stanice 6, kavárna, galerie a sousedské centrum, kde můžete sedět na starém nástupišti a koukat na projíždějící nákladní vlaky.
+
+Nádraží se otevřelo v 50. letech 19. století na trati z Prahy na sever k Lovosicím a Děčínu a budovu navrhl Antonín Jüngling. Až do roku 1942 se jmenovalo prostě Bubeneč, pak Praha-Bubeneč. Kdysi z něj odbočovaly vlečky do papírny v Císařském mlýně a do teplárny Juliska, poslední zmizela v roce 2006. Poslední osobní vlak tu zastavil 28. srpna 2014 a od dalšího dne cestující jezdí z nové zastávky Praha-Podbaba. Koleje zůstaly a stanice dnes slouží jako výhybna řízená na dálku z Holešovic.
+
+Opuštěná budova se v roce 2013 stala kulturní památkou. Město ji v roce 2018 koupilo za 14,3 milionu korun, Praha 6 ji převzala a v soutěži našla provozovatele: tým, který stojí za holešovickým Fuchs2. Architekti Ondřej Tuček a Jan Binter ji začali přestavovat v červenci 2023 a jako Stanice 6 se otevřela 28. srpna 2024, přesně deset let po posledním osobním vlaku.
+
+🎁 Bonus: V roce 1959 sem hned po škole nastoupil na stavědlo malíř Jiří Bouda. Železnice se pak stala velkým tématem jeho obrazů, takže si tohle malé nádraží může připsat, že vychovalo aspoň jednoho umělce.`,
+      zh: `布贝内奇老火车站的站台前，至今还有火车呼啸而过，整整四条轨道。只是它们不再停了。2024年起，车站楼有了第二次生命，成了“6号站”：一家咖啡馆、画廊和社区中心，你可以坐在老站台上，看货车一列列开过。
+
+车站在19世纪50年代开通，位于从布拉格往北通往洛沃西采和杰钦的铁路上，站房由安东宁·云格林设计。1942年以前它就叫“布贝内奇”，之后改叫“布拉格-布贝内奇”。当年这里还分出几条货运支线，一条通往皇家磨坊里的造纸厂，一条通往尤利斯卡热电厂，最后一条在2006年拆除。2014年8月28日，最后一班客车在这里停靠，第二天起，乘客改到新建的布拉格-波德巴巴站上车。铁轨留了下来，如今这里是一个会让站，由霍莱绍维采远程控制。
+
+空置的站房在2013年被列为文物。2018年，市政府花1430万克朗把它买下，布拉格6区接手后通过招标找到了经营者，正是霍莱绍维采Fuchs2背后的团队。建筑师翁德热·图切克和扬·宾特尔在2023年7月开始改造，2024年8月28日，它以“6号站”的名字开张，离最后一班客车开走正好十年。
+
+🎁 彩蛋：1959年，画家伊日·鲍达刚毕业，就来这里的信号楼上了班。后来，铁路成了他画作的一大主题，所以这座小车站可以说，自己至少培养出了一位艺术家。`,
+    },
+  },
+  {
+    // Marold's panorama of the Battle of Lipany (1898) at Výstaviště,
+    // 2026-11-25, user's call and coordinates; joins the Exhibition Grounds
+    // pack and the Lipany 1434 History event.
+    name: 'Marold Panorama',
+    slug: 'maroldovo-panorama',
+    localizedNames: { cz: 'Maroldovo panoráma', zh: '马罗尔德全景画馆' },
+    labels: ['cultural', 'medieval', 'national-revival', 'hidden-gem'],
+    district: 'Praha 7',
+    quarter: 'Bubeneč',
+    coordinates: { lat: 50.106677247624106, lng: 14.427531527223591 },
+    rarity: 'superior',
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Bitva_u_Lipan_(panor%C3%A1ma)',
+    description: {
+      en: "The Marold Panorama is a round pavilion at Výstaviště with a whole medieval battle rolled up inside it: ninety-five metres of canvas, eleven metres high, hung in a circle around a viewing platform, so that wherever you turn, Hussites are killing Hussites. It is the largest painting of a historical event in the country.\n\nThe painter Luděk Marold came home from Paris in 1897 with the idea and offered it to the Architecture and Engineering Exhibition of 1898. He wanted a battle on open, flat ground, so the White Mountain and Domažlice were turned down in favour of Lipany, where on 30 May 1434 the Lords' League destroyed the field armies of the radical Hussites. Work began on 7 February 1898 from sketches made on the battlefield itself, with Václav Jansa painting the landscape, Ludvík Vacátko the horses and Karel Rašek working alongside Marold; in front of the canvas stood real objects, a Hussite war wagon among them, to make the illusion complete. The exhibition opened that June, and Marold died before the year was out, aged thirty-three.\n\nThe painting was saved from being sold off about ten years later by the Society of Engineers and Architects, with help from the city, and got a twelve-sided wooden pavilion by Jan Koula. On 25 February 1929 snow brought its roof down, destroying a third of the canvas. Restored by the surviving members of the original team, the panorama reopened on 30 May 1934, five hundred years to the day after the battle. Today it hangs in a concrete pavilion by Vojtěch Krch; the 2002 flood sent it back to the restorers, and since 2016 it has been looked after by the company that runs Výstaviště.\n\n🎁 Bonus: Turn slowly and you can find Prokop the Bald, Prokop the Lesser, Jan Roháč of Dubá and the young George of Poděbrady, the future king, fighting on the winning side. On the horizon, a long way from Lipany, the artists also put in the silhouette of Bezděz castle.",
+      cz: "Maroldovo panoráma je kruhový pavilon na Výstavišti, ve kterém je stočená celá středověká bitva: devadesát pět metrů plátna, jedenáct metrů na výšku, zavěšeného dokola kolem vyhlídkové plošiny, takže kamkoli se otočíte, husité tam bijí husity. Je to největší obraz historické události v zemi.\n\nMalíř Luděk Marold se s tím nápadem vrátil roku 1897 z Paříže a nabídl ho Výstavě architektury a inženýrství roku 1898. Chtěl bitvu na otevřené rovině, a tak Bílá hora i Domažlice prohrály s Lipany, kde 30. května 1434 panská jednota rozdrtila polní vojska radikálních husitů. Práce začaly 7. února 1898 podle skic pořízených přímo na bojišti; krajinu maloval Václav Jansa, koně Ludvík Vacátko a s Maroldem pracoval Karel Rašek. Před plátnem stály skutečné předměty, mezi nimi husitský válečný vůz, aby byl klam dokonalý. Výstava se otevřela v červnu a Marold do konce roku zemřel, bylo mu třicet tři let.\n\nAsi o deset let později obraz před prodejem zachránil Spolek inženýrů a architektů s přispěním města a dostal dvanáctiboký dřevěný pavilon Jana Kouly. Pětadvacátého února 1929 pod sněhem spadla jeho střecha a zničila třetinu plátna. Po restaurování, na kterém pracovali žijící členové původního týmu, se panoráma znovu otevřelo 30. května 1934, přesně pět set let po bitvě. Dnes visí v betonovém pavilonu Vojtěcha Krcha; povodeň roku 2002 ho poslala znovu k restaurátorům a od roku 2016 se o něj stará společnost, která spravuje Výstaviště.\n\n🎁 Bonus: Když se budete pomalu otáčet, najdete Prokopa Holého, Prokopa Malého, Jana Roháče z Dubé a na vítězné straně mladého Jiřího z Poděbrad, budoucího krále. A na obzoru, daleko od Lipan, malíři přidali i siluetu hradu Bezdězu.",
+      zh: "马罗尔德全景画馆是展览中心里的一座圆形展馆，里面卷着一整场中世纪战役：九十五米长、十一米高的画布围成一圈，挂在观景台四周，你转到哪个方向，都是胡斯派在打胡斯派。这是全国描绘历史事件的最大的一幅画。\n\n画家卢德克·马罗尔德1897年从巴黎回来时带着这个主意，把它推荐给了1898年的建筑与工程博览会。他想画一场在开阔平地上打的仗，于是白山和多马日利采都落选了，选中的是利帕尼：1434年5月30日，贵族联军在那里击溃了激进胡斯派的野战军。1898年2月7日开工，依据的是在战场上实地画的草图；风景由瓦茨拉夫·扬萨画，马由卢德维克·瓦察特科画，卡雷尔·拉谢克和马罗尔德一起作画。画布前还摆着真东西，其中有一辆胡斯派战车，好让幻觉更逼真。博览会6月开幕，马罗尔德没撑到年底就去世了，年仅三十三岁。\n\n大约十年后，这幅画差点被卖掉，是工程师与建筑师协会在市政府资助下把它救了下来，还给它盖了一座扬·科乌拉设计的十二边形木头展馆。1929年2月25日，积雪压塌了屋顶，毁掉了三分之一的画布。原班人马里还在世的几位把它修好，1934年5月30日重新开放，正好是那场战役五百周年。如今它挂在沃伊捷赫·克尔赫设计的混凝土展馆里；2002年的洪水又把它送回了修复师手里，2016年起由经营展览中心的公司负责照看。\n\n🎁 彩蛋：慢慢转一圈，你能找到大普罗科普、小普罗科普、杜贝的扬·罗哈奇，还有站在胜利一方的年轻的波杰布拉迪的伊日，也就是后来的国王。地平线上，离利帕尼老远的地方，画家们还顺手添上了贝兹德兹城堡的剪影。",
+    },
+  },
+  {
+    // Salabka, the vineyard homestead above Troja (2026-11-26, user's call and coordinates).
+    name: "Salabka Homestead",
+    slug: 'usedlost-salabka',
+    localizedNames: { cz: "Usedlost Salabka", zh: "萨拉布卡庄园" },
+    labels: ['homestead', 'nature', 'renaissance', 'hidden-gem'],
+    district: 'Praha 7',
+    quarter: 'Troja',
+    coordinates: { lat: 50.12050731833279, lng: 14.410365971994626 },
+    rarity: 'superior',
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Salabka_(usedlost)',
+    description: {
+      en: "Salabka is a white farmhouse among the vines on a steep slope above Troja, and it has been doing the same job for longer than most Prague palaces have existed: growing grapes and turning them into wine. Of all the old vineyard homesteads in Prague, it is the only one still doing what it was built for.\n\nThe vineyard first appears in writing between 1224 and 1228, in the records of St George's Convent at Prague Castle. The house itself goes back to the 16th century, with a two-storey granary from the early 19th and an extra floor and roof added around 1900. Its name comes from an 18th-century owner, Jan Kašpar Salaba, who enlarged the vineyard and put it back on its feet. In the 19th century it belonged to the office of the Prague burgrave, after 1945 to the state farm of the City of Prague, which replanted the neglected vines in the 1950s, and after 1989 it passed into private hands. Today it is a winery with a restaurant, and a protected monument.\n\nThe slope beside it is the Salabka nature monument, one of the last three patches of dry heath in Prague, where sheep and goats now do the mowing and more than five hundred species of butterflies and moths have been recorded.\n\n🎁 Bonus: Salaba owned the place for a while in the 18th century, and the vineyard had been there for some five hundred years before him. He still got the name.",
+      cz: "Salabka je bílá usedlost mezi vinohrady na prudkém svahu nad Trojou a dělá tu stejnou práci déle, než existuje většina pražských paláců: pěstuje hrozny a dělá z nich víno. Ze všech starých pražských viničních usedlostí je jediná, která pořád slouží tomu, k čemu byla postavena.\n\nVinice se poprvé objevuje v písemnostech v letech 1224 až 1228, v listinách kláštera svatého Jiří na Pražském hradě. Samotný dům sahá do 16. století, sýpka o dvou podlažích je z počátku 19. století a kolem roku 1900 přibylo patro a nová střecha. Jméno má po majiteli z 18. století Janu Kašparu Salabovi, který vinici rozšířil a hospodářsky obnovil. V 19. století patřila pražskému purkrabství, po roce 1945 Státnímu statku hlavního města Prahy, který zanedbanou vinici v 50. letech znovu vysadil, a po roce 1989 přešla do soukromých rukou. Dnes je tu vinařství s restaurací a usedlost je kulturní památkou.\n\nSvah vedle ní je přírodní památka Salabka, jedno z posledních tří suchých vřesovišť v Praze, kde dnes sečou ovce a kozy a kde bylo zaznamenáno přes pět set druhů motýlů.\n\n🎁 Bonus: Salaba usedlost vlastnil jen nějaký čas v 18. století a vinice tu tou dobou stála už zhruba pět set let. Jméno přesto dostala po něm.",
+      zh: "萨拉布卡是特罗亚上方陡坡葡萄园里的一座白色农舍。它干这份活儿的时间，比布拉格大多数宫殿存在的时间还长：种葡萄，再把葡萄酿成酒。布拉格所有老葡萄园庄园里，只有它还在做当初盖它时要做的事。\n\n这片葡萄园最早见于1224到1228年间布拉格城堡圣乔治修道院的文书。房子本身可以追溯到16世纪，两层的谷仓是19世纪初的，大约1900年又加盖了一层楼和新屋顶。它的名字来自18世纪的一位主人扬·卡什帕尔·萨拉巴，他扩大了葡萄园，也让它重新赚了钱。19世纪它归布拉格城堡伯爵府所有，1945年后归布拉格市国营农场，农场在50年代给荒废的葡萄园重新种上了葡萄，1989年后又转到私人手里。如今这里是一家带餐厅的酒庄，也是受保护的文物。\n\n旁边的山坡是萨拉布卡自然保护地，是布拉格仅存的三片干旱石楠荒地之一，如今由绵羊和山羊负责“割草”，这里记录到的蝴蝶和蛾子超过五百种。\n\n🎁 彩蛋：萨拉巴只在18世纪拥有过这里一段时间，而那时葡萄园已经在这里五百年左右了。可名字最后还是归了他。",
+    },
+  },
+  {
+    // The Troja weir of 1899–1902 and the slalom course in its old raft chute, one card (2026-11-26, user's call and coordinates). The lock of the same scheme is at Podbaba.
+    name: "Troja Weir and Slalom Course",
+    slug: 'trojsky-jez-slalomovy-kanal',
+    localizedNames: { cz: "Trojský jez a slalomový kanál", zh: "特罗亚堰和激流回旋赛道" },
+    labels: ['waterbody', 'transport', 'historicism', 'hidden-gem'],
+    district: 'Praha 7',
+    quarter: 'Troja',
+    coordinates: { lat: 50.11263923888158, lng: 14.428004561381963 },
+    rarity: 'rare',
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Slalomov%C3%A1_dr%C3%A1ha_Troja',
+    description: {
+      en: "At Troja the Vltava drops over a weir, and beside it runs a concrete channel of white water where people in tiny boats try very hard not to go upside down. Some of the best canoeists in the world have raced here, and on any warm afternoon you can stand on the bank and watch someone fail to make a gate.\n\nThe weir was built between 1899 and 1902 by the Lanna firm, as part of the scheme to make the Vltava navigable from Prague to Mělník. Ships were sent along a new canal about three kilometres long on the far side of Císařský ostrov, ending in the locks at Podbaba, while the old river arm by Troja kept its natural rapids. The weir itself has three bays of about 38 metres; in 1972 its old gates were replaced with steel flaps on hydraulic cylinders, in 1974 four barges crashed into it, and the 2002 flood damaged it again. Since 2009 it has also had a small hydroelectric plant.\n\nOn the right bank the weir had a chute for timber rafts. In the 1970s it was due to be filled in, but the paddler and coach Jaroslav Pollert led a campaign to turn it into a slalom course, which opened at the start of the 1980s: about 410 metres long, a 3.6-metre drop, its obstacles first made of concrete, wooden beams and old tyres, and since 2012 mostly of movable plastic blocks. It has hosted World Cup races since 1995 and the World Championships in 2006 and 2013, the second just after the June 2013 flood had wrecked part of it. From April to October the public can try it too, under an instructor's eye.\n\n🎁 Bonus: The international race held here every year since 1982 is called the Trojan Horse Prize. Troja had a horse trophy decades before it got an actual wooden horse, which now stands a short walk downstream.",
+      cz: "V Troji Vltava padá přes jez a vedle něj vede betonový kanál divoké vody, kde se lidé v malých lodích ze všech sil snaží nepřevrátit. Jezdili tu jedni z nejlepších vodáků světa a každé teplé odpoledne se můžete postavit na břeh a dívat se, jak někdo netrefí branku.\n\nJez postavila v letech 1899 až 1902 firma Lanna jako součást splavnění Vltavy z Prahy do Mělníka. Lodě poslali novým, asi tříkilometrovým kanálem na druhé straně Císařského ostrova, který končí plavebními komorami v Podbabě, zatímco staré rameno řeky u Troji si nechalo svou přirozenou peřej. Jez má tři pole po zhruba 38 metrech; roku 1972 nahradily jeho stará hradla ocelové klapky na hydraulických válcích, roku 1974 do něj narazily čtyři čluny a povodeň roku 2002 ho znovu poškodila. Od roku 2009 má i malou vodní elektrárnu.\n\nNa pravém břehu měl jez propust pro vory. V 70. letech ji měli zasypat, ale vodák a trenér Jaroslav Pollert prosadil, aby se z ní stal slalomový kanál, a ten se otevřel na začátku 80. let: asi 410 metrů dlouhý, s převýšením 3,6 metru, s překážkami nejdřív z betonu, dřevěných trámů a starých pneumatik a od roku 2012 většinou z přenosných plastových bloků. Od roku 1995 se tu jezdí Světový pohár a v letech 2006 a 2013 mistrovství světa, to druhé krátce poté, co červnová povodeň roku 2013 kanál zčásti zničila. Od dubna do října si ho pod dohledem instruktora může vyzkoušet i veřejnost.\n\n🎁 Bonus: Mezinárodní závod, který se tu jezdí každý rok od roku 1982, se jmenuje O cenu Trojského koně. Troja tak měla koně v názvu poháru o desítky let dřív, než dostala skutečného dřevěného, který dnes stojí kousek po proudu.",
+      zh: "在特罗亚，伏尔塔瓦河从一道堰上跌落下来，旁边是一条混凝土的激流水道，坐在小船里的人在这里拼命让自己别翻过去。世界上最好的一批皮划艇选手在这里比过赛；随便哪个暖和的下午，你都可以站在岸边，看人没能穿过水门。\n\n这道堰是1899到1902年间由兰纳公司修建的，属于让伏尔塔瓦河从布拉格到梅尔尼克全线通航的工程。船只改走皇帝岛另一侧新挖的一条约三公里长的运河，运河尽头是波德巴巴的船闸；特罗亚这边的老河道则保留了天然的急流。堰本身分三孔，每孔约38米。1972年，旧闸门换成了液压驱动的钢翻板；1974年，四艘驳船撞上了它；2002年的洪水又把它冲坏了一次。2009年起，这里还多了一座小水电站。\n\n堰的右岸原本有一条放木筏的泄槽。70年代，它本来要被填掉，是皮划艇选手兼教练雅罗斯拉夫·波勒特牵头奔走，把它改成了激流回旋赛道，80年代初开放：全长约410米，落差3.6米，障碍物起初是混凝土、木梁和旧轮胎，2012年起大多换成了可以挪动的塑料块。从1995年起，这里举办世界杯分站赛，2006年和2013年还办过世锦赛；2013年那次，赛前不久的6月洪水刚把赛道冲坏了一部分。每年4月到10月，普通人也可以在教练看护下来试一试。\n\n🎁 彩蛋：从1982年起每年在这里举行的国际比赛，名叫“特洛伊木马杯”。特罗亚的奖杯上早就有了马，几十年后才等来一匹真正的木马，如今它就立在下游不远处。",
+    },
+  },
+  {
+    // Podhoří, the hamlet at the Troja end of the Podbaba ferry (2026-11-26, user's call and coordinates).
+    name: "Podhoří",
+    slug: 'podhori-troja',
+    localizedNames: { cz: "Podhoří", zh: "波德霍日" },
+    labels: ['village-and-town', 'nature', 'hidden-gem'],
+    district: 'Praha 7',
+    quarter: 'Troja',
+    coordinates: { lat: 50.122811826803, lng: 14.400686061145752 },
+    rarity: 'common',
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Podho%C5%99%C3%AD_(Troja)',
+    description: {
+      en: "Podhoří is a hamlet squeezed between the Vltava and the hills at the far end of Troja, so small it has one street, and that street is called, reasonably enough, V Podhoří, \"In Podhoří\". Most people reach it by ferry, look around for a minute and walk on towards the zoo, which is exactly how the locals like it.\n\nThe name means \"under the hill\", and the place has hardly grown in a century: it had just over thirty houses in the 1920s and has not added many since. Its little chapel of St Wenceslas was built in 1865 by the then owner, a Dr Vrzák of Lysolaje, with the words \"God with us 1865\" on the front, and was rescued around 1998 by a local association. Up the road stands the Podhoří château, a neo-Renaissance villa of 1890 by the architect Bohumil Štěrba, which was left to fall into ruin and has since been rebuilt. Near the ferry landing there was once the Bosna homestead with a walkers' inn and a colony of cottages; they were pulled down, and the site became a dump and a building yard for the zoo.\n\nSince 2006 a ferry has run from here across to Podbaba. To the north begins the Podhoří nature reserve, with the gorge of Černá rokle and the Podhoří brook, and the red-marked trail follows the river on towards Klecánky.\n\n🎁 Bonus: The tall old wine-press house of Sklenářka on the hill above, now inside the zoo, has a nickname among the people of Podhoří: Katovna, \"the executioner's house\".",
+      cz: "Podhoří je osada vmáčknutá mezi Vltavu a kopce na samém konci Troje, tak malá, že má jedinou ulici, a ta se docela logicky jmenuje V Podhoří. Většina lidí sem dorazí přívozem, minutu se rozhlédne a jde dál k zoo, což je přesně to, co místní mají rádi.\n\nJméno znamená „pod horou“ a za sto let osada skoro nevyrostla: ve 20. letech měla něco přes třicet domů a moc jich od té doby nepřibylo. Kapličku svatého Václava postavil roku 1865 tehdejší majitel, dr. Vrzák z Lysolají, s nápisem „Bůh s námi 1865“ na průčelí, a kolem roku 1998 ji zachránil místní spolek. O kus dál stojí Podhořský zámeček, novorenesanční vila z roku 1890 od architekta Bohumila Štěrby, kterou nechali zchátrat na ruinu a která byla od té doby znovu postavena. U přívozu kdysi stávala usedlost Bosna s výletní hospodou a chatovou kolonií; zbořili je a z místa se stala skládka a staveniště zoo.\n\nOd roku 2006 odtud jezdí přívoz do Podbaby. Na sever začíná přírodní rezervace Podhoří s roklí Černá rokle a Podhořským potokem a červená turistická značka pokračuje podél řeky ke Klecánkám.\n\n🎁 Bonus: Vysoký starý viniční lis Sklenářka na kopci nad osadou, dnes uvnitř zoo, má mezi obyvateli Podhoří přezdívku: Katovna.",
+      zh: "波德霍日是一座夹在伏尔塔瓦河和山丘之间的小村子，在特罗亚的最尽头，小到只有一条街，这条街的名字也合情合理，就叫“在波德霍日”。大多数人是坐渡船来的，四下看一分钟，就接着往动物园走了，本地人巴不得这样。\n\n这个名字的意思是“山脚下”。一百年来村子几乎没长大：20年代这里有三十来栋房子，之后也没添几栋。村里的圣瓦茨拉夫小教堂是1865年由当时的主人、利索拉耶的弗尔扎克博士修建的，门脸上写着“上帝与我们同在 1865”，大约1998年由本地的一个协会救了回来。沿路往上是“波德霍日小城堡”，一座1890年由建筑师博胡米尔·什泰尔巴设计的新文艺复兴式别墅，曾被放任破败成废墟，后来又重新盖了起来。渡口附近原先有一座“波斯尼亚”庄园，带一家给远足客歇脚的小酒馆和一片度假小屋，后来都被拆了，那块地成了动物园的垃圾场和工地。\n\n2006年起，这里有渡船开到对岸的波德巴巴。往北是波德霍日自然保护区，有黑峡谷和波德霍日溪，红色标记的步道沿着河继续通往克莱灿基。\n\n🎁 彩蛋：村子上方山上那座高高的老葡萄压榨房斯克莱纳日卡，如今在动物园里头，波德霍日的人管它叫“刽子手之家”。",
+    },
+  },
+  {
+    // The Zámka hillfort above the Vltava at Bohnice (2026-11-26, user's call
+    // and coordinates); joins the Bohnice pack.
+    name: 'Zámka Hillfort',
+    slug: 'hradiste-zamka',
+    localizedNames: { cz: 'Hradiště Zámka', zh: '扎姆卡山堡' },
+    labels: ['prehistory', 'ruin', 'nature', 'hidden-gem'],
+    district: 'Praha 8',
+    quarter: 'Bohnice',
+    coordinates: { lat: 50.144148594344884, lng: 14.400520116158456 },
+    rarity: 'superior',
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Z%C3%A1mka',
+    description: {
+      en: "Zámka is a rocky spur above the Vltava on the north-western edge of Bohnice, and for several thousand years people kept deciding it was the perfect place to live, right up until someone burned it down. What is left is a faint ripple in the grass, a two-metre rampart and a steep drop to the river.\n\nThe oldest traces of settlement come from the middle Eneolithic, about five thousand years ago, and belong to the Řivnáč culture. People of the Knovíz culture left their pottery here in the Bronze Age, others came back in the Hallstatt period, and the last settlers lived here in the early Middle Ages. The spur may have been fortified in any of those periods, but the ramparts that survive were built around the turn of the 8th and 9th centuries: on the north side two timber walls with layers of clay and stone packed between them, and a cross-rampart over the narrow neck of land on the east, the only easy way in. Towards the end of the 9th century a fire brought the north wall crashing inwards, and the hillfort was probably never rebuilt. On the west side the excavators also found a groove cut into the bare rock, fourteen metres of it, probably for a palisade, though nobody knows from which period.\n\nThe first digs were made by Václav Krolmus between 1849 and 1854, and later archaeologists such as Josef Ladislav Píč and Rudolf Turek worked here; a quarry ate away part of the site in the meantime. The hillfort is a protected cultural monument, and its western and southern slopes belong to the Zámky nature monument, declared in 1982, where the Bohemian pasque flower and other warmth-loving plants grow on Proterozoic rock.\n\n🎁 Bonus: The early medieval ramparts stood for about a hundred years before the fire. The panel estate a short walk away has been standing for about half that, so it still has some catching up to do.",
+      cz: "Zámka je skalnatá ostrožna nad Vltavou na severozápadním okraji Bohnic a lidé se tu po několik tisíc let shodovali, že je to ideální místo k životu, dokud ho někdo nevypálil. Zbyla po nich nevýrazná vlna v trávě, dvoumetrový val a prudký sráz k řece.\n\nNejstarší stopy osídlení pocházejí ze středního eneolitu, zhruba před pěti tisíci lety, a patří řivnáčské kultuře. Lidé knovízské kultury tu v době bronzové zanechali svou keramiku, v době halštatské se sem osídlení vrátilo a poslední obyvatelé tu žili v raném středověku. Ostrožna mohla být opevněna v kterémkoli z těch období, ale dochované valy vznikly na přelomu 8. a 9. století: na severní straně dvě dřevěné stěny s vrstvami hlíny a kamene mezi nimi a příčný val přes úzkou šíji na východě, jediný snadný přístup. Koncem 9. století severní hradbu požár zřítil dovnitř hradiště a to už nejspíš nikdy obnoveno nebylo. Na západní straně výzkum odkryl i žlábek vysekaný do skalního podloží, dlouhý čtrnáct metrů, nejspíš pro palisádu, jen se neví, z kterého období.\n\nPrvní výkopy tu prováděl Václav Krolmus v letech 1849 až 1854, později tu pracovali archeologové jako Josef Ladislav Píč a Rudolf Turek; mezitím část hradiště ukousl kamenolom. Hradiště je kulturní památkou a jeho západní a jižní svahy patří k přírodní památce Zámky, vyhlášené roku 1982, kde na proterozoických horninách roste koniklec luční český a další teplomilné rostliny.\n\n🎁 Bonus: Raně středověké hradby stály asi sto let, než je zničil požár. Panelové sídliště kousek odtud stojí zhruba polovinu té doby, takže má ještě co dohánět.",
+      zh: "扎姆卡是波赫尼采西北边缘、伏尔塔瓦河上方的一道岩石山嘴。几千年来，人们一再认定这里是安家的好地方，直到有人放了一把火。如今剩下的，是草地上一道不起眼的起伏、一段两米高的土垒，和一道直落河边的陡坡。\n\n最早的居住痕迹来自大约五千年前的铜石并用时代中期，属于日夫纳奇文化。青铜时代，克诺维兹文化的人在这里留下了陶器；到了哈尔施塔特时期，又有人搬了回来；最后一批居民生活在中世纪早期。这道山嘴在哪个时期都可能修过防御工事，但留存至今的土垒是8、9世纪之交才修的：北边是两道木墙，中间填着一层层黏土和石块；东边那道窄窄的山脖子上还横着一道土垒，那是唯一好走的进口。9世纪末，一场大火让北墙向里坍塌，此后山堡大概再也没有重建。在西边，考古人员还发现了一条凿在岩石上的槽，长十四米，多半是用来固定木栅栏的，只是没人知道是哪个时期凿的。\n\n最早在这里动土的是瓦茨拉夫·克罗尔穆斯，时间是1849到1854年，后来约瑟夫·拉迪斯拉夫·皮奇、鲁道夫·图雷克等考古学家也在这里做过研究；其间，一座采石场啃掉了遗址的一部分。山堡是受保护的文物，它西边和南边的山坡属于1982年设立的扎姆基自然保护地，波希米亚白头翁和别的喜温植物就长在元古代的岩石上。\n\n🎁 彩蛋：中世纪早期的城墙立了大约一百年，才毁于那场大火。不远处的板楼住宅区，到现在才立了差不多一半的时间，还有得追。",
     },
   },
 ];

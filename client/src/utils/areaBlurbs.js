@@ -36,7 +36,7 @@ export const AREA_BLURBS = {
     'Praha 7': {
       en: 'Letná plain, Stromovka park, the zoo and Troja chateau, all inside a river bend. Its former factories now mostly host art.',
       cz: 'Letenská pláň, Stromovka, zoo a Trojský zámek, to vše v jednom říčním meandru. Bývalé továrny dnes většinou hostí umění.',
-      zh: '莱特纳高地、斯特罗莫夫卡公园、动物园和特洛亚宫，全都装在伏尔塔瓦河的一个大河湾里。旧工厂如今大多用来放艺术品。',
+      zh: '莱特纳高地、斯特罗莫夫卡公园、动物园和特罗亚宫，全都装在伏尔塔瓦河的一个大河湾里。旧工厂如今大多用来放艺术品。',
     },
     'Praha 8': {
       en: "Karlín's post-flood glow-up, Libeň's history-heavy streets, and Bohnice, whose name every Czech knows thanks to its large psychiatric hospital.",

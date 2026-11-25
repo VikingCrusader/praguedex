@@ -83,7 +83,8 @@ export const AREA_LANDMARKS = {
       'nova-libenska-synagoga', 'libensky-pristav', 'rohan-and-liben-islands', 'hostinec-u-budyho',
     ],
     'Bubeneč': [
-      'stromovka-park', 'vystaviste-praha', 'mistodrzitelsky-letohradek', 'rudolfova-stola', 'cisarsky-ostrov',
+      'bubenec',
+      'stromovka-park', 'vystaviste-praha', 'prumyslovy-palac', 'mistodrzitelsky-letohradek', 'rudolfova-stola', 'cisarsky-ostrov',
       'prague-planetarium', 'stara-cistirna-odpadnich-vod', 'epet-arena', 'akademie-vytvarnych-umeni', 'lapidarium-narodniho-muzea',
     ],
     'Dejvice': [
@@ -97,8 +98,10 @@ export const AREA_LANDMARKS = {
       'koleje-strahov', 'pomnik-otto-wichterle', 'rozhledna-siska', 'sidliste-petriny', 'tocna-dlabacov',
     ],
     'Troja': [
+      'troja',
       'troja-chateau-garden', 'prague-zoo', 'botanical-garden', 'sklenik-fata-morgana', 'kaple-svate-klary-troja',
       'japonska-zahrada-troja', 'labyrint-trojske-zahrady', 'trojsky-kun', 'trojska-lavka', 'privoz-podbaba-podhori', 'bohnicka-vyhlidka',
+      'usedlost-salabka', 'trojsky-jez-slalomovy-kanal', 'podhori-troja',
     ],
     'Nusle': [
       'nusle-bridge', 'nuselske-udoli', 'pankrc-prison-1782564726175', 'namesti-hrdinu', 'kongresove-centrum-praha',
@@ -156,8 +159,9 @@ export const AREA_LANDMARKS = {
     'Sedlec': ['v-sedlci', 'zamek-sedlec', 'kaple-nejsvetejsi-trojice-sedlec', 'nadrazi-praha-sedlec'],
     'Suchdol': ['suchdol', 'czech-university-of-life-sciences-prague-1782583672397', 'kaple-svateho-vaclava-suchdol', 'komunitni-zahrada-suchdol'],
     'Bohnice': [
+      'bohnice',
       'psychiatricka-nemocnice-bohnice', 'kostel-svateho-vaclava-bohnice', 'divadlo-za-plotem', 'kostel-svateho-petra-a-pavla-bohnice',
-      'zamek-bohnice', 'statek-vranych', 'bohnice', 'dum-zelenohorska', 'dynamitka-bohnice', 'prirodni-park-drahan-troja',
+      'zamek-bohnice', 'statek-vranych', 'hospic-strasburk', 'dum-zelenohorska', 'oc-krakov', 'cimicky-haj', 'bohnicka-vyhlidka', 'dynamitka-bohnice', 'prirodni-park-drahan-troja', 'hradiste-zamka',
     ],
     'Kobylisy': ['-1782584125681', 'kobylisy'],
     'Vysočany': ['pragovka-art-district', 'vysocanska-radnice', 'lidovy-dum-vysocany', 'cukrovar-vysocany', 'kolbenova', 'afi-city-tower'],

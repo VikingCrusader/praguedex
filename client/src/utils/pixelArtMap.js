@@ -196,6 +196,8 @@ export const LABEL_DEFINITIONS = {
   waterbody: { emoji: "🌊", en: "Waterbody", cz: "Vodní plocha", zh: "水体" },
   geology: { emoji: "🪨", en: "Geography", cz: "Geografie", zh: "地理" },
   homestead: { emoji: "🌾", en: "Homestead", cz: "Usedlost", zh: "庄园" },
+  gate: { emoji: "🚪", en: "Gate", cz: "Brána", zh: "门" },
+  island: { emoji: "🏝️", en: "Island", cz: "Ostrov", zh: "岛" },
   outside: { emoji: "🧭", en: "Outside Prague", cz: "Mimo Prahu", zh: "布拉格以外" },
   "castle and fortress": {
     emoji: "🏰",
@@ -253,6 +255,8 @@ export const LABEL_COLORS = {
   waterbody: "#0b5566",
   geology: "#5a4a3a",
   homestead: "#6a5a2a",
+  gate: "#5a3e2a",
+  island: "#2a6a5a",
   outside: "#4a4a5a",
   "castle and fortress": "#5a2a1a",
 };
@@ -271,7 +275,7 @@ export const LABEL_GROUPS = [
   },
   {
     key: "building", en: "Buildings", cz: "Stavby", zh: "建筑",
-    labels: ["church", "monastery", "castle and fortress", "palace", "villa", "homestead", "tower",
+    labels: ["church", "monastery", "castle and fortress", "palace", "villa", "homestead", "tower", "gate",
       "bridge", "ruin", "museum", "academy", "municipal", "embassy", "factory"],
   },
   {
@@ -280,7 +284,7 @@ export const LABEL_GROUPS = [
   },
   {
     key: "other", en: "Other", cz: "Ostatní", zh: "其他",
-    labels: ["park", "nature", "waterbody", "geology", "cafe", "restaurants-and-cafes",
+    labels: ["park", "nature", "waterbody", "island", "geology", "cafe", "restaurants-and-cafes",
       "cultural", "jewish", "hidden-gem", "outside"],
   },
 ];

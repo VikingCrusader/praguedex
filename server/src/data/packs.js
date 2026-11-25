@@ -183,7 +183,7 @@ export const PACKS = [
     name: 'Kampa',
     localizedNames: { cz: 'Kampa', zh: '坎帕岛' },
     foil: '#3d6b2a',
-    labels: ['nature', 'park', 'cultural'],
+    labels: ['island', 'nature', 'park', 'cultural'],
     // The island between the Čertovka and the Vltava, and the stream that makes
     // it one; the Werich Villa was added for it (2026-11-10, user's call). Took
     // over the card of the same slug (and its cover).
@@ -309,7 +309,7 @@ export const PACKS = [
     name: 'Rohan and Libeň Islands',
     localizedNames: { cz: 'Rohanský a Libeňský ostrov', zh: '罗汉岛和利本岛' },
     foil: '#3b6f8f',
-    labels: ['waterbody', 'nature', 'contemporary', 'transport'],
+    labels: ['island', 'waterbody', 'nature', 'contemporary'],
     // The two former islands joined to the shore in the 1920s: River City and
     // everything else north of Rohanské nábřeží (the road runs on the filled-in
     // arm, cs.wikipedia), the meadow, and on Libeň Island the pub and the
@@ -1103,6 +1103,113 @@ export const PACKS = [
       'respirium-malostranska', 'pitko-malostranska', 'k111-klarov', 'valdstejnska-jizdarna',
       'old-castle-stairs-1782582571631', 'dum-u-bile-boty', 'manesuv-most', 'mytni-domek-rudolfovy-lavky',
       'pod-bruskou-1783290906795',
+    ],
+  }),
+  pack({
+    slug: 'stromovka-park',
+    released: '2026-11-25T21:00:00+01:00',
+    name: 'Stromovka',
+    localizedNames: { cz: 'Stromovka (Královská obora)', zh: '斯特罗莫夫卡' },
+    foil: '#2a5a40',
+    labels: ['park', 'nature', 'early-modern', 'historicism'],
+    // The Royal Game Reserve (2026-11-25, user's call): the park itself, the
+    // Rudolf Tunnel and Pond, the planetarium on its edge, Imperial Island
+    // (cut off from the reserve by the canal in 1899–1902) with the bridge to
+    // it, and the old wastewater treatment plant at the west end; three new
+    // cards the same day: the Imperial Mill, Malá říčka and the Gotthardská
+    // gate (the railway tunnel was considered and not made). The central
+    // plant on the island's tip and the Exhibition Grounds stay out. Took over
+    // the one-point park card's slug and cover (one check-in), the card
+    // deleted, so its two History links (1390s Wenceslas IV, 1429 ride into
+    // Saxony) now open the pack.
+    members: [
+      'novogoticka-brana-do-stromovky', 'mistodrzitelsky-letohradek', 'slechtova-restaurace', 'rudolfova-stola',
+      'rudolfuv-rybnik', 'prague-planetarium', 'cisarsky-ostrov', 'novy-most-cisarsky-ostrov',
+      'stara-cistirna-odpadnich-vod', 'cisarsky-mlyn', 'mala-ricka', 'brana-kralovske-obory-gotthardska',
+    ],
+  }),
+  pack({
+    slug: 'bubenec',
+    released: '2026-11-25T23:00:00+01:00',
+    name: 'Bubeneč',
+    localizedNames: { cz: 'Bubeneč', zh: '布贝内奇' },
+    foil: '#6b4a3a',
+    labels: ['villa', 'embassy', 'square', 'world-wars'],
+    // The villa and embassy quarter, the Prague 6 side of Bubeneč (2026-11-25,
+    // user's call): Villa Lanna, Otto Petschek's villa, the Museum of
+    // Literature, the Chinese, Russian and Slovak embassies, Puškinovo
+    // náměstí, Freedom Square and Interbrigády Square, plus Lotyšská Park
+    // (shared with Dejvice) and the Gotthardská gate (shared with Stromovka).
+    // Not Stromovka, the Exhibition Grounds (kept for a pack of their own) or
+    // Podbaba; the Prague 6 District Office stays in Dejvice only. St Gothard's,
+    // the old village church, joined the same day once the user fixed its
+    // coordinates (they had duplicated the Academy of Fine Arts'), and two new
+    // cards the same day: the Pellé Villa and Stanice 6, the old station. New slug.
+    members: [
+      'villa-lanna', 'vila-otto-petschka', 'muzeum-literatury', 'velvyslanectvi-cinske-lidove-republiky',
+      'velvyslanectvi-ruske-federace', 'velvyslanectvi-slovenske-republiky', 'puskinovo-namesti-park',
+      'namesti-svobody-bubenec', 'namesti-interbrigady', 'park-lotysska', 'brana-kralovske-obory-gotthardska',
+      'kostel-svateho-gotharda', 'pelleova-vila', 'nadrazi-praha-bubenec',
+    ],
+  }),
+  pack({
+    slug: 'vystaviste-praha',
+    released: '2026-11-25T23:30:00+01:00',
+    name: 'Prague Exhibition Grounds',
+    localizedNames: { cz: 'Výstaviště Praha', zh: '布拉格展览中心' },
+    foil: '#7a3b52',
+    labels: ['cultural', 'national-revival', 'historicism', 'communism'],
+    // Výstaviště (2026-11-25, user's call): the 1891 exhibition grounds at
+    // the east end of Stromovka, with the planetarium shared with Stromovka.
+    // Took over the slug of the one-point grounds card, which was rewritten
+    // as the Industrial Palace and renamed `prumyslovy-palac` (cover kept,
+    // renamed with it); its History link (Lipany 1434, Marold's panorama)
+    // now opens the pack. Marold's panorama added the same day as a new card.
+    members: [
+      'prumyslovy-palac', 'krizikova-fontana', 'lapidarium-narodniho-muzea', 'moderni-galerie-avu',
+      'nova-spirala', 'sportovni-hala-fortuna', 'prague-planetarium', 'maroldovo-panorama',
+    ],
+  }),
+  pack({
+    slug: 'troja',
+    released: '2026-11-26T00:00:00+01:00',
+    name: 'Troja',
+    localizedNames: { cz: 'Troja', zh: '特罗亚' },
+    foil: '#5a6a2a',
+    labels: ['park', 'nature', 'baroque', 'bridge'],
+    // Troja (2026-11-26, user's call, new slug): the chateau and its garden,
+    // St Clare's vineyard, the botanical garden, the zoo and Sklenářka on the
+    // slope, the river crossings (footbridge, ferry, Troja Bridge), the
+    // Trojan Horse, and up the hill Velká Skála and the Bohnice Viewpoint.
+    // Not the Krakov shopping centre (the Bohnice estate) or the Troja
+    // Campus and Hercovka (Libeň). New cards the same day: Salabka, the weir
+    // with the slalom course, and Podhoří.
+    members: [
+      'troja-chateau-garden', 'labyrint-trojske-zahrady', 'kaple-svate-klary-troja', 'botanical-garden',
+      'japonska-zahrada-troja', 'sklenik-fata-morgana', 'prague-zoo', 'usedlost-sklenarka', 'trojska-lavka',
+      'trojsky-kun', 'privoz-podbaba-podhori', 'louka-velka-skala', 'bohnicka-vyhlidka', 'trojsky-most',
+      'usedlost-salabka', 'trojsky-jez-slalomovy-kanal', 'podhori-troja',
+    ],
+  }),
+  pack({
+    slug: 'bohnice',
+    released: '2026-11-26T01:00:00+01:00',
+    name: 'Bohnice',
+    localizedNames: { cz: 'Bohnice', zh: '波赫尼采' },
+    foil: '#3e4a6b',
+    labels: ['communism', 'municipal', 'nature', 'romanesque'],
+    // Bohnice (2026-11-26, user's call): the old village, the psychiatric
+    // hospital, the 1970s housing estate with Krakov (in the Troja cadastral
+    // area but part of the estate), Čimice Grove, the Drahaň-Troja nature
+    // park with the dynamite factory, and the Bohnice Viewpoint (shared with
+    // Troja). Not the Čimice Valley (Čimice). Takes over the slug and cover
+    // of the one-point Bohnice Housing Area card (one check-in, no History
+    // links), deleted the same day. The Zámka hillfort added as a new card.
+    members: [
+      'kostel-svateho-petra-a-pavla-bohnice', 'zamek-bohnice', 'statek-vranych', 'hospic-strasburk',
+      'psychiatricka-nemocnice-bohnice', 'kostel-svateho-vaclava-bohnice', 'divadlo-za-plotem', 'dum-zelenohorska',
+      'oc-krakov', 'cimicky-haj', 'prirodni-park-drahan-troja', 'dynamitka-bohnice', 'bohnicka-vyhlidka',
+      'hradiste-zamka',
     ],
   }),
 ];

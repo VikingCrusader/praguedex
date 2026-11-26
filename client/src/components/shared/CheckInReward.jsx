@@ -4,6 +4,8 @@ import { CHECKIN_REWARD_EVENT } from '../../utils/achievementEvents';
 import { achField } from '../../utils/achievementText';
 import { getLocName } from '../../utils/locName';
 import AchievementIcon from '../achievements/AchievementIcon';
+import { getLocalCoverPath, toThumbPath } from '../../utils/localCover';
+import { lockClosedIcon } from '../../utils/rarity';
 
 // What a newly collected card brought (2026-11-14, user's call): the XP, and
 // beside it the achievements it moved on and the packs it adds to, from the
@@ -128,10 +130,15 @@ export default function CheckInReward() {
             {packProgress.map((p) => {
               const sealed = !p.unlocked;
               const toOpen = Math.max(1, p.unlockAt - p.collected);
+              // The pack's own cover (2026-11-26), with a lock while sealed, as on Explore.
+              const cover = getLocalCoverPath(p.slug, null);
               return (
                 <div className="ci-reward__row" key={p.slug}>
                   <span className="ci-reward__icon ci-reward__pack" aria-hidden="true">
-                    {sealed ? '🔒' : <img src="/pixel-art/pack-emblem.webp" alt="" draggable="false" />}
+                    {cover
+                      ? <img className="ci-reward__cover" src={toThumbPath(cover)} alt="" draggable="false" />
+                      : <img src="/pixel-art/pack-emblem.webp" alt="" draggable="false" />}
+                    {sealed && <img className="ci-reward__lock" src={lockClosedIcon('common')} alt="" draggable="false" />}
                   </span>
                   <span className="ci-reward__body">
                     <span className="ci-reward__line">

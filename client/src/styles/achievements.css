@@ -863,6 +863,10 @@ html[data-lang="zh"] .ach-badge-pill:not(.ach-badge-pill--xp) { width: 108px; }
   .ci-reward__bar-gain { transition: none; }
 }
 .ci-reward__pack img { width: 26px; height: 26px; object-fit: contain; }
+/* The pack's cover fills the square; a sealed one wears a small lock (2026-11-26). */
+.ci-reward__pack { position: relative; overflow: hidden; }
+.ci-reward__pack img.ci-reward__cover { width: 100%; height: 100%; object-fit: cover; }
+.ci-reward__pack img.ci-reward__lock { position: absolute; right: 1px; bottom: 1px; width: 14px; height: 14px; filter: drop-shadow(0 0 2px rgba(0,0,0,0.8)); }
 
 /* Related achievements under a card's story (CardAchievements.jsx, 2026-11-17). */
 .card-ach { margin: -6px 0 18px; }

@@ -67,6 +67,9 @@ test.describe('Check-in flow', () => {
     await expect(reward).toContainText('and 2 more moved on');
     await expect(reward).toContainText('Old Town Square');
     await expect(reward).toContainText('2 more to open it');
+    // The pack shows its own cover, locked while sealed.
+    await expect(reward.locator('.ci-reward__cover')).toHaveAttribute('src', /old-town-square/);
+    await expect(reward.locator('.ci-reward__lock')).toHaveCount(1);
 
     // This check-in also crosses a level boundary (1 → 2), so the level-up
     // celebration layers on top and must be dismissed first — see

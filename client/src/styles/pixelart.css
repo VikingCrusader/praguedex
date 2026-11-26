@@ -4478,3 +4478,173 @@ html .explore-next .explore-next__head .ach-badge-pill:not(.ach-badge-pill--xp) 
 .loc-card[data-rarity="secret"] .loc-card__fx--glow2 {
   background: radial-gradient(ellipse 58% 30% at 50% 50%, var(--secret-glow2), transparent 70%);
 }
+
+/* ── The installed app on phones (utils/appMode.js, 2026-11-26, user's design) ──
+   A slim top row with the wordmark (and Back on the pages under a tab), a tab
+   bar at the bottom (BottomNav), the "More" page. The page is drawn under the status bar
+   (viewport-fit=cover, black-translucent), so it is padded by the safe area
+   and a strip of the bar's colour sits under the clock. */
+html.pwa {
+  --bottom-nav-h: calc(62px + env(safe-area-inset-bottom, 0px));
+  --app-topbar-h: 54px;
+  /* Sticky things that sat under the header now sit under the status bar. */
+  --navbar-h: env(safe-area-inset-top, 0px);
+}
+html.pwa #root { box-sizing: border-box; padding-top: env(safe-area-inset-top, 0px); min-height: 100dvh; }
+html.pwa body::before {
+  content: ''; position: fixed; top: 0; left: 0; right: 0; z-index: 150;
+  height: env(safe-area-inset-top, 0px); background: var(--bg-primary);
+}
+/* Things that rise from the bottom edge clear the tab bar. */
+html.pwa .toast-container,
+html.pwa .ci-reward-wrap { bottom: calc(var(--bottom-nav-h) + 12px); }
+
+.bottom-nav {
+  position: sticky; bottom: 0; z-index: 100; flex-shrink: 0;
+  display: grid; grid-template-columns: repeat(5, minmax(0, 1fr));
+  box-sizing: border-box; height: var(--bottom-nav-h);
+  padding: 0 4px env(safe-area-inset-bottom, 0px);
+  background: var(--bg-surface);
+  border-top: 3px solid var(--gold);
+}
+.bottom-nav__tab {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
+  min-width: 0; color: var(--text-muted); text-decoration: none;
+  -webkit-tap-highlight-color: transparent; -webkit-touch-callout: none; user-select: none;
+}
+.bottom-nav__tab:hover { text-decoration: none; color: var(--text-muted); }
+.bottom-nav__tab .nav-icon {
+  box-sizing: content-box; padding: 3px 16px; border-radius: 14px;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+.bottom-nav__tab--active, .bottom-nav__tab--active:hover { color: var(--gold); }
+.bottom-nav__tab--active .nav-icon { background: color-mix(in srgb, var(--gold) 16%, transparent); }
+.bottom-nav__label {
+  max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  font-family: var(--ui-font); font-size: 12px; line-height: 1.1;
+}
+html[data-lang="zh"] .bottom-nav__label {
+  font-family: "LXGW WenKai TC", "PingFang SC", "-apple-system", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  font-size: 13px;
+}
+html:not([data-lang="zh"]) .bottom-nav__tab--active .bottom-nav__label { font-weight: 700; }
+
+.app-topbar {
+  position: relative; display: flex; align-items: center; justify-content: center;
+  height: var(--app-topbar-h, 54px); padding: 0 8px; box-sizing: border-box;
+  border-bottom: 2px solid color-mix(in srgb, var(--gold) 35%, transparent);
+}
+.app-topbar__logo {
+  display: inline-flex; align-items: center; gap: 7px; padding: 4px 8px;
+  background: none; border: none; cursor: pointer; color: var(--gold);
+  font-family: "Manufacturing Consent", serif !important; font-size: 30px !important;
+  font-weight: 400 !important; letter-spacing: normal !important; line-height: 1;
+  text-shadow: 2px 2px 0 var(--shadow);
+  -webkit-tap-highlight-color: transparent;
+}
+.app-topbar__mark { height: 1.15em; }
+.app-topbar__back {
+  position: absolute; left: 8px; top: 50%; translate: 0 -50%;
+  display: inline-flex; align-items: center; gap: 2px; padding: 6px 8px;
+  background: none; border: none; cursor: pointer;
+  color: var(--gold); font-family: var(--ui-font); font-size: 15px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Settings: language and theme rows (2026-11-26) may wrap on a phone. */
+.settings-row { flex-wrap: wrap; }
+.settings-row .lang-tabs { margin-bottom: 0; }
+
+/* "More" (MorePage.jsx): exactly one screen on every phone, between the top
+   row and the tab bar (user's call, 2026-11-26). The tiles share the height
+   equally; each tile is a size container, so its icon and text follow the
+   height it gets, and on a short screen the blurb goes first, then the
+   title shrinks. */
+.more-page {
+  width: 100%; max-width: 640px; margin: 0 auto; box-sizing: border-box;
+  height: calc(100vh - env(safe-area-inset-top, 0px) - var(--app-topbar-h, 54px) - var(--bottom-nav-h, 62px));
+  height: calc(100dvh - env(safe-area-inset-top, 0px) - var(--app-topbar-h, 54px) - var(--bottom-nav-h, 62px));
+  padding: clamp(8px, 2dvh, 18px) 16px 0;
+  display: flex; flex-direction: column; overflow: hidden;
+}
+.more-page__title { flex: none; font-size: 22px; line-height: 1.2; margin: 0 0 clamp(6px, 1.6dvh, 14px); }
+.more-page__list {
+  flex: 1 1 0; min-height: 0; list-style: none; margin: 0; padding: 0 4px 4px 0;
+  display: flex; flex-direction: column; gap: clamp(6px, 1.4dvh, 12px);
+}
+.more-page__list > li { flex: 1 1 0; min-height: 0; display: flex; }
+.more-tile {
+  flex: 1; min-width: 0; min-height: 0; box-sizing: border-box;
+  display: flex; align-items: center; gap: 12px; padding: 0 12px;
+  container-type: size;
+  background: var(--bg-card); border: 3px solid var(--border); box-shadow: 4px 4px 0 var(--shadow);
+  color: var(--text-primary); text-decoration: none; overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+button.more-tile { width: 100%; text-align: left; font: inherit; cursor: pointer; }
+.more-tile:hover { text-decoration: none; border-color: var(--gold); }
+.more-tile:active { translate: 2px 2px; box-shadow: 2px 2px 0 var(--shadow); }
+.more-tile__icon {
+  flex: none; display: grid; place-items: center;
+  width: clamp(34px, 62cqh, 58px); height: clamp(34px, 62cqh, 58px); border-radius: 12px;
+  color: var(--gold); background: color-mix(in srgb, var(--gold) 12%, transparent);
+}
+.more-tile__icon .nav-icon { width: 56%; height: 56%; }
+.more-tile__text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.more-tile__title { font-family: var(--ui-font); font-size: 18px; color: var(--gold); line-height: 1.2; }
+html[data-lang="zh"] .more-tile__title { font-family: "LXGW WenKai TC", "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 19px; }
+.more-tile__blurb {
+  font-size: 13px; line-height: 1.35; color: var(--text-muted);
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden;
+}
+.more-tile__chevron { flex: none; color: var(--text-muted); }
+/* Room for one line of blurb only, then none, then a smaller title. */
+@container (max-height: 74px) { .more-tile__blurb { -webkit-line-clamp: 1; } }
+@container (max-height: 54px) { .more-tile__blurb { display: none; } }
+@container (max-height: 40px) { .more-tile__title { font-size: 16px !important; } }
+/* Taller tiles on big phones get bigger titles. */
+@container (min-height: 100px) {
+  .more-tile__title { font-size: 20px; }
+  html[data-lang="zh"] .more-tile__title { font-size: 21px; }
+  .more-tile__blurb { font-size: 14px; }
+}
+.more-page__foot {
+  flex: none; display: flex; justify-content: center; align-items: center; gap: 28px;
+  padding: clamp(6px, 1.6dvh, 14px) 0 clamp(6px, 1.6dvh, 14px);
+}
+.more-page__link {
+  padding: 6px 4px; background: none; border: none; cursor: pointer;
+  font-family: var(--ui-font); font-size: 14px; color: var(--text-muted);
+  text-decoration: underline; text-underline-offset: 3px;
+  -webkit-tap-highlight-color: transparent;
+}
+.more-page__link:hover { color: var(--text-primary); }
+.more-page__login { color: var(--gold); }
+/* A link and a button side by side: the same box, so they share a baseline. */
+.more-page__link { display: inline-flex; align-items: center; line-height: 1.4; margin: 0; font-weight: 400; }
+html[data-lang="zh"] .more-page__link { font-family: "LXGW WenKai TC", "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 15px; }
+/* Log out in a muted red (2026-11-26, user's call): same size as Privacy,
+   the colour says it leaves the account. Muted on both themes, so it
+   doesn't shout next to the gold of the page. */
+.more-page__logout { color: #c9675f; }
+:root[data-theme="light"] .more-page__logout { color: #a3362e; }
+.more-page__logout:hover { color: #e07a72; }
+:root[data-theme="light"] .more-page__logout:hover { color: #8a2a23; }
+
+/* Language and theme above the log-in / sign-up box in the installed app on
+   a phone (AuthPrefs.jsx, 2026-11-26, user's call: not in the top row, too
+   crowded). There is no tab bar or Settings before signing in. */
+html.pwa .auth-page { flex-direction: column; }
+.auth-prefs { width: 100%; max-width: 420px; margin: 0 0 18px; box-sizing: border-box; padding: 0 4px; }
+.auth-prefs__row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 6px 0; }
+.auth-prefs__label { font-family: var(--ui-font); font-size: 15px; color: var(--text-primary); }
+.auth-prefs .lang-tabs { margin-bottom: 0; }
+.auth-prefs__note { margin: 6px 0 0; font-size: 13px; line-height: 1.4; color: var(--text-muted); }
+
+/* A page turning in slides 28 px in from the side (PageTurn). On a phone that
+   made a long page (Explore, Treasure Hunt, Profile) wider than the screen
+   for a moment, and the browser zoomed the whole view out to fit it: the tab
+   bar dropped 30-50 px and slid back (2026-11-26, user's report). Clipping
+   #root's sides keeps the page at the screen's width. `clip`, not `hidden`:
+   no scroll container, so sticky toolbars and the tab bar still work. */
+#root { overflow-x: clip; }

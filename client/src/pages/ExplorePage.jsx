@@ -1,4 +1,5 @@
 import { pageCache, pageKey } from '../utils/pageCache';
+import { PWA_LAYOUT } from '../utils/appMode';
 import { useState, useEffect, useLayoutEffect, useCallback, useMemo, useRef, lazy, Suspense } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { locationAPI, userAPI } from '../services/api';
@@ -443,7 +444,9 @@ export default function ExplorePage() {
       <div className="explore-header">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: 12 }}>
           <div style={{ flex: '1 1 320px', minWidth: 0 }}>
-            <h1 ref={titleRef} className="px-title explore-title explore-title--fit">{titleText}</h1>
+            {/* The installed app on a phone leaves out the slogan ("Collect Every
+                Card in Prague" and its siblings) and keeps only a chosen area's name. */}
+            {(!PWA_LAYOUT || areaActive) && <h1 ref={titleRef} className="px-title explore-title explore-title--fit">{titleText}</h1>}
             {!wide && isGuest && (
               <Link to="/guide" className="px-btn px-btn--gold explore-guide-btn explore-guide-btn--bar" data-guide-anchor="">{convert(t('explore.guideLink'))}</Link>
             )}

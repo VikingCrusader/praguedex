@@ -9,6 +9,9 @@ import './styles/packs.css';
 import './styles/guide.css';
 import App from './App';
 import { startAutoUpdate } from './utils/autoUpdate';
+import { applyAppMode } from './utils/appMode';
+
+applyAppMode();
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js').catch(() => {});

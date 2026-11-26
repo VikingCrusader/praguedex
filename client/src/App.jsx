@@ -5,6 +5,8 @@ import { LanguageProvider } from './context/LanguageContext';
 import { ThemeProvider } from './context/ThemeContext';
 import PreferenceSync from './components/shared/PreferenceSync';
 import Navbar from './components/shared/Navbar';
+import BottomNav, { AppTopBar } from './components/shared/BottomNav';
+import { PWA_LAYOUT } from './utils/appMode';
 import ProtectedRoute from './components/shared/ProtectedRoute';
 import NotificationOptIn from './components/shared/NotificationOptIn';
 import InstallPrompt from './components/shared/InstallPrompt';
@@ -31,6 +33,7 @@ import AchievementsPage from './pages/AchievementsPage';
 import ExplorerPage from './pages/ExplorerPage';
 import HistoryPage from './pages/HistoryPage';
 import PrivacyPage from './pages/PrivacyPage';
+import MorePage from './pages/MorePage';
 import PageTurn from './components/shared/PageTurn';
 
 const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
@@ -83,7 +86,8 @@ export default function App() {
           <PreferenceSync />
           <LocationConsentSync />
           <LocationConsentDialog />
-          <Navbar />
+          {/* The installed app on a phone: the wordmark on top, a tab bar at the bottom (utils/appMode.js). */}
+          {PWA_LAYOUT ? <AppTopBar /> : <Navbar />}
           <ProximityDetector />
           <LevelUpModal />
           <AchievementUnlocked />
@@ -106,9 +110,11 @@ export default function App() {
             <Route path="/random-draw" element={<Navigate to="/treasure-hunt" replace />} />
             <Route path="/history"   element={<ProtectedRoute guestOk><HistoryPage /></ProtectedRoute>} />
             <Route path="/privacy"   element={<PrivacyPage />} />
+            <Route path="/more"      element={<ProtectedRoute guestOk><MorePage /></ProtectedRoute>} />
             <Route path="*"          element={<Navigate to="/explore" replace />} />
           </Routes>
           </PageTurn>
+          {PWA_LAYOUT && <BottomNav />}
         </ThemeProvider>
         </LanguageProvider>
       </AuthProvider>

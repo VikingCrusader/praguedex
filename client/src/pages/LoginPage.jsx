@@ -3,6 +3,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import { authAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { resetGuideWelcome } from '../utils/guideWelcome';
+import AuthPrefs from '../components/auth/AuthPrefs';
+import { PWA_LAYOUT } from '../utils/appMode';
 import { useT } from '../context/LanguageContext';
 
 export default function LoginPage() {
@@ -31,6 +33,7 @@ export default function LoginPage() {
 
   return (
     <div className="auth-page">
+      {PWA_LAYOUT && <AuthPrefs />}
       <div className="auth-box">
         <h1 className="px-title">{t('auth.login')}</h1>
         <p className="subtitle">{t('auth.loginSubtitle')}</p>

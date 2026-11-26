@@ -1,16 +1,21 @@
 import { useEffect } from 'react';
 import { useWindowEntrance } from '../../hooks/useModalEntrance';
 import { useT, useConvert } from '../../context/LanguageContext';
+import { useTheme } from '../../context/ThemeContext';
+import LanguageSwitcher from '../shared/LanguageSwitcher';
 
 // The settings window, opened from the profile's header (2026-11-12, user's call:
 // beside the leaderboard and privacy buttons, not at the bottom of the page). The
 // things a player sets once on this device: the screen staying on. More can go in
 // the list later. (A card animations switch was here until 2026-11-15: the card
-// effects now run on the GPU, so it was dropped, user's call.)
+// effects now run on the GPU, so it was dropped, user's call.) Theme and
+// language joined on 2026-11-26: the installed app on phones has no header,
+// so this is where they are set there (on every screen, user's call).
 export default function SettingsWindow({ wakeLock, onClose }) {
   const { overlayRef, modalRef, close } = useWindowEntrance(onClose);
   const t = useT();
   const convert = useConvert();
+  const { theme, setTheme } = useTheme();
   useEffect(() => {
     const onKey = e => { if (e.key === 'Escape') close(); };
     window.addEventListener('keydown', onKey);
@@ -23,6 +28,20 @@ export default function SettingsWindow({ wakeLock, onClose }) {
         <button type="button" className="px-modal__close" onClick={close} aria-label={convert(t('areaGuide.close'))}>✕</button>
         <h2 className="px-title settings-window__title">{convert(t('settings.title'))}</h2>
         <ul className="settings-window__list">
+          <li className="settings-row">
+            <span className="settings-row__label">{t('settings.language')}</span>
+            <LanguageSwitcher />
+          </li>
+          <li className="settings-row">
+            <span className="settings-row__label">{t('settings.theme')}</span>
+            <div className="lang-tabs">
+              {['light', 'dark'].map(v => (
+                <button key={v} type="button" className={`lang-tab${theme === v ? ' lang-tab--active' : ''}`} aria-pressed={theme === v} onClick={() => setTheme(v)}>
+                  {t(`settings.${v}`)}
+                </button>
+              ))}
+            </div>
+          </li>
           <li className="settings-row">
             <span className="settings-row__label">{convert(t('settings.wakeLock'))}</span>
             {wakeLock.supported ? (

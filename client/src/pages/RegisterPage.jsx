@@ -4,6 +4,8 @@ import { authAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { useT, useLang } from '../context/LanguageContext';
 import { useTheme } from '../context/ThemeContext';
+import AuthPrefs from '../components/auth/AuthPrefs';
+import { PWA_LAYOUT } from '../utils/appMode';
 import { markInstallPromptPending } from '../utils/installPrompt';
 
 export default function RegisterPage() {
@@ -35,6 +37,7 @@ export default function RegisterPage() {
 
   return (
     <div className="auth-page">
+      {PWA_LAYOUT && <AuthPrefs />}
       <div className="auth-box">
         <p className="px-title" style={{ fontSize: 24, textAlign: 'center', marginBottom: 20 }}>
           <span style={{ fontSize: 22 }}>⚔</span> {t('appName')}

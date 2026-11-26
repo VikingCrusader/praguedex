@@ -7,6 +7,7 @@ import { useT, useConvert } from '../context/LanguageContext';
 import ProfileBody from '../components/dashboard/ProfileBody';
 import { useWakeLock } from '../hooks/useWakeLock';
 import SettingsWindow from '../components/dashboard/SettingsWindow';
+import { PWA_LAYOUT } from '../utils/appMode';
 
 export default function DashboardPage() {
   const { user, guest, logout } = useAuth();
@@ -46,6 +47,8 @@ export default function DashboardPage() {
         {/* On phones logout lives here (on desktop in the navbar since 2026-11-08), and so
             do the ways to the Privacy page (location consent) and, since
             2026-11-02, the leaderboard. */}
+        {/* In the installed app on a phone all of these are under More (2026-11-26). */}
+        {!PWA_LAYOUT && (
         <div className="dashboard-actions" style={{ display: 'flex', gap: 8, flex: '0 1 auto', minWidth: 0, flexWrap: 'wrap', justifyContent: 'flex-end' }}>
           {user && <Link to="/leaderboard" className="px-btn px-btn--dark px-btn--sm">{t('nav.leaderboard')}</Link>}
           <Link to="/privacy" className="px-btn px-btn--dark px-btn--sm">{t('privacy.title')}</Link>
@@ -56,6 +59,7 @@ export default function DashboardPage() {
             </button>
           )}
         </div>
+        )}
       </div>
 
       <ProfileBody

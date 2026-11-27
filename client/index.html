@@ -68,10 +68,15 @@
       /* Boot splash: shown from the first paint until the sign-in check is
          done (hideBootSplash in utils/bootSplash.js), at most 8 s. Same look
          as the iOS launch images, so the hand-over is seamless. */
-      html.booting { background: #111428; }
+      /* Navy wherever the splash might not reach: an installed app on iOS can
+         leave a strip by the home bar outside the fixed splash, showing the
+         page (cream) or the canvas behind it. The box-shadow paints past the
+         splash's own edges; the page goes back to its colour as the fade starts. */
+      html.booting, html.booting body { background: #111428; }
       #boot-splash { position: fixed; inset: 0; z-index: 2147483000; display: flex; flex-direction: column;
         align-items: center; justify-content: center; gap: 4vh;
         background: radial-gradient(circle at 50% 44%, #1d2348 0%, #111428 62%);
+        box-shadow: 0 0 0 100vh #111428;
         transition: opacity 0.35s ease; }
       #boot-splash.is-hiding { opacity: 0; pointer-events: none; }
       #boot-splash .boot-splash__emblem { width: min(52vw, 40vh, 340px); }
@@ -95,9 +100,9 @@
         var el = document.getElementById('boot-splash');
         if (!el || el.classList.contains('is-hiding')) return;
         el.classList.add('is-hiding');
+        document.documentElement.classList.remove('booting');
         setTimeout(function () {
           if (el.parentNode) el.parentNode.removeChild(el);
-          document.documentElement.classList.remove('booting');
           window.dispatchEvent(new Event('bootsplashdone'));
         }, 400);
       };

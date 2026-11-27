@@ -3,6 +3,7 @@ import { PWA_LAYOUT } from '../utils/appMode';
 import { useState, useEffect, useLayoutEffect, useCallback, useMemo, useRef, lazy, Suspense } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { locationAPI, userAPI } from '../services/api';
+import { takeEarlyLocations } from '../utils/earlyFetch';
 import { useT, useLang, useConvert } from '../context/LanguageContext';
 import { quarterName } from '../utils/pragueQuarters';
 import { AREA_BLURBS } from '../utils/areaBlurbs';
@@ -123,7 +124,7 @@ export default function ExplorePage() {
     const kept = pageCache.get(key);
     setLocations(kept ?? []);
     setLoading(!kept);
-    locationAPI.getAll()
+    (takeEarlyLocations() ?? locationAPI.getAll())
       // Every card is kept; uncollected secret cards far from the player are
       // dropped below (utils/rarity.js isFindable).
       .then(res => { pageCache.set(key, res.data); setLocations(res.data); })

@@ -10,8 +10,14 @@ import './styles/guide.css';
 import App from './App';
 import { startAutoUpdate } from './utils/autoUpdate';
 import { applyAppMode } from './utils/appMode';
+import { preloadPages, preloadStartPage } from './utils/lazyPage';
+import { startEarlyFetches } from './utils/earlyFetch';
 
 applyAppMode();
+startEarlyFetches();
+preloadStartPage();
+// The other pages once start-up is over (index.html fires this after the splash).
+window.addEventListener('bootsplashdone', () => setTimeout(preloadPages, 300), { once: true });
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js').catch(() => {});

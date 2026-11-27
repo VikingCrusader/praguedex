@@ -2,14 +2,11 @@ import { useEffect, useRef } from 'react';
 import { locationAPI, COLLECTED_EVENT } from '../services/api';
 import { haversineDistance, setCachedPosition } from '../utils/geolocation';
 import { getLocName } from '../utils/locName';
+import { loadTW, toTW } from '../context/LanguageContext';
 
-let _toTW = null;
 async function convertTW(str) {
-  if (!_toTW) {
-    const OpenCC = await import('opencc-js');
-    _toTW = OpenCC.Converter({ from: 'cn', to: 'tw' });
-  }
-  return _toTW(str);
+  await loadTW();
+  return toTW(str);
 }
 
 const RADIUS = 50; // metres

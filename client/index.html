@@ -51,20 +51,24 @@
       var theme = 'light';
       try { if (localStorage.getItem('theme') === 'dark') theme = 'dark'; } catch (e) {}
       document.documentElement.setAttribute('data-theme', theme);
+      // Navy under the boot splash, also where the page doesn't reach (the
+      // strip by the iPhone's home bar showed the page's cream before).
+      document.documentElement.classList.add('booting');
       if (theme === 'light') {
         document.querySelector('meta[name="theme-color"]').setAttribute('content', '#9e1b1b');
       }
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400&family=Alegreya+Sans+SC:wght@500;700&family=Cinzel:wght@400;500;600;700&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Manufacturing+Consent&family=ZCOOL+QingKe+HuangYou&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+SC:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@300;400;500;600;700&family=LXGW+WenKai+TC:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
+    <!-- Not render-blocking (2026-11-27): the boot splash needs none of these
+         fonts, and the page waited for this stylesheet before its first paint. -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400&family=Alegreya+Sans+SC:wght@500;700&family=Cinzel:wght@400;500;600;700&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Manufacturing+Consent&family=ZCOOL+QingKe+HuangYou&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+SC:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@300;400;500;600;700&family=LXGW+WenKai+TC:wght@300;400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400&family=Alegreya+Sans+SC:wght@500;700&family=Cinzel:wght@400;500;600;700&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Manufacturing+Consent&family=ZCOOL+QingKe+HuangYou&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+SC:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@300;400;500;600;700&family=LXGW+WenKai+TC:wght@300;400;700&display=swap" /></noscript>
     <style>
       /* Boot splash: shown from the first paint until the sign-in check is
          done (hideBootSplash in utils/bootSplash.js), at most 8 s. Same look
          as the iOS launch images, so the hand-over is seamless. */
+      html.booting { background: #111428; }
       #boot-splash { position: fixed; inset: 0; z-index: 2147483000; display: flex; flex-direction: column;
         align-items: center; justify-content: center; gap: 4vh;
         background: radial-gradient(circle at 50% 44%, #1d2348 0%, #111428 62%);
@@ -80,13 +84,24 @@
       <img class="boot-splash__wordmark" src="/brand/splash-wordmark.webp" alt="" />
     </div>
     <script>
-      window.hideBootSplash = function () {
+      // Waits for anything start-up code put in window.bootSplashHolds (e.g.
+      // the 繁體 dictionary, LanguageContext.jsx), except at the 8 s cap.
+      window.hideBootSplash = function (force) {
+        var holds = window.bootSplashHolds;
+        if (!force && holds && holds.length) {
+          Promise.all(holds).then(function () { window.hideBootSplash(true); });
+          return;
+        }
         var el = document.getElementById('boot-splash');
         if (!el || el.classList.contains('is-hiding')) return;
         el.classList.add('is-hiding');
-        setTimeout(function () { if (el.parentNode) el.parentNode.removeChild(el); }, 400);
+        setTimeout(function () {
+          if (el.parentNode) el.parentNode.removeChild(el);
+          document.documentElement.classList.remove('booting');
+          window.dispatchEvent(new Event('bootsplashdone'));
+        }, 400);
       };
-      setTimeout(window.hideBootSplash, 8000);
+      setTimeout(function () { window.hideBootSplash(true); }, 8000);
     </script>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>

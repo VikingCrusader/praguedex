@@ -1,5 +1,4 @@
-import { createContext, useContext, useState } from 'react';
-import * as OpenCC from 'opencc-js';
+import { createContext, useContext, useEffect, useState } from 'react';
 
 const TW_OVERRIDES = [
   ['服務器', '伺服器'],
@@ -7,9 +6,32 @@ const TW_OVERRIDES = [
   ['地鐵', '捷運'],
 ];
 
+// The Simplified → Traditional dictionary (opencc-js) is about 0.5 MB gzipped,
+// half of what the app would download otherwise, and only readers of 繁體
+// need it: it is fetched on its own, once 繁體 is chosen (2026-11-27). Until
+// it is there, text stays Simplified; LanguageProvider re-renders when it lands.
 let _toTW = null;
-function toTW(str) {
-  if (!_toTW) _toTW = OpenCC.Converter({ from: 'cn', to: 'tw' });
+let _twLoad = null;
+export function loadTW() {
+  if (!_twLoad) {
+    _twLoad = import('opencc-js/cn2t')
+      .then(OpenCC => { _toTW = OpenCC.Converter({ from: 'cn', to: 'tw' }); })
+      .catch(err => { _twLoad = null; throw err; });
+  }
+  return _twLoad;
+}
+
+// Someone who reads in 繁體 starts the download right away, and the boot
+// splash (index.html) waits for it, so the first page is never Simplified.
+try {
+  if (localStorage.getItem('lang') === 'zh' && localStorage.getItem('zhVariant') === 'tw') {
+    const load = loadTW();
+    if (typeof window !== 'undefined') (window.bootSplashHolds ||= []).push(load.catch(() => {}));
+  }
+} catch (_) { /* no storage */ }
+
+export function toTW(str) {
+  if (!_toTW) return str;
   let result = _toTW(str);
   for (const [from, to] of TW_OVERRIDES) result = result.replaceAll(from, to);
   // Metres are 公尺 in Taiwan. Only a 米 right after a number is a length
@@ -1547,6 +1569,14 @@ export function LanguageProvider({ children }) {
     document.documentElement.setAttribute('lang', HTML_LANG[l] || 'en');
   };
 
+  const [twReady, setTwReady] = useState(() => !!_toTW);
+  useEffect(() => {
+    if (twReady || lang !== 'zh' || zhVariant !== 'tw') return undefined;
+    let live = true;
+    loadTW().then(() => { if (live) setTwReady(true); }).catch(() => {});
+    return () => { live = false; };
+  }, [lang, zhVariant, twReady]);
+
   const changeZhVariant = (v) => {
     setZhVariant(v);
     localStorage.setItem('zhVariant', v);
@@ -1554,7 +1584,7 @@ export function LanguageProvider({ children }) {
   };
 
   return (
-    <LanguageContext.Provider value={{ lang, changeLang, zhVariant, changeZhVariant }}>
+    <LanguageContext.Provider value={{ lang, changeLang, zhVariant, changeZhVariant, twReady }}>
       {children}
     </LanguageContext.Provider>
   );

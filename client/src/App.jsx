@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { Suspense, useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { LanguageProvider } from './context/LanguageContext';
@@ -24,17 +24,20 @@ import LocationConsentSync from './components/shared/LocationConsentSync';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import ExplorePage from './pages/ExplorePage';
-import MapPage from './pages/MapPage';
-import DashboardPage from './pages/DashboardPage';
-import GuidePage from './pages/GuidePage';
-import TreasureHuntPage from './pages/TreasureHuntPage';
-import LeaderboardPage from './pages/LeaderboardPage';
-import AchievementsPage from './pages/AchievementsPage';
-import ExplorerPage from './pages/ExplorerPage';
-import HistoryPage from './pages/HistoryPage';
-import PrivacyPage from './pages/PrivacyPage';
 import MorePage from './pages/MorePage';
 import PageTurn from './components/shared/PageTurn';
+import { lazyPage } from './utils/lazyPage';
+
+// Split off the main bundle (utils/lazyPage.js).
+const MapPage = lazyPage('/map', () => import('./pages/MapPage'));
+const DashboardPage = lazyPage('/dashboard', () => import('./pages/DashboardPage'));
+const GuidePage = lazyPage('/guide', () => import('./pages/GuidePage'));
+const TreasureHuntPage = lazyPage('/treasure-hunt', () => import('./pages/TreasureHuntPage'));
+const LeaderboardPage = lazyPage('/leaderboard', () => import('./pages/LeaderboardPage'));
+const AchievementsPage = lazyPage('/achievements', () => import('./pages/AchievementsPage'));
+const ExplorerPage = lazyPage('/explorer', () => import('./pages/ExplorerPage'));
+const HistoryPage = lazyPage('/history', () => import('./pages/HistoryPage'));
+const PrivacyPage = lazyPage('/privacy', () => import('./pages/PrivacyPage'));
 
 const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
@@ -94,6 +97,8 @@ export default function App() {
           <PackUnlocked />
           <CheckInReward />
           <PageTurn>
+          {/* A split-off page that isn't there yet (utils/lazyPage.js) leaves its page blank for a moment. */}
+          <Suspense fallback={null}>
           <Routes>
             <Route path="/"          element={<Navigate to="/explore" replace />} />
             <Route path="/login"     element={<LoginPage />} />
@@ -113,6 +118,7 @@ export default function App() {
             <Route path="/more"      element={<ProtectedRoute guestOk><MorePage /></ProtectedRoute>} />
             <Route path="*"          element={<Navigate to="/explore" replace />} />
           </Routes>
+          </Suspense>
           </PageTurn>
           {PWA_LAYOUT && <BottomNav />}
         </ThemeProvider>

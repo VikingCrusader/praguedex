@@ -80,6 +80,8 @@ test('the Treasure Hunt page links to the practice hunt', async ({ page }) => {
 
 test('on a phone, installing comes right after the opening tile', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
+  // The Guide is split off the main bundle (utils/lazyPage.js): wait for its tiles.
+  await expect(page.locator('.guide-tile').first()).toBeVisible();
   const tops = await page.locator('.guide-tile').evaluateAll(els => els.map(e => [e.className.match(/guide-tile--(\w+)/)[1], e.getBoundingClientRect().top]).sort((a, b) => a[1] - b[1]).map(x => x[0]));
   expect(tops.slice(0, 3)).toEqual(['what', 'install', 'collect']);
 });
